@@ -268,7 +268,8 @@ We value your feedback to enhance our data! Get involved by:
 
 ## 💸 Donations & contacts
 
-This project thrives solely on your donations! Reach out or support us:  
+This project thrives solely on your donations! Reach out or support us:
+  
 📬 **Email**: `cyberanchor@krutt.org` <br>
 🔑 **Keybase**: [`@cyberanchor`](https://keybase.io/cyberanchor) <br>
 💬 **XMPP**: `cyberanchor@krutt.org` <br>
