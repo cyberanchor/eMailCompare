@@ -23,41 +23,33 @@ Inspired by [**@Lissy93**](https://github.com/Lissy93)  [email-comparison](https
 
 ## Features
 
-- **Interactive Table**: Displays email provider details (e.g., domain, jurisdiction, encryption).
-- **Search & Sort**: Filter and sort services by keywords or columns.
-- **Visualizations**: Pie charts for jurisdiction and intelligence alliances, scatter plot for domain creation years.
-- **Data Export**: Download email domains as a `.txt` file.
-- **Responsive Design**: Optimized for mobile, tablet, and desktop (1K to 4K resolutions).
-- **Color-Coded Insights**: Highlights privacy/security traits (e.g., green for minimal data collection).
-- **Community-Driven**: Contributions via GitHub Issues, Discussions, and Pull Requests.
+- **Interactive table**: displays email provider details (e.g., domain, jurisdiction, encryption).
+- **Search & sort**: filter and sort services by keywords or columns.
+- **Data export**: download email domains as a `.txt` file.
+- **Responsive design**: optimized for mobile, tablet, and desktop.
+- **Color-coded insights**: highlights privacy/security traits (e.g., green for minimal data collection).
 
-## Comparison Criteria
+## Comparison criteria
 
-Email services are evaluated based on the following criteria, sourced from public records and service policies:
+Email services are evaluated based on the following criteria (all data collected from public source):
 
-- **Security**: End-to-end encryption, SSL/TLS.
-- **Privacy**: Data collection practices, IP logging, third-party sharing, anonymization features.
-- **Jurisdiction**: Server location and applicable privacy laws (e.g., GDPR).
-- **Intelligence Alliance**: Affiliation with surveillance networks (e.g., Five Eyes, Fourteen Eyes).
-- **Personal Info Requirements**: Need for name, address, phone, or email verification.
-- **Pricing**: Free vs. paid tiers, cost of premium plans.
-- **Terms of Service (ToS)**: Restrictions on usage (e.g., spam, commercial use).
-- **Infrastructure**: Domain creation/expiry dates, A/MX records, company ownership.
-- **A Record**: IP address, server location, and hosting provider.
-- **MX Record**: Mail server details and hosting provider.
-- **Domain Creation/Expiry**: Registration and expiration dates of the domain.
-- **Company Owner**: Entity or organization owning the service.
-- **Site Description**: Overview of the service’s features and target audience.
-- **Email Verification**: Requirement for email verification during registration.
-- **Phone Verification**: Requirement for phone/SMS verification.
+- **Security**: presence of end-to-end encryption, SSL/TLS, and two-factor authentication (2FA).
+- **Privacy**: data collection practices, IP logging, third-party sharing, and personal information requirements (e.g., name, address).
+- **Jurisdiction**: server location and applicable privacy laws (e.g., Swiss privacy, GDPR).
+- **Intelligence alliance**: affiliation with surveillance networks (e.g., Five Eyes, Fourteen Eyes).
+- **Registration requirements**: need for email or phone verification during account setup.
+- **Pricing**: availability of free tiers and costs of premium plans.
+- **Terms of Service (ToS)**: usage restrictions, such as prohibitions on spam, hacking, or commercial activities.
+- **Infrastructure**: A/MX records, server hosting provider, and company ownership.
+- **Domain details**: Primary and secondary domains, creation, and expiration dates.
 
 
 ---
 
 
-## Verified Email Services ✅
+## ✅ Verified email services
 
-This list includes email services personally verified by me [**@cyberanchor**](https://github.com/cyberanchor). Accounts were registered and manually tested to confirm their privacy, security, and functionality.
+In this table, email services were personally verified by me [**@cyberanchor**](https://github.com/cyberanchor). Accounts were registered on each email service, and manual tests were conducted across various parameters to confirm their privacy, security, and functionality.
 
 | Status | Domain            | Flag | Notes |
 |--------|-------------------|------|-------|
@@ -104,9 +96,9 @@ This list includes email services personally verified by me [**@cyberanchor**](h
 ---
 
 
-## Unverified Email Services ❓
+## ❓ Unverified Email Services
 
-These services are pending verification. Please provide feedback via GitHub Issues or Discussions to help us update and verify the data.
+These services are pending verification.
 
 | Status | Domain               | Flag | Notes |
 |--------|----------------------|------|-------|
