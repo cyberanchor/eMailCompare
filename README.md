@@ -1,10 +1,16 @@
 # Yet Another Email Service Comparison
 
-![GitHub License](https://img.shields.io/github/license/your-username/email-comparison?color=blue)
-![GitHub Issues](https://img.shields.io/github/issues/your-username/email-comparison)
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![GitHub Issues](https://img.shields.io/github/issues/cyberanchor/yet_another_email_service_comparison?color=green&style=flat-square)
+![GitHub Pull Requests](https://img.shields.io/github/issues-pr/cyberanchor/yet_another_email_service_comparison?color=green&style=flat-square)
+![GitHub Stars](https://img.shields.io/github/stars/cyberanchor/yet_another_email_service_comparison?color=green&style=social)
+![GitHub Forks](https://img.shields.io/github/forks/cyberanchor/yet_another_email_service_comparison?color=green&style=social)
+![GitHub Contributors](https://img.shields.io/github/contributors/cyberanchor/yet_another_email_service_comparison?color=green&style=flat-square)
+![HTML5](https://img.shields.io/badge/HTML5-green?logo=html5&logoColor=white&style=flat-square)
+![CSS3](https://img.shields.io/badge/CSS3-green?logo=css3&logoColor=white&style=flat-square)
+![JavaScript](https://img.shields.io/badge/JavaScript-green?logo=javascript&logoColor=white&style=flat-square)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-green?logo=bootstrap&logoColor=white&style=flat-square)
+![Chart.js](https://img.shields.io/badge/Chart.js-green?logo=chart.js&logoColor=white&style=flat-square)
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=flat-square) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat-square) ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?logo=bootstrap&logoColor=white&style=flat-square) ![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?logo=chart.js&logoColor=white&style=flat-square)
 
 ## Overview
 
