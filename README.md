@@ -1,10 +1,10 @@
 # 📬 Yet Another Email Service Comparison
 
-![GitHub Stars](https://img.shields.io/github/stars/cyberanchor/yet_another_email_service_comparison?color=green&style=social)
-![GitHub Forks](https://img.shields.io/github/forks/cyberanchor/yet_another_email_service_comparison?color=green&style=social)
-![GitHub Issues](https://img.shields.io/github/issues/cyberanchor/yet_another_email_service_comparison?color=green&style=flat-square)
-![GitHub Pull Requests](https://img.shields.io/github/issues-pr/cyberanchor/yet_another_email_service_comparison?color=green&style=flat-square)
-![GitHub Contributors](https://img.shields.io/github/contributors/cyberanchor/yet_another_email_service_comparison?color=green&style=flat-square)
+![GitHub Stars](https://img.shields.io/github/stars/cyberanchor/eMailCompare?color=green&style=social)
+![GitHub Forks](https://img.shields.io/github/forks/cyberanchor/eMailCompare?color=green&style=social)
+![GitHub Issues](https://img.shields.io/github/issues/cyberanchor/eMailCompare?color=green&style=flat-square)
+![GitHub Pull Requests](https://img.shields.io/github/issues-pr/cyberanchor/eMailCompare?color=green&style=flat-square)
+![GitHub Contributors](https://img.shields.io/github/contributors/cyberanchor/eMailCompare?color=green&style=flat-square)
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=flat-square)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=flat-square)
@@ -18,7 +18,7 @@
 Built with HTML, CSS, JavaScript, Bootstrap, and Chart.js, it offers a responsive web interface and data stored in `data.json`. <br>
 Inspired by [**@Lissy93**](https://github.com/Lissy93)  [email-comparison](https://github.com/Lissy93/email-comparison). <br>
 
-🔗 **web-page**: [cyberanchor.github.io](https://cyberanchor.github.io/yet_another_email_service_comparison)  
+🔗 **web-page**: [cyberanchor.github.io](https://cyberanchor.github.io/eMailCompare)  
 📜 **License**: [MIT License](LICENSE)
 
 ## 📊 Features
@@ -157,8 +157,8 @@ These services are pending verification.
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/cyberanchor/yet_another_email_service_comparison
-   cd yet_another_email_service_comparison
+   git clone https://github.com/cyberanchor/eMailCompare
+   cd eMailCompare
    ```
 
 2. **Run Locally**:
@@ -261,7 +261,7 @@ All email service data is stored in `data.json`, enabling easy updates and commu
 ## 🤝 Contributing
 
 We value your feedback to enhance our data! Get involved by:  
-- Sharing insights or suggestions via [GitHub Issues](https://github.com/cyberanchor/yet_another_email_service_comparison/issues).
+- Sharing insights or suggestions via [GitHub Issues](https://github.com/cyberanchor/eMailCompare/issues).
 
 
 ---
@@ -278,4 +278,4 @@ This project thrives solely on your donations! Reach out or support us:
 ## 📜 License
 
 This project is licensed under the [MIT License](LICENSE).  
-If you use data or reference this project, please credit [**this repo**](https://github.com/cyberanchor/yet_another_email_service_comparison).
+If you use data or reference this project, please credit [**this repo**](https://github.com/cyberanchor/eMailCompare).
