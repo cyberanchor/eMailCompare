@@ -1,9 +1,9 @@
 # Yet Another Email Service Comparison
 
-![GitHub Issues](https://img.shields.io/github/issues/cyberanchor/yet_another_email_service_comparison?color=green&style=flat-square)
-![GitHub Pull Requests](https://img.shields.io/github/issues-pr/cyberanchor/yet_another_email_service_comparison?color=green&style=flat-square)
 ![GitHub Stars](https://img.shields.io/github/stars/cyberanchor/yet_another_email_service_comparison?color=green&style=social)
 ![GitHub Forks](https://img.shields.io/github/forks/cyberanchor/yet_another_email_service_comparison?color=green&style=social)
+![GitHub Issues](https://img.shields.io/github/issues/cyberanchor/yet_another_email_service_comparison?color=green&style=flat-square)
+![GitHub Pull Requests](https://img.shields.io/github/issues-pr/cyberanchor/yet_another_email_service_comparison?color=green&style=flat-square)
 ![GitHub Contributors](https://img.shields.io/github/contributors/cyberanchor/yet_another_email_service_comparison?color=green&style=flat-square)
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=flat-square)
