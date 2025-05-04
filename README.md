@@ -181,7 +181,6 @@ These services are pending verification. Please provide feedback via GitHub Issu
 
 Welcome user feedback to improve our data! Contribute by:
 - Sharing insights or reviews via [GitHub Issues](https://github.com/cyberanchor/yet_another_email_service_comparison/issues).
-- Joining [GitHub Discussions](https://github.com/cyberanchor/yet_another_email_service_comparison/discussions) to suggest updates.
 
 ---
 
