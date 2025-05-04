@@ -4,6 +4,8 @@
 ![GitHub Issues](https://img.shields.io/github/issues/your-username/email-comparison)
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=flat-square) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat-square) ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?logo=bootstrap&logoColor=white&style=flat-square) ![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?logo=chart.js&logoColor=white&style=flat-square)
+
 ## Overview
 
 **Yet Another Email Service Comparison** is a project dedicated to comparing a wide range of email services, from privacy-focused to general-purpose providers. Built with HTML, CSS, JavaScript, Bootstrap, and Chart.js, it offers a responsive web interface and data stored in `data.json`. Inspired by [**@Lissy93**](https://github.com/Lissy93) [email-comparison](https://github.com/Lissy93/email-comparison).
