@@ -14,9 +14,9 @@
 
 ## Overview
 
-**Yet Another Email Service Comparison** is a project dedicated to comparing a wide range of email services, from privacy-focused to general-purpose providers. 
-Built with HTML, CSS, JavaScript, Bootstrap, and Chart.js, it offers a responsive web interface and data stored in `data.json`. 
-Inspired by [**@Lissy93**](https://github.com/Lissy93)  [email-comparison](https://github.com/Lissy93/email-comparison).
+**Yet Another Email Service Comparison** is a project dedicated to comparing a wide range of email services, from privacy-focused to general-purpose providers. <br>
+Built with HTML, CSS, JavaScript, Bootstrap, and Chart.js, it offers a responsive web interface and data stored in `data.json`. <br>
+Inspired by [**@Lissy93**](https://github.com/Lissy93)  [email-comparison](https://github.com/Lissy93/email-comparison). <br>
 
 🌐 **web-page**: [cyberanchor.github.io/yet_another_email_service_comparison](https://cyberanchor.github.io/yet_another_email_service_comparison)  
 
@@ -49,7 +49,8 @@ Email services are evaluated based on the following criteria (all data collected
 
 ## ✅ Verified email services
 
-In this table, email services were personally verified by me [**@cyberanchor**](https://github.com/cyberanchor). Accounts were registered on each email service, and manual tests were conducted across various parameters to confirm their privacy, security, and functionality.
+In this table, email services were personally verified by me [**@cyberanchor**](https://github.com/cyberanchor). <br>
+Accounts were registered on each email service, and manual tests were conducted across various parameters to confirm their privacy, security, and functionality.
 
 | Status | Domain            | Flag | Notes |
 |--------|-------------------|------|-------|
