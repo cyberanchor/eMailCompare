@@ -152,6 +152,7 @@ These services are pending verification.
 | ❌      | tiscali.it           | ❓    |       |
 | ❌      | netaddress.com       | ❓    |       |
 | ❌      | rediff.com           | ❓    |       |
+| ❌      | danwin1210.de        | ❓    |       |
 
 ## 💻 Installation
 
