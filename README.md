@@ -131,7 +131,7 @@ These services are pending verification.
 | ❌      | maimail.org          | ❓    |       |
 | ❌      | securemail.opentext.com | ❓ |       |
 | ❌      | mrmail.com           | ❓    |       |
-| ❌      | airmail.cc           | ❓    |       |
+| ❌      | cock.li              | ❓    |       |
 | ❌      | beemail.space        | ❓    |       |
 | ❌      | black.com            | ❓    |       |
 | ❌      | encrypted.com        | ❓    |       |
