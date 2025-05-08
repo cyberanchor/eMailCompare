@@ -175,12 +175,12 @@ These services are pending verification.
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/cyberanchor/eMailCompare
-   cd eMailCompare
+   cd eMailCompare/web
    ```
 
 2. **Run Locally**:
    ```bash
-   npm install -g http-server
+   sudo npm install -g http-server
    http-server .
    ```
    Access at `http://localhost:8080`.
@@ -198,9 +198,9 @@ These services are pending verification.
 
 ## 📂 Data Storage
 
-All email service data is stored in `data.json`, enabling easy updates and community contributions. Each entry includes fields like domain, jurisdiction, and privacy policies, with a `color` field to customize cell colors in the interactive table (e.g., green for older domains, red for personal info requirements).  
+All email service data is stored in `data.json`, enabling easy updates and community contributions. Each entry includes fields like domain, jurisdiction, and privacy policies, with a `color` field to customize cell colors in the interactive table (e.g., green for older domains, red for personal info requirements). 
 
-**Example JSON Structure**:  
+**Example JSON Structure**: 
 ```json
 [
   {
