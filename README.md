@@ -19,7 +19,7 @@ Built with HTML, CSS, JavaScript, Bootstrap, and Chart.js, it offers a responsiv
 Inspired by [**@Lissy93**](https://github.com/Lissy93)  [email-comparison](https://github.com/Lissy93/email-comparison). <br>
 Also based on [**httpsmail.com**](https://www.httpsmail.com/mail/). <br>
 
-🔗 **web**: [cyberanchor.github.io](https://cyberanchor.github.io/eMailCompare)  
+🔗 **web**: [cyberanchor.github.io](https://cyberanchor.github.io/eMailCompare/web)
 
 ## 📊 Features
 
