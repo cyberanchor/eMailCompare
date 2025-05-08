@@ -14,7 +14,7 @@
 
 ## 🌐 Overview
 
-**Yet Another Email Service Comparison** is a project dedicated to comparing a wide range of email services, from privacy-focused to general-purpose providers. <br>
+**Yet Another Email Service Comparison** - is a project dedicated to comparing a wide range of email services, from privacy-focused to general-purpose providers. <br>
 Built with HTML, CSS, JavaScript, Bootstrap, and Chart.js, it offers a responsive web interface and data stored in `data.json`. <br>
 Inspired by [**@Lissy93**](https://github.com/Lissy93)  [email-comparison](https://github.com/Lissy93/email-comparison). <br>
 Also based on [**httpsmail.com**](https://www.httpsmail.com/mail/). <br>
@@ -273,7 +273,6 @@ This project thrives solely on your donations! Reach out or support us:
   
 📬 **Email**: `cyberanchor@krutt.org` <br>
 🔑 **Keybase**: [`@cyberanchor`](https://keybase.io/cyberanchor) <br>
-💬 **XMPP**: `cyberanchor@krutt.org` <br>
 🔒 **PGP Fingerprint**: `269E CB79 6CF5 31CB 3963  EC50 4F5A F4E9 F43B B1D2` <br>
 💸 **Bitcoin**: `bc1qtnc0v6n2azzufd7ksuwm6yre6fjcc8z030xfud` <br>
 
