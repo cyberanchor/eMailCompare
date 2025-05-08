@@ -198,7 +198,7 @@ These services are pending verification.
 
 ## 📂 Data storage
 
-All email service data is stored in `data.json`, enabling easy updates and community contributions. Each entry includes fields like domain, jurisdiction, and privacy policies, with a `color` field to customize cell colors in the interactive table (e.g., green for older domains, red for personal info requirements). 
+All email service data is stored in `data.json`, enabling easy updates and contributions. Each entry includes fields like domain, jurisdiction, and privacy policies, with a `color` field to customize cell colors in the interactive table. 
 
 **Example JSON structure**: 
 ```json
