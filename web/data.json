@@ -1,0 +1,2814 @@
+[
+    {
+        "flag": {
+            "value": "🇨🇭",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "protonmail.ch",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": "proton.me\nprotonmail.com",
+            "color": "none"
+        },
+        "A Record": {
+            "value": "185.70.42.45 | 🇨🇭 | Switzerland | AS62371 | Proton Technologies AG",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mail.protonmail.ch |  🇨🇭 | Switzerland | AS62371 | Proton Technologies AG\nmailsec.protonmail.ch |  🇨🇭 | Switzerland | AS62371 | Proton Technologies AG",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2010-08-21",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2026-08-21",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇨🇭 Proton Technologies AG",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Switzerland",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Proton Mail: Get a private, secure, and encrypted email account\nProton Mail is the world’s largest secure email service with, \nOver 100 million users.\nAvailable on Web, iOS, Android, and desktop.\nProtected by Swiss privacy law.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Illegal actions (CSAM, spam, hacking), IP violation, insults, self-referrals, fraud\nCollect per Privacy Policy, store without guarantees, delete inactive accounts (12 mos.), share upon authorities' request",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect per Privacy Policy, store without guarantees, delete inactive accounts (12 mos.), share upon authorities' request",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "yes",
+            "color": "yellow"
+        },
+        "Phone(receive s sms code)": {
+            "value": "optional",
+            "color": "green"
+        },
+        "Price": {
+            "value": "free; Unlimited $9.99/month",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "yes",
+            "color": "red"
+        },
+        "Note": {
+            "value": "Proton Mail is a secure email service with end-to-end encryption, created by the Swiss company Proton AG. It is suitable for registering on various services, collects user information, and shares data with authorities. For registration, it is recommended to use anti-detect browsers and clean mobile proxies.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇧🇪",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "mailfence.com",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "217.182.28.160 | 🇧🇪 | Belgium | AS3356 | Level 3 Communications, Inc.",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "smtp1.mailfence.com | 🇧🇪 | Belgium | AS3356 | Level 3 Communications, Inc.",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2012-12-01",
+            "color": "none"
+        },
+        "Domain expired": {
+            "value": "2027-12-01",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇧🇪 ContactOffice Group",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Fourteen Eyes (👀 14)",
+            "color": "purple"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Belgium",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Secure and private email | Mailfence encrypted email service\nMailfence is the only secure and private email service that gives you control. A free, interoperable encrypted email service protected by Belgian privacy law.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Illegal actions (hacking, spam, phishing, porn, threats), IP violation, multiple accounts (>2), harassment, reselling without consent",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect IP, email metadata (sender, recipient, subject, timestamps), external email, payment info. Store encrypted data, backups (45 days). Share only with Belgian authorities if legally required.",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "yes",
+            "color": "yellow"
+        },
+        "Phone(receive s sms code)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Price": {
+            "value": "free;Base $2.75/month; Entry $3.85/month",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "yes",
+            "color": "red"
+        },
+        "Note": {
+            "value": "Mailfence is a secure email service with end-to-end encryption, developed by the Belgian company ContactOffice Group SA. It is suitable for confidential correspondence, handling sensitive data, and protection against mass surveillance. Features include email encryption, no ads or tracking, and strict privacy under Belgian law. It collects a significant amount of user information; registration requires an existing, verified email address and the use of clean proxies. Hosted in Belgium. Suitable for registering on various services, but note that all subjects and emails are monitored.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇩🇪",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "tutanota.com",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": "tuta.com\nTutamail.com\nTuta.io\nTutanota.de\nKeemail.me",
+            "color": "none"
+        },
+        "A Record": {
+            "value": "185.205.69.12 | 🇩🇪 | Germany | AS210909 | Tutao GmbH",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mail.tutanota.de | 🇩🇪 | Germany | AS210909 | Tutao GmbH",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2011-11-30",
+            "color": "none"
+        },
+        "Domain expired": {
+            "value": "2025-11-30",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇩🇪 Tutao GmbH",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Fourteen Eyes (👀 14)",
+            "color": "purple"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Germany",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Join the Tuta community to spread privacy. | Tuta\nTuta will be the privacy-respecting alternative to Google with a calendar, notes, cloud storage - everything encrypted by default. Join us in bringing privacy to the world!",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Illegal actions (assumed from GDPR), multiple free accounts (>1 per person), business use on free plan, inactivity (>6 months)",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect email address, payment data (bank, credit card, PayPal), anonymized IP, logs (7 days). Store encrypted data, delete after 30 days. Share payment data with providers (PayPal, Braintree), legal requests only.",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Phone(receive s sms code)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Price": {
+            "value": "Free; Revolutionary €3/month; Legend €8/month",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "no",
+            "color": "green"
+        },
+        "Note": {
+            "value": "Tutanota is a secure email service with end-to-end encryption, developed by the German company Tutao GmbH, focused on privacy and security. It’s ideal for anonymous communication, storing contacts and calendars, and protecting data from surveillance. Key features: full data encryption (email, calendar, contacts), no tracking, minimal data collection, and servers in Germany under strict GDPR compliance. Tutanota offers top-tier privacy with end-to-end encryption, ensuring even developers can’t access your data. For anonymity, no phone or external email is required for signup, IP addresses aren’t logged by default, and email headers are stripped of metadata, making it great for concealing your identity.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇫🇷",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "mailo.com",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": "netcourrier.com\nnetc.fr\nfrancemel.fr\nemailasso.net\nlavache.com\nMonemail.com",
+            "color": "none"
+        },
+        "A Record": {
+            "value": "213.182.54.18 | 🇫🇷 | France | AS8304 | Ecritel SASU | Mailobject",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mx.mailo.com | 🇫🇷 | France | AS8304 | Ecritel SASU | Mailobject",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2001-03-05",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2026-03-05",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇫🇷  Mail Object",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Nine Eyes (👀 9)",
+            "color": "yellow"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "France",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Mailo",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Illegal actions (spam, hacking, harassment, IP theft), multiple free accounts for 3rd-party registration, automation, business use on free plan",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect email, personal info (name, DOB, optional), IP logs (1 month), payment data, content (encrypted). Store in France, delete after 1 month post-account closure. Share with payment providers (Verifone/Paybox, Mobiyo), Gandi (domains), legal requests only.",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "yes",
+            "color": "yellow"
+        },
+        "Phone(receive s sms code)": {
+            "value": "Yes",
+            "color": "yellow"
+        },
+        "Price": {
+            "value": "Free; Premium €1/month",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "yes",
+            "color": "red"
+        },
+        "Note": {
+            "value": "Mailo is a European email service by French company Mail Object, offering email, calendar, storage, and chat. It suits personal use, families (with Mailo Junior for kids), and professionals on paid plans. Security & Anonymity: Features SSL encryption and antispam, but lacks end-to-end encryption, limiting security. Anonymity is weak: requires personal data (DOB), logs IPs (1 month), and blocks third-party validation emails on free accounts. Usage: Sign up on mailo.com with name, DOB, and password; access via web, apps, or IMAP/SMTP. Multi-accounts need paid plans and proxies due to automation bans. Decent for basic communication and family features, but lags in anonymity and security compared to Proton Mail or Tutanota.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇺🇸",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "mail.com",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "82.165.229.87 | 🇩🇪 | Germany | AS8560 | IONOS SE",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mx00.mail.com | 🇺🇸 | United States | AS8560 | IONOS SE\nMx01.mail.com | 🇺🇸 | United States | AS8560 | IONOS SE",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "1997-03-24",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2025-03-25",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇺🇸 1&1 Mail & Media Inc.",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "United States",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Free email accounts with mail.com | Log in here or register today\nThe right email address for you ✔ Secure ✔ 100+ domain names ✔ Up to 10 mail addresses ✔ Sync across devices ✔ 65GB email storage ✔ Sign up today!",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Illegal actions (spam, phishing, IP theft), reselling services, excessive usage, under 16 without consent, inactivity (>6 months, free accounts)",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect name, gender, DOB, address, email, phone, payment info, IP logs, usage data, cookies. Store in US indefinitely. Share with affiliates, 3rd parties (ads, analytics), legal requests.",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "Yes",
+            "color": "yellow"
+        },
+        "Phone(receive s sms code)": {
+            "value": "Yes",
+            "color": "yellow"
+        },
+        "Price": {
+            "value": "Free",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "Yes",
+            "color": "red"
+        },
+        "Note": {
+            "value": "Mail.com is an American email service by 1&1 Mail & Media Inc., offering unique email addresses, cloud storage, and basic organizer features. It’s suitable for everyday communication, file storage, and casual use. Security & Anonymity: It uses SSL encryption for data transmission but lacks end-to-end encryption, reducing content privacy. Anonymity is limited: requires personal data (name, DOB) at signup, logs IPs, and shares info with third parties for ads, making it unsuitable for privacy-focused users. Mail.com works well for simple personal or temporary needs but falls short in security and anonymity compared to services like Proton Mail or Tutanota.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇨🇭",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "swissmail.org",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": "swissmail.org\nemail.org\nemail.ch\nemail.li\ngeneralmail.com\ngeneralmail.net\ngeneralmail.ch\ngeneralmail.de\nGeneralmail.at",
+            "color": "none"
+        },
+        "A Record": {
+            "value": "212.25.18.225 | 🇨🇭 | Switzerland | AS8758 | Iway AG",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "elba.iway.ch | 🇨🇭 | Switzerland | AS8758 | iway MailInfrastructure | Iway AG\nMalta.iway.ch | 🇨🇭 | Switzerland | AS8758 | iway MailInfrastructure | Iway AG",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2000-04-13",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2025-04-13",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇨🇭 Interway Network Systems AG (iWay AG)",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Switzerland",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Swissmail / swissmail.org - secure swiss e-mail service",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Illegal actions (spam, bulk mail), misuse of service, exceeding security limits without permission, IP infringement",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect email content (encrypted), account access data (password-protected). Store in Switzerland, no personal analysis. No third-party sharing, only legal requests.",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "yes",
+            "color": "yellow"
+        },
+        "Phone(receive s sms code)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Price": {
+            "value": "Trial (8 day); Basic $2.20/month; Standard $4.40/month; Professional $6.10/month",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "no",
+            "color": "green"
+        },
+        "Note": {
+            "value": "Swissmail Box is a Swiss email service by Interway Network Systems AG, offering secure communication with features like aliases, mailing lists, and SMS reminders. It’s ideal for personal and business correspondence with a focus on privacy. Security & Anonymity: Employs end-to-end encryption, two-factor authentication, antivirus, and antispam. Data is stored solely in Switzerland under strict local privacy laws. Anonymity is strong: minimal personal data required, no content analysis, and no third-party sharing except for legal mandates. A great choice for those prioritizing security and privacy, perfect for confidential communication, business, or long-term use with its lifelong address guarantee.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇩🇪",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "eclipso.eu",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": "eclipso.eu\neclipso.de\neclipso.at\neclipso.be\neclipso.ch\neclipso.dk\neclipso.es\neclipso.it\neclipso.me\neclipso.nl\neclipso.uk\neclipso.email\neclipsomail.com\neclipsomail.de\nTeamvielfalt.eu",
+            "color": "none"
+        },
+        "A Record": {
+            "value": "217.69.254.102 | 🇩🇪 | Germany | AS16097 | HL komm Telekommunikations GmbH | HL Speedloc",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mail.eclipso.de | 🇩🇪 | Germany | AS16097 | HL komm Telekommunikations GmbH | HL Speedloc",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2008-03-25",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": null,
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇩🇪 eclipso Mail Europe",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Fourteen Eyes (👀 14)",
+            "color": "purple"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Germany",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "eclipso Mail Europe. Privacy focused. Email & Cloud Provider.\nGet your reliable and secure & european email address ✉ cloud storage ☁ and many other useful features. Register now.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Illegal actions (spam, porn, violence, discrimination), fake data, third-party service abuse, commercial use without permission",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect email content (unencrypted), personal data (name, address, phone, DOB, IP, etc.), logs, cookies. Store in Germany. Share with ad partners, legal requests.",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "yes",
+            "color": "yellow"
+        },
+        "Phone(receive s sms code)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Price": {
+            "value": "Free; Connect €0.99/month; Premium €1.99/month; Business €4.99/month",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "yes",
+            "color": "red"
+        },
+        "Note": {
+            "value": "eclipso Mail Europe is a German email service operated by Claus-Peter Beringer, offering email, cloud storage (eclipso Drive), SMS, and additional features like fax sending. It’s suitable for everyday communication, data storage, and basic tasks. Security & Anonymity: Uses basic transmission encryption (SSL) but lacks end-to-end encryption, compromising email content security. Anonymity is weak: requires personal data at signup (name, address, phone), collects IPs, and shares data with ad partners (Google, Amazon). Logs and cookies are tracked, making it vulnerable to analysis. Fine for casual personal use or temporary needs, but not for confidential communication or privacy-focused users—lagging behind services like Proton Mail or Swissmail Box. Ads and poor data protection limit its appeal.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇩🇪",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "skymail.de",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": "skymail.de\nskymail.at\nmaills.de\nmaills.ch\nmaills.net\nHemail.de",
+            "color": "none"
+        },
+        "A Record": {
+            "value": "46.4.105.4 | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "skymail.de | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": null,
+            "color": "none"
+        },
+        "Domain expired": {
+            "value": null,
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇩🇪 Emailn.de — Freemail (Freemail.biz Media)",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Fourteen Eyes (👀 14)",
+            "color": "purple"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Germany",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Kostenlose E-Mail – Skymail.de\nKostenlose E-Mail Adresse von Skymail. Jetzt anonym ohne Klarnamen einrichten und sicher mailen.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Illegal actions (spam, mass emails), violating German law, unauthorized account access by third parties",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect IP, personal data (from registration/contact forms), usage data, cookies (with ads). Store in Germany. Share with ad partners (Refinery89), legal requests.",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "yes",
+            "color": "yellow"
+        },
+        "Phone(receive s sms code)": {
+            "value": "optional",
+            "color": "green"
+        },
+        "Price": {
+            "value": "Free; 8,00 EUR; 15,90 EUR; 28,90 EUR",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "optional",
+            "color": "yellow"
+        },
+        "Note": {
+            "value": "skymail.de is a German email service by Emailn.de (Norbert Sehm), offering webmail with basic features. It includes a free ad-supported version and paid plans (ECO, ULTRA) without ads. Suitable for simple communication and basic tasks. Security & Anonymity: Uses SSL/TLS encryption for data transmission, but lacks end-to-end encryption, limiting content protection. Anonymity is low in the free version: IP addresses and personal data from registration are collected and shared with ad partners (Refinery89). Paid plans offer slightly more privacy by avoiding external cookies, but data is still stored in Germany and subject to legal disclosure. Good for casual personal use or temporary correspondence. The free version suits those unbothered by ads and minimal privacy; paid plans work for basic email without heavy tracking. Not for confidential purposes—falls short of Proton Mail or Swissmail in security.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇩🇪",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "firemail.de",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": "firemail.de\nfiremail.at\nfiremail.eu",
+            "color": "none"
+        },
+        "A Record": {
+            "value": "188.40.70.221 | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mail.firemail.de | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": null,
+            "color": "none"
+        },
+        "Domain expired": {
+            "value": null,
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇩🇪 Emailn.de — Freemail (Freemail.biz Media)",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Fourteen Eyes (👀 14)",
+            "color": "purple"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Germany",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Firemail Freemail - Ihr kostenloser Freemail-Service\nKostenlose seriöse neue **Freemail-Adresse** und Freemail-Service von Firemail. Jetzt kostenlos neue anonyme Freemail-Adresse ohne Handynummer erstellen und sofort starten.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Spam, phishing, viruses, mass emails, violating German law, ad blockers, inactive accounts (720 days)",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect IP, personal data (alt. email), usage data, cookies (ads version). Store in Germany (Hetzner). Share with ad partners (Refinery89), authorities if required.",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "yes",
+            "color": "yellow"
+        },
+        "Phone(receive s sms code)": {
+            "value": "optional",
+            "color": "green"
+        },
+        "Price": {
+            "value": "Free; Base 6.00 EUR; Eco 12.00 EUR; Ultra 30.00 EUR",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "optional",
+            "color": "yellow"
+        },
+        "Note": {
+            "value": "Firemail.de is a German email service by Emailn.de (Norbert Sehm), offering webmail with a free ad-supported version and paid plans (ECO, ULTRA) without ads. It also supports POP3, IMAP, CalDAV, and CardDAV for backups. Suitable for basic correspondence and managing contacts/calendars. Security & Anonymity: Uses SSL/TLS for data transmission and offers two-factor authentication (2FA), but lacks end-to-end encryption, reducing content protection. Anonymity is minimal in the free version: IP, alternative email, usage data are collected and shared with ad partner Refinery89. Paid plans eliminate external cookies, but data is still stored in Germany and subject to legal disclosure. Good for simple personal use or temporary email. The free version suits those okay with ads and low privacy; paid plans work for basic tasks with slightly better protection. Not for confidential communication—lags behind Proton Mail or Tutanota in security and anonymity.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇩🇪",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "emailn.de",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": "emailn.de\nemailn.eu\nemailn.at\nEmailn.ch",
+            "color": "none"
+        },
+        "A Record": {
+            "value": "46.182.20.122 | 🇩🇪 | Germany | AS43847 | Nbiserv Server Old | Martin Prager trading as \"NbIServ\"",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mail.firemail.de | 🇩🇪 | Germany | AS43847 | Nbiserv Server Old | Martin Prager trading as \"NbIServ\"",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": null,
+            "color": "none"
+        },
+        "Domain expired": {
+            "value": null,
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇩🇪 Emailn.de — Freemail (Freemail.biz Media)",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Fourteen Eyes (👀 14)",
+            "color": "purple"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Germany",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Freemail emailn.de: Kostenlose E-Mail Adresse\nFreemail und Kostenlose E-Mail Adresse für jeden. Unbegrenzt Speicherplatz und top Funktionen. Jetzt gratis E-Mail Konto einrichten und sofort starten",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Not explicitly detailed in provided privacy policy; typically governed by German law and site terms",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect IP, personal data (from registration/contact forms), usage data, cookies (with ads). Store in Germany (NBIServ). Share with ad partners (Google AdSense, Pixfuture, Refinery89), legal requests, USA-based tools.",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "yes",
+            "color": "yellow"
+        },
+        "Phone(receive s sms code)": {
+            "value": "optional",
+            "color": "green"
+        },
+        "Price": {
+            "value": "free",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "optional",
+            "color": "yellow"
+        },
+        "Note": {
+            "value": "Emailn.de is a German email service by Norbert Sehm, offering webmail with a free ad-supported version and likely paid options (though not specified in the provided data). It focuses on standard communication features, integrated with analytics and ad services. Suitable for basic correspondence and everyday tasks. Security & Anonymity: Employs SSL/TLS encryption for data transmission, providing basic connection security, but lacks end-to-end encryption, leaving content vulnerable. Anonymity is low: IP addresses, form data, and cookies are collected for ads (Google AdSense, Pixfuture, Refinery89) and shared with U.S.-based tools (WordPress Stats, Google), where data protection is weaker under EU standards. Data is stored in Germany (NBIServ) but can be disclosed to authorities upon request. Suitable for casual personal use, such as temporary correspondence or site registrations where privacy isn’t critical. Not for confidential purposes—falls short of Proton Mail or Tutanota due to poor anonymity and lack of full content protection. Ads and data sharing limit its appeal for security-conscious users.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇱🇻",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "inbox.eu",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": "mail.ee\ninbox.vg\ninbox.lt\nInbox.lv\ninbox.la",
+            "color": "none"
+        },
+        "A Record": {
+            "value": "195.216.236.55 | 🇱🇻 | Latvia | AS12993 | SIA Digitalas Ekonomikas Attistibas Centrs | SIA INBOKSS",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mx.inbox.eu | 🇱🇻 | Latvia | AS12993 | SIA Digitalas Ekonomikas Attistibas Centrs | SIA INBOKSS",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2006-03-20",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": null,
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇱🇻 SIA \"INBOKSS\"",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Latvia",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Email solution for your business- domain e-mail — Inbox.eu\nPrivacy and security oriented email with synced contacts, calendar and file storage",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Illegal content (threats, defamation, obscenity), spam, viruses, harassment, IP/copyright violations, unauthorized ads, disrupting service, collecting others' data",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect name, surname, birth date, gender, IP, login time, location (via IP), payment info (bank/PayPal, no card), cookies, contacts, third-party data. Store in Latvia. Share with ad partners (e.g., Google, AD BOX), legal requests.",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "yes",
+            "color": "yellow"
+        },
+        "Phone(receive s sms code)": {
+            "value": "optional",
+            "color": "green"
+        },
+        "Price": {
+            "value": "free",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "required",
+            "color": "none"
+        },
+        "Note": {
+            "value": "NBOX is an email service from the Latvian company SIA \"INBOKSS,\" offering a free version (Inbox Mail) with ads and a paid version (Inbox PREMIUM) with increased mailbox size and no ads. It supports basic features: sending/receiving emails, contact synchronization, and integration with other email services. It also includes file storage (Inbox Files). Suitable for everyday communication and data storage. Security & Anonymity: Utilizes SSL encryption for data transmission and two-factor authentication (2FA) for login, providing a basic level of security. However, it lacks end-to-end encryption, leaving email content vulnerable to interception or access by the service. Anonymity is low: personal data (name, surname, birth date, gender, IP, location, contacts) is collected and shared with ad partners (Google, AD BOX) for personalized ads and with authorities upon request. Data is stored in Latvia, subject to local laws and GDPR, but third-party access isn’t ruled out. Ideal for simple communication, temporary registrations, or storing non-sensitive data, especially in the free version. The paid PREMIUM version removes ads and adds features but doesn’t enhance privacy. Not recommended for confidential correspondence—it falls behind Proton Mail or Tutanota due to weak anonymity and lack of full content protection. Perfect for users needing basic email functionality with minimal costs.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇨🇭",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "woelklimail.com",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": "wail.ch",
+            "color": "none"
+        },
+        "A Record": {
+            "value": "185.15.230.217 | 🇨🇭 | Switzerland | AS206484 | oriented.net GmbH",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "wail-mxa1.srv.bsa.oriented.ch | 🇨🇭 | Switzerland | AS206484 | oriented.net GmbH",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2007-06-04",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": null,
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇨🇭 oriented.net LLC",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Switzerland",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "wölkli Mail - Secure and Encrypted Mail in Switzerland\nwölkli Mail is a Swiss service that provides secure and encrytped mail accounts hosted in Switzerland in its own ISO 27001 certified data centre.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Reselling services; illegal content (violence, pornography, racism, incitement to crime, extremist content, illegal gambling, copyright violations); unauthorized access or misuse (viruses, hacking); failure to secure access credentials or report issues",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect personal data (name, address, login credentials), technical data (server info, logs, customer-uploaded content). Stored in Switzerland. Shared only for legal/regulatory purposes or to protect oriented.net’s rights/property.",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Phone(receive s sms code)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Price": {
+            "value": "Free; M1 60 CHF/year; M3 200 CHF/year; M4 300 CHF/year",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "optional",
+            "color": "yellow"
+        },
+        "Note": {
+            "value": "Wölkli Mail is a Swiss email service offering free and paid encrypted email accounts under the @wail.ch domain. Hosting is provided in its own ISO 27001-certified data center in Switzerland. The service focuses on security and privacy, with a basic free tier (200 MB, no IMAP/SMTP) and paid plans with enhanced features. Security & Anonymity: Wölkli Mail employs 256-bit SSL encryption for data transmission and AES-256 server-side encryption for stored emails. It supports OpenPGP for message encryption and decryption, along with two-factor authentication (2FA). Emails are encrypted with user-specific cryptographic keys before reaching the inbox, preventing even the service provider from accessing their contents. Data is stored in Switzerland, benefiting from strict privacy laws (DSG). However, full anonymity isn’t guaranteed: registration requires a name, surname, and a strong password (min. 12 characters), and IP addresses may be logged. The privacy policy lacks detailed disclosure about data collection, leaving some uncertainty regarding anonymity. The free version (200 MB, 20 MB attachment limit, ad-free) is suitable for basic correspondence, temporary registrations, or non-sensitive data via the web interface (based on RainLoop, with Russian language support). Paid tiers, offering more storage and IMAP/SMTP access, are ideal for personal or professional use requiring encryption and reliability. Thanks to Swiss jurisdiction and cryptographic features, it’s a good fit for users prioritizing above-average privacy, though for maximum anonymity (e.g., no personal data required), alternatives like Proton Mail or Tutanota might be preferable.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇵🇱",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "interia.pl",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": "interia.pl\npoczta.fm\ninteria.eu\ninteria.com\nintmail.pl\ninteriowy.pl\nadresik.net\npisz.to\nvip.interia.pl\npacz.to\nOgarnij.se",
+            "color": "none"
+        },
+        "A Record": {
+            "value": "185.15.229.90 | 🇵🇱 | Poland | AS16138 | Interia.pl Sp z.o.o. | Interia.pl S.A.",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mx.interia.pl | 🇵🇱 | Poland | AS16138 | Interia.pl Sp z.o.o. | Interia.pl S.A.",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "1999-10-07",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2028-01-05",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇵🇱 Interia.pl Sp z.o.o.",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Poland",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Poczta w Interia.pl - darmowa poczta e-mail – logowanie do konta\nDołącz do użytkowników Poczty w Interia.pl. Ciesz się nieograniczoną pojemnością, dużymi załącznikami i błyskawicznym działaniem. Bezpieczne i darmowe konto email czeka na Ciebie!",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Illegal content (per Polish law, AUC); content against social norms or good customs; unauthorized copying/modification of portal content; fraud or abuse of services",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect internet data (visited pages, device/browser info, location, visit time, user activity, marketing attributes, referral source), form data (contact/registration forms). Stored in Poland/EOG, potentially transferred outside EOG (e.g., USA) with safeguards. Shared with IT/payment/marketing providers, legal authorities, advertising partners (e.g., Google, Facebook).",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Phone(receive s sms code)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Price": {
+            "value": "free;",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "yes",
+            "color": "red"
+        },
+        "Note": {
+            "value": "Interia.pl is a Polish email service part of a major internet portal launched in 2000 in Kraków. It offers free email accounts with the @interia.pl domain, alongside access to news, social features, and other services. It supports standard IMAP, SMTP, and POP3 protocols, enabling use with third-party clients (e.g., Outlook, Thunderbird). The service targets a broad audience, providing basic communication tools integrated with the portal. Security & Anonymity: Interia.pl employs SSL/TLS encryption for data transmission (port 993 for IMAP, 465 for SMTP), offering a baseline level of security. Two-factor authentication (2FA) is supported, reducing the risk of unauthorized access. However, it lacks end-to-end encryption, meaning email content is stored unencrypted on servers and accessible to administrators. Anonymity is limited: registration requires personal details (e.g., name), and the service collects internet data (IP, activity, device info), which may be shared with advertising partners (Google, Facebook) and authorities upon request. Data is stored in Poland (EU), adhering to GDPR, but may be transferred outside the EEA (e.g., to the USA) with standard contractual safeguards. A data breach in 2023 (14.2 KB, including emails) raises concerns about its security track record. Use Cases: The free Interia.pl email is suitable for everyday communication, website registrations, receiving newsletters, or casual use. Its IMAP/SMTP support makes it convenient for users who prefer desktop or mobile clients. However, due to weak anonymity and lack of end-to-end encryption, it’s not recommended for confidential correspondence or scenarios requiring high privacy (unlike Proton Mail or Tutanota). It’s a versatile, basic tool with moderate protection, best for non-critical needs rather than a specialized security solution.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇵🇱",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "int.pl",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "217.74.65.119 | 🇵🇱 | Poland | AS16138 | Interia.pl Sp z.o.o. | Interia.pl S.A.",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mx.interia.pl | 🇵🇱 | Poland | AS16138 | Interia.pl Sp z.o.o. | Interia.pl S.A.",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "1998-03-23",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2026-03-19",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇵🇱 Interia.pl Sp z.o.o.",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Poland",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Darmowy email INT.PL - szybka rejestracja i logowanie do poczty bez reklam\nZałóż darmowe konto email na INT.PL i ciesz się szybką rejestracją, bez reklam. Odkryj bezpieczną i wygodną pocztę, która spełni wszystkie Twoje potrzeby.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Phone(receive s sms code)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Price": {
+            "value": "free",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "no",
+            "color": "green"
+        },
+        "Note": {
+            "value": null,
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇵🇱",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "onet.pl",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": "op.pl\nonet.pl\npoczta.onet.pl\nvp.pl\nonet.eu\nautograf.pl\nbuziaczek.pl\nspoko.pl\npoczta.onet.pl\nonet.com.pl\namorki.pl\nOpoczta.pl",
+            "color": "none"
+        },
+        "A Record": {
+            "value": "52.84.174.84 | 🇫🇷 | France | AS16509 | Amazon.com, Inc.",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mx.poczta.onet.pl | 🇵🇱 | Poland | AS12990 Ringier Axel Springer Polska Sp. z o.o.",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "1996-06-22",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2025-08-20",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇵🇱 Ringier Axel Springer Polska sp. z o.o.",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Poland",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Onet – You are up to date\nOnet: codzienne źródło informacji milionów Polaków - wiadomości z kraju i ze świata 24/7, pogoda, sport, biznes, moto, rozrywka. Bądź na bieżąco z Onet!",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Violating Polish/EU laws; posting radical, vulgar, offensive, pornographic, or drug/alcohol-promoting content; commercial activity; penetrating/testing security; unlawful content; altering/reproducing site materials without consent",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect personal data (email, name, age, gender, city, birth date), activity data (visited pages, clicks, purchase history), device/browser info, location, cookies/cache, IDs. Stored in Poland/EEA, may transfer outside EEA (e.g., Google, Facebook) with safeguards. Shared with IT/marketing providers, authorities, Trusted Partners (e-commerce/advertisers) with consent.",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "yes",
+            "color": "yellow"
+        },
+        "Phone(receive s sms code)": {
+            "value": "optional",
+            "color": "green"
+        },
+        "Price": {
+            "value": "free",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "yes",
+            "color": "red"
+        },
+        "Note": {
+            "value": "Onet is a Polish internet portal that includes an email service provided by Ringier Axel Springer Polska. Beyond email functionality, Onet offers access to news, social features, cloud storage, and personalized content. Based in Poland and regulated by EU laws, including GDPR, it provides a certain level of legal data protection for users.  Security & Anonymity: Onet does not position itself as an anonymous service. Using the email requires registration with personal details (e.g., email, name, age, gender, city), and it collects activity data (views, clicks, purchase history), device info, location, and cookies. Encryption is present (SSL/TLS is implied for web access), but end-to-end email encryption is absent, meaning message content is accessible to the provider. IP addresses and metadata are not hidden, and data may be shared with partners (e.g., Google, Facebook) for advertising with user consent. Privacy is limited: data is stored in Poland/EEA but may be transferred outside the EEA with safeguards (e.g., Standard Contractual Clauses). Users must secure their passwords, but the service doesn’t offer maximum anonymity, as it prioritizes personalization and marketing. The privacy policy was last updated on July 26, 2023.  Use Cases: Onet is suitable for everyday communication, news reading, and using additional features (forums, shopping) within a single platform, especially for Poland-based users or those comfortable in a Polish-language ecosystem. It’s a good choice for people who value content integration and interest-based ads over strict privacy. However, due to data collection and lack of anonymity, it’s not ideal for confidential correspondence, handling sensitive data, or anonymous use (unlike Proton Mail or Tutanota). It’s best for casual tasks with moderate security expectations.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇮🇳",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "datamail.in",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "202.157.83.37 | 🇮🇳 |  India | AS17753 | DATA INGENIOUS GLOBAL LIMITED | Data Infosys Ltd",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "tls.spamjadoo.com | 🇮🇳 |  India | AS17753 | DATA INGENIOUS GLOBAL LIMITED | Data Infosys Ltd\naspmx.spamjadoo.com | 🇮🇳 |  India | AS17753 | DATA INGENIOUS GLOBAL LIMITED | Data Infosys Ltd\nAspmx1.spamjadoo.com | 🇮🇳 |  India | AS17753 | DATA INGENIOUS GLOBAL LIMITED | Data Infosys Ltd",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2016-08-29",
+            "color": "none"
+        },
+        "Domain expired": {
+            "value": "2025-08-29",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇮🇳 Data xgen technologies Pvt Ltd.",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "India",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Free Business Email Address | Corporate Email Solution\nGet a Free Business Email Address from Data Mail. Our Corporate Email Solution specially designed for your requirements to bring you an enterprise email system",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Illegal use of services; violating Terms of Service; unauthorized access/alteration of data; distributing harmful content (implied); void where prohibited",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect personal info (name, email, phone, credit card, language, profile data, photo), device info (model, OS, identifiers, phone number), usage data (logs, search queries, telephony logs, IP, location, cookies, app numbers). Stored globally (servers in multiple countries). Shared with consent, domain admins, affiliates for processing, legal authorities, or non-identifiable data with partners (e.g., advertisers).",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "yes",
+            "color": "yellow"
+        },
+        "Phone(receive s sms code)": {
+            "value": "optional",
+            "color": "green"
+        },
+        "Price": {
+            "value": "free",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "optional",
+            "color": "yellow"
+        },
+        "Note": {
+            "value": "Datamail is an email service provided by the Indian company Data Xgen Technologies Pvt Ltd, launched as part of a digital initiative. It offers free email accounts with the @datamail.in domain, accessible via a web interface and mobile application. The service supports contact synchronization, basic communication features, and integration with advertising services. To register, you must install the official Datamail app on your phone (available for Android and iOS), tying the process to a mobile device. Security & Anonymity: Datamail employs SSL encryption to secure data transmission and provides two-factor authentication (2FA) to enhance login security. However, it lacks end-to-end encryption, meaning email content remains accessible to the company as data is stored unencrypted on servers. Anonymity is minimal: registration via the app requires personal details (name, email, phone number, sometimes credit card), alongside device information (model, OS, IP, identifiers) and usage data (logs, queries, contacts). This data may be shared with partners (e.g., advertisers) or authorities upon request, with servers located across multiple countries, reducing privacy control. The privacy policy (last updated December 22, 2016) emphasizes personalization over anonymity. Datamail is suitable for basic communication, sending emails, syncing contacts, or registering on websites where high privacy isn’t a priority. The mobile app makes it convenient for phone-based users, particularly in India, where it’s promoted as a local alternative. However, due to weak anonymity, lack of end-to-end encryption, and extensive data collection, it’s not recommended for confidential correspondence or scenarios requiring identity protection (unlike Proton Mail or Tutanota). It’s a general-purpose tool for everyday tasks with moderate security, aimed at mainstream users.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇰🇿",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "topmail.kz",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "185.97.115.26 | 🇰🇿 | Kazakhstan | AS200590 | NLS Kazakhstan LLC",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "pro.topmail.kz | 🇰🇿 | Kazakhstan | AS200590 | NLS Kazakhstan LLC",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2015-04-22",
+            "color": "none"
+        },
+        "Domain expired": {
+            "value": null,
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇰🇿 ТОО “РайтБайтс”",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Kazakhstan",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "TOPMAIL.kz - Почта, интересная информация\nПочта, интересная информация регистрация почты, бесплатная почта, халявная почта, казахстанская почта, казахская почта, создать почту, получить почту",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Illegal actions (per Kazakh law or international norms); violating IP/author rights; spam; impersonation; sending viruses/malware; harmful, threatening, or discriminatory content; disrupting service",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect personal data (name, surname, gender, additional email), IP address for stats. Stored in Kazakhstan by TOO \"RightBytes\". Shared only with Kazakh authorities if legally required.",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "optional",
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Price": {
+            "value": "free",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "yes",
+            "color": "red"
+        },
+        "Note": {
+            "value": "TopMail.kz is a free email service from Kazakhstan, provided by TOO \"RightBytes\". It operates via a web interface at topmail.kz, offering users addresses in the format username@topmail.kz and a mailbox for storing messages. The service focuses on simplicity: registration involves filling out a form with basic details, followed by access using a login and password. It supports core email functions like sending and receiving messages but does not mention IMAP/SMTP support or mobile apps. Security & Anonymity: TopMail.kz claims to protect data with organizational and technical measures, but specific methods (e.g., SSL or end-to-end encryption) are not detailed, leaving its security level unclear. Password security (recommended at least 8 characters with numbers and symbols) is the user’s responsibility, and its loss poses risks. Anonymity is limited: registration requires name, surname, gender, and an additional email, while IP addresses are collected for stats. Data is stored in Kazakhstan and shared only with authorities if legally required, with no mention of advertising partners or third parties, offering better privacy than services like Gmail. However, the lack of encryption and mandatory personal data reduces anonymity. The privacy policy was last updated on July 31, 2017. TopMail.kz is suitable for basic correspondence, local communication in Kazakhstan, or registering on sites where high confidentiality isn’t needed. It’s a straightforward option for users who value minimalism and the absence of ad-related data sharing, as well as those comfortable with Kazakhstan’s jurisdiction. However, due to unclear security and required personal details, it’s not ideal for anonymous use or highly private correspondence (unlike Proton Mail or Tutanota). It’s best for everyday tasks with moderate security needs.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇦🇿",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "mail.az",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": "chat.az\nfrom.az\nBaku.az",
+            "color": "none"
+        },
+        "A Record": {
+            "value": "217.14.97.37 | 🇦🇿 | Azerbaijan | AS15815 | INTRA Network Systems Ltd",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mx.mail.az | 🇦🇿 | Azerbaijan | AS15815 | INTRA Network Systems Ltd",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": null,
+            "color": "none"
+        },
+        "Domain expired": {
+            "value": null,
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇦🇿 Network Thechnologies",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Azerbaijan",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Azerbaijan Mail Services",
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Phone(receive s sms code)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Price": {
+            "value": "free",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "yes",
+            "color": "red"
+        },
+        "Note": {
+            "value": null,
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇦🇿",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "amail.az",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "62.212.239.200 | 🇦🇿 | Azerbaijan | AS29049 | Delta Telecom Ltd",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "amail.az | 🇦🇿 | Azerbaijan | AS29049 | Delta Telecom Ltd",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": null,
+            "color": "none"
+        },
+        "Domain expired": {
+            "value": null,
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇦🇿  Rashad Aliyev (YER Hosting)",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Azerbaijan",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Amail.az - Azərbaycan mail xidməti",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Republishing site materials elsewhere; selling, sublicensing, or commercially using materials; public display of materials; damaging the site or its users’ access; violating laws or harming entities; data mining/extraction; using for advertising/marketing",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "No specific data collection details provided in text; implied collection of user ID and password for account access. Storage and sharing not explicitly mentioned.",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Phone(receive s sms code)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Price": {
+            "value": "free",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "yes",
+            "color": "red"
+        },
+        "Note": {
+            "value": "Amail is an Azerbaijani email service operating under the .az domain, offering more than just email functionality. It includes additional features such as weather updates and a cloud storage service (Drive) for uploading, storing, and managing files. Based in Azerbaijan, it positions itself as a local platform with a web interface. The team is actively working on expanding capabilities and enhancing existing features, inviting users to contribute to the project’s development.  Security & Anonymity: The provided text lacks details on security measures—no mention of SSL/TLS, end-to-end encryption, or two-factor authentication (2FA). Users are responsible for keeping their login and password confidential, suggesting minimal built-in protection from the service itself. Privacy is also unclear: there’s no information on data collection, storage, or sharing (e.g., IP addresses, email content), which could indicate either a basic approach or the existence of a separate, unprovided privacy policy. Registration requires an account, but specific required data (e.g., name, email) isn’t specified. The absence of references to sharing data with third parties (e.g., advertisers) might be a positive, but without encryption guarantees, anonymity and protection remain uncertain. The service operates under Azerbaijani law, which governs potential government requests.  Use Cases: Amail is suitable for basic communication, local use in Azerbaijan, or storing non-critical files in the cloud. It’s convenient for users who want extras like weather updates and Drive in one interface, particularly if they trust Azerbaijan’s jurisdiction. However, due to unclear security and privacy policies, it’s not recommended for confidential correspondence, anonymous use, or handling sensitive data (unlike Proton Mail or Tutanota). It’s best as a simple tool for everyday tasks with moderate protection expectations.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇸🇬",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "dmail.ai",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "172.67.73.218 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "smtp.dmail.ai | 🇸🇬 | Singapore | AS63949 | Akamai Connected Cloud",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2021-08-07",
+            "color": "red"
+        },
+        "Domain expired": {
+            "value": "2025-08-07",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇸🇬 DMAIL NETWORK FOUNDATION LTD.",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Singapore",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Dmail",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Misusing services; engaging in fraudulent activities; violating laws; providing inaccurate registration info",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect profile/contact data (email, phone, social login), device/IP data (IP, device ID, OS, browser), social network data (email, IP, device ID), geolocation (IP-based). Stored with robust security measures (unspecified). Shared with third parties for operations, insights, or legal mandates.",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Phone(receive s sms code)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Price": {
+            "value": "free",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "no",
+            "color": "green"
+        },
+        "Note": {
+            "value": "Dmail Network is a next-generation decentralized email service built on blockchain technology for the Web3 era. It integrates with various blockchains (Ethereum, BNB Chain, Polygon, Dfinity, etc.) and offers not only email functionality but also features like NFT domain management, token interactions, and cross-chain communication. Dmail positions itself as a secure and versatile platform for communication in the decentralized internet, blending traditional email capabilities with Web3 innovations.  Security & Anonymity: Dmail Network prioritizes privacy and security. The service employs decentralized data storage, splitting email headers and bodies: headers are recorded on the blockchain, while bodies are encrypted with a token and distributed across the network, eliminating centralized vulnerabilities. It uses end-to-end encryption, ensuring only the sender and recipient can decrypt messages. For enhanced anonymity, Zero-Knowledge Proofs (ZKP) are implemented, allowing identity verification without revealing personal data. Registration requires creating a Web3 address but not necessarily providing personal details, boosting anonymity. However, full anonymity isn’t guaranteed, as activity data and IP addresses may be collected for analytics and service improvement, and could be shared with third parties under legal mandates (per Singapore law).  Use Cases: Dmail is ideal for users within the Web3 ecosystem, including crypto enthusiasts, dApp developers, marketers, and influencers who value secure communication and blockchain integration. Its compatibility with Web2 emails (ability to send to regular addresses) makes it a convenient bridge from traditional to decentralized services. It’s suitable for:      Confidential correspondence with encryption.     Managing NFT domains and tokens directly within the email platform.     Cross-chain notifications and communication between blockchains.     Web3 marketing campaigns (MailtoEarn allows earning points). However, due to its Web3 focus and some data collection (IP, device info), it’s less suited for absolute anonymity compared to services like Proton Mail. It’s a tool for those seeking to combine security, innovation, and functionality in the decentralized world.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇬🇧",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "mailchain.com",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "16.16.119.222 | 🇸🇪 | Sweden | AS16509 | Amazon.com, Inc.",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "in1-smtp.messagingengine.com | 🇺🇸 | United States | AS151847 | Fastmail Pty Ltd\nin2-smtp.messagingengine.com | 🇺🇸 | United States | AS151847 | Fastmail Pty Ltd",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2014-12-25",
+            "color": "none"
+        },
+        "Domain expired": {
+            "value": "2032-12-25",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇬🇧 Mailchain Limited",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "United States",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Mailchain | Add web3 email to your project\nGet your own web3 email inbox connected to your wallet. Also with our SDK, developers can easily add web3 email to their own projects and applications, allowing them to engage with their users in a truly web3 way.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Misusing platform (e.g., viruses, hacking, phishing); disrupting servers; unauthorized access/data extraction; bulk messaging; violating laws; using if under 13 or on sanctions lists; distributing unlawful/harmful content; reverse engineering",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect minimal data: encrypted user content (messages, aliases, labels), technical data (IP briefly via Fathom Analytics, public keys, auth tokens, push tokens). Stored encrypted in user’s mailbox; no access to message content. Shared with third parties (e.g., captcha/helpdesk providers) only for operations, or legally mandated (UK law).",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Phone(receive s sms code)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Price": {
+            "value": "free",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "no",
+            "color": "green"
+        },
+        "Note": {
+            "value": "Mailchain is a decentralized email service designed for Web3, enabling users to send and receive encrypted messages between blockchain addresses (e.g., Ethereum, Polygon, etc.). Built on decentralization principles, Mailchain integrates with Web3 wallets, leverages cryptographic keys for identification and encryption, and gives users control over their data. It’s more than just email—it’s a communication platform for the Web3 ecosystem, supporting messaging via blockchain addresses and user-friendly names (e.g., username@mailchain.com).  Security & Anonymity: Mailchain offers a high level of privacy through end-to-end encryption, ensuring that message content is accessible only to the sender and recipient—Mailchain itself cannot decrypt it. Messages are stored encrypted in the user’s mailbox, with keys (identity key, messaging key) managed by the user via a secret recovery phrase. For anonymity, data collection is minimal: IP addresses are briefly processed via Fathom Analytics without identifying individuals, and personal details (e.g., name or email) aren’t required for registration—just a Web3 address. However, full anonymity isn’t guaranteed: technical data (authentication tokens, public keys) is collected for functionality, and information may be disclosed under legal mandates (England and Wales jurisdiction). The lack of centralized control enhances security, but users must safeguard their keys—losing them means losing access without recovery options from Mailchain.  Use Cases: Mailchain is ideal for Web3 users, such as crypto wallet owners, decentralized app (dApp) developers, DAO participants, and crypto enthusiasts. It’s a great fit for:      Secure correspondence between blockchain addresses with encryption.     Communication within decentralized communities without intermediaries.     Integration with Web3 identities and names (e.g., ENS).     Confidential messaging within the crypto ecosystem. It’s less suited for traditional communication (e.g., with Gmail) as it targets the Web3 audience and doesn’t provide absolute anonymity due to potential legal data disclosure. It’s a tool for those who value decentralization, data control, and security in the context of blockchain technologies.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇦🇪",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "ledgermail.io",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "188.114.96.0 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mx.zoho.com | 🇺🇸 | United States | AS2639 | ZOHO | NTT America\nmx2.zoho.com | 🇺🇸 | United States | AS2639 | ZOHO | NTT America\nMx3.zoho.com | 🇺🇸 | United States | AS2639 | ZOHO | NTT America",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2018-09-27",
+            "color": "none"
+        },
+        "Domain expired": {
+            "value": "2025-09-27",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇦🇪 LedgerFi IT Solutions",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "United States",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "LedgerMail - Web3 Email\nLedgerMail - World's first Decentralized Email Solution on a mission of protecting Digital Rights of email users in a Decentralized way! Highest level of Email Security, Privacy, Encryption and Prevention from email attacks with 4th generation Blockchain.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Commercial exploitation of site (sell, rent, host); modifying/reverse engineering site; building competitive sites; accessing if under 18; violating laws; infringing IP rights",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect registration data (name, company, address, email), usage/log data (IP, browser, ISP, timestamps), optional profile picture. Stored encrypted during transit/storage. Shared only as legally required or for service provision (no third-party sharing otherwise).",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Phone(receive s sms code)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Price": {
+            "value": "free",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "no",
+            "color": "green"
+        },
+        "Note": {
+            "value": "LedgerMail is a decentralized email service provided by LedgerFi IT Solutions Pvt. Ltd., built on Web3 principles and accessible via ledgermail.io. Positioned as a secure alternative to traditional email platforms, LedgerMail integrates blockchain technologies to enhance data privacy and user control. It combines standard email functionality with Web3 features, such as cryptographic methods for securing correspondence, targeting users seeking modern communication solutions.  Security & Anonymity: LedgerMail prioritizes privacy by encrypting data during transit and storage using industry-standard protocols (e.g., TLS for transit, though specifics aren’t detailed). All data, including email content, is stored encrypted with strict access controls in place. However, anonymity is limited: registration requires providing a name, email address, physical address, and optionally a company name, making it less anonymous than platforms like Proton Mail or Mailchain. IP addresses and usage data (browser type, ISP, timestamps) are collected for analytics and service improvement but not tied to personal identification. Data isn’t shared with third parties except as legally required (UAE jurisdiction, compliant with CCPA and GDPR). Account deactivation triggers data deletion, emphasizing user control, but the lack of end-to-end encryption reduces privacy for message content.  Use Cases: LedgerMail is suitable for Web3 users looking to integrate email with decentralized technologies while maintaining a baseline level of security. It’s a good fit for:      Business communication with data encryption (e.g., for small companies or freelancers).     Personalized correspondence with optional profile picture customization.     Transitioning from traditional email to Web3-oriented solutions. However, due to mandatory registration data and lack of full anonymity, it’s not ideal for highly confidential correspondence or anonymous use. It serves as an intermediate option for those valuing above-average security without needing maximum privacy, tailored for blockchain ecosystem enthusiasts. It’s optimal for everyday tasks with moderate confidentiality requirements.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇺🇸",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "onionmail.org",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": "onionmail.org\nonionmail.com\n2mail.co\nmail2tor.co\nGtfcy37qyzor7kb6blz2buwuu5u7qjkycasjdf3yaslibkbyhsxub4yd.onion",
+            "color": "none"
+        },
+        "A Record": {
+            "value": "172.67.70.75 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mxmail.onionmail.org | 🇸🇬 | Singapore | AS141995 | Contabo Asia Private Limited",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2020-08-03",
+            "color": "none"
+        },
+        "Domain expired": {
+            "value": "2025-08-03",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇺🇸 Onion Search Engine LLC",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Singapore",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Onion Mail - Encrypted & Anonymous email\nOnion Mail is free encrypted & anonymous email service, manage emails in the normal network and in the onion network. Encrypt email with your PGP public key.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Unlawful use; soliciting illegal acts; violating laws/regulations; infringing IP rights; harassment/discrimination; false info; viruses/malware; spam/phishing; obscene content; bypassing security; under 18 use",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect minimal data: optional account info (name, email if provided), auto-collected (IP, browser type/version, OS, access times). Stored encrypted with PGP (content inaccessible to provider). No sharing except legal mandates (NY, US law).",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Phone(receive s sms code)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Price": {
+            "value": "free",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "yes",
+            "color": "red"
+        },
+        "Note": {
+            "value": "Onion Mail is an anonymous and secure email service operating on the Tor network and utilizing PGP (Pretty Good Privacy) encryption. Accessible via a .onion address, as well as standard domains onionmail.org and onionmail.com, this service is designed to provide maximum confidentiality and data protection in the digital age. Onion Mail targets users who prioritize anonymity and safeguarding against surveillance, offering a decentralized messaging platform within the darknet and beyond.  Security & Anonymity: Onion Mail stands out for its exceptional privacy and anonymity features. Messages are encrypted with PGP, ensuring end-to-end encryption—content is accessible only to the sender and recipient, with the service itself unable to view the text. Operating through the Tor network hides users’ IP addresses by routing traffic through multiple nodes, making it nearly impossible to trace the sender or receiver. Registration doesn’t require personal data (name or email can be omitted), and encryption keys are generated and stored by the user, enhancing security control. However, minimal data (IP, browser type, access times) is automatically collected for statistics and abuse prevention, though it doesn’t identify individuals. Data isn’t shared with third parties except under legal mandates (New York, USA jurisdiction). Full anonymity relies on proper Tor usage and key management by the user.  Use Cases: Onion Mail is ideal for those seeking maximum confidentiality and anonymity in communication, especially under censorship or surveillance conditions. It’s a perfect fit for:      Anonymous messaging via the darknet (e.g., with other .onion users).     Protecting correspondence for activists, journalists, or whistleblowers where secrecy is critical.     Sending emails to standard addresses while preserving sender anonymity.     Individuals avoiding mass surveillance and valuing independence from big corporations. The service is user-friendly but requires the Tor Browser, making it less convenient for everyday tasks compared to traditional email providers. It’s not suited for commercial purposes or bulk messaging, but rather for those willing to trade convenience for security and anonymity in specific scenarios, such as darknet activities or protection from repression. Onion Mail is a niche tool for users who prioritize privacy above all else.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": null,
+            "color": "none"
+        },
+        "Domain": {
+            "value": "privatemx.org",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "103.28.91.121 | 🇲🇾 | Malaysia | AS132372 | GB Network Solutions Sdn. Bhd.",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mail.privatemx.org | 🇲🇾 | Malaysia | AS132372 | GB Network Solutions Sdn. Bhd.",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2024-05-03",
+            "color": "red"
+        },
+        "Domain expired": {
+            "value": "2025-05-03",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Malaysia",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Private & Anonymous Email Service | PrivateMX\nAnonymous and Secure Email Service for Tor users. Enjoy confidential communication with advanced encryption, ensuring anonymity and protecting your emails from unauthorized access and surveillance.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Extremely illegal activity on the platform",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect data for account creation and support (unspecified types). Stored with reasonable security measures. No sharing unless required by law.",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Phone(receive s sms code)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Price": {
+            "value": "free",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "no",
+            "color": "green"
+        },
+        "Note": {
+            "value": "PrivateMX is an anonymous email service operating through the Tor network and accessible at privatemx.org. Designed with a focus on privacy, PrivateMX allows users to send and receive messages in a secure darknet environment. This service targets individuals seeking a straightforward and safe communication method, avoiding mass surveillance and preserving privacy amidst digital threats.  Security & Anonymity: PrivateMX offers a high level of privacy by leveraging the Tor network, which conceals users’ IP addresses by routing traffic through multiple nodes to ensure anonymity. While specific encryption methods (e.g., end-to-end encryption) aren’t detailed in the provided policy, the service claims to implement “reasonable security measures” to protect data from loss, misuse, or alteration. Data is collected for account creation and support (likely minimal, such as a username or email), though exact types aren’t specified. Anonymity is partial: registration may require basic information, and full protection depends on proper Tor usage and user caution. Data isn’t shared with third parties except as required by law (Mexican jurisdiction), introducing some legal vulnerability. Users have rights to access, rectify, or delete their data, enhancing control over their information.  Use Cases: PrivateMX is suitable for users who value basic anonymity and communication protection within the darknet. It’s a good fit for:      Anonymous messaging via the Tor network, such as with other darknet users.     Individuals avoiding surveillance from corporations or government entities.     Simple correspondence tasks requiring moderate privacy without complex setup. However, due to limited details on encryption and potential data collection for registration, it’s less ideal for highly sensitive communication (e.g., for journalists or activists) compared to services like Onion Mail with explicit PGP encryption. PrivateMX is a practical option for those seeking baseline anonymity in Tor without needing maximum security or advanced features. It’s optimal for everyday use in scenarios where privacy matters but isn’t critical.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": null,
+            "color": "none"
+        },
+        "Domain": {
+            "value": "dnmx.su",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": "dnmxjaitaiafwmss2lx7tbs5bv66l7vjdmb5mtb3yqpxqhk3it5zivad.onion",
+            "color": "none"
+        },
+        "A Record": {
+            "value": "190.123.44.98 | 🇵🇦 | Panama | AS52284 | Panamaserver.com",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mail.dnmx.su  | 🇵🇦 | Panama | AS52284 | Panamaserver.com",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2024-08-03",
+            "color": "red"
+        },
+        "Domain expired": {
+            "value": "2025-08-03",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Panama",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "The Anonymous Email Service For The Dark Net — DNMX",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Terrorism, blackmail, or other crimes on the platform",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "No personal data collected (identity not requested); server data encrypted with full disk encryption. No sharing; legal disclosure not specified.",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Phone(receive s sms code)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Price": {
+            "value": "free",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "no",
+            "color": "green"
+        },
+        "Note": {
+            "value": "DNMX (Dark Net Mail Exchange) is a free anonymous email service operating exclusively through the Tor network, accessible only via a .onion address. Designed to ensure freedom of communication in the darknet, DNMX functions like Gmail or Yahoo Mail but prioritizes anonymity and data protection. It’s a service for those who want to communicate without censorship or surveillance, maintaining privacy in the digital realm.  Security & Anonymity: DNMX offers a high degree of anonymity by neither requesting nor storing users’ personal information—your identity isn’t required to use the service. Access is restricted to the Tor network, concealing IP addresses and locations by routing traffic through multiple nodes. Servers are secured with full disk encryption, rendering data inaccessible even if physically seized. However, the service doesn’t guarantee built-in end-to-end encryption for messages and strongly recommends using PGP for sensitive correspondence, cautioning that even they shouldn’t be fully trusted. A minimal data collection policy suggests no identifying information is retained, and there’s no mention of sharing with third parties (likely minimal due to its darknet context). Privacy hinges on user actions, including PGP use and Tor compliance.  Use Cases: DNMX is ideal for darknet users who value free speech and basic anonymity without complex setups. It’s well-suited for:      Anonymous communication within the Tor network, such as with other darknet users.     Individuals evading censorship from authorities or corporations.     Simple correspondence in scenarios requiring minimal identification. The service prohibits terrorism, blackmail, or other crimes, making it unsuitable for illegal activities. Due to the lack of built-in message encryption, it’s less ideal for highly sensitive data (e.g., for journalists or activists) unless PGP is applied. DNMX is a practical tool for those who prioritize anonymity and communication freedom in the darknet, willing to bolster security themselves if needed. It’s best for basic tasks with a focus on privacy within the Tor ecosystem.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇧🇸",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "xmail.net",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "65.110.6.56 | 🇨🇦 | Canada | AS25668 | Cipherkey Exchange Corp.",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mail.xmail.net | 🇨🇦 | Canada | AS25668 | Cipherkey Exchange Corp.",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "1998-09-11",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2025-09-10",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇧🇸 Aaex Holdings Corp.",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Canada",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "XMAIL.NET™ - Free Web Based Xmail",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "No explicit prohibitions listed; implied restriction on abuse via inactivity deletion (unused accounts deleted after 1 year)",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "No personal data collected (no info required at signup); messages/web files stored with 1GB limit each. No sharing specified; legal disclosure unclear.",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Phone(receive s sms code)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Price": {
+            "value": "free",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "optional",
+            "color": "yellow"
+        },
+        "Note": {
+            "value": "XMail is a free web-based email service that has been operational since 1998, accessible via xmail.net. Incorporated in the British Virgin Islands with IT operations subcontracted in Vancouver, Canada, XMail provides users with a simple and minimalist communication tool through an Ajax-powered browser interface. The service also offers 1 GB of mailbox storage and 1 GB for personal web hosting, making it a versatile option for basic internet tasks.  Security & Anonymity: XMail stands out with its privacy policy: it collects no personal or demographic information during signup—users only need to choose a username and password. This ensures a high degree of anonymity, as no identity disclosure is required. The service is accessible via standard browsers, including Tor-compatible ones (e.g., Brave), adding optional anonymity when used through the Tor network. For secure communication, XMail supports S/MIME with personal certificates, enabling end-to-end encryption and digital signatures to verify sender authenticity. However, full data protection relies on utilizing these certificates, as server-side encryption isn’t specified. Inactive accounts are deleted after one year, preventing the accumulation of abandoned data. There’s no mention of data sharing with third parties, leaving legal obligations unclear (BVI jurisdiction).  Use Cases: XMail is suitable for users who value basic anonymity and straightforward privacy without complexity. It’s a good fit for:      Anonymous correspondence via the web interface or Tor (with S/MIME for encryption).     Storing small amounts of data (1 GB for email and web files).     Hosting simple static HTML web pages (no CGI/PHP support).     Individuals avoiding intrusive data collection by larger services. It’s not suited for complex tasks requiring server-side scripting or highly sensitive communication without self-applied encryption. XMail is ideal for those seeking a lightweight, free, and anonymous tool for messaging and basic online presence, especially when paired with Tor for added protection. It’s a solution for everyday needs with a focus on simplicity and independence.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇩🇪",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "monocles.de",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "37.120.160.239 | 🇩🇪 | Germany | AS197540 | netcup GmbH",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mail.monocles.de | 🇩🇪 | Germany | AS197540 | netcup GmbH",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": null,
+            "color": "none"
+        },
+        "Domain expired": {
+            "value": null,
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇩🇪 Arne-Brün Vogelsang",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Fourteen Eyes (👀 14)",
+            "color": "purple"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Germany",
+            "color": "none"
+        },
+        "Site description": {
+            "value": null,
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Illegal purposes; disrupting server ops (e.g., high traffic, excessive connections); under 18 use; brand/inappropriate names",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect optional personal data (e.g., name, address, email) voluntarily; no IP/logs for search/translator. Stored locally if settings changed. No sharing without consent.",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "yes",
+            "color": "yellow"
+        },
+        "Phone(receive s sms code)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Price": {
+            "value": "free",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "no",
+            "color": "green"
+        },
+        "Note": {
+            "value": "Monocles Mail is an email service, presumably part of the Monocles ecosystem (based on the provided data), designed for minimalist and confidential communication. Operating under German legislation (§ 7-10 TMG), the service offers basic functionality for users who want to avoid intrusive data collection, emphasizing voluntary information disclosure and protection against unsolicited advertising.  Security & Anonymity: Monocles Mail ensures a high level of anonymity through its minimal data collection policy: the service can be used without providing personal information, and any data (e.g., name, address, email) is requested only on a voluntary basis. For related features (Monocles search and translator), no IP addresses or user actions are logged, with settings stored locally on the user’s device, preventing tracking by the service. However, the text doesn’t mention encryption for messages or servers, raising questions about content protection. Data isn’t shared with third parties without explicit consent, though legal disclosure is possible after notification of a violation (German jurisdiction). Full anonymity can be achieved using Tor or a VPN, though this isn’t explicitly stated. The service warns that internet data transmission has inherent vulnerabilities.  Use Cases: Monocles Mail is suitable for users who prioritize basic privacy and the absence of aggressive data collection. It’s a good fit for:      Simple correspondence without needing to reveal identity.     Individuals avoiding spam and unwanted advertising (the service prohibits using contact data for such purposes).     Those enhancing anonymity with additional tools (e.g., Tor, VPN). It’s not ideal for highly sensitive tasks (e.g., journalism or activism) due to the lack of guarantees for end-to-end encryption or interception protection. It’s best for everyday communication with minimal risks, especially if users take their own security measures (e.g., PGP encryption). Monocles Mail is a solution for those who value voluntariness and simplicity over maximum protection.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇪🇪",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "atomicmail.io",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "104.21.94.171 | 🇨🇦 | Canada | AS13335 Cloudflare, Inc.",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mail1.atomicmail.io | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2023-12-30",
+            "color": "red"
+        },
+        "Domain expired": {
+            "value": "2025-12-30",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇪🇪 AtomicMail Systems OÜ",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Germany",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Atomic Mail: Encrypted email provider\nSecure and user-centric email hosting provider, dedicated to offering privacy-first email services. Create multiple aliases, end-to-end encryption, email password protection everything you need for safe communication.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Breaking laws; violating rights; spam; stolen goods trade; threats; child pornography; fraud; excessive messaging; obscene usernames",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect optional name (alias ok), email, password (hashed); IP/browser/OS for site visits (7-day logs). Stored encrypted (AES-256). No sharing unless Estonian court order.",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Phone(receive s sms code)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Price": {
+            "value": "free",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "no",
+            "color": "green"
+        },
+        "Note": {
+            "value": "Atomic Mail is a free email service provided by AtomicMail Systems OÜ, registered in Estonia (Tallinn), designed to maximize privacy and user control over communications. Built with cutting-edge encryption technologies and a \"zero-knowledge\" approach, Atomic Mail positions itself as a secure alternative to traditional email services, drawing inspiration from blockchain ecosystem security standards.  Security & Anonymity: Atomic Mail offers a high level of anonymity and privacy. Registration doesn’t require a real name—users only need to select an email (e.g., user@atomicmail.io) and password, with the option to use a pseudonym. No personal data is collected, and passwords are hashed (SHA-256) and never stored in plaintext. Messages are encrypted client-side with AES-256 (for all users) and ECIES (between Atomic Mail users), ensuring end-to-end encryption—Atomic Mail itself cannot access email content. A BIP39 seed phrase, kept by the user, enables account recovery, eliminating reliance on the service. Website visitor IP addresses are logged for 7 days to combat spam, but emails display Atomic Mail’s server IP, not the user’s. Data isn’t shared with third parties except under valid Estonian court orders—requests from foreign authorities are ignored. Access via Tor is possible, enhancing anonymity. However, losing both the password and seed phrase makes recovery impossible, a deliberate security feature.  Use Cases: Atomic Mail is suited for users who prioritize strong privacy and data protection without compromise. It’s an excellent choice for:      Confidential correspondence with robust encryption (e.g., between Atomic Mail users via ECIES).     Sending secure emails to external recipients (password-protected via Decryption Service).     Individuals avoiding surveillance and valuing key control (thanks to the seed phrase).     Those seeking a free, ad-free service with minimal data collection. It’s not ideal for bulk messaging (due to spam restrictions) or users needing support without technical know-how (no recovery guarantees if data is lost). Atomic Mail is perfect for self-reliant users, such as journalists, activists, or tech-savvy individuals, who value anonymity and independence within Estonia’s strict jurisdiction.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇭🇷",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "mail.io",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "151.101.65.195 | 🇺🇸 | United States | AS54113 | Fastly, Inc.",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "inbound-smtp.us-west-2.amazonaws.com | 🇺🇸 | United States | AS16509 | Amazon.com, Inc.",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2004-02-26",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2026-02-26",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇭🇷 Amplio d.o.o.",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "United States",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Mailio",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Illegal use; spam; junk mail; bulk emails; trading accounts; multiple free accounts; unlawful content",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect email (optional), hashed verification data (IP/email/phone), metadata, account activity. Encrypted content. Share only if legally required.",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Phone(receive s sms code)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Price": {
+            "value": "free",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "no",
+            "color": "green"
+        },
+        "Note": {
+            "value": "Mailio is an email service offered by Amplio d.o.o., based in Slovenia, accessible via the mail.io website and mobile apps. It positions itself as a privacy-focused solution, providing end-to-end encryption for correspondence within the mail.io domain and minimal user data collection.  Security & Anonymity: Mailio ensures a high level of privacy with end-to-end encryption for messages within its domain and a \"zero-knowledge\" architecture—meaning the company cannot access encrypted email content. No personal data is required for registration, though an optional email can be provided for verification or recovery. IP addresses, emails, or phone numbers used for verification (e.g., via reCaptcha, SMS) are stored temporarily and hashed if retained long-term, making identification difficult. Permanent IP logs aren’t kept unless abuse (spam, attacks) occurs, where data may be stored to protect the service. Metadata (sender, recipient, subject, timestamps) is accessible due to SMTP limitations, but encrypted message content isn’t. Unencrypted incoming emails are scanned for spam and viruses, justified by user protection needs. Data isn’t shared with third parties except under binding Slovenian legal requests (with user notification if permitted). Payments via Stripe or anonymously (Bitcoin/cash) offer flexibility, though card linkage may reduce anonymity. For full anonymity, using Tor/VPN is recommended, as traffic passes through third-party networks.  Use Cases: Mailio is suitable for users seeking a private email service with strong data protection and minimal tracking. It’s a good fit for:      Confidential correspondence within the mail.io domain (fully encryption-protected).     Those aiming to minimize data collection and avoid ads (no analytics or third-party tracking).     Everyday communication with moderate anonymity needs (external emails aren’t encrypted by default). It’s not ideal for complete anonymity (due to potential metadata and payments) or bulk messaging (strict anti-spam measures). Mailio is optimal for individuals, freelancers, or small teams valuing simplicity, security, and inbox control within the European jurisdiction (GDPR).",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": null,
+            "color": "none"
+        },
+        "Domain": {
+            "value": "mailum.com",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": "cyberfear.com",
+            "color": "none"
+        },
+        "A Record": {
+            "value": "54.37.129.184 | 🇵🇱 | Poland | AS16276 | OVH SAS",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "custom.cyberfear.com  | 🇵🇱 | Poland | AS16276 | OVH SAS",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2012-10-22",
+            "color": "none"
+        },
+        "Domain expired": {
+            "value": "2025-10-22",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "CyberFear\n\nSergei Krutov (vSaKv) ex developer SCRYPTmail \n(htps://www.linkedin.com/in/sergei-krutov)",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Poland",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Mailum - Secure Encrypted Email Service | Private & Anonymous Email\nEnjoy private, anonymous email with end-to-end encryption from Mailum, your trusted encrypted email provider. Sign up for free and protect your communication today.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Selling/sublicensing content; damaging site; impacting access; illegal use; data mining/harvesting; under 18 use",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect username, password (hashed), last login date; IP for 5 mins at registration (anti-flood). No logs otherwise. No sharing specified.",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Phone(receive s sms code)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Price": {
+            "value": "free",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "no",
+            "color": "green"
+        },
+        "Note": {
+            "value": "Mailum is a web-based email service accessible at https://mailum.com, prioritizing user privacy. It offers a minimalist solution for email communication, avoiding excessive data collection and providing a basic level of anonymity and protection.  Security & Anonymity: Mailum ensures a high degree of anonymity through its minimal data collection policy. Registration requires only a username and password (hashed), with no need to provide personal details like a real name or email. IP addresses aren’t logged for website visitors, except for a 5-minute retention during registration to prevent account flooding (this data isn’t linked to users and is deleted afterward). The date of the last login is stored for managing inactive accounts, but no other activity traces are kept. The absence of logs and external trackers (e.g., for advertising) enhances privacy. Cookies are used solely for session identification, without additional tracking. However, there’s no mention of message or server encryption, suggesting a lack of default end-to-end encryption. Data isn’t shared with third parties, and GDPR/CCPA rights ensure user control over information. For full anonymity, using Tor or a VPN is recommended.  Use Cases: Mailum is suitable for those seeking a simple, anonymous communication method without heavy oversight. It’s a good fit for:      Basic correspondence with minimal identity disclosure.     Users avoiding tracking and ads (the service is entirely free of external scripts).     Those wanting a quick email setup without sharing personal data. It’s not ideal for highly sensitive tasks (e.g., protection from authorities or sending confidential data), as there’s no mention of encryption or advanced security measures. Mailum is optimal for low-risk everyday use where simplicity and lack of surveillance matter, especially when paired with additional anonymization tools. It’s a solution for minimalists who value basic privacy without complex configurations.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇺🇸",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "codamail.com",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "173.166.91.11 | 🇺🇸 | United States | AS7922 Comcast Cable Communications, LLC",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mail.pnsh.com | 🇺🇸 | United States | AS7922 Comcast Cable Communications, LLC",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2009-03-19",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2026-03-19",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇺🇸 Packetderm LLC",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "United States",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "CodaMail - A unique private e-mail service\nTake control of your email privacy with CodaMail's zero-access encryption. Protect your messages with end-to-end encryption, anonymous email aliases, and advanced privacy features.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Spamming; phishing; malware; threats; harassment; unauthorized access; fraud; excessive resource use",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect username, payment IDs, subscription details, dates, email content (encrypted), PGP keys (optional). 5-day logs. Share only if legally required.",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "yes",
+            "color": "yellow"
+        },
+        "Phone(receive s sms code)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Price": {
+            "value": "free",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "optional",
+            "color": "yellow"
+        },
+        "Note": {
+            "value": "CodaMail is an email service provided by Packetderm, LLC (USA, Massachusetts), also known through Cotse.Net, with a strong focus on safeguarding user privacy. Accessible via https://codamail.com, CodaMail combines minimal data collection with robust encryption, offering a secure communication solution centered on privacy and user control.  Security & Anonymity: CodaMail ensures a high level of privacy through strict principles: it collects only the bare minimum of data (account name, subscription details, creation/expiration dates), and email content is individually encrypted at rest using elliptic-curve AES-GCM-256. It supports zero-access automatic PGP encryption and end-to-end encryption via PGP, making message content inaccessible even to the service operators. Server logs are retained for just 5 days for technical operations and abuse prevention, and no IP addresses are stored for VPN/proxy services, though Intrusion Detection may capture IPs during anomalies. Registration requires only a username and password (hashed with SHA512/yescrypt), with 2FA (TOTP) available for added security. However, CodaMail isn’t fully anonymous—payments (via First Data/PayPal or cash) and U.S. jurisdiction may link a payer’s identity. Data isn’t sold or shared with third parties, except under valid U.S. legal requests (reviewed and challenged if overly broad, with user notification when allowed). For complete anonymity, using Tor and avoiding payment ties to real identity are recommended.  Use Cases: CodaMail is suitable for users who prioritize private correspondence with strong encryption and minimal data collection. It’s an excellent choice for:      Confidential communication using PGP (e.g., between tech-savvy users).     Individuals avoiding tracking by advertisers or analytics (no logs or tracking).     Those wanting control over access and encryption (e.g., via IMAP/POP3 settings and PGP keys). It’s not ideal for total anonymity (due to payments and U.S. jurisdiction) or bulk messaging (strict anti-spam measures). CodaMail is perfect for those who value security and are willing to manage their own keys and backups (no automatic backups to protect privacy), including professionals, privacy-conscious users, or small businesses needing secure email within the U.S. legal framework.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇫🇮",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "offilive.com",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "148.251.90.169 | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mx.offilive.com | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2017-11-22",
+            "color": "none"
+        },
+        "Domain expired": {
+            "value": "2025-11-22",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇫🇮 OffiDocs Group OU",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Germany",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Free personal email accounts and business email accounts by OffiDocs and OnWorks\nFree personal email account and free business email account with your own email domain using the OffiDocs and OwnWorks platforms.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Damaging site; impacting access; illegal use; data mining/harvesting; infringing content",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect no personal info; store user files/images on servers (temp, removable). Cookies/analytics/ads data (Google/Adgoal). Limited sharing.",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "yes",
+            "color": "yellow"
+        },
+        "Phone(receive s sms code)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Price": {
+            "value": "free",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "yes",
+            "color": "red"
+        },
+        "Note": {
+            "value": "OffiDocs is an online service offering a suite of applications for file management, which presumably includes email functionality (though the provided documents focus primarily on document editing). Accessible via web browsers and mobile apps, OffiDocs emphasizes ease of use and a minimalist privacy policy, avoiding the collection of personal data.  Security & Anonymity: OffiDocs provides a high level of anonymity by not requiring personal information (name, email, phone number) for its services, including temporary file storage. No registration is needed, eliminating ties to a user’s identity. Data is stored temporarily on OffiDocs servers—on desktop, it’s deleted after 5 days of inactivity, and in mobile apps, after editing is complete—reducing the risk of leaks. The service uses cookies for sessions and ads (Google Adsense) and collects analytics via Google Analytics, which may include IP addresses but isn’t linked to individuals. Partnerships with Adgoal (in extensions) and BrightSDK (in mobile apps) involve IP collection for affiliate links or premium features, but without identifying the owner. Specific email encryption isn’t mentioned, though general data is protected with basic security measures (encryption and physical server safeguards). For full anonymity, using a VPN or Tor is recommended, as ad networks may track activity.  Use Cases: OffiDocs is suitable for users needing temporary, anonymous access to email or file services without long-term data retention. It’s a good fit for:      Short-term correspondence or document work where history retention isn’t needed.     Testing services or sites requiring an email, without spam risks (files/data auto-delete).     Those aiming to minimize their digital footprint without complex setups. It’s not ideal for long-term email storage, sensitive communication (due to unclear email encryption), or professional use with high security demands. OffiDocs is perfect for simple tasks prioritizing free access, anonymity, and temporary use, such as for students, freelancers, or individuals avoiding intrusive ads and tracking.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇧🇪",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "contactoffice.com",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "212.3.242.83 | 🇧🇪 | Belgium | AS3356 | Level 3 Parent, LLC",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "smtp1.contactoffice.com | 🇧🇪 | Belgium | AS3356 | Level 3 Parent, LLC\nSmtp2.contactoffice.com | 🇧🇪 | Belgium | AS3356 | Level 3 Parent, LLC",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "1999-09-28",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2029-09-28",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇧🇪  ContactOffice Group SA",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Fourteen Eyes (👀 14)",
+            "color": "purple"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Belgium",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Secure collaboration ContactOffice\nMailfence white label email for business. Custom brand the Mailfence secure and private email with your own logo and domain name. Powered by ContactOffice.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Illegal use; pornographic/harmful content; harassment; spam; impersonation; IP infringement; service resale; data mining",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect registration data (user-provided); ID/password; content (user-managed). Stored on servers. Share only for legal compliance.",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "yes",
+            "color": "yellow"
+        },
+        "Phone(receive s sms code)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Price": {
+            "value": "free",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "yes",
+            "color": "red"
+        },
+        "Note": {
+            "value": "ContactOffice is a web-based service provided by ContactOffice Group SA (Brussels, Belgium), offering a suite of tools for management, communication, and collaboration, including email, calendars, address books, and document storage. Accessible through registration on the website, ContactOffice targets users seeking organized online solutions with a certain level of privacy determined by their subscription plan.  Security & Anonymity: ContactOffice provides a basic level of privacy but does not position itself as a fully anonymous service. Registration requires truthful information (e.g., name and email), which is stored in the company’s database for service management and potential promotional campaigns (opt-out available). Users receive a unique ID and choose a password, but maintaining their confidentiality is the user’s responsibility. Email content and data are stored on ContactOffice servers with capacity limits based on the chosen plan, though no encryption is mentioned in the policy, suggesting a lack of default end-to-end protection. Personal data isn’t shared with third parties except under lawful Belgian authority requests, with user notification provided when legally permitted. Privacy isn’t guaranteed due to the nature of the Internet, and for enhanced anonymity, using a VPN or Tor is recommended, especially since registration ties the account to an email address. Accounts may be terminated for inactivity or rule violations, resulting in data loss.  Use Cases: ContactOffice is suitable for users needing a versatile tool for communication and organization with basic privacy, but without strict anonymity requirements. It’s a good fit for:      Personal or group correspondence and task management in small teams (with group creation features).     Storing and transferring documents within specified volume limits.     Those who value convenient access to email and calendars via a single interface without complex setups. It’s not ideal for highly sensitive correspondence (due to unclear encryption) or complete anonymity (registration requires identification). ContactOffice is optimal for everyday use by individuals, freelancers, or small groups who appreciate convenience and basic data protection within Belgium’s jurisdiction, particularly if security is supplemented on the user’s end.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇷🇺",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "fbm-mail.com",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "188.114.96.0 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mail.fbm-mail.com | 🇷🇺 | Russia | AS9123 | TimeWeb Ltd.",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2024-04-20",
+            "color": "red"
+        },
+        "Domain expired": {
+            "value": "2027-04-20",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇷🇺 FBM Agency",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Russia",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "[FBM] Mail — Почта для арбитража :: Добро пожаловать в [FBM] Mail — Почта для арбитража!",
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Phone(receive s sms code)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Price": {
+            "value": "free",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "no",
+            "color": "green"
+        },
+        "Note": {
+            "value": null,
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇺🇸",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "isellemails.com",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "108.73.75.135 | 🇺🇸 | United States | AS7018 | AT&T Services, Inc.",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "isellemails.com | 🇺🇸 | United States | AS7018 | AT&T Services, Inc.",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2020-12-16",
+            "color": "none"
+        },
+        "Domain expired": {
+            "value": "2026-12-16",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇺🇸",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "United States",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "isellemails - Secure Hosting, Email, and File Storage Solutions\nisellemails provides reliable hosting, secure email services, and scalable file storage solutions. Empower your business with high-performance infrastructure.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Phone(receive s sms code)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Price": {
+            "value": "free",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "optional",
+            "color": "yellow"
+        },
+        "Note": {
+            "value": null,
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇳🇱",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "disroot.org",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "178.21.23.139 | 🇳🇱 | Netherlands | AS50673 | Serverius Holding B.V.",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "disroot.org | 🇳🇱 | Netherlands | AS50673 | Serverius Holding B.V.",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2015-06-07",
+            "color": "none"
+        },
+        "Domain expired": {
+            "value": "2025-06-07",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇳🇱 Stichting Disroot.org",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Nine Eyes (👀 9)",
+            "color": "yellow"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Netherlands",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Home | Disroot.org\nDisroot is a platform providing online services based on principles of freedom, privacy, federation and decentralization.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Spam; harassment; abuse; intolerance/violence; illegal acts; commercial use; copyright violation; doxing",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect email (temp/optional), username/password, activity logs (24h), user content. Encrypted where possible. Share only for federation.",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "yes",
+            "color": "yellow"
+        },
+        "Phone(receive s sms code)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Price": {
+            "value": "free",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "no",
+            "color": "green"
+        },
+        "Note": {
+            "value": "### Description of Disroot Email in English  **Disroot** is a platform provided by the non-profit organization Stichting Disroot.org (Netherlands), featuring an email service (https://webmail.disroot.org) among other tools for communication and collaboration. Disroot focuses on privacy, freedom, and ethical use of technology based on free and open-source software.  **Security & Anonymity:** Disroot offers a high level of privacy through minimal data collection and a strict protection policy. Account creation requires only a temporary email (deleted after approval unless kept for recovery), a username, and a password. Activity logs (IP, actions) are stored for just 24 hours and not archived, minimizing traces. Emails are stored on servers in the Netherlands unencrypted by default, but users can apply GnuPG/PGP for end-to-end encryption. Data transmission is secured with SSL/TLS, and servers use disk encryption. Data isn’t sold or shared with third parties, except as required by federated services (e.g., sending an email to Gmail reveals the recipient’s address). Full anonymity isn’t guaranteed due to email’s federated nature and lack of built-in encryption—using VPN/Tor and self-encrypting emails is recommended for maximum protection. Losing a password results in irreversible access loss, as Disroot doesn’t hold master keys.  **Use Cases:** Disroot is suitable for users who value privacy, free speech, and a non-commercial approach to technology. It’s a good fit for: - Ethical correspondence with minimal tracking (especially with PGP encryption). - Activists, communities, or individuals avoiding corporate ecosystems and ads. - Those wanting to integrate email with other open services (Nextcloud, XMPP). It’s not suitable for commercial purposes (strictly prohibited), highly sensitive data without encryption, or users needing simplicity (requires technical awareness for optimal security). Disroot is ideal for open-source enthusiasts, small groups, or those willing to take security into their own hands within Dutch jurisdiction and GDPR compliance.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇮🇹",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "autistici.org",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": "anche.no\nautistiche.org\nautistici.org\nautoproduzioni.net\nbastardi.net\nbruttocarattere.org\ncanaglie.net\ncanaglie.org\ncryptolab.net\ndistruzione.org\ngrrlz.net\nhacari.com\nhacari.net\nhacari.org\ninsiberia.net\ninsicuri.net\ninventati.org\nkrutt.org\nlogorroici.org\nmortemale.org\nonenetbeyond.org\nparanoici.org\nprivacyrequired.com\nstronzi.org\nsubvertising.org",
+            "color": "none"
+        },
+        "A Record": {
+            "value": "93.190.126.19 | 🇨🇭 | Switzerland | AS210861 | Open Networks Association \n198.167.222.108 | 🇸🇪 | Sweden | AS39287 | ab stract ltd | 1337 Services LLC \n82.94.249.234 | 🇳🇱 | Netherlands | AS3265 | KPN B.V. | Associazione Investici",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mx1.investici.org | 🇨🇭 | Switzerland | AS210861 | Open Networks Association \nmx2.investici.org | 🇸🇪 | Sweden | AS39287 | ab stract ltd | 1337 Services LLC \nMx3.investici.org | 🇳🇱 | Netherlands | AS3265 | KPN B.V. | Associazione Investici",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2000-08-10",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2029-08-10",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "Associazione AI ODV",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Fourteen Eyes (👀 14)",
+            "color": "purple"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "🇨🇭  Switzerland\n 🇸🇪  Sweden\n 🇳🇱  Netherlands",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "autistici.org - Welcome to Autistici/Inventati\nAutistici/Inventati provides internet support to activists and collectives coming from the world of grassroot and social movements",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Spam; discrimination; commercial use; militarism; political parties; copyright violation; misuse (DDoS, scraping)",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect username/password, metadata (15 days), user content (encrypted where possible). No personal data. Share only for federation/legal orders.",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "yes",
+            "color": "yellow"
+        },
+        "Phone(receive s sms code)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Price": {
+            "value": "free",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "no",
+            "color": "green"
+        },
+        "Note": {
+            "value": "A/I is an email service provided by the non-profit association A/I-ODV from Pisa, Italy, as part of a platform designed to support activism and social movements. It combines communication tools (email, chats, blogs) with principles of anti-fascism, anti-racism, and anti-authoritarianism, steering clear of commercialization.  Security & Anonymity: A/I prioritizes maximum privacy by collecting minimal data: only a username (email) and password, with no additional personal details (phone, address). The statement of intent required during registration is deleted after approval, and activity logs (IP, metadata) are kept for up to 15 days and anonymized. Servers employ disk encryption and SSL/TLS for data transmission, but there’s no built-in end-to-end encryption for emails—users can apply PGP themselves. A/I cannot access encrypted content and doesn’t sell data. Federated protocols (e.g., email) necessitate sharing the recipient’s address with other providers, reducing anonymity when communicating off-platform. Full anonymity isn’t guaranteed due to no backups and Internet vulnerabilities—using VPN/Tor and avoiding links to real identity is recommended for protection. Data is stored in the EU, with disclosure possible only under an Italian court order, accompanied by user notification if legally permitted.  Use Cases: A/I is suitable for those who share values of self-organization and resistance, avoiding commercial and authoritarian structures. It’s a good fit for:      Activists and social movements needing private correspondence (especially with PGP).     Individuals aiming to minimize their digital footprint without commercial ties.     Non-commercial projects, blogs, or mailing lists aligned with DIY and solidarity. It’s not suited for business purposes (prohibited), highly sensitive data without encryption, or users unprepared for technical self-reliance (no password recovery without a security question). A/I is ideal for radical communities valuing freedom and privacy within Italian jurisdiction and GDPR compliance.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇷🇸",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "dmz.rs",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "77.105.27.232 | 🇷🇸 | Serbia | AS9125 | Drustvo za telekomunikacije Orion telekom doo Beograd-Zemun | ORIONTELEKOMTIM-ADSL",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "kralizec.dmz.rs | 🇷🇸 | Serbia | AS9125 | Drustvo za telekomunikacije Orion telekom doo Beograd-Zemun | ORIONTELEKOMTIM-ADSL \nsplint.rs | 🇷🇸 | Serbia | AS31042 | Serbia BroadBand-Srpske Kablovske mreze d.o.o. \nKrov.dmz.rs | 🇷🇸 | Serbia | AS15958 | CETIN Ltd. Belgrade | CETIN Ltd. Belgrade",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2022-05-06",
+            "color": "red"
+        },
+        "Domain expired": {
+            "value": "2025-05-06",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "🇷🇸 Serbia",
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Serbia",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Home Decentrala",
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Phone(receive s sms code)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Price": {
+            "value": "free",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "no",
+            "color": "green"
+        },
+        "Note": {
+            "value": null,
+            "color": "none"
+        }
+    }
+]
