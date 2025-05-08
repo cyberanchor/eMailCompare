@@ -21,7 +21,7 @@ Inspired by [**@Lissy93**](https://github.com/Lissy93)  [email-comparison](https
 Based on [**httpsmail.com**](https://www.httpsmail.com/mail/). <br>
 
 
-🔗 **web**: [cyberanchor.github.io](https://cyberanchor.github.io/eMailCompare/web)
+🔗 **web**: [**cyberanchor.github.io**](https://cyberanchor.github.io/eMailCompare/web)
 
 ## 📊 Features
 
