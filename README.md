@@ -52,46 +52,46 @@ Email services are evaluated based on the following criteria (all data collected
 In this table, email services were personally verified by me [**@cyberanchor**](https://github.com/cyberanchor). <br>
 Accounts were registered on each email service, and manual tests were conducted across various parameters to confirm their privacy, security, and functionality.
 
-| Status | Domain            | Flag | Notes |
-|--------|-------------------|------|-------|
-| ✅      | protonmail.ch     | 🇨🇭   |       |
-| ✅      | mailfence.com     | 🇧🇪   |       |
-| ✅      | tutanota.com      | 🇩🇪   |       |
-| ✅      | mailo.com         | 🇫🇷   |       |
-| ✅      | mail.com          | 🇺🇸   |       |
-| ✅      | swissmail.org     | 🇨🇭   |       |
-| ✅      | eclipso.eu        | 🇩🇪   |       |
-| ✅      | skymail.de        | 🇩🇪   |       |
-| ✅      | firemail.de       | 🇩🇪   |       |
-| ✅      | emailn.de         | 🇩🇪   |       |
-| ✅      | inbox.eu          | 🇱🇻   |       |
-| ✅      | woelklimail.com   | 🇨🇭   |       |
-| ✅      | interia.pl        | 🇵🇱   |       |
-| ✅      | int.pl            | 🇵🇱   |       |
-| ✅      | onet.pl           | 🇵🇱   |       |
-| ✅      | datamail.in       | 🇮🇳   |       |
-| ✅      | topmail.kz        | 🇰🇿   |       |
-| ✅      | mail.az           | 🇦🇿   |       |
-| ✅      | amail.az          | 🇦🇿   |       |
-| ✅      | dmail.ai          | 🇸🇬   |       |
-| ✅      | mailchain.com     | 🇬🇧   |       |
-| ✅      | ledgermail.io     | 🇦🇪   |       |
-| ✅      | onionmail.org     | 🇺🇸   |       |
-| ✅      | privatemx.org     | ❓    |       |
-| ✅      | dnmx.su           | ❓    |       |
-| ✅      | xmail.net         | 🇧🇸   |       |
-| ✅      | monocles.de       | 🇩🇪   |       |
-| ✅      | atomicmail.io     | 🇪🇪   |       |
-| ✅      | mail.io           | 🇭🇷   |       |
-| ✅      | mailum.com        | ❓    |       |
-| ✅      | codamail.com      | 🇺🇸   |       |
-| ✅      | offilive.com      | 🇫🇮   |       |
-| ✅      | contactoffice.com | 🇧🇪   |       |
-| ✅      | fbm-mail.com      | 🇷🇺   |       |
-| ✅      | isellemails.com   | 🇺🇸   |       |
-| ✅      | disroot.org       | 🇳🇱   |       |
-| ✅      | autistici.org     | 🇮🇹   |       |
-| ✅      | dmz.rs            | 🇷🇸   |       |
+| Checked | Domain            | Flag |
+|--------|-------------------|------|
+| ✅      | protonmail.ch     | 🇨🇭   |
+| ✅      | mailfence.com     | 🇧🇪   |
+| ✅      | tutanota.com      | 🇩🇪   |
+| ✅      | mailo.com         | 🇫🇷   |
+| ✅      | mail.com          | 🇺🇸   |
+| ✅      | swissmail.org     | 🇨🇭   |
+| ✅      | eclipso.eu        | 🇩🇪   |
+| ✅      | skymail.de        | 🇩🇪   |
+| ✅      | firemail.de       | 🇩🇪   |
+| ✅      | emailn.de         | 🇩🇪   |
+| ✅      | inbox.eu          | 🇱🇻   |
+| ✅      | woelklimail.com   | 🇨🇭   |
+| ✅      | interia.pl        | 🇵🇱   |
+| ✅      | int.pl            | 🇵🇱   |
+| ✅      | onet.pl           | 🇵🇱   |
+| ✅      | datamail.in       | 🇮🇳   |
+| ✅      | topmail.kz        | 🇰🇿   |
+| ✅      | mail.az           | 🇦🇿   |
+| ✅      | amail.az          | 🇦🇿   |
+| ✅      | dmail.ai          | 🇸🇬   |
+| ✅      | mailchain.com     | 🇬🇧   |
+| ✅      | ledgermail.io     | 🇦🇪   |
+| ✅      | onionmail.org     | 🇺🇸   | 
+| ✅      | privatemx.org     | ❓    |
+| ✅      | dnmx.su           | ❓    |
+| ✅      | xmail.net         | 🇧🇸   |
+| ✅      | monocles.de       | 🇩🇪   |
+| ✅      | atomicmail.io     | 🇪🇪   |
+| ✅      | mail.io           | 🇭🇷   |
+| ✅      | mailum.com        | ❓    |
+| ✅      | codamail.com      | 🇺🇸   |
+| ✅      | offilive.com      | 🇫🇮   |
+| ✅      | contactoffice.com | 🇧🇪   |
+| ✅      | fbm-mail.com      | 🇷🇺   |
+| ✅      | isellemails.com   | 🇺🇸   |
+| ✅      | disroot.org       | 🇳🇱   |
+| ✅      | autistici.org     | 🇮🇹   |
+| ✅      | dmz.rs            | 🇷🇸   |
 
 
 ---
@@ -101,58 +101,58 @@ Accounts were registered on each email service, and manual tests were conducted 
 
 These services are pending verification.
 
-| Status | Domain               | Flag | Notes |
-|--------|----------------------|------|-------|
-| ❌      | enbox.me             | ❓    |       |
-| ❌      | otso.city            | ❓    |       |
-| ❌      | nextmail.app         | ❓    |       |
-| ❌      | mailsect.com         | ❓    |       |
-| ❌      | rapidmail.io         | ❓    |       |
-| ❌      | efind.com            | ❓    |       |
-| ❌      | transcom.net         | ❓    |       |
-| ❌      | fastemail.io         | ❓    |       |
-| ❌      | new.email            | ❓    |       |
-| ❌      | fmail.net            | ❓    |       |
-| ❌      | emailsecure.org      | ❓    |       |
-| ❌      | mailtomb.com         | ❓    |       |
-| ❌      | fortressinbox.com    | ❓    |       |
-| ❌      | mailsea.top          | ❓    |       |
-| ❌      | eprivatemail.com     | ❓    |       |
-| ❌      | purelyemail.com      | ❓    |       |
-| ❌      | r7mail.com           | ❓    |       |
-| ❌      | emailkite.com        | ❓    |       |
-| ❌      | aivmail.com          | ❓    |       |
-| ❌      | homemail.info        | ❓    |       |
-| ❌      | privi.email          | ❓    |       |
-| ❌      | anonmails.de         | ❓    |       |
-| ❌      | zebramailbox.com     | ❓    |       |
-| ❌      | eppie.io             | ❓    |       |
-| ❌      | fabmail.org          | ❓    |       |
-| ❌      | maimail.org          | ❓    |       |
-| ❌      | securemail.opentext.com | ❓ |       |
-| ❌      | mrmail.com           | ❓    |       |
-| ❌      | cock.li              | ❓    |       |
-| ❌      | beemail.space        | ❓    |       |
-| ❌      | black.com            | ❓    |       |
-| ❌      | encrypted.com        | ❓    |       |
-| ❌      | dds.nl               | ❓    |       |
-| ❌      | portugalmail.pt      | ❓    |       |
-| ❌      | mail.sapo.pt         | ❓    |       |
-| ❌      | mail-online.dk       | ❓    |       |
-| ❌      | mailme.dk            | ❓    |       |
-| ❌      | email.is             | ❓    |       |
-| ❌      | mailbox.gr           | ❓    |       |
-| ❌      | vip.gr               | ❓    |       |
-| ❌      | blindzeln.org        | ❓    |       |
-| ❌      | undernet.uy          | ❓    |       |
-| ❌      | dismail.de           | ❓    |       |
-| ❌      | espiv.net            | ❓    |       |
-| ❌      | freenet.de           | ❓    |       |
-| ❌      | nubo.coop            | ❓    |       |
-| ❌      | tiscali.it           | ❓    |       |
-| ❌      | netaddress.com       | ❓    |       |
-| ❌      | rediff.com           | ❓    |       |
-| ❌      | danwin1210.de        | ❓    |       |
+| Checked | Domain               | Flag |
+|--------|----------------------|------|
+| ❌      | enbox.me             | ❓    |
+| ❌      | otso.city            | ❓    |
+| ❌      | nextmail.app         | ❓    |
+| ❌      | mailsect.com         | ❓    |
+| ❌      | rapidmail.io         | ❓    |
+| ❌      | efind.com            | ❓    |
+| ❌      | transcom.net         | ❓    |
+| ❌      | fastemail.io         | ❓    |
+| ❌      | new.email            | ❓    |
+| ❌      | fmail.net            | ❓    |
+| ❌      | emailsecure.org      | ❓    |
+| ❌      | mailtomb.com         | ❓    |
+| ❌      | fortressinbox.com    | ❓    |
+| ❌      | mailsea.top          | ❓    |
+| ❌      | eprivatemail.com     | ❓    |
+| ❌      | purelyemail.com      | ❓    |
+| ❌      | r7mail.com           | ❓    |
+| ❌      | emailkite.com        | ❓    |
+| ❌      | aivmail.com          | ❓    |
+| ❌      | homemail.info        | ❓    |
+| ❌      | privi.email          | ❓    |
+| ❌      | anonmails.de         | ❓    |
+| ❌      | zebramailbox.com     | ❓    |
+| ❌      | eppie.io             | ❓    |
+| ❌      | fabmail.org          | ❓    |
+| ❌      | maimail.org          | ❓    |
+| ❌      | securemail.opentext.com | ❓ |
+| ❌      | mrmail.com           | ❓    |
+| ❌      | cock.li              | ❓    |
+| ❌      | beemail.space        | ❓    |
+| ❌      | black.com            | ❓    |
+| ❌      | encrypted.com        | ❓    |
+| ❌      | dds.nl               | ❓    |
+| ❌      | portugalmail.pt      | ❓    |
+| ❌      | mail.sapo.pt         | ❓    |
+| ❌      | mail-online.dk       | ❓    |
+| ❌      | mailme.dk            | ❓    |
+| ❌      | email.is             | ❓    |
+| ❌      | mailbox.gr           | ❓    |
+| ❌      | vip.gr               | ❓    |
+| ❌      | blindzeln.org        | ❓    |
+| ❌      | undernet.uy          | ❓    |
+| ❌      | dismail.de           | ❓    |
+| ❌      | espiv.net            | ❓    |
+| ❌      | freenet.de           | ❓    |
+| ❌      | nubo.coop            | ❓    |
+| ❌      | tiscali.it           | ❓    |
+| ❌      | netaddress.com       | ❓    |
+| ❌      | rediff.com           | ❓    |
+| ❌      | danwin1210.de        | ❓    |
 
 ## 💻 Installation
 
