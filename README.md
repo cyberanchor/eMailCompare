@@ -15,9 +15,11 @@
 ## 🌐 Overview
 
 **Yet Another Email Service Comparison** - is a project dedicated to comparing a wide range of email services, from privacy-focused to general-purpose providers. <br>
-Built with HTML, CSS, JavaScript, Bootstrap, and Chart.js, it offers a responsive web interface and data stored in `data.json`. <br>
+Built with HTML, CSS, JavaScript, Bootstrap, data stored in `data.json`. <br>
+
 Inspired by [**@Lissy93**](https://github.com/Lissy93)  [email-comparison](https://github.com/Lissy93/email-comparison). <br>
-Also based on [**httpsmail.com**](https://www.httpsmail.com/mail/). <br>
+Based on [**httpsmail.com**](https://www.httpsmail.com/mail/). <br>
+
 
 🔗 **web**: [cyberanchor.github.io](https://cyberanchor.github.io/eMailCompare/web)
 
