@@ -172,12 +172,12 @@ These services are pending verification.
 ## 📸 Screenshots
 
 <div style="text-align: center;">
-  <img src="Screenshot_1.png" width="600" height="400" style="display: block; margin-left: auto; margin-right: auto;">
+  <img src="Screenshot_1.png" width="600" height="600" style="display: block; margin-left: auto; margin-right: auto;">
 </div>
 
 
 <div style="text-align: center;">
-  <img src="Screenshot_2.png" alt="Web Folder Structure" width="600" height="400" style="display: block; margin-left: auto; margin-right: auto;">
+  <img src="Screenshot_2.png" width="600" height="600" style="display: block; margin-left: auto; margin-right: auto;">
 </div>
 
 
