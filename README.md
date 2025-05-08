@@ -172,14 +172,13 @@ These services are pending verification.
 ## 📸 Screenshots
 
 <div style="text-align: center;">
-  <img src="Screenshot_1.png" width="300" height="152" style="display: block; margin-left: auto; margin-right: auto;">
+  <img src="Screenshot_1.png" width="400" height="202" style="display: block; margin-left: auto; margin-right: auto;">
 </div>
 
 
 <div style="text-align: center;">
-  <img src="Screenshot_2.png" width="300" height="152" style="display: block; margin-left: auto; margin-right: auto;">
+  <img src="Screenshot_2.png" width="400" height="202" style="display: block; margin-left: auto; margin-right: auto;">
 </div>
-
 
 ## 📂 Data Storage
 
