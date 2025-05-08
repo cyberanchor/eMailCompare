@@ -10,14 +10,13 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=flat-square)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat-square)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?logo=bootstrap&logoColor=white&style=flat-square)
-![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?logo=chart.js&logoColor=white&style=flat-square)
 
 ## 🌐 Overview
 
 **Yet Another Email Service Comparison** - is a project dedicated to comparing a wide range of email services, from privacy-focused to general-purpose providers. <br>
 Built with HTML, CSS, JavaScript, Bootstrap, data stored in `data.json`. <br>
 
-Inspired by [**@Lissy93**](https://github.com/Lissy93)  [email-comparison](https://github.com/Lissy93/email-comparison). <br>
+Inspired by [**@Lissy93**](https://github.com/Lissy93)  [**email-comparison**](https://github.com/Lissy93/email-comparison). <br>
 Based on [**httpsmail.com**](https://www.httpsmail.com/mail/). <br>
 
 
@@ -28,14 +27,13 @@ Based on [**httpsmail.com**](https://www.httpsmail.com/mail/). <br>
 - **Interactive table**: displays email provider details (e.g., domain, jurisdiction, encryption).
 - **Search & sort**: filter and sort services by keywords or columns.
 - **Data export**: download email domains as a `.txt` file.
-- **Responsive design**: optimized for mobile, tablet, and desktop.
-- **Color-coded insights**: highlights privacy/security traits (e.g., green for minimal data collection).
+- **Color-coded insights**: highlights green, red, etc...
 
 ## 🔍 Comparison criteria
 
 Email services are evaluated based on the following criteria (all data collected from public source):
 
-- **Security**: presence of end-to-end encryption, SSL/TLS, and two-factor authentication (2FA).
+- **Security**: presence of end-to-end encryption, SSL/TLS.
 - **Privacy**: data collection practices, IP logging, third-party sharing, and personal information requirements (e.g., name, address).
 - **Jurisdiction**: server location and applicable privacy laws (e.g., Swiss privacy, GDPR).
 - **Intelligence alliance**: affiliation with surveillance networks (e.g., Five Eyes, Fourteen Eyes).
@@ -155,6 +153,22 @@ These services are pending verification.
 | ❌      | netaddress.com       | ❓    |
 | ❌      | rediff.com           | ❓    |
 | ❌      | danwin1210.de        | ❓    |
+| ❌      | webmail.com.my       | ❓    |
+| ❌      | webmail.se           | ❓    |
+| ❌      | indamail.hu          | ❓    |
+| ❌      | webmail.fps.de       | ❓    |
+| ❌      | webmail.com.pt       | ❓    |
+| ❌      | inbox.com            | ❓    |
+| ❌      | mail.world           | ❓    |
+| ❌      | inleed.xyz           | ❓    |
+| ❌      | mutantmail.com       | ❓    |
+| ❌      | aikq.de              | ❓    |
+| ❌      | pissmail.com         | ❓    |
+| ❌      | beeble.com           | ❓    |
+| ❌      | murena.io            | ❓    |
+| ❌      | plummail.co          | ❓    |
+| ❌      | confidesk.com        | ❓    |
+| ❌      | lockrmail.com        | ❓    |
 
 ## 💻 Installation
 
