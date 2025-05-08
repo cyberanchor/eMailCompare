@@ -97,7 +97,7 @@ Accounts were registered on each email service, and manual tests were conducted 
 ---
 
 
-## ❓ Unverified Email Services
+## ❓ Unverified email services
 
 These services are pending verification.
 
@@ -172,13 +172,13 @@ These services are pending verification.
 
 ## 💻 Installation
 
-1. **Clone the Repository**:
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/cyberanchor/eMailCompare
    cd eMailCompare/web
    ```
 
-2. **Run Locally**:
+2. **Run locally**:
    ```bash
    sudo npm install -g http-server
    http-server .
@@ -196,11 +196,11 @@ These services are pending verification.
   <img src="Screenshot_2.png" width="800" height="402" style="display: block; margin-left: auto; margin-right: auto;">
 </div>
 
-## 📂 Data Storage
+## 📂 Data storage
 
 All email service data is stored in `data.json`, enabling easy updates and community contributions. Each entry includes fields like domain, jurisdiction, and privacy policies, with a `color` field to customize cell colors in the interactive table (e.g., green for older domains, red for personal info requirements). 
 
-**Example JSON Structure**: 
+**Example JSON structure**: 
 ```json
 [
   {
