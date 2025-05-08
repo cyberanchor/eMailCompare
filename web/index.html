@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Compare email services based on security, privacy, jurisdiction, and pricing. A detailed table with domain info, encryption details, and more.">
+    <meta name="keywords" content="email service comparison, secure email, privacy, encryption, jurisdiction, ProtonMail, Mailfence">
+    <meta name="author" content="cyberanchor@krutt.org">
+
+    <title>Yet Another Email Service Comparison</title>
+
+
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3E%3Cpath d='M2 2h12v12H2z' fill='none' stroke='white' stroke-width='1'/%3E%3Cpath d='M4 4h8v8H4z' fill='gray'/%3E%3C/svg%3E">
+
+    <!-- External CSS libraries -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Local CSS for custom styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Main Title Section -->
+    <header class="main-title-container">
+        <h1 class="main-title">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="logo-icon" viewBox="0 0 16 16">
+                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.022V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+            </svg>
+            Yet Another Email Service Comparison
+        </h1>
+        <hr class="title-divider">
+        <p class="project-description">
+            Project dedicated to comparing a wide range of email services, from privacy-focused to general-purpose providers.
+        </p>
+    </header>
+
+ 
+    <!-- Table Controls Section -->
+    <div class="title-container">
+        <div class="controls-container">
+            <button class="download-btn" onclick="downloadAllMail()" aria-label="Download email list as text file">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                    <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+                    <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+                </svg>
+                <span class="download-text">.txt</span>
+            </button>
+            <input type="text" class="search-input" placeholder="Search..." onkeyup="searchTable(this.value)" aria-label="Search email services">
+        </div>
+    </div>
+
+    <!-- Main Table Section -->
+    <main class="table-container">
+        <table class="table table-dark table-hover" aria-label="Email Service Comparison Table">
+            <thead>
+                <tr>
+                    <th class="fixed-column" onclick="sortTable(0)" scope="col">Flag<span class="sort-arrow">↑↓</span></th>
+                    <th class="fixed-column" onclick="sortTable(1)" scope="col">Domain<span class="sort-arrow">↑↓</span></th>
+                    <th onclick="sortTable(2)" scope="col">2nd domain<span class="sort-arrow">↑↓</span></th>
+                    <th onclick="sortTable(3)" scope="col">A Record<span class="sort-arrow">↑↓</span></th>
+                    <th onclick="sortTable(4)" scope="col">MX Record<span class="sort-arrow">↑↓</span></th>
+                    <th onclick="sortTable(5)" scope="col">Domain created<span class="sort-arrow">↑↓</span></th>
+                    <th onclick="sortTable(6)" scope="col">Domain expired<span class="sort-arrow">↑↓</span></th>
+                    <th onclick="sortTable(7)" scope="col">Company owner<span class="sort-arrow">↑↓</span></th>
+                    <th onclick="sortTable(8)" scope="col">Intelligence Alliance<span class="sort-arrow">↑↓</span></th>
+                    <th onclick="sortTable(9)" scope="col">Jurisdiction<span class="sort-arrow">↑↓</span><br><span class="jurisdiction-note">(based on server location)</span></th>
+                    <th onclick="sortTable(10)" scope="col">Site description<span class="sort-arrow">↑↓</span></th>
+                    <th onclick="sortTable(11)" scope="col">ToS<span class="sort-arrow">↑↓</span></th>
+                    <th onclick="sortTable(12)" scope="col">Privacy policy<span class="sort-arrow">↑↓</span></th>
+                    <th onclick="sortTable(13)" scope="col">Email<span class="sort-arrow">↑↓</span><br><span class="jurisdiction-note">(receive a verification link)</span></th>
+                    <th onclick="sortTable(14)" scope="col">Phone<span class="sort-arrow">↑↓</span><br><span class="jurisdiction-note">(receive sms code)</span></th>
+                    <th onclick="sortTable(15)" scope="col">Price<span class="sort-arrow">↑↓</span></th>
+                    <th onclick="sortTable(16)" scope="col">Personal Info<span class="sort-arrow">↑↓</span><br><span class="jurisdiction-note">(first name, last name, address)</span></th>
+                    <th onclick="sortTable(17)" scope="col">Note<span class="sort-arrow">↑↓</span></th>
+                </tr>
+            </thead>
+            <tbody id="tableBody"></tbody>
+        </table>
+    </main>
+
+    <!-- External JS libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+    <!-- Local JS for functionality -->
+    <script src="script.js"></script>
+</body>
+</html>

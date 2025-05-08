@@ -1,0 +1,389 @@
+/* ==========================================================================
+   Base Styles
+   ========================================================================== */
+body {
+    background-color: #1a1a1a; /* Dark background for the entire page */
+    color: #ffffff; /* White text for readability */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font stack */
+    font-size: 14px; /* Base font size for compactness */
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+}
+
+/* ==========================================================================
+   Main Title Section
+   ========================================================================== */
+/* Container for the main title and description */
+.main-title-container {
+    text-align: center; /* Center-align content */
+    margin: 30px 0; /* Vertical spacing */
+    padding: 0 20px; /* Horizontal padding */
+}
+
+/* Main page title */
+.main-title {
+    font-size: 2.5rem; /* Larger title size */
+    color: #ffffff; /* White text */
+    margin-bottom: 10px; /* Space below title */
+    display: flex; /* Flexbox for logo and text alignment */
+    align-items: center; /* Vertical alignment */
+    justify-content: center; /* Horizontal centering */
+    gap: 10px; /* Space between logo and text */
+}
+
+/* Logo icon next to the title */
+.logo-icon {
+    width: 24px; /* Slightly larger logo */
+    height: 24px; /* Square proportions */
+}
+
+/* Horizontal divider below title */
+.title-divider {
+    border: 0; /* Remove default border */
+    height: 1px; /* Thin line */
+    background: #606060; /* Gray color */
+    margin: 20px auto; /* Center with spacing */
+    width: 50%; /* Half width */
+}
+
+/* Project description below title */
+.project-description {
+    font-size: 1.1rem; /* Slightly larger font */
+    color: #cccccc; /* Light gray for contrast */
+    max-width: 800px; /* Limit width for readability */
+    margin: 0 auto; /* Center */
+}
+
+/* ==========================================================================
+   Info Blocks Section
+   ========================================================================== */
+/* Container for the three info blocks */
+.info-blocks {
+    display: flex; /* Flexbox for horizontal layout */
+    justify-content: center; /* Center blocks */
+    gap: 20px; /* Space between blocks */
+    margin: 30px 20px; /* External spacing */
+    flex-wrap: wrap; /* Wrap on smaller screens */
+}
+
+/* Individual info block */
+.info-block {
+    background-color: #242424; /* Dark background */
+    padding: 20px; /* Internal padding */
+    border-radius: 8px; /* Rounded corners */
+    width: 300px; /* Fixed width for consistency */
+    box-shadow: 0 0 10px rgba(0,0,0,0.3); /* Subtle shadow */
+}
+
+/* Info block heading */
+.info-block h3 {
+    font-size: 1.2rem; /* Heading size */
+    margin-bottom: 15px; /* Space below heading */
+    color: #ffffff; /* White text */
+}
+
+/* Info block paragraph */
+.info-block p {
+    font-size: 0.9rem; /* Smaller font for content */
+    color: #cccccc; /* Light gray for readability */
+    line-height: 1.5; /* Improved line spacing */
+}
+
+/* Color sample for the color coding guide */
+.color-sample {
+    display: inline-block; /* Inline-block for alignment */
+    width: 12px; /* Small square */
+    height: 12px; /* Square proportions */
+    margin-right: 5px; /* Space after sample */
+    vertical-align: middle; /* Align with text */
+}
+
+/* ==========================================================================
+   Table Controls Section
+   ========================================================================== */
+/* Container for search and download controls */
+.title-container {
+    text-align: center; /* Center-align content */
+    margin: 15px 0; /* Reduced vertical margin */
+    position: relative; /* For absolute positioning of controls */
+    padding: 0 10px; /* Horizontal padding */
+}
+
+/* Container for download button and search input */
+.controls-container {
+    display: flex; /* Flexbox for horizontal layout */
+    justify-content: flex-end; /* Align to the right */
+    align-items: center; /* Vertical centering */
+    gap: 8px; /* Space between elements */
+    padding-right: 15px; /* Right padding */
+}
+
+/* ==========================================================================
+   Table Container Styles
+   ========================================================================== */
+/* Wrapper for the table with scroll functionality */
+.table-container {
+    margin: 15px; /* Reduced external margin */
+    max-height: 75vh; /* Increased height for 1920x1080 screens */
+    /* To adjust table height manually, change 'max-height' value (e.g., 80vh for taller, 60vh for shorter) */
+    max-width: 98vw; /* Increased width to almost full viewport */
+    /* To adjust table width manually, change 'max-width' value (e.g., 95vw for narrower, 100vw for full width) */
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    position: relative; /* For sticky positioning */
+    border-radius: 6px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0,0,0,0.3); /* Subtle shadow */
+}
+
+/* ==========================================================================
+   Table Styles
+   ========================================================================== */
+/* Main table styling with Bootstrap overrides */
+.table-dark {
+    --bs-table-bg: #242424; /* Dark background for table */
+    --bs-table-hover-bg: rgba(48, 48, 48, 0.8); /* Hover effect */
+    margin-bottom: 0; /* Remove bottom margin */
+    width: 250%; /* Increased width for more columns visibility */
+    table-layout: auto; /* Auto column widths */
+}
+
+/* Fixed table headers for vertical scrolling */
+.table-dark thead th {
+    position: sticky; /* Stick to top when scrolling */
+    top: 0; /* Align to top edge */
+    background-color: #2d2d2d; /* Darker header background */
+    z-index: 2; /* Above table body */
+    padding: 5px 8px; /* Reduced padding for compactness */
+    font-size: 12px; /* Smaller font for compactness */
+    white-space: nowrap; /* Prevent wrapping */
+    text-align: center; /* Center text */
+    vertical-align: middle; /* Vertical centering */
+    border-bottom: 1px solid #404040; /* Bottom border */
+}
+
+/* Exceptions for headers with longer text */
+.table-dark thead th:nth-child(10), /* Jurisdiction */
+.table-dark thead th:nth-child(14), /* Email */
+.table-dark thead th:nth-child(15) { /* Phone */
+    padding: 6px 10px; /* Slightly larger padding */
+    font-size: 13px; /* Slightly larger font */
+}
+
+/* Fixed columns: "Flag" */
+.table-dark th.fixed-column:nth-child(1),
+.table-dark td.fixed-column:nth-child(1) {
+    position: sticky; /* Stick to left when scrolling */
+    left: 0; /* Align to left edge */
+    background-color: #242424; /* Match table background */
+    z-index: 1; /* Above other cells */
+    min-width: 40px; /* Reduced width for "Flag" */
+    border-right: 1px solid #606060; /* Separator */
+}
+
+/* Fixed columns: "Domain" */
+.table-dark th.fixed-column:nth-child(2),
+.table-dark td.fixed-column:nth-child(2) {
+    position: sticky; /* Stick to left when scrolling */
+    left: 40px; /* Offset after "Flag" */
+    background-color: #242424; /* Match table background */
+    z-index: 1; /* Above other cells */
+    min-width: 120px; /* Reduced width for "Domain" */
+    border-right: 1px solid #606060; /* Separator */
+}
+
+/* Ensure fixed headers stay above fixed columns */
+.table-dark thead th.fixed-column:nth-child(1),
+.table-dark thead th.fixed-column:nth-child(2) {
+    z-index: 3; /* Above all cells */
+    background-color: #2d2d2d; /* Match header background */
+}
+
+/* Reduced width for "2nd domain" */
+.table-dark th:nth-child(3),
+.table-dark td:nth-child(3) {
+    min-width: 100px; /* Compact width */
+}
+
+/* General table cell styling */
+.table-dark td {
+    padding: 4px 6px; /* Reduced padding for denser table */
+    /* To adjust cell padding manually, change 'padding' values (e.g., 6px 8px for more space, 2px 4px for less) */
+    font-size: 12px; /* Smaller font for compactness */
+    /* To adjust font size manually, change 'font-size' (e.g., 13px for larger, 11px for smaller) */
+    line-height: 1.2; /* Reduced line height for compactness */
+    /* To adjust row height manually, change 'line-height' (e.g., 1.4 for taller rows, 1.0 for shorter) */
+    vertical-align: middle; /* Center vertically */
+    max-width: 220px; /* Reduced max width for compactness */
+    position: relative; /* For pseudo-elements */
+}
+
+/* ==========================================================================
+   Link Styles
+   ========================================================================== */
+/* Links inside table cells */
+.table-dark td a {
+    text-decoration: none; /* No underline */
+    color: #ffffff; /* White text */
+    position: relative; /* For hover effect */
+    transition: color 0.3s; /* Smooth color change */
+}
+
+.table-dark td a:hover {
+    color: #4CAF50; /* Green on hover */
+}
+
+/* Underline effect on hover */
+.table-dark td a::after {
+    content: ''; /* Empty pseudo-element */
+    position: absolute; /* Position below link */
+    width: 0; /* Start with no width */
+    height: 2px; /* Thin line */
+    bottom: -3px; /* Below text */
+    left: 0; /* Align to left */
+    background: linear-gradient(to right, #4CAF50, #45a049); /* Gradient effect */
+    transition: width 0.3s ease; /* Smooth expansion */
+}
+
+.table-dark td a:hover::after {
+    width: 100%; /* Full width on hover */
+}
+
+/* ==========================================================================
+   Table Cell Dividers
+   ========================================================================== */
+/* Vertical separator between cells */
+.table-dark td:not(:last-child)::after {
+    content: ''; /* Empty pseudo-element */
+    position: absolute; /* Position inside cell */
+    right: 0; /* Align to right edge */
+    top: 10%; /* Start 10% from top */
+    height: 80%; /* 80% of cell height */
+    width: 1px; /* Thin line */
+    background-color: #606060; /* Gray separator */
+}
+
+/* ==========================================================================
+   Table Row Hover Effect
+   ========================================================================== */
+.table-dark tr:hover td {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    filter: brightness(90%); /* Slightly darken */
+}
+
+/* ==========================================================================
+   Flag Styling
+   ========================================================================== */
+.flag {
+    font-size: 14px; /* Reduced flag size */
+    margin-right: 4px; /* Space after flag */
+}
+
+/* ==========================================================================
+   Resizable Box for Expandable Text
+   ========================================================================== */
+.resizable-box {
+    position: relative; /* For resize handle */
+    width: 180px; /* Compact initial width */
+    height: 60px; /* Compact initial height */
+    padding: 0; /* No internal padding */
+    resize: both; /* Allow resizing */
+    overflow: hidden; /* Hide overflow */
+}
+
+/* Apply resizable-box styling to specific columns */
+.table-dark td:nth-child(8) .resizable-box,  /* Company owner */
+.table-dark td:nth-child(11) .resizable-box, /* Site description */
+.table-dark td:nth-child(12) .resizable-box, /* ToS */
+.table-dark td:nth-child(13) .resizable-box, /* Privacy policy */
+.table-dark td:nth-child(18) .resizable-box  /* Note */ {
+    width: 100%; /* Full cell width */
+    height: 100%; /* Full cell height */
+    display: block; /* Block-level element */
+    padding: 4px 6px; /* Match cell padding */
+}
+
+/* Content inside resizable-box */
+.content {
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    white-space: normal; /* Allow text wrapping */
+    overflow: hidden; /* Hide overflow */
+    text-overflow: ellipsis; /* Ellipsis for truncated text */
+}
+
+/* Resize handle for resizable-box */
+.resize-handle {
+    position: absolute; /* Position in bottom-right corner */
+    bottom: 0; /* Align to bottom */
+    right: 0; /* Align to right */
+    width: 10px; /* Handle width */
+    height: 10px; /* Handle height */
+    background: #606060; /* Gray handle */
+    cursor: se-resize; /* Resize cursor */
+}
+
+/* ==========================================================================
+   Color Classes for Cell Highlighting
+   ========================================================================== */
+.bg-green { background-color: rgba(46, 139, 87, 0.8) !important; color: #fff; } /* Green highlight */
+.bg-red { background-color: rgba(178, 34, 34, 0.8) !important; color: #fff; } /* Red highlight */
+.bg-orange { background-color: rgba(205, 85, 0, 0.8) !important; color: #fff; } /* Orange highlight */
+.bg-blue { background-color: rgba(70, 130, 180, 0.8) !important; color: #fff; } /* Blue highlight */
+.bg-purple { background-color: rgba(147, 112, 219, 0.8) !important; color: #fff; } /* Purple highlight */
+.bg-yellow { background-color: rgba(218, 165, 32, 0.8) !important; color: #fff; } /* Yellow highlight */
+.bg-grey { background-color: rgba(128, 128, 128, 0.8) !important; color: #fff; } /* Grey highlight */
+
+/* ==========================================================================
+   Sorting Arrow Styling
+   ========================================================================== */
+.sort-arrow {
+    font-size: 10px; /* Small arrow size */
+    margin-left: 4px; /* Space after text */
+}
+
+/* Hover effect for sortable headers */
+th:hover {
+    background-color: #383838 !important; /* Darker gray on hover */
+}
+
+/* ==========================================================================
+   Search Input Styling
+   ========================================================================== */
+.search-input {
+    background-color: #404040; /* Dark background */
+    color: #fff; /* White text */
+    border: 1px solid #606060; /* Gray border */
+    padding: 5px 8px 5px 25px; /* Compact padding with space for icon */
+    border-radius: 3px; /* Rounded corners */
+    font-size: 12px; /* Smaller font */
+    width: 180px; /* Reduced width */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="grey" class="bi bi-search" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>'); /* Search icon */
+    background-repeat: no-repeat; /* No repeat */
+    background-position: 5px center; /* Icon position */
+    background-size: 14px; /* Icon size */
+}
+
+.search-input::placeholder {
+    color: #aaaaaa; /* Light gray placeholder */
+}
+
+/* ==========================================================================
+   Download Button Styling
+   ========================================================================== */
+.download-btn {
+    display: flex; /* Flexbox for icon and text */
+    align-items: center; /* Center vertically */
+    gap: 5px; /* Space between icon and text */
+    padding: 5px 8px; /* Compact padding */
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 3px; /* Rounded corners */
+    cursor: pointer; /* Hand cursor */
+    font-size: 12px; /* Smaller font */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.download-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
