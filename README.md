@@ -261,22 +261,20 @@ All email service data is stored in `data.json`, enabling easy updates and commu
 
 ## 🤝 Contributing
 
-We value your feedback to enhance our data! Get involved by:  
-- Sharing insights or suggestions via [GitHub Issues](https://github.com/cyberanchor/eMailCompare/issues).
+We value your feedback to enhance our data!
+- [GitHub Issues](https://github.com/cyberanchor/eMailCompare/issues).
 
 
 ---
 
 ## 💸 Donations & contacts
-
-This project thrives solely on your donations! Reach out or support us:
   
 📬 **Email**: `cyberanchor@krutt.org` <br>
 🔑 **Keybase**: [`@cyberanchor`](https://keybase.io/cyberanchor) <br>
 🔒 **PGP Fingerprint**: `269E CB79 6CF5 31CB 3963  EC50 4F5A F4E9 F43B B1D2` <br>
 💸 **Bitcoin**: `bc1qtnc0v6n2azzufd7ksuwm6yre6fjcc8z030xfud` <br>
 
+
 ## 📜 License
 
-This project is licensed under the [MIT License](LICENSE).  
 If you use data or reference this project, please credit [**this repo**](https://github.com/cyberanchor/eMailCompare).
