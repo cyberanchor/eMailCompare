@@ -169,7 +169,8 @@ These services are pending verification.
 | ❌      | plummail.co          | ❓    |
 | ❌      | confidesk.com        | ❓    |
 | ❌      | lockrmail.com        | ❓    |
-| ❌      | esiliati.org        | ❓    |
+| ❌      | esiliati.org         | ❓    |
+| ❌      | iobox.com            | ❓    |
 
 
 ## 💻 Installation
