@@ -171,7 +171,8 @@ These services are pending verification.
 | ❌      | lockrmail.com        | ❓    |
 | ❌      | esiliati.org         | ❓    |
 | ❌      | iobox.com            | ❓    |
-
+| ❌      | riotcat.org          | ❓    |
+| ❌      | aangat.lahat.computer| ❓    |
 
 ## 💻 Installation
 
