@@ -173,6 +173,7 @@ These services are pending verification.
 | ❌      | iobox.com            | ❓    |
 | ❌      | riotcat.org          | ❓    |
 | ❌      | aangat.lahat.computer| ❓    |
+| ❌      | net.hr               | ❓    |
 
 ## 💻 Installation
 
