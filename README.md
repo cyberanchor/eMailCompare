@@ -174,6 +174,9 @@ These services are pending verification.
 | ❌      | riotcat.org          | ❓    |
 | ❌      | aangat.lahat.computer| ❓    |
 | ❌      | net.hr               | ❓    |
+| ❌      | libero.it            | ❓    |
+| ❌      | tiscali.it           | ❓    |
+
 
 ## 💻 Installation
 
