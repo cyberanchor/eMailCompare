@@ -176,7 +176,7 @@ These services are pending verification.
 | ❌      | net.hr               | ❓    |
 | ❌      | libero.it            | ❓    |
 | ❌      | tiscali.it           | ❓    |
-
+| ❌      | eppie.io             | ❓    |
 
 ## 💻 Installation
 
