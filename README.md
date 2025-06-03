@@ -175,7 +175,7 @@ These services are pending verification.
 | ❌      | aangat.lahat.computer| ❓    |
 | ❌      | net.hr               | ❓    |
 | ❌      | libero.it            | ❓    |
-| ❌      | tiscali.it           | ❓    |
+| ❌      | macaw.me             | ❓    |
 
 ## 💻 Installation
 
