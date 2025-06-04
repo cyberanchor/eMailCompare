@@ -178,6 +178,11 @@ These services are pending verification.
 | ❌      | macaw.me             | ❓    |
 | ❌      | hot-chilli.eu        | ❓    |
 | ❌      | darkn.space          | ❓    |
+| ❌      | tildeverse.org       | ❓    |
+| ❌      | vern.cc              | ❓    |
+| ❌      | tilde.team           | ❓    |
+| ❌      | ctrl-c.club          | ❓    |
+
 
 
 ## 💻 Installation
