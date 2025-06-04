@@ -177,7 +177,7 @@ These services are pending verification.
 | ❌      | libero.it            | ❓    |
 | ❌      | macaw.me             | ❓    |
 | ❌      | hot-chilli.eu        | ❓    |
-
+| ❌      | darkn.space          | ❓    |
 ## 💻 Installation
 
 1. **Clone the repository**:
