@@ -176,6 +176,7 @@ These services are pending verification.
 | ❌      | net.hr               | ❓    |
 | ❌      | libero.it            | ❓    |
 | ❌      | macaw.me             | ❓    |
+| ❌      | hot-chilli.eu        | ❓    |
 
 ## 💻 Installation
 
