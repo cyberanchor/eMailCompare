@@ -178,6 +178,8 @@ These services are pending verification.
 | ❌      | macaw.me             | ❓    |
 | ❌      | hot-chilli.eu        | ❓    |
 | ❌      | darkn.space          | ❓    |
+
+
 ## 💻 Installation
 
 1. **Clone the repository**:
