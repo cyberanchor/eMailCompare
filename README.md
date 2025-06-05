@@ -111,7 +111,6 @@ These services are pending verification.
 | ❌      | efind.com            | ❓    |
 | ❌      | transcom.net         | ❓    |
 | ❌      | fastemail.io         | ❓    |
-| ❌      | new.email            | ❓    |
 | ❌      | fmail.net            | ❓    |
 | ❌      | emailsecure.org      | ❓    |
 | ❌      | mailtomb.com         | ❓    |
