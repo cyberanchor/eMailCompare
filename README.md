@@ -182,6 +182,8 @@ These services are pending verification.
 | ❌      | tilde.team           | ❓    |
 | ❌      | ctrl-c.club          | ❓    |
 | ❌      | secria.me            | ❓    |
+| ❌      | dmail.earth          | ❓    |
+
 
 
 ## 💻 Installation
