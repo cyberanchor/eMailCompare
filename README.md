@@ -181,7 +181,7 @@ These services are pending verification.
 | ❌      | vern.cc              | ❓    |
 | ❌      | tilde.team           | ❓    |
 | ❌      | ctrl-c.club          | ❓    |
-
+| ❌      | secria.me            | ❓    |
 
 
 ## 💻 Installation
