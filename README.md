@@ -18,6 +18,7 @@ Built with HTML, CSS, JavaScript, Bootstrap, data stored in `data.json`. <br>
 
 Inspired by [**@Lissy93**](https://github.com/Lissy93) her repo [**email-comparison**](https://github.com/Lissy93/email-comparison). <br>
 Based on [**httpsmail.com**](https://www.httpsmail.com/mail/). <br>
+Some info taken from  [**Offshore-CAT**](https://offshore.cat/email.php). <br>
 
 
 🔗 **web**: [**cyberanchor.github.io**](https://cyberanchor.github.io/eMailCompare/web)
