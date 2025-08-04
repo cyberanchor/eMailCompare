@@ -251,7 +251,7 @@ These services are pending verification.
 | ❌      | systemausfall.org          | ❓    |
 | ❌      | systemli.org          | ❓    |
 | ❌      | systerserver.net          | ❓    |
-
+| ❌      | walla.co.il          | ❓    |
 
 ## 💻 Installation
 
