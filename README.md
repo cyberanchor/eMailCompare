@@ -252,6 +252,8 @@ These services are pending verification.
 | ❌      | systemli.org          | ❓    |
 | ❌      | systerserver.net          | ❓    |
 | ❌      | walla.co.il          | ❓    |
+| ❌      | envs.net          | ❓    |
+
 
 ## 💻 Installation
 
