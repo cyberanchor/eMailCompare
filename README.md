@@ -253,7 +253,7 @@ These services are pending verification.
 | ❌      | systerserver.net          | ❓    |
 | ❌      | walla.co.il          | ❓    |
 | ❌      | envs.net          | ❓    |
-
+| ❌      | z.org          | ❓    |
 
 ## 💻 Installation
 
