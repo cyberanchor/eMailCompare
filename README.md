@@ -254,6 +254,10 @@ These services are pending verification.
 | ❌      | walla.co.il          | ❓    |
 | ❌      | envs.net          | ❓    |
 | ❌      | z.org          | ❓    |
+| ❌      | tiscali.cz         | ❓    |
+
+
+
 
 ## 💻 Installation
 
