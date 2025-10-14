@@ -255,8 +255,7 @@ These services are pending verification.
 | ❌      | envs.net          | ❓    |
 | ❌      | z.org          | ❓    |
 | ❌      | tiscali.cz         | ❓    |
-
-
+| ❌      | mailhaven.su         | ❓    |
 
 
 ## 💻 Installation
