@@ -256,6 +256,10 @@ These services are pending verification.
 | ❌      | z.org          | ❓    |
 | ❌      | tiscali.cz         | ❓    |
 | ❌      | mailhaven.su         | ❓    |
+| ❌      | skymail.ink         | ❓    |
+| ❌      | simplemail.co.in       | ❓    |
+| ❌      | xyamail.com       | ❓    |
+
 
 
 ## 💻 Installation
