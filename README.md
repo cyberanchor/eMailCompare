@@ -259,6 +259,11 @@ These services are pending verification.
 | ❌      | skymail.ink         | ❓    |
 | ❌      | simplemail.co.in       | ❓    |
 | ❌      | xyamail.com       | ❓    |
+| ❌      | anarchyplanet.org      | ❓    |
+| ❌      | northmail.ca      | ❓    |
+| ❌      | cc.cc      | ❓    |
+| ❌      | slashmail.org    | ❓    |
+| ❌      | dismail.de    | ❓    |
 
 
 
