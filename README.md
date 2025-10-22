@@ -264,7 +264,7 @@ These services are pending verification.
 | ❌      | cc.cc      | ❓    |
 | ❌      | slashmail.org    | ❓    |
 | ❌      | dismail.de    | ❓    |
-
+| ❌      | exulan.com.au    | ❓    |
 
 
 ## 💻 Installation
