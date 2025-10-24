@@ -265,6 +265,10 @@ These services are pending verification.
 | ❌      | slashmail.org    | ❓    |
 | ❌      | dismail.de    | ❓    |
 | ❌      | exulan.com.au    | ❓    |
+| ❌      | xiala.net    | ❓    |
+| ❌      | tachanka.org    | ❓    |
+| ❌      | potager.org    | ❓    |
+| ❌      | gresille.org    | ❓    |
 
 
 ## 💻 Installation
