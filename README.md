@@ -269,6 +269,7 @@ These services are pending verification.
 | ❌      | tachanka.org    | ❓    |
 | ❌      | potager.org    | ❓    |
 | ❌      | gresille.org    | ❓    |
+| ❌      | sdf.org    | ❓    |
 
 
 ## 💻 Installation
