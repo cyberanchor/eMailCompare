@@ -270,7 +270,7 @@ These services are pending verification.
 | ❌      | potager.org    | ❓    |
 | ❌      | gresille.org    | ❓    |
 | ❌      | sdf.org    | ❓    |
-
+| ❌      | 1net.gr    | ❓    |
 
 ## 💻 Installation
 
