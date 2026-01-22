@@ -396,6 +396,7 @@ We value your feedback to enhance our data!
 📬 **Email**: `cyberanchor@krutt.org` <br>
 🔑 **Keybase**: [`@cyberanchor`](https://keybase.io/cyberanchor) <br>
 🔒 **PGP Fingerprint**: `269E CB79 6CF5 31CB 3963  EC50 4F5A F4E9 F43B B1D2` <br>
+💸 **Bitcoin**: `bc1qtnc0v6n2azzufd7ksuwm6yre6fjcc8z030xfud` <br>
 
 
 ## 📜 License
