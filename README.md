@@ -388,7 +388,6 @@ All email service data is stored in `data.json`, enabling easy updates and contr
 We value your feedback to enhance our data!
 - [GitHub Issues](https://github.com/cyberanchor/eMailCompare/issues).
 
-
 ---
 
 ## 💸 Donations & contacts
