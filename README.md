@@ -271,6 +271,7 @@ These services are pending verification.
 | ❌      | gresille.org    | ❓    |
 | ❌      | sdf.org    | ❓    |
 | ❌      | 1net.gr    | ❓    |
+| ❌      | paranoid.email    | ❓    |
 
 ## 💻 Installation
 
