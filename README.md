@@ -395,17 +395,3 @@ All email service data is stored in `data.json`, enabling easy updates and contr
 
 We value your feedback to enhance our data!
 - [GitHub Issues](https://github.com/cyberanchor/eMailCompare/issues).
-
----
-
-## 💸 Donations & contacts
-  
-📬 **Email**: `cyberanchor@krutt.org` <br>
-🔑 **Keybase**: [`@cyberanchor`](https://keybase.io/cyberanchor) <br>
-🔒 **PGP Fingerprint**: `269E CB79 6CF5 31CB 3963  EC50 4F5A F4E9 F43B B1D2` <br>
-💸 **Bitcoin**: `bc1qtnc0v6n2azzufd7ksuwm6yre6fjcc8z030xfud` <br>
-
-
-## 📜 License
-
-If you use data or reference this project, please credit [**this repo**](https://github.com/cyberanchor/eMailCompare).
