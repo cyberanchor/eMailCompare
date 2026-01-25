@@ -1,4 +1,8 @@
-# 📬 Yet Another Email Service Comparison
+<div align="center">
+   
+<img src="logo2.jpg" width="200">
+
+# Yet Another Email Service Comparison
 
 ![GitHub Stars](https://img.shields.io/github/stars/cyberanchor/eMailCompare?color=green&style=social)
 ![GitHub Forks](https://img.shields.io/github/forks/cyberanchor/eMailCompare?color=green&style=social)
@@ -10,6 +14,9 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=flat-square)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat-square)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?logo=bootstrap&logoColor=white&style=flat-square)
+
+</div>
+
 
 ## 🌐 Overview
 
