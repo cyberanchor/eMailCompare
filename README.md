@@ -1,6 +1,6 @@
 <div align="center">
    
-<img src="logo2.jpg" width="200">
+<img src="logo.png" width="200">
 
 # Yet Another Email Service Comparison
 
