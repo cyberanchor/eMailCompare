@@ -1,8 +1,7 @@
 <div align="center">
    
-<img src="logo.png" width="200">
-
-# Yet Another Email Service Comparison
+<img src="logo.png" width="200"></img>
+<h1> Yet Another Email Service Comparison </h1>
 
 ![GitHub Stars](https://img.shields.io/github/stars/cyberanchor/eMailCompare?color=green&style=social)
 ![GitHub Forks](https://img.shields.io/github/forks/cyberanchor/eMailCompare?color=green&style=social)
@@ -10,9 +9,12 @@
 ![GitHub Pull Requests](https://img.shields.io/github/issues-pr/cyberanchor/eMailCompare?color=green&style=flat-square)
 ![GitHub Contributors](https://img.shields.io/github/contributors/cyberanchor/eMailCompare?color=green&style=flat-square)
 
-![HTML5](https://img.shields.io/badge/HTML-E34F26?logo=html&logoColor=white&style=flat-square)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=flat-square)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=flat-square)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat-square)
+![JSON](https://img.shields.io/badge/JSON-000000?logo=json&logoColor=white&style=flat-square)
+![CSV](https://img.shields.io/badge/CSV-1F6FEB?style=flat-square)
+
 
 </div>
 
