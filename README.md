@@ -280,6 +280,9 @@ These services are pending verification.
 | ❌      | sdf.org    | ❓    |
 | ❌      | 1net.gr    | ❓    |
 | ❌      | paranoid.email    | ❓    |
+| ❌      | coletivos.org    | ❓    |
+
+
 
 ## 💻 Installation
 
