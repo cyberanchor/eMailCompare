@@ -281,7 +281,10 @@ These services are pending verification.
 | ❌      | 1net.gr    | ❓    |
 | ❌      | paranoid.email    | ❓    |
 | ❌      | coletivos.org    | ❓    |
-
+| ❌      | openmbox.net    | ❓    |
+| ❌      | overmail.de    | ❓    |
+| ❌      | eumx.net    | ❓    |
+| ❌      | speedmail.se    | ❓    |
 
 
 ## 💻 Installation
