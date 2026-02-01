@@ -26,7 +26,7 @@
 
 
 
-## 🌐 Overview
+## Overview
 
 **Yet Another Email Service Comparison** - is a project dedicated to comparing a wide range of email services, from privacy-focused to general-purpose providers. <br>
 Built with HTML, CSS, JavaScript, Bootstrap, data stored in `data.json`. <br>
@@ -37,14 +37,14 @@ Some info taken from  [**Offshore-CAT**](https://offshore.cat/email.php). <br>
 Also see [**dismail.de**](https://dismail.de/serverlist.html). <br>
 
 
-## 📊 Features
+## Features
 
 - **Interactive table**: displays email provider details (e.g., domain, jurisdiction, encryption).
 - **Search & sort**: filter and sort services by keywords or columns.
 - **Data export**: download email domains as a `.txt` file.
 - **Color-coded insights**: highlights green, red, etc...
 
-## 🔍 Comparison criteria
+## Comparison criteria
 
 Email services are evaluated based on the following criteria (all data collected from public source):
 
@@ -58,8 +58,17 @@ Email services are evaluated based on the following criteria (all data collected
 - **Infrastructure**: A/MX records, server hosting provider, and company ownership.
 - **Domain details**: Primary and secondary domains, creation, and expiration dates.
 
+## Screenshots
 
----
+<div style="text-align: center;">
+  <img src="./assets/scr1.png" width="800" height="402" style="display: block; margin-left: auto; margin-right: auto;">
+</div>
+
+
+<div style="text-align: center;">
+  <img src="./assets/scr2.png" width="800" height="402" style="display: block; margin-left: auto; margin-right: auto;">
+</div>
+
 
 
 ## ✅ Checked email services
@@ -287,6 +296,7 @@ Email services awaiting manual account registration and subsequent testing.
 | ❌      | speedmail.se    | ❓    |
 
 
+<!--
 ## 💻 Installation
 
 1. **Clone the repository**:
@@ -301,17 +311,8 @@ Email services awaiting manual account registration and subsequent testing.
    http-server .
    ```
    Access at `http://localhost:8080`.
+-->
 
-## 📸 Screenshots
-
-<div style="text-align: center;">
-  <img src="./assets/scr1.png" width="800" height="402" style="display: block; margin-left: auto; margin-right: auto;">
-</div>
-
-
-<div style="text-align: center;">
-  <img src="./assets/scr2.png" width="800" height="402" style="display: block; margin-left: auto; margin-right: auto;">
-</div>
 
 ## Data storage
 
