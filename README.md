@@ -22,27 +22,26 @@
 
 </div>
 
-
-
-
-
 ## Overview
 
-**Yet Another Email Service Comparison** - is a project dedicated to comparing a wide range of email services, from privacy-focused to general-purpose providers. <br>
-Built with HTML, CSS, JavaScript, Bootstrap, data stored in `data.json`. <br>
+**Yet Another Email Service Comparison** - is a project dedicated to comparing a wide range of email service providers, from privacy-focused solutions to general-purpose platforms.
 
-Inspired by [**@Lissy93**](https://github.com/Lissy93) her repo [**email-comparison**](https://github.com/Lissy93/email-comparison). <br>
-Based on [**httpsmail.com**](https://www.httpsmail.com/mail/). <br>
-Some info taken from  [**Offshore-CAT**](https://offshore.cat/email.php). <br>
-Also see [**dismail.de**](https://dismail.de/serverlist.html). <br>
+The project is built using **HTML, CSS, JavaScript, and Bootstrap**, with all structured data stored in `data.json`.
 
+### Key Features
 
-## Features
+- **Interactive comparison table** displaying provider details such as domains, jurisdiction, and encryption support
+- **Search and sorting functionality** to filter services by keywords or table columns
+- **Data export** allowing email domains to be downloaded as a `.txt` file
+- **Color-coded indicators** (green, red, etc.) for quick visual insights
 
-- **Interactive table**: displays email provider details (e.g., domain, jurisdiction, encryption).
-- **Search & sort**: filter and sort services by keywords or columns.
-- **Data export**: download email domains as a `.txt` file.
-- **Color-coded insights**: highlights green, red, etc...
+### References & Inspiration
+
+- Inspired by **[@Lissy93](https://github.com/Lissy93)** and her repository **[email-comparison](https://github.com/Lissy93/email-comparison)**
+- Based on **[httpsmail.com](https://www.httpsmail.com/mail/)**
+- Additional information sourced from **[Offshore-CAT](https://offshore.cat/email.php)**
+- Related resource: **[dismail.de](https://dismail.de/serverlist.html)**
+
 
 ## Comparison criteria
 
