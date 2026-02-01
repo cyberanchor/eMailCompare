@@ -1,6 +1,6 @@
 <div align="center">
    
-<img src="logo.png" width="200"></img>
+<img src="./assets/logo.png" width="200"></img>
 <h1> Yet Another Email Service Comparison </h1>
 
 ![GitHub Stars](https://img.shields.io/github/stars/cyberanchor/eMailCompare?color=green&style=social)
@@ -305,12 +305,12 @@ Email services awaiting manual account registration and subsequent testing.
 ## 📸 Screenshots
 
 <div style="text-align: center;">
-  <img src="Screenshot_1.png" width="800" height="402" style="display: block; margin-left: auto; margin-right: auto;">
+  <img src="./assets/scr1.png" width="800" height="402" style="display: block; margin-left: auto; margin-right: auto;">
 </div>
 
 
 <div style="text-align: center;">
-  <img src="Screenshot_2.png" width="800" height="402" style="display: block; margin-left: auto; margin-right: auto;">
+  <img src="./assets/scr2.png" width="800" height="402" style="display: block; margin-left: auto; margin-right: auto;">
 </div>
 
 ## Data storage
