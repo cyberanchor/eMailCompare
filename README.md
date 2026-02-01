@@ -397,7 +397,13 @@ All email service data is stored in `data.json`, enabling easy updates and contr
 ]
 ```
 
-## 🤝 Contributing
+## Contributing
 
-We value your feedback to enhance our data!
-- [GitHub Issues](https://github.com/cyberanchor/eMailCompare/issues).
+Suggestions and contributions are welcome in [Issues](https://github.com/cyberanchor/eMailCompare/issues).
+
+## Contributors
+
+<a href="https://github.com/cyberanchor/eMailCompare/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=cyberanchor/eMailCompare" />
+</a>
+
