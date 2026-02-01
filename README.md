@@ -62,10 +62,7 @@ Email services are evaluated based on the following criteria (all data collected
 ---
 
 
-## ✅ Verified email services
-
-In this table, email services were personally verified by me [**@cyberanchor**](https://github.com/cyberanchor). <br>
-Accounts were registered on each email service, and manual tests were conducted across various parameters to confirm their privacy, security, and functionality.
+### ✅ Checked email services
 
 | Checked | Domain            | Flag |
 |--------|-------------------|------|
@@ -108,13 +105,9 @@ Accounts were registered on each email service, and manual tests were conducted 
 | ✅      | autistici.org     | 🇮🇹   |
 | ✅      | dmz.rs            | 🇷🇸   |
 
-
 ---
 
-
-## ❓ Unverified email services
-
-These services are pending verification.
+### ❓ Pending email services
 
 | Checked | Domain               | Flag |
 |--------|----------------------|------|
@@ -403,11 +396,11 @@ All email service data is stored in `data.json`, enabling easy updates and contr
 ]
 ```
 
-## Contributing
+### Contributing
 
 Suggestions and contributions are welcome in [Issues](https://github.com/cyberanchor/eMailCompare/issues).
 
-## Contributors
+### Contributors
 
 <a href="https://github.com/cyberanchor/eMailCompare/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=cyberanchor/eMailCompare" />
