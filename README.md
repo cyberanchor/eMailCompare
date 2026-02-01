@@ -63,6 +63,7 @@ Email services are evaluated based on the following criteria (all data collected
 
 
 ## ✅ Checked email services
+Accounts were manually registered on each email service, followed by controlled testing across defined privacy, security, and functionality criteria.
 
 | Checked | Domain            | Flag |
 |--------|-------------------|------|
