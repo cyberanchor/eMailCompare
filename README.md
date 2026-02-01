@@ -313,11 +313,11 @@ Email services awaiting manual account registration and subsequent testing.
   <img src="Screenshot_2.png" width="800" height="402" style="display: block; margin-left: auto; margin-right: auto;">
 </div>
 
-## 📂 Data storage
+## Data storage
 
-All email service data is stored in `data.json`, enabling easy updates and contributions. Each entry includes fields like domain, jurisdiction, and privacy policies, with a `color` field to customize cell colors in the interactive table. 
+All email service data is stored in `data.json`. Each entry includes fields like domain, jurisdiction, and privacy policies, with a `color` field to customize cell colors in the interactive table. 
 
-**Example JSON structure**: 
+**JSON example:**
 ```json
 [
   {
