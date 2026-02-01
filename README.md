@@ -293,6 +293,7 @@ Email services awaiting manual account registration and subsequent testing.
 | ❌      | overmail.de    | ❓    |
 | ❌      | eumx.net    | ❓    |
 | ❌      | speedmail.se    | ❓    |
+| ❌      | whor.email    | ❓    |
 
 
 <!--
