@@ -62,7 +62,7 @@ Email services are evaluated based on the following criteria (all data collected
 ---
 
 
-### ✅ Checked email services
+## ✅ Checked email services
 
 | Checked | Domain            | Flag |
 |--------|-------------------|------|
@@ -105,9 +105,8 @@ Email services are evaluated based on the following criteria (all data collected
 | ✅      | autistici.org     | 🇮🇹   |
 | ✅      | dmz.rs            | 🇷🇸   |
 
----
 
-### ❓ Pending email services
+## ❓ Pending email services
 
 | Checked | Domain               | Flag |
 |--------|----------------------|------|
@@ -396,13 +395,16 @@ All email service data is stored in `data.json`, enabling easy updates and contr
 ]
 ```
 
-### Contributing
+## Contributing
 
 Suggestions and contributions are welcome in [Issues](https://github.com/cyberanchor/eMailCompare/issues).
 
-### Contributors
+## Contributors
 
 <a href="https://github.com/cyberanchor/eMailCompare/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=cyberanchor/eMailCompare" />
 </a>
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=cyberanchor/eMailCompare&type=date&legend=bottom-right)](https://www.star-history.com/#cyberanchor/eMailCompare&type=date&legend=bottom-right)
