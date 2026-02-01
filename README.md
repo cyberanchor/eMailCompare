@@ -409,4 +409,4 @@ Suggestions and contributions are welcome in [Issues](https://github.com/cyberan
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=cyberanchor/eMailCompare&type=date&legend=bottom-right)](https://www.star-history.com/#cyberanchor/eMailCompare&type=date&legend=bottom-right)
+[![Star History Chart](https://api.star-history.com/svg?repos=cyberanchor/eMailCompare&type=date&legend=bottom-right&theme=dark)](https://www.star-history.com/#cyberanchor/eMailCompare&type=date&legend=bottom-right)
