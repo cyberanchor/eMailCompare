@@ -108,6 +108,7 @@ Accounts were manually registered on each email service, followed by controlled 
 
 
 ## ❓ Pending email services
+Email services awaiting manual account registration and subsequent testing.
 
 | Checked | Domain               | Flag |
 |--------|----------------------|------|
