@@ -294,7 +294,7 @@ Email services awaiting manual account registration and subsequent testing.
 | ❌      | eumx.net    | ❓    |
 | ❌      | speedmail.se    | ❓    |
 | ❌      | whor.email    | ❓    |
-
+| ❌      | elyria.cc    | ❓    |
 
 <!--
 ## 💻 Installation
