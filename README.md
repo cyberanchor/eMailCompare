@@ -16,7 +16,7 @@
 ![CSV](https://img.shields.io/badge/CSV-1F6FEB?style=flat-square)
 
 
-![demo](./assets/output_960_30.gif)
+![demo](./assets/demo.gif)
 
 🔗 <a href="https://cyberanchor.github.io/eMailCompare/web"><b>demo web</b></a> 
 
