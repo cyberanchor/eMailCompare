@@ -298,7 +298,7 @@ Email services awaiting manual account registration and subsequent testing.
 | ❌      | elyria.cc    | ❓    |
 | ❌      | morke.org    | ❓    |
 | ❌      | navi.land    | ❓    |
-
+| ❌      | nix.to    | ❓    |
 
 
 
