@@ -39,9 +39,10 @@ The project is built using **HTML, CSS, JavaScript, and Bootstrap**, with all st
 ### References & Inspiration
 
 - Inspired by **[@Lissy93](https://github.com/Lissy93)** and her repository **[email-comparison](https://github.com/Lissy93/email-comparison)**
-- Based on **[httpsmail.com](https://www.httpsmail.com/mail/)**
+- Based on **[httpsmail.com](https://www.httpsmail.com/mail/)** of **[@steley](https://github.com/steley)**
 - Additional information sourced from **[Offshore-CAT](https://offshore.cat/?page=email)**
 - Related resource: **[dismail.de](https://dismail.de/serverlist.html)**
+- Some sourced from: **[link-base.ms](https://link-base.ms/useful)**
 
 
 ## Comparison criteria
