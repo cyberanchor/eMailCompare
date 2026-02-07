@@ -300,8 +300,8 @@ Email services awaiting manual account registration and subsequent testing.
 | ❌      | morke.org    | ❓    |
 | ❌      | navi.land    | ❓    |
 | ❌      | nix.to    | ❓    |
-
-
+| ❌      | nixnet.email    | ❓    |
+| ❌      | underworld.dog    | ❓    |
 
 <!--
 ## 💻 Installation
