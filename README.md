@@ -302,6 +302,7 @@ Email services awaiting manual account registration and subsequent testing.
 | ❌      | nix.to    | ❓    |
 | ❌      | nixnet.email    | ❓    |
 | ❌      | underworld.dog    | ❓    |
+| ❌      | tinkmail.me    | ❓    |
 
 <!--
 ## 💻 Installation
