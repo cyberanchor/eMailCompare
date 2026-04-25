@@ -303,6 +303,7 @@ Email services awaiting manual account registration and subsequent testing.
 | ❌      | nixnet.email    | ❓    |
 | ❌      | underworld.dog    | ❓    |
 | ❌      | tinkmail.me    | ❓    |
+| ❌      | astermail.org   | ❓    |
 
 <!--
 ## 💻 Installation
