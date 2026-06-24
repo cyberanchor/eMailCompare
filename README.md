@@ -310,6 +310,7 @@ Email services awaiting manual account registration and subsequent testing.
  ❌      | donarev419.com    | ❓  
  ❌      | lnemail.net    | ❓ 
  ❌      | ghostbox.cc    | ❓ 
+  ❌      | rootshell.is    | ❓ 
 
 
 
