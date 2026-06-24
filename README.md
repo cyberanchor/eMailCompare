@@ -43,6 +43,8 @@ The project is built using **HTML, CSS, JavaScript, and Bootstrap**, with all st
 - Additional information sourced from **[Offshore-CAT](https://offshore.cat/?page=email)**
 - Related resource: **[dismail.de](https://dismail.de/serverlist.html)**
 - Some sourced from: **[link-base.ms](https://link-base.ms/useful)**
+- Some sourced from: **[kycnot.me](https://kycnot.me/?categories=email&verification=verified&verification=approved&verification=community)**
+- Some sourced from: **[monerica.com](https://monerica.com/businesses/email-providers-forwarders)**
 
 
 ## Comparison criteria
@@ -304,6 +306,12 @@ Email services awaiting manual account registration and subsequent testing.
 | ❌      | underworld.dog    | ❓    |
 | ❌      | tinkmail.me    | ❓    |
 | ❌      | astermail.org   | ❓    |
+ ❌      | goymail.email    | ❓    
+ ❌      | donarev419.com    | ❓  
+ ❌      | lnemail.net    | ❓ 
+ ❌      | ghostbox.cc    | ❓ 
+
+
 
 <!--
 ## 💻 Installation
