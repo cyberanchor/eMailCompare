@@ -224,7 +224,7 @@ Email services awaiting manual account registration and subsequent testing.
 | ❌      | emailn.de          | ❓    |
 | ❌      | tchncs.de          | ❓    |
 | ❌      | fuck.it          | ❓    |
-| ❌      | uq.ci          | ❓    |
+| ❌      | ~~uq.ci~~          | ❓    |
 | ❌      | xmr.email          | ❓    |
 | ❌      | noleron.com          | ❓    |
 | ❌      | inboxia.org          | ❓    |
@@ -241,7 +241,7 @@ Email services awaiting manual account registration and subsequent testing.
 | ❌      | entodaspartes.org          | ❓    |
 | ❌      | espora.org          | ❓    |
 | ❌      | flag.blackened.net          | ❓    |
-| ❌      | gleducar.org.ar          | ❓    |
+| ❌      | ~~gleducar.org.ar~~          | ❓    |
 | ❌      | greennet.org.uk          | ❓    |
 | ❌      | guardachuva.org          | ❓    |
 | ❌      | guifi.net          | ❓    |
@@ -273,9 +273,9 @@ Email services awaiting manual account registration and subsequent testing.
 | ❌      | systerserver.net          | ❓    |
 | ❌      | walla.co.il          | ❓    |
 | ❌      | envs.net          | ❓    |
-| ❌      | z.org          | ❓    |
+| ❌      | ~~z.org~~          | ❓    |
 | ❌      | tiscali.cz         | ❓    |
-| ❌      | mailhaven.su         | ❓    |
+| ❌      | ~~mailhaven.su~~         | ❓   |
 | ❌      | skymail.ink         | ❓    |
 | ❌      | simplemail.co.in       | ❓    |
 | ❌      | xyamail.com       | ❓    |
@@ -284,7 +284,7 @@ Email services awaiting manual account registration and subsequent testing.
 | ❌      | cc.cc      | ❓    |
 | ❌      | slashmail.org    | ❓    |
 | ❌      | dismail.de    | ❓    |
-| ❌      | exulan.com.au    | ❓    |
+| ❌      | ~~exulan.com.au~~    | ❓    |
 | ❌      | xiala.net    | ❓    |
 | ❌      | tachanka.org    | ❓    |
 | ❌      | potager.org    | ❓    |
@@ -311,7 +311,7 @@ Email services awaiting manual account registration and subsequent testing.
  ❌      | lnemail.net    | ❓ 
  ❌      | ghostbox.cc    | ❓ 
   ❌      | rootshell.is    | ❓ 
-
+| ❌      | unix.dog   | ❓    
 
 
 <!--
