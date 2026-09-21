@@ -115,7 +115,7 @@ Accounts were manually registered on each email service, followed by controlled 
 | ✅      | fbm-mail.com      | 🇷🇺   |
 | ✅      | isellemails.com   | 🇺🇸   |
 | ✅      | disroot.org       | 🇳🇱   |
-| ✅      | autistici.org     | 🇮🇹   |
+| ✅      |  ̶ ̶a̶u̶t̶i̶s̶t̶i̶c̶i̶.̶o̶r̶g̶     | 🇮🇹   |
 | ✅      | dmz.rs            | 🇷🇸   |
 
 
