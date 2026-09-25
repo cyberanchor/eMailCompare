@@ -113,7 +113,7 @@ Accounts were manually registered on each email service, followed by controlled 
 | ✅      | offilive.com      | 🇫🇮   |
 | ✅      | contactoffice.com | 🇧🇪   |
 | ✅      | fbm-mail.com      | 🇷🇺   |
-| ✅      | isellemails.com   | 🇺🇸   |
+| ❌      |  ̶i̶s̶e̶l̶l̶e̶m̶a̶i̶l̶s̶.̶c̶o̶m̶   | 🇺🇸   |
 | ✅      | disroot.org       | 🇳🇱   |
 | ❌      |  ̶ ̶a̶u̶t̶i̶s̶t̶i̶c̶i̶.̶o̶r̶g̶     | 🇮🇹   |
 | ✅      | dmz.rs            | 🇷🇸   |
