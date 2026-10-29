@@ -117,6 +117,7 @@ Accounts were manually registered on each email service, followed by controlled 
 | ✅      | disroot.org       | 🇳🇱   |
 | ❌      |  ̶ ̶a̶u̶t̶i̶s̶t̶i̶c̶i̶.̶o̶r̶g̶     | 🇮🇹   |
 | ✅      | dmz.rs            | 🇷🇸   |
+| ✅      | vaelmail.com      | 🇸🇪   |
 
 
 ## ❓ Pending email services
@@ -221,7 +222,6 @@ Email services awaiting manual account registration and subsequent testing.
 | ❌      | ok.de          | ❓    |
 | ❌      | directbox.com          | ❓    |
 | ❌      | mailjunky.net          | ❓    |
-| ❌      | emailn.de          | ❓    |
 | ❌      | tchncs.de          | ❓    |
 | ❌      | fuck.it          | ❓    |
 | ❌      | ~~uq.ci~~          | ❓    |
@@ -248,7 +248,6 @@ Email services awaiting manual account registration and subsequent testing.
 | ❌      | hackbloc.org          | ❓    |
 | ❌      | immerda.ch          | ❓    |
 | ❌      | indivia.net          | ❓    |
-| ❌      | inventati.org          | ❓    |
 | ❌      | kemit.net          | ❓    |
 | ❌      | koumbit.org          | ❓    |
 | ❌      | lautre.net          | ❓    |
@@ -279,11 +278,9 @@ Email services awaiting manual account registration and subsequent testing.
 | ❌      | skymail.ink         | ❓    |
 | ❌      | simplemail.co.in       | ❓    |
 | ❌      | xyamail.com       | ❓    |
-| ❌      | anarchyplanet.org      | ❓    |
 | ❌      | northmail.ca      | ❓    |
 | ❌      | cc.cc      | ❓    |
 | ❌      | slashmail.org    | ❓    |
-| ❌      | dismail.de    | ❓    |
 | ❌      | ~~exulan.com.au~~    | ❓    |
 | ❌      | xiala.net    | ❓    |
 | ❌      | tachanka.org    | ❓    |
