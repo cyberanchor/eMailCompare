@@ -5007,7 +5007,7 @@
             "color": "none"
         },
         "Privacy policy": {
-            "value": "Collect IP addresses, cookies, advertising, GDPR\nhttps://mail-online.dk/persondatapolitik",
+            "value": "Cookies, advertising, GDPR\nhttps://mail-online.dk/persondatapolitik",
             "color": "none"
         },
         "Email(receive a verification link)": {
@@ -5303,7 +5303,7 @@
             "color": "none"
         },
         "Privacy policy": {
-            "value": "Collect IP addresses, cookies, third parties, encryption, GDPR, delete inactive accounts (6 mos.)\nhttps://dismail.de/datenschutz.html",
+            "value": "Collect IP addresses, cookies, no third-party sharing (claimed), encryption, GDPR, delete inactive accounts (6 mos.)\nhttps://dismail.de/datenschutz.html",
             "color": "none"
         },
         "Email(receive a verification link)": {
@@ -6117,7 +6117,7 @@
             "color": "none"
         },
         "Privacy policy": {
-            "value": "Cookies, encryption, GDPR\nhttps://mail.world/gdpr",
+            "value": "Encryption, GDPR\nhttps://mail.world/gdpr",
             "color": "none"
         },
         "Email(receive a verification link)": {
@@ -10631,7 +10631,7 @@
             "color": "none"
         },
         "Privacy policy": {
-            "value": "Collect IP addresses, cookies, advertising, GDPR\nhttps://reg.tiscali.cz/privacy-policy",
+            "value": "Collect IP addresses, cookies, GDPR\nhttps://reg.tiscali.cz/privacy-policy",
             "color": "none"
         },
         "Email(receive a verification link)": {
@@ -12650,6 +12650,4224 @@
         },
         "Note": {
             "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇫🇮",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "egali.top",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "43.240.149.96 | 🇩🇪 | Germany | AS214279 | DASABO OU",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mail.egali.top | 🇩🇪 | Germany | AS214279 | DASABO OU",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2025-01-07",
+            "color": "red"
+        },
+        "Domain expired": {
+            "value": "2028-01-07",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Fourteen Eyes (👀 14)",
+            "color": "purple"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Germany",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "egali.top anarchist mailbox\nEmail, like the old internet intended: hosted from a small physical server in the operator's bedroom. No ads, no analytics, no big-tech hosting stack, Cloudflare/AWS free, Tor-friendly, independent / non-profit. 100 MB per mailbox.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Illegal actions (spam, hacking), harassment, fraud\nhttps://egali.top/email",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": "0.005 XMR",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: accepts cryptocurrency, PGP/E2E encryption. Operator's own warning: no SLA, occasional downtime, prefer not to use as a primary mailbox. Mailboxes are sold for Monero via Session (@egalitop) or shop.egali.top. Abuse contact: abuse@egali.top.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇺🇸",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "elektrine.com",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "95.173.206.45 | 🇺🇸 | United States | AS60068 | Datacamp Limited",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mail.elektrine.com | 🇺🇸 | United States | AS60068 | Datacamp Limited",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2018-11-17",
+            "color": "none"
+        },
+        "Domain expired": {
+            "value": "2027-11-17",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "United States",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Elektrine: private email, VPN, chat, and encrypted files\nEmail, VPN, chat, DNS, and encrypted notes, passwords, and files. No phone number, no connection logs on disk, and client-side encryption we can't read.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Illegal actions (spam, hacking), harassment\nhttps://elektrine.com/terms",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "No IP logging (claimed), cookies, no tracking (claimed), no third-party sharing (claimed), share upon authorities' request, encryption, no-logs claim, does not sell data (claimed)\nhttps://elektrine.com/privacy",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": "free (Alpha: 1 GB, 3 aliases); Omega $6/month or $58/year (100 GB, unlimited aliases), paid in Monero",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: no phone number required, accepts cryptocurrency, PGP/E2E encryption. Tor: elekhj7afj4qnrr4yd3bkzslsyo5jgfxw3orgjkhlcxifueodybyiiad.onion.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇺🇸",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "fastemail.io",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "188.114.97.3 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.\n188.114.96.3 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mx2.secureforwards.net | 🇺🇸 | United States | AS18450 | WebNX, Inc.",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2024-03-25",
+            "color": "red"
+        },
+        "Domain expired": {
+            "value": "2027-03-25",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "United States",
+            "color": "none"
+        },
+        "Site description": {
+            "value": null,
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website blocks automated access (bot check).",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇺🇦",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "fmail.net",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "194.106.216.131 | 🇺🇦 | Ukraine |  | X.UA",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "smtp.fmail.net | 🇺🇦 | Ukraine |  | X.UA",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2016-10-25",
+            "color": "none"
+        },
+        "Domain expired": {
+            "value": "2027-10-25",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Ukraine",
+            "color": "none"
+        },
+        "Site description": {
+            "value": null,
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website unreachable (timeout: timed out).",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇺🇸",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "eprivatemail.com",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "35.71.142.77 | 🇨🇦 | Canada | AS16509 | Amazon.com, Inc.\n52.223.52.2 | 🇨🇦 | Canada | AS16509 | Amazon.com, Inc.",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "inbound-smtp.us-east-1.amazonaws.com | 🇺🇸 | United States | AS14618 | Amazon.com, Inc.",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2024-09-17",
+            "color": "red"
+        },
+        "Domain expired": {
+            "value": "2027-09-17",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "United States",
+            "color": "none"
+        },
+        "Site description": {
+            "value": null,
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website blocks automated access (bot check).",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇺🇸",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "homemail.info",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "76.223.91.20 | 🇺🇸 | United States | AS16509 | Amazon.com, Inc.\n5.161.47.86 | 🇺🇸 | United States | AS213230 | Hetzner Online GmbH",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": null,
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2026-07-08",
+            "color": "red"
+        },
+        "Domain expired": {
+            "value": "2027-07-08",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "United States",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Get homemail.info — Afternic / GoDaddy | ED.com\nMoz DA 7 on a memorable .info — homemail.info is ready to redirect or relaunch. Listed at $100.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Illegal actions (hacking), IP violation, fraud\nhttps://expireddomains.com/tos",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Cookies, analytics/tracking, advertising, encryption\nhttps://expireddomains.com/privacy",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": "free",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. No MX record: domain cannot receive mail.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇺🇸",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "zebramailbox.com",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "173.236.247.43 | 🇺🇸 | United States | AS26347 | New Dream Network, LLC",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mx1.mailchannels.net | 🇺🇸 | United States | AS16509 | Amazon.com, Inc.\nmx2.mailchannels.net | 🇺🇸 | United States | AS16509 | Amazon.com, Inc.",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2020-12-23",
+            "color": "none"
+        },
+        "Domain expired": {
+            "value": "2026-12-23",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇺🇸 Paul Couture",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "United States",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Submitted Artwork .:. No Agenda Art Generator\nExplore the artwork submitted at the No Agenda Art Generator.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Homepage does not mention e-mail.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇺🇸",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "securemail.opentext.com",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "137.236.131.49 | 🇺🇸 | United States | AS31917 | Open Text Corporation",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mxa-00102601.gslb.pphosted.com | 🇺🇸 | United States | AS22843 | Proofpoint, Inc.\nmxb-00102601.gslb.pphosted.com | 🇺🇸 | United States | AS26211 | Proofpoint, Inc.",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "1994-10-26",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2027-10-25",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "United States",
+            "color": "none"
+        },
+        "Site description": {
+            "value": null,
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. MX taken from opentext.com. Website unreachable (ConnectionResetError: [Errno 104] Connection reset by peer).",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇬🇷",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "mailbox.gr",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "178.33.249.125 | 🇫🇷 | France | AS16276 | OVH SAS",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mx.spamexperts.com | 🇳🇱 | Netherlands | AS174 | Cogent Communications, LLC\nfallbackmx.spamexperts.eu | 🇩🇪 | Germany | AS16633 | N-able Technologies, Inc.\nlastmx.spamexperts.net | 🇩🇪 | Germany | AS16633 | N-able Technologies, Inc.",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": null,
+            "color": "none"
+        },
+        "Domain expired": {
+            "value": null,
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Nine Eyes (👀 9)",
+            "color": "yellow"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "🇳🇱 Netherlands\n🇩🇪 Germany",
+            "color": "none"
+        },
+        "Site description": {
+            "value": null,
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇩🇪",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "blindzeln.org",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "176.96.138.64 | 🇩🇪 | Germany | AS58212 | dataforest GmbH",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mx03.secure-mailgate.com | 🇩🇪 | Germany | AS8648 | dogado GmbH\nmx04.secure-mailgate.com | 🇩🇪 | Germany | AS8648 | dogado GmbH\nwebbox222.server-home.org | 🇩🇪 | Germany | AS45012 | dogado GmbH",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2003-10-17",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2027-10-17",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Fourteen Eyes (👀 14)",
+            "color": "purple"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Germany",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "BLINDzeln -> Startseite\nBLINDzeln - Die Welt mit anderen Augen sehen, eine Community, welche Barrieren überwindet, abbaut und gemeinsam mehr erreichen will. Neben Foren und verschiedenen Chat-Systemen, bietet BLINDzeln einen Shop, mehrere Podcast-Produktionen, ein eigenes Radio-Magazin und vieles mehr. Und das Alles kostenlos und für jeden, nicht nur für Sehbehinderte und Blinde.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Homepage does not mention e-mail.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇺🇾",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "undernet.uy",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "200.40.115.74 | 🇺🇾 | Uruguay | AS6057 | Administracion Nacional de Telecomunicaciones",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mail.undernet.uy | 🇺🇾 | Uruguay | AS6057 | Administracion Nacional de Telecomunicaciones",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": null,
+            "color": "none"
+        },
+        "Domain expired": {
+            "value": null,
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Uruguay",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Undernet Uruguay: Servidor Comunitario Autogestionado",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Illegal actions (CSAM), harassment\nhttps://undernet.uy/terms.html",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": "donations",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Homepage does not mention e-mail. Site mentions: PGP/E2E encryption.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇧🇪",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "nubo.coop",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "79.99.203.51 | 🇧🇪 | Belgium | AS44312 | Moving Art Studio ASBL",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mail.nubo.coop | 🇧🇪 | Belgium | AS44312 | Moving Art Studio ASBL",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2017-06-21",
+            "color": "none"
+        },
+        "Domain expired": {
+            "value": "2027-06-21",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇧🇪 Nubo",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Fourteen Eyes (👀 14)",
+            "color": "purple"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Belgium",
+            "color": "none"
+        },
+        "Site description": {
+            "value": null,
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website blocks automated access (bot check).",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇺🇸",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "netaddress.com",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "165.212.8.50 | 🇺🇸 | United States | AS14454 | SilverSky, Inc.",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mxpool01.netaddress.usa.net | 🇺🇸 | United States | AS14454 | SilverSky, Inc.",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "1998-05-06",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2027-05-05",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "United States",
+            "color": "none"
+        },
+        "Site description": {
+            "value": null,
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website unreachable (timeout: timed out).",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇲🇾",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "webmail.com.my",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "104.37.184.189 | 🇺🇸 | United States | AS26666 | Interserver, Inc",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "webmail.com.my | 🇺🇸 | United States | AS26666 | Interserver, Inc",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2016-01-06",
+            "color": "none"
+        },
+        "Domain expired": {
+            "value": "2027-01-06",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇲🇾 ebusiness PLT",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "United States",
+            "color": "none"
+        },
+        "Site description": {
+            "value": null,
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇫🇷",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "pissmail.com",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "161.97.173.73 | 🇫🇷 | France | AS51167 | Contabo GmbH",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mail.pissmail.com | 🇫🇷 | France | AS51167 | Contabo GmbH",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2021-02-03",
+            "color": "red"
+        },
+        "Domain expired": {
+            "value": "2027-02-03",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Nine Eyes (👀 9)",
+            "color": "yellow"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "France",
+            "color": "none"
+        },
+        "Site description": {
+            "value": null,
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website unreachable (timeout: timed out).",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇨🇦",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "plummail.co",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "104.21.92.89 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.\n172.67.190.221 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": null,
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2020-08-07",
+            "color": "none"
+        },
+        "Domain expired": {
+            "value": "2027-08-07",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Canada",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Plum Mail Home\nBetter conversations with just an email address",
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": "$39/month; $350/year",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. No MX record: domain cannot receive mail. Site mentions: accepts cryptocurrency.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇫🇮",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "iobox.com",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "138.199.238.165 | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mx01.iobox.com | 🇫🇮 | Finland | AS24940 | Hetzner Online GmbH",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "1998-12-01",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2028-11-30",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Finland",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "iobox Email Services | Coming Q4 2026",
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website shows: \"iobox Email Services | Coming Q4 2026\". Site mentions: PGP/E2E encryption.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇨🇾",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "macaw.me",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "151.80.18.179 | 🇫🇷 | France | AS16276 | OVH SAS",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mail.macaw.me | 🇫🇷 | France | AS16276 | OVH SAS",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2018-05-28",
+            "color": "none"
+        },
+        "Domain expired": {
+            "value": "2027-05-28",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Nine Eyes (👀 9)",
+            "color": "yellow"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "France",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Macaw.me",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Illegal actions (CSAM, spam, hacking), IP violation, harassment\nhttps://macaw.me/tos/",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Homepage does not mention e-mail.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇺🇸",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "vern.cc",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "5.161.108.85 | 🇺🇸 | United States | AS213230 | Hetzner Online GmbH",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mail.vern.cc | 🇺🇸 | United States | AS213230 | Hetzner Online GmbH",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2021-10-05",
+            "color": "red"
+        },
+        "Domain expired": {
+            "value": "2027-10-05",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "United States",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "~vern Outage\nA non-commercial tilde focused on free-software and services",
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website shows: \"~vern Outage\".",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇺🇸",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "ctrl-c.club",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "165.227.127.54 | 🇺🇸 | United States | AS14061 | DigitalOcean, LLC",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "ctrl-c.club | 🇺🇸 | United States | AS14061 | DigitalOcean, LLC\nmail.ctrl-c.club | 🇺🇸 | United States | AS14061 | DigitalOcean, LLC",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2014-12-06",
+            "color": "none"
+        },
+        "Domain expired": {
+            "value": "2026-12-05",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "United States",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Ctrl-C.club!",
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Homepage does not mention e-mail.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇨🇦",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "tildamail.com",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": null,
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "route1.mx.cloudflare.net | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.\nroute2.mx.cloudflare.net | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.\nroute3.mx.cloudflare.net | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2019-08-22",
+            "color": "none"
+        },
+        "Domain expired": {
+            "value": "2027-08-22",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Canada",
+            "color": "none"
+        },
+        "Site description": {
+            "value": null,
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website unreachable (gaierror: [Errno -2] Name or service not known).",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇮🇱",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "safe-mail.net",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "212.143.36.220 | 🇮🇱 | Israel | AS1680 | Cellcom Fixed Line Communication L.P",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": null,
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "1998-10-10",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2027-10-09",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Israel",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Safe-mail.net",
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. No MX record: domain cannot receive mail.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇩🇪",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "mailjunky.net",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "87.154.4.174 | 🇩🇪 | Germany | AS3320 | Deutsche Telekom AG",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "pmg.home-hosting.de | 🇩🇪 | Germany | AS24961 | WIIT AG",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2022-01-25",
+            "color": "red"
+        },
+        "Domain expired": {
+            "value": "2027-01-25",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Fourteen Eyes (👀 14)",
+            "color": "purple"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Germany",
+            "color": "none"
+        },
+        "Site description": {
+            "value": null,
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website unreachable (timeout: timed out).",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇩🇪",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "tchncs.de",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "89.58.62.32 | 🇩🇪 | Germany | AS197540 | netcup GmbH",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "h1.tchncs.de | 🇩🇪 | Germany | AS197540 | netcup GmbH",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": null,
+            "color": "none"
+        },
+        "Domain expired": {
+            "value": null,
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Fourteen Eyes (👀 14)",
+            "color": "purple"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Germany",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Hallöchen! : tchncs\nHier wird eine Sammlung ganz wunderbarer OpenSource-Software für dich bereitgestellt.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Illegal actions (spam)\nhttps://tchncs.de/tos",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect IP addresses, cookies, analytics/tracking, GDPR\nhttps://tchncs.de/privacy",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": "donations",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Homepage does not mention e-mail.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": null,
+            "color": "grey"
+        },
+        "Domain": {
+            "value": "uq.ci",
+            "color": "grey"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "grey"
+        },
+        "A Record": {
+            "value": null,
+            "color": "grey"
+        },
+        "MX Record": {
+            "value": null,
+            "color": "grey"
+        },
+        "Domain crated": {
+            "value": "2024-03-30",
+            "color": "grey"
+        },
+        "Domain expired": {
+            "value": "2026-03-30",
+            "color": "grey"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "grey"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "grey"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": null,
+            "color": "grey"
+        },
+        "Site description": {
+            "value": null,
+            "color": "grey"
+        },
+        "ToS": {
+            "value": null,
+            "color": "grey"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "grey"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "grey"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "grey"
+        },
+        "Price": {
+            "value": null,
+            "color": "grey"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "grey"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Struck out in README. Domain does not resolve (NXDOMAIN).",
+            "color": "grey"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇬🇧",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "xmr.email",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "185.247.226.165 | 🇮🇸 | Iceland | AS200651 | FlokiNET ehf",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mx1.xmr.email | 🇬🇧 | United Kingdom | AS200651 | FlokiNET ehf\nxmr.email | 🇮🇸 | Iceland | AS200651 | FlokiNET ehf",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2024-04-26",
+            "color": "red"
+        },
+        "Domain expired": {
+            "value": "2027-04-26",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "🇬🇧 United Kingdom\n🇮🇸 Iceland",
+            "color": "none"
+        },
+        "Site description": {
+            "value": null,
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website unreachable (timeout: timed out).",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇫🇷",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "noleron.com",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "91.245.76.29 | 🇺🇦 | Ukraine | AS49824 | PC \"Astra-net\"",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "aspmx1.migadu.com | 🇫🇷 | France | AS16276 | OVH SAS\naspmx2.migadu.com | 🇫🇷 | France | AS16276 | OVH SAS",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2019-08-24",
+            "color": "none"
+        },
+        "Domain expired": {
+            "value": "2027-08-24",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Nine Eyes (👀 9)",
+            "color": "yellow"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "France",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "noleron.com\nConvenient online services available to everyone.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Illegal actions (spam, hacking), harassment, commercial use\nhttps://noleron.com/rules/",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Data/logs kept 30 days, no tracking (claimed), no ads (claimed), no third-party sharing (claimed)\nhttps://noleron.com/privacy/",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": "donations",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Homepage does not mention e-mail. Site mentions: accepts cryptocurrency.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": null,
+            "color": "none"
+        },
+        "Domain": {
+            "value": "inboxia.org",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": null,
+            "color": "none"
+        },
+        "MX Record": {
+            "value": null,
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": null,
+            "color": "none"
+        },
+        "Domain expired": {
+            "value": null,
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": null,
+            "color": "none"
+        },
+        "Site description": {
+            "value": null,
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Domain does not resolve (NXDOMAIN). Domain is not registered.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇳🇱",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "artikel-140.nl",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": null,
+            "color": "none"
+        },
+        "MX Record": {
+            "value": null,
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2026-05-26",
+            "color": "red"
+        },
+        "Domain expired": {
+            "value": "2026-12-06",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": null,
+            "color": "none"
+        },
+        "Site description": {
+            "value": null,
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Domain does not resolve (NXDOMAIN).",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇨🇭",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "boum.org",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "204.13.164.192 | 🇺🇸 | United States | AS16652 | Riseup Networks",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mx1.investici.org | 🇨🇭 | Switzerland | AS210861 | Open Networks Association\nmx2.investici.org | 🇸🇪 | Sweden | AS39287 | Materialism s.r.l.\nmx3.investici.org | 🇳🇱 | Netherlands | AS51088 | A2B IP B.V.",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2004-01-07",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2028-01-07",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Nine Eyes (👀 9)",
+            "color": "yellow"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "🇨🇭 Switzerland\n🇸🇪 Sweden\n🇳🇱 Netherlands",
+            "color": "none"
+        },
+        "Site description": {
+            "value": null,
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website unreachable (OSError: [Errno 113] No route to host).",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": null,
+            "color": "none"
+        },
+        "Domain": {
+            "value": "ecn.org",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": null,
+            "color": "none"
+        },
+        "MX Record": {
+            "value": null,
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "1996-08-16",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2030-08-15",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": null,
+            "color": "none"
+        },
+        "Site description": {
+            "value": null,
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. No MX record: domain cannot receive mail. Website unreachable (gaierror: [Errno -2] Name or service not known).",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇫🇷",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "entodaspartes.org",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "188.114.96.3 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.\n188.114.97.3 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "spool.mail.gandi.net | 🇫🇷 | France | AS29169 | GANDI SAS\nfb.mail.gandi.net | 🇫🇷 | France | AS29169 | GANDI SAS",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2004-02-09",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2029-02-09",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Nine Eyes (👀 9)",
+            "color": "yellow"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "France",
+            "color": "none"
+        },
+        "Site description": {
+            "value": null,
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website blocks automated access (bot check).",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇲🇽",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "espora.org",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "204.13.164.61 | 🇺🇸 | United States | AS16652 | Riseup Networks",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mail.espora.org | 🇨🇦 | Canada | AS16276 | OVH SAS",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2003-04-14",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2027-04-14",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Canada",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Espora.org\nEspora Base Autonóma Socio Educativa",
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Homepage does not mention e-mail.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": null,
+            "color": "none"
+        },
+        "Domain": {
+            "value": "flag.blackened.net",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": null,
+            "color": "none"
+        },
+        "MX Record": {
+            "value": null,
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "1997-06-09",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2027-06-08",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": null,
+            "color": "none"
+        },
+        "Site description": {
+            "value": null,
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Domain does not resolve (NXDOMAIN).",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇦🇷",
+            "color": "grey"
+        },
+        "Domain": {
+            "value": "gleducar.org.ar",
+            "color": "grey"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "grey"
+        },
+        "A Record": {
+            "value": null,
+            "color": "grey"
+        },
+        "MX Record": {
+            "value": null,
+            "color": "grey"
+        },
+        "Domain crated": {
+            "value": null,
+            "color": "grey"
+        },
+        "Domain expired": {
+            "value": null,
+            "color": "grey"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "grey"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "grey"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": null,
+            "color": "grey"
+        },
+        "Site description": {
+            "value": null,
+            "color": "grey"
+        },
+        "ToS": {
+            "value": null,
+            "color": "grey"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "grey"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "grey"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "grey"
+        },
+        "Price": {
+            "value": null,
+            "color": "grey"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "grey"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Struck out in README. Domain does not resolve (NXDOMAIN).",
+            "color": "grey"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇸🇬",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "guardachuva.org",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "188.114.96.3 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.\n188.114.97.3 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "_dc-mx.95cc050cb0f4.guardachuva.org | 🇸🇬 | Singapore | AS47583 | Hostinger International Limited",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2022-06-17",
+            "color": "red"
+        },
+        "Domain expired": {
+            "value": "2027-06-17",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Singapore",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "โยคะบําบัด Restorative Yoga ฟื้นฟูร่างกายหลังเหนื่อยล้า\nเหนื่อยล้าสะสม นอนเท่าไหร่ก็ไม่หาย? ลองโยคะบําบัด Restorative Yoga ที่ฟื้นฟูร่างกายและจิตใจในระดับลึก พร้อม 4 ท่าฝึกง่าย ๆ ทำเองที่บ้านได้",
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Homepage does not mention e-mail.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇪🇸",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "guifi.net",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "185.32.16.59 | 🇪🇸 | Spain | AS49835 | Fundacio guifi.net",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "smtp1.guifi.net | 🇪🇸 | Spain | AS49835 | Fundacio guifi.net\nsmtp2.guifi.net | 🇪🇸 | Spain | AS49835 | Fundacio guifi.net\nsmtp3.guifi.net | 🇪🇸 | Spain | AS49835 | Fundacio guifi.net",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2004-02-28",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2027-02-28",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Fourteen Eyes (👀 14)",
+            "color": "purple"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Spain",
+            "color": "none"
+        },
+        "Site description": {
+            "value": null,
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Cookies, GDPR\nhttps://landing.guifi.net/politica-de-privadesa-i-avis-legal/",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": "donations",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Homepage does not mention e-mail.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇮🇸",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "hackbloc.org",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "188.114.96.3 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.\n188.114.97.3 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mx1.1984.is | 🇮🇸 | Iceland | AS44925 | 1984 ehf\nmx2.1984.is | 🇮🇸 | Iceland | AS44925 | 1984 ehf",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2003-10-23",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2027-10-23",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Iceland",
+            "color": "none"
+        },
+        "Site description": {
+            "value": null,
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": null,
+            "color": "none"
+        },
+        "Domain": {
+            "value": "noblogs.org",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": null,
+            "color": "none"
+        },
+        "MX Record": {
+            "value": null,
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2005-11-19",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2030-11-19",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": null,
+            "color": "none"
+        },
+        "Site description": {
+            "value": null,
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. No MX record: domain cannot receive mail. Website unreachable (gaierror: [Errno -2] Name or service not known).",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇪🇸",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "pangea.org",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "45.150.186.207 | 🇪🇸 | Spain | AS208253 | Associacio Expansio de la Xarxa Oberta",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mail.pangea.org | 🇪🇸 | Spain | AS208253 | Associacio Expansio de la Xarxa Oberta\nmail2.pangea.org | 🇪🇸 | Spain | AS208253 | Associacio Expansio de la Xarxa Oberta\nmail3.pangea.org | 🇪🇸 | Spain | AS208253 | Associacio Expansio de la Xarxa Oberta",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "1995-07-24",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2027-07-23",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Fourteen Eyes (👀 14)",
+            "color": "purple"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Spain",
+            "color": "none"
+        },
+        "Site description": {
+            "value": null,
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website blocks automated access (bot check).",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇧🇷",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "sarava.org",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "37.218.240.81 | 🇳🇱 | Netherlands | AS47172 | Greenhost BV",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "estamira.sarava.org | 🇧🇷 | Brazil | AS26615 | TIM S/A",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2004-08-18",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2028-08-18",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Brazil",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Under maintenance.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website shows: \"Under maintenance.\".",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇮🇸",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "shelter.is",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "198.167.222.111 | 🇸🇪 | Sweden | AS39287 | Materialism s.r.l.",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mail.shelter.is | 🇸🇪 | Sweden | AS39287 | Materialism s.r.l.",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2013-09-11",
+            "color": "none"
+        },
+        "Domain expired": {
+            "value": null,
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇮🇸 FlokiNET ehf",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Fourteen Eyes (👀 14)",
+            "color": "purple"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Sweden",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Shelter\nAutonomous tech collective that provides secure and privacy friendly infrastructure that are run with solidarity in mind rather than motivated by profit",
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": "donations",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Homepage does not mention e-mail. Site mentions: accepts cryptocurrency.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇩🇪",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "snopyta.org",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": null,
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mxext1.mailbox.org | 🇩🇪 | Germany | AS199118 | Heinlein Support GmbH\nmxext2.mailbox.org | 🇩🇪 | Germany | AS199118 | Heinlein Support GmbH\nmxext3.mailbox.org | 🇩🇪 | Germany | AS199118 | Heinlein Support GmbH",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2018-07-25",
+            "color": "none"
+        },
+        "Domain expired": {
+            "value": "2027-07-25",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Fourteen Eyes (👀 14)",
+            "color": "purple"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Germany",
+            "color": "none"
+        },
+        "Site description": {
+            "value": null,
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website unreachable (gaierror: [Errno -2] Name or service not known).",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇳🇱",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "squat.net",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "185.52.224.2 | 🇳🇱 | Netherlands | AS8283 | Netwerkvereniging Coloclue",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "post.squat.net | 🇳🇱 | Netherlands | AS60781 | LeaseWeb Netherlands B.V.",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "1997-09-15",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2027-09-14",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Nine Eyes (👀 9)",
+            "color": "yellow"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Netherlands",
+            "color": "none"
+        },
+        "Site description": {
+            "value": null,
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website blocks automated access (bot check).",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇳🇱",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "systerserver.net",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "89.106.208.54 | 🇦🇹 | Austria | AS39837 | mur.at - Verein zur Foerderung von Netzwerkkunst",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mx.tuxic.nl | 🇳🇱 | Netherlands | AS60131 | High5! B.V.",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2005-03-07",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2027-03-07",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Nine Eyes (👀 9)",
+            "color": "yellow"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Netherlands",
+            "color": "none"
+        },
+        "Site description": {
+            "value": null,
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": null,
+            "color": "grey"
+        },
+        "Domain": {
+            "value": "z.org",
+            "color": "grey"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "grey"
+        },
+        "A Record": {
+            "value": null,
+            "color": "grey"
+        },
+        "MX Record": {
+            "value": null,
+            "color": "grey"
+        },
+        "Domain crated": {
+            "value": "1993-12-01",
+            "color": "grey"
+        },
+        "Domain expired": {
+            "value": "2027-12-08",
+            "color": "grey"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "grey"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "grey"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": null,
+            "color": "grey"
+        },
+        "Site description": {
+            "value": null,
+            "color": "grey"
+        },
+        "ToS": {
+            "value": null,
+            "color": "grey"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "grey"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "grey"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "grey"
+        },
+        "Price": {
+            "value": null,
+            "color": "grey"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "grey"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Struck out in README. DNS lookup failed (SERVFAIL).",
+            "color": "grey"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇨🇦",
+            "color": "grey"
+        },
+        "Domain": {
+            "value": "mailhaven.su",
+            "color": "grey"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "grey"
+        },
+        "A Record": {
+            "value": null,
+            "color": "grey"
+        },
+        "MX Record": {
+            "value": "route2.mx.cloudflare.net | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.\nroute3.mx.cloudflare.net | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.\nroute1.mx.cloudflare.net | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.",
+            "color": "grey"
+        },
+        "Domain crated": {
+            "value": "2026-03-16",
+            "color": "grey"
+        },
+        "Domain expired": {
+            "value": "2027-03-16",
+            "color": "grey"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "grey"
+        },
+        "Intelligence Alliance": {
+            "value": "Five Eyes (👀 5)",
+            "color": "grey"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Canada",
+            "color": "grey"
+        },
+        "Site description": {
+            "value": null,
+            "color": "grey"
+        },
+        "ToS": {
+            "value": null,
+            "color": "grey"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "grey"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "grey"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "grey"
+        },
+        "Price": {
+            "value": null,
+            "color": "grey"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "grey"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Struck out in README. Website unreachable (gaierror: [Errno -2] Name or service not known).",
+            "color": "grey"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇺🇸",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "slashmail.org",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "205.159.194.250 | 🇺🇸 | United States | AS6428 | CDM",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mailcall.slashmail.org | 🇺🇸 | United States | AS6428 | CDM",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2004-01-07",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2029-01-07",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "United States",
+            "color": "none"
+        },
+        "Site description": {
+            "value": null,
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website unreachable (timeout: timed out).",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇦🇺",
+            "color": "grey"
+        },
+        "Domain": {
+            "value": "exulan.com.au",
+            "color": "grey"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "grey"
+        },
+        "A Record": {
+            "value": null,
+            "color": "grey"
+        },
+        "MX Record": {
+            "value": null,
+            "color": "grey"
+        },
+        "Domain crated": {
+            "value": null,
+            "color": "grey"
+        },
+        "Domain expired": {
+            "value": null,
+            "color": "grey"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "grey"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "grey"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": null,
+            "color": "grey"
+        },
+        "Site description": {
+            "value": null,
+            "color": "grey"
+        },
+        "ToS": {
+            "value": null,
+            "color": "grey"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "grey"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "grey"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "grey"
+        },
+        "Price": {
+            "value": null,
+            "color": "grey"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "grey"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Struck out in README. Domain does not resolve (NXDOMAIN). Domain is not registered.",
+            "color": "grey"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇬🇧",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "tachanka.org",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "108.58.6.98 | 🇺🇸 | United States | AS6128 | Cablevision Systems Corp.",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "elderberry.rat.burntout.org | 🇬🇧 | United Kingdom | AS41354 | ITS Technology Group Limited",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2005-12-21",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2028-12-21",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "United Kingdom",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Tachanka",
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": "donations",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Homepage does not mention e-mail. Site mentions: accepts cryptocurrency, PGP/E2E encryption.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇦🇹",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "paranoid.email",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "176.9.122.61 | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mx1.paranoid.email | 🇦🇹 | Austria | AS57169 | EDIS GmbH\nmx2.paranoid.email | 🇦🇹 | Austria | AS57169 | EDIS GmbH\nmx3.paranoid.email | 🇦🇹 | Austria | AS57169 | EDIS GmbH\nmx4.paranoid.email | 🇦🇹 | Austria | AS57169 | EDIS GmbH",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2014-03-26",
+            "color": "none"
+        },
+        "Domain expired": {
+            "value": "2027-03-26",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Austria",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "PARANOID - Site Maintenance",
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website shows: \"PARANOID - Site Maintenance\". Site mentions: PGP/E2E encryption.",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇺🇸",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "openmbox.net",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "104.21.73.246 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.\n172.67.151.94 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mail.postno.de | 🇺🇸 | United States | AS36352 | HostPapa",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2022-10-20",
+            "color": "red"
+        },
+        "Domain expired": {
+            "value": "2028-10-20",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "United States",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "OpenMbox.net - Status Update",
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "No IP logging (claimed), no ads (claimed), no third-party sharing (claimed)\nhttps://openmbox.net/privacy",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website shows: \"OpenMbox.net - Status Update\".",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇺🇸",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "elyria.cc",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "45.38.20.29 | 🇺🇸 | United States | AS215659 | Aokigahara SRL",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mail.elyria.cc | 🇺🇸 | United States | AS215659 | Aokigahara SRL",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2025-08-26",
+            "color": "red"
+        },
+        "Domain expired": {
+            "value": "2027-08-26",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "United States",
+            "color": "none"
+        },
+        "Site description": {
+            "value": null,
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website unreachable (timeout: timed out).",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇨🇳",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "tinkmail.me",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "104.21.39.105 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.\n172.67.144.121 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mx1.tinkmail.me | 🇺🇸 | United States | AS40021 | Contabo Inc.\nmx2.tinkmail.me | 🇺🇸 | United States | AS40021 | Contabo Inc.",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2023-05-07",
+            "color": "red"
+        },
+        "Domain expired": {
+            "value": "2027-05-07",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "United States",
+            "color": "none"
+        },
+        "Site description": {
+            "value": null,
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website blocks automated access (bot check).",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": null,
+            "color": "none"
+        },
+        "Domain": {
+            "value": "goymail.email",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": null,
+            "color": "none"
+        },
+        "MX Record": {
+            "value": null,
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2026-04-27",
+            "color": "red"
+        },
+        "Domain expired": {
+            "value": "2027-04-27",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": null,
+            "color": "none"
+        },
+        "Site description": {
+            "value": null,
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. DNS lookup failed (SERVFAIL).",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇩🇪",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "donarev419.com",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "2.56.244.97 | 🇩🇪 | Germany | AS216063 | 24fire GmbH",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mail.donarev419.com | 🇩🇪 | Germany | AS44486 | synlinq.de",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2023-04-11",
+            "color": "red"
+        },
+        "Domain expired": {
+            "value": "2027-04-11",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Fourteen Eyes (👀 14)",
+            "color": "purple"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Germany",
+            "color": "none"
+        },
+        "Site description": {
+            "value": null,
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website unreachable (timeout: timed out).",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇺🇸",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "rootshell.is",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "89.127.233.140 | 🇮🇸 | Iceland | AS44925 | 1984 ehf",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mail.rootshell.is | 🇮🇸 | Iceland | AS44925 | 1984 ehf",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2026-03-13",
+            "color": "red"
+        },
+        "Domain expired": {
+            "value": null,
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Iceland",
+            "color": "none"
+        },
+        "Site description": {
+            "value": null,
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website blocks automated access (bot check).",
             "color": "none"
         }
     }

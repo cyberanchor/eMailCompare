@@ -252,6 +252,8 @@ Accounts were manually registered on each email service, followed by controlled 
 | 🤖      | neir.io           | 🇺🇸   |
 | 🤖      | smailr.com        | 🇬🇧   |
 | 🤖      | thelemail.com     | 🇺🇸   |
+| 🤖      | egali.top         | 🇫🇮   |
+| 🤖      | elektrine.com     | 🇺🇸   |
 
 
 ## ❓ Pending email services
