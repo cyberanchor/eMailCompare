@@ -198,3 +198,562 @@ Krov.dmz.rs | 🇷🇸 | Serbia | AS15958 | CETIN Ltd. Belgrade | CETIN Ltd. Bel
 " 🇸🇪","vaelmail.com","vael.email
 vael.pw
 ","217.60.78.29 | 🇸🇪 | Sweden | AS198189 | Throttle Limited","mail.vael.email | 🇸🇪 | Sweden | AS198189 | Throttle Limited",2026-09-30,2027-09-30,"Vael Technologies","Fourteen Eyes (👀 14)","Sweden","VaelMail: Privacy-first webmail with 16-digit account keys. No phone verification, no KYC, no tracking. Persistent aliases and native Tor/I2P support.","https://vaelmail.com/terms","https://vaelmail.com/privacy","no","no","Free (50 MB receive-only) / 5 EUR/mo (1 GB send/receive)","no","Native Monero (XMR) and Bitcoin payments. Scriptless No-JS mirror at nojs.vaelmail.com. Tor v3 onion service: 5gxnpixptykyv5fchr2qidjbrazjewswx77ddrqowpcmwmmgll57daid.onion."
+"🇵🇱","enbox.me",,"46.4.8.187 | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH","smtp.de01.enbox.net | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH",2022-03-04,2027-03-04,"🇵🇱 Enbox sp. z o. o.","Fourteen Eyes (👀 14)","Germany","Enbox — Private by default
+A private, end-to-end encrypted suite of 10 apps — email, photos, files, passwords, VPN and more. One private home for your whole family.","Illegal actions (spam, hacking)
+https://enbox.me/legal/terms/","Collect IP addresses, data/logs kept 3 mos., advertising, third parties, encryption, does not sell data (claimed)
+https://enbox.me/legal/privacy/",,,"free; $9.99/month; $29.99/month",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption."
+"🇷🇺","otso.city",,"45.89.60.199 | 🇦🇱 | Albania | AS215540 | GLOBAL CONNECTIVITY SOLUTIONS LLP","mx1.timeweb.ru | 🇷🇺 | Russia | AS9123 | JSC TIMEWEB
+mx2.timeweb.ru | 🇷🇺 | Russia | AS9123 | JSC TIMEWEB",2016-02-11,2027-02-11,,,"Russia","OtsoCity
+OtsoCity - полноценный и традиционный сервис электронной почты с красивым доменом.",,,,,"donations",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: accepts cryptocurrency."
+"🇩🇪","nextmail.app",,"188.114.97.3 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.
+188.114.96.3 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.","mail.nextmail.app | 🇩🇪 | Germany | AS16509 | Amazon.com, Inc.",2023-05-02,2027-05-02,,"Fourteen Eyes (👀 14)","Germany","NextMail Webmail :: Welcome to NextMail Webmail",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇨🇦","mailsect.com",,"188.114.96.3 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.
+188.114.97.3 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.","route1.mx.cloudflare.net | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.
+route3.mx.cloudflare.net | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.
+route2.mx.cloudflare.net | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.",2024-03-20,2027-03-20,,"Five Eyes (👀 5)","Canada","MailSect - Privacy Oriented Email Service",,"No tracking (claimed), encryption
+https://mailsect.com/privacy",,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption."
+"🇺🇸","rapidmail.io",,"103.168.172.37 | 🇺🇸 | United States | AS151847 | Fastmail Pty Ltd
+103.168.172.52 | 🇺🇸 | United States | AS151847 | Fastmail Pty Ltd","us1-smtp.messagingengine.com | 🇺🇸 | United States | AS151847 | Fastmail Pty Ltd
+us2-smtp.messagingengine.com | 🇺🇸 | United States | AS151847 | Fastmail Pty Ltd",2018-02-07,2027-02-07,,"Five Eyes (👀 5)","United States","RapidMail.io",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: invite-only."
+"🇺🇸","efind.com",,"204.94.93.157 | 🇺🇸 | United States | AS19893 | NTT Global Data Centers Americas, INC.","mail.efind.com | 🇺🇸 | United States | AS19893 | NTT Global Data Centers Americas, INC.",1997-06-24,2029-06-23,,"Five Eyes (👀 5)","United States","eFind
+eFind provides fast, accurate and reliable search results for webpages, images and videos.","Illegal actions (spam, hacking), IP violation
+https://ads.efind.com/terms","Collect IP addresses, cookies, advertising, third parties, share upon authorities' request, encryption, GDPR
+https://ads.efind.com/privacy",,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇬🇧","transcom.net",,"194.26.222.166 | 🇬🇧 | United Kingdom | AS59895 | Binary Racks Limited","mx1.mxguard.uk | 🇬🇧 | United Kingdom | AS59895 | Binary Racks Limited
+mx2.mxguard.uk | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH",1997-08-24,2027-08-23,,"Five Eyes (👀 5)","🇬🇧 United Kingdom
+🇩🇪 Germany","Transcom — UK hosting, email security, fraud protection, VoIP & domains
+Transcom keeps British businesses online with domains, hosting, email, VPS and security on fast NVMe infrastructure, backed by 24/7 UK support since 1993.","Illegal actions (spam, hacking)
+https://transcom.co.uk/page/terms","Collect IP addresses, cookies, no ads (claimed), share upon authorities' request, encryption, GDPR, does not sell data (claimed)
+https://transcom.co.uk/page/privacy",,,"free",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇺🇸","emailsecure.org",,"76.223.105.230 | 🇺🇸 | United States | AS16509 | Amazon.com, Inc.
+13.248.243.5 | 🇨🇦 | Canada | AS16509 | Amazon.com, Inc.","mxa.mailgun.org | 🇺🇸 | United States | AS396982 | Google LLC
+mxb.mailgun.org | 🇺🇸 | United States | AS396982 | Google LLC",2024-12-15,2026-12-15,,"Five Eyes (👀 5)","United States","emailsecure.org
+Launching Soon",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇺🇸","mailtomb.com",,"99.83.231.61 | 🇺🇸 | United States | AS16509 | Amazon.com, Inc.
+75.2.60.5 | 🇺🇸 | United States | AS16509 | Amazon.com, Inc.","in1-smtp.messagingengine.com | 🇺🇸 | United States | AS151847 | Fastmail Pty Ltd
+in2-smtp.messagingengine.com | 🇺🇸 | United States | AS151847 | Fastmail Pty Ltd",2022-08-21,2027-08-21,,"Five Eyes (👀 5)","United States","Mail Tomb | Secure Email
+Private secure email. Now in beta access.",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇺🇸","fortressinbox.com",,"92.113.23.24 | 🇩🇪 | Germany | AS47583 | Hostinger International Limited
+92.113.16.44 | 🇩🇪 | Germany | AS47583 | Hostinger International Limited","fortressinbox-com.mail.protection.outlook.com | 🇺🇸 | United States | AS8075 | Microsoft Corporation",2024-09-19,2028-09-19,,"Five Eyes (👀 5)","United States","Fortress Inbox: Secure, Private Email Service by Invitation | Fortress Inbox
+Fortress Inbox offers a private, invitation-only email service prioritizing security and privacy. With end-to-end encryption and no tracking, your communications remain confidential. Join our exclusive community dedicated to safeguarding your data and ensuring reliable service performance.",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption."
+"🇺🇸","mailsea.top",,"92.113.16.128 | 🇩🇪 | Germany | AS47583 | Hostinger International Limited
+92.113.23.143 | 🇩🇪 | Germany | AS47583 | Hostinger International Limited","mx1.hostinger.com | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.
+mx2.hostinger.com | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.",2024-11-30,2026-11-30,,"Five Eyes (👀 5)","Canada","MailSea – Secure Email for Smooth Communication
+MailSea is a fast, secure, and privacy-focused email provider designed for professionals and everyday use.",,,,,"free",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇩🇪","purelyemail.com",,"217.160.0.206 | 🇩🇪 | Germany | AS8560 | IONOS SE","mx00.ionos.co.uk | 🇩🇪 | Germany | AS8560 | IONOS SE
+mx01.ionos.co.uk | 🇩🇪 | Germany | AS8560 | IONOS SE",2006-01-25,2027-01-25,,"Fourteen Eyes (👀 14)","Germany","Purely Email",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇺🇸","r7mail.com",,"172.245.56.71 | 🇺🇸 | United States | AS36352 | HostPapa","in1-smtp.messagingengine.com | 🇺🇸 | United States | AS151847 | Fastmail Pty Ltd
+in2-smtp.messagingengine.com | 🇺🇸 | United States | AS151847 | Fastmail Pty Ltd",2024-04-05,2029-04-05,,"Five Eyes (👀 5)","United States","DR7 Mail",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇺🇸","emailkite.com",,"72.52.144.164 | 🇺🇸 | United States | AS32244 | Liquid Web, L.L.C","emailkite.com | 🇺🇸 | United States | AS32244 | Liquid Web, L.L.C",2007-07-09,2028-07-09,,"Five Eyes (👀 5)","United States","Email Kite",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇨🇦","aivmail.com",,"188.114.96.3 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.
+188.114.97.3 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.","route3.mx.cloudflare.net | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.
+route2.mx.cloudflare.net | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.
+route1.mx.cloudflare.net | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.",2019-06-25,2027-06-25,,"Five Eyes (👀 5)","Canada","AivMail provides a private email service
+AivMail believes that online privacy matters. Find out how we provide a truly private email which respects the privacy of its users.",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇩🇪","privi.email",,"172.66.0.70 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.","mail.protonmail.ch | 🇩🇪 | Germany | AS62371 | Proton AG
+mailsec.protonmail.ch | 🇩🇪 | Germany | AS62371 | Proton AG",2021-04-15,2027-04-15,,"Fourteen Eyes (👀 14)","Germany","Privi.Email Custom Private Email for Entrepreneurs & AI Applications
+Privi.Email Custom Private Email for Entrepreneurs, Families, Professionals & AI Applications",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇩🇪","anonmails.de",,"212.132.69.194 | 🇩🇪 | Germany | AS8560 | IONOS SE","mail.anonmails.de | 🇩🇪 | Germany | AS8560 | IONOS SE",,,,"Fourteen Eyes (👀 14)","Germany","anonmails.de
+Temporäre E-Mail-Adressen für 1 bis 50 Tage - Temporary email addresses for 1 to 50 days",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇪🇪","eppie.io",,"185.215.4.68 | 🇷🇺 | Russia | AS57724 | DDOS-GUARD LTD","eppie-io.mail.protection.outlook.com | 🇪🇸 | Spain | AS8075 | Microsoft Corporation",2022-01-27,2027-01-27,"🇪🇪 Tuvisoft OÜ","Fourteen Eyes (👀 14)","Spain","Eppie
+Encrypted peer-to-peer instant email",,"Third parties, encryption
+https://eppie.io/privacy-policy",,,"free",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇩🇪","fabmail.org",,"185.26.156.245 | 🇩🇪 | Germany | AS58010 | uvensys GmbH","aspmx.l.google.com | 🇺🇸 | United States | AS15169 | Google LLC
+alt1.aspmx.l.google.com | 🇺🇸 | United States | AS15169 | Google LLC
+alt2.aspmx.l.google.com | 🇺🇸 | United States | AS15169 | Google LLC
+aspmx2.googlemail.com | 🇺🇸 | United States | AS15169 | Google LLC",2016-05-06,2027-05-06,"🇩🇪 Fab Lab Region Nürnberg e.V","Five Eyes (👀 5)","United States","Fabmail - Your personal FabLab email address
+A mail service for FabLab users",,,,,"free",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇰🇿","maimail.org",,"5.35.80.29 | 🇰🇿 | Kazakhstan | AS205516 | NLS ASTANA LLP","mail.maimail.org | 🇰🇿 | Kazakhstan | AS205516 | NLS ASTANA LLP",2024-07-03,2027-07-03,,,"Kazakhstan","Maimail - convenient and reliable Mail for You
+Description site",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇨🇭","mrmail.com",,"94.237.89.190 | 🇩🇪 | Germany | AS202053 | UpCloud Ltd","mx3.mrmail.com | 🇨🇭 | Switzerland | AS212865 | netconnect AG
+mx5.mrmail.com | 🇨🇭 | Switzerland | AS212865 | netconnect AG
+mx4.mrmail.com | 🇳🇱 | Netherlands | AS63949 | Akamai Connected Cloud",1995-11-08,2027-11-07,"🇨🇭 LDKS AG","Nine Eyes (👀 9)","🇨🇭 Switzerland
+🇳🇱 Netherlands","Zimbra Hosting & Migration – MrMail",,"Cookies, no tracking (claimed)
+https://mrmail.com/de/privacy/",,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇷🇸","cock.li","420blaze.it
+aaathats3as.com
+airmail.cc
+cocaine.ninja
+cock.email
+cock.lu
+cumallover.me
+firemail.cc
+horsefucker.org
+memeware.net
+national.shitposting.agency
+nigge.rs
+waifu.club","193.239.85.202 | 🇷🇴 | Romania | AS9009 | M247 Europe SRL","mx1.cock.li | 🇷🇸 | Serbia | AS9009 | M247 Europe SRL
+mx2.cock.li | 🇷🇸 | Serbia | AS9009 | M247 Europe SRL",2003-12-26,,,,"Serbia","Home — Cock.li E-mail Hosting","Illegal actions (spam)
+https://cock.li/terms.php","Collect IP addresses, data/logs kept 30 days, cookies, no third-party sharing (claimed), share upon authorities' request, encryption
+https://cock.li/privacy.php",,,"free",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: accepts cryptocurrency, PGP/E2E encryption. Tor: rurcblzhmdk22kttfkel2zduhyu3r6to7knyc7wiorzrx5gw4c3lftad.onion."
+"🇷🇺","beemail.space",,"37.140.192.230 | 🇷🇺 | Russia | AS197695 | Domain names registrar REG.RU, Ltd","mx1.hosting.reg.ru | 🇷🇺 | Russia | AS197695 | Domain names registrar REG.RU, Ltd
+mx2.hosting.reg.ru | 🇷🇺 | Russia | AS197695 | Domain names registrar REG.RU, Ltd",2024-09-04,2027-09-04,,,"Russia","Beemail",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇨🇭","black.com",,"104.26.12.167 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.
+104.26.13.167 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.","mail.black.com | 🇨🇭 | Switzerland | AS61098 | Akenes SA",1994-09-25,2030-09-24,,,"Switzerland","black.com - Encrypted Email
+Encrypted email on Swiss infrastructure. Get your own @black.com email address now!",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇺🇸","encrypted.com",,"188.114.96.3 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.
+188.114.97.3 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.","cpanel01.tulix.tv | 🇺🇸 | United States | AS7219 | Tulix Systems, Inc.",1995-06-07,2028-06-06,"🇺🇸 Tulix Systems Inc","Five Eyes (👀 5)","United States","Encrypted — private video calls, chat & file sharing directly between browsers, no server
+Encrypted.com is a free, serverless video-conferencing page: calls, chat, whiteboard and file sharing go directly between browsers over end-to-end encrypted WebRTC. No account, no app, no server sees your media. Works with zero third parties if you want.",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: no personal data required, PGP/E2E encryption."
+"🇳🇱","dds.nl",,"81.21.136.122 | 🇳🇱 | Netherlands | AS31586 | Signet B.V.","mx.dds.nl | 🇳🇱 | Netherlands | AS31586 | Signet B.V.",1994-09-28,,"🇳🇱 DDS City B.V","Nine Eyes (👀 9)","Netherlands","DDS Home
+Internet, vast bellen en webhosting. DDS heeft het voordeligste aanbod voor thuis en zakelijk","Page found, no key clauses detected
+https://dds.nl/dds/voorwaarden.php","Collect IP addresses, cookies, third parties
+https://dds.nl/dds/privacy.php",,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇵🇹","portugalmail.pt",,"213.205.79.54 | 🇵🇹 | Portugal | AS1897 | NOS COMUNICACOES, S.A.","a.mx.portugalmail.pt | 🇵🇹 | Portugal | AS2860 | NOS COMUNICACOES, S.A.
+b.mx.portugalmail.pt | 🇵🇹 | Portugal | AS2860 | NOS COMUNICACOES, S.A.
+f.mx.portugalmail.pt | 🇵🇹 | Portugal | AS2860 | NOS COMUNICACOES, S.A.",1999-03-12,2039-07-05,"🇵🇹 Portugalmail Comunicações S.A",,"Portugal","Portugalmail
+Email pessoal",,"Collect IP addresses, cookies, no ads (claimed), share upon authorities' request, GDPR
+https://portugalmail.pt/politica-de-privacidade/",,,"free",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇵🇹","mail.sapo.pt","sapo.pt","212.55.154.48 | 🇵🇹 | Portugal | AS3243 | MEO - SERVICOS DE COMUNICACOES E MULTIMEDIA S.A.","mx.mail.sl.pt | 🇵🇹 | Portugal | AS3243 | MEO - SERVICOS DE COMUNICACOES E MULTIMEDIA S.A.",2002-10-30,2027-11-02,,,"Portugal","SAPO Mail
+O SAPO Mail é simples, rápido e Seguro. Adira ao maior serviço de mail português e descomplique. Crie uma conta de email grátis no SAPO Mail.",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇩🇰","mail-online.dk",,"185.21.41.11 | 🇩🇰 | Denmark | AS48854 | team.blue Denmark A/S","mail.mail-online.dk | 🇩🇰 | Denmark | AS48854 | team.blue Denmark A/S",1999-06-22,2028-06-30,,"Nine Eyes (👀 9)","Denmark","Mail-Online.dk - dansk og reklamefri email for alle overalt
+Mail-Online har gennem mere end 20 år fungeret som foretrukken mailtjeneste for en lang række danskere.","Illegal actions (spam, hacking)
+https://mail-online.dk/brugerbetingelser","Collect IP addresses, cookies, advertising, GDPR
+https://mail-online.dk/persondatapolitik",,,"free",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇩🇰","mailme.dk",,"157.250.160.88 | 🇩🇰 | Denmark | AS3342 | Cibicom A/S","mx1.mailme.dk | 🇩🇰 | Denmark | AS3342 | Cibicom A/S
+mx2.mailme.dk | 🇩🇰 | Denmark | AS3342 | Cibicom A/S
+mx3.mailme.dk | 🇩🇰 | Denmark | AS3342 | Cibicom A/S",1999-03-11,2032-03-31,"🇩🇰 WebHosting A/S","Nine Eyes (👀 9)","Denmark","MailMe.dk – gratis dansk e-mail siden 1999
+Gratis dansk e-mail siden 1999. Webmail, IMAP og SMTP på danske servere med spam- og virusfilter. Opgrader til Superkonto med 10 GB plads.","Illegal actions (spam, hacking)
+https://mailme.dk/betingelser.php",,,,"free",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇮🇸","email.is",,"185.112.145.194 | 🇮🇸 | Iceland | AS44925 | 1984 ehf","mx1.1984.is | 🇮🇸 | Iceland | AS44925 | 1984 ehf
+mx2.1984.is | 🇮🇸 | Iceland | AS44925 | 1984 ehf",2000-03-16,,,,"Iceland","email.is | Just another WordPress site",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇬🇷","vip.gr",,"209.42.31.99 | 🇩🇪 | Germany | AS209341 | WHG Hosting Services Ltd","mail.vip.gr | 🇩🇪 | Germany | AS209341 | WHG Hosting Services Ltd
+mx.spamexperts.com | 🇳🇱 | Netherlands | AS174 | Cogent Communications, LLC
+fallbackmx.spamexperts.eu | 🇳🇱 | Netherlands | AS174 | Cogent Communications, LLC
+lastmx.spamexperts.net | 🇩🇪 | Germany | AS16633 | N-able Technologies, Inc.",,,,"Nine Eyes (👀 9)","🇩🇪 Germany
+🇳🇱 Netherlands","Greek Personality Email Account – Email με προσωπικότητα",,,,,"free",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇩🇪","dismail.de",,"116.203.7.146 | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH","mx1.dismail.de | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH
+mx2.dismail.de | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH",,,,"Fourteen Eyes (👀 14)","Germany","dismail.de - secure private messaging
+dismail.de - secure private services located in Germany","Illegal actions (spam, hacking), IP violation, harassment, fraud
+Delete inactive accounts (12 mos.)
+https://dismail.de/tos.html","Collect IP addresses, cookies, third parties, encryption, GDPR, delete inactive accounts (6 mos.)
+https://dismail.de/datenschutz.html",,,"free",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: accepts cryptocurrency, PGP/E2E encryption."
+"🇬🇷","espiv.net",,"194.177.218.66 | 🇬🇷 | Greece | AS5408 | National Infrastructures for Research and Technology S.A.","mail.espiv.net | 🇫🇷 | France | AS29075 | IELO Main Network",2008-10-17,2030-10-17,,"Nine Eyes (👀 9)","France","espiv.net – κινηματικές υποδομές","Page found, no key clauses detected
+https://espiv.net/terms_of_service/",,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇩🇪","freenet.de",,"194.97.208.11 | 🇩🇪 | Germany | AS8648 | dogado GmbH
+194.97.208.12 | 🇩🇪 | Germany | AS8648 | dogado GmbH","mx.freenet.de | 🇩🇪 | Germany | AS8648 | dogado GmbH",,,"🇩🇪 DLS GmbH","Fourteen Eyes (👀 14)","Germany","freenet Mobilfunk – Handytarife in allen Netzen
+Mobilfunk in allen Netzen: Allnet Flat und Unlimited im Telekom-, Vodafone- oder o2-Netz. Jedes Netz mit eigenem Sortiment, eigener Geschwindigkeit – in wenigen Minuten online abschließen.","Page found, no key clauses detected
+https://www.freenet.de/legal/barrierefreiheit/","Collect IP addresses, cookies, analytics/tracking, advertising, third parties, share upon authorities' request, encryption, GDPR
+https://www.freenet.de/legal/datenschutz/",,,"free; 14,99€/month; 9,99€/month; 7,99€/month",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇮🇹","tiscali.it",,"213.205.32.10 | 🇮🇹 | Italy | AS8612 | Smeraldo S.p.A.","etb-1.mail.tiscali.it | 🇮🇹 | Italy | AS8612 | Smeraldo S.p.A.
+etb-2.mail.tiscali.it | 🇮🇹 | Italy | AS8612 | Smeraldo S.p.A.
+etb-3.mail.tiscali.it | 🇮🇹 | Italy | AS8612 | Smeraldo S.p.A.
+etb-4.mail.tiscali.it | 🇮🇹 | Italy | AS8612 | Smeraldo S.p.A.",1999-12-29,2027-06-24,"🇮🇹 Smeraldo S.p.A","Fourteen Eyes (👀 14)","Italy","Tiscali - Fibra, telefono, mobile.
+Offerte di connettività veloce Fibra, senza fili e Mobile.",,"Advertising, third parties, GDPR
+https://www.tiscali.it/privacy/informativa_policy_privacy.html",,,"free; 19,90€/month; 22,90€/month; 4.99€/month",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇮🇳","rediff.com",,"2.16.110.136 | 🇩🇪 | Germany | AS20940 | Akamai International B.V.","mx.rediffmail.rediff.akadns.net | 🇮🇳 | India | AS38224 | Rediff.com India Limited,",1997-02-08,2034-02-09,,,"India","Rediff.com: News | Rediffmail | Stock Quotes | Rediff Gurus
+✔Read Latest India News ✔Get Realtime Stock Quotes ✔See Live Cricket Scores ✔Log in to Rediffmail ✔Expert advice on career, personal finance and relationships","Illegal actions (CSAM, hacking), IP violation, harassment, fraud, commercial use
+https://www.rediff.com/terms.html","Collect IP addresses, cookies, advertising, third parties, share upon authorities' request, encryption
+https://www.rediff.com/w3c/policy.html",,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇩🇪","danwin1210.de",,"116.202.17.147 | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH","danwin1210.de | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH",,,,"Fourteen Eyes (👀 14)","Germany","Daniel Winzen – Web- und Server-Experte",,"Collect IP addresses, cookies, third parties, GDPR
+https://danwin.dev/datenschutzerklaerung/",,,"free",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇸🇪","webmail.se",,"193.151.93.2 | 🇸🇪 | Sweden | AS43853 | AxByte Internet Services AB","www.maxnet.se | 🇸🇪 | Sweden | AS43853 | AxByte Internet Services AB",2003-04-27,2027-04-27,,"Fourteen Eyes (👀 14)","Sweden","webmail.se",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇭🇺","indamail.hu",,"68.183.243.94 | 🇩🇪 | Germany | AS14061 | DigitalOcean, LLC","mx.dka.mailcore.net | 🇩🇰 | Denmark | AS3308 | TELIANET DENMARK",2022-10-11,,,"Nine Eyes (👀 9)","Denmark","Indamail","Illegal actions (spam), IP violation
+https://www.indamail.hu/terms-of-service","Collect IP addresses, GDPR
+https://www.indamail.hu/privacy-policy",,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇩🇪","webmail.fps.de","fps.de","185.245.22.8 | 🇩🇪 | Germany | AS20686 | Bisping & Bisping GmbH & Co KG","viruswall.uplink.de | 🇩🇪 | Germany | AS20686 | Bisping & Bisping GmbH & Co KG",,,"🇩🇪 FPS InformationsSysteme GmbH","Fourteen Eyes (👀 14)","Germany","FPS Webmail :: Willkommen bei FPS Webmail",,"Collect IP addresses, cookies, analytics/tracking, third parties, encryption, GDPR
+http://www.fps.de/index.php?id=64",,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. MX taken from fps.de."
+"🇵🇹","webmail.com.pt",,"185.12.116.81 | 🇵🇹 | Portugal | AS33876 | DMNS - DOMINIOS, S.A.","aspmx.l.google.com | 🇺🇸 | United States | AS15169 | Google LLC",2020-04-05,2027-04-05,,"Five Eyes (👀 5)","United States","WebMail.com.pt
+Serviço Gratuito de WebMail","IP violation
+http://www.webmail.com.pt/site/termos.html",,,,"free",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇳🇴","inbox.com",,"68.183.243.94 | 🇩🇪 | Germany | AS14061 | DigitalOcean, LLC","mx.dka.mailcore.net | 🇩🇰 | Denmark | AS3308 | TELIANET DENMARK",1995-04-16,2028-04-17,,"Nine Eyes (👀 9)","Denmark","Inbox.com - Premium email
+Step into the world of secure, ad-free communication with our premium email service. Recognized as an industry leader, we put your privacy above all else.","Illegal actions (spam, hacking), IP violation, harassment
+https://www.inbox.com/terms-of-service","Collect IP addresses, cookies, third parties, share upon authorities' request, GDPR, does not sell data (claimed)
+https://www.inbox.com/privacy-policy",,,"free; $69/year",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇩🇰","mail.world",,"185.21.41.11 | 🇩🇰 | Denmark | AS48854 | team.blue Denmark A/S","mail.mail.world | 🇩🇰 | Denmark | AS48854 | team.blue Denmark A/S",2015-01-13,2027-01-13,,"Nine Eyes (👀 9)","Denmark","Mail.World - secure email for everyone everywhere
+Use your webmail wherever you are. Mail.World is email at its best. Mail, webmail, online calendar, task management, up to 100 GB of space and much more.","Illegal actions (spam, hacking), fraud
+https://mail.world/terms-of-use","Cookies, encryption, GDPR
+https://mail.world/gdpr",,,"free",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇸🇪","inleed.xyz",,"188.66.63.2 | 🇸🇪 | Sweden | AS206170 | Yelles AB","mail.inleed.xyz | 🇸🇪 | Sweden | AS206170 | Yelles AB",2020-08-26,2027-08-26,,"Fourteen Eyes (👀 14)","Sweden","Inleed Mail",,,,,"free",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇺🇸","mutantmail.com",,"188.114.97.3 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.
+188.114.96.3 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.","gateway.cliffmail.com | 🇩🇪 | Germany | AS197540 | netcup GmbH
+mutant.cliffmail.com | 🇳🇱 | Netherlands | AS60404 | Liteserver
+portal.cliffmail.com | 🇬🇧 | United Kingdom | AS42831 | UK Dedicated Servers Limited",2021-09-15,2027-09-15,"🇺🇸 Fresent LLC","Five Eyes (👀 5)","🇩🇪 Germany
+🇳🇱 Netherlands
+🇬🇧 United Kingdom","Manage Multiple Email Addresses Like a Pro - Mutant Mail
+Unlock the full potential of your email with Mutant Mail. Manage multiple email addresses, protect your privacy, never miss important email. Advanced features like two-way email routing, signature embedding, DMARC report, & more. Get more done in less time with Mutant Mail","Illegal actions (spam, hacking), IP violation, harassment, fraud, commercial use
+https://mutantmail.com/terms-and-condition/","Collect IP addresses, cookies, analytics/tracking, advertising, third parties, GDPR
+https://mutantmail.com/privacy-policy/",,,"free; $35.99/year; $3.99/month; $71.99/year",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption."
+"🇩🇪","aikq.de","aikq.ae
+aikq.asia
+aikq.at
+aikq.be
+aikq.biz
+aikq.ch
+aikq.chat
+aikq.cloud
+aikq.co
+aikq.co.uk
+aikq.com
+aikq.cz
+aikq.email
+aikq.eu
+aikq.fr
+aikq.in
+aikq.info
+aikq.li
+aikq.me
+aikq.name
+aikq.net
+aikq.nl
+aikq.org
+aikq.tv
+aikq.tw
+aikq.uk
+aikq.us
+aikq.ws
+emails.biz
+inbox.de
+inbox.in
+inbox.net
+inbox.org
+inbox.uk
+inbox.wiki
+mail-s.biz
+mailbox.info
+mails.biz
+mails.cz
+mails.eu
+mails.info
+ned.link
+newsletter.biz
+qrcode.info
+qrcode.org
+x4.net","185.7.196.68 | 🇩🇪 | Germany | AS60294 | Deutsche Glasfaser Wholesale GmbH","mx1.aikq.de | 🇩🇪 | Germany | AS60294 | Deutsche Glasfaser Wholesale GmbH
+mail.aikq.de | 🇩🇪 | Germany | AS60294 | Deutsche Glasfaser Wholesale GmbH",,,,"Fourteen Eyes (👀 14)","Germany","aikQ Mail","Illegal actions (spam)
+https://www.aikq.de/index.php?action=tos","Collect IP addresses, cookies, analytics/tracking, advertising, third parties, encryption, GDPR
+https://www.aikq.de/index.php?action=Datenschutz",,,"free",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: no personal data required."
+"🇪🇪","beeble.com",,"168.119.227.40 | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH","m1c2.beeble.com | 🇫🇮 | Finland | AS24940 | Hetzner Online GmbH",2001-05-17,2028-05-17,,,"Finland","Beeble - Encrypted email and Secure cloud storage solution
+The Beeble Project is email and online cloud storage platform with unprecedented security and privacy without third party access.","Illegal actions (CSAM, spam, hacking), IP violation, harassment, fraud, commercial use, multiple accounts
+https://beeble.com/en/terms-of-use","Third parties, share upon authorities' request, encryption, GDPR
+https://beeble.com/en/gdpr",,,"free",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption."
+"🇫🇷","murena.io",,"95.217.240.171 | 🇫🇮 | Finland | AS24940 | Hetzner Online GmbH
+65.109.243.106 | 🇫🇮 | Finland | AS24940 | Hetzner Online GmbH","mail.ecloud.global | 🇫🇮 | Finland | AS24940 | Hetzner Online GmbH",2019-10-25,2028-10-25,"🇫🇷 ECORP SAS",,"Finland","Sign in to murena","Illegal actions (hacking), IP violation, harassment
+https://murena.io/en/termsandconditions","Collect IP addresses, cookies, third parties, encryption, GDPR
+https://murena.com/privacy-policy/",,,"free",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇨🇭","confidesk.com",,"217.150.243.48 | 🇨🇭 | Switzerland | AS29691 | Nine Internet Solutions AG","mail.confidesk.com | 🇨🇭 | Switzerland | AS29691 | Nine Internet Solutions AG",2011-09-12,2027-09-12,"🇨🇭 Confidesk Limited",,"Switzerland","Confidesk: private email and storage that stays yours
+Email, files, notes, chat and a password vault in one account. Locked on your device before it reaches us, so nobody reads it: not us, not an advertiser, not an AI.","Illegal actions (spam), harassment, fraud
+https://confidesk.com/terms-of-service/","Data/logs kept 7 days, cookies, advertising, no third-party sharing (claimed), encryption, GDPR, does not sell data (claimed)
+https://confidesk.com/privacy-policy/",,,"free; $2.99/month; $4.99/month; $3.99/month",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption."
+"🇺🇸","lockrmail.com",,"104.199.122.78 | 🇺🇸 | United States | AS396982 | Google LLC","inbound-smtp.us-east-2.amazonaws.com | 🇺🇸 | United States | AS16509 | Amazon.com, Inc.",2020-06-05,2027-06-05,,"Five Eyes (👀 5)","United States","Protect Your Inbox And Optimize Your Browsing With LockrMail
+The lockrMail Chrome extension integrates the utility of email into your browsing experience.","Illegal actions (spam, hacking), IP violation
+https://lockrmail.com/terms-of-service/","Collect IP addresses, data/logs kept 3 mos., cookies, analytics/tracking, advertising, third parties, share upon authorities' request, GDPR
+https://lockrmail.com/privacy-policy/",,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇦🇹","esiliati.org",,"91.244.70.128 | 🇦🇹 | Austria | AS215120 | Evolus IT Solutions GmbH
+95.217.86.168 | 🇫🇮 | Finland | AS24940 | Hetzner Online GmbH","freon.esiliati.org | 🇦🇹 | Austria | AS215120 | Evolus IT Solutions GmbH",2012-07-03,2027-07-03,,,"Austria","esiliati.org",,"No IP logging (claimed), third parties, encryption
+https://esiliati.org/segreti/",,,"free",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇩🇪","riotcat.org",,"49.13.66.108 | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH","riotcat.org | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH",2016-02-01,2027-02-01,,"Fourteen Eyes (👀 14)","Germany","Riotcat.org - Home",,"Collect IP addresses, encryption, GDPR
+https://riotcat.org/privacy.html",,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇺🇸","aangat.lahat.computer",,"71.19.146.170 | 🇺🇸 | United States | AS47066 | Tornado VPS, Inc.","aangat.lahat.computer | 🇺🇸 | United States | AS47066 | Tornado VPS, Inc.",2023-12-14,2026-12-14,,"Five Eyes (👀 5)","United States","Aangat Lahat / Aangat Lahat
+Aangat Lahat in Tagalog can mean different things depending \non the context. It can mean we'll lift each other up as in mutual aid, \nor it can mean to ...",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: accepts cryptocurrency. Tor: lahatlu3bsgliqumyspuhdxd333e755ntghnzfqxbnz46s422s7tdfyd.onion."
+"🇭🇷","net.hr",,"104.26.4.216 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.
+104.26.5.216 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.","net-hr-10mx1.eco-mx.cz | 🇨🇿 | Czechia | AS43614 | Economia a.s.
+net-hr-10mx2.eco-mx.cz | 🇨🇿 | Czechia | AS43614 | Economia a.s.
+net-hr-20mx1.eco-mx.cz | 🇨🇿 | Czechia | AS43614 | Economia a.s.
+net-hr-20mx2.eco-mx.cz | 🇨🇿 | Czechia | AS43614 | Economia a.s.",2011-08-28,2027-08-28,"🇭🇷 RTL Hrvatska d.o.o",,"Czechia","Najnovije vijesti iz Hrvatske i svijeta - Net.hr
+Pratite najnovije vijesti iz Hrvatske i svijeta. Donosimo teme iz politike, sporta, showa, lifestylea i biznisa na prvom hrvatskom news portalu.","Illegal actions (spam, hacking), IP violation
+http://net.hr/info/uvjeti-koristenja-59c29fd7-535f-11f0-be08-9600040c8f8e","Collect IP addresses, GDPR
+http://net.hr/info/pravila-privatnosti-f1703b3d-5365-11f0-be08-9600040c8f8e",,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇮🇹","libero.it",,"213.209.17.209 | 🇮🇹 | Italy | AS8660 | Italiaonline S.p.A.","smtp-in.libero.it | 🇮🇹 | Italy | AS8660 | Italiaonline S.p.A.",1999-06-03,2027-06-03,"🇮🇹 Italiaonline S.p.A","Fourteen Eyes (👀 14)","Italy","Libero: Mail, Ricerca e News con aggiornamento quotidiano
+Entra su Libero.it: Mail e Email PEC, Login, le Ultime Notizie con aggiornamento quotidiano, Video, Motore di Ricerca e tanto altro","IP violation
+https://info.libero.it/note-legali/","Collect IP addresses, cookies, analytics/tracking, advertising, third parties, GDPR
+https://privacy.italiaonline.it/common/cookie/privacy_detail.php",,,"free; 20€/month",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇩🇪","hot-chilli.eu",,"116.202.55.117 | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH","mail.hot-chilli.net | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH
+mail2.hot-chilli.net | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH
+mail3.hot-chilli.net | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH",,,,"Fourteen Eyes (👀 14)","Germany","Hot-Chilli - Hosting and more - made in Germany
+Wir sind ein IT-Unternehmen im Stuttgarter Raum mit mehr als 15 Jahren Erfahrung und bieten Ihnen individuelles Webhosting, Programmierung und Webdesign aus einer Hand. Wir übernehmen für Sie die Planung, Konzeption und Entwicklung kleinerer und größerer Web-Projekte und Firmenauftritte sowie das kostengünstige und zuverlässige Hosting Ihrer Inhalte auf modernen und bestens administrierten Servern. Wenn Sie…","Illegal actions, IP violation
+https://www.hot-chilli.eu/legal/","Collect IP addresses, cookies, analytics/tracking, advertising, third parties, share upon authorities' request
+https://www.hot-chilli.eu/privacy-policy/",,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇱🇹","darkn.space",,"89.40.13.217 | 🇱🇹 | Lithuania | AS212531 | Interneto vizija","mail.darkn.space | 🇱🇹 | Lithuania | AS212531 | Interneto vizija",2015-12-31,2026-12-31,,,"Lithuania","Darkn.Space
+Darkn.Space Tech Collective",,,,,"free",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: invite-only, accepts cryptocurrency."
+"🇩🇪","tildeverse.org",,"157.90.196.50 | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH","tilde.team | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH",2018-06-24,2029-06-24,,"Fourteen Eyes (👀 14)","Germany","tildeverse",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇩🇪","tilde.team",,"162.55.142.192 | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH","tilde.team | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH",2017-05-30,2027-05-30,,"Fourteen Eyes (👀 14)","Germany","tilde.team
+tilde.team unix group",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇺🇸","secria.me",,"75.2.60.5 | 🇺🇸 | United States | AS16509 | Amazon.com, Inc.
+99.83.231.61 | 🇺🇸 | United States | AS16509 | Amazon.com, Inc.","mx1.secria.me | 🇩🇪 | Germany | AS51167 | Contabo GmbH",2024-12-26,2026-12-26,,"Fourteen Eyes (👀 14)","Germany","Secria: the better, safer workspace for email and files
+Secria is the better, safer workspace: private email you can start free, a VPN for any network, and Secria Workspace for teams, opening soon.","Illegal actions (CSAM, spam, hacking), IP violation, harassment, fraud, multiple accounts
+https://secria.me/app-tos/","Collect IP addresses, cookies, analytics/tracking, no ads (claimed), third parties, share upon authorities' request, encryption, no-logs claim, GDPR, does not sell data (claimed)
+https://secria.me/privacy-policy/",,,"free; $6.49/month; $99/year; $2.49/month",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇺🇸","dmail.earth",,"188.114.96.3 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.
+188.114.97.3 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.","mail.dmail.earth | 🇫🇷 | France | AS51167 | Contabo GmbH",2024-04-10,2028-04-10,,"Nine Eyes (👀 9)","France","DMail - Secure mail for everyone.
+DMail - The future of secure communication. Protect your privacy with our state-of-the-art encryption technology. Safe, reliable, and easy-to-use email for everyone.","Illegal actions (hacking), IP violation, commercial use
+https://dmail.ncog.earth/terms-conditions.html","Collect IP addresses, cookies, analytics/tracking, third parties, share upon authorities' request, may sell data
+https://dmail.ncog.earth/privacy-policy.html",,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption."
+"🇺🇸","0.email",,"104.18.22.4 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.
+104.18.23.4 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.","aspmx.l.google.com | 🇺🇸 | United States | AS15169 | Google LLC
+alt1.aspmx.l.google.com | 🇺🇸 | United States | AS15169 | Google LLC
+alt2.aspmx.l.google.com | 🇺🇸 | United States | AS15169 | Google LLC
+alt3.aspmx.l.google.com | 🇺🇸 | United States | AS15169 | Google LLC",2025-02-18,2027-02-18,,"Five Eyes (👀 5)","United States","Zero
+Experience email the way you want with 0 - the first open source email app that puts your privacy and safety first.",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇺🇸","hey.com",,"104.18.6.14 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.
+104.18.7.14 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.","home-mx.app.hey.com | 🇺🇸 | United States | AS25657 | Basecamp, LLC",1995-09-28,2027-09-27,"🇺🇸 37signals LLC","Five Eyes (👀 5)","United States","HEY — A delightfully fresh take on email + calendar, from 37signals
+Gmail, Outlook, and Apple got complacent and took their eye off the ball. Then along came HEY.","Illegal actions (hacking), IP violation, harassment, commercial use
+https://37signals.com/policies/terms","Collect IP addresses, cookies, analytics/tracking, advertising, third parties, share upon authorities' request, encryption, GDPR, does not sell data (claimed)
+https://37signals.com/policies/privacy",,,"$99/year; $2/month; $10/month",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇺🇸","paxmail.cc",,"216.24.57.16 | 🇺🇸 | United States | AS397273 | Render
+216.24.57.18 | 🇺🇸 | United States | AS397273 | Render","mx1.paxmail.cc | 🇺🇸 | United States | AS400759 | American Cloud LLC
+mx2.paxmail.cc | 🇺🇸 | United States | AS400759 | American Cloud LLC
+mx3.paxmail.cc | 🇺🇸 | United States | AS400759 | American Cloud LLC",2023-04-04,2027-04-04,,"Five Eyes (👀 5)","United States","Your inbox is nobody’s business | Paxmail
+Private email for you and your household: no ads, no tracking, and nothing sold, to anyone, ever. One honest price, and real people who answer to you.","Illegal actions (spam, hacking), IP violation, harassment, fraud
+https://paxmail.cc/terms","Collect IP addresses, cookies, analytics/tracking, third parties, share upon authorities' request
+https://paxmail.cc/privacy",,,"free; $34/month; $12/month",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption."
+"🇳🇱","soverin.com","sinenomine.email","185.233.34.14 | 🇳🇱 | Netherlands | AS211993 | Soverin B.V.","mx.soverin.net | 🇳🇱 | Netherlands | AS211993 | Soverin B.V.",2004-08-20,2027-08-20,"🇳🇱 Soverin B.V","Nine Eyes (👀 9)","Netherlands","Soverin: Home","Illegal actions (spam, hacking), IP violation, harassment
+https://soverin.com/about/general-terms-and-conditions","Cookies, no tracking (claimed), third parties, share upon authorities' request, encryption
+https://soverin.com/about/privacy",,,"free; €3,25/month; €13/year; €18/year",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: no personal data required."
+"🇳🇱","vfemail.net",,"172.67.72.124 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.
+104.26.4.29 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.","mx1.vfemail.net | 🇳🇱 | Netherlands | AS202448 | MVPS LTD
+mx2.vfemail.net | 🇳🇱 | Netherlands | AS202448 | MVPS LTD
+mx3.vfemail.net | 🇳🇱 | Netherlands | AS202448 | MVPS LTD",2001-08-15,2033-08-15,,"Nine Eyes (👀 9)","Netherlands","VFEmail ™ - Quality Email Hosting (IMAP, Webmail, POP, SMTP) For Everyone
+Providing Quality Email Hosting to both Businesses and End Users since 2001.",,,,,"free; $15.00/year; $30.00/year; $50.00/year",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption."
+"🇩🇪","memail.com",,"20.113.53.251 | 🇩🇪 | Germany | AS8075 | Microsoft Corporation","mx01.memail.com | 🇫🇮 | Finland | AS24940 | Hetzner Online GmbH
+mx02.memail.com | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH",1995-12-24,2026-12-23,,"Fourteen Eyes (👀 14)","🇫🇮 Finland
+🇩🇪 Germany","MeMail | Personal and Professional Email Address Accounts with Personality — MeMail.com
+MeMail | All the features and management tools you need for the best email experience: Ad-Free and Secure, Premium Email Addresses, Scalable Storage, Webmail, Certified Data Protection. Visit MeMail.com","Illegal actions (spam, hacking), IP violation, harassment, fraud, commercial use
+Delete inactive accounts (3 mos.)
+https://www.memail.com/terms-conditions","Collect IP addresses, cookies, analytics/tracking, advertising, third parties, share upon authorities' request, GDPR
+https://www.memail.com/privacy",,,"free; $1.18/month; $2.96/month; $0.58/month",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇹🇷","yaanimail.com",,"176.235.19.84 | 🇹🇷 | Turkey | AS34984 | Superonline Iletisim Hizmetleri A.S.","mx.yaanimail.com | 🇹🇷 | Turkey | AS34984 | Superonline Iletisim Hizmetleri A.S.",2017-10-26,2029-10-26,,,"Turkey","Bireysel E-Posta Hizmeti | YaaniMail
+YaaniMail ile güvenli, reklamsız ve yerli e-posta deneyimi yaşayın. Verileriniz Türkiye’de güvende, gizliliğiniz ön planda. Hemen ücretsiz kaydolun!",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇩🇪","hrzn.cool",,"188.114.96.3 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.
+188.114.97.3 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.","mail.hrzn.email | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH",2021-08-08,2027-08-08,,"Fourteen Eyes (👀 14)","Germany","Horizon - Privacy, streamlined.
+At Horizon, we believe in privacy without compromising functionality. Our mission is to empower individuals with powerful tools that seamlessly integrate privacy.",,"Collect IP addresses, encryption
+https://send.hrzn.cool",,,"$5/month",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption."
+"🇩🇪","atfix.net","atfix.at
+atfix.ch
+atfix.de
+atfix.eu
+atfix.org","151.252.59.113 | 🇩🇪 | Germany | AS25504 | Vautron Rechenzentrum AG","mail.atfix.net | 🇩🇪 | Germany | AS25504 | Vautron Rechenzentrum AG",2018-11-17,2026-11-17,,"Fourteen Eyes (👀 14)","Germany","atfix
+atfix ist Ihr exklusiver E-Mail-Anbieter für den deutschsprachigen Raum. Gönnen Sie sich einen kostenlosen und sicheren E-Mail-Account.","Illegal actions (spam), IP violation, harassment
+Delete inactive accounts (6 mos.)
+https://www.atfix.net/tos","Collect IP addresses, cookies, analytics/tracking, advertising, third parties, share upon authorities' request, encryption, GDPR
+https://www.atfix.net/Datenschutz",,,"free",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇩🇪","anpa.de",,"193.242.210.125 | 🇳🇱 | Netherlands | AS58329 | servinga GmbH","mx3.anpa-networks.de | 🇩🇪 | Germany | AS42730 | EVANZO e-commerce GmbH
+mx4.anpa-networks.de | 🇩🇪 | Germany | AS42730 | EVANZO e-commerce GmbH",,,,"Fourteen Eyes (👀 14)","Germany","AnPa.de Mail – E-Mail-Postfach kostenlos oder Premium
+Kostenloses E-Mail-Postfach bei AnPa.de Mail: Spamschutz, Webdisk, POP3/IMAP und Premium-Pakete – Hosting in der EU. Jetzt einloggen oder registrieren.","Illegal actions (spam)
+https://www.anpa.de/index.php?action=tos","Collect IP addresses, data/logs kept 120 mos., cookies, advertising, share upon authorities' request, encryption, GDPR
+https://www.anpa.de/index.php?action=Datenschutz",,,"free",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇩🇪","5x2.de",,"104.26.6.119 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.
+104.26.7.119 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.","mx-srv03.5x2.de | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH
+mx-srv01.5x2.de | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH
+mx-srv02.5x2.de | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH",,,"🇩🇪 ViWa Invest GmbH","Fourteen Eyes (👀 14)","Germany","Home
+5x2.de bietet kostenlose und sichere E-Mail.","Illegal actions (spam)
+https://5x2.de/agb","Collect IP addresses, cookies, advertising, third parties, share upon authorities' request, encryption, GDPR
+https://5x2.de/agb",,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇩🇪","webmail.schokokeks.org","schokokeks.org","178.63.68.96 | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH","zucker.schokokeks.org | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH",2004-06-04,2027-06-04,,"Fourteen Eyes (👀 14)","Germany","schokokeks.org E-Mail",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. MX taken from schokokeks.org."
+"🇩🇪","ok.de",,"104.26.15.116 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.
+172.67.73.131 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.","mx2-eu.spamexperts.com | 🇩🇪 | Germany | AS16633 | N-able Technologies, Inc.
+mx1-eu.spamexperts.com | 🇩🇪 | Germany | AS16633 | N-able Technologies, Inc.
+mx3-eu.spamexperts.com | 🇳🇱 | Netherlands | AS174 | Cogent Communications, LLC
+mx4-eu.spamexperts.com | 🇩🇪 | Germany | AS16633 | N-able Technologies, Inc.",,,,"Nine Eyes (👀 9)","🇩🇪 Germany
+🇳🇱 Netherlands","OK.de",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇩🇪","directbox.com",,"185.158.133.1 | 🇵🇱 | Poland | AS13335 | Cloudflare, Inc.","amx2.xworks.net | 🇩🇪 | Germany | AS205542 | Datahaus GmbH",1998-09-02,2027-09-01,"🇩🇪 BEAM GmbH","Fourteen Eyes (👀 14)","Germany","directBOX: E-Mail, Cloud-Speicher & Kalender aus Deutschland
+Dein digitaler Kommunikations-Hub: kostenloses E-Mail-Postfach, Cloud-Speicher, Kalender und Adressbuch – werbefrei, sicher und aus Deutschland. Seit 1999.","Illegal actions (spam, hacking), IP violation, commercial use
+https://directbox.com/agb","Collect IP addresses, cookies, no tracking (claimed), third parties, share upon authorities' request, GDPR
+https://directbox.com/datenschutz",,,"free; 1,00€/month; 3,00€/month",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇮🇹","fuck.it",,"104.21.91.238 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.
+172.67.181.236 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.","mx001.paradisecircus.xion.oxcs.net | 🇫🇷 | France | AS16276 | OVH SAS
+mx002.paradisecircus.xion.oxcs.net | 🇫🇷 | France | AS16276 | OVH SAS
+mx003.paradisecircus.xion.oxcs.net | 🇬🇧 | United Kingdom | AS16276 | OVH SAS
+mx004.paradisecircus.xion.oxcs.net | 🇬🇧 | United Kingdom | AS16276 | OVH SAS",2006-06-01,2027-01-29,"🇮🇹 Paradise Circus","Five Eyes (👀 5)","🇫🇷 France
+🇬🇧 United Kingdom","[@fuck.it] - Email with Attitude. Pure. Secure. Exclusive.
+[@fuck.it] is the email service that never tracks or sells your data. Every mail’s a statement. Pure. Secure. Exclusive.","Illegal actions (spam, hacking), IP violation, harassment, fraud
+https://fuck.it/acceptable-use-policy","Collect IP addresses, cookies, share upon authorities' request, encryption, GDPR, does not sell data (claimed)
+https://fuck.it/privacy-policy",,,"free; USD5.90/month; USD4.72/month; USD11.90/month",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: invite-only, PGP/E2E encryption."
+"🇫🇷","erine.email",,"104.21.80.136 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.
+172.67.183.127 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.","smtp-in.erine.email | 🇫🇷 | France | AS16276 | OVH SAS",2016-10-19,2027-10-19,"🇫🇷 Mikaël Davranche","Nine Eyes (👀 9)","France","erine.email — anti-spam for your existing email address
+erine.email — a free, open-source anti-spam for the inbox you already have.",,,,,"free",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇩🇪","actiu.info",,"51.38.109.8 | 🇩🇪 | Germany | AS16276 | OVH SAS","mtdad.srv.actiu.info | 🇩🇪 | Germany | AS16276 | OVH SAS",2004-12-13,2027-12-13,,"Fourteen Eyes (👀 14)","Germany","infrastructure in freedom and action - Actiu.Info
+internet resources collective",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇺🇸","aktivix.org",,"209.51.180.245 | 🇺🇸 | United States | AS6939 | Hurricane Electric LLC","newyear.aktivix.org | 🇺🇸 | United States | AS6939 | Hurricane Electric LLC",2004-06-19,2028-06-19,,"Five Eyes (👀 5)","United States","Welcome to Aktivix Home",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇺🇸","anarchyplanet.org",,"216.252.162.161 | 🇺🇸 | United States | AS6939 | Hurricane Electric LLC","mail.anarchyplanet.org | 🇺🇸 | United States | AS6939 | Hurricane Electric LLC
+mx2.anarchyplanet.org | 🇳🇱 | Netherlands | AS60131 | High5! B.V.",2009-04-04,2027-04-04,,"Five Eyes (👀 5)","🇺🇸 United States
+🇳🇱 Netherlands","Welcome — Anarchy Planet",,,,,"donations",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇫🇮","codigosur.org",,"65.21.183.95 | 🇫🇮 | Finland | AS24940 | Hetzner Online GmbH","correo.codigosur.org | 🇫🇮 | Finland | AS24940 | Hetzner Online GmbH",2005-08-03,2027-08-03,,,"Finland","CódigoSur
+Somos una colectiva de personas con el propósito de colaborar con el desarrollo y la socialización de la comunicación, la cultura y las tecnologías libres en América Latina.",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇨🇴","colnodo.apc.org",,"45.171.118.54 | 🇨🇴 | Colombia | AS262191 | LIBERTY NETWORKS DE COLOMBIA S.A.S","mail.colnodo.co | 🇨🇴 | Colombia | AS262191 | LIBERTY NETWORKS DE COLOMBIA S.A.S",1991-04-18,2027-04-19,,,"Colombia","Inicio - Colnodo
+Creamos vínculos responsables entre las comunidades y las TIC, desarrollando sistemas accesibles, diseñando procesos de empoderamiento y formación; y generando conocimiento alrededor de uso y ecosistema de las tecnologías en Colombia",,"No third-party sharing (claimed), share upon authorities' request
+https://colnodo.apc.org/es/aviso-privacidad",,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇩🇪","cryptix.de",,"83.137.101.105 | 🇩🇪 | Germany | AS43503 | synaforce GmbH","mail.cryptix.net | 🇩🇪 | Germany | AS43503 | synaforce GmbH",,,,"Fourteen Eyes (👀 14)","Germany","<rypti><",,"Collect IP addresses, cookies, analytics/tracking, third parties, share upon authorities' request, GDPR
+https://cryptix.net/datenschutzerklaerung/",,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇬🇧","greennet.org.uk",,"193.37.35.248 | 🇬🇧 | United Kingdom | AS47264 | Iomart Managed Services Limited","smtp-gate.greennet.org.uk | 🇬🇧 | United Kingdom | AS47264 | Iomart Managed Services Limited
+mail2.greennet.org.uk | 🇬🇧 | United Kingdom | AS47264 | Iomart Managed Services Limited",1994-11-30,2026-11-30,,"Five Eyes (👀 5)","United Kingdom","GreenNet | Internet services, web design and hosting for activists
+Internet services, web design and hosting for activists","Illegal actions (hacking), IP violation, harassment, commercial use
+https://www.greennet.org.uk/about/terms-and-conditions",,,,"free; £7.20/month; £46/month",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇨🇭","immerda.ch",,"93.190.126.69 | 🇨🇭 | Switzerland | AS210861 | Open Networks Association
+93.190.126.72 | 🇨🇭 | Switzerland | AS210861 | Open Networks Association","mail.immerda.ch | 🇨🇭 | Switzerland | AS210861 | Open Networks Association
+mail-1.immerda.ch | 🇨🇭 | Switzerland | AS210861 | Open Networks Association
+mail-11.immerda.ch | 🇨🇭 | Switzerland | AS210861 | Open Networks Association
+mail-12.immerda.ch | 🇨🇭 | Switzerland | AS210861 | Open Networks Association",2001-11-20,,,,"Switzerland","immerda.ch",,,,,"40CHF/year; 25CHF/year; 60CHF/year",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇨🇭","indivia.net",,"178.209.50.230 | 🇨🇭 | Switzerland | AS29691 | Nine Internet Solutions AG","mail.indivia.ortiche.net | 🇨🇭 | Switzerland | AS29691 | Nine Internet Solutions AG
+mail.azoto.ortiche.net | 🇷🇴 | Romania | AS39622 | ZERGRUSH SRL",2003-12-11,2026-12-11,,,"🇨🇭 Switzerland
+🇷🇴 Romania","Indivia.net",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption."
+"🇺🇸","kemit.net",,"192.145.239.30 | 🇺🇸 | United States | AS22611 | InMotion Hosting, Inc.","mail.kemit.net | 🇺🇸 | United States | AS22611 | InMotion Hosting, Inc.",2005-11-07,2027-11-07,"🇺🇸 ProSmart-it","Five Eyes (👀 5)","United States","Kemit Company
+Kemit is a professional private enterprise company. We have been providing animal nutrition solution for more than a decade now; mainly poultry in addition to L",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇨🇦","koumbit.org",,"199.58.80.40 | 🇨🇦 | Canada | AS7765 | Koumbit","mail.koumbit.net | 🇨🇦 | Canada | AS7765 | Koumbit",2004-02-06,2027-02-06,,"Five Eyes (👀 5)","Canada","Koumbit.org | Pour un internet libre et solidaire
+Fournisseur de service de développement, infrastructure et hébergement web en utilisant les logiciel libres à Montréal, Québec depuis 2004.",,"Collect IP addresses, cookies, analytics/tracking, third parties, encryption
+https://www.koumbit.org/en/content/privacy-policy",,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption."
+"🇫🇷","lautre.net",,"80.67.160.70 | 🇫🇷 | France | AS20766 | Association Gitoyen","mx.lautre.net | 🇫🇷 | France | AS20766 | Association Gitoyen
+mx3.lautre.net | 🇫🇷 | France | AS28855 | Octopuce s.a.r.l.",2000-07-09,2027-07-09,,"Nine Eyes (👀 9)","France","l’Autre Net, hébergeur associatif autogéré",,"Share upon authorities' request
+https://www.lautre.net/Mobilisation-contre-le-retention",,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇬🇧","mail.coop","3-c.coop
+cooptel.net
+good.co.uk
+myphone.coop
+phonecoop.coop
+pop3.poptel.org.uk
+poptel.org
+poptel.org.uk","149.255.57.71 | 🇬🇧 | United Kingdom | AS34931 | Awareness Software Limited","mail.mail.coop | 🇬🇧 | United Kingdom | AS41354 | ITS Technology Group Limited",2007-07-10,2027-07-10,"🇬🇧 Community Broadband Network","Five Eyes (👀 5)","United Kingdom","Email service from a cooperative | mail.coop
+mail.coop provides a reliable email service from a cooperative provider, for individuals and organisations who value privacy and ethical practice","Illegal actions (spam, hacking), IP violation, harassment, fraud
+https://mail.coop/legal/terms-of-service/","Cookies, analytics/tracking, third parties, share upon authorities' request
+https://mail.coop/legal/privacy-policy/",,,"free",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇲🇽","mayfirst.org",,"204.19.241.67 | 🇺🇸 | United States | AS6939 | Hurricane Electric LLC","a.mx.mayfirst.org | 🇺🇸 | United States | AS6939 | Hurricane Electric LLC
+b.mx.mayfirst.org | 🇺🇸 | United States | AS6939 | Hurricane Electric LLC
+c.mx.mayfirst.org | 🇺🇸 | United States | AS6939 | Hurricane Electric LLC",2003-09-25,2029-09-25,,"Five Eyes (👀 5)","United States","May First Movement Technology","Illegal actions (hacking), IP violation, harassment
+https://mayfirst.org/about/legal/","Encryption, does not sell data (claimed)
+https://mayfirst.org/membership-options/privacy-policy/",,,"free; $50/year",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇺🇸","nadir.org",,"45.66.33.220 | 🇳🇱 | Netherlands | AS47482 | Spectre Operations B.V.","mx2.nadir.org | 🇺🇸 | United States | AS16652 | Riseup Networks
+smtpin.nadir.org | 🇩🇪 | Germany | AS20694 | NMMN GmbH",1995-01-14,2027-01-13,,"Five Eyes (👀 5)","🇺🇸 United States
+🇩🇪 Germany","nadir.org - nadir.org",,,,,"donations",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption."
+"🇨🇭","netux.org",,"82.195.239.51 | 🇨🇭 | Switzerland | AS1836 | green.ch AG","vulcanus.eurisco.ch | 🇨🇭 | Switzerland | AS1836 | green.ch AG",2009-03-01,2027-03-01,,,"Switzerland","index.html",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇪🇸","nodo50.net",,"91.226.176.254 | 🇪🇸 | Spain | AS197772 | NODO50, Altavoz por la libertad de expresion y comunicacion","revolware.nodo50.org | 🇪🇸 | Spain | AS197772 | NODO50, Altavoz por la libertad de expresion y comunicacion",2000-09-11,2027-09-11,,"Fourteen Eyes (👀 14)","Spain","Nodo50. Contrainformación en la Red
+Nodo50 es un proveedor de servicios de Internet sin ánimo de lucro orientado a los movimientos sociales. Desde 1994, el proyecto ’Nodo50’ viene proporcionando formación, contenidos, y servicios comunicativos a cientos de grupos y organizaciones del (...)","Illegal actions (hacking), harassment, fraud
+https://www.nodo50.org/ilegalizacion/",,,,"32€/month; 95€/year",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption."
+"🇨🇿","nolog.cz",,"37.205.8.210 | 🇨🇿 | Czechia | AS24971 | MasterDC s.r.o.","mail.nolog.cz | 🇨🇿 | Czechia | AS43541 | VSHosting s.r.o.",2018-01-26,2027-01-25,,,"Czechia","NoLog.cz
+Snažíme se dělat internet svobodným, bezpečným a soukromým místem.",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption. Tor: 324fctgcjnb5yiwmxl3qf4k7iul2sgmzhj6eitwyl62iu5wztotmsnad.onion."
+"🇫🇷","no-log.org",,"80.67.172.22 | 🇫🇷 | France | AS20766 | Association Gitoyen","mail.no-log.org | 🇫🇷 | France | AS20766 | Association Gitoyen",2002-02-05,2027-02-05,,"Nine Eyes (👀 9)","France","No-Log",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇨🇦","resist.ca",,"199.58.80.138 | 🇨🇦 | Canada | AS7765 | Koumbit","mail.resist.ca | 🇨🇦 | Canada | AS7765 | Koumbit",2001-02-22,2027-02-22,"🇨🇦 TAO Communications Vancouver","Five Eyes (👀 5)","Canada","Home | resist!ca
+The Resist! Collective is a group of Canadian-based activists working to provide communications and technical services, information and education to the greater activist community.",,,,,"donations",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption."
+"🇩🇪","sindominio.net",,"94.130.32.254 | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH","mail.sindominio.net | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH",1999-06-17,2027-06-17,,"Fourteen Eyes (👀 14)","Germany","sindominio.net",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇩🇪","so36.net",,"192.68.11.74 | 🇩🇪 | Germany | AS204911 | Digitale Partizipation e.V.","rage.so36.net | 🇩🇪 | Germany | AS204911 | Digitale Partizipation e.V.",2000-05-17,2027-05-17,"🇩🇪 36.NET e.V","Fourteen Eyes (👀 14)","Germany","Startpage
+so36.net sind ein paar Nerds aus Kreuzberg*, die Spaß daran haben und es wichtig finden, ehrenamtlich selbstverwaltete Infrastruktur für das Internet zu bauen und zu betreiben.",,,,,"donations",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption."
+"🇩🇪","systemausfall.org",,"51.75.71.249 | 🇩🇪 | Germany | AS16276 | OVH SAS","mx1.systemausfall.org | 🇩🇪 | Germany | AS3320 | Deutsche Telekom AG
+mx2.systemausfall.org | 🇩🇪 | Germany | AS16276 | OVH SAS",2003-08-12,2027-08-12,"🇩🇪 Sense.Lab e.V","Fourteen Eyes (👀 14)","Germany","systemausfall.org - autonomes technikkollektiv | systemausfall.org",,"No third-party sharing (claimed), share upon authorities' request, encryption, GDPR
+https://hilfe.systemausfall.org/konto/datenschutz/",,,"donations",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇨🇭","systemli.org",,"198.167.223.218 | 🇸🇪 | Sweden | AS39287 | Materialism s.r.l.","mail.systemli.org | 🇨🇭 | Switzerland | AS210861 | Open Networks Association",2003-11-17,2032-11-17,,,"Switzerland","systemli.org - your friendly tech collective
+Unkommerzieller Anbieter für datenschutzfreundliche Kommunikation. Ganz ohne Überwachung.","Illegal actions (spam), IP violation
+https://www.systemli.org/tos/",,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption."
+"🇮🇱","walla.co.il",,"34.102.212.0 | 🇺🇸 | United States | AS396982 | Google LLC","mx1.hc494-80.c3s2.iphmx.com | 🇬🇧 | United Kingdom | AS30238 | Cisco Systems Ironport Division
+mx2.hc494-80.c3s2.iphmx.com | 🇳🇱 | Netherlands | AS30238 | Cisco Systems Ironport Division",,2027-01-17,,"Five Eyes (👀 5)","🇬🇧 United Kingdom
+🇳🇱 Netherlands","וואלה חדשות. ספורט. סלבס. אוכל - עדכונים ודיווחים שוטפים
+וואלה אתר החדשות הפופולרי בישראל. עדכונים, דיווחים ופרשנויות בעשרות ערוצי תוכן: חדשות, ספורט, מבזקים, סלבס, תרבות, אוכל, כלכלה, בריאות, אופנה ועוד.",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇫🇮","envs.net",,"77.42.48.118 | 🇫🇮 | Finland | AS24940 | Hetzner Online GmbH","mail.envs.net | 🇫🇮 | Finland | AS24940 | Hetzner Online GmbH
+ext.envs.net | 🇩🇪 | Germany | AS197540 | netcup GmbH",2018-08-11,2027-08-11,,"Fourteen Eyes (👀 14)","🇫🇮 Finland
+🇩🇪 Germany","envs.net | environments
+envs.net | environments for linux lovers - since 9/2019","Illegal actions (CSAM, spam, hacking)
+Delete inactive accounts (10 days)
+https://envs.net/terms-of-service","Collect IP addresses, data/logs kept 3 mos., advertising, third parties, share upon authorities' request, GDPR
+https://envs.net/privacy-policy/",,,"donations",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: accepts cryptocurrency."
+"🇨🇿","tiscali.cz",,"109.123.210.26 | 🇨🇿 | Czechia | AS15685 | CASABLANCA INT a.s.
+77.78.119.119 | 🇨🇿 | Czechia | AS15685 | CASABLANCA INT a.s.","tax.virusfree.cz | 🇨🇿 | Czechia | AS21430 | WIA spol. s.r.o.
+tbx.virusfree.cz | 🇨🇿 | Czechia | AS21430 | WIA spol. s.r.o.
+tcx.spamfree.cz | 🇱🇺 | Luxembourg | AS5577 | root SA
+tdx.spamfree.cz | 🇱🇺 | Luxembourg | AS5577 | root SA",2000-06-23,2027-06-22,,,"🇨🇿 Czechia
+🇱🇺 Luxembourg","Tiscali.cz - Zprávy, Finance, Sport, Magazín
+Zpravodajství z domova a ze světa, počasí, sport a celebrity. Na Tiscali.cz najdete i finance, cestování a hry. Známý a používaný je i e-mail zdarma.",,"Collect IP addresses, cookies, advertising, GDPR
+https://reg.tiscali.cz/privacy-policy",,,"free",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇨🇳","skymail.ink",,"172.67.69.226 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.
+104.26.8.44 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.","route2.mx.cloudflare.net | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.
+route3.mx.cloudflare.net | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.
+route1.mx.cloudflare.net | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.",2025-04-23,2027-04-23,,"Five Eyes (👀 5)","Canada","Cloud Mail
+Cloud Mail 是一个 Serverless 响应式邮箱服务，支持邮件发送，可部署到 Cloudflare 平台，降低服务器成本。Cloud Mail is a serverless responsive email service that supports email sending and can be deployed on Cloudflare to reduce server costs.",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇮🇳","simplemail.co.in",,"104.21.87.136 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.
+172.67.143.129 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.","fwd.xyamail.com | 🇺🇸 | United States | AS36352 | HostPapa",2022-10-01,2032-10-01,,"Five Eyes (👀 5)","United States","Sign in · Simplemail Alias Manager",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇺🇸","xyamail.com",,"104.21.5.166 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.
+172.67.133.163 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.","mx.199903.xyz | 🇺🇸 | United States | AS3842 | InMotion Hosting, Inc.",2022-10-15,2027-10-15,,"Five Eyes (👀 5)","United States","XYA Mail | One mailbox for all your domains
+Web site created using create-react-app",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇨🇦","northmail.ca",,"141.193.23.66 | 🇨🇦 | Canada | AS20068 | Hawk Host Inc.","mail.northmail.ca | 🇨🇦 | Canada | AS20068 | Hawk Host Inc.",2025-02-07,2035-02-07,"🇨🇦 Simon Bissonnette","Five Eyes (👀 5)","Canada","NorthMail.ca - Secure & Reliable Free Email","Illegal actions (spam, hacking), IP violation, harassment, fraud
+https://northmail.ca/terms","Collect IP addresses, cookies, advertising, no third-party sharing (claimed)
+https://northmail.ca/privacy",,,"free",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇪🇸","cc.cc",,"13.226.244.40 | 🇩🇪 | Germany | AS16509 | Amazon.com, Inc.
+13.226.244.4 | 🇩🇪 | Germany | AS16509 | Amazon.com, Inc.","m.cc.cc | 🇺🇸 | United States | AS16509 | Amazon.com, Inc.",1997-10-13,2034-03-26,"🇪🇸 Cobra Inc","Five Eyes (👀 5)","United States","CC.CC — One name for your link and email.
+Claim your link and email with just one name.","Illegal actions (spam, hacking), IP violation, harassment, commercial use
+https://cc.cc/terms/terms.php","Collect IP addresses, cookies
+https://cc.cc/privacy_policy/privacy_policy.php",,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇨🇭","xiala.net",,"82.197.186.253 | 🇨🇭 | Switzerland | AS13030 | Init7 (Switzerland) Ltd.","email.xiala.net | 🇨🇭 | Switzerland | AS13030 | Init7 (Switzerland) Ltd.
+nixla.xiala.net | 🇫🇮 | Finland | AS24940 | Hetzner Online GmbH",2004-09-20,2027-09-20,,,"🇨🇭 Switzerland
+🇫🇮 Finland","news/status — xiala.net
+IG Xiala — digitale Freiräume seit 2003",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇫🇷","potager.org",,"91.194.60.100 | 🇫🇷 | France | AS28855 | Octopuce s.a.r.l.","mail.potager.org | 🇫🇷 | France | AS28855 | Octopuce s.a.r.l.",2006-11-06,2035-11-06,,"Nine Eyes (👀 9)","France","potager.org",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇫🇷","gresille.org",,"91.216.110.69 | 🇫🇷 | France | AS51083 | Association Grenode","mx.gresille.org | 🇫🇷 | France | AS51083 | Association Grenode
+mx1.grenode.net | 🇫🇷 | France | AS15401 | Orange Business Services SA",2008-07-04,2027-07-04,,"Nine Eyes (👀 9)","France","Grésille",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇺🇸","sdf.org",,"205.166.94.16 | 🇺🇸 | United States | AS14361 | HopOne Internet Corporation","mx.sdf.org | 🇺🇸 | United States | AS14361 | HopOne Internet Corporation",1996-10-12,2027-10-11,"🇺🇸 SDF Public Access UNIX System","Five Eyes (👀 5)","United States","SDF Public Access UNIX System - Free Shell Account and Shell Access",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇬🇷","1net.gr",,"213.136.64.29 | 🇫🇷 | France | AS51167 | Contabo GmbH","mail.1net.gr | 🇫🇷 | France | AS51167 | Contabo GmbH",,,,"Nine Eyes (👀 9)","France","Email @1NET.gr πλήρως απαλλαγμένο από SPAM & VIRUS, Αγοράστε το ΤΩΡΑ!","Illegal actions (spam, hacking), IP violation, harassment, fraud
+https://www.1net.gr/terms",,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇩🇪","coletivos.org",,"168.119.20.104 | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH","mail.coletivos.org | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH",2017-03-04,2027-03-04,,"Fourteen Eyes (👀 14)","Germany","Coletivos
+Web site created using create-react-app",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇩🇪","overmail.de","overmail.ch
+overmail.com
+overmail.eu","185.7.196.88 | 🇩🇪 | Germany | AS60294 | Deutsche Glasfaser Wholesale GmbH","mail.overmail.de | 🇩🇪 | Germany | AS60294 | Deutsche Glasfaser Wholesale GmbH
+mx1.aikq.de | 🇩🇪 | Germany | AS60294 | Deutsche Glasfaser Wholesale GmbH
+mail.aikq.de | 🇩🇪 | Germany | AS60294 | Deutsche Glasfaser Wholesale GmbH",,,,"Fourteen Eyes (👀 14)","Germany","overmail.de","Illegal actions (spam)
+https://overmail.de/index.php?action=tos",,,,"free",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇩🇪","eumx.net",,"94.16.119.123 | 🇩🇪 | Germany | AS197540 | netcup GmbH","eumx.net | 🇩🇪 | Germany | AS197540 | netcup GmbH
+bmx1.eumx.net | 🇳🇱 | Netherlands | AS60781 | LeaseWeb Netherlands B.V.
+bmx2.eumx.net | 🇳🇱 | Netherlands | AS60781 | LeaseWeb Netherlands B.V.",2004-12-09,2031-12-09,,"Nine Eyes (👀 9)","🇩🇪 Germany
+🇳🇱 Netherlands","EuMX.net Email Hosting Services","Illegal actions (spam, hacking), IP violation, harassment, commercial use
+https://ssl.eumx.net/tos.html",,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption."
+"🇸🇪","speedmail.se",,"185.189.84.20 | 🇸🇪 | Sweden | AS206279 | Jan Studzinski trading as Biruang IT KB","snares.wpsyd.com | 🇸🇪 | Sweden | AS206279 | Jan Studzinski trading as Biruang IT KB",2006-05-29,2027-05-29,,"Fourteen Eyes (👀 14)","Sweden","Speedmail",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇬🇧","whor.email","0jew.com
+bombhoax.com
+cia.contact
+cianigger.com
+ddosed.org
+ethot.org
+ewho.re
+fbi.systems
+fraud.cash
+fukt.cc
+mad.yt
+noje.ws
+obsessedwith.me
+racist.life
+swatgod.com
+swatnet.org
+tortur.es","149.102.150.44 | 🇬🇧 | United Kingdom | AS51167 | Contabo GmbH","box.fukt.cc | 🇬🇧 | United Kingdom | AS51167 | Contabo GmbH",2019-11-26,2026-11-26,,"Five Eyes (👀 5)","United Kingdom","WHOREMAIL
+FEMALES AND EMAILS <3","Illegal actions (spam, hacking)
+https://whor.email/tos/",,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇨🇿","morke.org",,"188.127.247.117 | 🇨🇿 | Czechia | AS62212 | SmartApe OU","mx.morke.org | 🇨🇿 | Czechia | AS62212 | SmartApe OU",2019-08-12,2028-08-12,,,"Czechia","Anonymous Email",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Tor: 6n5nbusxgyw46juqo3nt5v4zuivdbc7mzm74wlhg7arggetaui4yp4id.onion."
+"🇷🇴","navi.land","larpers.email
+larpers.me
+larping.email
+retard.tax
+selfharm.in
+steal.email","140.233.190.111 | 🇷🇴 | Romania | AS214209 | Internet Magnate (Pty) Ltd","mail.navi.land | 🇷🇴 | Romania | AS214209 | Internet Magnate (Pty) Ltd
+mx1.navi.land | 🇷🇴 | Romania | AS214209 | Internet Magnate (Pty) Ltd
+mx2.navi.land | 🇳🇱 | Netherlands | AS60781 | LeaseWeb Netherlands B.V.",2026-01-17,2027-01-17,,"Nine Eyes (👀 9)","🇷🇴 Romania
+🇳🇱 Netherlands","navi.land - No Bullshit Email","Illegal actions (spam)
+https://navi.land/terms.php","No IP logging (claimed), cookies, analytics/tracking, no ads (claimed), no third-party sharing (claimed), no-logs claim, does not sell data (claimed)
+https://navi.land/privacy.php",,,"free",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: accepts cryptocurrency, PGP/E2E encryption. Tor: 6whr6ta2jxxuvsgazjzjuni7jrxjjz6xnuuwns3ppu7we7ikacrn2wyd.onion."
+"🇳🇱","nix.to","afk.to
+ano.to
+anobox.me
+go6.to
+p4.to","104.21.67.228 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.
+172.67.182.120 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.","mail.nix.to | 🇳🇱 | Netherlands | AS43641 | SOLLUTIUM EU Sp z.o.o.",2023-12-16,2027-01-05,,"Nine Eyes (👀 9)","Netherlands","nix.to freemail","Illegal actions (spam)
+https://nix.to/index.php?action=tos",,,,"free",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇺🇸","nixnet.email",,"135.181.177.46 | 🇫🇮 | Finland | AS24940 | Hetzner Online GmbH","mx.nixnet.email | 🇺🇸 | United States | AS213230 | Hetzner Online GmbH",2019-10-06,2027-10-06,,"Five Eyes (👀 5)","United States","Home - NixNet Mail",,"Encryption
+https://nixnet.email/docs/privacy-and-opsec/",,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption."
+"🇳🇱","underworld.dog",,"45.140.213.4 | 🇳🇱 | Netherlands | AS212477 | RoyaleHosting BV","mail.underworld.dog | 🇳🇱 | Netherlands | AS212477 | RoyaleHosting BV",2023-07-06,2027-07-06,,"Nine Eyes (👀 9)","Netherlands","Underworld.dog",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Tor: fozdean5ayswi6jtseg2fgyysqt3dskoosmoc6gnqia4dxwxiuvg3oad.onion."
+"🇪🇸","astermail.org",,"104.26.0.171 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.
+104.26.1.171 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.","mx.astermail.org | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH",2026-01-15,2027-01-15,"🇪🇸 Aster Communications Inc","Fourteen Eyes (👀 14)","Germany","Aster Mail - Private, Encrypted Email - 10 GB Free
+Aster Mail: free, end-to-end encrypted email, with post-quantum protection between Aster accounts. Mail you write is encrypted on your device, and we never hold your keys.","Illegal actions (CSAM, spam, hacking), IP violation, harassment, fraud
+https://astermail.org/terms/","Collect IP addresses, cookies, analytics/tracking, advertising, third parties, share upon authorities' request, encryption, GDPR, does not sell data (claimed)
+https://astermail.org/privacy/",,,"free; $2.42/month; $28.99/year; $7.25/month",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: no phone number required, no personal data required, accepts cryptocurrency, PGP/E2E encryption."
+"🇳🇱","lnemail.net",,"62.76.229.11 | 🇳🇱 | Netherlands | AS211673 | Mynymbox Hosting LLC","mail.lnemail.net | 🇳🇱 | Netherlands | AS211673 | Mynymbox Hosting LLC",2025-05-04,2029-05-04,,"Nine Eyes (👀 9)","Netherlands","LNemail - Anonymous Email Accounts Powered by Bitcoin Lightning
+Create anonymous email accounts instantly with Bitcoin Lightning Network. Pay 1000 sats for a 1-year account; your first email is free, then 100 sats per outgoing email. No signup, no personal data. Full REST API with Bearer token auth. Send and receive emails privately.","Illegal actions (spam, hacking), harassment
+https://lnemail.net/tos",,,,"free",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: no personal data required, accepts cryptocurrency, PGP/E2E encryption."
+"🇱🇺","ghostbox.cc",,"104.244.77.59 | 🇱🇺 | Luxembourg | AS53667 | FranTech Solutions","mail.ghostbox.cc | 🇱🇺 | Luxembourg | AS53667 | FranTech Solutions",2023-11-19,2027-11-19,,,"Luxembourg","ghostBox — Privacy first email",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: accepts cryptocurrency, PGP/E2E encryption. Tor: ghost7whczovqqnabnvzbx24hqnfseyzzdqtzcpkyvbgfmwfgwii6pyd.onion."
+"🇺🇸","unix.dog",,"134.195.91.109 | 🇺🇸 | United States | AS63473 | HostHatch, LLC","smtp.unix.dog | 🇺🇸 | United States | AS63473 | HostHatch, LLC",2022-05-09,2027-05-09,,"Five Eyes (👀 5)","United States","UNIX.dog
+UNIX for barkers :3","Illegal actions, harassment
+https://www.unix.dog/rules",,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: accepts cryptocurrency. Tor: unixdoggmgze3fd5hzkqz43izjgxyupjnqsptke53qrcbhl624d7xcyd.onion."
+"🇺🇸","neir.io",,"162.19.228.70 | 🇩🇪 | Germany | AS16276 | OVH SAS","mail.neirmail.com | 🇩🇪 | Germany | AS16276 | OVH SAS",2026-07-23,2027-07-23,,"Fourteen Eyes (👀 14)","Germany","Neir | Private email without tracking
+Private email with encrypted mailboxes, no IP logging, Account Key sign-in, aliases, and a free plan. Use Neir on the web or over Tor.","Illegal actions (spam, hacking), fraud
+https://neir.io/terms","Collect IP addresses, analytics/tracking, no ads (claimed), no third-party sharing (claimed), share upon authorities' request, encryption
+https://neir.io/privacy",,,"free; $4.99/month",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: no phone number required, accepts cryptocurrency, PGP/E2E encryption. Tor: itlmjjwnpraaxvm5gkjeebwhjy5zycildwyg2u3lyrfigz5e6hntdqqd.onion."
+"🇬🇧","smailr.com",,"104.21.21.32 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.
+172.67.196.87 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.","mail.nodeloc.com | 🇬🇧 | United Kingdom | AS199741 | TransitX BYOIP",2026-08-04,2027-08-04,,"Five Eyes (👀 5)","United Kingdom","Smailr
+Smailr — enterprise and personal mailboxes with standard IMAP/POP3/SMTP access, custom domains and strong anti-abuse protection.",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested."
+"🇺🇸","thelemail.com","temail.org","188.114.96.3 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.
+188.114.97.3 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.","mail.thelemail.com | 🇩🇪 | Germany | AS24940 | Hetzner Online GmbH",2026-05-31,2027-05-31,,"Fourteen Eyes (👀 14)","Germany","Ende-zu-Ende-verschlüsselte E-Mails | Thelemail
+Ende-zu-Ende-verschlüsselte E-Mails zwischen Thelemail-Konten, Absenderprüfung und Tracking-Schutz. Starten Sie kostenlos mit einem @temail.org-Postfach.","Illegal actions (spam, hacking), harassment, fraud
+https://thelemail.com/de/terms","No IP logging (claimed), data/logs kept 30 days, no tracking (claimed), advertising, no third-party sharing (claimed), share upon authorities' request, encryption, GDPR
+https://thelemail.com/de/privacy",,,"free; 2€/month; 12€/year; 3€/month",,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption."
