@@ -1,0 +1,5 @@
+{{- /* Plain text from the CSV as safe HTML: escaped, URLs turned into links, line breaks kept. */ -}}
+{{- $h := htmlEscape (. | default "") -}}
+{{- $h = replaceRE `(https?://(?:[^\s<>&]|&amp;)*[^\s<>&.,;:)\]])` `<a href="$1" rel="noopener noreferrer nofollow" target="_blank">$1</a>` $h -}}
+{{- $h = replace (strings.TrimSpace $h) "\n" "<br>" -}}
+{{- return ($h | safeHTML) -}}

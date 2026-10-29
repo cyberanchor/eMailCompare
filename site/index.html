@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hugo prototypes | eMailCompare</title>
+<meta name="description" content="Four Hugo theme prototypes of the eMailCompare site, built from emails.csv.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232563eb'/%3E%3Cpath d='M7 10.5h18v11H7z' fill='none' stroke='%23fff' stroke-width='2'/%3E%3Cpath d='m7.5 11 8.5 6.5 8.5-6.5' fill='none' stroke='%23fff' stroke-width='2'/%3E%3C/svg%3E">
+<style>
+:root {
+  --bg: #f7f8fa; --surface: #fff; --fg: #15171a; --muted: #5d6470; --border: #e2e5ea; --accent: #2563eb;
+  --shadow: 0 1px 2px rgb(16 24 40 / .05), 0 12px 32px -16px rgb(16 24 40 / .18);
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #0d0f12; --surface: #15181d; --fg: #e8eaee; --muted: #9aa2ae; --border: #272c34; --accent: #6ea0ff; --shadow: none; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+a { color: var(--accent); }
+.wrap { max-width: 72rem; margin: 0 auto; padding: 3.5rem 1.25rem 4rem; }
+header { max-width: 46rem; }
+.eyebrow { margin: 0 0 .6rem; font-size: .8rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
+h1 { margin: 0; font-size: clamp(2rem, 5vw, 3rem); line-height: 1.08; letter-spacing: -.035em; }
+.lead { margin: 1rem 0 0; font-size: 1.1rem; color: var(--muted); }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.25rem; margin-top: 2.5rem; }
+.card { display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--border); border-radius: 18px; box-shadow: var(--shadow); overflow: hidden; }
+.mock { height: 150px; padding: 14px; border-bottom: 1px solid var(--border); background: var(--m-bg); display: grid; gap: 7px; }
+.mock i { display: block; border-radius: 4px; background: var(--m-line); }
+.body { display: flex; flex-direction: column; gap: .6rem; padding: 1.2rem 1.25rem 1.3rem; flex: 1; }
+.body h2 { display: flex; justify-content: space-between; align-items: baseline; gap: .5rem; margin: 0; font-size: 1.3rem; letter-spacing: -.02em; }
+.body h2 small { font-size: .78rem; font-weight: 600; color: var(--muted); }
+.body p { margin: 0; color: var(--muted); font-size: .95rem; }
+.tags { display: flex; flex-wrap: wrap; gap: .35rem; margin: .2rem 0 .4rem; padding: 0; list-style: none; }
+.tags li { padding: .15rem .55rem; border-radius: 999px; font-size: .76rem; font-weight: 600; border: 1px solid var(--border); color: var(--muted); }
+.actions { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: auto; padding-top: .4rem; }
+.btn { padding: .55rem .95rem; border-radius: 10px; font-weight: 650; font-size: .9rem; text-decoration: none; border: 1px solid var(--border); color: var(--fg); }
+.btn.primary { background: var(--accent); border-color: transparent; color: #fff; }
+.btn:hover { filter: brightness(1.06); }
+.notes { margin-top: 3rem; padding: 1.25rem 1.4rem; border: 1px dashed var(--border); border-radius: 14px; color: var(--muted); font-size: .92rem; }
+.notes h2 { margin: 0 0 .5rem; font-size: 1rem; color: var(--fg); }
+.notes ul { margin: 0; padding-left: 1.2rem; }
+.notes li { margin: .3rem 0; }
+code { font: .88em ui-monospace, SFMono-Regular, Menlo, monospace; padding: .1em .35em; border-radius: 5px; background: color-mix(in srgb, var(--fg) 8%, transparent); }
+
+/* Tiny wireframes of each theme's layout */
+.m-book { --m-bg: #fff; --m-line: #e6e8eb; grid-template-columns: 30% 1fr; }
+.m-book .side { display: grid; gap: 6px; align-content: start; padding-right: 10px; border-right: 1px solid #eceef1; }
+.m-hextra { --m-bg: linear-gradient(180deg, #f2f7ff, #fff); --m-line: #dbe6f7; justify-items: center; align-content: start; }
+.m-paper { --m-bg: #fafafa; --m-line: #e3e3e3; align-content: start; justify-items: center; }
+.m-congo { --m-bg: #faf8ff; --m-line: #e6e0fb; align-content: start; }
+@media (prefers-color-scheme: dark) {
+  .m-book { --m-bg: #2e3440; --m-line: #434c5e; } .m-book .side { border-color: #3b4252; }
+  .m-hextra { --m-bg: linear-gradient(180deg, #0f1a2b, #111); --m-line: #24344d; }
+  .m-paper { --m-bg: #1d1e20; --m-line: #3a3b3e; }
+  .m-congo { --m-bg: #27272a; --m-line: #3f3f46; }
+}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <p class="eyebrow">eMailCompare · Hugo prototypes</p>
+    <h1>Four themes, one data file</h1>
+    <p class="lead">Each prototype is a Hugo site built straight from <a href="https://github.com/cyberanchor/eMailCompare/blob/main/emails.csv">emails.csv</a> and the README status marks: a searchable, filterable table of all providers, a page for every provider and a methodology page. Pure Hugo, no Node.js.</p>
+  </header>
+
+  <section class="grid" aria-label="Prototypes">
+    <article class="card">
+      <div class="mock m-book" aria-hidden="true">
+        <div class="side"><i style="height:9px;width:70%"></i><i style="height:7px"></i><i style="height:7px;width:80%"></i><i style="height:7px;width:60%"></i><i style="height:7px;width:75%"></i></div>
+        <div style="display:grid;gap:7px;align-content:start"><i style="height:14px;width:60%"></i><i style="height:7px"></i><i style="height:7px;width:85%"></i><i style="height:52px;margin-top:6px"></i></div>
+      </div>
+      <div class="body">
+        <h2>hugo-book <small>v0.15.0</small></h2>
+        <p>Plain, document-like. Left sidebar with status shortcuts, built-in site search, light/dark from the system setting.</p>
+        <ul class="tags"><li>sidebar</li><li>site search</li><li>auto dark</li><li>lightest CSS</li></ul>
+        <div class="actions"><a class="btn primary" href="hugo-book/public/">Open preview →</a><a class="btn" href="hugo-book/public/providers/protonmail-ch/">Provider page</a></div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="mock m-hextra" aria-hidden="true">
+        <i style="height:8px;width:100%;margin-bottom:8px"></i><i style="height:9px;width:28%;border-radius:9px"></i><i style="height:18px;width:62%"></i><i style="height:8px;width:48%"></i><i style="height:40px;width:100%;margin-top:6px"></i>
+      </div>
+      <div class="body">
+        <h2>Hextra <small>v0.13.0</small></h2>
+        <p>Modern documentation look with a hero on the home page, a search dialog in the navbar and a light/dark toggle.</p>
+        <ul class="tags"><li>hero</li><li>search dialog</li><li>dark toggle</li><li>Tailwind</li></ul>
+        <div class="actions"><a class="btn primary" href="hextra/public/">Open preview →</a><a class="btn" href="hextra/public/providers/protonmail-ch/">Provider page</a></div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="mock m-paper" aria-hidden="true">
+        <i style="height:8px;width:100%;margin-bottom:10px"></i><i style="height:16px;width:55%"></i><i style="height:7px;width:70%"></i><i style="height:7px;width:62%"></i><i style="height:38px;width:88%;margin-top:8px"></i>
+      </div>
+      <div class="body">
+        <h2>PaperMod <small>master</small></h2>
+        <p>Minimal, blog-like and fast. Intro block on the home page, breadcrumbs, a light/dark toggle in the header.</p>
+        <ul class="tags"><li>minimal</li><li>dark toggle</li><li>breadcrumbs</li><li>fastest</li></ul>
+        <div class="actions"><a class="btn primary" href="papermod/public/">Open preview →</a><a class="btn" href="papermod/public/providers/protonmail-ch/">Provider page</a></div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="mock m-congo" aria-hidden="true">
+        <i style="height:8px;width:100%;margin-bottom:8px"></i><i style="height:6px;width:18%"></i><i style="height:22px;width:70%;background:linear-gradient(90deg,#7c3aed,#c4b5fd)"></i><i style="height:7px;width:55%"></i><i style="height:36px;width:100%;margin-top:6px"></i>
+      </div>
+      <div class="body">
+        <h2>Congo <small>v2.14.0</small></h2>
+        <p>Polished Tailwind theme: gradient hero, search over every page, appearance switcher in the footer.</p>
+        <ul class="tags"><li>gradient hero</li><li>site search</li><li>dark switcher</li><li>Tailwind</li></ul>
+        <div class="actions"><a class="btn primary" href="congo/public/">Open preview →</a><a class="btn" href="congo/public/providers/protonmail-ch/">Provider page</a></div>
+      </div>
+    </article>
+  </section>
+
+  <section class="notes">
+    <h2>How it works</h2>
+    <ul>
+      <li>Shared code lives in <code>site/_shared/</code>: it reads <code>emails.csv</code> and the README, applies the same colour rules as the current site and creates one page per provider. Each theme folder only adds its layout and colours.</li>
+      <li>Text pages are Markdown (<code>_shared/content/about.md</code>); the table can be placed in any Markdown page with the <code>emc-table</code>, <code>emc-stats</code> and <code>emc-legend</code> shortcodes.</li>
+      <li>Rebuild with <code>site/build.sh</code> (needs Hugo extended and git); <code>site/build.sh --serve hextra</code> starts a live preview.</li>
+      <li>The current site: <a href="../web/">interactive table</a> · <a href="../web2/">static table</a>.</li>
+    </ul>
+  </section>
+</main>
+</body>
+</html>

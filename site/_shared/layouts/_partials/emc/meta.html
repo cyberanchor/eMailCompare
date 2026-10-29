@@ -1,0 +1,7 @@
+{{- /* Labels and icons for the provider states, shared by every template. */ -}}
+{{- return dict
+  "checked" (dict "icon" "✅" "label" "Tested by hand" "long" "Account registered and tested by hand" "color" "green")
+  "auto" (dict "icon" "🤖" "label" "Auto-collected" "long" "Collected automatically (DNS, RDAP, website); registration not tested" "color" "blue")
+  "pending" (dict "icon" "⏳" "label" "Pending" "long" "Pending: partial data, not reviewed yet" "color" "yellow")
+  "dead" (dict "icon" "❌" "label" "Gone" "long" "Service shut down or unreachable (struck out)" "color" "grey")
+-}}

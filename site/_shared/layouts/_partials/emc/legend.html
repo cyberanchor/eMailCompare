@@ -1,0 +1,20 @@
+{{- $meta := partial "emc/meta.html" . -}}
+<aside class="emc emc-legend" aria-label="Legend">
+  <div>
+    <h2 class="emc-h3">Status</h2>
+    <ul>
+      {{- range $s := slice "checked" "auto" "pending" "dead" }}{{ $m := index $meta $s }}
+      <li><span aria-hidden="true">{{ $m.icon }}</span> {{ $m.long }}</li>
+      {{- end }}
+    </ul>
+  </div>
+  <div>
+    <h2 class="emc-h3">Colours</h2>
+    <ul class="emc-legend-pills">
+      <li><span class="emc-pill emc-c-green">favourable</span> old domain (≤ 2010), no phone / no personal data needed</li>
+      <li><span class="emc-pill emc-c-yellow">caution</span> optional data, Nine Eyes</li>
+      <li><span class="emc-pill emc-c-red">unfavourable</span> new domain (≥ 2021), Five Eyes, required data</li>
+      <li><span class="emc-pill emc-c-purple">14 Eyes</span> Fourteen Eyes country</li>
+    </ul>
+  </div>
+</aside>

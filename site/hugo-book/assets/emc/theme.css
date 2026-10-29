@@ -1,0 +1,20 @@
+/* hugo-book: flat, document-like; colours follow the theme's light / dark / auto variables. */
+:root { --container-max-width: 100rem; }
+.emc {
+  --emc-fg: var(--body-font-color);
+  --emc-bg: var(--body-background);
+  --emc-surface: var(--body-background);
+  --emc-subtle: var(--gray-100);
+  --emc-border: var(--gray-200);
+  --emc-muted: color-mix(in srgb, var(--body-font-color) 62%, var(--body-background));
+  --emc-accent: var(--color-link);
+  --emc-accent-fg: var(--body-background);
+  --emc-radius: 6px;
+  --emc-shadow: none;
+}
+.emc-book-intro h1 { margin-top: 0; }
+.emc-book-menu { list-style: none; margin: 0 0 1rem; padding: 0; }
+.emc-book-menu li { margin: .4rem 0; }
+.emc-book-menu a.active { font-weight: 700; }
+.emc-book-menu-ext { margin-top: 1rem; padding-top: .75rem; border-top: 1px solid var(--gray-200); }
+.emc-hero { background: var(--gray-100); }

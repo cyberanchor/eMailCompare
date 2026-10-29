@@ -1,0 +1,6 @@
+# Themes are fetched by build.sh at pinned commits
+*/themes/
+*/resources/
+*/node_modules/
+.hugo_build.lock
+*/.hugo_build.lock

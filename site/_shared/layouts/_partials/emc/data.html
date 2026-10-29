@@ -1,0 +1,120 @@
+{{- /*
+  Every provider from emails.csv, with its status from the README tables and the cell colours of
+  tools/build_json.py. Call it with partialCached "emc/data.html" . "emc" — it returns a slice of maps.
+
+  Columns of emails.csv (by position, the header has line breaks in it):
+  0 flag · 1 Domain · 2 2nd domain · 3 A Record · 4 MX Record · 5 created · 6 expires · 7 owner
+  8 Intelligence Alliance · 9 Jurisdiction · 10 Site description · 11 ToS · 12 Privacy policy
+  13 Email verification · 14 Phone · 15 Price · 16 Personal info · 17 Note
+*/ -}}
+{{- $out := slice -}}
+{{- $csv := resources.Get "emc/emails.csv" -}}
+{{- $readme := resources.Get "emc/README.md" -}}
+{{- if not (and $csv $readme) -}}
+  {{- errorf "emc/data: emails.csv or README.md is not mounted into assets/emc/" -}}
+{{- end -}}
+
+{{- /* Status from the README: ✅ checked table (🤖 = collected automatically), ❓ pending table,
+       strikethrough (U+0336 or ~~) = the service is gone. */ -}}
+{{- $status := dict -}}
+{{- $section := "" -}}
+{{- range split $readme.Content "\n" -}}
+  {{- if hasPrefix . "## ✅ Checked" -}}{{- $section = "checked" -}}
+  {{- else if hasPrefix . "## ❓ Pending" -}}{{- $section = "pending" -}}
+  {{- else if or (hasPrefix . "<!--") (and (hasPrefix . "## ") (eq $section "pending")) -}}{{- $section = "" -}}
+  {{- end -}}
+  {{- $line := strings.TrimSpace . -}}
+  {{- if and $section (hasPrefix $line "|") -}}
+    {{- $cells := split (strings.Trim $line "|") "|" -}}
+    {{- if ge (len $cells) 3 -}}
+      {{- $mark := strings.TrimSpace (index $cells 0) -}}
+      {{- if in (slice "✅" "❌" "🤖") $mark -}}
+        {{- $raw := index $cells 1 -}}
+        {{- $dead := or (strings.Contains $raw "̶") (strings.Contains $raw "~~") -}}
+        {{- $domain := lower (strings.TrimSpace (replace (replace $raw "̶" "") "~~" "")) -}}
+        {{- $group := "pending" -}}
+        {{- if eq $section "checked" -}}{{- $group = cond (eq $mark "🤖") "auto" "checked" -}}{{- end -}}
+        {{- $status = merge $status (dict $domain (dict "group" $group "dead" $dead)) -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $rows := $csv | transform.Unmarshal (dict "delimiter" ",") -}}
+{{- range $i, $r := after 1 $rows -}}
+  {{- $domain := lower (strings.TrimSpace (index $r 1)) -}}
+  {{- $st := index $status $domain | default (dict "group" "pending" "dead" false) -}}
+  {{- $dead := $st.dead -}}
+
+  {{- $created := strings.TrimSpace (index $r 5) -}}
+  {{- $cCreated := "none" -}}
+  {{- if findRE `^\d{4}` $created -}}
+    {{- $year := int (substr $created 0 4) -}}
+    {{- if le $year 2010 -}}{{- $cCreated = "green" -}}{{- else if ge $year 2021 -}}{{- $cCreated = "red" -}}{{- end -}}
+  {{- end -}}
+
+  {{- $alliance := strings.TrimSpace (index $r 8) -}}
+  {{- $al := lower $alliance -}}
+  {{- $cAlliance := "none" -}}{{- $eyes := "" -}}
+  {{- if hasPrefix $al "five eyes" -}}{{- $cAlliance = "red" -}}{{- $eyes = "5" -}}
+  {{- else if hasPrefix $al "nine eyes" -}}{{- $cAlliance = "yellow" -}}{{- $eyes = "9" -}}
+  {{- else if hasPrefix $al "fourteen eyes" -}}{{- $cAlliance = "purple" -}}{{- $eyes = "14" -}}
+  {{- end -}}
+
+  {{- $email := strings.TrimSpace (index $r 13) -}}
+  {{- $phone := strings.TrimSpace (index $r 14) -}}
+  {{- $personal := strings.TrimSpace (index $r 16) -}}
+  {{- $cEmail := index (dict "yes" "yellow" "no" "red") (lower $email) | default "none" -}}
+  {{- $cPhone := index (dict "optional" "green" "no" "red" "yes" "yellow") (lower $phone) | default "none" -}}
+  {{- $cPersonal := index (dict "yes" "red" "no" "green" "optional" "yellow") (lower $personal) | default "none" -}}
+  {{- if $dead -}}
+    {{- $cCreated = "grey" -}}{{- $cAlliance = "grey" -}}{{- $cEmail = "grey" -}}{{- $cPhone = "grey" -}}{{- $cPersonal = "grey" -}}
+  {{- end -}}
+
+  {{- /* "ip | 🇨🇭 | Switzerland | AS62371 | Org" lines, one per record */ -}}
+  {{- $records := dict -}}
+  {{- range $col := slice 3 4 -}}
+    {{- $list := slice -}}
+    {{- range split (index $r $col) "\n" -}}
+      {{- $parts := split . "|" -}}
+      {{- if strings.TrimSpace . -}}
+        {{- $p := slice -}}
+        {{- range $parts -}}{{- $p = $p | append (strings.TrimSpace .) -}}{{- end -}}
+        {{- $p = $p | append "" "" "" "" -}}
+        {{- $list = $list | append (dict "host" (index $p 0) "flag" (index $p 1) "country" (index $p 2) "asn" (index $p 3) "org" (index $p 4)) -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $records = merge $records (dict (cond (eq $col 3) "a" "mx") $list) -}}
+  {{- end -}}
+
+  {{- $seconds := slice -}}
+  {{- range split (index $r 2) "\n" -}}{{- with strings.TrimSpace . -}}{{- $seconds = $seconds | append . -}}{{- end -}}{{- end -}}
+
+  {{- $jurisdiction := strings.TrimSpace (index $r 9) -}}
+  {{- $out = $out | append (dict
+      "n" (add $i 1)
+      "domain" $domain
+      "slug" (replace $domain "." "-")
+      "flag" (strings.TrimSpace (index $r 0))
+      "seconds" $seconds
+      "a" $records.a
+      "mx" $records.mx
+      "created" $created "cCreated" $cCreated
+      "expires" (strings.TrimSpace (index $r 6))
+      "owner" (strings.TrimSpace (index $r 7))
+      "alliance" $alliance "cAlliance" $cAlliance "eyes" $eyes
+      "jurisdiction" $jurisdiction
+      "desc" (strings.TrimSpace (index $r 10))
+      "tos" (strings.TrimSpace (index $r 11))
+      "privacy" (strings.TrimSpace (index $r 12))
+      "email" $email "cEmail" $cEmail
+      "phone" $phone "cPhone" $cPhone
+      "price" (strings.TrimSpace (index $r 15))
+      "personal" $personal "cPersonal" $cPersonal
+      "note" (strings.TrimSpace (index $r 17))
+      "group" $st.group
+      "dead" $dead
+      "state" (cond $dead "dead" $st.group)
+    ) -}}
+{{- end -}}
+{{- return $out -}}

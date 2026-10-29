@@ -1,0 +1,90 @@
+# Hextra prototype: https://github.com/imfing/hextra
+baseURL = "https://cyberanchor.github.io/eMailCompare/site/hextra/public/"
+title = "eMailCompare"
+locale = "en"
+disableKinds = ["taxonomy", "term", "rss", "sitemap", "robotsTXT"]
+
+[params]
+  description = "Yet another email service comparison: who runs each provider, where its servers are, and what it asks for."
+  [params.navbar]
+    displayTitle = true
+    displayLogo = false
+    width = "wide"
+  [params.page]
+    width = "wide"
+  [params.theme]
+    default = "system"
+    displayToggle = true
+  [params.footer]
+    enable = true
+    displayCopyright = true
+    displayPoweredBy = true
+    width = "wide"
+  [params.search]
+    enable = true
+    type = "flexsearch"
+    [params.search.flexsearch]
+      index = "content"
+      tokenize = "forward"
+  # Front matter for every provider page: no table of contents, not listed in the sidebar.
+  [params.emc.pageParams]
+    toc = false
+    [params.emc.pageParams.sidebar]
+      exclude = true
+
+[[menu.main]]
+  name = "Providers"
+  pageRef = "/providers"
+  weight = 1
+[[menu.main]]
+  name = "Methodology"
+  pageRef = "/about"
+  weight = 2
+[[menu.main]]
+  name = "Search"
+  weight = 3
+  [menu.main.params]
+    type = "search"
+[[menu.main]]
+  name = "GitHub"
+  url = "https://github.com/cyberanchor/eMailCompare"
+  weight = 4
+  [menu.main.params]
+    icon = "github"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+# Provider pages carry their (already escaped) text as HTML.
+[security]
+  allowContent = ["! ^text/org$"]
+
+[[module.imports]]
+  path = "hextra"
+
+# Shared eMailCompare components and the data files from the repository root.
+[[module.mounts]]
+  source = "content"
+  target = "content"
+[[module.mounts]]
+  source = "../_shared/content"
+  target = "content"
+[[module.mounts]]
+  source = "layouts"
+  target = "layouts"
+[[module.mounts]]
+  source = "../_shared/layouts"
+  target = "layouts"
+[[module.mounts]]
+  source = "assets"
+  target = "assets"
+[[module.mounts]]
+  source = "../_shared/assets"
+  target = "assets"
+[[module.mounts]]
+  source = "i18n"
+  target = "i18n"
+[[module.mounts]]
+  source = "../.."
+  target = "assets/emc"
+  files = ["emails.csv", "README.md"]

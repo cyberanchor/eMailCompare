@@ -1,0 +1,8 @@
+{{ define "main" }}
+<article class="markdown book-article emc-book-intro">
+  {{ .Content }}
+</article>
+{{ partial "emc/stats.html" . }}
+{{ partial "emc/table.html" . }}
+{{ partial "emc/legend.html" . }}
+{{ end }}

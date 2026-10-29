@@ -1,0 +1,9 @@
+{{- define "main" }}
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+  {{- with .Description }}<div class="post-description">{{ . }}</div>{{ end }}
+</header>
+{{- partial "emc/table.html" . }}
+{{- partial "emc/legend.html" . }}
+{{- end }}

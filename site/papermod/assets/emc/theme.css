@@ -1,0 +1,20 @@
+/* PaperMod: minimal, rounded; colours follow --theme/--entry/--primary and [data-theme="dark"]. */
+.emc {
+  --emc-fg: var(--primary);
+  --emc-bg: var(--theme);
+  --emc-surface: var(--entry);
+  --emc-subtle: var(--code-bg);
+  --emc-border: var(--border);
+  --emc-muted: var(--secondary);
+  --emc-accent: var(--primary);
+  --emc-accent-fg: var(--theme);
+  --emc-radius: var(--radius);
+  --emc-shadow: none;
+}
+.emc a { color: var(--primary); text-decoration: underline; text-decoration-color: var(--tertiary); text-underline-offset: 3px; }
+.emc a.emc-stat, .emc a.emc-btn, .emc .emc-pager a { text-decoration: none; }
+.emc .emc-table tbody tr:hover td { background: var(--code-bg); }
+/* Pages with the table get a wider column than PaperMod's 720px reading width. */
+body:has(.emc-explorer) { --main-width: 1180px; }
+body:has(.emc-provider) { --main-width: 900px; }
+.home-info { margin-bottom: 0; }

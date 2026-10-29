@@ -1,0 +1,39 @@
+/* Congo: Tailwind neutral / primary palette as "r, g, b" variables, class-based dark mode (html.dark). */
+.emc, .emc-congo-hero {
+  --emc-fg: rgb(var(--color-neutral-900));
+  --emc-bg: rgb(var(--color-neutral));
+  --emc-surface: rgb(var(--color-neutral));
+  --emc-subtle: rgb(var(--color-neutral-50));
+  --emc-border: rgb(var(--color-neutral-200));
+  --emc-muted: rgb(var(--color-neutral-500));
+  --emc-accent: rgb(var(--color-primary-600));
+  --emc-accent-fg: #fff;
+  --emc-radius: 10px;
+}
+html.dark .emc, html.dark .emc-congo-hero {
+  --emc-fg: rgb(var(--color-neutral));
+  --emc-bg: rgb(var(--color-neutral-800));
+  --emc-surface: rgb(var(--color-neutral-800));
+  --emc-subtle: rgba(var(--color-neutral-700), .45);
+  --emc-border: rgb(var(--color-neutral-700));
+  --emc-muted: rgb(var(--color-neutral-400));
+  --emc-accent: rgb(var(--color-primary-400));
+  --emc-accent-fg: rgb(var(--color-neutral-900));
+  --emc-shadow: none;
+}
+.emc-congo-hero { padding: 2.5rem 0 .5rem; color: var(--emc-fg); }
+.emc-congo-eyebrow { margin: 0 0 .5rem; font-size: .8rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--emc-accent); }
+.emc-congo-hero h1 {
+  margin: 0; font-size: clamp(2.2rem, 6vw, 3.6rem); font-weight: 800; letter-spacing: -.035em; line-height: 1.05;
+  background: linear-gradient(90deg, rgb(var(--color-primary-700)), rgb(var(--color-secondary-500, var(--color-primary-400))));
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+html.dark .emc-congo-hero h1 { background-image: linear-gradient(90deg, rgb(var(--color-primary-300)), rgb(var(--color-secondary-400, var(--color-primary-200)))); }
+.emc-congo-lead { max-width: 46rem; margin-top: 1rem; font-size: 1.15rem; color: var(--emc-muted); }
+.emc-congo-lead a { color: var(--emc-accent); text-decoration: underline; text-underline-offset: 3px; }
+.emc-congo-cta { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1.5rem; }
+.emc-congo-btn {
+  padding: .6rem 1.2rem; border-radius: 999px; font-weight: 600; font-size: .95rem; text-decoration: none !important;
+  background: var(--emc-accent); color: var(--emc-accent-fg) !important; border: 1px solid transparent;
+}
+.emc-congo-btn-ghost { background: transparent; color: var(--emc-fg) !important; border-color: var(--emc-border); }

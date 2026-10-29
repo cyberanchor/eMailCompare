@@ -1,0 +1,22 @@
+{{- /* One page per row of emails.csv. The page only carries the slug; templates read the full row
+       through the emc/data.html partial. Description and note become the page content so that the
+       themes' own search indexes them. */ -}}
+{{- /* Extra front matter for every provider page, per theme: [params.emc.pageParams] in hugo.toml. */ -}}
+{{- $extra := site.Params.emc.pageParams | default dict -}}
+{{- $rows := resources.Get "emc/emails.csv" | transform.Unmarshal (dict "delimiter" ",") -}}
+{{- range after 1 $rows -}}
+  {{- $domain := lower (strings.TrimSpace (index . 1)) -}}
+  {{- $desc := strings.TrimSpace (index . 10) -}}
+  {{- $note := strings.TrimSpace (index . 17) -}}
+  {{- $html := "" -}}
+  {{- range slice $desc $note -}}{{- with . -}}{{- $html = printf "%s<p>%s</p>" $html (htmlEscape .) -}}{{- end -}}{{- end -}}
+  {{- $summary := $note | default $desc | default (printf "%s email provider" $domain) -}}
+  {{- $.AddPage (dict
+      "path" (replace $domain "." "-")
+      "title" $domain
+      "kind" "page"
+      "content" (dict "mediaType" "text/html" "value" $html)
+      "params" (merge $extra (dict "slug" (replace $domain "." "-") "description" (truncate 160 (replace $summary "\n" " "))))
+      "summary" (truncate 200 (replace $summary "\n" " "))
+    ) -}}
+{{- end -}}

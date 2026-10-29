@@ -1,0 +1,18 @@
+{{- $d := partialCached "emc/data.html" . "emc" -}}
+{{- $meta := partial "emc/meta.html" . -}}
+{{- $countries := slice -}}
+{{- range $d -}}{{- with .jurisdiction -}}{{- $countries = $countries | append . -}}{{- end -}}{{- end -}}
+{{- $outside := 0 -}}
+{{- range $d -}}{{- if and (not .eyes) .jurisdiction (not .dead) -}}{{- $outside = add $outside 1 -}}{{- end -}}{{- end -}}
+<div class="emc emc-stats" role="list">
+  <div class="emc-stat" role="listitem"><span class="emc-stat-n">{{ len $d }}</span><span class="emc-stat-l">providers</span></div>
+  {{- range $s := slice "checked" "auto" "pending" "dead" }}
+  {{- $m := index $meta $s }}
+  <a class="emc-stat emc-stat-{{ $s }}" role="listitem" href="#emc-explorer" data-emc-set-state="{{ $s }}">
+    <span class="emc-stat-n">{{ len (where $d "state" $s) }}</span>
+    <span class="emc-stat-l">{{ $m.icon }} {{ $m.label }}</span>
+  </a>
+  {{- end }}
+  <div class="emc-stat" role="listitem"><span class="emc-stat-n">{{ len ($countries | uniq) }}</span><span class="emc-stat-l">jurisdictions</span></div>
+  <div class="emc-stat" role="listitem"><span class="emc-stat-n">{{ $outside }}</span><span class="emc-stat-l">outside 14 Eyes</span></div>
+</div>

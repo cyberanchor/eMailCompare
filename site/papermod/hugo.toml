@@ -1,0 +1,73 @@
+# PaperMod prototype: https://github.com/adityatelange/hugo-PaperMod
+baseURL = "https://cyberanchor.github.io/eMailCompare/site/papermod/public/"
+title = "eMailCompare"
+locale = "en"
+disableKinds = ["taxonomy", "term", "rss", "sitemap", "robotsTXT"]
+
+[params]
+  env = "production"
+  description = "Yet another email service comparison: who runs each provider, where its servers are, and what it asks for."
+  defaultTheme = "auto"
+  ShowBreadCrumbs = true
+  ShowReadingTime = false
+  ShowPostNavLinks = false
+  ShowCodeCopyButtons = false
+  disableSpecial1stPost = true
+  [params.assets]
+    favicon = "favicon.svg"
+    favicon16x16 = "favicon.svg"
+    favicon32x32 = "favicon.svg"
+    apple_touch_icon = "favicon.svg"
+    safari_pinned_tab = "favicon.svg"
+  [params.homeInfoParams]
+    Title = "Know who runs your inbox"
+    Content = "Jurisdiction, intelligence alliance, terms, privacy policy and signup requirements of email providers, side by side. Generated from [emails.csv](https://github.com/cyberanchor/eMailCompare/blob/main/emails.csv); this list does not recommend any provider."
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/cyberanchor/eMailCompare"
+  [params.emc.pageParams]
+    ShowBreadCrumbs = true
+
+[[menu.main]]
+  name = "Providers"
+  pageRef = "/providers"
+  weight = 1
+[[menu.main]]
+  name = "Methodology"
+  pageRef = "/about"
+  weight = 2
+[[menu.main]]
+  name = "GitHub"
+  url = "https://github.com/cyberanchor/eMailCompare"
+  weight = 3
+
+# Provider pages carry their (already escaped) text as HTML.
+[security]
+  allowContent = ["! ^text/org$"]
+
+[[module.imports]]
+  path = "PaperMod"
+
+# Shared eMailCompare components and the data files from the repository root.
+[[module.mounts]]
+  source = "content"
+  target = "content"
+[[module.mounts]]
+  source = "../_shared/content"
+  target = "content"
+[[module.mounts]]
+  source = "layouts"
+  target = "layouts"
+[[module.mounts]]
+  source = "../_shared/layouts"
+  target = "layouts"
+[[module.mounts]]
+  source = "assets"
+  target = "assets"
+[[module.mounts]]
+  source = "../_shared/assets"
+  target = "assets"
+[[module.mounts]]
+  source = "../.."
+  target = "assets/emc"
+  files = ["emails.csv", "README.md"]

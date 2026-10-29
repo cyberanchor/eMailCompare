@@ -1,0 +1,6 @@
+{{- /* (dict "text" "yes" "color" "red" "title" "") → coloured pill; empty text → a muted dash. */ -}}
+{{- with .text -}}
+<span class="emc-pill emc-c-{{ $.color | default "none" }}"{{ with $.title }} title="{{ . }}"{{ end }}>{{ . }}</span>
+{{- else -}}
+<span class="emc-na" aria-label="no data">—</span>
+{{- end -}}

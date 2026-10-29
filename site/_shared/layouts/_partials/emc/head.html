@@ -1,0 +1,7 @@
+{{- /* Stylesheet and script of the shared components. emc/theme.css (per site) maps the theme's colours. */ -}}
+{{- $css := slice (resources.Get "emc/emc.css") -}}
+{{- with resources.Get "emc/theme.css" -}}{{- $css = $css | append . -}}{{- end -}}
+{{- $style := $css | resources.Concat "css/emc.css" | minify | fingerprint -}}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+{{- $js := resources.Get "emc/emc.js" | js.Build (dict "minify" true "target" "es2018") | fingerprint -}}
+<script defer src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
