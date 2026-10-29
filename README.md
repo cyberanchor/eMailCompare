@@ -18,7 +18,7 @@
 
 ![demo](./assets/demo.gif)
 
-🔗 <a href="https://cyberanchor.github.io/eMailCompare/web"><b>demo web</b></a> · <a href="https://cyberanchor.github.io/eMailCompare/web2"><b>static web2</b></a>
+🔗 <a href="https://cyberanchor.github.io/eMailCompare/site/public/"><b>site</b></a> · 🔗 <a href="https://cyberanchor.github.io/eMailCompare/web"><b>demo web</b></a> · <a href="https://cyberanchor.github.io/eMailCompare/web2"><b>static web2</b></a>
 
 </div>
 
@@ -413,6 +413,18 @@ All email service data is stored in `data.json`. Each entry includes fields like
     },
     "Note": {
       "value": "Proton Mail is a secure email service with end-to-end encryption, created by the Swiss company Proton AG. It is suitable for registering on various services, collects user information, and shares data with authorities. For registration, it is recommended to use anti-detect browsers and clean mobile proxies.",
+      "color": "none"
+    },
+    "ToS link": {
+      "value": "https://proton.me/legal/terms",
+      "color": "none"
+    },
+    "Privacy policy link": {
+      "value": "https://proton.me/legal/privacy",
+      "color": "none"
+    },
+    "Source code": {
+      "value": null,
       "color": "none"
     }
   }
