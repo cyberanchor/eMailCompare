@@ -18,7 +18,7 @@
 
 ![demo](./assets/demo.gif)
 
-🔗 <a href="https://cyberanchor.github.io/eMailCompare/web"><b>demo web</b></a> 
+🔗 <a href="https://cyberanchor.github.io/eMailCompare/web"><b>demo web</b></a> · <a href="https://cyberanchor.github.io/eMailCompare/web2"><b>static web2</b></a>
 
 </div>
 
@@ -40,8 +40,8 @@ The project is built using **HTML, CSS, JavaScript, and Bootstrap**, with all st
 
 - Inspired by **[@Lissy93](https://github.com/Lissy93)** and her repository **[email-comparison](https://github.com/Lissy93/email-comparison)**
 - Based on **[httpsmail.com](https://www.httpsmail.com/mail/)** of **[@steley](https://github.com/steley)**
-- Additional information sourced from **[Offshore-CAT](https://offshore.cat/?page=email)**
-- Related resource: **[dismail.de](https://dismail.de/serverlist.html)**
+- Some sourced from **[Offshore-CAT](https://offshore.cat/?page=email)**
+- Some sourced from **[dismail.de](https://dismail.de/serverlist.html)**
 - Some sourced from: **[link-base.ms](https://link-base.ms/useful)**
 - Some sourced from: **[kycnot.me](https://kycnot.me/?categories=email&verification=verified&verification=approved&verification=community)**
 - Some sourced from: **[monerica.com](https://monerica.com/businesses/email-providers-forwarders)**
@@ -430,7 +430,16 @@ Suggestions and contributions are welcome in [Issues](https://github.com/cyberan
 <a href="https://github.com/cyberanchor/eMailCompare/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=cyberanchor/eMailCompare" />
 </a>
+<a href="https://github.com/vaelmail" title="vaelmail">
+  <img src="https://github.com/vaelmail.png?size=64" width="64" height="64" alt="vaelmail" />
+</a>
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=cyberanchor/eMailCompare&type=date&legend=bottom-right&theme=dark)](https://www.star-history.com/#cyberanchor/eMailCompare&type=date&legend=bottom-right)
+<a href="https://www.star-history.com/#cyberanchor/eMailCompare&type=date&legend=bottom-right">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=cyberanchor/eMailCompare&type=date&theme=dark&legend=bottom-right" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=cyberanchor/eMailCompare&type=date&legend=bottom-right" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=cyberanchor/eMailCompare&type=date&legend=bottom-right" />
+  </picture>
+</a>
