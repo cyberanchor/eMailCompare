@@ -252,6 +252,20 @@ Accounts were manually registered on each email service, followed by controlled 
 | 🤖      | thelemail.com     | 🇺🇸   |
 | 🤖      | egali.top         | 🇫🇮   |
 | 🤖      | elektrine.com     | 🇺🇸   |
+| 🤖 | mailbox.gr | 🇬🇷 |
+| 🤖 | blindzeln.org | 🇩🇪 |
+| 🤖 | undernet.uy | 🇺🇾 |
+| 🤖 | nubo.coop | 🇧🇪 |
+| 🤖 | macaw.me | 🇨🇾 |
+| 🤖 | safe-mail.net | 🇮🇱 |
+| 🤖 | mailjunky.net | 🇩🇪 |
+| 🤖 | tchncs.de | 🇩🇪 |
+| 🤖 | noleron.com | 🇫🇷 |
+| 🤖 | guifi.net | 🇪🇸 |
+| 🤖 | pangea.org | 🇪🇸 |
+| 🤖 | slashmail.org | 🇺🇸 |
+| 🤖 | tinkmail.me | 🇨🇳 |
+| 🤖 | donarev419.com | 🇩🇪 |
 
 
 ## ❓ Pending email services
@@ -265,25 +279,16 @@ Email services awaiting manual account registration and subsequent testing.
 | ❌      | homemail.info        | ❓    |
 | ❌      | zebramailbox.com     | ❓    |
 | ❌      | securemail.opentext.com | ❓ |
-| ❌      | mailbox.gr           | ❓    |
-| ❌      | blindzeln.org        | ❓    |
-| ❌      | undernet.uy          | ❓    |
-| ❌      | nubo.coop            | ❓    |
 | ❌      | netaddress.com       | ❓    |
 | ❌      | webmail.com.my       | ❓    |
-| ❌      | pissmail.com         | ❓    |
+| ❌      | ~~pissmail.com~~         | ❓    |
 | ❌      | plummail.co          | ❓    |
 | ❌      | iobox.com            | ❓    |
-| ❌      | macaw.me             | ❓    |
 | ❌      | vern.cc              | ❓    |
 | ❌      | ctrl-c.club          | ❓    |
 | ❌      | tildamail.com          | ❓    |
-| ❌      | safe-mail.net          | ❓    |
-| ❌      | mailjunky.net          | ❓    |
-| ❌      | tchncs.de          | ❓    |
 | ❌      | ~~uq.ci~~          | ❓    |
 | ❌      | xmr.email          | ❓    |
-| ❌      | noleron.com          | ❓    |
 | ❌      | inboxia.org          | ❓    |
 | ❌      | artikel-140.nl          | ❓    |
 | ❌      | boum.org          | ❓    |
@@ -293,10 +298,8 @@ Email services awaiting manual account registration and subsequent testing.
 | ❌      | flag.blackened.net          | ❓    |
 | ❌      | ~~gleducar.org.ar~~          | ❓    |
 | ❌      | guardachuva.org          | ❓    |
-| ❌      | guifi.net          | ❓    |
 | ❌      | hackbloc.org          | ❓    |
 | ❌      | noblogs.org          | ❓    |
-| ❌      | pangea.org          | ❓    |
 | ❌      | sarava.org          | ❓    |
 | ❌      | shelter.is          | ❓    |
 | ❌      | snopyta.org          | ❓    |
@@ -304,16 +307,13 @@ Email services awaiting manual account registration and subsequent testing.
 | ❌      | systerserver.net          | ❓    |
 | ❌      | ~~z.org~~          | ❓    |
 | ❌      | ~~mailhaven.su~~         | ❓   |
-| ❌      | slashmail.org    | ❓    |
 | ❌      | ~~exulan.com.au~~    | ❓    |
 | ❌      | tachanka.org    | ❓    |
-| ❌      | paranoid.email    | ❓    |
-| ❌      | openmbox.net    | ❓    |
-| ❌      | elyria.cc    | ❓    |
-| ❌      | tinkmail.me    | ❓    |
- ❌      | goymail.email    | ❓    
- ❌      | donarev419.com    | ❓  
-  ❌      | rootshell.is    | ❓ 
+| ❌      | ~~paranoid.email~~    | ❓    |
+| ❌      | ~~openmbox.net~~    | ❓    |
+| ❌      | ~~elyria.cc~~    | ❓    |
+| ❌      | goymail.email    | ❓    |
+| ❌      | rootshell.is    | ❓    |
 
 
 
