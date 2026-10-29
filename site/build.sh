@@ -1,14 +1,13 @@
 #!/usr/bin/env bash
-# Build the eMailCompare site (Hugo + PaperMod) in every design variant: site/public/<variant>/.
+# Build the eMailCompare site (Hugo + PaperMod, terminal design) into site/public/.
 #
 # The theme is not stored in the repository: build.sh fetches PaperMod into site/themes/ at the pinned
 # commit below. Only Hugo extended (0.146 or newer) and git are needed; no Node.js.
 #
-#   ./build.sh                  fetch the theme and build all variants
-#   ./build.sh midnight swiss   build only these variants
-#   ./build.sh --serve nord     live preview of one variant at http://localhost:1313/
+#   ./build.sh            fetch the theme and build the site
+#   ./build.sh --serve    live preview at http://localhost:1313/
 #
-# HUGO=/path/to/hugo ./build.sh uses another Hugo binary. Variants are the folders in config/ besides _default.
+# HUGO=/path/to/hugo ./build.sh uses another Hugo binary.
 set -euo pipefail
 cd "$(dirname "$0")"
 HUGO=${HUGO:-hugo}
@@ -27,20 +26,9 @@ if ! [ -d "$dir/.git" ] || [ "$(git -C "$dir" rev-parse HEAD)" != "$THEME_COMMIT
 fi
 
 if [ "${1:-}" = "--serve" ]; then
-  exec "$HUGO" server --environment "${2:-paper}" --disableFastRender --baseURL http://localhost:1313/
-fi
-
-variants=("$@")
-if [ ${#variants[@]} -eq 0 ]; then
-  for d in config/*/; do
-    d=$(basename "$d")
-    [ "$d" = "_default" ] || variants+=("$d")
-  done
+  exec "$HUGO" server --disableFastRender --baseURL http://localhost:1313/
 fi
 
 "$HUGO" version
-for v in "${variants[@]}"; do
-  [ -d "config/$v" ] || { echo "unknown variant: $v" >&2; exit 1; }
-  echo "building $v"
-  "$HUGO" --environment "$v" --minify --gc --cleanDestinationDir --logLevel warn --quiet
-done
+"$HUGO" --minify --gc --cleanDestinationDir --logLevel warn --quiet
+echo "built: public/ ($(find public -name '*.html' | wc -l) pages)"

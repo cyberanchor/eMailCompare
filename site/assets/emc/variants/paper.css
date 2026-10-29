@@ -1,6 +1,0 @@
-/* 1 · Paper — PaperMod's own calm, neutral look, refined. Light and dark follow the system. */
-:root { --emc-brand: #111; --emc-brand-fg: #fff; --emc-radius: 12px; --emc-radius-sm: 8px; }
-:root[data-theme="dark"] { --emc-brand: #f2f2f2; --emc-brand-fg: #111; }
-.emc .emc-btn { box-shadow: none; }
-.emc-home-hero { padding-top: 3.5rem; }
-.emc-eyebrow { color: var(--secondary); }

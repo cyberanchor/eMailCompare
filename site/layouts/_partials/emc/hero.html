@@ -1,25 +1,5 @@
-{{- /* Home page hero. site.Params.emc.hero picks the style: center | left | split | masthead | terminal.
-       Text comes from content/_index.md (eyebrow, headline, the body as lead). */ -}}
-{{- $style := site.Params.emc.hero | default "center" -}}
-{{- $d := partialCached "emc/data.html" . "emc" -}}
-<section class="emc emc-home-hero emc-hero-{{ $style }}">
-  {{- if eq $style "masthead" }}
-  <div class="emc-masthead-bar"><span>Independent survey</span><span>{{ now.Format "January 2006" }}</span><span>{{ len $d }} providers</span></div>
-  {{- end }}
-  <div class="emc-home-hero-text">
-    {{- if eq $style "terminal" }}
-    <p class="emc-prompt"><span>$</span> emailcompare --list --providers={{ len $d }}</p>
-    {{- else }}
-    {{- with .Params.eyebrow }}<p class="emc-eyebrow">{{ . }}</p>{{ end }}
-    {{- end }}
-    <h1 class="emc-home-title">{{ .Params.headline | default .Title }}</h1>
-    <div class="emc-lead">{{ .Content }}</div>
-    <p class="emc-cta">
-      <a class="emc-btn" href="#emc-explorer">Browse providers</a>
-      <a class="emc-btn emc-btn-ghost" href="{{ "about/" | relLangURL }}">Methodology</a>
-    </p>
-  </div>
-  {{- if eq $style "split" }}
-  <div class="emc-home-hero-side">{{ partial "emc/stats.html" . }}</div>
-  {{- end }}
+{{- /* Home page hero: headline and lead from the front matter of content/_index.md. */ -}}
+<section class="emc emc-home-hero">
+  <h1 class="emc-home-title">{{ .Params.headline | default .Title }}</h1>
+  {{- with .Params.lead }}<p class="emc-lead">{{ . }}</p>{{ end }}
 </section>

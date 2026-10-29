@@ -1,20 +1,33 @@
+{{- /* Legend in the footer: what the status marks mean and which value gets which colour (the rules of
+       tools/build_json.py, also applied in emc/data.html). */ -}}
 {{- $meta := partial "emc/meta.html" . -}}
-<aside class="emc emc-legend" aria-label="Legend">
-  <div>
-    <h2 class="emc-h3">Status</h2>
-    <ul>
+{{- $rules := slice
+  (dict "name" "Domain created" "green" "≤ 2010" "red" "≥ 2021")
+  (dict "name" "Alliance" "yellow" "Nine Eyes" "red" "Five Eyes" "purple" "Fourteen Eyes")
+  (dict "name" "Email verification" "yellow" "yes" "red" "no")
+  (dict "name" "Phone / SMS" "green" "optional" "yellow" "yes" "red" "no")
+  (dict "name" "Personal info" "green" "no" "yellow" "optional" "red" "yes")
+-}}
+{{- $colors := slice "green" "yellow" "red" "purple" -}}
+<section class="emc emc-legend" aria-label="Legend">
+  <div class="emc-legend-block">
+    <h2 class="emc-h3">status</h2>
+    <dl class="emc-legend-status">
       {{- range $s := slice "checked" "auto" "pending" "dead" }}{{ $m := index $meta $s }}
-      <li><span aria-hidden="true">{{ $m.icon }}</span> {{ $m.long }}</li>
+      <div><dt><span aria-hidden="true">{{ $m.icon }}</span> {{ $m.label }}</dt><dd>{{ $m.long }}</dd></div>
       {{- end }}
-    </ul>
+    </dl>
   </div>
-  <div>
-    <h2 class="emc-h3">Colours</h2>
-    <ul class="emc-legend-pills">
-      <li><span class="emc-pill emc-c-green">favourable</span> old domain (≤ 2010), no phone / no personal data needed</li>
-      <li><span class="emc-pill emc-c-yellow">caution</span> optional data, Nine Eyes</li>
-      <li><span class="emc-pill emc-c-red">unfavourable</span> new domain (≥ 2021), Five Eyes, required data</li>
-      <li><span class="emc-pill emc-c-purple">14 Eyes</span> Fourteen Eyes country</li>
-    </ul>
+  <div class="emc-legend-block">
+    <h2 class="emc-h3">colours</h2>
+    <table class="emc-legend-colors">
+      <thead><tr><th scope="col"><span class="emc-sr">Column</span></th>{{ range $colors }}<th scope="col"><span class="emc-dot emc-c-{{ . }}" aria-hidden="true"></span>{{ . }}</th>{{ end }}</tr></thead>
+      <tbody>
+        {{- range $r := $rules }}
+        <tr><th scope="row">{{ $r.name }}</th>{{ range $c := $colors }}<td>{{ with index $r $c }}<span class="emc-pill emc-c-{{ $c }}">{{ . }}</span>{{ else }}<span class="emc-na" aria-label="not used">·</span>{{ end }}</td>{{ end }}</tr>
+        {{- end }}
+      </tbody>
+    </table>
+    <p class="emc-legend-note"><span class="emc-pill emc-c-grey">grey</span> the whole row of a service that is gone · <span class="emc-pill emc-c-none">plain</span> no rule for that value</p>
   </div>
-</aside>
+</section>

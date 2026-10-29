@@ -1,6 +1,3 @@
 {{- define "main" }}
-<article class="post-single">
-  <header class="post-header">{{ partial "breadcrumbs.html" . }}</header>
-  {{ partial "emc/provider.html" . }}
-</article>
+{{ partial "emc/provider.html" . }}
 {{- end }}

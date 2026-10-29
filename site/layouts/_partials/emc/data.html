@@ -6,6 +6,7 @@
   0 flag · 1 Domain · 2 2nd domain · 3 A Record · 4 MX Record · 5 created · 6 expires · 7 owner
   8 Intelligence Alliance · 9 Jurisdiction · 10 Site description · 11 ToS · 12 Privacy policy
   13 Email verification · 14 Phone · 15 Price · 16 Personal info · 17 Note
+  18 ToS link · 19 Privacy policy link · 20 Source code (GitHub, GitLab, Codeberg …)
 */ -}}
 {{- $out := slice -}}
 {{- $csv := resources.Get "emc/emails.csv" -}}
@@ -91,6 +92,11 @@
   {{- range split (index $r 2) "\n" -}}{{- with strings.TrimSpace . -}}{{- $seconds = $seconds | append . -}}{{- end -}}{{- end -}}
 
   {{- $jurisdiction := strings.TrimSpace (index $r 9) -}}
+  {{- $links := dict -}}
+  {{- range $col, $key := dict "18" "tosUrl" "19" "privacyUrl" "20" "code" -}}
+    {{- $c := int $col -}}
+    {{- if gt (len $r) $c -}}{{- with strings.TrimSpace (index $r $c) -}}{{- if hasPrefix . "http" -}}{{- $links = merge $links (dict $key .) -}}{{- end -}}{{- end -}}{{- end -}}
+  {{- end -}}
   {{- $out = $out | append (dict
       "n" (add $i 1)
       "domain" $domain
@@ -112,6 +118,9 @@
       "price" (strings.TrimSpace (index $r 15))
       "personal" $personal "cPersonal" $cPersonal
       "note" (strings.TrimSpace (index $r 17))
+      "tosUrl" ($links.tosUrl | default "")
+      "privacyUrl" ($links.privacyUrl | default "")
+      "code" ($links.code | default "")
       "group" $st.group
       "dead" $dead
       "state" (cond $dead "dead" $st.group)

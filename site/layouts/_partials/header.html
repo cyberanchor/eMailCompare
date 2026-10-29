@@ -1,0 +1,14 @@
+{{- /* Site header (replaces PaperMod's): the name links to the GitHub repository, the only control is the
+       light / dark switch. PaperMod's footer script handles #theme-toggle and remembers the choice. */ -}}
+<header class="header emc-header">
+  <nav class="header-nav">
+    <div class="logo">
+      <a href="{{ site.Params.emc.repo }}" title="eMailCompare on GitHub" rel="noopener">{{ site.Title }}</a>
+    </div>
+    <button id="theme-toggle" class="emc-mode" type="button" accesskey="t" title="Light / dark (Alt + T)" aria-label="Switch between light and dark theme">
+      <svg class="emc-mode-moon" aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      <svg class="emc-mode-sun" aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4.5"/><path d="M12 1.5v2.5M12 20v2.5M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M1.5 12H4M20 12h2.5M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/></svg>
+      <span class="emc-mode-label"></span>
+    </button>
+  </nav>
+</header>

@@ -2,59 +2,53 @@
 
 The comparison as a static site, built by [Hugo](https://gohugo.io/) with the
 [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme from `emails.csv` and the README status
-marks (✅ / 🤖 / pending / struck out). It comes in ten design variants; pick one and the others can go.
+marks (✅ / 🤖 / pending / struck out). One design, "terminal", in a dark and a light version; the button in
+the header switches between them and remembers the choice.
 
-All designs side by side: <https://cyberanchor.github.io/eMailCompare/site/>
-
-| # | Variant | Catalogue | Hero | Preview |
-|---|---------|-----------|------|---------|
-| 1 | Paper | table | center | [open](https://cyberanchor.github.io/eMailCompare/site/public/paper/) |
-| 2 | Midnight | table | split | [open](https://cyberanchor.github.io/eMailCompare/site/public/midnight/) |
-| 3 | Swiss | table | left | [open](https://cyberanchor.github.io/eMailCompare/site/public/swiss/) |
-| 4 | Terminal | table | terminal | [open](https://cyberanchor.github.io/eMailCompare/site/public/terminal/) |
-| 5 | Nord | cards | center | [open](https://cyberanchor.github.io/eMailCompare/site/public/nord/) |
-| 6 | Editorial | table | masthead | [open](https://cyberanchor.github.io/eMailCompare/site/public/editorial/) |
-| 7 | Brutalist | cards | left | [open](https://cyberanchor.github.io/eMailCompare/site/public/brutalist/) |
-| 8 | Aurora | cards | center | [open](https://cyberanchor.github.io/eMailCompare/site/public/aurora/) |
-| 9 | Ledger | table | split | [open](https://cyberanchor.github.io/eMailCompare/site/public/ledger/) |
-| 10 | Solar | table | left | [open](https://cyberanchor.github.io/eMailCompare/site/public/solar/) |
+Live: <https://cyberanchor.github.io/eMailCompare/site/public/> (`site/` redirects there).
 
 ## What is on the site
 
-- Home: headline, summary cards, the catalogue of all providers (search, status, alliance, country, free plan,
-  sorting; the filters are kept in the link) and the legend.
-- One page per provider: favicon, status, jurisdiction and alliance, a frame for a screenshot, registration
-  requirements, price, description, notes, terms, privacy policy, MX/A records and other domains.
-- Methodology: `content/about.md` (Markdown).
+- Home: headline, summary cards, one block with the overview, comparison criteria and sources, then the
+  table of all providers: search, status and country filters, sortable columns (alliance has its own
+  column), links to terms / privacy policy / source code, and export of the shown domains as `.txt`.
+  Filters are kept in the link (`#state=checked&sort=alliance&dir=asc`).
+- One page per provider: favicon, status, jurisdiction and alliance, a screenshot of its site, registration
+  requirements, price, links, description, notes, terms, privacy policy, MX/A records, other domains.
+- Footer on every page: the legend of the status marks and of the cell colours.
 
 ## Layout
 
 ```
 site/
-├── build.sh               fetches PaperMod at a pinned commit and builds every variant
-├── index.html             gallery of the variants
-├── config/_default/       shared settings (hugo.toml, params.toml, menus.toml)
-├── config/<variant>/      one folder per design: output folder, catalogue layout, hero style, light/dark
-├── content/               Markdown pages; providers/_content.gotmpl makes one page per CSV row
-├── layouts/               home page, provider pages and the emc/ partials (data, catalogue, icons, …)
-├── assets/emc/            emc.css (components), theme.css (PaperMod mapping), variants/<variant>.css, emc.js
+├── build.sh               fetches PaperMod at a pinned commit and builds the site into public/
+├── index.html             redirect to public/
+├── config/_default/       settings (hugo.toml, params.toml)
+├── content/               _index.md (home text, criteria, sources); providers/_content.gotmpl makes one page per CSV row
+├── layouts/               home page, provider page, header and footer, the emc/ partials (data, table, icons, …)
+├── assets/emc/            emc.css (palette for light and dark, components), emc.js (table)
 ├── assets/favicons/       one icon per provider, <domain-with-dashes>.png
-├── assets/screenshots/    optional screenshots, <domain-with-dashes>.png
+├── assets/screenshots/    one screenshot per provider, <domain-with-dashes>.webp
 ├── static/                site favicon
 ├── themes/                PaperMod, fetched by build.sh (not in git)
-└── public/<variant>/      the built sites (committed, so GitHub Pages can show them)
+└── public/                the built site (committed, so GitHub Pages can show it)
 ```
 
 ## Build
 
 ```sh
-./site/build.sh                  # all variants
-./site/build.sh midnight swiss   # some variants
-./site/build.sh --serve nord     # live preview at http://localhost:1313/
+./site/build.sh            # build into site/public/
+./site/build.sh --serve    # live preview at http://localhost:1313/
 ```
 
 Needs Hugo extended 0.146 or newer and git; no Node.js. `HUGO=/path/to/hugo ./site/build.sh` uses another
-binary. Rebuild after editing `emails.csv` or the README tables and commit `site/public/`.
+binary. Rebuild after editing `emails.csv`, the README tables or a screenshot, and commit `site/public/`.
+
+## Data columns used besides the table
+
+`emails.csv` has three link columns at the end: `ToS link`, `Privacy policy link` and `Source code`
+(GitHub, GitLab, Codeberg …). They are shown in the table and on the provider pages; empty cells show
+"not found".
 
 ## Favicons and screenshots
 
@@ -63,11 +57,7 @@ and DuckDuckGo's icon services and the Wayback Machine as fallbacks for sites wi
 them as small WebP files, so visitors never contact the providers or any third party. Providers without an
 icon get a letter on a colour derived from the domain.
 
-To show a screenshot on a provider page, save it as `assets/screenshots/<domain-with-dashes>.png` (for
-example `protonmail-ch.png`; `.jpg` and `.webp` work too) and rebuild. Until then the frame shows a
-placeholder.
-
-## Writing pages
-
-Pages are Markdown with front matter in `content/`. The catalogue can be placed in any page with the
-`emc-table` shortcode; `emc-stats` and `emc-legend` add the summary cards and the legend.
+Screenshots are taken with headless Chromium (1280×800, WebP) of each live provider's home page. Sites that
+answered with a bot check, an error, a parking or maintenance page have none; the provider page then shows
+the facts without a picture. To add or replace one by hand, save it as
+`assets/screenshots/<domain-with-dashes>.webp` (`.png` and `.jpg` are converted) and rebuild.

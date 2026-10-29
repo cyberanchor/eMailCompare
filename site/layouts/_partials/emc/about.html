@@ -1,0 +1,28 @@
+{{- /* The project in one block: overview, comparison criteria and sources (front matter of content/_index.md). */ -}}
+{{- with .Params }}
+<section class="emc emc-about" aria-label="About the comparison">
+  <div class="emc-about-col">
+    <h2 class="emc-h3">overview</h2>
+    <p>{{ .overview }}</p>
+    {{- with .features }}
+    <ul class="emc-about-tags" aria-label="Features">{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+    {{- end }}
+  </div>
+  <div class="emc-about-col">
+    <h2 class="emc-h3">criteria</h2>
+    <dl class="emc-about-criteria">
+      {{- range .criteria }}
+      <div><dt>{{ index . 0 }}</dt><dd>{{ index . 1 }}</dd></div>
+      {{- end }}
+    </dl>
+  </div>
+  <div class="emc-about-col">
+    <h2 class="emc-h3">sources</h2>
+    <dl class="emc-about-sources">
+      {{- range .sources }}
+      <div><dt>{{ index . 0 }}</dt><dd><a href="{{ index . 2 }}" rel="noopener">{{ index . 1 }}</a></dd></div>
+      {{- end }}
+    </dl>
+  </div>
+</section>
+{{- end }}

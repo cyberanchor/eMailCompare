@@ -5,7 +5,10 @@
 {{- if not $p -}}{{- errorf "emc/provider: no row for %q" .Params.slug -}}{{- end -}}
 {{- $m := index $meta $p.state -}}
 {{- $i := sub $p.n 1 -}}
+{{- $shot := partial "emc/shot.html" $p -}}
 <article class="emc emc-provider{{ if $p.dead }} emc-dead{{ end }}">
+  <nav class="emc-path" aria-label="Breadcrumb"><a href="{{ site.Home.RelPermalink }}" title="All providers">~</a>/providers/<span>{{ $p.domain }}</span></nav>
+
   <header class="emc-hero">
     <div class="emc-hero-icon">
       {{ partial "emc/icon.html" (dict "p" $p "size" 56) }}
@@ -17,13 +20,12 @@
       {{- with $p.owner }}<p class="emc-owner">{{ . }}</p>{{ end }}
     </div>
     <div class="emc-hero-actions">
-      <a class="emc-btn" href="https://{{ $p.domain }}" rel="noopener noreferrer nofollow" target="_blank">Visit site ↗</a>
-      <a class="emc-btn emc-btn-ghost" href="{{ "providers/" | relLangURL }}">All providers</a>
+      <a class="emc-btn" href="https://{{ $p.domain }}" rel="noopener noreferrer nofollow">Visit site ↗</a>
     </div>
   </header>
 
-  <div class="emc-overview">
-    {{ partial "emc/shot.html" $p }}
+  <div class="emc-overview{{ if not (strings.TrimSpace $shot) }} emc-overview-noshot{{ end }}">
+    {{ $shot }}
     <dl class="emc-facts">
       <div><dt>Jurisdiction</dt><dd>{{ with $p.flag }}{{ . }} {{ end }}{{ $p.jurisdiction | default "—" }}</dd></div>
       <div><dt>Intelligence alliance</dt><dd>{{ with $p.alliance }}{{ partial "emc/pill.html" (dict "text" . "color" $p.cAlliance) }}{{ else }}{{ if $p.jurisdiction }}<span class="emc-muted">Not in 14 Eyes</span>{{ else }}<span class="emc-na">—</span>{{ end }}{{ end }}</dd></div>
@@ -39,6 +41,16 @@
   {{- if ne $p.group "checked" }}
   <p class="emc-notice">{{ $m.icon }} {{ $m.long }}. Registration requirements (email, phone, personal info) are filled after a manual test.</p>
   {{- end }}
+
+  <section class="emc-card">
+    <h2 class="emc-h2">Links</h2>
+    <dl class="emc-links">
+      <div><dt>website</dt><dd><a href="https://{{ $p.domain }}" rel="noopener noreferrer nofollow">https://{{ $p.domain }}</a></dd></div>
+      {{- range $l := slice (dict "key" "tosUrl" "label" "terms") (dict "key" "privacyUrl" "label" "privacy") (dict "key" "code" "label" "source code") }}
+      <div><dt>{{ $l.label }}</dt><dd>{{ with index $p $l.key }}<a href="{{ . }}" rel="noopener noreferrer nofollow">{{ . }}</a>{{ else }}<span class="emc-na">not found</span>{{ end }}</dd></div>
+      {{- end }}
+    </dl>
+  </section>
 
   {{- range $sec := slice (dict "key" "desc" "title" "Description") (dict "key" "note" "title" "Notes") (dict "key" "tos" "title" "Terms of service") (dict "key" "privacy" "title" "Privacy policy") }}
   {{- with index $p $sec.key }}
@@ -75,8 +87,7 @@
   {{- end }}
 
   <nav class="emc-pager" aria-label="Other providers">
-    {{- if gt $i 0 }}{{ with index $d (sub $i 1) }}{{ $prev := . }}{{ with site.GetPage (printf "/providers/%s" .slug) }}<a href="{{ .RelPermalink }}" rel="prev"><span>← Previous</span><b>{{ partial "emc/icon.html" (dict "p" $prev "size" 18) }} {{ .Title }}</b></a>{{ end }}{{ end }}{{ else }}<span></span>{{ end }}
-    {{- if lt (add $i 1) (len $d) }}{{ with index $d (add $i 1) }}{{ $next := . }}{{ with site.GetPage (printf "/providers/%s" .slug) }}<a href="{{ .RelPermalink }}" rel="next" class="emc-next"><span>Next →</span><b>{{ .Title }} {{ partial "emc/icon.html" (dict "p" $next "size" 18) }}</b></a>{{ end }}{{ end }}{{ end }}
+    {{- if gt $i 0 }}{{ with index $d (sub $i 1) }}{{ $prev := . }}{{ with site.GetPage (printf "/providers/%s" .slug) }}<a href="{{ .RelPermalink }}" rel="prev"><span>← previous</span><b>{{ partial "emc/icon.html" (dict "p" $prev "size" 18) }} {{ .Title }}</b></a>{{ end }}{{ end }}{{ else }}<span></span>{{ end }}
+    {{- if lt (add $i 1) (len $d) }}{{ with index $d (add $i 1) }}{{ $next := . }}{{ with site.GetPage (printf "/providers/%s" .slug) }}<a href="{{ .RelPermalink }}" rel="next" class="emc-next"><span>next →</span><b>{{ .Title }} {{ partial "emc/icon.html" (dict "p" $next "size" 18) }}</b></a>{{ end }}{{ end }}{{ end }}
   </nav>
-  <p class="emc-source">Data: <a href="https://github.com/cyberanchor/eMailCompare/blob/main/emails.csv">emails.csv</a>, row {{ $p.n }}. Something wrong? <a href="https://github.com/cyberanchor/eMailCompare/issues">Open an issue</a>.</p>
 </article>

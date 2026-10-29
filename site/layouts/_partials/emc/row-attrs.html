@@ -1,5 +1,0 @@
-{{- /* Values the filters and sorting in emc.js read from data-* attributes (table rows and cards). */ -}}
-{{- return dict
-  "free" (cond (strings.Contains (lower .price) "free") "1" "0")
-  "search" (lower (delimit (slice .domain .owner .jurisdiction (delimit .seconds " ") (index (split .price ";") 0)) " "))
--}}

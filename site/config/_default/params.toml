@@ -1,7 +1,8 @@
 env = "production"
-description = "Yet another email service comparison: who runs each provider, where its servers are, which intelligence alliance that country belongs to, and what it asks for."
-defaultTheme = "auto"
-ShowBreadCrumbs = true
+description = "Yet Another Email Service Comparison: who runs each email provider, where its servers are, which intelligence alliance that country belongs to, and what it asks for at signup."
+defaultTheme = "dark"      # dark | light | auto; the header button switches and remembers the choice
+disableThemeToggle = false
+ShowBreadCrumbs = false
 ShowReadingTime = false
 ShowPostNavLinks = false
 ShowCodeCopyButtons = false
@@ -14,16 +15,9 @@ disableSpecial1stPost = true
   apple_touch_icon = "favicon.svg"
   safari_pinned_tab = "favicon.svg"
 
-[[socialIcons]]
-  name = "github"
-  url = "https://github.com/cyberanchor/eMailCompare"
-
 # eMailCompare components
 [emc]
-  variant = "paper"   # assets/emc/variants/<variant>.css
-  list = "table"      # table | cards
-  hero = "center"     # center | left | split | masthead | terminal
-  gallery = "https://cyberanchor.github.io/eMailCompare/site/"
-  # Extra front matter for every provider page (the pages come from content/providers/_content.gotmpl).
-  [emc.pageParams]
-    ShowBreadCrumbs = true
+  repo = "https://github.com/cyberanchor/eMailCompare"   # the logo in the header links here
+
+[footer]
+  text = "data: [emails.csv](https://github.com/cyberanchor/eMailCompare/blob/main/emails.csv) · [source on GitHub](https://github.com/cyberanchor/eMailCompare)"

@@ -1,26 +1,14 @@
-{{- /* Screenshot of the provider's site in a browser frame. Put a file named assets/screenshots/<slug>.png
-       (or .jpg / .webp, e.g. protonmail-ch.png) and it is shown here as responsive WebP; until then the frame
-       keeps its place with a placeholder. */ -}}
+{{- /* Screenshot of the provider's site, if there is one: assets/screenshots/<slug>.(webp|png|jpg|jpeg), made by
+       tools/collector/collect_browser.py. WebP files are used as they are, other formats are converted. */ -}}
 {{- $p := . -}}
 {{- $src := "" -}}
-{{- range slice "png" "jpg" "jpeg" "webp" -}}
-  {{- with resources.Get (printf "screenshots/%s.%s" $p.slug .) -}}{{- $src = . -}}{{- end -}}
+{{- range slice "webp" "png" "jpg" "jpeg" -}}
+  {{- if not $src -}}{{- with resources.Get (printf "screenshots/%s.%s" $p.slug .) -}}{{- $src = . -}}{{- end -}}{{- end -}}
 {{- end -}}
-<figure class="emc-shot{{ if not $src }} emc-shot-empty{{ end }}">
-  <div class="emc-shot-bar" aria-hidden="true">
-    <span class="emc-shot-dots"><i></i><i></i><i></i></span>
-    <span class="emc-shot-url">{{ $p.domain }}</span>
-  </div>
-  {{- with $src }}
-    {{- $big := .Process "resize 1280x webp q82" }}
-    {{- $small := .Process "resize 640x webp q80" }}
-    <img src="{{ $big.RelPermalink }}" srcset="{{ $small.RelPermalink }} 640w, {{ $big.RelPermalink }} 1280w" sizes="(max-width: 900px) 100vw, 60vw"
-         width="{{ $big.Width }}" height="{{ $big.Height }}" alt="Screenshot of {{ $p.domain }}" loading="lazy" decoding="async">
-  {{- else }}
-    <div class="emc-shot-placeholder">
-      {{ partial "emc/icon.html" (dict "p" $p "size" 44) }}
-      <strong>Screenshot coming soon</strong>
-      <span>A preview of {{ $p.domain }} will appear here.</span>
-    </div>
-  {{- end }}
+{{- with $src }}
+{{- $img := . }}
+{{- if ne .MediaType.SubType "webp" }}{{ $img = .Process "resize 1280x webp q78" }}{{ end }}
+<figure class="emc-shot">
+  <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="Screenshot of the {{ $p.domain }} home page" loading="lazy" decoding="async">
 </figure>
+{{- end }}

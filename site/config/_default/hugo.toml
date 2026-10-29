@@ -1,11 +1,10 @@
-# eMailCompare on Hugo + PaperMod. Shared settings; every design variant in config/<variant>/ adds its own
-# baseURL, output folder (public/<variant>/) and look. Build all of them with ./build.sh.
-baseURL = "https://cyberanchor.github.io/eMailCompare/site/public/paper/"
+# eMailCompare on Hugo + PaperMod (terminal design). Build with ./build.sh; the site goes to public/.
+baseURL = "https://cyberanchor.github.io/eMailCompare/site/public/"
 title = "eMailCompare"
 locale = "en"
 theme = "PaperMod"
 disableKinds = ["taxonomy", "term", "rss", "sitemap", "robotsTXT"]
-publishDir = "public/paper"
+publishDir = "public"
 
 # Provider pages carry their (already escaped) text as HTML.
 [security]
