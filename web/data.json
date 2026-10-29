@@ -2518,75 +2518,75 @@
     {
         "flag": {
             "value": "🇺🇸",
-            "color": "none"
+            "color": "grey"
         },
         "Domain": {
             "value": "isellemails.com",
-            "color": "none"
+            "color": "grey"
         },
         "2nd domain": {
             "value": null,
-            "color": "none"
+            "color": "grey"
         },
         "A Record": {
             "value": "108.73.75.135 | 🇺🇸 | United States | AS7018 | AT&T Services, Inc.",
-            "color": "none"
+            "color": "grey"
         },
         "MX Record": {
             "value": "isellemails.com | 🇺🇸 | United States | AS7018 | AT&T Services, Inc.",
-            "color": "none"
+            "color": "grey"
         },
         "Domain crated": {
             "value": "2020-12-16",
-            "color": "none"
+            "color": "grey"
         },
         "Domain expired": {
             "value": "2026-12-16",
-            "color": "none"
+            "color": "grey"
         },
         "Company owner": {
             "value": "🇺🇸",
-            "color": "none"
+            "color": "grey"
         },
         "Intelligence Alliance": {
             "value": "Five Eyes (👀 5)",
-            "color": "red"
+            "color": "grey"
         },
         "Jurisdiction (based on server location)": {
             "value": "United States",
-            "color": "none"
+            "color": "grey"
         },
         "Site description": {
             "value": "isellemails - Secure Hosting, Email, and File Storage Solutions\nisellemails provides reliable hosting, secure email services, and scalable file storage solutions. Empower your business with high-performance infrastructure.",
-            "color": "none"
+            "color": "grey"
         },
         "ToS": {
             "value": null,
-            "color": "none"
+            "color": "grey"
         },
         "Privacy policy": {
             "value": null,
-            "color": "none"
+            "color": "grey"
         },
         "Email(receive a verification link)": {
             "value": "no",
-            "color": "red"
+            "color": "grey"
         },
         "Phone(receive s sms code)": {
             "value": "no",
-            "color": "red"
+            "color": "grey"
         },
         "Price": {
             "value": "free",
-            "color": "none"
+            "color": "grey"
         },
         "Personal Info(first name, last name, adress, etc..)": {
             "value": "optional",
-            "color": "yellow"
+            "color": "grey"
         },
         "Note": {
             "value": null,
-            "color": "none"
+            "color": "grey"
         }
     },
     {
@@ -2666,75 +2666,75 @@
     {
         "flag": {
             "value": "🇮🇹",
-            "color": "none"
+            "color": "grey"
         },
         "Domain": {
             "value": "autistici.org",
-            "color": "none"
+            "color": "grey"
         },
         "2nd domain": {
             "value": "anche.no\nautistiche.org\nautistici.org\nautoproduzioni.net\nbastardi.net\nbruttocarattere.org\ncanaglie.net\ncanaglie.org\ncryptolab.net\ndistruzione.org\ngrrlz.net\nhacari.com\nhacari.net\nhacari.org\ninsiberia.net\ninsicuri.net\ninventati.org\nkrutt.org\nlogorroici.org\nmortemale.org\nonenetbeyond.org\nparanoici.org\nprivacyrequired.com\nstronzi.org\nsubvertising.org",
-            "color": "none"
+            "color": "grey"
         },
         "A Record": {
             "value": "93.190.126.19 | 🇨🇭 | Switzerland | AS210861 | Open Networks Association \n198.167.222.108 | 🇸🇪 | Sweden | AS39287 | ab stract ltd | 1337 Services LLC \n82.94.249.234 | 🇳🇱 | Netherlands | AS3265 | KPN B.V. | Associazione Investici",
-            "color": "none"
+            "color": "grey"
         },
         "MX Record": {
             "value": "mx1.investici.org | 🇨🇭 | Switzerland | AS210861 | Open Networks Association \nmx2.investici.org | 🇸🇪 | Sweden | AS39287 | ab stract ltd | 1337 Services LLC \nMx3.investici.org | 🇳🇱 | Netherlands | AS3265 | KPN B.V. | Associazione Investici",
-            "color": "none"
+            "color": "grey"
         },
         "Domain crated": {
             "value": "2000-08-10",
-            "color": "green"
+            "color": "grey"
         },
         "Domain expired": {
             "value": "2029-08-10",
-            "color": "none"
+            "color": "grey"
         },
         "Company owner": {
             "value": "Associazione AI ODV",
-            "color": "none"
+            "color": "grey"
         },
         "Intelligence Alliance": {
             "value": "Fourteen Eyes (👀 14)",
-            "color": "purple"
+            "color": "grey"
         },
         "Jurisdiction (based on server location)": {
             "value": "🇨🇭  Switzerland\n 🇸🇪  Sweden\n 🇳🇱  Netherlands",
-            "color": "none"
+            "color": "grey"
         },
         "Site description": {
             "value": "autistici.org - Welcome to Autistici/Inventati\nAutistici/Inventati provides internet support to activists and collectives coming from the world of grassroot and social movements",
-            "color": "none"
+            "color": "grey"
         },
         "ToS": {
             "value": "Spam; discrimination; commercial use; militarism; political parties; copyright violation; misuse (DDoS, scraping)",
-            "color": "none"
+            "color": "grey"
         },
         "Privacy policy": {
             "value": "Collect username/password, metadata (15 days), user content (encrypted where possible). No personal data. Share only for federation/legal orders.",
-            "color": "none"
+            "color": "grey"
         },
         "Email(receive a verification link)": {
             "value": "yes",
-            "color": "yellow"
+            "color": "grey"
         },
         "Phone(receive s sms code)": {
             "value": "no",
-            "color": "red"
+            "color": "grey"
         },
         "Price": {
             "value": "free",
-            "color": "none"
+            "color": "grey"
         },
         "Personal Info(first name, last name, adress, etc..)": {
             "value": "no",
-            "color": "green"
+            "color": "grey"
         },
         "Note": {
             "value": "A/I is an email service provided by the non-profit association A/I-ODV from Pisa, Italy, as part of a platform designed to support activism and social movements. It combines communication tools (email, chats, blogs) with principles of anti-fascism, anti-racism, and anti-authoritarianism, steering clear of commercialization.  Security & Anonymity: A/I prioritizes maximum privacy by collecting minimal data: only a username (email) and password, with no additional personal details (phone, address). The statement of intent required during registration is deleted after approval, and activity logs (IP, metadata) are kept for up to 15 days and anonymized. Servers employ disk encryption and SSL/TLS for data transmission, but there’s no built-in end-to-end encryption for emails—users can apply PGP themselves. A/I cannot access encrypted content and doesn’t sell data. Federated protocols (e.g., email) necessitate sharing the recipient’s address with other providers, reducing anonymity when communicating off-platform. Full anonymity isn’t guaranteed due to no backups and Internet vulnerabilities—using VPN/Tor and avoiding links to real identity is recommended for protection. Data is stored in the EU, with disclosure possible only under an Italian court order, accompanied by user notification if legally permitted.  Use Cases: A/I is suitable for those who share values of self-organization and resistance, avoiding commercial and authoritarian structures. It’s a good fit for:      Activists and social movements needing private correspondence (especially with PGP).     Individuals aiming to minimize their digital footprint without commercial ties.     Non-commercial projects, blogs, or mailing lists aligned with DIY and solidarity. It’s not suited for business purposes (prohibited), highly sensitive data without encryption, or users unprepared for technical self-reliance (no password recovery without a security question). A/I is ideal for radical communities valuing freedom and privacy within Italian jurisdiction and GDPR compliance.",
-            "color": "none"
+            "color": "grey"
         }
     },
     {
@@ -2808,6 +2808,80 @@
         },
         "Note": {
             "value": null,
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇸🇪",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "vaelmail.com",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": "vael.email\nvael.pw",
+            "color": "none"
+        },
+        "A Record": {
+            "value": "217.60.78.29 | 🇸🇪 | Sweden | AS198189 | Throttle Limited",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mail.vael.email | 🇸🇪 | Sweden | AS198189 | Throttle Limited",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2026-09-30",
+            "color": "red"
+        },
+        "Domain expired": {
+            "value": "2027-09-30",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "Vael Technologies",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Fourteen Eyes (👀 14)",
+            "color": "purple"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Sweden",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "VaelMail: Privacy-first webmail with 16-digit account keys. No phone verification, no KYC, no tracking. Persistent aliases and native Tor/I2P support.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "https://vaelmail.com/terms",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "https://vaelmail.com/privacy",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Phone(receive s sms code)": {
+            "value": "no",
+            "color": "red"
+        },
+        "Price": {
+            "value": "Free (50 MB receive-only) / 5 EUR/mo (1 GB send/receive)",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": "no",
+            "color": "green"
+        },
+        "Note": {
+            "value": "Native Monero (XMR) and Bitcoin payments. Scriptless No-JS mirror at nojs.vaelmail.com. Tor v3 onion service: 5gxnpixptykyv5fchr2qidjbrazjewswx77ddrqowpcmwmmgll57daid.onion.",
             "color": "none"
         }
     }

@@ -333,6 +333,9 @@ body {
 .bg-yellow { background-color: rgba(218, 165, 32, 0.8) !important; color: #fff; } /* Yellow highlight */
 .bg-grey { background-color: rgba(128, 128, 128, 0.8) !important; color: #fff; } /* Grey highlight */
 
+/* Sticky "Flag"/"Domain" cells need an opaque grey (same tone), otherwise columns scrolled underneath show through */
+.table-dark td.fixed-column.bg-grey { background-color: rgb(108, 108, 108) !important; }
+
 /* ==========================================================================
    Sorting Arrow Styling
    ========================================================================== */
