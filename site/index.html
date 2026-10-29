@@ -3,115 +3,215 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Hugo prototypes | eMailCompare</title>
-<meta name="description" content="Four Hugo theme prototypes of the eMailCompare site, built from emails.csv.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232563eb'/%3E%3Cpath d='M7 10.5h18v11H7z' fill='none' stroke='%23fff' stroke-width='2'/%3E%3Cpath d='m7.5 11 8.5 6.5 8.5-6.5' fill='none' stroke='%23fff' stroke-width='2'/%3E%3C/svg%3E">
+<title>Design variants | eMailCompare</title>
+<meta name="description" content="Ten design variants of the eMailCompare site on Hugo and PaperMod, built from emails.csv.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23111'/%3E%3Cpath d='M7 10.5h18v11H7z' fill='none' stroke='%23fff' stroke-width='2'/%3E%3Cpath d='m7.5 11 8.5 6.5 8.5-6.5' fill='none' stroke='%23fff' stroke-width='2'/%3E%3C/svg%3E">
 <style>
-:root {
-  --bg: #f7f8fa; --surface: #fff; --fg: #15171a; --muted: #5d6470; --border: #e2e5ea; --accent: #2563eb;
-  --shadow: 0 1px 2px rgb(16 24 40 / .05), 0 12px 32px -16px rgb(16 24 40 / .18);
-  color-scheme: light dark;
-}
-@media (prefers-color-scheme: dark) {
-  :root { --bg: #0d0f12; --surface: #15181d; --fg: #e8eaee; --muted: #9aa2ae; --border: #272c34; --accent: #6ea0ff; --shadow: none; }
-}
+:root { --bg:#f6f7f9; --surface:#fff; --fg:#121417; --muted:#5b6370; --border:#e3e6eb; --accent:#111;
+  --shadow:0 1px 2px rgb(16 24 40 / .05), 0 14px 34px -18px rgb(16 24 40 / .22); color-scheme: light dark; }
+@media (prefers-color-scheme: dark) { :root { --bg:#0c0d10; --surface:#15171b; --fg:#eceef2; --muted:#9aa1ad; --border:#262a31; --accent:#f2f2f2; --shadow:none; } }
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
-a { color: var(--accent); }
-.wrap { max-width: 72rem; margin: 0 auto; padding: 3.5rem 1.25rem 4rem; }
-header { max-width: 46rem; }
-.eyebrow { margin: 0 0 .6rem; font-size: .8rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
-h1 { margin: 0; font-size: clamp(2rem, 5vw, 3rem); line-height: 1.08; letter-spacing: -.035em; }
+a { color: inherit; }
+.wrap { max-width: 78rem; margin: 0 auto; padding: 3.5rem 1.25rem 4rem; }
+header { max-width: 48rem; }
+.eyebrow { margin: 0 0 .7rem; font-size: .78rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+h1 { margin: 0; font-size: clamp(2.1rem, 5.5vw, 3.4rem); line-height: 1.05; letter-spacing: -.04em; }
 .lead { margin: 1rem 0 0; font-size: 1.1rem; color: var(--muted); }
-.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.25rem; margin-top: 2.5rem; }
-.card { display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--border); border-radius: 18px; box-shadow: var(--shadow); overflow: hidden; }
-.mock { height: 150px; padding: 14px; border-bottom: 1px solid var(--border); background: var(--m-bg); display: grid; gap: 7px; }
-.mock i { display: block; border-radius: 4px; background: var(--m-line); }
-.body { display: flex; flex-direction: column; gap: .6rem; padding: 1.2rem 1.25rem 1.3rem; flex: 1; }
-.body h2 { display: flex; justify-content: space-between; align-items: baseline; gap: .5rem; margin: 0; font-size: 1.3rem; letter-spacing: -.02em; }
-.body h2 small { font-size: .78rem; font-weight: 600; color: var(--muted); }
-.body p { margin: 0; color: var(--muted); font-size: .95rem; }
-.tags { display: flex; flex-wrap: wrap; gap: .35rem; margin: .2rem 0 .4rem; padding: 0; list-style: none; }
-.tags li { padding: .15rem .55rem; border-radius: 999px; font-size: .76rem; font-weight: 600; border: 1px solid var(--border); color: var(--muted); }
-.actions { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: auto; padding-top: .4rem; }
-.btn { padding: .55rem .95rem; border-radius: 10px; font-weight: 650; font-size: .9rem; text-decoration: none; border: 1px solid var(--border); color: var(--fg); }
-.btn.primary { background: var(--accent); border-color: transparent; color: #fff; }
-.btn:hover { filter: brightness(1.06); }
+.lead a { text-decoration: underline; text-underline-offset: 3px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 1.25rem; margin-top: 2.5rem; }
+.card { display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--border); border-radius: 18px; box-shadow: var(--shadow); overflow: hidden; transition: transform .18s ease; }
+.card:hover { transform: translateY(-3px); }
+.body { display: flex; flex-direction: column; gap: .55rem; padding: 1.1rem 1.25rem 1.3rem; flex: 1; }
+.body h2 { margin: 0; font-size: 1.25rem; letter-spacing: -.02em; }
+.num { margin-right: .35rem; font: 600 .8rem ui-monospace, Menlo, monospace; color: var(--muted); vertical-align: 2px; }
+.body p { margin: 0; color: var(--muted); font-size: .94rem; }
+.tags { display: flex; flex-wrap: wrap; gap: .35rem; margin: .15rem 0 .35rem; padding: 0; list-style: none; }
+.tags li { padding: .12rem .55rem; border-radius: 999px; font-size: .75rem; font-weight: 600; border: 1px solid var(--border); color: var(--muted); }
+.actions { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: auto; padding-top: .35rem; }
+.btn { padding: .52rem .9rem; border-radius: 10px; font-weight: 650; font-size: .88rem; text-decoration: none; border: 1px solid var(--border); }
+.btn.primary { background: var(--accent); border-color: transparent; color: var(--bg); }
 .notes { margin-top: 3rem; padding: 1.25rem 1.4rem; border: 1px dashed var(--border); border-radius: 14px; color: var(--muted); font-size: .92rem; }
 .notes h2 { margin: 0 0 .5rem; font-size: 1rem; color: var(--fg); }
-.notes ul { margin: 0; padding-left: 1.2rem; }
-.notes li { margin: .3rem 0; }
-code { font: .88em ui-monospace, SFMono-Regular, Menlo, monospace; padding: .1em .35em; border-radius: 5px; background: color-mix(in srgb, var(--fg) 8%, transparent); }
+.notes ul { margin: 0; padding-left: 1.2rem; } .notes li { margin: .3rem 0; }
+.notes a { text-decoration: underline; text-underline-offset: 3px; }
+code { font: .86em ui-monospace, Menlo, monospace; padding: .1em .35em; border-radius: 5px; background: color-mix(in srgb, var(--fg) 8%, transparent); }
 
-/* Tiny wireframes of each theme's layout */
-.m-book { --m-bg: #fff; --m-line: #e6e8eb; grid-template-columns: 30% 1fr; }
-.m-book .side { display: grid; gap: 6px; align-content: start; padding-right: 10px; border-right: 1px solid #eceef1; }
-.m-hextra { --m-bg: linear-gradient(180deg, #f2f7ff, #fff); --m-line: #dbe6f7; justify-items: center; align-content: start; }
-.m-paper { --m-bg: #fafafa; --m-line: #e3e3e3; align-content: start; justify-items: center; }
-.m-congo { --m-bg: #faf8ff; --m-line: #e6e0fb; align-content: start; }
-@media (prefers-color-scheme: dark) {
-  .m-book { --m-bg: #2e3440; --m-line: #434c5e; } .m-book .side { border-color: #3b4252; }
-  .m-hextra { --m-bg: linear-gradient(180deg, #0f1a2b, #111); --m-line: #24344d; }
-  .m-paper { --m-bg: #1d1e20; --m-line: #3a3b3e; }
-  .m-congo { --m-bg: #27272a; --m-line: #3f3f46; }
-}
+/* Miniature of each design, drawn with its own palette */
+.mock { display: flex; flex-direction: column; gap: 10px; height: 210px; padding: 12px 14px; overflow: hidden; text-decoration: none;
+  background: var(--bg); color: var(--fg); font-family: var(--font); border-bottom: 1px solid var(--border); }
+.mock i { display: block; border-radius: min(var(--r), 4px); }
+.m-nav { display: flex; justify-content: space-between; align-items: center; }
+.m-nav .logo { width: 64px; height: 8px; background: var(--fg); }
+.m-nav .menu { width: 90px; height: 6px; background: var(--line); }
+.m-hero { display: grid; gap: 6px; padding: 4px 0; }
+.m-hero .eb { width: 70px; height: 5px; background: var(--acc); opacity: .8; }
+.m-hero .prompt { width: 120px; height: 6px; background: var(--acc); }
+.m-hero .mast { width: 100%; height: 3px; border-top: 2px solid var(--fg); border-bottom: 1px solid var(--fg); border-radius: 0; }
+.m-hero .h { width: 72%; height: 14px; background: linear-gradient(90deg, var(--fg), var(--acc2)); }
+.m-hero .h2 { width: 50%; height: 6px; background: var(--line); }
+.m-btns { display: flex; gap: 6px; margin-top: 2px; }
+.m-btns .b { width: 52px; height: 13px; background: linear-gradient(90deg, var(--acc), var(--acc2)); border-radius: var(--r); }
+.m-btns .b2 { width: 44px; height: 13px; border: 1px solid var(--line); border-radius: var(--r); }
+.m-split { display: grid; grid-template-columns: 1.3fr 1fr; gap: 10px; align-items: center; }
+.m-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 5px; }
+.m-stats i { height: 20px; background: var(--surface); border: 1px solid var(--line); border-radius: min(var(--r), 6px); }
+.m-table { display: grid; background: var(--surface); border: 1px solid var(--line); border-radius: min(var(--r), 8px); overflow: hidden; }
+.m-table span { display: grid; grid-template-columns: 12px 1fr 34px 26px; gap: 8px; align-items: center; padding: 6px 8px; border-bottom: 1px solid var(--line); }
+.m-table span:last-child { border-bottom: 0; }
+.m-table .ic, .m-cards .ic { width: 12px; height: 12px; border-radius: 3px; background: var(--acc); }
+.m-table .t { height: 6px; background: var(--fg); opacity: .75; }
+.m-table .p { height: 9px; border-radius: 9px; background: color-mix(in srgb, var(--acc) 30%, transparent); }
+.m-table .p2 { height: 9px; border-radius: 9px; background: var(--line); }
+.m-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+.m-cards span { display: grid; grid-template-columns: 12px 1fr; gap: 4px 6px; align-items: center; padding: 7px; background: var(--surface); border: 1px solid var(--line); border-radius: min(var(--r), 10px); }
+.m-cards .t { height: 5px; background: var(--fg); opacity: .75; }
+.m-cards .s { grid-column: 1 / -1; height: 5px; width: 60%; background: var(--line); }
+.m-brutalist .m-table, .m-brutalist .m-cards span, .m-brutalist .m-stats i { border-width: 2px; box-shadow: 3px 3px 0 var(--fg); }
+.m-brutalist .m-nav { margin: -12px -14px 0; padding: 8px 14px; background: var(--acc); border-bottom: 2px solid var(--fg); }
+.m-terminal .m-table .t, .m-terminal .m-hero .h { background: var(--acc); }
+.m-midnight { background: radial-gradient(300px 160px at 90% 0, rgb(124 140 255 / .35), transparent 60%), var(--bg); }
+.m-aurora { background: var(--bg); }
+.m-swiss .m-hero { border-top: 5px solid var(--fg); padding-top: 6px; }
 </style>
 </head>
 <body>
 <main class="wrap">
   <header>
-    <p class="eyebrow">eMailCompare · Hugo prototypes</p>
-    <h1>Four themes, one data file</h1>
-    <p class="lead">Each prototype is a Hugo site built straight from <a href="https://github.com/cyberanchor/eMailCompare/blob/main/emails.csv">emails.csv</a> and the README status marks: a searchable, filterable table of all providers, a page for every provider and a methodology page. Pure Hugo, no Node.js.</p>
+    <p class="eyebrow">eMailCompare · Hugo + PaperMod</p>
+    <h1>Ten designs, one data file</h1>
+    <p class="lead">The same site in ten looks. Every variant is built by Hugo from <a href="https://github.com/cyberanchor/eMailCompare/blob/main/emails.csv">emails.csv</a> and the README status marks: a searchable catalogue of all providers with their favicons, a page for every provider with room for a screenshot, and a methodology page.</p>
   </header>
 
-  <section class="grid" aria-label="Prototypes">
+  <section class="grid" aria-label="Design variants">
     <article class="card">
-      <div class="mock m-book" aria-hidden="true">
-        <div class="side"><i style="height:9px;width:70%"></i><i style="height:7px"></i><i style="height:7px;width:80%"></i><i style="height:7px;width:60%"></i><i style="height:7px;width:75%"></i></div>
-        <div style="display:grid;gap:7px;align-content:start"><i style="height:14px;width:60%"></i><i style="height:7px"></i><i style="height:7px;width:85%"></i><i style="height:52px;margin-top:6px"></i></div>
-      </div>
+      <a class="mock m-paper" href="public/paper/" style="--bg:#ffffff;--fg:#1e1e1e;--acc:#111111;--acc2:#111111;--line:#eeeeee;--surface:#ffffff;--font:system-ui,sans-serif;--r:10px" aria-label="Open the Paper design">
+        <div class="m-nav"><i class="logo"></i><i class="menu"></i></div>
+        <div class="m-hero" style="justify-items:center"><i class="eb"></i><i class="h"></i><i class="h2"></i><span class="m-btns"><i class="b"></i><i class="b2"></i></span></div>
+        <div class="m-table"><span><i class="ic"></i><i class="t"></i><i class="p"></i><i class="p2"></i></span><span><i class="ic"></i><i class="t"></i><i class="p"></i><i class="p2"></i></span><span><i class="ic"></i><i class="t"></i><i class="p"></i><i class="p2"></i></span><span><i class="ic"></i><i class="t"></i><i class="p"></i><i class="p2"></i></span></div>
+      </a>
       <div class="body">
-        <h2>hugo-book <small>v0.15.0</small></h2>
-        <p>Plain, document-like. Left sidebar with status shortcuts, built-in site search, light/dark from the system setting.</p>
-        <ul class="tags"><li>sidebar</li><li>site search</li><li>auto dark</li><li>lightest CSS</li></ul>
-        <div class="actions"><a class="btn primary" href="hugo-book/public/">Open preview →</a><a class="btn" href="hugo-book/public/providers/protonmail-ch/">Provider page</a></div>
+        <h2><span class="num">01</span> Paper</h2>
+        <p>PaperMod's own calm, neutral look, refined. Light or dark follows the system.</p>
+        <ul class="tags"><li>Table</li><li>Center hero</li><li>light + dark</li></ul>
+        <div class="actions"><a class="btn primary" href="public/paper/">Open design →</a><a class="btn" href="public/paper/providers/protonmail-ch/">Provider page</a></div>
       </div>
     </article>
-
     <article class="card">
-      <div class="mock m-hextra" aria-hidden="true">
-        <i style="height:8px;width:100%;margin-bottom:8px"></i><i style="height:9px;width:28%;border-radius:9px"></i><i style="height:18px;width:62%"></i><i style="height:8px;width:48%"></i><i style="height:40px;width:100%;margin-top:6px"></i>
-      </div>
+      <a class="mock m-midnight" href="public/midnight/" style="--bg:#070b18;--fg:#e8ecff;--acc:#7c8cff;--acc2:#22d3ee;--line:#1c2645;--surface:#0e1528;--font:system-ui,sans-serif;--r:12px" aria-label="Open the Midnight design">
+        <div class="m-nav"><i class="logo"></i><i class="menu"></i></div>
+        <div class="m-split"><div class="m-hero" style="justify-items:start"><i class="eb"></i><i class="h"></i><i class="h2"></i><span class="m-btns"><i class="b"></i><i class="b2"></i></span></div><div class="m-stats"><i></i><i></i><i></i><i></i></div></div>
+        <div class="m-table"><span><i class="ic"></i><i class="t"></i><i class="p"></i><i class="p2"></i></span><span><i class="ic"></i><i class="t"></i><i class="p"></i><i class="p2"></i></span><span><i class="ic"></i><i class="t"></i><i class="p"></i><i class="p2"></i></span><span><i class="ic"></i><i class="t"></i><i class="p"></i><i class="p2"></i></span></div>
+      </a>
       <div class="body">
-        <h2>Hextra <small>v0.13.0</small></h2>
-        <p>Modern documentation look with a hero on the home page, a search dialog in the navbar and a light/dark toggle.</p>
-        <ul class="tags"><li>hero</li><li>search dialog</li><li>dark toggle</li><li>Tailwind</li></ul>
-        <div class="actions"><a class="btn primary" href="hextra/public/">Open preview →</a><a class="btn" href="hextra/public/providers/protonmail-ch/">Provider page</a></div>
+        <h2><span class="num">02</span> Midnight</h2>
+        <p>Dark-first navy with an indigo-to-cyan glow and glass panels; stats beside the headline.</p>
+        <ul class="tags"><li>Table</li><li>Split hero</li><li>dark</li></ul>
+        <div class="actions"><a class="btn primary" href="public/midnight/">Open design →</a><a class="btn" href="public/midnight/providers/protonmail-ch/">Provider page</a></div>
       </div>
     </article>
-
     <article class="card">
-      <div class="mock m-paper" aria-hidden="true">
-        <i style="height:8px;width:100%;margin-bottom:10px"></i><i style="height:16px;width:55%"></i><i style="height:7px;width:70%"></i><i style="height:7px;width:62%"></i><i style="height:38px;width:88%;margin-top:8px"></i>
-      </div>
+      <a class="mock m-swiss" href="public/swiss/" style="--bg:#ffffff;--fg:#000000;--acc:#e30613;--acc2:#e30613;--line:#000000;--surface:#ffffff;--font:'Helvetica Neue',Helvetica,Arial,sans-serif;--r:0" aria-label="Open the Swiss design">
+        <div class="m-nav"><i class="logo"></i><i class="menu"></i></div>
+        <div class="m-hero" style="justify-items:start"><i class="eb"></i><i class="h"></i><i class="h2"></i><span class="m-btns"><i class="b"></i><i class="b2"></i></span></div>
+        <div class="m-table"><span><i class="ic"></i><i class="t"></i><i class="p"></i><i class="p2"></i></span><span><i class="ic"></i><i class="t"></i><i class="p"></i><i class="p2"></i></span><span><i class="ic"></i><i class="t"></i><i class="p"></i><i class="p2"></i></span><span><i class="ic"></i><i class="t"></i><i class="p"></i><i class="p2"></i></span></div>
+      </a>
       <div class="body">
-        <h2>PaperMod <small>master</small></h2>
-        <p>Minimal, blog-like and fast. Intro block on the home page, breadcrumbs, a light/dark toggle in the header.</p>
-        <ul class="tags"><li>minimal</li><li>dark toggle</li><li>breadcrumbs</li><li>fastest</li></ul>
-        <div class="actions"><a class="btn primary" href="papermod/public/">Open preview →</a><a class="btn" href="papermod/public/providers/protonmail-ch/">Provider page</a></div>
+        <h2><span class="num">03</span> Swiss</h2>
+        <p>International Typographic Style: Helvetica, a strict grid, black rules and one red accent.</p>
+        <ul class="tags"><li>Table</li><li>Left hero</li><li>light + dark</li></ul>
+        <div class="actions"><a class="btn primary" href="public/swiss/">Open design →</a><a class="btn" href="public/swiss/providers/protonmail-ch/">Provider page</a></div>
       </div>
     </article>
-
     <article class="card">
-      <div class="mock m-congo" aria-hidden="true">
-        <i style="height:8px;width:100%;margin-bottom:8px"></i><i style="height:6px;width:18%"></i><i style="height:22px;width:70%;background:linear-gradient(90deg,#7c3aed,#c4b5fd)"></i><i style="height:7px;width:55%"></i><i style="height:36px;width:100%;margin-top:6px"></i>
-      </div>
+      <a class="mock m-terminal" href="public/terminal/" style="--bg:#07090a;--fg:#d6ffe2;--acc:#39ff88;--acc2:#39ff88;--line:#1c3326;--surface:#0b0f0d;--font:ui-monospace,Menlo,monospace;--r:3px" aria-label="Open the Terminal design">
+        <div class="m-nav"><i class="logo"></i><i class="menu"></i></div>
+        <div class="m-hero" style="justify-items:start"><i class="prompt"></i><i class="h"></i><i class="h2"></i><span class="m-btns"><i class="b"></i><i class="b2"></i></span></div>
+        <div class="m-table"><span><i class="ic"></i><i class="t"></i><i class="p"></i><i class="p2"></i></span><span><i class="ic"></i><i class="t"></i><i class="p"></i><i class="p2"></i></span><span><i class="ic"></i><i class="t"></i><i class="p"></i><i class="p2"></i></span><span><i class="ic"></i><i class="t"></i><i class="p"></i><i class="p2"></i></span></div>
+      </a>
       <div class="body">
-        <h2>Congo <small>v2.14.0</small></h2>
-        <p>Polished Tailwind theme: gradient hero, search over every page, appearance switcher in the footer.</p>
-        <ul class="tags"><li>gradient hero</li><li>site search</li><li>dark switcher</li><li>Tailwind</li></ul>
-        <div class="actions"><a class="btn primary" href="congo/public/">Open preview →</a><a class="btn" href="congo/public/providers/protonmail-ch/">Provider page</a></div>
+        <h2><span class="num">04</span> Terminal</h2>
+        <p>Monospace on near-black, phosphor green, scanlines and a blinking cursor.</p>
+        <ul class="tags"><li>Table</li><li>Terminal hero</li><li>dark</li></ul>
+        <div class="actions"><a class="btn primary" href="public/terminal/">Open design →</a><a class="btn" href="public/terminal/providers/protonmail-ch/">Provider page</a></div>
+      </div>
+    </article>
+    <article class="card">
+      <a class="mock m-nord" href="public/nord/" style="--bg:#eceff4;--fg:#2e3440;--acc:#5e81ac;--acc2:#81a1c1;--line:#d8dee9;--surface:#ffffff;--font:ui-rounded,system-ui,sans-serif;--r:14px" aria-label="Open the Nord design">
+        <div class="m-nav"><i class="logo"></i><i class="menu"></i></div>
+        <div class="m-hero" style="justify-items:center"><i class="eb"></i><i class="h"></i><i class="h2"></i><span class="m-btns"><i class="b"></i><i class="b2"></i></span></div>
+        <div class="m-cards"><span><i class="ic"></i><i class="t"></i><i class="s"></i></span><span><i class="ic"></i><i class="t"></i><i class="s"></i></span><span><i class="ic"></i><i class="t"></i><i class="s"></i></span><span><i class="ic"></i><i class="t"></i><i class="s"></i></span><span><i class="ic"></i><i class="t"></i><i class="s"></i></span><span><i class="ic"></i><i class="t"></i><i class="s"></i></span></div>
+      </a>
+      <div class="body">
+        <h2><span class="num">05</span> Nord</h2>
+        <p>A calm arctic palette, rounded type and a grid of provider cards.</p>
+        <ul class="tags"><li>Card grid</li><li>Center hero</li><li>light + dark</li></ul>
+        <div class="actions"><a class="btn primary" href="public/nord/">Open design →</a><a class="btn" href="public/nord/providers/protonmail-ch/">Provider page</a></div>
+      </div>
+    </article>
+    <article class="card">
+      <a class="mock m-editorial" href="public/editorial/" style="--bg:#f8f4ea;--fg:#1b1a17;--acc:#8b1e3f;--acc2:#8b1e3f;--line:#d9d0bc;--surface:#fffdf7;--font:'Iowan Old Style',Palatino,Georgia,serif;--r:2px" aria-label="Open the Editorial design">
+        <div class="m-nav"><i class="logo"></i><i class="menu"></i></div>
+        <div class="m-hero" style="justify-items:center"><i class="mast"></i><i class="eb"></i><i class="h"></i><i class="h2"></i><span class="m-btns"><i class="b"></i><i class="b2"></i></span></div>
+        <div class="m-table"><span><i class="ic"></i><i class="t"></i><i class="p"></i><i class="p2"></i></span><span><i class="ic"></i><i class="t"></i><i class="p"></i><i class="p2"></i></span><span><i class="ic"></i><i class="t"></i><i class="p"></i><i class="p2"></i></span><span><i class="ic"></i><i class="t"></i><i class="p"></i><i class="p2"></i></span></div>
+      </a>
+      <div class="body">
+        <h2><span class="num">06</span> Editorial</h2>
+        <p>A newspaper page: serif type, cream paper, hairline rules and a masthead.</p>
+        <ul class="tags"><li>Table</li><li>Masthead hero</li><li>light + dark</li></ul>
+        <div class="actions"><a class="btn primary" href="public/editorial/">Open design →</a><a class="btn" href="public/editorial/providers/protonmail-ch/">Provider page</a></div>
+      </div>
+    </article>
+    <article class="card">
+      <a class="mock m-brutalist" href="public/brutalist/" style="--bg:#fffdf2;--fg:#0a0a0a;--acc:#ffd400;--acc2:#ffd400;--line:#0a0a0a;--surface:#ffffff;--font:'Arial Black',Arial,sans-serif;--r:0" aria-label="Open the Brutalist design">
+        <div class="m-nav"><i class="logo"></i><i class="menu"></i></div>
+        <div class="m-hero" style="justify-items:start"><i class="eb"></i><i class="h"></i><i class="h2"></i><span class="m-btns"><i class="b"></i><i class="b2"></i></span></div>
+        <div class="m-cards"><span><i class="ic"></i><i class="t"></i><i class="s"></i></span><span><i class="ic"></i><i class="t"></i><i class="s"></i></span><span><i class="ic"></i><i class="t"></i><i class="s"></i></span><span><i class="ic"></i><i class="t"></i><i class="s"></i></span><span><i class="ic"></i><i class="t"></i><i class="s"></i></span><span><i class="ic"></i><i class="t"></i><i class="s"></i></span></div>
+      </a>
+      <div class="body">
+        <h2><span class="num">07</span> Brutalist</h2>
+        <p>Raw and loud: thick black borders, hard offset shadows, signal yellow.</p>
+        <ul class="tags"><li>Card grid</li><li>Left hero</li><li>light + dark</li></ul>
+        <div class="actions"><a class="btn primary" href="public/brutalist/">Open design →</a><a class="btn" href="public/brutalist/providers/protonmail-ch/">Provider page</a></div>
+      </div>
+    </article>
+    <article class="card">
+      <a class="mock m-aurora" href="public/aurora/" style="--bg:linear-gradient(135deg,#efe9ff,#e3f7fb 55%,#fde7f3);--fg:#1c1736;--acc:#7c3aed;--acc2:#06b6d4;--line:rgba(120,100,220,.2);--surface:rgba(255,255,255,.7);--font:system-ui,sans-serif;--r:16px" aria-label="Open the Aurora design">
+        <div class="m-nav"><i class="logo"></i><i class="menu"></i></div>
+        <div class="m-hero" style="justify-items:center"><i class="eb"></i><i class="h"></i><i class="h2"></i><span class="m-btns"><i class="b"></i><i class="b2"></i></span></div>
+        <div class="m-cards"><span><i class="ic"></i><i class="t"></i><i class="s"></i></span><span><i class="ic"></i><i class="t"></i><i class="s"></i></span><span><i class="ic"></i><i class="t"></i><i class="s"></i></span><span><i class="ic"></i><i class="t"></i><i class="s"></i></span><span><i class="ic"></i><i class="t"></i><i class="s"></i></span><span><i class="ic"></i><i class="t"></i><i class="s"></i></span></div>
+      </a>
+      <div class="body">
+        <h2><span class="num">08</span> Aurora</h2>
+        <p>A soft gradient sky behind frosted-glass cards.</p>
+        <ul class="tags"><li>Card grid</li><li>Center hero</li><li>light + dark</li></ul>
+        <div class="actions"><a class="btn primary" href="public/aurora/">Open design →</a><a class="btn" href="public/aurora/providers/protonmail-ch/">Provider page</a></div>
+      </div>
+    </article>
+    <article class="card">
+      <a class="mock m-ledger" href="public/ledger/" style="--bg:#f5f7fb;--fg:#0f172a;--acc:#2563eb;--acc2:#0ea5e9;--line:#e2e8f0;--surface:#ffffff;--font:system-ui,sans-serif;--r:8px" aria-label="Open the Ledger design">
+        <div class="m-nav"><i class="logo"></i><i class="menu"></i></div>
+        <div class="m-split"><div class="m-hero" style="justify-items:start"><i class="eb"></i><i class="h"></i><i class="h2"></i><span class="m-btns"><i class="b"></i><i class="b2"></i></span></div><div class="m-stats"><i></i><i></i><i></i><i></i></div></div>
+        <div class="m-table"><span><i class="ic"></i><i class="t"></i><i class="p"></i><i class="p2"></i></span><span><i class="ic"></i><i class="t"></i><i class="p"></i><i class="p2"></i></span><span><i class="ic"></i><i class="t"></i><i class="p"></i><i class="p2"></i></span><span><i class="ic"></i><i class="t"></i><i class="p"></i><i class="p2"></i></span></div>
+      </a>
+      <div class="body">
+        <h2><span class="num">09</span> Ledger</h2>
+        <p>A data product: compact rows, sticky names, zebra stripes, trustworthy blue.</p>
+        <ul class="tags"><li>Table</li><li>Split hero</li><li>light + dark</li></ul>
+        <div class="actions"><a class="btn primary" href="public/ledger/">Open design →</a><a class="btn" href="public/ledger/providers/protonmail-ch/">Provider page</a></div>
+      </div>
+    </article>
+    <article class="card">
+      <a class="mock m-solar" href="public/solar/" style="--bg:#fdf6e3;--fg:#073642;--acc:#b58900;--acc2:#cb4b16;--line:#e4dcc3;--surface:#fffbef;--font:system-ui,sans-serif;--r:10px" aria-label="Open the Solar design">
+        <div class="m-nav"><i class="logo"></i><i class="menu"></i></div>
+        <div class="m-hero" style="justify-items:start"><i class="eb"></i><i class="h"></i><i class="h2"></i><span class="m-btns"><i class="b"></i><i class="b2"></i></span></div>
+        <div class="m-table"><span><i class="ic"></i><i class="t"></i><i class="p"></i><i class="p2"></i></span><span><i class="ic"></i><i class="t"></i><i class="p"></i><i class="p2"></i></span><span><i class="ic"></i><i class="t"></i><i class="p"></i><i class="p2"></i></span><span><i class="ic"></i><i class="t"></i><i class="p"></i><i class="p2"></i></span></div>
+      </a>
+      <div class="body">
+        <h2><span class="num">10</span> Solar</h2>
+        <p>Solarized: warm base tones with amber and orange accents, easy on the eyes day and night.</p>
+        <ul class="tags"><li>Table</li><li>Left hero</li><li>light + dark</li></ul>
+        <div class="actions"><a class="btn primary" href="public/solar/">Open design →</a><a class="btn" href="public/solar/providers/protonmail-ch/">Provider page</a></div>
       </div>
     </article>
   </section>
@@ -119,10 +219,10 @@ code { font: .88em ui-monospace, SFMono-Regular, Menlo, monospace; padding: .1em
   <section class="notes">
     <h2>How it works</h2>
     <ul>
-      <li>Shared code lives in <code>site/_shared/</code>: it reads <code>emails.csv</code> and the README, applies the same colour rules as the current site and creates one page per provider. Each theme folder only adds its layout and colours.</li>
-      <li>Text pages are Markdown (<code>_shared/content/about.md</code>); the table can be placed in any Markdown page with the <code>emc-table</code>, <code>emc-stats</code> and <code>emc-legend</code> shortcodes.</li>
-      <li>Rebuild with <code>site/build.sh</code> (needs Hugo extended and git); <code>site/build.sh --serve hextra</code> starts a live preview.</li>
-      <li>The current site: <a href="../web/">interactive table</a> · <a href="../web2/">static table</a>.</li>
+      <li>One Hugo project in <code>site/</code> with the PaperMod theme. A variant is a folder in <code>site/config/</code> plus a stylesheet in <code>site/assets/emc/variants/</code>; <code>site/build.sh</code> builds them all into <code>site/public/</code>.</li>
+      <li>Favicons are stored in <code>site/assets/favicons/</code> and re-encoded by Hugo, so the pages never request anything from the providers or third parties.</li>
+      <li>Screenshots: put <code>site/assets/screenshots/&lt;domain-with-dashes&gt;.png</code> (e.g. <code>protonmail-ch.png</code>) and rebuild; the frame on the provider page shows it.</li>
+      <li>Each preview has a design switcher in the bottom-left corner. The current site: <a href="../web/">interactive table</a> · <a href="../web2/">static table</a>.</li>
     </ul>
   </section>
 </main>
