@@ -1,0 +1,12 @@
+# Design variant "Brutalist": hugo --environment brutalist
+baseURL = "https://cyberanchor.github.io/eMailCompare/site/public/brutalist/"
+publishDir = "public/brutalist"
+
+[params]
+  defaultTheme = "light"
+  disableThemeToggle = false
+  [params.emc]
+    variant = "brutalist"
+    variantTitle = "Brutalist"
+    list = "cards"
+    hero = "left"

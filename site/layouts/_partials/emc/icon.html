@@ -1,0 +1,20 @@
+{{- /* Favicon of a provider: (dict "p" $provider "size" 20).
+       Icons live in assets/favicons/<slug>.(png|jpg|gif|webp) (tools/fetch_favicons.py); Hugo re-encodes them
+       as WebP at twice the display size. Without an icon, a letter on a colour derived from the domain. */ -}}
+{{- $p := .p -}}
+{{- $size := .size | default 20 -}}
+{{- $src := "" -}}
+{{- range slice "png" "jpg" "gif" "webp" -}}
+  {{- with resources.Get (printf "favicons/%s.%s" $p.slug .) -}}{{- $src = . -}}{{- end -}}
+{{- end -}}
+{{- $img := "" -}}
+{{- with $src -}}
+  {{- with try (.Process (printf "fit %dx%d webp q90 Lanczos" (mul $size 2) (mul $size 2))) -}}
+    {{- if not .Err -}}{{- $img = .Value -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- with $img -}}
+<img class="emc-ico" src="{{ .RelPermalink }}" width="{{ $size }}" height="{{ $size }}" style="--s:{{ $size }}px" alt="" loading="lazy" decoding="async">
+{{- else -}}
+<span class="emc-ico emc-ico-letter" style="--s:{{ $size }}px;--h:{{ mod (hash.FNV32a $p.domain) 360 }}" aria-hidden="true">{{ upper (substr $p.domain 0 1) }}</span>
+{{- end -}}

@@ -1,0 +1,34 @@
+/* 3 · Swiss — International Typographic Style: Helvetica, strict grid, black rules, one red accent. */
+:root {
+  --theme: #fff; --entry: #fff; --primary: #000; --secondary: #555; --tertiary: #ddd; --content: #111;
+  --code-bg: #f3f3f3; --border: #000;
+  --emc-brand: #e30613; --emc-brand-fg: #fff;
+  --emc-font-display: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --emc-title-weight: 700; --emc-title-tracking: -.045em;
+  --emc-radius: 0px; --emc-radius-sm: 0px;
+}
+:root[data-theme="dark"] {
+  --theme: #000; --entry: #000; --primary: #fff; --secondary: #a3a3a3; --tertiary: #333; --content: #eee;
+  --code-bg: #111; --border: #fff; --emc-brand: #ff2a35;
+}
+body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+.header { border-bottom: 2px solid var(--primary); }
+.logo a { font-weight: 700; letter-spacing: -.03em; }
+.logo a::before { content: ""; display: inline-block; width: 14px; height: 14px; margin-right: 8px; background: var(--emc-brand); vertical-align: -1px; }
+#menu a { font-weight: 500; }
+.emc { --emc-shadow: none; --emc-shadow-hover: none; --emc-subtle: var(--theme); }
+.emc .emc-btn { box-shadow: none; background: var(--emc-brand); }
+.emc .emc-btn-ghost { background: transparent; border: 2px solid var(--primary); color: var(--primary); }
+.emc-home-hero { border-top: 8px solid var(--primary); padding-top: 2rem; }
+.emc .emc-home-title { font-size: clamp(2.8rem, 8vw, 5.6rem); line-height: .95; }
+.emc-eyebrow { color: var(--emc-brand); letter-spacing: .02em; text-transform: none; font-size: 1rem; }
+.emc-stats { gap: 0; border-top: 2px solid var(--primary); }
+.emc-stat { border: 0; border-right: 1px solid var(--tertiary); border-radius: 0; padding: 1rem 1rem 1.2rem 0; background: transparent; }
+.emc-stat:last-child { border-right: 0; }
+.emc-stat-n { font-size: 2.6rem; font-weight: 700; letter-spacing: -.05em; }
+.emc-table-wrap { border-width: 2px 0; }
+.emc .emc-table thead th { background: var(--theme); color: var(--primary); border-bottom: 2px solid var(--primary); }
+.emc .emc-table td { border-bottom-color: var(--tertiary); }
+.emc-pill { border-radius: 0; }
+.emc-seg button[aria-pressed="true"] { background: var(--primary); color: var(--theme); box-shadow: none; }
+.emc-hero { border-width: 2px; }

@@ -1,0 +1,12 @@
+# Design variant "Editorial": hugo --environment editorial
+baseURL = "https://cyberanchor.github.io/eMailCompare/site/public/editorial/"
+publishDir = "public/editorial"
+
+[params]
+  defaultTheme = "light"
+  disableThemeToggle = false
+  [params.emc]
+    variant = "editorial"
+    variantTitle = "Editorial"
+    list = "table"
+    hero = "masthead"

@@ -1,0 +1,6 @@
+{{- define "main" }}
+{{- partial "emc/hero.html" . }}
+{{- if ne site.Params.emc.hero "split" }}{{ partial "emc/stats.html" . }}{{ end }}
+{{- partial "emc/explorer.html" . }}
+{{- partial "emc/legend.html" . }}
+{{- end }}

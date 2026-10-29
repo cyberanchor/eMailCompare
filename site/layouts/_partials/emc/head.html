@@ -1,0 +1,8 @@
+{{- /* Stylesheet and script of the components: emc.css (components), theme.css (PaperMod mapping) and the
+       design variant from site.Params.emc.variant, concatenated, minified and fingerprinted. */ -}}
+{{- $css := slice (resources.Get "emc/emc.css") (resources.Get "emc/theme.css") -}}
+{{- with resources.Get (printf "emc/variants/%s.css" (site.Params.emc.variant | default "paper")) -}}{{- $css = $css | append . -}}{{- end -}}
+{{- $style := $css | resources.Concat "css/emc.css" | minify | fingerprint -}}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+{{- $js := resources.Get "emc/emc.js" | js.Build (dict "minify" true "target" "es2018") | fingerprint -}}
+<script defer src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>

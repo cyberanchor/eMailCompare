@@ -1,0 +1,15 @@
+{{- /* Design switcher for the preview builds: links to the other variants and the gallery. */ -}}
+{{- with site.Params.emc.gallery -}}
+{{- $gallery := . -}}
+{{- $current := site.Params.emc.variant | default "paper" -}}
+{{- $variants := slice "paper" "midnight" "swiss" "terminal" "nord" "editorial" "brutalist" "aurora" "ledger" "solar" -}}
+<details class="emc emc-switcher">
+  <summary><span class="emc-switcher-dot" aria-hidden="true"></span>Design: <b>{{ site.Params.emc.variantTitle | default (title $current) }}</b> <span class="emc-muted">{{ range $i, $v := $variants }}{{ if eq $v $current }}{{ add $i 1 }}/{{ len $variants }}{{ end }}{{ end }}</span></summary>
+  <nav aria-label="Design variants">
+    {{- range $i, $v := $variants }}
+    <a href="{{ $gallery }}public/{{ $v }}/"{{ if eq $v $current }} aria-current="page"{{ end }}><span>{{ add $i 1 }}</span>{{ title $v }}</a>
+    {{- end }}
+    <a class="emc-switcher-all" href="{{ $gallery }}">All designs →</a>
+  </nav>
+</details>
+{{- end -}}

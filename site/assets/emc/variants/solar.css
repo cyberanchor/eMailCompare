@@ -1,0 +1,19 @@
+/* 10 · Solar — Solarized: warm base tones, amber and orange accents, easy on the eyes day and night. */
+:root {
+  --theme: #fdf6e3; --entry: #fffbef; --primary: #073642; --secondary: #657b83; --tertiary: #eee8d5;
+  --content: #586e75; --code-bg: #eee8d5; --border: #e4dcc3;
+  --emc-brand: #b58900; --emc-brand-2: #cb4b16; --emc-brand-fg: #fdf6e3;
+  --emc-radius: 12px; --emc-radius-sm: 8px;
+  --emc-green: #859900; --emc-yellow: #b58900; --emc-red: #dc322f; --emc-purple: #6c71c4; --emc-blue: #268bd2;
+}
+:root[data-theme="dark"] {
+  --theme: #002b36; --entry: #073642; --primary: #eee8d5; --secondary: #93a1a1; --tertiary: #0b4251;
+  --content: #93a1a1; --code-bg: #04313c; --border: #0e4654; --emc-brand: #e0a800; --emc-brand-2: #e2622b; --emc-brand-fg: #002b36;
+}
+.logo a { color: var(--emc-brand); }
+.emc-eyebrow { color: var(--emc-brand-2); }
+.emc .emc-home-title { color: var(--primary); }
+.emc-home-hero::before { content: ""; position: absolute; right: 0; top: 1.5rem; width: 140px; height: 140px; border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, #ffd76a, var(--emc-brand) 55%, var(--emc-brand-2)); opacity: .9;
+  box-shadow: 0 0 60px 10px rgb(181 137 0 / .25); }
+@media (max-width: 760px) { .emc-home-hero::before { width: 80px; height: 80px; top: .5rem; } }

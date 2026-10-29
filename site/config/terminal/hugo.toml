@@ -1,0 +1,12 @@
+# Design variant "Terminal": hugo --environment terminal
+baseURL = "https://cyberanchor.github.io/eMailCompare/site/public/terminal/"
+publishDir = "public/terminal"
+
+[params]
+  defaultTheme = "dark"
+  disableThemeToggle = true
+  [params.emc]
+    variant = "terminal"
+    variantTitle = "Terminal"
+    list = "table"
+    hero = "terminal"

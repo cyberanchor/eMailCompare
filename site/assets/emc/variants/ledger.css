@@ -1,0 +1,25 @@
+/* 9 · Ledger — a data product: compact rows, crisp slate UI, trustworthy blue. */
+:root {
+  --theme: #f5f7fb; --entry: #ffffff; --primary: #0f172a; --secondary: #64748b; --tertiary: #e2e8f0;
+  --content: #1e293b; --code-bg: #f1f5f9; --border: #e2e8f0;
+  --emc-brand: #2563eb; --emc-brand-2: #0ea5e9; --emc-brand-fg: #fff;
+  --emc-title-weight: 750; --emc-title-tracking: -.03em;
+  --emc-radius: 10px; --emc-radius-sm: 7px; --emc-row-pad: .38rem;
+}
+:root[data-theme="dark"] {
+  --theme: #0b1220; --entry: #111a2e; --primary: #e2e8f0; --secondary: #8a9bb5; --tertiary: #1e293b;
+  --content: #cbd5e1; --code-bg: #0f1a30; --border: #1e2a42; --emc-brand: #60a5fa; --emc-brand-2: #38bdf8; --emc-brand-fg: #0b1220;
+}
+body { font-size: 15px; }
+.header { background: var(--entry); border-bottom: 1px solid var(--border); }
+.logo a::before { content: ""; display: inline-block; width: 18px; height: 18px; margin-right: 8px; border-radius: 5px; vertical-align: -3px; background: linear-gradient(135deg, var(--emc-brand), var(--emc-brand-2)); }
+.emc { --emc-shadow: 0 1px 2px rgb(15 23 42 / .06); --emc-shadow-hover: 0 4px 14px -4px rgb(15 23 42 / .18); }
+.emc .emc-table { font-size: .84rem; }
+.emc .emc-table tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--primary) 2.5%, transparent); }
+.emc .emc-table td.emc-col-name { position: sticky; left: 0; background: var(--entry); }
+.emc-sub { font-size: .74rem; }
+.emc-home-hero { padding-top: 2.5rem; }
+.emc .emc-home-title { font-size: clamp(2rem, 4.8vw, 3.2rem); }
+.emc-stat { padding: .8rem .95rem; }
+.emc-stat-n { font-size: 1.5rem; }
+.emc-eyebrow { color: var(--emc-brand); }

@@ -1,0 +1,12 @@
+# Design variant "Paper": hugo --environment paper
+baseURL = "https://cyberanchor.github.io/eMailCompare/site/public/paper/"
+publishDir = "public/paper"
+
+[params]
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  [params.emc]
+    variant = "paper"
+    variantTitle = "Paper"
+    list = "table"
+    hero = "center"

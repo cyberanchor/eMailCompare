@@ -1,0 +1,24 @@
+# eMailCompare on Hugo + PaperMod. Shared settings; every design variant in config/<variant>/ adds its own
+# baseURL, output folder (public/<variant>/) and look. Build all of them with ./build.sh.
+baseURL = "https://cyberanchor.github.io/eMailCompare/site/public/paper/"
+title = "eMailCompare"
+locale = "en"
+theme = "PaperMod"
+disableKinds = ["taxonomy", "term", "rss", "sitemap", "robotsTXT"]
+publishDir = "public/paper"
+
+# Provider pages carry their (already escaped) text as HTML.
+[security]
+  allowContent = ["! ^text/org$"]
+
+[markup.goldmark.renderer]
+  unsafe = false
+
+# Data files from the repository root: the providers and the status marks of the README tables.
+[[module.mounts]]
+  source = "assets"
+  target = "assets"
+[[module.mounts]]
+  source = ".."
+  target = "assets/emc"
+  files = ["emails.csv", "README.md"]

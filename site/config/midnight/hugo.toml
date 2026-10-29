@@ -1,0 +1,12 @@
+# Design variant "Midnight": hugo --environment midnight
+baseURL = "https://cyberanchor.github.io/eMailCompare/site/public/midnight/"
+publishDir = "public/midnight"
+
+[params]
+  defaultTheme = "dark"
+  disableThemeToggle = true
+  [params.emc]
+    variant = "midnight"
+    variantTitle = "Midnight"
+    list = "table"
+    hero = "split"

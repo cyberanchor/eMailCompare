@@ -1,0 +1,12 @@
+# Design variant "Nord": hugo --environment nord
+baseURL = "https://cyberanchor.github.io/eMailCompare/site/public/nord/"
+publishDir = "public/nord"
+
+[params]
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  [params.emc]
+    variant = "nord"
+    variantTitle = "Nord"
+    list = "cards"
+    hero = "center"

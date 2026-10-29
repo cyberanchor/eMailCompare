@@ -1,8 +1,0 @@
-{{- $home := site.Home.RelPermalink -}}
-<ul class="emc-book-menu">
-  <li><a href="{{ $home }}"{{ if .IsHome }} class="active"{{ end }}>Overview</a></li>
-  <li><a href="{{ $home }}#state=checked">✅ Tested by hand</a></li>
-  <li><a href="{{ $home }}#state=auto">🤖 Auto-collected</a></li>
-  <li><a href="{{ $home }}#state=pending">⏳ Pending</a></li>
-  <li><a href="{{ $home }}#eyes=none">🛡️ Outside 14 Eyes</a></li>
-</ul>

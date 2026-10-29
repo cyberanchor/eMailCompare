@@ -1,0 +1,82 @@
+{{- /* Body of one provider page. The page context comes from the content adapter (Params.slug). */ -}}
+{{- $d := partialCached "emc/data.html" . "emc" -}}
+{{- $meta := partial "emc/meta.html" . -}}
+{{- $p := index (where $d "slug" .Params.slug) 0 -}}
+{{- if not $p -}}{{- errorf "emc/provider: no row for %q" .Params.slug -}}{{- end -}}
+{{- $m := index $meta $p.state -}}
+{{- $i := sub $p.n 1 -}}
+<article class="emc emc-provider{{ if $p.dead }} emc-dead{{ end }}">
+  <header class="emc-hero">
+    <div class="emc-hero-icon">
+      {{ partial "emc/icon.html" (dict "p" $p "size" 56) }}
+      {{- with $p.flag }}<span class="emc-hero-flag" aria-hidden="true">{{ . }}</span>{{ end }}
+    </div>
+    <div class="emc-hero-main">
+      <p class="emc-kicker">{{ partial "emc/pill.html" (dict "text" (printf "%s %s" $m.icon $m.label) "color" $m.color "title" $m.long) }}{{ with $p.jurisdiction }} <span>{{ . }}</span>{{ end }}{{ with $p.eyes }} {{ partial "emc/pill.html" (dict "text" (printf "%s Eyes" .) "color" $p.cAlliance) }}{{ end }}</p>
+      <h1 class="emc-title">{{ if $p.dead }}<s>{{ $p.domain }}</s>{{ else }}{{ $p.domain }}{{ end }}</h1>
+      {{- with $p.owner }}<p class="emc-owner">{{ . }}</p>{{ end }}
+    </div>
+    <div class="emc-hero-actions">
+      <a class="emc-btn" href="https://{{ $p.domain }}" rel="noopener noreferrer nofollow" target="_blank">Visit site ↗</a>
+      <a class="emc-btn emc-btn-ghost" href="{{ "providers/" | relLangURL }}">All providers</a>
+    </div>
+  </header>
+
+  <div class="emc-overview">
+    {{ partial "emc/shot.html" $p }}
+    <dl class="emc-facts">
+      <div><dt>Jurisdiction</dt><dd>{{ with $p.flag }}{{ . }} {{ end }}{{ $p.jurisdiction | default "—" }}</dd></div>
+      <div><dt>Intelligence alliance</dt><dd>{{ with $p.alliance }}{{ partial "emc/pill.html" (dict "text" . "color" $p.cAlliance) }}{{ else }}{{ if $p.jurisdiction }}<span class="emc-muted">Not in 14 Eyes</span>{{ else }}<span class="emc-na">—</span>{{ end }}{{ end }}</dd></div>
+      <div><dt>Domain created</dt><dd>{{ partial "emc/pill.html" (dict "text" $p.created "color" $p.cCreated) }}</dd></div>
+      <div><dt>Domain expires</dt><dd>{{ $p.expires | default "—" }}</dd></div>
+      <div><dt>Email verification</dt><dd>{{ partial "emc/pill.html" (dict "text" (lower $p.email) "color" $p.cEmail) }}</dd></div>
+      <div><dt>Phone / SMS</dt><dd>{{ partial "emc/pill.html" (dict "text" (lower $p.phone) "color" $p.cPhone) }}</dd></div>
+      <div><dt>Personal info</dt><dd>{{ partial "emc/pill.html" (dict "text" (lower $p.personal) "color" $p.cPersonal) }}</dd></div>
+      <div><dt>Status</dt><dd>{{ $m.icon }} {{ $m.label }}</dd></div>
+      <div class="emc-facts-wide"><dt>Price</dt><dd>{{ with $p.price }}{{ range split . ";" }}{{ with strings.TrimSpace . }}<span class="emc-chip">{{ . }}</span>{{ end }}{{ end }}{{ else }}—{{ end }}</dd></div>
+    </dl>
+  </div>
+  {{- if ne $p.group "checked" }}
+  <p class="emc-notice">{{ $m.icon }} {{ $m.long }}. Registration requirements (email, phone, personal info) are filled after a manual test.</p>
+  {{- end }}
+
+  {{- range $sec := slice (dict "key" "desc" "title" "Description") (dict "key" "note" "title" "Notes") (dict "key" "tos" "title" "Terms of service") (dict "key" "privacy" "title" "Privacy policy") }}
+  {{- with index $p $sec.key }}
+  <section class="emc-card">
+    <h2 class="emc-h2">{{ $sec.title }}</h2>
+    <p class="emc-text">{{ partial "emc/text.html" . }}</p>
+  </section>
+  {{- end }}
+  {{- end }}
+
+  {{- if or $p.mx $p.a }}
+  <section class="emc-card">
+    <h2 class="emc-h2">Infrastructure</h2>
+    <div class="emc-table-wrap emc-records">
+      <table class="emc-table">
+        <thead><tr><th scope="col">Record</th><th scope="col">Host / IP</th><th scope="col">Country</th><th scope="col" class="emc-hide-sm">ASN</th><th scope="col" class="emc-hide-sm">Network</th></tr></thead>
+        <tbody>
+          {{- range $kind := slice "mx" "a" }}
+          {{- range index $p $kind }}
+          <tr><td><span class="emc-pill emc-c-none">{{ upper $kind }}</span></td><td class="emc-mono">{{ .host }}</td><td>{{ .flag }} {{ .country }}</td><td class="emc-hide-sm emc-mono">{{ .asn }}</td><td class="emc-hide-sm">{{ .org }}</td></tr>
+          {{- end }}
+          {{- end }}
+        </tbody>
+      </table>
+    </div>
+  </section>
+  {{- end }}
+
+  {{- with $p.seconds }}
+  <section class="emc-card">
+    <h2 class="emc-h2">Other domains <span class="emc-muted">{{ len . }}</span></h2>
+    <p class="emc-chips">{{ range . }}<span class="emc-chip emc-mono">{{ . }}</span>{{ end }}</p>
+  </section>
+  {{- end }}
+
+  <nav class="emc-pager" aria-label="Other providers">
+    {{- if gt $i 0 }}{{ with index $d (sub $i 1) }}{{ $prev := . }}{{ with site.GetPage (printf "/providers/%s" .slug) }}<a href="{{ .RelPermalink }}" rel="prev"><span>← Previous</span><b>{{ partial "emc/icon.html" (dict "p" $prev "size" 18) }} {{ .Title }}</b></a>{{ end }}{{ end }}{{ else }}<span></span>{{ end }}
+    {{- if lt (add $i 1) (len $d) }}{{ with index $d (add $i 1) }}{{ $next := . }}{{ with site.GetPage (printf "/providers/%s" .slug) }}<a href="{{ .RelPermalink }}" rel="next" class="emc-next"><span>Next →</span><b>{{ .Title }} {{ partial "emc/icon.html" (dict "p" $next "size" 18) }}</b></a>{{ end }}{{ end }}{{ end }}
+  </nav>
+  <p class="emc-source">Data: <a href="https://github.com/cyberanchor/eMailCompare/blob/main/emails.csv">emails.csv</a>, row {{ $p.n }}. Something wrong? <a href="https://github.com/cyberanchor/eMailCompare/issues">Open an issue</a>.</p>
+</article>

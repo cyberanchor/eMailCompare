@@ -1,0 +1,30 @@
+/* 6 · Editorial — a newspaper page: serif type, cream paper, hairline rules, a masthead. */
+:root {
+  --theme: #f8f4ea; --entry: #fffdf7; --primary: #1b1a17; --secondary: #6b6457; --tertiary: #d9d0bc;
+  --content: #26241f; --code-bg: #f1ebdc; --border: #d9d0bc;
+  --emc-brand: #8b1e3f; --emc-brand-fg: #fff;
+  --emc-font-display: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  --emc-title-weight: 700; --emc-title-tracking: -.02em;
+  --emc-radius: 2px; --emc-radius-sm: 2px;
+}
+:root[data-theme="dark"] {
+  --theme: #171512; --entry: #1e1b17; --primary: #efe7d6; --secondary: #a69c88; --tertiary: #3a342b;
+  --content: #e3dac6; --code-bg: #24201b; --border: #3a342b; --emc-brand: #e58aa3; --emc-brand-fg: #171512;
+}
+body { font-family: Charter, "Bitstream Charter", "Iowan Old Style", Georgia, serif; font-size: 17px; }
+.logo a { font-family: var(--emc-font-display); font-style: italic; font-size: 1.35rem; letter-spacing: -.01em; }
+.header { border-bottom: 1px solid var(--primary); }
+.emc { --emc-shadow: none; --emc-shadow-hover: none; }
+.emc .emc-home-title { font-size: clamp(2.6rem, 7vw, 4.8rem); font-style: italic; }
+.emc-lead { font-size: 1.22rem; }
+.emc .emc-btn { background: var(--emc-brand); box-shadow: none; font-family: system-ui, sans-serif; }
+.emc-stats { gap: 0; border-top: 1px solid var(--primary); border-bottom: 1px solid var(--primary); }
+.emc-stat { border: 0; border-right: 1px solid var(--border); border-radius: 0; background: transparent; text-align: center; align-items: center; }
+.emc-stat:last-child { border-right: 0; }
+.emc-stat-n { font-family: var(--emc-font-display); font-weight: 600; }
+.emc-table-wrap { border-width: 1px 0; border-color: var(--primary); }
+.emc .emc-table { font-family: system-ui, sans-serif; }
+.emc .emc-table thead th { background: var(--theme); font-variant: small-caps; text-transform: none; letter-spacing: .08em; font-size: .85rem; }
+.emc .emc-name { font-family: var(--emc-font-display); font-size: 1.02rem; }
+.emc-text { font-size: 1.04rem; }
+.emc-card { border-width: 1px 0 0; padding-inline: 0; background: transparent; }

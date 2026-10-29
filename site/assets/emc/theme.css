@@ -1,0 +1,41 @@
+/* PaperMod mapping: the components take their colours from PaperMod's variables, so they follow its
+   light / dark switch. A variant sets --emc-brand (and optionally --emc-brand-2 / --emc-brand-fg). */
+.emc {
+  --emc-fg: var(--primary);
+  --emc-bg: var(--theme);
+  --emc-surface: var(--entry);
+  --emc-subtle: var(--code-bg);
+  --emc-border: var(--border);
+  --emc-muted: var(--secondary);
+  --emc-accent: var(--emc-brand, var(--primary));
+  --emc-accent-2: var(--emc-brand-2, var(--emc-accent));
+  --emc-accent-fg: var(--emc-brand-fg, var(--theme));
+}
+/* Pages with the catalogue get a wider column than PaperMod's 720px reading width. */
+body:has(.emc-explorer) { --main-width: 1200px; }
+body:has(.emc-provider) { --main-width: 1000px; }
+.post-header .breadcrumbs { margin-bottom: .5rem; }
+
+/* Design switcher (preview builds) */
+.emc-switcher {
+  position: fixed; left: 16px; bottom: 16px; z-index: 50; max-width: calc(100vw - 32px);
+  font-size: .82rem; color: var(--emc-fg);
+}
+.emc-switcher summary {
+  display: inline-flex; align-items: center; gap: .45rem; padding: .45rem .8rem; cursor: pointer; list-style: none;
+  background: var(--emc-surface); border: 1px solid var(--emc-border); border-radius: 999px;
+  box-shadow: 0 10px 30px -12px rgb(0 0 0 / .35);
+}
+.emc-switcher summary::-webkit-details-marker { display: none; }
+.emc-switcher-dot { width: 8px; height: 8px; border-radius: 50%; background: linear-gradient(135deg, var(--emc-accent), var(--emc-accent-2)); }
+.emc-switcher nav {
+  position: absolute; left: 0; bottom: calc(100% + 8px); display: grid; grid-template-columns: repeat(2, minmax(7.5rem, 1fr)); gap: 2px;
+  padding: 6px; background: var(--emc-surface); border: 1px solid var(--emc-border); border-radius: 14px;
+  box-shadow: 0 18px 40px -16px rgb(0 0 0 / .45);
+}
+.emc-switcher nav a { display: flex; gap: .5rem; padding: .4rem .55rem; border-radius: 8px; color: var(--emc-fg); text-decoration: none; }
+.emc-switcher nav a span { min-width: 1.2rem; color: var(--emc-muted); font-variant-numeric: tabular-nums; }
+.emc-switcher nav a:hover { background: var(--emc-subtle); text-decoration: none; }
+.emc-switcher nav a[aria-current="page"] { background: var(--emc-subtle); font-weight: 700; }
+.emc-switcher .emc-switcher-all { grid-column: 1 / -1; justify-content: center; color: var(--emc-accent); font-weight: 600; }
+@media print { .emc-switcher { display: none; } }

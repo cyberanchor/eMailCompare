@@ -1,0 +1,12 @@
+# Design variant "Ledger": hugo --environment ledger
+baseURL = "https://cyberanchor.github.io/eMailCompare/site/public/ledger/"
+publishDir = "public/ledger"
+
+[params]
+  defaultTheme = "light"
+  disableThemeToggle = false
+  [params.emc]
+    variant = "ledger"
+    variantTitle = "Ledger"
+    list = "table"
+    hero = "split"
