@@ -1,9 +1,7 @@
 <div align="center">
-
-<img src="../../assets/logo.png" width="200"></img>
+   
+<img src="./assets/logo.png" width="200"></img>
 <h1> Yet Another Email Service Comparison </h1>
-
-<sub>A comparison of email providers, from privacy-focused services to general-purpose platforms. Built with Hugo and the PaperMod theme; all data lives in <code>emails.csv</code>.</sub>
 
 ![GitHub Stars](https://img.shields.io/github/stars/cyberanchor/eMailCompare?color=green&style=social)
 ![GitHub Forks](https://img.shields.io/github/forks/cyberanchor/eMailCompare?color=green&style=social)
@@ -11,43 +9,67 @@
 ![GitHub Pull Requests](https://img.shields.io/github/issues-pr/cyberanchor/eMailCompare?color=green&style=flat-square)
 ![GitHub Contributors](https://img.shields.io/github/contributors/cyberanchor/eMailCompare?color=green&style=flat-square)
 
-[![Hugo](https://img.shields.io/badge/Hugo-FF4088?logo=hugo&logoColor=white&style=flat-square)](https://gohugo.io/)
-[![PaperMod](https://img.shields.io/badge/theme-PaperMod-1F1F1F?style=flat-square)](https://github.com/adityatelange/hugo-PaperMod)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=flat-square)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=flat-square)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat-square)
-![CSV](https://img.shields.io/badge/CSV-1F6FEB?style=flat-square)
 ![JSON](https://img.shields.io/badge/JSON-000000?logo=json&logoColor=white&style=flat-square)
+![CSV](https://img.shields.io/badge/CSV-1F6FEB?style=flat-square)
 
-![demo](../../assets/demo.gif)
+
+![demo](./assets/demo.gif)
 
 🔗 <a href="https://cyberanchor.github.io/eMailCompare/site/public/"><b>site</b></a> · 🔗 <a href="https://cyberanchor.github.io/eMailCompare/web"><b>demo web</b></a>
 
 </div>
 
-## What's compared
 
-| | |
-|---|---|
-| **Security** | TLS, SPF / DMARC / MTA-STS / DANE, end-to-end encryption |
-| **Privacy** | logging, data sharing, short ToS and privacy policy summaries |
-| **Jurisdiction** | operator's country and 5 / 9 / 14 Eyes alliance |
-| **Registration** | email, phone or personal info required |
-| **Infrastructure** | A / MX hosting, owner, domain age |
-| **Pricing** | free tier and paid plans |
-| **Site** | search, filters, sortable table, colour hints, a page per provider |
+## Overview
 
-<sub>**Based on:** [email-comparison](https://github.com/Lissy93/email-comparison) by [@Lissy93](https://github.com/Lissy93) | [httpsmail.com](https://www.httpsmail.com/mail/) by [@steley](https://github.com/steley) | [Offshore-CAT](https://offshore.cat/?page=email) | [dismail.de](https://dismail.de/serverlist.html) | [link-base.ms](https://link-base.ms/useful) | [kycnot.me](https://kycnot.me/?categories=email&verification=verified&verification=approved&verification=community) | [monerica.com](https://monerica.com/businesses/email-providers-forwarders)</sub>
+**Yet Another Email Service Comparison** - is a project dedicated to comparing a wide range of email service providers, from privacy-focused solutions to general-purpose platforms.
+
+The project is built using **HTML, CSS, JavaScript, and Bootstrap**, with all structured data stored in `data.json`.
+
+### Key Features
+
+- **Interactive comparison table** displaying provider details such as domains, jurisdiction, and encryption support
+- **Search and sorting functionality** to filter services by keywords or table columns
+- **Data export** allowing email domains to be downloaded as a `.txt` file
+- **Color-coded indicators** (green, red, etc.) for quick visual insights
+
+### References & Inspiration
+
+- Inspired by **[@Lissy93](https://github.com/Lissy93)** and her repository **[email-comparison](https://github.com/Lissy93/email-comparison)**
+- Based on **[httpsmail.com](https://www.httpsmail.com/mail/)** of **[@steley](https://github.com/steley)**
+- Some sourced from **[Offshore-CAT](https://offshore.cat/?page=email)**
+- Some sourced from **[dismail.de](https://dismail.de/serverlist.html)**
+- Some sourced from: **[link-base.ms](https://link-base.ms/useful)**
+- Some sourced from: **[kycnot.me](https://kycnot.me/?categories=email&verification=verified&verification=approved&verification=community)**
+- Some sourced from: **[monerica.com](https://monerica.com/businesses/email-providers-forwarders)**
+
+
+## Comparison criteria
+
+Email services are evaluated based on the following criteria (all data collected from public source):
+
+- **Security**: presence of end-to-end encryption, SSL/TLS.
+- **Privacy**: data collection practices, IP logging, third-party sharing, and personal information requirements (e.g., name, address).
+- **Jurisdiction**: server location and applicable privacy laws (e.g., Swiss privacy, GDPR).
+- **Intelligence alliance**: affiliation with surveillance networks (e.g., Five Eyes, Fourteen Eyes).
+- **Registration requirements**: need for email or phone verification during account setup.
+- **Pricing**: availability of free tiers and costs of premium plans.
+- **Terms of Service (ToS)**: usage restrictions, such as prohibitions on spam, hacking, or commercial activities.
+- **Infrastructure**: A/MX records, server hosting provider, and company ownership.
+- **Domain details**: Primary and secondary domains, creation, and expiration dates.
 
 ## Screenshots
 
 <div style="text-align: center;">
-  <img src="../../assets/scr1.png" width="800" height="402" style="display: block; margin-left: auto; margin-right: auto;">
+  <img src="./assets/scr1.png" width="800" height="402" style="display: block; margin-left: auto; margin-right: auto;">
 </div>
 
 
 <div style="text-align: center;">
-  <img src="../../assets/scr2.png" width="800" height="402" style="display: block; margin-left: auto; margin-right: auto;">
+  <img src="./assets/scr2.png" width="800" height="402" style="display: block; margin-left: auto; margin-right: auto;">
 </div>
 
 
@@ -437,6 +459,10 @@ All email service data is stored in `data.json`. Each entry includes fields like
 ]
 ```
 
+## Contributing
+
+Suggestions and contributions are welcome in [Issues](https://github.com/cyberanchor/eMailCompare/issues).
+
 ## Contributors
 
 <a href="https://github.com/cyberanchor/eMailCompare/graphs/contributors">
@@ -446,7 +472,6 @@ All email service data is stored in `data.json`. Each entry includes fields like
   <img src="https://github.com/vaelmail.png?size=64" width="64" height="64" alt="vaelmail" />
 </a>
 
-<!--
 ## Star History
 
 <a href="https://www.star-history.com/#cyberanchor/eMailCompare&type=date&legend=bottom-right">
@@ -456,4 +481,3 @@ All email service data is stored in `data.json`. Each entry includes fields like
     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=cyberanchor/eMailCompare&type=date&legend=bottom-right" />
   </picture>
 </a>
--->

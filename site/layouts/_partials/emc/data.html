@@ -17,13 +17,14 @@
   {{- errorf "emc/data: emails.csv or README.md is not mounted into assets/emc/" -}}
 {{- end -}}
 
-{{- /* Status from the README: ✅ checked table (🤖 = collected automatically), ❓ pending table,
+{{- /* Status from the README: the checked table (✅ by hand, 🤖 = collected automatically), the pending table,
        strikethrough (U+0336 or ~~) = the service is gone. */ -}}
 {{- $status := dict -}}
 {{- $section := "" -}}
 {{- range split $readme.Content "\n" -}}
-  {{- if hasPrefix . "## ✅ Checked" -}}{{- $section = "checked" -}}
-  {{- else if hasPrefix . "## ❓ Pending" -}}{{- $section = "pending" -}}
+  {{- /* headings "## Checked email services" / "## Pending email services", with or without an emoji */ -}}
+  {{- if and (hasPrefix . "## ") (strings.Contains . "Checked email services") -}}{{- $section = "checked" -}}
+  {{- else if and (hasPrefix . "## ") (strings.Contains . "Pending email services") -}}{{- $section = "pending" -}}
   {{- else if or (hasPrefix . "<!--") (and (hasPrefix . "## ") (eq $section "pending")) -}}{{- $section = "" -}}
   {{- end -}}
   {{- $line := strings.TrimSpace . -}}
