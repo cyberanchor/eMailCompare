@@ -18,7 +18,7 @@
 
 ![demo](./assets/demo.gif)
 
-🔗 <a href="https://cyberanchor.github.io/eMailCompare/site/public/"><b>site</b></a> · 🔗 <a href="https://cyberanchor.github.io/eMailCompare/web"><b>demo web</b></a> · <a href="https://cyberanchor.github.io/eMailCompare/web2"><b>static web2</b></a>
+🔗 <a href="https://cyberanchor.github.io/eMailCompare/site/public/"><b>site</b></a> · 🔗 <a href="https://cyberanchor.github.io/eMailCompare/web"><b>demo web</b></a>
 
 </div>
 
@@ -110,7 +110,7 @@ Accounts were manually registered on each email service, followed by controlled 
 | ✅      | mail.io                | 🇭🇷   |
 | ✅      | mailum.com             | ❓   |
 | ✅      | codamail.com           | 🇺🇸   |
-| ✅      | offilive.com           | 🇫🇮   |
+| ✅      | offilive.com           | 🇪🇪   |
 | ✅      | contactoffice.com      | 🇧🇪   |
 | ✅      | fbm-mail.com           | 🇷🇺   |
 | ❌      | ̶i̶s̶e̶l̶l̶e̶m̶a̶i̶l̶s̶.̶c̶o̶m̶        | 🇺🇸   |
@@ -141,7 +141,7 @@ Accounts were manually registered on each email service, followed by controlled 
 | 🤖      | mrmail.com             | 🇨🇭   |
 | 🤖      | cock.li                | 🇷🇸   |
 | 🤖      | beemail.space          | 🇷🇺   |
-| 🤖      | black.com              | 🇨🇭   |
+| 🤖      | black.com              | 🇦🇹   |
 | 🤖      | encrypted.com          | 🇺🇸   |
 | 🤖      | dds.nl                 | 🇳🇱   |
 | 🤖      | portugalmail.pt        | 🇵🇹   |
@@ -227,7 +227,7 @@ Accounts were manually registered on each email service, followed by controlled 
 | 🤖      | simplemail.co.in       | 🇮🇳   |
 | 🤖      | xyamail.com            | 🇺🇸   |
 | 🤖      | northmail.ca           | 🇨🇦   |
-| 🤖      | cc.cc                  | 🇪🇸   |
+| 🤖      | cc.cc                  | 🇰🇷   |
 | 🤖      | xiala.net              | 🇨🇭   |
 | 🤖      | potager.org            | 🇫🇷   |
 | 🤖      | gresille.org           | 🇫🇷   |
@@ -356,11 +356,11 @@ All email service data is stored in `data.json`. Each entry includes fields like
       "color": "none"
     },
     "A Record": {
-      "value": "185.70.42.45 | 🇨🇭 | Switzerland | AS62371 | Proton Technologies AG",
+      "value": "185.70.42.21 | 🇨🇭 | Switzerland | AS62371 | Proton AG",
       "color": "none"
     },
     "MX Record": {
-      "value": "mail.protonmail.ch | 🇨🇭 | Switzerland | AS62371 | Proton Technologies AG\nmailsec.protonmail.ch | 🇨🇭 | Switzerland | AS62371 | Proton Technologies AG",
+      "value": "mail.protonmail.ch |  🇨🇭 | Switzerland | AS62371 | Proton Technologies AG\nmailsec.protonmail.ch |  🇨🇭 | Switzerland | AS62371 | Proton Technologies AG",
       "color": "none"
     },
     "Domain crated": {
@@ -372,7 +372,7 @@ All email service data is stored in `data.json`. Each entry includes fields like
       "color": "none"
     },
     "Company owner": {
-      "value": "🇨🇭 Proton Technologies AG",
+      "value": "🇨🇭 Proton AG",
       "color": "none"
     },
     "Intelligence Alliance": {
@@ -425,6 +425,34 @@ All email service data is stored in `data.json`. Each entry includes fields like
     },
     "Source code": {
       "value": null,
+      "color": "none"
+    },
+    "Social links": {
+      "value": "https://www.reddit.com/r/ProtonMail\nhttps://www.instagram.com/protonprivacy\nhttps://www.facebook.com/Proton\nhttps://www.linkedin.com/company/protonprivacy\nhttps://www.threads.net/@protonprivacy\nhttps://t.me/proton_privacy\nhttps://www.youtube.com/@ProtonAG\nhttps://www.youtube.com/@ProtonPrivacy\nhttps://www.tiktok.com/@privacytok\nhttps://bsky.app/profile/proton.me\nhttps://discord.gg/proton",
+      "color": "none"
+    },
+    "Onion address": {
+      "value": null,
+      "color": "none"
+    },
+    "Imprint link": {
+      "value": null,
+      "color": "none"
+    },
+    "Mail security": {
+      "value": "SPF: ~all; DMARC: quarantine; MTA-STS: enforce; TLS-RPT: yes; DNSSEC: yes; DANE: yes",
+      "color": "none"
+    },
+    "Mail servers": {
+      "value": "IMAP | 127.0.0.1:1143 | STARTTLS\nSMTP | 127.0.0.1:1025 | STARTTLS",
+      "color": "none"
+    },
+    "Online since": {
+      "value": "2014-04-22",
+      "color": "none"
+    },
+    "Last checked": {
+      "value": "2026-10-30",
       "color": "none"
     }
   }
