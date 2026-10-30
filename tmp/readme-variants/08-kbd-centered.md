@@ -3,7 +3,7 @@
 <img src="../../assets/logo.png" width="200"></img>
 <h1> Yet Another Email Service Comparison </h1>
 
-<sub>A comparison of email providers, from privacy-focused services to general-purpose platforms. Built with Hugo and the PaperMod theme; all data lives in <code>emails.csv</code>.</sub>
+<sub>Comparison of email providers, from privacy-focused services to general-purpose platforms. Built with Hugo and the PaperMod theme.</sub>
 
 <kbd>🔐 Security</kbd> <kbd>🕵️ Privacy</kbd> <kbd>🌍 Jurisdiction</kbd> <kbd>📝 Registration</kbd> <kbd>🖧 Infrastructure</kbd> <kbd>💶 Pricing</kbd> <kbd>🔎 Site</kbd>
 
@@ -25,9 +25,12 @@
 
 🔗 <a href="https://cyberanchor.github.io/eMailCompare/site/public/"><b>site</b></a> · 🔗 <a href="https://cyberanchor.github.io/eMailCompare/web"><b>demo web</b></a>
 
-<sub><b>Based on</b> <a href="https://github.com/Lissy93/email-comparison">email-comparison</a> by <a href="https://github.com/Lissy93">@Lissy93</a> | <a href="https://www.httpsmail.com/mail/">httpsmail.com</a> by <a href="https://github.com/steley">@steley</a> | <a href="https://offshore.cat/?page=email">Offshore-CAT</a> | <a href="https://dismail.de/serverlist.html">dismail.de</a> | <a href="https://link-base.ms/useful">link-base.ms</a> | <a href="https://kycnot.me/?categories=email&verification=verified&verification=approved&verification=community">kycnot.me</a> | <a href="https://monerica.com/businesses/email-providers-forwarders">monerica.com</a></sub>
-
 </div>
+
+> **Based on:** [email-comparison](https://github.com/Lissy93/email-comparison) by [@Lissy93](https://github.com/Lissy93) | [httpsmail.com](https://www.httpsmail.com/mail/) by [@steley](https://github.com/steley) | [Offshore-CAT](https://offshore.cat/?page=email) | [dismail.de](https://dismail.de/serverlist.html) | [link-base.ms](https://link-base.ms/useful) | [kycnot.me](https://kycnot.me/?categories=email&verification=verified&verification=approved&verification=community) | [monerica.com](https://monerica.com/businesses/email-providers-forwarders)
+
+
+
 
 ## Screenshots
 
@@ -42,7 +45,7 @@
 
 
 
-## ✅ Checked email services
+## Checked email services
 Accounts were manually registered on each email service, followed by controlled testing across defined privacy, security, and functionality criteria.
 
 | Checked | Domain                 | Flag |
@@ -236,7 +239,7 @@ Accounts were manually registered on each email service, followed by controlled 
 | 🤖      | donarev419.com         | 🇩🇪   |
 
 
-## ❓ Pending email services
+## Pending email services
 Email services awaiting manual account registration and subsequent testing.
 
 | Checked | Domain                  | Flag |
@@ -302,130 +305,6 @@ Email services awaiting manual account registration and subsequent testing.
    Access at `http://localhost:8080`.
 -->
 
-
-## Data storage
-
-All email service data is stored in `data.json`. Each entry includes fields like domain, jurisdiction, and privacy policies, with a `color` field to customize cell colors in the interactive table. 
-
-**JSON example:**
-```json
-[
-  {
-    "flag": {
-      "value": "🇨🇭",
-      "color": "none"
-    },
-    "Domain": {
-      "value": "protonmail.ch",
-      "color": "none"
-    },
-    "2nd domain": {
-      "value": "proton.me\nprotonmail.com",
-      "color": "none"
-    },
-    "A Record": {
-      "value": "185.70.42.21 | 🇨🇭 | Switzerland | AS62371 | Proton AG",
-      "color": "none"
-    },
-    "MX Record": {
-      "value": "mail.protonmail.ch |  🇨🇭 | Switzerland | AS62371 | Proton Technologies AG\nmailsec.protonmail.ch |  🇨🇭 | Switzerland | AS62371 | Proton Technologies AG",
-      "color": "none"
-    },
-    "Domain crated": {
-      "value": "2010-08-21",
-      "color": "green"
-    },
-    "Domain expired": {
-      "value": "2026-08-21",
-      "color": "none"
-    },
-    "Company owner": {
-      "value": "🇨🇭 Proton AG",
-      "color": "none"
-    },
-    "Intelligence Alliance": {
-      "value": null,
-      "color": "none"
-    },
-    "Jurisdiction (based on server location)": {
-      "value": "Switzerland",
-      "color": "none"
-    },
-    "Site description": {
-      "value": "Proton Mail: Get a private, secure, and encrypted email account\nProton Mail is the world’s largest secure email service with, \nOver 100 million users.\nAvailable on Web, iOS, Android, and desktop.\nProtected by Swiss privacy law.",
-      "color": "none"
-    },
-    "ToS": {
-      "value": "Illegal actions (CSAM, spam, hacking), IP violation, insults, self-referrals, fraud\nCollect per Privacy Policy, store without guarantees, delete inactive accounts (12 mos.), share upon authorities' request",
-      "color": "none"
-    },
-    "Privacy policy": {
-      "value": "Collect per Privacy Policy, store without guarantees, delete inactive accounts (12 mos.), share upon authorities' request",
-      "color": "none"
-    },
-    "Email(receive a verification link)": {
-      "value": "yes",
-      "color": "yellow"
-    },
-    "Phone(receive s sms code)": {
-      "value": "optional",
-      "color": "green"
-    },
-    "Price": {
-      "value": "free; Unlimited $9.99/month",
-      "color": "none"
-    },
-    "Personal Info(first name, last name, adress, etc..)": {
-      "value": "yes",
-      "color": "red"
-    },
-    "Note": {
-      "value": "Proton Mail is a secure email service with end-to-end encryption, created by the Swiss company Proton AG. It is suitable for registering on various services, collects user information, and shares data with authorities. For registration, it is recommended to use anti-detect browsers and clean mobile proxies.",
-      "color": "none"
-    },
-    "ToS link": {
-      "value": "https://proton.me/legal/terms",
-      "color": "none"
-    },
-    "Privacy policy link": {
-      "value": "https://proton.me/legal/privacy",
-      "color": "none"
-    },
-    "Source code": {
-      "value": null,
-      "color": "none"
-    },
-    "Social links": {
-      "value": "https://www.reddit.com/r/ProtonMail\nhttps://www.instagram.com/protonprivacy\nhttps://www.facebook.com/Proton\nhttps://www.linkedin.com/company/protonprivacy\nhttps://www.threads.net/@protonprivacy\nhttps://t.me/proton_privacy\nhttps://www.youtube.com/@ProtonAG\nhttps://www.youtube.com/@ProtonPrivacy\nhttps://www.tiktok.com/@privacytok\nhttps://bsky.app/profile/proton.me\nhttps://discord.gg/proton",
-      "color": "none"
-    },
-    "Onion address": {
-      "value": null,
-      "color": "none"
-    },
-    "Imprint link": {
-      "value": null,
-      "color": "none"
-    },
-    "Mail security": {
-      "value": "SPF: ~all; DMARC: quarantine; MTA-STS: enforce; TLS-RPT: yes; DNSSEC: yes; DANE: yes",
-      "color": "none"
-    },
-    "Mail servers": {
-      "value": "IMAP | 127.0.0.1:1143 | STARTTLS\nSMTP | 127.0.0.1:1025 | STARTTLS",
-      "color": "none"
-    },
-    "Online since": {
-      "value": "2014-04-22",
-      "color": "none"
-    },
-    "Last checked": {
-      "value": "2026-10-30",
-      "color": "none"
-    }
-  }
-]
-```
 
 ## Contributors
 
