@@ -285,6 +285,30 @@ Email services awaiting manual account registration and subsequent testing.
 | ❌      | ~~elyria.cc~~           | ❓   |
 | ❌      | goymail.email           | ❓   |
 | ❌      | rootshell.is            | ❓   |
+| ❌      | posteo.de               | 🇩🇪   |
+| ❌      | mailbox.org             | 🇩🇪   |
+| ❌      | runbox.com              | 🇳🇴   |
+| ❌      | startmail.com           | 🇳🇱   |
+| ❌      | kolabnow.com            | 🇨🇭   |
+| ❌      | hushmail.com            | 🇨🇦   |
+| ❌      | countermail.com         | 🇸🇪   |
+| ❌      | internxt.com            | 🇪🇸   |
+| ❌      | fastmail.com            | 🇦🇺   |
+| ❌      | gmx.net                 | 🇩🇪   |
+| ❌      | web.de                  | 🇩🇪   |
+| ❌      | vivaldi.net             | 🇳🇴   |
+| ❌      | zoho.com                | 🇮🇳   |
+| ❌      | seznam.cz               | 🇨🇿   |
+| ❌      | laposte.net             | 🇫🇷   |
+| ❌      | orange.fr               | 🇫🇷   |
+| ❌      | gmail.com               | 🇺🇸   |
+| ❌      | outlook.com             | 🇺🇸   |
+| ❌      | yahoo.com               | 🇺🇸   |
+| ❌      | icloud.com              | 🇺🇸   |
+| ❌      | aol.com                 | 🇺🇸   |
+| ❌      | yandex.ru               | 🇷🇺   |
+| ❌      | riseup.net              | 🇺🇸   |
+| ❌      | lain.rocks              | 🇫🇷   |
 
 
 

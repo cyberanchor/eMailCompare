@@ -1261,3 +1261,336 @@ An email service that doesn’t steal your data.",,,,,,,"Auto-collected 2026-10-
 GoyMail is a privacy-focused email service with token login, Webmail, IMAP/SMTP access, no ads, and no KYC signup.",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. DNS lookup failed (SERVFAIL). Website text taken from the Wayback Machine copy of 2026-08-02 (https://web.archive.org/web/20260802083732/https://goymail.email/). Wayback Machine captures: 2026-05-29 to 2026-08-02. Last TLS certificate issued in 2026 (crt.sh).","","","",,"http://goymail7wl6g3prdcqc23ip7i4s43rjwdwwiq7mmaofzsmtuuvrszxad.onion/",,,,"2026-05-29","2026-10-30"
 "🇺🇸","rootshell.is",,"89.127.233.140 | 🇮🇸 | Iceland | AS44925 | 1984 ehf","mail.rootshell.is | 🇮🇸 | Iceland | AS44925 | 1984 ehf",2026-03-13,,,,"Iceland","rootshell",,,,,,,"Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. IMAP server mail.rootshell.is:993 answers (Dovecot). Mail DNS: SPF, DMARC p=reject, MTA-STS, DANE, DNSSEC.","","","https://codeberg.org/haptagod/rootshell-mail","https://x.com/rootshell0",,,"SPF: -all; DMARC: reject; MTA-STS: enforce; TLS-RPT: yes; DNSSEC: yes; DANE: yes","IMAP | mail.rootshell.is:993 | SSL/TLS
 IMAP software | Dovecot","2026-03-27","2026-10-30"
+"🇩🇪","posteo.de","biomail.at
+biomail.de
+biomail.me
+bytepost.net
+echtzeitmail.de
+internetpost.net
+posteo.ae
+posteo.af
+posteo.at
+posteo.au
+posteo.be
+posteo.bg
+posteo.biz
+posteo.ca
+posteo.ch
+posteo.cl
+posteo.co
+posteo.co.uk
+posteo.com
+posteo.com.br
+posteo.cr
+posteo.cz
+posteo.dk
+posteo.ec
+posteo.ee
+posteo.es
+posteo.eu
+posteo.fi
+posteo.gl
+posteo.gr
+posteo.hn
+posteo.hr
+posteo.hu
+posteo.ie
+posteo.in
+posteo.is
+posteo.it
+posteo.jp
+posteo.kr
+posteo.la
+posteo.li
+posteo.lt
+posteo.lu
+posteo.lv
+posteo.me
+posteo.mk
+posteo.mx
+posteo.my
+posteo.net
+posteo.nl
+posteo.no
+posteo.nz
+posteo.org
+posteo.pe
+posteo.pl
+posteo.pm
+posteo.pt
+posteo.ro
+posteo.ru
+posteo.se
+posteo.sg
+posteo.si
+posteo.sk
+posteo.tn
+posteo.ug
+posteo.uk
+posteo.us
+postspeicher.de
+schoenemail.de
+sloob.de","185.67.36.168 | 🇩🇪 | Germany | AS8495 | INTERNET AG Global Network
+185.67.36.169 | 🇩🇪 | Germany | AS8495 | INTERNET AG Global Network","mx01.posteo.de | 🇩🇪 | Germany | AS8495 | INTERNET AG Global Network
+mx02.posteo.de | 🇩🇪 | Germany | AS8495 | INTERNET AG Global Network
+mx03.posteo.de | 🇩🇪 | Germany | AS8495 | INTERNET AG Global Network
+mx04.posteo.de | 🇩🇪 | Germany | AS8495 | INTERNET AG Global Network",,,"🇩🇪 Posteo e.K.","Fourteen Eyes (👀 14)","Germany","Email green, secure, simple and ad-free - posteo.de -
+Posteo is an innovative email provider that is concerned with sustainability and privacy and is completely ad-free. Our email accounts, calendars and address books can be synchronised - we use comprehensive encryption.","Illegal actions (spam, hacking), commercial use
+https://posteo.de/en/site/terms","Advertising, no third-party sharing (claimed), share upon authorities' request, encryption, GDPR
+https://posteo.de/en/site/faq",,,"free; 1EUR/month",,"Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Mail servers belong to Posteo. IMAP server posteo.de:993 answers (Dovecot). Publishes mail client autoconfig. Webmail: https://posteo.de/. Mail DNS: SPF, DMARC p=none, MTA-STS, DANE, DNSSEC. Site mentions: no personal data required, PGP/E2E encryption.",,,,,,,"SPF: ~all; DMARC: none; MTA-STS: enforce; TLS-RPT: yes; DNSSEC: yes; DANE: yes","IMAP | posteo.de:993 | SSL/TLS
+POP3 | posteo.de:995 | SSL/TLS
+SMTP | posteo.de:465 | SSL/TLS
+IMAP software | Dovecot","2010-11-12","2026-10-30"
+"🇩🇪","mailbox.org","secure.mailbox.org","185.97.174.35 | 🇩🇪 | Germany | AS199118 | Heinlein Support GmbH","mx1.mailbox.org | 🇩🇪 | Germany | AS199118 | Heinlein Support GmbH
+mx2.mailbox.org | 🇩🇪 | Germany | AS199118 | Heinlein Support GmbH
+mx3.mailbox.org | 🇩🇪 | Germany | AS199118 | Heinlein Support GmbH
+mx4.mailbox.org | 🇩🇪 | Germany | AS199118 | Heinlein Support GmbH","1998-09-23","2027-09-22","🇩🇪 Heinlein Hosting GmbH","Fourteen Eyes (👀 14)","Germany","mailbox Suite for individuals and businesses
+Your digital workspace with email, cloud, office & meet. Secure & GDPR-compliant for businesses, public authorities and private individuals. ▶ Try us now!","Illegal actions (spam, hacking), IP violation
+https://mailbox.org/en/t-cs-cancellation-policy/","Advertising, no third-party sharing (claimed), share upon authorities' request, encryption
+https://mailbox.org/en/private/",,,"free; €250/month; €75/month; €25/month",,"Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Mail servers belong to mailbox.org. IMAP server imap.mailbox.org:993 answers (Dovecot). Publishes mail client autoconfig. Mail DNS: SPF, DMARC p=reject, MTA-STS, DANE, DNSSEC. Site mentions: PGP/E2E encryption.","https://mailbox.org/de/agb/","https://mailbox.org/de/datenschutz/",,"https://www.linkedin.com/company/mailbox.org
+https://bsky.app/profile/mailbox.org",,"https://mailbox.org/de/impressum/","SPF: ~all; DMARC: reject; MTA-STS: enforce; TLS-RPT: yes; DNSSEC: yes; DANE: yes","IMAP | imap.mailbox.org:993 | SSL/TLS
+IMAP | imap.mailbox.org:143 | STARTTLS
+POP3 | pop3.mailbox.org:995 | SSL/TLS
+POP3 | pop3.mailbox.org:110 | STARTTLS
+SMTP | smtp.mailbox.org:465 | SSL/TLS
+SMTP | smtp.mailbox.org:587 | STARTTLS
+IMAP software | Dovecot","2000-12-06","2026-10-30"
+"🇳🇴","runbox.com","runbox.no","185.226.149.25 | 🇳🇴 | Norway | AS50304 | Blix Solutions AS","mx.runbox.com | 🇳🇴 | Norway | AS50304 | Blix Solutions AS","1999-08-10","2027-08-10","🇳🇴 Runbox Solutions AS","Nine Eyes (👀 9)","Norway","Sustainable, Private & Secure Email | Runbox
+Runbox offers private, secure email hosted in Norway and powered by 100% renewable energy — carbon-negative, ad-free, and protected by strict Norwegian privacy law and GDPR.","Illegal actions (spam, hacking), IP violation, harassment, fraud
+https://runbox.com/about/terms-service/","Collect IP addresses, data/logs kept 60 mos., cookies, no tracking (claimed), advertising, third parties, share upon authorities' request, encryption, no-logs claim, GDPR
+https://runbox.com/about/privacy-policy/",,,"free; €2.36/month; €28.32/year; €3.33/month",,"Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Mail servers belong to Runbox. IMAP server mail.runbox.com:993 answers. Publishes mail client autoconfig. Mail DNS: SPF, DMARC p=quarantine, MTA-STS, DANE, DNSSEC. Site mentions: accepts cryptocurrency, PGP/E2E encryption.","https://runbox.com/about/terms-service/","https://runbox.com/about/privacy-policy/","https://github.com/runbox/runbox7","https://bsky.app/profile/runbox.bsky.social
+https://www.reddit.com/r/RunboxNews
+https://mastodon.social/@runbox
+https://no.linkedin.com/company/runbox-com",,,"SPF: -all; DMARC: quarantine; MTA-STS: testing; TLS-RPT: yes; DNSSEC: yes; DANE: yes","IMAP | mail.runbox.com:993 | SSL/TLS
+POP3 | mail.runbox.com:995 | SSL/TLS
+SMTP | mail.runbox.com:465 | SSL/TLS","2000-03-04","2026-10-30"
+"🇳🇱","startmail.com","use.startmail.com","145.131.90.136 | 🇳🇱 | Netherlands | AS28685 | Routit BV
+145.131.90.152 | 🇳🇱 | Netherlands | AS28685 | Routit BV","mx1.startmail.com | 🇳🇱 | Netherlands | AS28685 | Routit BV
+mx2.startmail.com | 🇳🇱 | Netherlands | AS28685 | Routit BV
+mx3.startmail.com | 🇳🇱 | Netherlands | AS28685 | Routit BV
+mx4.startmail.com | 🇳🇱 | Netherlands | AS28685 | Routit BV","2000-03-15","2029-03-15","🇳🇱 StartMail B.V.","Nine Eyes (👀 9)","Netherlands","Private, Secure and Encrypted Email You Can Trust | StartMail
+Secure your emails with StartMail's encryption and customizable aliases, ensuring ultimate privacy and protection for your data.","Illegal actions (CSAM, spam), IP violation, harassment, fraud
+https://www.startmail.com/terms-of-service","Collect IP addresses, cookies, analytics/tracking, advertising, third parties, share upon authorities' request, encryption, GDPR
+https://www.startmail.com/privacy",,,"free; $4.99/month; $6.99/month",,"Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Domain registration dates from 2000-03-15, but the Wayback Machine has captures since 1998-12-03: the domain was registered before, possibly by someone else. IMAP server imap.startmail.com:993 answers (Dovecot). Publishes mail client autoconfig. Mail DNS: SPF, DMARC p=quarantine, MTA-STS, DANE, DNSSEC. Site mentions: accepts cryptocurrency, PGP/E2E encryption.","https://www.startmail.com/terms-of-service","https://www.startmail.com/privacy",,"https://www.facebook.com/MyStartMail
+https://www.instagram.com/mystartmail
+https://www.linkedin.com/company/startmail-bv
+https://mastodon.social/@startmail
+https://twitter.com/mystartmail",,"https://www.startmail.com/de/impressum","SPF: ~all; DMARC: quarantine; MTA-STS: enforce; TLS-RPT: yes; DNSSEC: yes; DANE: yes","IMAP | imap.startmail.com:993 | SSL/TLS
+SMTP | smtp.startmail.com:465 | SSL/TLS
+IMAP software | Dovecot","1998-12-03","2026-10-30"
+"🇨🇭","kolabnow.com",,"185.254.79.30 | 🇨🇭 | Switzerland | AS15576 | NTS workspace AG
+185.254.79.31 | 🇨🇭 | Switzerland | AS15576 | NTS workspace AG","mx01.kolabnow.com | 🇨🇭 | Switzerland | AS15576 | NTS workspace AG
+mx02.kolabnow.com | 🇨🇭 | Switzerland | AS15576 | NTS workspace AG
+mx03.kolabnow.com | 🇨🇭 | Switzerland | AS15576 | NTS workspace AG","2014-11-24","2027-11-24","🇨🇭 Apheleia IT AG",,"Switzerland","Secure and private email, calendars and more | Kolab Now
+Secure and private email accounts with groupware productivity features including calendars, addressbooks, video conferencing, file storage and more. Operated in Switzerland since 2013",,,,,,,"Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. IMAP server imap.kolabnow.com:993 answers (Cyrus). Mail DNS: SPF, DMARC p=quarantine, MTA-STS, DANE, DNSSEC.","https://kolabnow.com/tos",,,,,,"SPF: -all; DMARC: quarantine; MTA-STS: enforce; TLS-RPT: yes; DNSSEC: yes; DANE: yes","IMAP | imap.kolabnow.com:993 | SSL/TLS
+IMAP | imap.kolabnow.com:143 | STARTTLS
+SMTP | smtp.kolabnow.com:587 | STARTTLS
+POP3 | imap.kolabnow.com:995 | SSL/TLS
+IMAP software | Cyrus","2015-02-10","2026-10-30"
+"🇨🇦","hushmail.com","counselingmail.com
+counselingsecure.com
+hush.ai
+hush.com
+hushmail.me
+mac.hush.com
+therapyemail.com
+therapysecure.com","199.60.103.85 | 🇺🇸 | United States | AS209242 | Cloudflare London, LLC
+199.60.103.185 | 🇺🇸 | United States | AS209242 | Cloudflare London, LLC","plsmtp1.hushmail.com | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.
+plsmtp2.hushmail.com | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.","1998-06-14","2027-06-13","🇨🇦 Hush Communications Canada Inc.","Five Eyes (👀 5)","Canada","Hushmail: Encrypted Email and E-Signable Forms
+Send secure emails and forms with Hushmail. Trusted by therapy and healthcare practitioners for handling sensitive information.","Page found, no key clauses detected
+https://www.hushmail.com/terms","Collect IP addresses, data/logs kept 18 mos., cookies, no ads (claimed), third parties, share upon authorities' request, encryption, does not sell data (claimed)
+https://www.hushmail.com/privacy",,,"free; $17.99/month; $14.99/month; $11.99/month",,"Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. IMAP server hosted-imap.hushmail.com:993 answers. Publishes mail client autoconfig. Webmail: https://secure.hushmail.com/mail/. Mail DNS: SPF, DMARC p=quarantine. Site mentions: PGP/E2E encryption.","https://www.hushmail.com/terms","https://www.hushmail.com/privacy",,"https://www.facebook.com/Hushmail
+https://www.instagram.com/hushmail
+https://www.linkedin.com/company/hushmail",,,"SPF: -all; DMARC: quarantine; MTA-STS: missing; TLS-RPT: missing; DNSSEC: no; DANE: no","IMAP | imap.hushmail.com:993 | SSL/TLS
+POP3 | pop.hushmail.com:995 | SSL/TLS
+SMTP | smtp.hushmail.com:465 | SSL/TLS","1999-10-04","2026-10-30"
+"🇸🇪","countermail.com",,"104.26.10.73 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.
+104.26.11.73 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.","db1.countermail.com | 🇸🇪 | Sweden | AS51701 | Adminor Aktiebolag","2008-05-11","2028-05-11",,"Fourteen Eyes (👀 14)","Sweden","CounterMail - protecting your privacy - encrypted pgp email webmail
+The world's most secure web based email service","Illegal actions (spam, hacking), IP violation, commercial use
+https://countermail.com/?p=terms","No IP logging (claimed), encryption
+https://countermail.com/?p=privacy",,,"free",,"Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Domain registration dates from 2008-05-11, but the Wayback Machine has captures since 2002-09-21: the domain was registered before, possibly by someone else. IMAP server imap.countermail.com:993 answers (Dovecot). Webmail: https://webmail.countermail.com/ (Roundcube). Mail DNS: SPF, DMARC p=quarantine, DANE, DNSSEC. Site mentions: invite-only, accepts cryptocurrency, PGP/E2E encryption.","https://countermail.com/?p=terms","https://countermail.com/?p=privacy",,,,,"SPF: ~all; DMARC: quarantine; MTA-STS: missing; TLS-RPT: missing; DNSSEC: yes; DANE: yes","IMAP | imap.countermail.com:993 | SSL/TLS
+IMAP software | Dovecot","2002-09-21","2026-10-30"
+"🇪🇸","internxt.com",,"172.66.174.172 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.
+104.20.43.180 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.","mx1.hostinger.com | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.
+mx2.hostinger.com | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.","2017-08-06","2034-08-06","🇪🇸 Internxt Universal Technologies, S.L.","Fourteen Eyes (👀 14)","Spain","Internxt — Best Encrypted cloud storage & more
+Experience the next-gen best encrypted cloud storage for ultimate protection. Secure your files with Internxt’s zero-knowledge technology. Get started for free!","Illegal actions (spam, hacking), IP violation, harassment, fraud
+Delete inactive accounts (7 days)
+https://internxt.com/legal","Collect IP addresses, data/logs kept 12 mos., cookies, analytics/tracking, advertising, third parties, share upon authorities' request, encryption, no-logs claim, GDPR, delete inactive accounts (7 days)
+https://internxt.com/legal",,,"free; €9.99/month",,"Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Domain registration dates from 2017-08-06, but the Wayback Machine has captures since 1999-10-11: the domain was registered before, possibly by someone else. Mail servers belong to Hostinger. Mail DNS: SPF, DMARC p=reject. Site mentions: PGP/E2E encryption.","https://internxt.com/legal","https://internxt.com/privacy","https://github.com/internxt","https://twitter.com/Internxt
+https://www.reddit.com/r/internxt
+https://linkedin.com/company/internxt
+https://instagram.com/internxt",,"https://internxt.com/legal","SPF: ~all; DMARC: reject; MTA-STS: missing; TLS-RPT: missing; DNSSEC: no; DANE: no",,"1999-10-11","2026-10-30"
+"🇦🇺","fastmail.com",,"103.168.172.65 | 🇺🇸 | United States | AS151847 | Fastmail Pty Ltd","in1-smtp.messagingengine.com | 🇺🇸 | United States | AS151847 | Fastmail Pty Ltd
+in2-smtp.messagingengine.com | 🇺🇸 | United States | AS151847 | Fastmail Pty Ltd","1994-12-09","2034-12-08","🇦🇺 Fastmail Pty Ltd","Five Eyes (👀 5)","Australia","Email and calendar made better | Fastmail
+Fast, private email hosting for you or your business. More productive, lightning fast, simple and built to save you time.","Illegal actions (spam, hacking), IP violation, harassment, commercial use
+https://www.fastmail.com/policies/terms-of-service/","Share upon authorities' request
+https://www.fastmail.com/features/privacy/",,,"free; €6/month; €5/month; €4.75/month",,"Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Mail servers belong to Fastmail. IMAP server imap.fastmail.com:993 answers. Publishes mail client autoconfig. Mail DNS: SPF, DMARC p=none, MTA-STS.","https://www.fastmail.com/policies/terms-of-service/","https://www.fastmail.com/features/privacy/",,"https://mastodon.social/@fastmail
+https://twitter.com/Fastmail
+https://www.linkedin.com/company/fastmail
+https://www.facebook.com/Fastmail",,,"SPF: ~all; DMARC: none; MTA-STS: testing; TLS-RPT: yes; DNSSEC: no; DANE: no","IMAP | imap.fastmail.com:993 | SSL/TLS
+POP3 | pop.fastmail.com:995 | SSL/TLS
+SMTP | smtp.fastmail.com:465 | SSL/TLS","1998-12-12","2026-10-30"
+"🇩🇪","gmx.net","gmx.de","217.72.199.107 | 🇩🇪 | Germany | AS8560 | IONOS SE
+217.72.199.108 | 🇩🇪 | Germany | AS8560 | IONOS SE","mx00.emig.gmx.net | 🇩🇪 | Germany | AS8560 | IONOS SE
+mx01.emig.gmx.net | 🇩🇪 | Germany | AS8560 | IONOS SE","1998-12-09","2026-12-08","🇩🇪 1&1 Mail & Media GmbH","Fourteen Eyes (👀 14)","Germany","GMX - kostenlose E-Mail, Cloud, Nachrichten & Freemail
+Kostenlose E-Mail-Adresse erstellen, Nachrichten lesen und Fotos & Dateien in der GMX Cloud sicher speichern. Jetzt registrieren!","Illegal actions (spam, hacking), IP violation, commercial use
+https://agb-server.gmx.net/gmxagb-de","Collect IP addresses, data/logs kept 21 days, cookies, advertising, third parties, share upon authorities' request, encryption, GDPR
+https://agb-server.gmx.net/datenschutz",,,"free; 99€/month; 49€/month; 48€/month",,"Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. IMAP server imap.gmx.net:993 answers. Listed in Thunderbird's ISPDB. Mail DNS: SPF, DMARC p=quarantine, MTA-STS, DANE, DNSSEC.",,"https://agb-server.gmx.net/datenschutz",,,,"https://www.gmx.net/impressum/","SPF: redirect; DMARC: quarantine; MTA-STS: testing; TLS-RPT: yes; DNSSEC: yes; DANE: yes","IMAP | imap.gmx.net:993 | SSL/TLS
+IMAP | imap.gmx.net:143 | STARTTLS
+POP3 | pop.gmx.net:995 | SSL/TLS
+POP3 | pop.gmx.net:110 | STARTTLS
+SMTP | mail.gmx.net:465 | SSL/TLS
+SMTP | mail.gmx.net:587 | STARTTLS","1998-01-26","2026-10-30"
+"🇩🇪","web.de",,"217.72.199.108 | 🇩🇪 | Germany | AS8560 | IONOS SE
+217.72.199.107 | 🇩🇪 | Germany | AS8560 | IONOS SE","mx-ha02.web.de | 🇩🇪 | Germany | AS8560 | IONOS SE
+mx-ha03.web.de | 🇩🇪 | Germany | AS8560 | IONOS SE",,,"🇩🇪 1&1 Mail & Media GmbH","Fourteen Eyes (👀 14)","Germany","WEB.DE - kostenlose E-Mail-Adresse, FreeMail & Nachrichten
+Sichere Kommunikation, aktuelle Nachrichten und nützliche Online-Services - alles an einem Ort. Einfach, kostenlos und zuverlässig.","Illegal actions (spam, hacking), IP violation, commercial use
+https://agb-server.web.de/webdeagb","Collect IP addresses, data/logs kept 21 days, cookies, advertising, third parties, share upon authorities' request, encryption, GDPR
+https://agb-server.web.de/datenschutz",,,"free; 47€/month; 99€/month",,"Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Homepage contains unrelated spam (casino): the site may be hacked or abandoned. IMAP server imap.web.de:993 answers. Listed in Thunderbird's ISPDB. Mail DNS: SPF, DMARC p=quarantine, MTA-STS, DANE, DNSSEC.",,"https://agb-server.web.de/datenschutz",,,,"https://web.de/impressum/","SPF: redirect; DMARC: quarantine; MTA-STS: testing; TLS-RPT: yes; DNSSEC: yes; DANE: yes","IMAP | imap.web.de:993 | SSL/TLS
+IMAP | imap.web.de:143 | STARTTLS
+POP3 | pop3.web.de:995 | SSL/TLS
+POP3 | pop3.web.de:110 | STARTTLS
+SMTP | smtp.web.de:465 | SSL/TLS
+SMTP | smtp.web.de:587 | STARTTLS","1998-12-02","2026-10-30"
+"🇳🇴","vivaldi.net",,"104.20.31.204 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.
+172.66.173.74 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.","mxi-1.vivaldi.net | 🇮🇸 | Iceland | AS51896 | Hringdu ehf
+mxi-2.vivaldi.net | 🇮🇸 | Iceland | AS51896 | Hringdu ehf","2002-04-08","2031-04-08","🇳🇴 Vivaldi Technologies AS","Nine Eyes (👀 9)","Norway","Vivaldi community | Tech forum and blogging platform.
+Tech forum and blogging platform.","Illegal actions (CSAM, spam, hacking), IP violation, harassment, fraud, multiple accounts
+https://vivaldi.com/privacy/community-terms-of-use/","Page found, no key clauses detected
+https://vivaldi.com/privacy/code-of-conduct/",,,"free",,"Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Domain registration dates from 2002-04-08, but the Wayback Machine has captures since 2000-03-03: the domain was registered before, possibly by someone else. IMAP server imap.vivaldi.net:993 answers (Dovecot). Publishes mail client autoconfig. Webmail: https://login.vivaldi.net/. Mail DNS: SPF, DMARC p=reject, MTA-STS, DANE, DNSSEC.","https://vivaldi.com/privacy/community-terms-of-use/","https://vivaldi.com/privacy/code-of-conduct",,"https://linkedin.com/company/vivaldi-technologies
+https://t.me/vivaldibrowser
+https://x.com/vivaldibrowser
+https://www.facebook.com/vivaldi.browser
+https://www.instagram.com/vivaldibrowser
+https://www.threads.net/@vivaldibrowser
+https://bsky.app/profile/vivaldi.com
+https://www.tiktok.com/@vivaldibrowser
+https://www.reddit.com/r/vivaldibrowser
+https://mastodon.online/@vivaldibrowser",,,"SPF: -all; DMARC: reject; MTA-STS: enforce; TLS-RPT: yes; DNSSEC: yes; DANE: yes","IMAP | imap.vivaldi.net:993 | SSL/TLS
+IMAP | imap.vivaldi.net:143 | STARTTLS
+POP3 | pop3.vivaldi.net:995 | SSL/TLS
+POP3 | pop3.vivaldi.net:110 | STARTTLS
+SMTP | smtp.vivaldi.net:465 | SSL/TLS
+SMTP | smtp.vivaldi.net:587 | STARTTLS
+IMAP software | Dovecot","2000-03-03","2026-10-30"
+"🇮🇳","zoho.com","zohomail.com","136.143.190.155 | 🇺🇸 | United States | AS2639 | ZOHO","smtpin.zoho.com | 🇺🇸 | United States | AS2639 | ZOHO
+smtpin2.zoho.com | 🇺🇸 | United States | AS2639 | ZOHO
+smtpin3.zoho.com | 🇺🇸 | United States | AS2639 | ZOHO","2004-01-16","2031-01-16","🇮🇳 Zoho Corporation Pvt. Ltd.",,"India","Zoho | Cloud-Software-Suite für Unternehmen
+Eine einzigartige und leistungsstarke Software-Suite, die Ihre Arbeitsweise verändert. Entwickelt für Unternehmen jeder Größe; von einem Unternehmen gebaut, das Ihre Privatsphäre schätzt.","Page found, no key clauses detected
+https://www.zoho.com/ae/books/kb/templates/terms-and-conditions-on-invoice.html","Analytics/tracking, advertising, third parties, encryption, does not sell data (claimed)
+https://www.zoho.com/privacy-commitment.html?ireft=nhome&src=home",,,"free",,"Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Domain registration dates from 2004-01-16, but the Wayback Machine has captures since 2000-04-07: the domain was registered before, possibly by someone else. Mail servers belong to Zoho Mail. IMAP server imap.zoho.com:993 answers (Zoho). Listed in Thunderbird's ISPDB. Mail DNS: SPF, DMARC p=reject. Site mentions: PGP/E2E encryption.","https://www.zoho.com/de/terms.html","https://www.zoho.com/gdpr.html",,"https://twitter.com/zoho
+https://www.facebook.com/zoho
+https://www.linkedin.com/company/zohocorp
+https://www.instagram.com/zoho",,"https://www.zoho.com/de/impressum.html","SPF: -all; DMARC: reject; MTA-STS: missing; TLS-RPT: yes; DNSSEC: no; DANE: no","IMAP | imap.zoho.com:993 | SSL/TLS
+POP3 | pop.zoho.com:995 | SSL/TLS
+SMTP | smtp.zoho.com:465 | SSL/TLS
+SMTP | smtp.zoho.com:587 | STARTTLS
+IMAP software | Zoho","2000-04-07","2026-10-30"
+"🇨🇿","seznam.cz","email.cz
+post.cz
+spoluzaci.cz
+stream.cz","77.75.77.222 | 🇨🇿 | Czechia | AS43037 | Seznam.cz, a.s.
+77.75.79.222 | 🇨🇿 | Czechia | AS43037 | Seznam.cz, a.s.","mx1.seznam.cz | 🇨🇿 | Czechia | AS43037 | Seznam.cz, a.s.
+mx2.seznam.cz | 🇨🇿 | Czechia | AS43037 | Seznam.cz, a.s.","1996-10-07","2027-10-28","🇨🇿 Seznam.cz, a.s.",,"Czechia","Seznam – najdu tam, co neznám
+Nejnavštěvovanější český internetový portál nabízející vyhledávač, e-mail, aktuální zprávy, předpověď počasí a odkazy, které se mohou hodit.","IP violation
+https://o-seznam.cz/napoveda/?s=smluvn%C3%AD+podm%C3%ADnky","Collect IP addresses, cookies, advertising, GDPR
+https://o-seznam.cz/pravni-informace/ochrana-udaju/",,,"free",,"Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. IMAP server imap.seznam.cz:993 answers. Publishes mail client autoconfig. Webmail: https://login.seznam.cz/. Mail DNS: SPF, DMARC p=none, DNSSEC.","https://o.seznam.cz/smluvni-podminky/","https://o.seznam.cz/ochrana-udaju/",,,,,"SPF: ?all; DMARC: none; MTA-STS: missing; TLS-RPT: missing; DNSSEC: yes; DANE: no","IMAP | imap.seznam.cz:993 | SSL/TLS
+SMTP | smtp.seznam.cz:465 | SSL/TLS","1996-11-14","2026-10-30"
+"🇫🇷","laposte.net",,"35.190.49.14 | 🇺🇸 | United States | AS396982 | Google LLC","smtpz4.laposte.net | 🇫🇷 | France | AS8677 | Worldline SA","1996-06-04","2027-06-03","🇫🇷 La Poste SA","Nine Eyes (👀 9)","France","Laposte.net",,,,,,,"Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. IMAP server imap.laposte.net:993 answers. Listed in Thunderbird's ISPDB. Mail DNS: SPF, DMARC p=reject.","https://laposte.net/cgu","https://laposte.net/cookies",,,,"https://laposte.net/mentions-legales","SPF: -all; DMARC: reject; MTA-STS: missing; TLS-RPT: missing; DNSSEC: no; DANE: no","IMAP | imap.laposte.net:993 | SSL/TLS
+POP3 | pop.laposte.net:995 | SSL/TLS
+SMTP | smtp.laposte.net:465 | SSL/TLS","2000-06-21","2026-10-30"
+"🇫🇷","orange.fr","wanadoo.fr","193.252.117.135 | 🇫🇷 | France | AS24600 | Orange S.A.
+81.52.142.219 | 🇫🇷 | France | AS8891 | Orange S.A.","smtp-in.orange.fr | 🇫🇷 | France | AS3215 | Orange S.A.
+smtp-in2.orange.fr | 🇫🇷 | France | AS3215 | Orange S.A.","2001-02-01","2027-10-14","🇫🇷 Orange S.A.","Nine Eyes (👀 9)","France",,,,,,,,"Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. IMAP server imap.orange.fr:993 answers (Dovecot). Listed in Thunderbird's ISPDB. Mail DNS: SPF, DMARC p=quarantine.",,"https://tech.orange.fr/securite/mes-donnees/pour-contrer-les-cyberattaques-ce-procede-veut-vider-les-serveurs-de-nos-donnees-CNT000002tqUD4.html",,,,,"SPF: ~all; DMARC: quarantine; MTA-STS: missing; TLS-RPT: missing; DNSSEC: no; DANE: no","IMAP | imap.orange.fr:993 | SSL/TLS
+POP3 | pop.orange.fr:995 | SSL/TLS
+SMTP | smtp.orange.fr:465 | SSL/TLS
+IMAP software | Dovecot","2001-06-27","2026-10-30"
+"🇺🇸","gmail.com","googlemail.com","142.250.154.18 | 🇺🇸 | United States | AS15169 | Google LLC
+142.250.154.83 | 🇺🇸 | United States | AS15169 | Google LLC","gmail-smtp-in.l.google.com | 🇺🇸 | United States | AS15169 | Google LLC
+alt1.gmail-smtp-in.l.google.com | 🇺🇸 | United States | AS15169 | Google LLC
+alt2.gmail-smtp-in.l.google.com | 🇺🇸 | United States | AS15169 | Google LLC
+alt3.gmail-smtp-in.l.google.com | 🇺🇸 | United States | AS15169 | Google LLC","1995-08-13","2027-08-12","🇺🇸 Google LLC","Five Eyes (👀 5)","United States","Gmail
+Gmail is email that’s intuitive, efficient, and useful. 15 GB of storage, less spam, and mobile access.","Illegal actions (CSAM, spam, hacking), IP violation, harassment, fraud, commercial use
+https://policies.google.com/terms",,,,,,"Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Website redirects to https://accounts.google.com/. Mail servers belong to Google Workspace. IMAP server imap.gmail.com:993 answers (Gmail). Listed in Thunderbird's ISPDB. Mail DNS: SPF, DMARC p=none, MTA-STS.","https://accounts.google.com/TOS?loc=DE&hl=en-US","https://accounts.google.com/TOS?loc=DE&hl=en-US&privacy=true",,,,,"SPF: redirect; DMARC: none; MTA-STS: enforce; TLS-RPT: yes; DNSSEC: no; DANE: no","IMAP | imap.gmail.com:993 | SSL/TLS
+POP3 | pop.gmail.com:995 | SSL/TLS
+SMTP | smtp.gmail.com:465 | SSL/TLS
+IMAP software | Gmail",,"2026-10-30"
+"🇺🇸","outlook.com",,"52.96.214.50 | 🇺🇸 | United States | AS8075 | Microsoft Corporation
+52.96.222.194 | 🇺🇸 | United States | AS8075 | Microsoft Corporation","outlook-com.olc.protection.outlook.com | 🇺🇸 | United States | AS8075 | Microsoft Corporation","1994-08-18","2027-08-17","🇺🇸 Microsoft Corporation","Five Eyes (👀 5)","United States","Outlook",,,,,,,"Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Website redirects to https://outlook.live.com/mail/. Mail servers belong to Microsoft 365. IMAP server outlook.office365.com:993 answers (Microsoft Exchange). Listed in Thunderbird's ISPDB. Mail DNS: SPF, DMARC p=none, MTA-STS, DNSSEC.",,"https://www.microsoft.com/de-de/privacy",,,,,"SPF: -all; DMARC: none; MTA-STS: enforce; TLS-RPT: yes; DNSSEC: yes; DANE: no","IMAP | outlook.office365.com:993 | SSL/TLS
+POP3 | outlook.office365.com:995 | SSL/TLS
+SMTP | smtp-mail.outlook.com:587 | STARTTLS
+IMAP software | Microsoft Exchange","1996-12-24","2026-10-30"
+"🇺🇸","yahoo.com","cox.net
+rocketmail.com
+yahoo.ca
+yahoo.co.in
+yahoo.co.nz
+yahoo.co.uk
+yahoo.com.ar
+yahoo.com.au
+yahoo.com.br
+yahoo.com.mx
+yahoo.de
+yahoo.es
+yahoo.fr
+yahoo.it
+yahoo.se
+ymail.com","74.6.231.20 | 🇺🇸 | United States | AS36646 | Yahoo Holdings Inc.
+74.6.143.25 | 🇺🇸 | United States | AS26101 | Yahoo Holdings Inc.","mta5.am0.yahoodns.net | 🇺🇸 | United States | AS36646 | Yahoo Holdings Inc.
+mta6.am0.yahoodns.net | 🇺🇸 | United States | AS36646 | Yahoo Holdings Inc.
+mta7.am0.yahoodns.net | 🇺🇸 | United States | AS36647 | Yahoo Holdings Inc.","1995-01-18","2027-01-19","🇺🇸 Yahoo Inc.","Five Eyes (👀 5)","United States","Yahoo | Mail, Weather, Search, Politics, News, Finance, Sports & Videos
+Latest news coverage, email, free stock quotes, live scores and video are just the beginning. Discover more every day at Yahoo!",,"Cookies, advertising, no third-party sharing (claimed)
+https://legal.yahoo.com/us/en/yahoo/privacy/adinfo/index.html",,,,,"Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. IMAP server imap.mail.yahoo.com:993 answers. Listed in Thunderbird's ISPDB. Mail DNS: SPF, DMARC p=reject, MTA-STS.","https://health.yahoo.com/conditions/","https://legal.yahoo.com/us/en/yahoo/privacy/adinfo/index.html",,"https://x.com/yahoonews
+https://facebook.com/YahooNews
+https://instagram.com/yahoonews
+https://www.youtube.com/c/yahoonews
+https://www.tiktok.com/@yahoonews",,,"SPF: redirect; DMARC: reject; MTA-STS: testing; TLS-RPT: yes; DNSSEC: no; DANE: no","IMAP | imap.mail.yahoo.com:993 | SSL/TLS
+IMAP | export.imap.mail.yahoo.com:993 | SSL/TLS
+POP3 | pop.mail.yahoo.com:995 | SSL/TLS
+SMTP | smtp.mail.yahoo.com:465 | SSL/TLS","1996-10-17","2026-10-30"
+"🇺🇸","icloud.com","mac.com
+me.com","17.253.144.10 | 🇺🇸 | United States | AS714 | Apple Inc.","mx01.mail.icloud.com | 🇺🇸 | United States | AS714 | Apple Inc.
+mx02.mail.icloud.com | 🇺🇸 | United States | AS714 | Apple Inc.","1999-01-15","2027-01-15","🇺🇸 Apple Inc.","Five Eyes (👀 5)","United States","iCloud
+Log in to iCloud to access your photos, mail, notes, documents and more. Sign in with your Apple Account or create a new account to start using Apple services.",,,,,,,"Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. IMAP server imap.mail.me.com:993 answers. Listed in Thunderbird's ISPDB. Mail DNS: SPF, DMARC p=quarantine.",,,,,,,"SPF: redirect; DMARC: quarantine; MTA-STS: missing; TLS-RPT: missing; DNSSEC: no; DANE: no","IMAP | imap.mail.me.com:993 | SSL/TLS
+SMTP | smtp.mail.me.com:587 | STARTTLS",,"2026-10-30"
+"🇺🇸","aol.com","aim.com
+aol.co.nz
+aol.co.uk
+aol.com.ar
+aol.com.au
+aol.com.br
+aol.com.mx
+aol.de
+aol.es
+aol.fr
+aol.it
+aol.se
+compuserve.com
+cs.com
+netscape.com
+netscape.net
+wmconnect.com","54.85.212.202 | 🇺🇸 | United States | AS14618 | Amazon.com, Inc.
+18.235.50.124 | 🇺🇸 | United States | AS14618 | Amazon.com, Inc.","mx-aol.mail.gm0.yahoodns.net | 🇺🇸 | United States | AS26101 | Yahoo Holdings Inc.","1995-06-22","2027-11-23","🇺🇸 Yahoo Inc. (AOL)","Five Eyes (👀 5)","United States","News, Politics, Sports, Mail & Latest Headlines - AOL.com
+Discover the latest breaking news in the U.S. and around the world — politics, weather, entertainment, lifestyle, finance, sports and much more.","Illegal actions (CSAM, spam, hacking), IP violation, harassment, fraud, commercial use
+https://legal.aol.com/terms/index.html","Collect IP addresses, cookies, analytics/tracking, advertising, third parties, share upon authorities' request, encryption, GDPR
+https://legal.aol.com/privacy/index.html",,,"free",,"Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. IMAP server imap.aol.com:993 answers. Listed in Thunderbird's ISPDB. Mail DNS: SPF, DMARC p=reject. Site mentions: accepts cryptocurrency.","https://legal.aol.com/terms/index.html","http://legal.aol.com/privacy/index.html?locale=en-US",,"https://instagram.com/aol",,,"SPF: redirect; DMARC: reject; MTA-STS: missing; TLS-RPT: missing; DNSSEC: no; DANE: no","IMAP | imap.aol.com:993 | SSL/TLS
+POP3 | pop.aol.com:995 | SSL/TLS
+SMTP | smtp.aol.com:465 | SSL/TLS","1996-12-20","2026-10-30"
+"🇷🇺","yandex.ru","narod.ru
+ya.ru
+yandex.com
+yandex.com.tr","77.88.55.88 | 🇷🇺 | Russia | AS13238 | YANDEX LLC
+5.255.255.77 | 🇷🇺 | Russia | AS13238 | YANDEX LLC","mx.yandex.ru | 🇷🇺 | Russia | AS13238 | YANDEX LLC","1997-09-23","2027-09-30","🇷🇺 YANDEX LLC",,"Russia","Дзен объединяет всё самое важное. Национальная, региональная и городская повестка, актуальные новости ведущих СМИ и нишевых авторов — всё собрано в единой ленте.",,,,,,,"Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Mail servers belong to Yandex. IMAP server imap.yandex.ru:993 answers (Yandex). Publishes mail client autoconfig. Mail DNS: SPF, DMARC p=none, DANE.",,,,,,,"SPF: redirect; DMARC: none; MTA-STS: missing; TLS-RPT: missing; DNSSEC: no; DANE: yes","IMAP | imap.yandex.com:993 | SSL/TLS
+SMTP | smtp.yandex.com:465 | SSL/TLS
+IMAP software | Yandex","1998-12-06","2026-10-30"
+"🇺🇸","riseup.net",,"198.252.153.67 | 🇺🇸 | United States | AS16652 | Riseup Networks
+198.252.153.106 | 🇺🇸 | United States | AS16652 | Riseup Networks","mx1.riseup.net | 🇺🇸 | United States | AS16652 | Riseup Networks","2000-03-26","2030-03-26","🇺🇸 Riseup Networks","Five Eyes (👀 5)","United States","Home - riseup.net
+Riseup provides online communication tools for people and groups working on liberatory social change. We are a project to create democratic alternatives and practice self-determination by controlling our own secure means of communications.","Illegal actions (spam, hacking), IP violation, harassment, fraud
+https://riseup.net/en/about-us/policy/tos","No IP logging (claimed), no third-party sharing (claimed), encryption
+https://riseup.net/en/privacy-policy",,,"$15/month; $100/year",,"Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. IMAP server mail.riseup.net:993 answers. Publishes mail client autoconfig. Webmail: https://mail.riseup.net/ (Roundcube). Mail DNS: SPF, DMARC p=none, MTA-STS, DANE, DNSSEC. Site mentions: invite-only, accepts cryptocurrency.","https://riseup.net/en/about-us/policy/tos","https://riseup.net/en/privacy-policy","https://github.com/riseupnet/riseup_help",,"http://vww6ybal4bd7szmgncyruucpgfkqahzddi37ktceo3ah7ngmcopnpyyd.onion/",,"SPF: redirect; DMARC: none; MTA-STS: enforce; TLS-RPT: yes; DNSSEC: yes; DANE: yes","IMAP | mail.riseup.net:993 | SSL/TLS
+POP3 | mail.riseup.net:995 | SSL/TLS
+SMTP | mail.riseup.net:465 | SSL/TLS","2000-12-06","2026-10-30"
+"🇫🇷","lain.rocks",,"144.91.78.106 | 🇫🇷 | France | AS51167 | Contabo GmbH","mail.lain.rocks | 🇫🇷 | France | AS51167 | Contabo GmbH","2025-06-02","2027-06-02",,"Nine Eyes (👀 9)","France","lain.rocks | Home
+lain.rocks, the c00l place on the internet","Illegal actions (spam), harassment
+https://lain.rocks/sites/tos.html",,,,,,"Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Domain registration dates from 2025-06-02, but the Wayback Machine has captures since 2021-12-12: the domain was registered before, possibly by someone else. IMAP server mail.lain.rocks:993 answers (Dovecot). Webmail: https://webmail.lain.rocks/. Mail DNS: SPF, DMARC p=none. Site mentions: accepts cryptocurrency, PGP/E2E encryption.","https://lain.rocks/sites/tos.html",,,,,,"SPF: ~all; DMARC: none; MTA-STS: missing; TLS-RPT: missing; DNSSEC: no; DANE: no","IMAP | mail.lain.rocks:993 | SSL/TLS
+IMAP software | Dovecot","2021-12-12","2026-10-30"

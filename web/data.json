@@ -25990,5 +25990,2741 @@
             "value": "2026-10-30",
             "color": "none"
         }
+    },
+    {
+        "flag": {
+            "value": "🇩🇪",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "posteo.de",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": "biomail.at\nbiomail.de\nbiomail.me\nbytepost.net\nechtzeitmail.de\ninternetpost.net\nposteo.ae\nposteo.af\nposteo.at\nposteo.au\nposteo.be\nposteo.bg\nposteo.biz\nposteo.ca\nposteo.ch\nposteo.cl\nposteo.co\nposteo.co.uk\nposteo.com\nposteo.com.br\nposteo.cr\nposteo.cz\nposteo.dk\nposteo.ec\nposteo.ee\nposteo.es\nposteo.eu\nposteo.fi\nposteo.gl\nposteo.gr\nposteo.hn\nposteo.hr\nposteo.hu\nposteo.ie\nposteo.in\nposteo.is\nposteo.it\nposteo.jp\nposteo.kr\nposteo.la\nposteo.li\nposteo.lt\nposteo.lu\nposteo.lv\nposteo.me\nposteo.mk\nposteo.mx\nposteo.my\nposteo.net\nposteo.nl\nposteo.no\nposteo.nz\nposteo.org\nposteo.pe\nposteo.pl\nposteo.pm\nposteo.pt\nposteo.ro\nposteo.ru\nposteo.se\nposteo.sg\nposteo.si\nposteo.sk\nposteo.tn\nposteo.ug\nposteo.uk\nposteo.us\npostspeicher.de\nschoenemail.de\nsloob.de",
+            "color": "none"
+        },
+        "A Record": {
+            "value": "185.67.36.168 | 🇩🇪 | Germany | AS8495 | INTERNET AG Global Network\n185.67.36.169 | 🇩🇪 | Germany | AS8495 | INTERNET AG Global Network",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mx01.posteo.de | 🇩🇪 | Germany | AS8495 | INTERNET AG Global Network\nmx02.posteo.de | 🇩🇪 | Germany | AS8495 | INTERNET AG Global Network\nmx03.posteo.de | 🇩🇪 | Germany | AS8495 | INTERNET AG Global Network\nmx04.posteo.de | 🇩🇪 | Germany | AS8495 | INTERNET AG Global Network",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": null,
+            "color": "none"
+        },
+        "Domain expired": {
+            "value": null,
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇩🇪 Posteo e.K.",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Fourteen Eyes (👀 14)",
+            "color": "purple"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Germany",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Email green, secure, simple and ad-free - posteo.de -\nPosteo is an innovative email provider that is concerned with sustainability and privacy and is completely ad-free. Our email accounts, calendars and address books can be synchronised - we use comprehensive encryption.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Illegal actions (spam, hacking), commercial use\nhttps://posteo.de/en/site/terms",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Advertising, no third-party sharing (claimed), share upon authorities' request, encryption, GDPR\nhttps://posteo.de/en/site/faq",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": "free; 1EUR/month",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Mail servers belong to Posteo. IMAP server posteo.de:993 answers (Dovecot). Publishes mail client autoconfig. Webmail: https://posteo.de/. Mail DNS: SPF, DMARC p=none, MTA-STS, DANE, DNSSEC. Site mentions: no personal data required, PGP/E2E encryption.",
+            "color": "none"
+        },
+        "ToS link": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy link": {
+            "value": null,
+            "color": "none"
+        },
+        "Source code": {
+            "value": null,
+            "color": "none"
+        },
+        "Social links": {
+            "value": null,
+            "color": "none"
+        },
+        "Onion address": {
+            "value": null,
+            "color": "none"
+        },
+        "Imprint link": {
+            "value": null,
+            "color": "none"
+        },
+        "Mail security": {
+            "value": "SPF: ~all; DMARC: none; MTA-STS: enforce; TLS-RPT: yes; DNSSEC: yes; DANE: yes",
+            "color": "none"
+        },
+        "Mail servers": {
+            "value": "IMAP | posteo.de:993 | SSL/TLS\nPOP3 | posteo.de:995 | SSL/TLS\nSMTP | posteo.de:465 | SSL/TLS\nIMAP software | Dovecot",
+            "color": "none"
+        },
+        "Online since": {
+            "value": "2010-11-12",
+            "color": "none"
+        },
+        "Last checked": {
+            "value": "2026-10-30",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇩🇪",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "mailbox.org",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": "secure.mailbox.org",
+            "color": "none"
+        },
+        "A Record": {
+            "value": "185.97.174.35 | 🇩🇪 | Germany | AS199118 | Heinlein Support GmbH",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mx1.mailbox.org | 🇩🇪 | Germany | AS199118 | Heinlein Support GmbH\nmx2.mailbox.org | 🇩🇪 | Germany | AS199118 | Heinlein Support GmbH\nmx3.mailbox.org | 🇩🇪 | Germany | AS199118 | Heinlein Support GmbH\nmx4.mailbox.org | 🇩🇪 | Germany | AS199118 | Heinlein Support GmbH",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "1998-09-23",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2027-09-22",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇩🇪 Heinlein Hosting GmbH",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Fourteen Eyes (👀 14)",
+            "color": "purple"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Germany",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "mailbox Suite for individuals and businesses\nYour digital workspace with email, cloud, office & meet. Secure & GDPR-compliant for businesses, public authorities and private individuals. ▶ Try us now!",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Illegal actions (spam, hacking), IP violation\nhttps://mailbox.org/en/t-cs-cancellation-policy/",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Advertising, no third-party sharing (claimed), share upon authorities' request, encryption\nhttps://mailbox.org/en/private/",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": "free; €250/month; €75/month; €25/month",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Mail servers belong to mailbox.org. IMAP server imap.mailbox.org:993 answers (Dovecot). Publishes mail client autoconfig. Mail DNS: SPF, DMARC p=reject, MTA-STS, DANE, DNSSEC. Site mentions: PGP/E2E encryption.",
+            "color": "none"
+        },
+        "ToS link": {
+            "value": "https://mailbox.org/de/agb/",
+            "color": "none"
+        },
+        "Privacy policy link": {
+            "value": "https://mailbox.org/de/datenschutz/",
+            "color": "none"
+        },
+        "Source code": {
+            "value": null,
+            "color": "none"
+        },
+        "Social links": {
+            "value": "https://www.linkedin.com/company/mailbox.org\nhttps://bsky.app/profile/mailbox.org",
+            "color": "none"
+        },
+        "Onion address": {
+            "value": null,
+            "color": "none"
+        },
+        "Imprint link": {
+            "value": "https://mailbox.org/de/impressum/",
+            "color": "none"
+        },
+        "Mail security": {
+            "value": "SPF: ~all; DMARC: reject; MTA-STS: enforce; TLS-RPT: yes; DNSSEC: yes; DANE: yes",
+            "color": "none"
+        },
+        "Mail servers": {
+            "value": "IMAP | imap.mailbox.org:993 | SSL/TLS\nIMAP | imap.mailbox.org:143 | STARTTLS\nPOP3 | pop3.mailbox.org:995 | SSL/TLS\nPOP3 | pop3.mailbox.org:110 | STARTTLS\nSMTP | smtp.mailbox.org:465 | SSL/TLS\nSMTP | smtp.mailbox.org:587 | STARTTLS\nIMAP software | Dovecot",
+            "color": "none"
+        },
+        "Online since": {
+            "value": "2000-12-06",
+            "color": "none"
+        },
+        "Last checked": {
+            "value": "2026-10-30",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇳🇴",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "runbox.com",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": "runbox.no",
+            "color": "none"
+        },
+        "A Record": {
+            "value": "185.226.149.25 | 🇳🇴 | Norway | AS50304 | Blix Solutions AS",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mx.runbox.com | 🇳🇴 | Norway | AS50304 | Blix Solutions AS",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "1999-08-10",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2027-08-10",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇳🇴 Runbox Solutions AS",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Nine Eyes (👀 9)",
+            "color": "yellow"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Norway",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Sustainable, Private & Secure Email | Runbox\nRunbox offers private, secure email hosted in Norway and powered by 100% renewable energy — carbon-negative, ad-free, and protected by strict Norwegian privacy law and GDPR.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Illegal actions (spam, hacking), IP violation, harassment, fraud\nhttps://runbox.com/about/terms-service/",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect IP addresses, data/logs kept 60 mos., cookies, no tracking (claimed), advertising, third parties, share upon authorities' request, encryption, no-logs claim, GDPR\nhttps://runbox.com/about/privacy-policy/",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": "free; €2.36/month; €28.32/year; €3.33/month",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Mail servers belong to Runbox. IMAP server mail.runbox.com:993 answers. Publishes mail client autoconfig. Mail DNS: SPF, DMARC p=quarantine, MTA-STS, DANE, DNSSEC. Site mentions: accepts cryptocurrency, PGP/E2E encryption.",
+            "color": "none"
+        },
+        "ToS link": {
+            "value": "https://runbox.com/about/terms-service/",
+            "color": "none"
+        },
+        "Privacy policy link": {
+            "value": "https://runbox.com/about/privacy-policy/",
+            "color": "none"
+        },
+        "Source code": {
+            "value": "https://github.com/runbox/runbox7",
+            "color": "none"
+        },
+        "Social links": {
+            "value": "https://bsky.app/profile/runbox.bsky.social\nhttps://www.reddit.com/r/RunboxNews\nhttps://mastodon.social/@runbox\nhttps://no.linkedin.com/company/runbox-com",
+            "color": "none"
+        },
+        "Onion address": {
+            "value": null,
+            "color": "none"
+        },
+        "Imprint link": {
+            "value": null,
+            "color": "none"
+        },
+        "Mail security": {
+            "value": "SPF: -all; DMARC: quarantine; MTA-STS: testing; TLS-RPT: yes; DNSSEC: yes; DANE: yes",
+            "color": "none"
+        },
+        "Mail servers": {
+            "value": "IMAP | mail.runbox.com:993 | SSL/TLS\nPOP3 | mail.runbox.com:995 | SSL/TLS\nSMTP | mail.runbox.com:465 | SSL/TLS",
+            "color": "none"
+        },
+        "Online since": {
+            "value": "2000-03-04",
+            "color": "none"
+        },
+        "Last checked": {
+            "value": "2026-10-30",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇳🇱",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "startmail.com",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": "use.startmail.com",
+            "color": "none"
+        },
+        "A Record": {
+            "value": "145.131.90.136 | 🇳🇱 | Netherlands | AS28685 | Routit BV\n145.131.90.152 | 🇳🇱 | Netherlands | AS28685 | Routit BV",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mx1.startmail.com | 🇳🇱 | Netherlands | AS28685 | Routit BV\nmx2.startmail.com | 🇳🇱 | Netherlands | AS28685 | Routit BV\nmx3.startmail.com | 🇳🇱 | Netherlands | AS28685 | Routit BV\nmx4.startmail.com | 🇳🇱 | Netherlands | AS28685 | Routit BV",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2000-03-15",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2029-03-15",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇳🇱 StartMail B.V.",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Nine Eyes (👀 9)",
+            "color": "yellow"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Netherlands",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Private, Secure and Encrypted Email You Can Trust | StartMail\nSecure your emails with StartMail's encryption and customizable aliases, ensuring ultimate privacy and protection for your data.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Illegal actions (CSAM, spam), IP violation, harassment, fraud\nhttps://www.startmail.com/terms-of-service",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect IP addresses, cookies, analytics/tracking, advertising, third parties, share upon authorities' request, encryption, GDPR\nhttps://www.startmail.com/privacy",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": "free; $4.99/month; $6.99/month",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Domain registration dates from 2000-03-15, but the Wayback Machine has captures since 1998-12-03: the domain was registered before, possibly by someone else. IMAP server imap.startmail.com:993 answers (Dovecot). Publishes mail client autoconfig. Mail DNS: SPF, DMARC p=quarantine, MTA-STS, DANE, DNSSEC. Site mentions: accepts cryptocurrency, PGP/E2E encryption.",
+            "color": "none"
+        },
+        "ToS link": {
+            "value": "https://www.startmail.com/terms-of-service",
+            "color": "none"
+        },
+        "Privacy policy link": {
+            "value": "https://www.startmail.com/privacy",
+            "color": "none"
+        },
+        "Source code": {
+            "value": null,
+            "color": "none"
+        },
+        "Social links": {
+            "value": "https://www.facebook.com/MyStartMail\nhttps://www.instagram.com/mystartmail\nhttps://www.linkedin.com/company/startmail-bv\nhttps://mastodon.social/@startmail\nhttps://twitter.com/mystartmail",
+            "color": "none"
+        },
+        "Onion address": {
+            "value": null,
+            "color": "none"
+        },
+        "Imprint link": {
+            "value": "https://www.startmail.com/de/impressum",
+            "color": "none"
+        },
+        "Mail security": {
+            "value": "SPF: ~all; DMARC: quarantine; MTA-STS: enforce; TLS-RPT: yes; DNSSEC: yes; DANE: yes",
+            "color": "none"
+        },
+        "Mail servers": {
+            "value": "IMAP | imap.startmail.com:993 | SSL/TLS\nSMTP | smtp.startmail.com:465 | SSL/TLS\nIMAP software | Dovecot",
+            "color": "none"
+        },
+        "Online since": {
+            "value": "1998-12-03",
+            "color": "none"
+        },
+        "Last checked": {
+            "value": "2026-10-30",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇨🇭",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "kolabnow.com",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "185.254.79.30 | 🇨🇭 | Switzerland | AS15576 | NTS workspace AG\n185.254.79.31 | 🇨🇭 | Switzerland | AS15576 | NTS workspace AG",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mx01.kolabnow.com | 🇨🇭 | Switzerland | AS15576 | NTS workspace AG\nmx02.kolabnow.com | 🇨🇭 | Switzerland | AS15576 | NTS workspace AG\nmx03.kolabnow.com | 🇨🇭 | Switzerland | AS15576 | NTS workspace AG",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2014-11-24",
+            "color": "none"
+        },
+        "Domain expired": {
+            "value": "2027-11-24",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇨🇭 Apheleia IT AG",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Switzerland",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Secure and private email, calendars and more | Kolab Now\nSecure and private email accounts with groupware productivity features including calendars, addressbooks, video conferencing, file storage and more. Operated in Switzerland since 2013",
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. IMAP server imap.kolabnow.com:993 answers (Cyrus). Mail DNS: SPF, DMARC p=quarantine, MTA-STS, DANE, DNSSEC.",
+            "color": "none"
+        },
+        "ToS link": {
+            "value": "https://kolabnow.com/tos",
+            "color": "none"
+        },
+        "Privacy policy link": {
+            "value": null,
+            "color": "none"
+        },
+        "Source code": {
+            "value": null,
+            "color": "none"
+        },
+        "Social links": {
+            "value": null,
+            "color": "none"
+        },
+        "Onion address": {
+            "value": null,
+            "color": "none"
+        },
+        "Imprint link": {
+            "value": null,
+            "color": "none"
+        },
+        "Mail security": {
+            "value": "SPF: -all; DMARC: quarantine; MTA-STS: enforce; TLS-RPT: yes; DNSSEC: yes; DANE: yes",
+            "color": "none"
+        },
+        "Mail servers": {
+            "value": "IMAP | imap.kolabnow.com:993 | SSL/TLS\nIMAP | imap.kolabnow.com:143 | STARTTLS\nSMTP | smtp.kolabnow.com:587 | STARTTLS\nPOP3 | imap.kolabnow.com:995 | SSL/TLS\nIMAP software | Cyrus",
+            "color": "none"
+        },
+        "Online since": {
+            "value": "2015-02-10",
+            "color": "none"
+        },
+        "Last checked": {
+            "value": "2026-10-30",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇨🇦",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "hushmail.com",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": "counselingmail.com\ncounselingsecure.com\nhush.ai\nhush.com\nhushmail.me\nmac.hush.com\ntherapyemail.com\ntherapysecure.com",
+            "color": "none"
+        },
+        "A Record": {
+            "value": "199.60.103.85 | 🇺🇸 | United States | AS209242 | Cloudflare London, LLC\n199.60.103.185 | 🇺🇸 | United States | AS209242 | Cloudflare London, LLC",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "plsmtp1.hushmail.com | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.\nplsmtp2.hushmail.com | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "1998-06-14",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2027-06-13",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇨🇦 Hush Communications Canada Inc.",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Canada",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Hushmail: Encrypted Email and E-Signable Forms\nSend secure emails and forms with Hushmail. Trusted by therapy and healthcare practitioners for handling sensitive information.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Page found, no key clauses detected\nhttps://www.hushmail.com/terms",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect IP addresses, data/logs kept 18 mos., cookies, no ads (claimed), third parties, share upon authorities' request, encryption, does not sell data (claimed)\nhttps://www.hushmail.com/privacy",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": "free; $17.99/month; $14.99/month; $11.99/month",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. IMAP server hosted-imap.hushmail.com:993 answers. Publishes mail client autoconfig. Webmail: https://secure.hushmail.com/mail/. Mail DNS: SPF, DMARC p=quarantine. Site mentions: PGP/E2E encryption.",
+            "color": "none"
+        },
+        "ToS link": {
+            "value": "https://www.hushmail.com/terms",
+            "color": "none"
+        },
+        "Privacy policy link": {
+            "value": "https://www.hushmail.com/privacy",
+            "color": "none"
+        },
+        "Source code": {
+            "value": null,
+            "color": "none"
+        },
+        "Social links": {
+            "value": "https://www.facebook.com/Hushmail\nhttps://www.instagram.com/hushmail\nhttps://www.linkedin.com/company/hushmail",
+            "color": "none"
+        },
+        "Onion address": {
+            "value": null,
+            "color": "none"
+        },
+        "Imprint link": {
+            "value": null,
+            "color": "none"
+        },
+        "Mail security": {
+            "value": "SPF: -all; DMARC: quarantine; MTA-STS: missing; TLS-RPT: missing; DNSSEC: no; DANE: no",
+            "color": "none"
+        },
+        "Mail servers": {
+            "value": "IMAP | imap.hushmail.com:993 | SSL/TLS\nPOP3 | pop.hushmail.com:995 | SSL/TLS\nSMTP | smtp.hushmail.com:465 | SSL/TLS",
+            "color": "none"
+        },
+        "Online since": {
+            "value": "1999-10-04",
+            "color": "none"
+        },
+        "Last checked": {
+            "value": "2026-10-30",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇸🇪",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "countermail.com",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "104.26.10.73 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.\n104.26.11.73 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "db1.countermail.com | 🇸🇪 | Sweden | AS51701 | Adminor Aktiebolag",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2008-05-11",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2028-05-11",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Fourteen Eyes (👀 14)",
+            "color": "purple"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Sweden",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "CounterMail - protecting your privacy - encrypted pgp email webmail\nThe world's most secure web based email service",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Illegal actions (spam, hacking), IP violation, commercial use\nhttps://countermail.com/?p=terms",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "No IP logging (claimed), encryption\nhttps://countermail.com/?p=privacy",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": "free",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Domain registration dates from 2008-05-11, but the Wayback Machine has captures since 2002-09-21: the domain was registered before, possibly by someone else. IMAP server imap.countermail.com:993 answers (Dovecot). Webmail: https://webmail.countermail.com/ (Roundcube). Mail DNS: SPF, DMARC p=quarantine, DANE, DNSSEC. Site mentions: invite-only, accepts cryptocurrency, PGP/E2E encryption.",
+            "color": "none"
+        },
+        "ToS link": {
+            "value": "https://countermail.com/?p=terms",
+            "color": "none"
+        },
+        "Privacy policy link": {
+            "value": "https://countermail.com/?p=privacy",
+            "color": "none"
+        },
+        "Source code": {
+            "value": null,
+            "color": "none"
+        },
+        "Social links": {
+            "value": null,
+            "color": "none"
+        },
+        "Onion address": {
+            "value": null,
+            "color": "none"
+        },
+        "Imprint link": {
+            "value": null,
+            "color": "none"
+        },
+        "Mail security": {
+            "value": "SPF: ~all; DMARC: quarantine; MTA-STS: missing; TLS-RPT: missing; DNSSEC: yes; DANE: yes",
+            "color": "none"
+        },
+        "Mail servers": {
+            "value": "IMAP | imap.countermail.com:993 | SSL/TLS\nIMAP software | Dovecot",
+            "color": "none"
+        },
+        "Online since": {
+            "value": "2002-09-21",
+            "color": "none"
+        },
+        "Last checked": {
+            "value": "2026-10-30",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇪🇸",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "internxt.com",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "172.66.174.172 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.\n104.20.43.180 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mx1.hostinger.com | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.\nmx2.hostinger.com | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2017-08-06",
+            "color": "none"
+        },
+        "Domain expired": {
+            "value": "2034-08-06",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇪🇸 Internxt Universal Technologies, S.L.",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Fourteen Eyes (👀 14)",
+            "color": "purple"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Spain",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Internxt — Best Encrypted cloud storage & more\nExperience the next-gen best encrypted cloud storage for ultimate protection. Secure your files with Internxt’s zero-knowledge technology. Get started for free!",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Illegal actions (spam, hacking), IP violation, harassment, fraud\nDelete inactive accounts (7 days)\nhttps://internxt.com/legal",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect IP addresses, data/logs kept 12 mos., cookies, analytics/tracking, advertising, third parties, share upon authorities' request, encryption, no-logs claim, GDPR, delete inactive accounts (7 days)\nhttps://internxt.com/legal",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": "free; €9.99/month",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Domain registration dates from 2017-08-06, but the Wayback Machine has captures since 1999-10-11: the domain was registered before, possibly by someone else. Mail servers belong to Hostinger. Mail DNS: SPF, DMARC p=reject. Site mentions: PGP/E2E encryption.",
+            "color": "none"
+        },
+        "ToS link": {
+            "value": "https://internxt.com/legal",
+            "color": "none"
+        },
+        "Privacy policy link": {
+            "value": "https://internxt.com/privacy",
+            "color": "none"
+        },
+        "Source code": {
+            "value": "https://github.com/internxt",
+            "color": "none"
+        },
+        "Social links": {
+            "value": "https://twitter.com/Internxt\nhttps://www.reddit.com/r/internxt\nhttps://linkedin.com/company/internxt\nhttps://instagram.com/internxt",
+            "color": "none"
+        },
+        "Onion address": {
+            "value": null,
+            "color": "none"
+        },
+        "Imprint link": {
+            "value": "https://internxt.com/legal",
+            "color": "none"
+        },
+        "Mail security": {
+            "value": "SPF: ~all; DMARC: reject; MTA-STS: missing; TLS-RPT: missing; DNSSEC: no; DANE: no",
+            "color": "none"
+        },
+        "Mail servers": {
+            "value": null,
+            "color": "none"
+        },
+        "Online since": {
+            "value": "1999-10-11",
+            "color": "none"
+        },
+        "Last checked": {
+            "value": "2026-10-30",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇦🇺",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "fastmail.com",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "103.168.172.65 | 🇺🇸 | United States | AS151847 | Fastmail Pty Ltd",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "in1-smtp.messagingengine.com | 🇺🇸 | United States | AS151847 | Fastmail Pty Ltd\nin2-smtp.messagingengine.com | 🇺🇸 | United States | AS151847 | Fastmail Pty Ltd",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "1994-12-09",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2034-12-08",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇦🇺 Fastmail Pty Ltd",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Australia",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Email and calendar made better | Fastmail\nFast, private email hosting for you or your business. More productive, lightning fast, simple and built to save you time.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Illegal actions (spam, hacking), IP violation, harassment, commercial use\nhttps://www.fastmail.com/policies/terms-of-service/",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Share upon authorities' request\nhttps://www.fastmail.com/features/privacy/",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": "free; €6/month; €5/month; €4.75/month",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Mail servers belong to Fastmail. IMAP server imap.fastmail.com:993 answers. Publishes mail client autoconfig. Mail DNS: SPF, DMARC p=none, MTA-STS.",
+            "color": "none"
+        },
+        "ToS link": {
+            "value": "https://www.fastmail.com/policies/terms-of-service/",
+            "color": "none"
+        },
+        "Privacy policy link": {
+            "value": "https://www.fastmail.com/features/privacy/",
+            "color": "none"
+        },
+        "Source code": {
+            "value": null,
+            "color": "none"
+        },
+        "Social links": {
+            "value": "https://mastodon.social/@fastmail\nhttps://twitter.com/Fastmail\nhttps://www.linkedin.com/company/fastmail\nhttps://www.facebook.com/Fastmail",
+            "color": "none"
+        },
+        "Onion address": {
+            "value": null,
+            "color": "none"
+        },
+        "Imprint link": {
+            "value": null,
+            "color": "none"
+        },
+        "Mail security": {
+            "value": "SPF: ~all; DMARC: none; MTA-STS: testing; TLS-RPT: yes; DNSSEC: no; DANE: no",
+            "color": "none"
+        },
+        "Mail servers": {
+            "value": "IMAP | imap.fastmail.com:993 | SSL/TLS\nPOP3 | pop.fastmail.com:995 | SSL/TLS\nSMTP | smtp.fastmail.com:465 | SSL/TLS",
+            "color": "none"
+        },
+        "Online since": {
+            "value": "1998-12-12",
+            "color": "none"
+        },
+        "Last checked": {
+            "value": "2026-10-30",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇩🇪",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "gmx.net",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": "gmx.de",
+            "color": "none"
+        },
+        "A Record": {
+            "value": "217.72.199.107 | 🇩🇪 | Germany | AS8560 | IONOS SE\n217.72.199.108 | 🇩🇪 | Germany | AS8560 | IONOS SE",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mx00.emig.gmx.net | 🇩🇪 | Germany | AS8560 | IONOS SE\nmx01.emig.gmx.net | 🇩🇪 | Germany | AS8560 | IONOS SE",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "1998-12-09",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2026-12-08",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇩🇪 1&1 Mail & Media GmbH",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Fourteen Eyes (👀 14)",
+            "color": "purple"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Germany",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "GMX - kostenlose E-Mail, Cloud, Nachrichten & Freemail\nKostenlose E-Mail-Adresse erstellen, Nachrichten lesen und Fotos & Dateien in der GMX Cloud sicher speichern. Jetzt registrieren!",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Illegal actions (spam, hacking), IP violation, commercial use\nhttps://agb-server.gmx.net/gmxagb-de",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect IP addresses, data/logs kept 21 days, cookies, advertising, third parties, share upon authorities' request, encryption, GDPR\nhttps://agb-server.gmx.net/datenschutz",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": "free; 99€/month; 49€/month; 48€/month",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. IMAP server imap.gmx.net:993 answers. Listed in Thunderbird's ISPDB. Mail DNS: SPF, DMARC p=quarantine, MTA-STS, DANE, DNSSEC.",
+            "color": "none"
+        },
+        "ToS link": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy link": {
+            "value": "https://agb-server.gmx.net/datenschutz",
+            "color": "none"
+        },
+        "Source code": {
+            "value": null,
+            "color": "none"
+        },
+        "Social links": {
+            "value": null,
+            "color": "none"
+        },
+        "Onion address": {
+            "value": null,
+            "color": "none"
+        },
+        "Imprint link": {
+            "value": "https://www.gmx.net/impressum/",
+            "color": "none"
+        },
+        "Mail security": {
+            "value": "SPF: redirect; DMARC: quarantine; MTA-STS: testing; TLS-RPT: yes; DNSSEC: yes; DANE: yes",
+            "color": "none"
+        },
+        "Mail servers": {
+            "value": "IMAP | imap.gmx.net:993 | SSL/TLS\nIMAP | imap.gmx.net:143 | STARTTLS\nPOP3 | pop.gmx.net:995 | SSL/TLS\nPOP3 | pop.gmx.net:110 | STARTTLS\nSMTP | mail.gmx.net:465 | SSL/TLS\nSMTP | mail.gmx.net:587 | STARTTLS",
+            "color": "none"
+        },
+        "Online since": {
+            "value": "1998-01-26",
+            "color": "none"
+        },
+        "Last checked": {
+            "value": "2026-10-30",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇩🇪",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "web.de",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "217.72.199.108 | 🇩🇪 | Germany | AS8560 | IONOS SE\n217.72.199.107 | 🇩🇪 | Germany | AS8560 | IONOS SE",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mx-ha02.web.de | 🇩🇪 | Germany | AS8560 | IONOS SE\nmx-ha03.web.de | 🇩🇪 | Germany | AS8560 | IONOS SE",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": null,
+            "color": "none"
+        },
+        "Domain expired": {
+            "value": null,
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇩🇪 1&1 Mail & Media GmbH",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Fourteen Eyes (👀 14)",
+            "color": "purple"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Germany",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "WEB.DE - kostenlose E-Mail-Adresse, FreeMail & Nachrichten\nSichere Kommunikation, aktuelle Nachrichten und nützliche Online-Services - alles an einem Ort. Einfach, kostenlos und zuverlässig.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Illegal actions (spam, hacking), IP violation, commercial use\nhttps://agb-server.web.de/webdeagb",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect IP addresses, data/logs kept 21 days, cookies, advertising, third parties, share upon authorities' request, encryption, GDPR\nhttps://agb-server.web.de/datenschutz",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": "free; 47€/month; 99€/month",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Homepage contains unrelated spam (casino): the site may be hacked or abandoned. IMAP server imap.web.de:993 answers. Listed in Thunderbird's ISPDB. Mail DNS: SPF, DMARC p=quarantine, MTA-STS, DANE, DNSSEC.",
+            "color": "none"
+        },
+        "ToS link": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy link": {
+            "value": "https://agb-server.web.de/datenschutz",
+            "color": "none"
+        },
+        "Source code": {
+            "value": null,
+            "color": "none"
+        },
+        "Social links": {
+            "value": null,
+            "color": "none"
+        },
+        "Onion address": {
+            "value": null,
+            "color": "none"
+        },
+        "Imprint link": {
+            "value": "https://web.de/impressum/",
+            "color": "none"
+        },
+        "Mail security": {
+            "value": "SPF: redirect; DMARC: quarantine; MTA-STS: testing; TLS-RPT: yes; DNSSEC: yes; DANE: yes",
+            "color": "none"
+        },
+        "Mail servers": {
+            "value": "IMAP | imap.web.de:993 | SSL/TLS\nIMAP | imap.web.de:143 | STARTTLS\nPOP3 | pop3.web.de:995 | SSL/TLS\nPOP3 | pop3.web.de:110 | STARTTLS\nSMTP | smtp.web.de:465 | SSL/TLS\nSMTP | smtp.web.de:587 | STARTTLS",
+            "color": "none"
+        },
+        "Online since": {
+            "value": "1998-12-02",
+            "color": "none"
+        },
+        "Last checked": {
+            "value": "2026-10-30",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇳🇴",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "vivaldi.net",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "104.20.31.204 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.\n172.66.173.74 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mxi-1.vivaldi.net | 🇮🇸 | Iceland | AS51896 | Hringdu ehf\nmxi-2.vivaldi.net | 🇮🇸 | Iceland | AS51896 | Hringdu ehf",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2002-04-08",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2031-04-08",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇳🇴 Vivaldi Technologies AS",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Nine Eyes (👀 9)",
+            "color": "yellow"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Norway",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Vivaldi community | Tech forum and blogging platform.\nTech forum and blogging platform.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Illegal actions (CSAM, spam, hacking), IP violation, harassment, fraud, multiple accounts\nhttps://vivaldi.com/privacy/community-terms-of-use/",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Page found, no key clauses detected\nhttps://vivaldi.com/privacy/code-of-conduct/",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": "free",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Domain registration dates from 2002-04-08, but the Wayback Machine has captures since 2000-03-03: the domain was registered before, possibly by someone else. IMAP server imap.vivaldi.net:993 answers (Dovecot). Publishes mail client autoconfig. Webmail: https://login.vivaldi.net/. Mail DNS: SPF, DMARC p=reject, MTA-STS, DANE, DNSSEC.",
+            "color": "none"
+        },
+        "ToS link": {
+            "value": "https://vivaldi.com/privacy/community-terms-of-use/",
+            "color": "none"
+        },
+        "Privacy policy link": {
+            "value": "https://vivaldi.com/privacy/code-of-conduct",
+            "color": "none"
+        },
+        "Source code": {
+            "value": null,
+            "color": "none"
+        },
+        "Social links": {
+            "value": "https://linkedin.com/company/vivaldi-technologies\nhttps://t.me/vivaldibrowser\nhttps://x.com/vivaldibrowser\nhttps://www.facebook.com/vivaldi.browser\nhttps://www.instagram.com/vivaldibrowser\nhttps://www.threads.net/@vivaldibrowser\nhttps://bsky.app/profile/vivaldi.com\nhttps://www.tiktok.com/@vivaldibrowser\nhttps://www.reddit.com/r/vivaldibrowser\nhttps://mastodon.online/@vivaldibrowser",
+            "color": "none"
+        },
+        "Onion address": {
+            "value": null,
+            "color": "none"
+        },
+        "Imprint link": {
+            "value": null,
+            "color": "none"
+        },
+        "Mail security": {
+            "value": "SPF: -all; DMARC: reject; MTA-STS: enforce; TLS-RPT: yes; DNSSEC: yes; DANE: yes",
+            "color": "none"
+        },
+        "Mail servers": {
+            "value": "IMAP | imap.vivaldi.net:993 | SSL/TLS\nIMAP | imap.vivaldi.net:143 | STARTTLS\nPOP3 | pop3.vivaldi.net:995 | SSL/TLS\nPOP3 | pop3.vivaldi.net:110 | STARTTLS\nSMTP | smtp.vivaldi.net:465 | SSL/TLS\nSMTP | smtp.vivaldi.net:587 | STARTTLS\nIMAP software | Dovecot",
+            "color": "none"
+        },
+        "Online since": {
+            "value": "2000-03-03",
+            "color": "none"
+        },
+        "Last checked": {
+            "value": "2026-10-30",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇮🇳",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "zoho.com",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": "zohomail.com",
+            "color": "none"
+        },
+        "A Record": {
+            "value": "136.143.190.155 | 🇺🇸 | United States | AS2639 | ZOHO",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "smtpin.zoho.com | 🇺🇸 | United States | AS2639 | ZOHO\nsmtpin2.zoho.com | 🇺🇸 | United States | AS2639 | ZOHO\nsmtpin3.zoho.com | 🇺🇸 | United States | AS2639 | ZOHO",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2004-01-16",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2031-01-16",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇮🇳 Zoho Corporation Pvt. Ltd.",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "India",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Zoho | Cloud-Software-Suite für Unternehmen\nEine einzigartige und leistungsstarke Software-Suite, die Ihre Arbeitsweise verändert. Entwickelt für Unternehmen jeder Größe; von einem Unternehmen gebaut, das Ihre Privatsphäre schätzt.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Page found, no key clauses detected\nhttps://www.zoho.com/ae/books/kb/templates/terms-and-conditions-on-invoice.html",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Analytics/tracking, advertising, third parties, encryption, does not sell data (claimed)\nhttps://www.zoho.com/privacy-commitment.html?ireft=nhome&src=home",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": "free",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Domain registration dates from 2004-01-16, but the Wayback Machine has captures since 2000-04-07: the domain was registered before, possibly by someone else. Mail servers belong to Zoho Mail. IMAP server imap.zoho.com:993 answers (Zoho). Listed in Thunderbird's ISPDB. Mail DNS: SPF, DMARC p=reject. Site mentions: PGP/E2E encryption.",
+            "color": "none"
+        },
+        "ToS link": {
+            "value": "https://www.zoho.com/de/terms.html",
+            "color": "none"
+        },
+        "Privacy policy link": {
+            "value": "https://www.zoho.com/gdpr.html",
+            "color": "none"
+        },
+        "Source code": {
+            "value": null,
+            "color": "none"
+        },
+        "Social links": {
+            "value": "https://twitter.com/zoho\nhttps://www.facebook.com/zoho\nhttps://www.linkedin.com/company/zohocorp\nhttps://www.instagram.com/zoho",
+            "color": "none"
+        },
+        "Onion address": {
+            "value": null,
+            "color": "none"
+        },
+        "Imprint link": {
+            "value": "https://www.zoho.com/de/impressum.html",
+            "color": "none"
+        },
+        "Mail security": {
+            "value": "SPF: -all; DMARC: reject; MTA-STS: missing; TLS-RPT: yes; DNSSEC: no; DANE: no",
+            "color": "none"
+        },
+        "Mail servers": {
+            "value": "IMAP | imap.zoho.com:993 | SSL/TLS\nPOP3 | pop.zoho.com:995 | SSL/TLS\nSMTP | smtp.zoho.com:465 | SSL/TLS\nSMTP | smtp.zoho.com:587 | STARTTLS\nIMAP software | Zoho",
+            "color": "none"
+        },
+        "Online since": {
+            "value": "2000-04-07",
+            "color": "none"
+        },
+        "Last checked": {
+            "value": "2026-10-30",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇨🇿",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "seznam.cz",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": "email.cz\npost.cz\nspoluzaci.cz\nstream.cz",
+            "color": "none"
+        },
+        "A Record": {
+            "value": "77.75.77.222 | 🇨🇿 | Czechia | AS43037 | Seznam.cz, a.s.\n77.75.79.222 | 🇨🇿 | Czechia | AS43037 | Seznam.cz, a.s.",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mx1.seznam.cz | 🇨🇿 | Czechia | AS43037 | Seznam.cz, a.s.\nmx2.seznam.cz | 🇨🇿 | Czechia | AS43037 | Seznam.cz, a.s.",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "1996-10-07",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2027-10-28",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇨🇿 Seznam.cz, a.s.",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Czechia",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Seznam – najdu tam, co neznám\nNejnavštěvovanější český internetový portál nabízející vyhledávač, e-mail, aktuální zprávy, předpověď počasí a odkazy, které se mohou hodit.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "IP violation\nhttps://o-seznam.cz/napoveda/?s=smluvn%C3%AD+podm%C3%ADnky",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect IP addresses, cookies, advertising, GDPR\nhttps://o-seznam.cz/pravni-informace/ochrana-udaju/",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": "free",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. IMAP server imap.seznam.cz:993 answers. Publishes mail client autoconfig. Webmail: https://login.seznam.cz/. Mail DNS: SPF, DMARC p=none, DNSSEC.",
+            "color": "none"
+        },
+        "ToS link": {
+            "value": "https://o.seznam.cz/smluvni-podminky/",
+            "color": "none"
+        },
+        "Privacy policy link": {
+            "value": "https://o.seznam.cz/ochrana-udaju/",
+            "color": "none"
+        },
+        "Source code": {
+            "value": null,
+            "color": "none"
+        },
+        "Social links": {
+            "value": null,
+            "color": "none"
+        },
+        "Onion address": {
+            "value": null,
+            "color": "none"
+        },
+        "Imprint link": {
+            "value": null,
+            "color": "none"
+        },
+        "Mail security": {
+            "value": "SPF: ?all; DMARC: none; MTA-STS: missing; TLS-RPT: missing; DNSSEC: yes; DANE: no",
+            "color": "none"
+        },
+        "Mail servers": {
+            "value": "IMAP | imap.seznam.cz:993 | SSL/TLS\nSMTP | smtp.seznam.cz:465 | SSL/TLS",
+            "color": "none"
+        },
+        "Online since": {
+            "value": "1996-11-14",
+            "color": "none"
+        },
+        "Last checked": {
+            "value": "2026-10-30",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇫🇷",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "laposte.net",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "35.190.49.14 | 🇺🇸 | United States | AS396982 | Google LLC",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "smtpz4.laposte.net | 🇫🇷 | France | AS8677 | Worldline SA",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "1996-06-04",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2027-06-03",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇫🇷 La Poste SA",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Nine Eyes (👀 9)",
+            "color": "yellow"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "France",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Laposte.net",
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. IMAP server imap.laposte.net:993 answers. Listed in Thunderbird's ISPDB. Mail DNS: SPF, DMARC p=reject.",
+            "color": "none"
+        },
+        "ToS link": {
+            "value": "https://laposte.net/cgu",
+            "color": "none"
+        },
+        "Privacy policy link": {
+            "value": "https://laposte.net/cookies",
+            "color": "none"
+        },
+        "Source code": {
+            "value": null,
+            "color": "none"
+        },
+        "Social links": {
+            "value": null,
+            "color": "none"
+        },
+        "Onion address": {
+            "value": null,
+            "color": "none"
+        },
+        "Imprint link": {
+            "value": "https://laposte.net/mentions-legales",
+            "color": "none"
+        },
+        "Mail security": {
+            "value": "SPF: -all; DMARC: reject; MTA-STS: missing; TLS-RPT: missing; DNSSEC: no; DANE: no",
+            "color": "none"
+        },
+        "Mail servers": {
+            "value": "IMAP | imap.laposte.net:993 | SSL/TLS\nPOP3 | pop.laposte.net:995 | SSL/TLS\nSMTP | smtp.laposte.net:465 | SSL/TLS",
+            "color": "none"
+        },
+        "Online since": {
+            "value": "2000-06-21",
+            "color": "none"
+        },
+        "Last checked": {
+            "value": "2026-10-30",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇫🇷",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "orange.fr",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": "wanadoo.fr",
+            "color": "none"
+        },
+        "A Record": {
+            "value": "193.252.117.135 | 🇫🇷 | France | AS24600 | Orange S.A.\n81.52.142.219 | 🇫🇷 | France | AS8891 | Orange S.A.",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "smtp-in.orange.fr | 🇫🇷 | France | AS3215 | Orange S.A.\nsmtp-in2.orange.fr | 🇫🇷 | France | AS3215 | Orange S.A.",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2001-02-01",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2027-10-14",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇫🇷 Orange S.A.",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Nine Eyes (👀 9)",
+            "color": "yellow"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "France",
+            "color": "none"
+        },
+        "Site description": {
+            "value": null,
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. IMAP server imap.orange.fr:993 answers (Dovecot). Listed in Thunderbird's ISPDB. Mail DNS: SPF, DMARC p=quarantine.",
+            "color": "none"
+        },
+        "ToS link": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy link": {
+            "value": "https://tech.orange.fr/securite/mes-donnees/pour-contrer-les-cyberattaques-ce-procede-veut-vider-les-serveurs-de-nos-donnees-CNT000002tqUD4.html",
+            "color": "none"
+        },
+        "Source code": {
+            "value": null,
+            "color": "none"
+        },
+        "Social links": {
+            "value": null,
+            "color": "none"
+        },
+        "Onion address": {
+            "value": null,
+            "color": "none"
+        },
+        "Imprint link": {
+            "value": null,
+            "color": "none"
+        },
+        "Mail security": {
+            "value": "SPF: ~all; DMARC: quarantine; MTA-STS: missing; TLS-RPT: missing; DNSSEC: no; DANE: no",
+            "color": "none"
+        },
+        "Mail servers": {
+            "value": "IMAP | imap.orange.fr:993 | SSL/TLS\nPOP3 | pop.orange.fr:995 | SSL/TLS\nSMTP | smtp.orange.fr:465 | SSL/TLS\nIMAP software | Dovecot",
+            "color": "none"
+        },
+        "Online since": {
+            "value": "2001-06-27",
+            "color": "none"
+        },
+        "Last checked": {
+            "value": "2026-10-30",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇺🇸",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "gmail.com",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": "googlemail.com",
+            "color": "none"
+        },
+        "A Record": {
+            "value": "142.250.154.18 | 🇺🇸 | United States | AS15169 | Google LLC\n142.250.154.83 | 🇺🇸 | United States | AS15169 | Google LLC",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "gmail-smtp-in.l.google.com | 🇺🇸 | United States | AS15169 | Google LLC\nalt1.gmail-smtp-in.l.google.com | 🇺🇸 | United States | AS15169 | Google LLC\nalt2.gmail-smtp-in.l.google.com | 🇺🇸 | United States | AS15169 | Google LLC\nalt3.gmail-smtp-in.l.google.com | 🇺🇸 | United States | AS15169 | Google LLC",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "1995-08-13",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2027-08-12",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇺🇸 Google LLC",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "United States",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Gmail\nGmail is email that’s intuitive, efficient, and useful. 15 GB of storage, less spam, and mobile access.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Illegal actions (CSAM, spam, hacking), IP violation, harassment, fraud, commercial use\nhttps://policies.google.com/terms",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Website redirects to https://accounts.google.com/. Mail servers belong to Google Workspace. IMAP server imap.gmail.com:993 answers (Gmail). Listed in Thunderbird's ISPDB. Mail DNS: SPF, DMARC p=none, MTA-STS.",
+            "color": "none"
+        },
+        "ToS link": {
+            "value": "https://accounts.google.com/TOS?loc=DE&hl=en-US",
+            "color": "none"
+        },
+        "Privacy policy link": {
+            "value": "https://accounts.google.com/TOS?loc=DE&hl=en-US&privacy=true",
+            "color": "none"
+        },
+        "Source code": {
+            "value": null,
+            "color": "none"
+        },
+        "Social links": {
+            "value": null,
+            "color": "none"
+        },
+        "Onion address": {
+            "value": null,
+            "color": "none"
+        },
+        "Imprint link": {
+            "value": null,
+            "color": "none"
+        },
+        "Mail security": {
+            "value": "SPF: redirect; DMARC: none; MTA-STS: enforce; TLS-RPT: yes; DNSSEC: no; DANE: no",
+            "color": "none"
+        },
+        "Mail servers": {
+            "value": "IMAP | imap.gmail.com:993 | SSL/TLS\nPOP3 | pop.gmail.com:995 | SSL/TLS\nSMTP | smtp.gmail.com:465 | SSL/TLS\nIMAP software | Gmail",
+            "color": "none"
+        },
+        "Online since": {
+            "value": null,
+            "color": "none"
+        },
+        "Last checked": {
+            "value": "2026-10-30",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇺🇸",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "outlook.com",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "52.96.214.50 | 🇺🇸 | United States | AS8075 | Microsoft Corporation\n52.96.222.194 | 🇺🇸 | United States | AS8075 | Microsoft Corporation",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "outlook-com.olc.protection.outlook.com | 🇺🇸 | United States | AS8075 | Microsoft Corporation",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "1994-08-18",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2027-08-17",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇺🇸 Microsoft Corporation",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "United States",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Outlook",
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Website redirects to https://outlook.live.com/mail/. Mail servers belong to Microsoft 365. IMAP server outlook.office365.com:993 answers (Microsoft Exchange). Listed in Thunderbird's ISPDB. Mail DNS: SPF, DMARC p=none, MTA-STS, DNSSEC.",
+            "color": "none"
+        },
+        "ToS link": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy link": {
+            "value": "https://www.microsoft.com/de-de/privacy",
+            "color": "none"
+        },
+        "Source code": {
+            "value": null,
+            "color": "none"
+        },
+        "Social links": {
+            "value": null,
+            "color": "none"
+        },
+        "Onion address": {
+            "value": null,
+            "color": "none"
+        },
+        "Imprint link": {
+            "value": null,
+            "color": "none"
+        },
+        "Mail security": {
+            "value": "SPF: -all; DMARC: none; MTA-STS: enforce; TLS-RPT: yes; DNSSEC: yes; DANE: no",
+            "color": "none"
+        },
+        "Mail servers": {
+            "value": "IMAP | outlook.office365.com:993 | SSL/TLS\nPOP3 | outlook.office365.com:995 | SSL/TLS\nSMTP | smtp-mail.outlook.com:587 | STARTTLS\nIMAP software | Microsoft Exchange",
+            "color": "none"
+        },
+        "Online since": {
+            "value": "1996-12-24",
+            "color": "none"
+        },
+        "Last checked": {
+            "value": "2026-10-30",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇺🇸",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "yahoo.com",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": "cox.net\nrocketmail.com\nyahoo.ca\nyahoo.co.in\nyahoo.co.nz\nyahoo.co.uk\nyahoo.com.ar\nyahoo.com.au\nyahoo.com.br\nyahoo.com.mx\nyahoo.de\nyahoo.es\nyahoo.fr\nyahoo.it\nyahoo.se\nymail.com",
+            "color": "none"
+        },
+        "A Record": {
+            "value": "74.6.231.20 | 🇺🇸 | United States | AS36646 | Yahoo Holdings Inc.\n74.6.143.25 | 🇺🇸 | United States | AS26101 | Yahoo Holdings Inc.",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mta5.am0.yahoodns.net | 🇺🇸 | United States | AS36646 | Yahoo Holdings Inc.\nmta6.am0.yahoodns.net | 🇺🇸 | United States | AS36646 | Yahoo Holdings Inc.\nmta7.am0.yahoodns.net | 🇺🇸 | United States | AS36647 | Yahoo Holdings Inc.",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "1995-01-18",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2027-01-19",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇺🇸 Yahoo Inc.",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "United States",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Yahoo | Mail, Weather, Search, Politics, News, Finance, Sports & Videos\nLatest news coverage, email, free stock quotes, live scores and video are just the beginning. Discover more every day at Yahoo!",
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Cookies, advertising, no third-party sharing (claimed)\nhttps://legal.yahoo.com/us/en/yahoo/privacy/adinfo/index.html",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. IMAP server imap.mail.yahoo.com:993 answers. Listed in Thunderbird's ISPDB. Mail DNS: SPF, DMARC p=reject, MTA-STS.",
+            "color": "none"
+        },
+        "ToS link": {
+            "value": "https://health.yahoo.com/conditions/",
+            "color": "none"
+        },
+        "Privacy policy link": {
+            "value": "https://legal.yahoo.com/us/en/yahoo/privacy/adinfo/index.html",
+            "color": "none"
+        },
+        "Source code": {
+            "value": null,
+            "color": "none"
+        },
+        "Social links": {
+            "value": "https://x.com/yahoonews\nhttps://facebook.com/YahooNews\nhttps://instagram.com/yahoonews\nhttps://www.youtube.com/c/yahoonews\nhttps://www.tiktok.com/@yahoonews",
+            "color": "none"
+        },
+        "Onion address": {
+            "value": null,
+            "color": "none"
+        },
+        "Imprint link": {
+            "value": null,
+            "color": "none"
+        },
+        "Mail security": {
+            "value": "SPF: redirect; DMARC: reject; MTA-STS: testing; TLS-RPT: yes; DNSSEC: no; DANE: no",
+            "color": "none"
+        },
+        "Mail servers": {
+            "value": "IMAP | imap.mail.yahoo.com:993 | SSL/TLS\nIMAP | export.imap.mail.yahoo.com:993 | SSL/TLS\nPOP3 | pop.mail.yahoo.com:995 | SSL/TLS\nSMTP | smtp.mail.yahoo.com:465 | SSL/TLS",
+            "color": "none"
+        },
+        "Online since": {
+            "value": "1996-10-17",
+            "color": "none"
+        },
+        "Last checked": {
+            "value": "2026-10-30",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇺🇸",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "icloud.com",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": "mac.com\nme.com",
+            "color": "none"
+        },
+        "A Record": {
+            "value": "17.253.144.10 | 🇺🇸 | United States | AS714 | Apple Inc.",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mx01.mail.icloud.com | 🇺🇸 | United States | AS714 | Apple Inc.\nmx02.mail.icloud.com | 🇺🇸 | United States | AS714 | Apple Inc.",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "1999-01-15",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2027-01-15",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇺🇸 Apple Inc.",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "United States",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "iCloud\nLog in to iCloud to access your photos, mail, notes, documents and more. Sign in with your Apple Account or create a new account to start using Apple services.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. IMAP server imap.mail.me.com:993 answers. Listed in Thunderbird's ISPDB. Mail DNS: SPF, DMARC p=quarantine.",
+            "color": "none"
+        },
+        "ToS link": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy link": {
+            "value": null,
+            "color": "none"
+        },
+        "Source code": {
+            "value": null,
+            "color": "none"
+        },
+        "Social links": {
+            "value": null,
+            "color": "none"
+        },
+        "Onion address": {
+            "value": null,
+            "color": "none"
+        },
+        "Imprint link": {
+            "value": null,
+            "color": "none"
+        },
+        "Mail security": {
+            "value": "SPF: redirect; DMARC: quarantine; MTA-STS: missing; TLS-RPT: missing; DNSSEC: no; DANE: no",
+            "color": "none"
+        },
+        "Mail servers": {
+            "value": "IMAP | imap.mail.me.com:993 | SSL/TLS\nSMTP | smtp.mail.me.com:587 | STARTTLS",
+            "color": "none"
+        },
+        "Online since": {
+            "value": null,
+            "color": "none"
+        },
+        "Last checked": {
+            "value": "2026-10-30",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇺🇸",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "aol.com",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": "aim.com\naol.co.nz\naol.co.uk\naol.com.ar\naol.com.au\naol.com.br\naol.com.mx\naol.de\naol.es\naol.fr\naol.it\naol.se\ncompuserve.com\ncs.com\nnetscape.com\nnetscape.net\nwmconnect.com",
+            "color": "none"
+        },
+        "A Record": {
+            "value": "54.85.212.202 | 🇺🇸 | United States | AS14618 | Amazon.com, Inc.\n18.235.50.124 | 🇺🇸 | United States | AS14618 | Amazon.com, Inc.",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mx-aol.mail.gm0.yahoodns.net | 🇺🇸 | United States | AS26101 | Yahoo Holdings Inc.",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "1995-06-22",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2027-11-23",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇺🇸 Yahoo Inc. (AOL)",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "United States",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "News, Politics, Sports, Mail & Latest Headlines - AOL.com\nDiscover the latest breaking news in the U.S. and around the world — politics, weather, entertainment, lifestyle, finance, sports and much more.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Illegal actions (CSAM, spam, hacking), IP violation, harassment, fraud, commercial use\nhttps://legal.aol.com/terms/index.html",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "Collect IP addresses, cookies, analytics/tracking, advertising, third parties, share upon authorities' request, encryption, GDPR\nhttps://legal.aol.com/privacy/index.html",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": "free",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. IMAP server imap.aol.com:993 answers. Listed in Thunderbird's ISPDB. Mail DNS: SPF, DMARC p=reject. Site mentions: accepts cryptocurrency.",
+            "color": "none"
+        },
+        "ToS link": {
+            "value": "https://legal.aol.com/terms/index.html",
+            "color": "none"
+        },
+        "Privacy policy link": {
+            "value": "http://legal.aol.com/privacy/index.html?locale=en-US",
+            "color": "none"
+        },
+        "Source code": {
+            "value": null,
+            "color": "none"
+        },
+        "Social links": {
+            "value": "https://instagram.com/aol",
+            "color": "none"
+        },
+        "Onion address": {
+            "value": null,
+            "color": "none"
+        },
+        "Imprint link": {
+            "value": null,
+            "color": "none"
+        },
+        "Mail security": {
+            "value": "SPF: redirect; DMARC: reject; MTA-STS: missing; TLS-RPT: missing; DNSSEC: no; DANE: no",
+            "color": "none"
+        },
+        "Mail servers": {
+            "value": "IMAP | imap.aol.com:993 | SSL/TLS\nPOP3 | pop.aol.com:995 | SSL/TLS\nSMTP | smtp.aol.com:465 | SSL/TLS",
+            "color": "none"
+        },
+        "Online since": {
+            "value": "1996-12-20",
+            "color": "none"
+        },
+        "Last checked": {
+            "value": "2026-10-30",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇷🇺",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "yandex.ru",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": "narod.ru\nya.ru\nyandex.com\nyandex.com.tr",
+            "color": "none"
+        },
+        "A Record": {
+            "value": "77.88.55.88 | 🇷🇺 | Russia | AS13238 | YANDEX LLC\n5.255.255.77 | 🇷🇺 | Russia | AS13238 | YANDEX LLC",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mx.yandex.ru | 🇷🇺 | Russia | AS13238 | YANDEX LLC",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "1997-09-23",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2027-09-30",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇷🇺 YANDEX LLC",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": null,
+            "color": "none"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "Russia",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Дзен объединяет всё самое важное. Национальная, региональная и городская повестка, актуальные новости ведущих СМИ и нишевых авторов — всё собрано в единой ленте.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Mail servers belong to Yandex. IMAP server imap.yandex.ru:993 answers (Yandex). Publishes mail client autoconfig. Mail DNS: SPF, DMARC p=none, DANE.",
+            "color": "none"
+        },
+        "ToS link": {
+            "value": null,
+            "color": "none"
+        },
+        "Privacy policy link": {
+            "value": null,
+            "color": "none"
+        },
+        "Source code": {
+            "value": null,
+            "color": "none"
+        },
+        "Social links": {
+            "value": null,
+            "color": "none"
+        },
+        "Onion address": {
+            "value": null,
+            "color": "none"
+        },
+        "Imprint link": {
+            "value": null,
+            "color": "none"
+        },
+        "Mail security": {
+            "value": "SPF: redirect; DMARC: none; MTA-STS: missing; TLS-RPT: missing; DNSSEC: no; DANE: yes",
+            "color": "none"
+        },
+        "Mail servers": {
+            "value": "IMAP | imap.yandex.com:993 | SSL/TLS\nSMTP | smtp.yandex.com:465 | SSL/TLS\nIMAP software | Yandex",
+            "color": "none"
+        },
+        "Online since": {
+            "value": "1998-12-06",
+            "color": "none"
+        },
+        "Last checked": {
+            "value": "2026-10-30",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇺🇸",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "riseup.net",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "198.252.153.67 | 🇺🇸 | United States | AS16652 | Riseup Networks\n198.252.153.106 | 🇺🇸 | United States | AS16652 | Riseup Networks",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mx1.riseup.net | 🇺🇸 | United States | AS16652 | Riseup Networks",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2000-03-26",
+            "color": "green"
+        },
+        "Domain expired": {
+            "value": "2030-03-26",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": "🇺🇸 Riseup Networks",
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "United States",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "Home - riseup.net\nRiseup provides online communication tools for people and groups working on liberatory social change. We are a project to create democratic alternatives and practice self-determination by controlling our own secure means of communications.",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Illegal actions (spam, hacking), IP violation, harassment, fraud\nhttps://riseup.net/en/about-us/policy/tos",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": "No IP logging (claimed), no third-party sharing (claimed), encryption\nhttps://riseup.net/en/privacy-policy",
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": "$15/month; $100/year",
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. IMAP server mail.riseup.net:993 answers. Publishes mail client autoconfig. Webmail: https://mail.riseup.net/ (Roundcube). Mail DNS: SPF, DMARC p=none, MTA-STS, DANE, DNSSEC. Site mentions: invite-only, accepts cryptocurrency.",
+            "color": "none"
+        },
+        "ToS link": {
+            "value": "https://riseup.net/en/about-us/policy/tos",
+            "color": "none"
+        },
+        "Privacy policy link": {
+            "value": "https://riseup.net/en/privacy-policy",
+            "color": "none"
+        },
+        "Source code": {
+            "value": "https://github.com/riseupnet/riseup_help",
+            "color": "none"
+        },
+        "Social links": {
+            "value": null,
+            "color": "none"
+        },
+        "Onion address": {
+            "value": "http://vww6ybal4bd7szmgncyruucpgfkqahzddi37ktceo3ah7ngmcopnpyyd.onion/",
+            "color": "none"
+        },
+        "Imprint link": {
+            "value": null,
+            "color": "none"
+        },
+        "Mail security": {
+            "value": "SPF: redirect; DMARC: none; MTA-STS: enforce; TLS-RPT: yes; DNSSEC: yes; DANE: yes",
+            "color": "none"
+        },
+        "Mail servers": {
+            "value": "IMAP | mail.riseup.net:993 | SSL/TLS\nPOP3 | mail.riseup.net:995 | SSL/TLS\nSMTP | mail.riseup.net:465 | SSL/TLS",
+            "color": "none"
+        },
+        "Online since": {
+            "value": "2000-12-06",
+            "color": "none"
+        },
+        "Last checked": {
+            "value": "2026-10-30",
+            "color": "none"
+        }
+    },
+    {
+        "flag": {
+            "value": "🇫🇷",
+            "color": "none"
+        },
+        "Domain": {
+            "value": "lain.rocks",
+            "color": "none"
+        },
+        "2nd domain": {
+            "value": null,
+            "color": "none"
+        },
+        "A Record": {
+            "value": "144.91.78.106 | 🇫🇷 | France | AS51167 | Contabo GmbH",
+            "color": "none"
+        },
+        "MX Record": {
+            "value": "mail.lain.rocks | 🇫🇷 | France | AS51167 | Contabo GmbH",
+            "color": "none"
+        },
+        "Domain crated": {
+            "value": "2025-06-02",
+            "color": "red"
+        },
+        "Domain expired": {
+            "value": "2027-06-02",
+            "color": "none"
+        },
+        "Company owner": {
+            "value": null,
+            "color": "none"
+        },
+        "Intelligence Alliance": {
+            "value": "Nine Eyes (👀 9)",
+            "color": "yellow"
+        },
+        "Jurisdiction (based on server location)": {
+            "value": "France",
+            "color": "none"
+        },
+        "Site description": {
+            "value": "lain.rocks | Home\nlain.rocks, the c00l place on the internet",
+            "color": "none"
+        },
+        "ToS": {
+            "value": "Illegal actions (spam), harassment\nhttps://lain.rocks/sites/tos.html",
+            "color": "none"
+        },
+        "Privacy policy": {
+            "value": null,
+            "color": "none"
+        },
+        "Email(receive a verification link)": {
+            "value": null,
+            "color": "none"
+        },
+        "Phone(receive s sms code)": {
+            "value": null,
+            "color": "none"
+        },
+        "Price": {
+            "value": null,
+            "color": "none"
+        },
+        "Personal Info(first name, last name, adress, etc..)": {
+            "value": null,
+            "color": "none"
+        },
+        "Note": {
+            "value": "Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Domain registration dates from 2025-06-02, but the Wayback Machine has captures since 2021-12-12: the domain was registered before, possibly by someone else. IMAP server mail.lain.rocks:993 answers (Dovecot). Webmail: https://webmail.lain.rocks/. Mail DNS: SPF, DMARC p=none. Site mentions: accepts cryptocurrency, PGP/E2E encryption.",
+            "color": "none"
+        },
+        "ToS link": {
+            "value": "https://lain.rocks/sites/tos.html",
+            "color": "none"
+        },
+        "Privacy policy link": {
+            "value": null,
+            "color": "none"
+        },
+        "Source code": {
+            "value": null,
+            "color": "none"
+        },
+        "Social links": {
+            "value": null,
+            "color": "none"
+        },
+        "Onion address": {
+            "value": null,
+            "color": "none"
+        },
+        "Imprint link": {
+            "value": null,
+            "color": "none"
+        },
+        "Mail security": {
+            "value": "SPF: ~all; DMARC: none; MTA-STS: missing; TLS-RPT: missing; DNSSEC: no; DANE: no",
+            "color": "none"
+        },
+        "Mail servers": {
+            "value": "IMAP | mail.lain.rocks:993 | SSL/TLS\nIMAP software | Dovecot",
+            "color": "none"
+        },
+        "Online since": {
+            "value": "2021-12-12",
+            "color": "none"
+        },
+        "Last checked": {
+            "value": "2026-10-30",
+            "color": "none"
+        }
     }
 ]
