@@ -6,7 +6,9 @@
   0 flag · 1 Domain · 2 2nd domain · 3 A Record · 4 MX Record · 5 created · 6 expires · 7 owner
   8 Intelligence Alliance · 9 Jurisdiction · 10 Site description · 11 ToS · 12 Privacy policy
   13 Email verification · 14 Phone · 15 Price · 16 Personal info · 17 Note
-  18 ToS link · 19 Privacy policy link · 20 Source code (GitHub, GitLab, Codeberg …)
+  From column 18 on, columns are found by their header name:
+  ToS link · Privacy policy link · Source code · Social links · Onion address · Imprint link ·
+  Mail security · Mail servers · Online since · Last checked
 */ -}}
 {{- $out := slice -}}
 {{- $csv := resources.Get "emc/emails.csv" -}}
@@ -42,7 +44,24 @@
 {{- end -}}
 
 {{- $rows := $csv | transform.Unmarshal (dict "delimiter" ",") -}}
+{{- $col := dict -}}
+{{- range $i, $h := index $rows 0 -}}{{- $col = merge $col (dict (strings.TrimSpace $h) $i) -}}{{- end -}}
+{{- /* Mail security checks: value -> colour */ -}}
+{{- $secColors := dict
+  "SPF" (dict "-all" "green" "~all" "yellow" "?all" "red" "+all" "red" "missing" "red")
+  "DMARC" (dict "reject" "green" "quarantine" "yellow" "none" "red" "missing" "red")
+  "MTA-STS" (dict "enforce" "green" "testing" "yellow")
+  "TLS-RPT" (dict "yes" "green")
+  "DNSSEC" (dict "yes" "green")
+  "DANE" (dict "yes" "green")
+-}}
 {{- range $i, $r := after 1 $rows -}}
+  {{- $cell := dict -}}
+  {{- range $name := slice "ToS link" "Privacy policy link" "Source code" "Social links" "Onion address" "Imprint link" "Mail security" "Mail servers" "Online since" "Last checked" -}}
+    {{- $v := "" -}}
+    {{- with index $col $name -}}{{- if gt (len $r) . -}}{{- $v = strings.TrimSpace (index $r .) -}}{{- end -}}{{- end -}}
+    {{- $cell = merge $cell (dict $name $v) -}}
+  {{- end -}}
   {{- $domain := lower (strings.TrimSpace (index $r 1)) -}}
   {{- $st := index $status $domain | default (dict "group" "pending" "dead" false) -}}
   {{- $dead := $st.dead -}}
@@ -93,9 +112,73 @@
 
   {{- $jurisdiction := strings.TrimSpace (index $r 9) -}}
   {{- $links := dict -}}
-  {{- range $col, $key := dict "18" "tosUrl" "19" "privacyUrl" "20" "code" -}}
-    {{- $c := int $col -}}
-    {{- if gt (len $r) $c -}}{{- with strings.TrimSpace (index $r $c) -}}{{- if hasPrefix . "http" -}}{{- $links = merge $links (dict $key .) -}}{{- end -}}{{- end -}}{{- end -}}
+  {{- range $name, $key := dict "ToS link" "tosUrl" "Privacy policy link" "privacyUrl" "Source code" "code" "Imprint link" "imprintUrl" -}}
+    {{- with index $cell $name -}}{{- if hasPrefix . "http" -}}{{- $links = merge $links (dict $key .) -}}{{- end -}}{{- end -}}
+  {{- end -}}
+
+  {{- /* Social accounts: one URL per line; the network is read from the address. */ -}}
+  {{- $social := slice -}}
+  {{- range split (index $cell "Social links") "\n" -}}
+    {{- $u := strings.TrimSpace . -}}
+    {{- if or (hasPrefix $u "http") (hasPrefix $u "xmpp:") -}}
+      {{- $host := lower (replaceRE `^[a-z]+://(?:www\.)?([^/:]+).*$` "$1" $u) -}}
+      {{- $net := "" -}}
+      {{- if hasPrefix $u "xmpp:" -}}{{- $net = "XMPP" -}}
+      {{- else if in (slice "twitter.com" "x.com" "mobile.twitter.com") $host -}}{{- $net = "X" -}}
+      {{- else if eq $host "bsky.app" -}}{{- $net = "Bluesky" -}}
+      {{- else if in (slice "t.me" "telegram.me") $host -}}{{- $net = "Telegram" -}}
+      {{- else if findRE `reddit\.com$` $host -}}{{- $net = "Reddit" -}}
+      {{- else if findRE `facebook\.com$` $host -}}{{- $net = "Facebook" -}}
+      {{- else if eq $host "instagram.com" -}}{{- $net = "Instagram" -}}
+      {{- else if findRE `linkedin\.com$` $host -}}{{- $net = "LinkedIn" -}}
+      {{- else if findRE `youtube\.com$` $host -}}{{- $net = "YouTube" -}}
+      {{- else if findRE `^threads\.` $host -}}{{- $net = "Threads" -}}
+      {{- else if eq $host "tiktok.com" -}}{{- $net = "TikTok" -}}
+      {{- else if in (slice "discord.gg" "discord.com") $host -}}{{- $net = "Discord" -}}
+      {{- else if eq $host "matrix.to" -}}{{- $net = "Matrix" -}}
+      {{- else if findRE `^(github\.com|gitlab\.com|codeberg\.org)$` $host -}}{{- $net = replaceRE `\..*$` "" $host | title -}}
+      {{- else if findRE `/@[^/]+/?$` $u -}}{{- $net = "Mastodon" -}}
+      {{- else -}}{{- $net = $host -}}
+      {{- end -}}
+      {{- $handle := replaceRE `^.*/(?:#/)?` "" (strings.TrimRight "/" $u) -}}
+      {{- if eq $net "XMPP" -}}{{- $handle = strings.TrimPrefix "xmpp:" $u -}}{{- end -}}
+      {{- if eq $net "Matrix" -}}{{- $handle = replaceRE `^.*#/` "" $u -}}{{- end -}}
+      {{- if eq $net "Mastodon" -}}{{- $handle = printf "%s@%s" $handle $host -}}{{- end -}}
+      {{- $social = $social | append (dict "net" $net "url" $u "handle" $handle) -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- /* "SPF: -all; DMARC: reject; …" */ -}}
+  {{- $security := slice -}}
+  {{- range split (index $cell "Mail security") ";" -}}
+    {{- $kv := split . ":" -}}
+    {{- if eq (len $kv) 2 -}}
+      {{- $k := strings.TrimSpace (index $kv 0) -}}{{- $v := strings.TrimSpace (index $kv 1) -}}
+      {{- $c := index (index $secColors $k | default dict) $v | default "none" -}}
+      {{- $security = $security | append (dict "k" $k "v" $v "c" $c) -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- /* "IMAP | imap.example.org:993 | SSL" per line */ -}}
+  {{- $servers := slice -}}
+  {{- range split (index $cell "Mail servers") "\n" -}}
+    {{- $parts := split . "|" -}}
+    {{- if ge (len $parts) 2 -}}
+      {{- $note := "" -}}{{- if gt (len $parts) 2 -}}{{- $note = strings.TrimSpace (index $parts 2) -}}{{- end -}}
+      {{- /* a localhost server means the provider's own bridge app (Proton Mail Bridge and the like) */ -}}
+      {{- if hasPrefix (strings.TrimSpace (index $parts 1)) "127.0.0.1" -}}{{- $note = printf "%s · through the provider's local bridge app" $note -}}{{- end -}}
+      {{- $servers = $servers | append (dict "kind" (strings.TrimSpace (index $parts 0)) "host" (strings.TrimSpace (index $parts 1)) "note" $note) -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- $onion := index $cell "Onion address" -}}
+  {{- if not (findRE `^https?://[a-z2-7]{56}\.onion/?$` $onion) -}}{{- $onion = "" -}}{{- end -}}
+
+  {{- /* Age of the domain in whole years */ -}}
+  {{- $age := "" -}}
+  {{- if findRE `^\d{4}-\d{2}-\d{2}$` $created -}}
+    {{- $days := div (sub now.Unix (time $created).Unix) 86400 -}}
+    {{- $age = div $days 365 -}}
   {{- end -}}
   {{- $out = $out | append (dict
       "n" (add $i 1)
@@ -121,6 +204,14 @@
       "tosUrl" ($links.tosUrl | default "")
       "privacyUrl" ($links.privacyUrl | default "")
       "code" ($links.code | default "")
+      "imprintUrl" ($links.imprintUrl | default "")
+      "social" $social
+      "onion" $onion
+      "security" $security
+      "servers" $servers
+      "since" (index $cell "Online since")
+      "checked" (index $cell "Last checked")
+      "age" $age
       "group" $st.group
       "dead" $dead
       "state" (cond $dead "dead" $st.group)

@@ -7,9 +7,9 @@
 <section class="emc emc-explorer" id="emc-explorer" aria-label="Email providers">
   <div class="emc-toolbar">
     <label class="emc-search">
-      <span class="emc-search-prompt" aria-hidden="true">$ grep</span>
+      <svg class="emc-search-icon" aria-hidden="true" viewBox="0 0 24 24" width="16" height="16"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m20 20-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
       <span class="emc-sr">Search providers</span>
-      <input type="search" data-emc-q placeholder="domain, owner, country…" autocomplete="off" spellcheck="false">
+      <input type="search" data-emc-q placeholder="search: domain, owner, country…" autocomplete="off" spellcheck="false">
       <kbd aria-hidden="true">/</kbd>
     </label>
     <div class="emc-seg" role="group" aria-label="Status">
@@ -68,7 +68,7 @@
           <td class="emc-hide-md">{{ partial "emc/pill.html" (dict "text" (lower .email) "color" .cEmail) }}</td>
           <td class="emc-hide-md">{{ partial "emc/pill.html" (dict "text" (lower .phone) "color" .cPhone) }}</td>
           <td class="emc-hide-md">{{ partial "emc/pill.html" (dict "text" (lower .personal) "color" .cPersonal) }}</td>
-          <td class="emc-hide-sm emc-price">{{ with .price }}{{ $first := strings.TrimSpace (index (split . ";") 0) }}<span title="{{ . }}">{{ $first | truncate 26 }}{{ if strings.Contains . ";" }} <span class="emc-more">+{{ sub (len (split . ";")) 1 }}</span>{{ end }}</span>{{ else }}<span class="emc-na">—</span>{{ end }}</td>
+          <td class="emc-hide-sm emc-price">{{ with .price }}{{ $first := strings.TrimSpace (index (split . ";") 0) }}<span title="{{ . }}">{{ $first }}</span>{{ if strings.Contains . ";" }} <span class="emc-more" title="{{ . }}">+{{ sub (len (split . ";")) 1 }}</span>{{ end }}{{ else }}<span class="emc-na">—</span>{{ end }}</td>
           <td class="emc-hide-lg emc-col-links">
             {{- with .tosUrl }}<a href="{{ . }}" rel="noopener noreferrer nofollow" title="Terms of service">tos</a>{{ end }}
             {{- with .privacyUrl }}<a href="{{ . }}" rel="noopener noreferrer nofollow" title="Privacy policy">privacy</a>{{ end }}

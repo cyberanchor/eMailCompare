@@ -18,6 +18,6 @@ disableSpecial1stPost = true
 # eMailCompare components
 [emc]
   repo = "https://github.com/cyberanchor/eMailCompare"   # the logo in the header links here
-
-[footer]
-  text = "data: [emails.csv](https://github.com/cyberanchor/eMailCompare/blob/main/emails.csv) · [source on GitHub](https://github.com/cyberanchor/eMailCompare)"
+  [emc.author]                                          # last item of the footer line
+    name = "Cyberanchor"
+    url = "https://github.com/cyberanchor"

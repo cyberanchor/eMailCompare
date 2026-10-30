@@ -1,34 +1,18 @@
-{{- /* PaperMod's footer (theme commit 1181196) with the legend of statuses and colours on top. */ -}}
+{{- /* PaperMod's footer (theme commit 1181196): one line "© year eMailCompare · Powered by Hugo & PaperMod · author"
+       on every page, with the legend of statuses and colours above it on the home page. */ -}}
 {{- if not (.Param "hideFooter") }}
 <footer class="footer emc-footer">
-    {{- partial "emc/legend.html" . }}
+    {{- if .IsHome }}{{ partial "emc/legend.html" . }}{{ end }}
     <div class="emc-footer-line">
-    {{- if not site.Params.footer.hideCopyright }}
-        {{- if site.Copyright }}
-        <span>{{ site.Copyright | markdownify }}</span>
-        {{- else }}
         <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
+        <span aria-hidden="true">·</span>
+        <span>Powered by
+        <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo</a> &amp;
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a></span>
+        {{- with site.Params.emc.author }}
+        <span aria-hidden="true">·</span>
+        <a href="{{ .url }}" rel="noopener author">{{ .name }}</a>
         {{- end }}
-        {{- print " · "}}
-    {{- end }}
-
-    {{- with site.Params.footer.text }}
-        {{ . | markdownify }}
-        {{- print " · "}}
-    {{- end }}
-
-    {{/*
-        - The "Powered by Hugo" text is intentionally left at the end of the footer to give it more prominence.
-        - We kindly encourage you to keep this line. Keeping this credit helps open source projects like PaperMod and Hugo reach more people, supports the open source ecosystem, and shows appreciation for the work that goes into these tools.
-        - If you choose to remove it, please consider adding a link to the PaperMod GitHub repository somewhere on your site to give credit to the project and its contributors.
-        - Support us by sponsoring the project on GitHub Sponsors: https://github.com/sponsors/adityatelange
-    */}}
-    
-    <span>
-        Powered by
-        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
     </div>
 </footer>
 {{- end }}
