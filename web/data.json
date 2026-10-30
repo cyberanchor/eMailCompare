@@ -17,7 +17,7 @@
             "color": "none"
         },
         "MX Record": {
-            "value": "mail.protonmail.ch |  🇨🇭 | Switzerland | AS62371 | Proton Technologies AG\nmailsec.protonmail.ch |  🇨🇭 | Switzerland | AS62371 | Proton Technologies AG",
+            "value": "mail.protonmail.ch | 🇨🇭 | Switzerland | AS62371 | Proton Technologies AG\nmailsec.protonmail.ch | 🇨🇭 | Switzerland | AS62371 | Proton Technologies AG",
             "color": "none"
         },
         "Domain crated": {
@@ -175,7 +175,7 @@
             "color": "red"
         },
         "Price": {
-            "value": "free;Base $2.75/month; Entry $3.85/month",
+            "value": "free; Base $2.75/month; Entry $3.85/month",
             "color": "none"
         },
         "Personal Info(first name, last name, adress, etc..)": {
@@ -1429,7 +1429,7 @@
             "color": "red"
         },
         "Price": {
-            "value": "free;",
+            "value": "free",
             "color": "none"
         },
         "Personal Info(first name, last name, adress, etc..)": {
@@ -1613,7 +1613,7 @@
             "color": "none"
         },
         "MX Record": {
-            "value": "mx.poczta.onet.pl | 🇵🇱 | Poland | AS12990 Ringier Axel Springer Polska Sp. z o.o.",
+            "value": "mx.poczta.onet.pl | 🇵🇱 | Poland | AS12990 | Ringier Axel Springer Polska Sp. z o.o.",
             "color": "none"
         },
         "Domain crated": {
@@ -1727,7 +1727,7 @@
             "color": "none"
         },
         "MX Record": {
-            "value": "tls.spamjadoo.com | 🇮🇳 |  India | AS17753 | DATA INGENIOUS GLOBAL LIMITED | Data Infosys Ltd\naspmx.spamjadoo.com | 🇮🇳 |  India | AS17753 | DATA INGENIOUS GLOBAL LIMITED | Data Infosys Ltd\nAspmx1.spamjadoo.com | 🇮🇳 |  India | AS17753 | DATA INGENIOUS GLOBAL LIMITED | Data Infosys Ltd",
+            "value": "tls.spamjadoo.com | 🇮🇳 | India | AS17753 | DATA INGENIOUS GLOBAL LIMITED | Data Infosys Ltd\naspmx.spamjadoo.com | 🇮🇳 | India | AS17753 | DATA INGENIOUS GLOBAL LIMITED | Data Infosys Ltd\nAspmx1.spamjadoo.com | 🇮🇳 | India | AS17753 | DATA INGENIOUS GLOBAL LIMITED | Data Infosys Ltd",
             "color": "none"
         },
         "Domain crated": {
@@ -3091,7 +3091,7 @@
             "color": "none"
         },
         "A Record": {
-            "value": "104.21.94.171 | 🇨🇦 | Canada | AS13335 Cloudflare, Inc.",
+            "value": "104.21.94.171 | 🇨🇦 | Canada | AS13335 | Cloudflare, Inc.",
             "color": "none"
         },
         "MX Record": {
@@ -3323,7 +3323,7 @@
             "color": "none"
         },
         "MX Record": {
-            "value": "custom.cyberfear.com  | 🇵🇱 | Poland | AS16276 | OVH SAS",
+            "value": "custom.cyberfear.com | 🇵🇱 | Poland | AS16276 | OVH SAS",
             "color": "none"
         },
         "Domain crated": {
@@ -3433,11 +3433,11 @@
             "color": "none"
         },
         "A Record": {
-            "value": "173.166.91.11 | 🇺🇸 | United States | AS7922 Comcast Cable Communications, LLC",
+            "value": "173.166.91.11 | 🇺🇸 | United States | AS7922 | Comcast Cable Communications, LLC",
             "color": "none"
         },
         "MX Record": {
-            "value": "mail.pnsh.com | 🇺🇸 | United States | AS7922 Comcast Cable Communications, LLC",
+            "value": "mail.pnsh.com | 🇺🇸 | United States | AS7922 | Comcast Cable Communications, LLC",
             "color": "none"
         },
         "Domain crated": {
@@ -4117,11 +4117,11 @@
             "color": "grey"
         },
         "A Record": {
-            "value": "93.190.126.19 | 🇨🇭 | Switzerland | AS210861 | Open Networks Association \n198.167.222.108 | 🇸🇪 | Sweden | AS39287 | ab stract ltd | 1337 Services LLC \n82.94.249.234 | 🇳🇱 | Netherlands | AS3265 | KPN B.V. | Associazione Investici",
+            "value": "93.190.126.19 | 🇨🇭 | Switzerland | AS210861 | Open Networks Association\n198.167.222.108 | 🇸🇪 | Sweden | AS39287 | ab stract ltd | 1337 Services LLC\n82.94.249.234 | 🇳🇱 | Netherlands | AS3265 | KPN B.V. | Associazione Investici",
             "color": "grey"
         },
         "MX Record": {
-            "value": "mx1.investici.org | 🇨🇭 | Switzerland | AS210861 | Open Networks Association \nmx2.investici.org | 🇸🇪 | Sweden | AS39287 | ab stract ltd | 1337 Services LLC \nMx3.investici.org | 🇳🇱 | Netherlands | AS3265 | KPN B.V. | Associazione Investici",
+            "value": "mx1.investici.org | 🇨🇭 | Switzerland | AS210861 | Open Networks Association\nmx2.investici.org | 🇸🇪 | Sweden | AS39287 | ab stract ltd | 1337 Services LLC\nMx3.investici.org | 🇳🇱 | Netherlands | AS3265 | KPN B.V. | Associazione Investici",
             "color": "grey"
         },
         "Domain crated": {

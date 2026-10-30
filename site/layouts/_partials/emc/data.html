@@ -101,8 +101,9 @@
       {{- if strings.TrimSpace . -}}
         {{- $p := slice -}}
         {{- range $parts -}}{{- $p = $p | append (strings.TrimSpace .) -}}{{- end -}}
+        {{- $org := "" -}}{{- if gt (len $p) 4 -}}{{- $org = delimit (after 4 $p) " | " -}}{{- end -}}
         {{- $p = $p | append "" "" "" "" -}}
-        {{- $list = $list | append (dict "host" (index $p 0) "flag" (index $p 1) "country" (index $p 2) "asn" (index $p 3) "org" (index $p 4)) -}}
+        {{- $list = $list | append (dict "host" (index $p 0) "flag" (index $p 1) "country" (index $p 2) "asn" (index $p 3) "org" $org) -}}
       {{- end -}}
     {{- end -}}
     {{- $records = merge $records (dict (cond (eq $col 3) "a" "mx") $list) -}}
