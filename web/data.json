@@ -2431,7 +2431,7 @@
             "color": "none"
         },
         "Jurisdiction (based on server location)": {
-            "value": "United States",
+            "value": "United Arab Emirates",
             "color": "none"
         },
         "Site description": {
@@ -4141,7 +4141,7 @@
             "color": "grey"
         },
         "Jurisdiction (based on server location)": {
-            "value": "🇨🇭  Switzerland\n 🇸🇪  Sweden\n 🇳🇱  Netherlands",
+            "value": "Italy",
             "color": "grey"
         },
         "Site description": {
@@ -5167,7 +5167,7 @@
             "color": "red"
         },
         "Jurisdiction (based on server location)": {
-            "value": "🇬🇧 United Kingdom\n🇩🇪 Germany",
+            "value": "United Kingdom",
             "color": "none"
         },
         "Site description": {
@@ -6417,11 +6417,11 @@
             "color": "none"
         },
         "Intelligence Alliance": {
-            "value": "Fourteen Eyes (👀 14)",
-            "color": "purple"
+            "value": null,
+            "color": "none"
         },
         "Jurisdiction (based on server location)": {
-            "value": "Spain",
+            "value": "Estonia",
             "color": "none"
         },
         "Site description": {
@@ -6759,11 +6759,11 @@
             "color": "none"
         },
         "Intelligence Alliance": {
-            "value": "Nine Eyes (👀 9)",
-            "color": "yellow"
+            "value": null,
+            "color": "none"
         },
         "Jurisdiction (based on server location)": {
-            "value": "🇨🇭 Switzerland\n🇳🇱 Netherlands",
+            "value": "Switzerland",
             "color": "none"
         },
         "Site description": {
@@ -8241,11 +8241,11 @@
             "color": "none"
         },
         "Intelligence Alliance": {
-            "value": "Nine Eyes (👀 9)",
-            "color": "yellow"
+            "value": null,
+            "color": "none"
         },
         "Jurisdiction (based on server location)": {
-            "value": "France",
+            "value": "Greece",
             "color": "none"
         },
         "Site description": {
@@ -8893,7 +8893,7 @@
     },
     {
         "flag": {
-            "value": "🇭🇺",
+            "value": "🇳🇴",
             "color": "none"
         },
         "Domain": {
@@ -8929,7 +8929,7 @@
             "color": "yellow"
         },
         "Jurisdiction (based on server location)": {
-            "value": "Denmark",
+            "value": "Norway",
             "color": "none"
         },
         "Site description": {
@@ -9271,7 +9271,7 @@
             "color": "yellow"
         },
         "Jurisdiction (based on server location)": {
-            "value": "Denmark",
+            "value": "Norway",
             "color": "none"
         },
         "Site description": {
@@ -9613,7 +9613,7 @@
             "color": "red"
         },
         "Jurisdiction (based on server location)": {
-            "value": "🇩🇪 Germany\n🇳🇱 Netherlands\n🇬🇧 United Kingdom",
+            "value": "United States",
             "color": "none"
         },
         "Site description": {
@@ -9805,7 +9805,7 @@
     },
     {
         "flag": {
-            "value": "🇪🇪",
+            "value": "🇱🇻",
             "color": "none"
         },
         "Domain": {
@@ -9841,7 +9841,7 @@
             "color": "none"
         },
         "Jurisdiction (based on server location)": {
-            "value": "Finland",
+            "value": "Latvia",
             "color": "none"
         },
         "Site description": {
@@ -10033,7 +10033,7 @@
     },
     {
         "flag": {
-            "value": "🇨🇭",
+            "value": "🇬🇧",
             "color": "none"
         },
         "Domain": {
@@ -10061,15 +10061,15 @@
             "color": "none"
         },
         "Company owner": {
-            "value": "🇨🇭 Confidesk Limited",
+            "value": "🇬🇧 Confidesk Limited",
             "color": "none"
         },
         "Intelligence Alliance": {
-            "value": null,
-            "color": "none"
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
         },
         "Jurisdiction (based on server location)": {
-            "value": "Switzerland",
+            "value": "United Kingdom",
             "color": "none"
         },
         "Site description": {
@@ -10639,7 +10639,7 @@
             "color": "none"
         },
         "Jurisdiction (based on server location)": {
-            "value": "Czechia",
+            "value": "Croatia",
             "color": "none"
         },
         "Site description": {
@@ -11319,11 +11319,11 @@
             "color": "none"
         },
         "Intelligence Alliance": {
-            "value": "Fourteen Eyes (👀 14)",
-            "color": "purple"
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
         },
         "Jurisdiction (based on server location)": {
-            "value": "Germany",
+            "value": "United States",
             "color": "none"
         },
         "Site description": {
@@ -11433,11 +11433,11 @@
             "color": "none"
         },
         "Intelligence Alliance": {
-            "value": "Nine Eyes (👀 9)",
-            "color": "yellow"
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
         },
         "Jurisdiction (based on server location)": {
-            "value": "France",
+            "value": "United States",
             "color": "none"
         },
         "Site description": {
@@ -11971,7 +11971,7 @@
     },
     {
         "flag": {
-            "value": "🇳🇱",
+            "value": "🇺🇸",
             "color": "none"
         },
         "Domain": {
@@ -12003,11 +12003,11 @@
             "color": "none"
         },
         "Intelligence Alliance": {
-            "value": "Nine Eyes (👀 9)",
-            "color": "yellow"
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
         },
         "Jurisdiction (based on server location)": {
-            "value": "Netherlands",
+            "value": "United States",
             "color": "none"
         },
         "Site description": {
@@ -12121,7 +12121,7 @@
             "color": "purple"
         },
         "Jurisdiction (based on server location)": {
-            "value": "🇫🇮 Finland\n🇩🇪 Germany",
+            "value": "Germany",
             "color": "none"
         },
         "Site description": {
@@ -12427,7 +12427,7 @@
     },
     {
         "flag": {
-            "value": "🇩🇪",
+            "value": "🇦🇹",
             "color": "none"
         },
         "Domain": {
@@ -12459,11 +12459,11 @@
             "color": "none"
         },
         "Intelligence Alliance": {
-            "value": "Fourteen Eyes (👀 14)",
-            "color": "purple"
+            "value": null,
+            "color": "none"
         },
         "Jurisdiction (based on server location)": {
-            "value": "Germany",
+            "value": "Austria",
             "color": "none"
         },
         "Site description": {
@@ -12915,11 +12915,11 @@
             "color": "none"
         },
         "Intelligence Alliance": {
-            "value": "Nine Eyes (👀 9)",
-            "color": "yellow"
+            "value": "Fourteen Eyes (👀 14)",
+            "color": "purple"
         },
         "Jurisdiction (based on server location)": {
-            "value": "🇩🇪 Germany\n🇳🇱 Netherlands",
+            "value": "Germany",
             "color": "none"
         },
         "Site description": {
@@ -13111,7 +13111,7 @@
     },
     {
         "flag": {
-            "value": "🇮🇹",
+            "value": "🇺🇸",
             "color": "none"
         },
         "Domain": {
@@ -13139,7 +13139,7 @@
             "color": "none"
         },
         "Company owner": {
-            "value": "🇮🇹 Paradise Circus",
+            "value": "🇺🇸 Paradise Circus Inc.",
             "color": "none"
         },
         "Intelligence Alliance": {
@@ -13147,7 +13147,7 @@
             "color": "red"
         },
         "Jurisdiction (based on server location)": {
-            "value": "🇫🇷 France\n🇬🇧 United Kingdom",
+            "value": "United States",
             "color": "none"
         },
         "Site description": {
@@ -13339,7 +13339,7 @@
     },
     {
         "flag": {
-            "value": "🇩🇪",
+            "value": "🇪🇸",
             "color": "none"
         },
         "Domain": {
@@ -13375,7 +13375,7 @@
             "color": "purple"
         },
         "Jurisdiction (based on server location)": {
-            "value": "Germany",
+            "value": "Spain",
             "color": "none"
         },
         "Site description": {
@@ -13453,7 +13453,7 @@
     },
     {
         "flag": {
-            "value": "🇺🇸",
+            "value": "🇬🇧",
             "color": "none"
         },
         "Domain": {
@@ -13489,7 +13489,7 @@
             "color": "red"
         },
         "Jurisdiction (based on server location)": {
-            "value": "United States",
+            "value": "United Kingdom",
             "color": "none"
         },
         "Site description": {
@@ -13909,7 +13909,7 @@
     },
     {
         "flag": {
-            "value": "🇩🇪",
+            "value": "🇨🇭",
             "color": "none"
         },
         "Domain": {
@@ -13941,11 +13941,11 @@
             "color": "none"
         },
         "Intelligence Alliance": {
-            "value": "Fourteen Eyes (👀 14)",
-            "color": "purple"
+            "value": null,
+            "color": "none"
         },
         "Jurisdiction (based on server location)": {
-            "value": "Germany",
+            "value": "Switzerland",
             "color": "none"
         },
         "Site description": {
@@ -14821,7 +14821,7 @@
     },
     {
         "flag": {
-            "value": "🇲🇽",
+            "value": "🇺🇸",
             "color": "none"
         },
         "Domain": {
@@ -14935,7 +14935,7 @@
     },
     {
         "flag": {
-            "value": "🇺🇸",
+            "value": "🇩🇪",
             "color": "none"
         },
         "Domain": {
@@ -14967,11 +14967,11 @@
             "color": "none"
         },
         "Intelligence Alliance": {
-            "value": "Five Eyes (👀 5)",
-            "color": "red"
+            "value": "Fourteen Eyes (👀 14)",
+            "color": "purple"
         },
         "Jurisdiction (based on server location)": {
-            "value": "🇺🇸 United States\n🇩🇪 Germany",
+            "value": "Germany",
             "color": "none"
         },
         "Site description": {
@@ -15619,7 +15619,7 @@
     },
     {
         "flag": {
-            "value": "🇩🇪",
+            "value": "🇪🇸",
             "color": "none"
         },
         "Domain": {
@@ -15655,7 +15655,7 @@
             "color": "purple"
         },
         "Jurisdiction (based on server location)": {
-            "value": "Germany",
+            "value": "Spain",
             "color": "none"
         },
         "Site description": {
@@ -15961,7 +15961,7 @@
     },
     {
         "flag": {
-            "value": "🇨🇭",
+            "value": "🇩🇪",
             "color": "none"
         },
         "Domain": {
@@ -15993,11 +15993,11 @@
             "color": "none"
         },
         "Intelligence Alliance": {
-            "value": null,
-            "color": "none"
+            "value": "Fourteen Eyes (👀 14)",
+            "color": "purple"
         },
         "Jurisdiction (based on server location)": {
-            "value": "Switzerland",
+            "value": "Germany",
             "color": "none"
         },
         "Site description": {
@@ -16107,11 +16107,11 @@
             "color": "none"
         },
         "Intelligence Alliance": {
-            "value": "Five Eyes (👀 5)",
-            "color": "red"
+            "value": null,
+            "color": "none"
         },
         "Jurisdiction (based on server location)": {
-            "value": "🇬🇧 United Kingdom\n🇳🇱 Netherlands",
+            "value": "Israel",
             "color": "none"
         },
         "Site description": {
@@ -16189,7 +16189,7 @@
     },
     {
         "flag": {
-            "value": "🇫🇮",
+            "value": "🇩🇪",
             "color": "none"
         },
         "Domain": {
@@ -16225,7 +16225,7 @@
             "color": "purple"
         },
         "Jurisdiction (based on server location)": {
-            "value": "🇫🇮 Finland\n🇩🇪 Germany",
+            "value": "Germany",
             "color": "none"
         },
         "Site description": {
@@ -16339,7 +16339,7 @@
             "color": "none"
         },
         "Jurisdiction (based on server location)": {
-            "value": "🇨🇿 Czechia\n🇱🇺 Luxembourg",
+            "value": "Czechia",
             "color": "none"
         },
         "Site description": {
@@ -17023,7 +17023,7 @@
             "color": "none"
         },
         "Jurisdiction (based on server location)": {
-            "value": "🇨🇭 Switzerland\n🇫🇮 Finland",
+            "value": "Switzerland",
             "color": "none"
         },
         "Site description": {
@@ -17475,11 +17475,11 @@
             "color": "none"
         },
         "Intelligence Alliance": {
-            "value": "Nine Eyes (👀 9)",
-            "color": "yellow"
+            "value": null,
+            "color": "none"
         },
         "Jurisdiction (based on server location)": {
-            "value": "France",
+            "value": "Greece",
             "color": "none"
         },
         "Site description": {
@@ -17785,7 +17785,7 @@
     },
     {
         "flag": {
-            "value": "🇩🇪",
+            "value": "🇭🇺",
             "color": "none"
         },
         "Domain": {
@@ -17817,11 +17817,11 @@
             "color": "none"
         },
         "Intelligence Alliance": {
-            "value": "Nine Eyes (👀 9)",
-            "color": "yellow"
+            "value": null,
+            "color": "none"
         },
         "Jurisdiction (based on server location)": {
-            "value": "🇩🇪 Germany\n🇳🇱 Netherlands",
+            "value": "Hungary",
             "color": "none"
         },
         "Site description": {
@@ -18697,7 +18697,7 @@
     },
     {
         "flag": {
-            "value": "🇪🇸",
+            "value": "🇺🇸",
             "color": "none"
         },
         "Domain": {
@@ -18725,15 +18725,15 @@
             "color": "none"
         },
         "Company owner": {
-            "value": "🇪🇸 Aster Communications Inc",
+            "value": "🇺🇸 Aster Communications Inc.",
             "color": "none"
         },
         "Intelligence Alliance": {
-            "value": "Fourteen Eyes (👀 14)",
-            "color": "purple"
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
         },
         "Jurisdiction (based on server location)": {
-            "value": "Spain",
+            "value": "United States",
             "color": "none"
         },
         "Site description": {
@@ -18925,7 +18925,7 @@
     },
     {
         "flag": {
-            "value": "🇱🇺",
+            "value": "🇨🇭",
             "color": "none"
         },
         "Domain": {
@@ -18961,7 +18961,7 @@
             "color": "none"
         },
         "Jurisdiction (based on server location)": {
-            "value": "Luxembourg",
+            "value": "Switzerland",
             "color": "none"
         },
         "Site description": {
@@ -19153,7 +19153,7 @@
     },
     {
         "flag": {
-            "value": "🇺🇸",
+            "value": "🇸🇪",
             "color": "none"
         },
         "Domain": {
@@ -19189,7 +19189,7 @@
             "color": "purple"
         },
         "Jurisdiction (based on server location)": {
-            "value": "Germany",
+            "value": "Sweden",
             "color": "none"
         },
         "Site description": {
@@ -19381,7 +19381,7 @@
     },
     {
         "flag": {
-            "value": "🇺🇸",
+            "value": "🇵🇹",
             "color": "none"
         },
         "Domain": {
@@ -19413,11 +19413,11 @@
             "color": "none"
         },
         "Intelligence Alliance": {
-            "value": "Fourteen Eyes (👀 14)",
-            "color": "purple"
+            "value": null,
+            "color": "none"
         },
         "Jurisdiction (based on server location)": {
-            "value": "Germany",
+            "value": "Portugal",
             "color": "none"
         },
         "Site description": {
@@ -19755,11 +19755,11 @@
             "color": "none"
         },
         "Intelligence Alliance": {
-            "value": "Five Eyes (👀 5)",
-            "color": "red"
+            "value": null,
+            "color": "none"
         },
         "Jurisdiction (based on server location)": {
-            "value": "🇳🇱 Netherlands\n🇺🇸 United States",
+            "value": "Greece",
             "color": "none"
         },
         "Site description": {
@@ -20635,7 +20635,7 @@
     },
     {
         "flag": {
-            "value": "🇫🇷",
+            "value": "🇺🇦",
             "color": "none"
         },
         "Domain": {
@@ -20667,11 +20667,11 @@
             "color": "none"
         },
         "Intelligence Alliance": {
-            "value": "Nine Eyes (👀 9)",
-            "color": "yellow"
+            "value": null,
+            "color": "none"
         },
         "Jurisdiction (based on server location)": {
-            "value": "🇫🇷 France\n🇩🇪 Germany",
+            "value": "Ukraine",
             "color": "none"
         },
         "Site description": {
@@ -21661,7 +21661,7 @@
     },
     {
         "flag": {
-            "value": "🇩🇪",
+            "value": "🇸🇪",
             "color": "none"
         },
         "Domain": {
@@ -21697,7 +21697,7 @@
             "color": "purple"
         },
         "Jurisdiction (based on server location)": {
-            "value": "🇩🇪 Germany\n🇫🇮 Finland",
+            "value": "Sweden",
             "color": "none"
         },
         "Site description": {
@@ -21889,7 +21889,7 @@
     },
     {
         "flag": {
-            "value": "🇺🇸",
+            "value": "🇨🇦",
             "color": "none"
         },
         "Domain": {
@@ -21925,7 +21925,7 @@
             "color": "red"
         },
         "Jurisdiction (based on server location)": {
-            "value": "United States",
+            "value": "Canada",
             "color": "none"
         },
         "Site description": {
@@ -23485,7 +23485,7 @@
     },
     {
         "flag": {
-            "value": null,
+            "value": "🇮🇹",
             "color": "none"
         },
         "Domain": {
@@ -23517,11 +23517,11 @@
             "color": "none"
         },
         "Intelligence Alliance": {
-            "value": null,
-            "color": "none"
+            "value": "Fourteen Eyes (👀 14)",
+            "color": "purple"
         },
         "Jurisdiction (based on server location)": {
-            "value": null,
+            "value": "Italy",
             "color": "none"
         },
         "Site description": {
@@ -23745,11 +23745,11 @@
             "color": "none"
         },
         "Intelligence Alliance": {
-            "value": "Five Eyes (👀 5)",
-            "color": "red"
+            "value": null,
+            "color": "none"
         },
         "Jurisdiction (based on server location)": {
-            "value": "Canada",
+            "value": "Mexico",
             "color": "none"
         },
         "Site description": {
@@ -23827,7 +23827,7 @@
     },
     {
         "flag": {
-            "value": null,
+            "value": "🇺🇸",
             "color": "none"
         },
         "Domain": {
@@ -23859,11 +23859,11 @@
             "color": "none"
         },
         "Intelligence Alliance": {
-            "value": null,
-            "color": "none"
+            "value": "Five Eyes (👀 5)",
+            "color": "red"
         },
         "Jurisdiction (based on server location)": {
-            "value": null,
+            "value": "United States",
             "color": "none"
         },
         "Site description": {
@@ -23977,7 +23977,7 @@
             "color": "grey"
         },
         "Jurisdiction (based on server location)": {
-            "value": null,
+            "value": "Argentina",
             "color": "grey"
         },
         "Site description": {
@@ -24283,7 +24283,7 @@
     },
     {
         "flag": {
-            "value": null,
+            "value": "🇮🇹",
             "color": "none"
         },
         "Domain": {
@@ -24315,11 +24315,11 @@
             "color": "none"
         },
         "Intelligence Alliance": {
-            "value": null,
-            "color": "none"
+            "value": "Fourteen Eyes (👀 14)",
+            "color": "purple"
         },
         "Jurisdiction (based on server location)": {
-            "value": null,
+            "value": "Italy",
             "color": "none"
         },
         "Site description": {
@@ -24625,7 +24625,7 @@
     },
     {
         "flag": {
-            "value": "🇩🇪",
+            "value": "🇫🇮",
             "color": "none"
         },
         "Domain": {
@@ -24657,11 +24657,11 @@
             "color": "none"
         },
         "Intelligence Alliance": {
-            "value": "Fourteen Eyes (👀 14)",
-            "color": "purple"
+            "value": null,
+            "color": "none"
         },
         "Jurisdiction (based on server location)": {
-            "value": "Germany",
+            "value": "Finland",
             "color": "none"
         },
         "Site description": {
@@ -24967,7 +24967,7 @@
     },
     {
         "flag": {
-            "value": null,
+            "value": "🇺🇸",
             "color": "grey"
         },
         "Domain": {
@@ -24999,11 +24999,11 @@
             "color": "grey"
         },
         "Intelligence Alliance": {
-            "value": null,
+            "value": "Five Eyes (👀 5)",
             "color": "grey"
         },
         "Jurisdiction (based on server location)": {
-            "value": null,
+            "value": "United States",
             "color": "grey"
         },
         "Site description": {
