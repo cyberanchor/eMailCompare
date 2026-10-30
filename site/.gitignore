@@ -1,5 +1,0 @@
-# Fetched by build.sh at a pinned commit
-themes/
-# Hugo caches
-resources/
-.hugo_build.lock

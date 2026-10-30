@@ -6,6 +6,4 @@ exclude:
   - site/assets
   - site/config
   - site/static
-  - site/themes
-  - site/resources
   - site/build.sh
