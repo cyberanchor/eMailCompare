@@ -69,7 +69,7 @@ body:has(.emc-provider) { --main-width: 1200px; --nav-width: 1200px; }
 .emc-sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .emc-muted, .emc-na { color: var(--emc-muted); }
 .emc-mono { font-family: var(--emc-mono); font-size: .9em; }
-.emc-stats, .emc-explorer, .emc-about, .emc-provider, .emc-home-hero { width: 100%; align-self: stretch; }
+.emc-stats, .emc-explorer, .emc-provider, .emc-home-hero { width: 100%; align-self: stretch; }
 .emc .emc-h3 {
   margin: 0 0 .7rem; padding: 0; border: 0; font-size: .78rem; font-weight: 700; letter-spacing: .04em; text-transform: lowercase; color: var(--emc-muted);
 }
@@ -139,23 +139,6 @@ body:has(.emc-provider) { --main-width: 1200px; --nav-width: 1200px; }
 a.emc-stat:hover { border-color: var(--emc-accent); box-shadow: 0 0 0 1px var(--emc-accent), 0 0 24px -8px var(--emc-glow); }
 .emc-stat-n { font-size: 1.7rem; font-weight: 700; letter-spacing: -.03em; line-height: 1.1; color: var(--emc-accent); text-shadow: 0 0 18px var(--emc-glow); }
 .emc-stat-l { font-size: .8rem; color: var(--emc-muted); }
-
-/* About: overview, criteria, sources in one block */
-.emc-about {
-  display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr) minmax(0, .9fr);
-  margin: 1.6rem 0; background: var(--emc-surface); border: 1px solid var(--emc-border); border-radius: var(--emc-radius);
-  font-size: .86rem; line-height: 1.6;
-}
-.emc-about-col { padding: 1.1rem 1.25rem; min-width: 0; }
-.emc-about-col + .emc-about-col { border-left: 1px dashed var(--emc-border); }
-.emc-about p { margin: 0; color: var(--emc-text); }
-.emc-about dl { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: .28rem 1rem; margin: 0; }
-.emc-about dl > div { display: contents; }
-.emc-about dt { margin: 0; font-weight: 700; color: var(--emc-fg); }
-.emc-about dd { margin: 0; color: var(--emc-muted); }
-.emc .emc-about-sources { display: grid; gap: .28rem; margin: 0; padding: 0; list-style: none; }
-.emc-about-sources li { margin: 0; overflow-wrap: anywhere; }
-.emc-about-sources li::before { content: "→ "; color: var(--emc-muted); }
 
 /* ---------- Provider table ---------- */
 .emc-explorer { margin: 1.6rem 0 2rem; scroll-margin-top: 1rem; }
@@ -246,10 +229,6 @@ a.emc-stat:hover { border-color: var(--emc-accent); box-shadow: 0 0 0 1px var(--
 @media (max-width: 1210px) { .emc .emc-hide-md { display: none; } }
 @media (max-width: 920px) { .emc .emc-hide-sm { display: none; } }
 @media (max-width: 640px) { .emc-explorer .emc-table-wrap { overflow-x: auto; } }
-@media (max-width: 960px) {
-  .emc-about { grid-template-columns: 1fr; }
-  .emc-about-col + .emc-about-col { border-left: 0; border-top: 1px dashed var(--emc-border); }
-}
 @media (max-width: 640px) {
   .emc .emc-table th, .emc .emc-table td { padding: .5rem .55rem; }
   .emc-seg { width: 100%; }
