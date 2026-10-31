@@ -29,7 +29,7 @@
 
 > **Based on:** [email-comparison](https://github.com/Lissy93/email-comparison) by [@Lissy93](https://github.com/Lissy93) | [httpsmail.com](https://www.httpsmail.com/mail/) by [@steley](https://github.com/steley) | [Offshore-CAT](https://offshore.cat/?page=email) | [dismail.de](https://dismail.de/serverlist.html) | [link-base.ms](https://link-base.ms/useful) | [kycnot.me](https://kycnot.me/?categories=email&verification=verified&verification=approved&verification=community) | [monerica.com](https://monerica.com/businesses/email-providers-forwarders)
 
-> **Data:** one YAML file per provider in [`data/providers/`](./data/providers/) ([fields](./data/README.md)), also as [providers.csv](https://cyberanchor.github.io/eMailCompare/site/public/providers.csv) and [providers.json](https://cyberanchor.github.io/eMailCompare/site/public/providers.json)
+> **Data:** every provider store in YAML  [`data/providers/`](./data/providers/) ([fields](./data/README.md)),  [providers.csv](https://cyberanchor.github.io/eMailCompare/site/public/providers.csv), [providers.json](https://cyberanchor.github.io/eMailCompare/site/public/providers.json)
 
 
 
