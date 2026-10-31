@@ -1,6 +1,5 @@
 {{- /* The 28 cells of the old emails.csv for one provider record (data/providers/<domain>.yaml), in the
-       order of the header in home.provcsv.csv. Used by the providers.csv export and by web/data.json.
-       Mirrors to_row() in tools/emcdata.py. */ -}}
+       order of emc/header.html. Used by the providers.csv export. Mirrors to_row() in tools/emcdata.py. */ -}}
 {{- $r := . -}}
 {{- $rec := dict -}}
 {{- range $k := slice "a" "mx" -}}

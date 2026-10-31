@@ -1,7 +1,7 @@
 # Provider data
 
-One YAML file per provider: [`providers/<domain>.yaml`](providers/). The site, the old table in `web/`
-and the README tables are built from these files.
+One YAML file per provider: [`providers/<domain>.yaml`](providers/). The site and the README tables
+are built from these files.
 
 Downloads built from the same files: [providers.csv](https://cyberanchor.github.io/eMailCompare/site/public/providers.csv)
 (the column layout of the former `emails.csv`) and

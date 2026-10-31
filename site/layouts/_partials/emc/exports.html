@@ -1,9 +1,6 @@
 {{- /* Downloads next to the pages, published as files (so --minify leaves them as written):
        providers.csv   every provider in the column layout of the old emails.csv, every field quoted
        providers.json  the records as they are in data/providers/, in "order"
-       data.json       the old table in web/ (build.sh copies it there): {"<column>": {"value": <cell or null>,
-                       "color": …}} with that table's colour rules (struck out = grey), laid out the way Python's
-                       json.dumps(indent=4, ensure_ascii=False) wrote it before, so diffs stay small
        Called once from the home page. */ -}}
 {{- $recs := partialCached "emc/records.html" . "emc-records" -}}
 {{- $header := partial "emc/header.html" . -}}
@@ -19,32 +16,3 @@
 {{- (resources.FromString "providers.csv" (printf "%s\n" (delimit $lines "\n"))).Publish -}}
 
 {{- (resources.FromString "providers.json" (printf "%s\n" (jsonify (dict "indent" "  " "noHTMLEscape" true) $recs))).Publish -}}
-
-{{- $keys := slice -}}
-{{- range $header -}}{{- $keys = $keys | append (replace . "\n" "") -}}{{- end -}}
-{{- $opt := dict "noHTMLEscape" true -}}
-{{- $entries := slice -}}
-{{- range $r := $recs -}}
-  {{- $cells := partial "emc/row.html" $r -}}
-  {{- $fields := slice -}}
-  {{- range $i, $k := $keys -}}
-    {{- $v := index $cells $i -}}
-    {{- $lv := lower $v -}}
-    {{- $c := "none" -}}
-    {{- if $r.dead -}}{{- $c = "grey" -}}
-    {{- else if and (eq $k "Domain crated") $v -}}
-      {{- $y := int (substr $v 0 4) -}}{{- if le $y 2010 -}}{{- $c = "green" -}}{{- else if ge $y 2021 -}}{{- $c = "red" -}}{{- end -}}
-    {{- else if eq $k "Intelligence Alliance" -}}
-      {{- if hasPrefix $lv "five eyes" -}}{{- $c = "red" -}}{{- else if hasPrefix $lv "nine eyes" -}}{{- $c = "yellow" -}}{{- else if hasPrefix $lv "fourteen eyes" -}}{{- $c = "purple" -}}{{- end -}}
-    {{- else if eq $k "Email(receive a verification link)" -}}{{- $c = index (dict "yes" "yellow" "no" "red") $lv | default "none" -}}
-    {{- else if eq $k "Phone(receive s sms code)" -}}{{- $c = index (dict "optional" "green" "no" "red" "yes" "yellow") $lv | default "none" -}}
-    {{- else if eq $k "Personal Info(first name, last name, adress, etc..)" -}}{{- $c = index (dict "yes" "red" "no" "green" "optional" "yellow") $lv | default "none" -}}
-    {{- end -}}
-    {{- $value := cond (eq $v "") "null" (jsonify $opt $v) -}}
-    {{- $fields = $fields | append (printf "        %s: {\n            \"value\": %s,\n            \"color\": %s\n        }" (jsonify $opt $k) $value (jsonify $opt $c)) -}}
-  {{- end -}}
-  {{- $entries = $entries | append (printf "    {\n%s\n    }" (delimit $fields ",\n")) -}}
-{{- end -}}
-{{- $json := "[]\n" -}}
-{{- with $entries -}}{{- $json = printf "[\n%s\n]\n" (delimit . ",\n") -}}{{- end -}}
-{{- (resources.FromString "data.json" $json).Publish -}}

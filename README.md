@@ -313,25 +313,6 @@ Email services awaiting manual account registration and subsequent testing.
 | ❌      | lain.rocks              | 🇫🇷   |
 
 
-
-<!--
-## 💻 Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/cyberanchor/eMailCompare
-   cd eMailCompare/web
-   ```
-
-2. **Run locally**:
-   ```bash
-   sudo npm install -g http-server
-   http-server .
-   ```
-   Access at `http://localhost:8080`.
--->
-
-
 ## Contributors
 
 <a href="https://github.com/cyberanchor/eMailCompare/graphs/contributors">
