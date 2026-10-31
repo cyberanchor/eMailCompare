@@ -1,0 +1,37 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 17
+domain: topmail.kz
+status: checked
+flag: 🇰🇿
+a:
+- {host: '185.97.115.26', flag: 🇰🇿, country: Kazakhstan, asn: AS200590, org: NLS Kazakhstan LLC}
+mx:
+- {host: pro.topmail.kz, flag: 🇰🇿, country: Kazakhstan, asn: AS200590, org: NLS Kazakhstan LLC}
+created: '2015-04-22'
+expires: '2027-04-22'
+owner: 🇰🇿 ТОО “РайтБайтс”
+jurisdiction:
+- Kazakhstan
+description: |-
+  TOPMAIL.kz - Почта, интересная информация
+  Почта, интересная информация регистрация почты, бесплатная почта, халявная почта, казахстанская почта, казахская почта, создать почту, получить почту
+tos_summary: Illegal actions (per Kazakh law or international norms); violating IP/author rights; spam; impersonation; sending viruses/malware; harmful, threatening, or discriminatory content; disrupting service
+privacy_summary: Collect personal data (name, surname, gender, additional email), IP address for stats. Stored in Kazakhstan by TOO "RightBytes". Shared only with Kazakh authorities if legally required.
+email: optional
+phone: 'no'
+personal: 'yes'
+price:
+- free
+note: 'TopMail.kz is a free email service from Kazakhstan, provided by TOO "RightBytes". It operates via a web interface at topmail.kz, offering users addresses in the format username@topmail.kz and a mailbox for storing messages. The service focuses on simplicity: registration involves filling out a form with basic details, followed by access using a login and password. It supports core email functions like sending and receiving messages but does not mention IMAP/SMTP support or mobile apps. Security & Anonymity: TopMail.kz claims to protect data with organizational and technical measures, but specific methods (e.g., SSL or end-to-end encryption) are not detailed, leaving its security level unclear. Password security (recommended at least 8 characters with numbers and symbols) is the user’s responsibility, and its loss poses risks. Anonymity is limited: registration requires name, surname, gender, and an additional email, while IP addresses are collected for stats. Data is stored in Kazakhstan and shared only with authorities if legally required, with no mention of advertising partners or third parties, offering better privacy than services like Gmail. However, the lack of encryption and mandatory personal data reduces anonymity. The privacy policy was last updated on July 31, 2017. TopMail.kz is suitable for basic correspondence, local communication in Kazakhstan, or registering on sites where high confidentiality isn’t needed. It’s a straightforward option for users who value minimalism and the absence of ad-related data sharing, as well as those comfortable with Kazakhstan’s jurisdiction. However, due to unclear security and required personal details, it’s not ideal for anonymous use or highly private correspondence (unlike Proton Mail or Tutanota). It’s best for everyday tasks with moderate security needs.'
+links:
+  tos: https://topmail.kz/user-agreement
+  privacy: https://topmail.kz/privacy
+security:
+  spf: -all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2005-03-26'
+last_checked: '2026-10-30'

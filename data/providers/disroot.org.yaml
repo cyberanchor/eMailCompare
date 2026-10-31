@@ -1,0 +1,40 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 36
+domain: disroot.org
+status: checked
+flag: 🇳🇱
+a:
+- {host: '178.21.23.139', flag: 🇳🇱, country: Netherlands, asn: AS50673, org: Serverius Holding B.V.}
+mx:
+- {host: disroot.org, flag: 🇳🇱, country: Netherlands, asn: AS50673, org: Serverius Holding B.V.}
+created: '2015-06-07'
+expires: '2027-06-07'
+owner: 🇳🇱 Stichting Disroot.org
+alliance: 9
+jurisdiction:
+- Netherlands
+description: |-
+  Home | Disroot.org
+  Disroot is a platform providing online services based on principles of freedom, privacy, federation and decentralization.
+tos_summary: Spam; harassment; abuse; intolerance/violence; illegal acts; commercial use; copyright violation; doxing
+privacy_summary: Collect email (temp/optional), username/password, activity logs (24h), user content. Encrypted where possible. Share only for federation.
+email: 'yes'
+phone: 'no'
+personal: 'no'
+price:
+- free
+note: '### Description of Disroot Email in English  **Disroot** is a platform provided by the non-profit organization Stichting Disroot.org (Netherlands), featuring an email service (https://webmail.disroot.org) among other tools for communication and collaboration. Disroot focuses on privacy, freedom, and ethical use of technology based on free and open-source software.  **Security & Anonymity:** Disroot offers a high level of privacy through minimal data collection and a strict protection policy. Account creation requires only a temporary email (deleted after approval unless kept for recovery), a username, and a password. Activity logs (IP, actions) are stored for just 24 hours and not archived, minimizing traces. Emails are stored on servers in the Netherlands unencrypted by default, but users can apply GnuPG/PGP for end-to-end encryption. Data transmission is secured with SSL/TLS, and servers use disk encryption. Data isn’t sold or shared with third parties, except as required by federated services (e.g., sending an email to Gmail reveals the recipient’s address). Full anonymity isn’t guaranteed due to email’s federated nature and lack of built-in encryption—using VPN/Tor and self-encrypting emails is recommended for maximum protection. Losing a password results in irreversible access loss, as Disroot doesn’t hold master keys.  **Use Cases:** Disroot is suitable for users who value privacy, free speech, and a non-commercial approach to technology. It’s a good fit for: - Ethical correspondence with minimal tracking (especially with PGP encryption). - Activists, communities, or individuals avoiding corporate ecosystems and ads. - Those wanting to integrate email with other open services (Nextcloud, XMPP). It’s not suitable for commercial purposes (strictly prohibited), highly sensitive data without encryption, or users needing simplicity (requires technical awareness for optimal security). Disroot is ideal for open-source enthusiasts, small groups, or those willing to take security into their own hands within Dutch jurisdiction and GDPR compliance.'
+onion: http://j4dhkkxfcsvzvh3p5djkmuehhgd6t6l7wmzih6b4ss744hegwkiae7ad.onion/
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: enforce
+  tls_rpt: 'yes'
+  dnssec: 'yes'
+  dane: 'yes'
+servers:
+- {kind: IMAP, host: 'disroot.org:993', note: SSL/TLS}
+- {kind: SMTP, host: 'disroot.org:465', note: TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2016-03-10'
+last_checked: '2026-10-30'

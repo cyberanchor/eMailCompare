@@ -1,0 +1,43 @@
+{{- /* The 28 cells of the old emails.csv for one provider record (data/providers/<domain>.yaml), in the
+       order of the header in home.provcsv.csv. Used by the providers.csv export and by web/data.json.
+       Mirrors to_row() in tools/emcdata.py. */ -}}
+{{- $r := . -}}
+{{- $rec := dict -}}
+{{- range $k := slice "a" "mx" -}}
+  {{- $l := slice -}}
+  {{- range index $r $k -}}
+    {{- $l = $l | append (delimit (slice (.host | default "") (.flag | default "") (.country | default "") (.asn | default "") (.org | default "")) " | ") -}}
+  {{- end -}}
+  {{- $rec = merge $rec (dict $k (string (delimit $l "\n"))) -}}
+{{- end -}}
+{{- $links := $r.links | default dict -}}
+{{- $sec := slice -}}
+{{- range slice (slice "spf" "SPF") (slice "dmarc" "DMARC") (slice "mta_sts" "MTA-STS") (slice "tls_rpt" "TLS-RPT") (slice "dnssec" "DNSSEC") (slice "dane" "DANE") -}}
+  {{- $name := index . 1 -}}
+  {{- with index ($r.security | default dict) (index . 0) -}}{{- $sec = $sec | append (printf "%s: %s" $name .) -}}{{- end -}}
+{{- end -}}
+{{- $servers := slice -}}
+{{- range $r.servers -}}
+  {{- $p := slice .kind .host -}}
+  {{- with .note -}}{{- $p = $p | append . -}}{{- end -}}
+  {{- $servers = $servers | append (delimit $p " | ") -}}
+{{- end -}}
+{{- $alliance := "" -}}
+{{- with $r.alliance -}}{{- $alliance = index (dict "5" "Five Eyes (👀 5)" "9" "Nine Eyes (👀 9)" "14" "Fourteen Eyes (👀 14)") (string .) -}}{{- end -}}
+{{- $join := dict
+  "domains" (string (delimit ($r.domains | default slice) "\n"))
+  "jurisdiction" (string (delimit ($r.jurisdiction | default slice) "\n"))
+  "price" (string (delimit ($r.price | default slice) "; "))
+  "social" (string (delimit ($r.social | default slice) "\n"))
+  "security" (string (delimit $sec "; "))
+  "servers" (string (delimit $servers "\n"))
+-}}
+{{- return slice
+  ($r.flag | default "") $r.domain $join.domains $rec.a $rec.mx
+  ($r.created | default "") ($r.expires | default "") ($r.owner | default "") $alliance $join.jurisdiction
+  ($r.description | default "") ($r.tos_summary | default "") ($r.privacy_summary | default "")
+  ($r.email | default "") ($r.phone | default "") $join.price ($r.personal | default "") ($r.note | default "")
+  ($links.tos | default "") ($links.privacy | default "") ($links.code | default "") $join.social
+  ($r.onion | default "") ($links.imprint | default "") $join.security $join.servers
+  ($r.online_since | default "") ($r.last_checked | default "")
+-}}

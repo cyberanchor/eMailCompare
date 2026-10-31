@@ -1,0 +1,49 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 11
+domain: inbox.eu
+status: checked
+flag: 🇱🇻
+domains:
+- mail.ee
+- inbox.vg
+- inbox.lt
+- Inbox.lv
+- inbox.la
+a:
+- {host: '195.216.236.55', flag: 🇱🇻, country: Latvia, asn: AS12993, org: SIA Digitalas Ekonomikas Attistibas Centrs | SIA INBOKSS}
+mx:
+- {host: mx-in.inbox.eu, flag: 🇱🇻, country: Latvia, asn: AS12993, org: Sabiedriba ar ierobezotu atbildibu DELSKA Latvia}
+created: '2006-03-20'
+owner: 🇱🇻 SIA "INBOKSS"
+jurisdiction:
+- Latvia
+description: |-
+  Email solution for your business- domain e-mail — Inbox.eu
+  Privacy and security oriented email with synced contacts, calendar and file storage
+tos_summary: Illegal content (threats, defamation, obscenity), spam, viruses, harassment, IP/copyright violations, unauthorized ads, disrupting service, collecting others' data
+privacy_summary: Collect name, surname, birth date, gender, IP, login time, location (via IP), payment info (bank/PayPal, no card), cookies, contacts, third-party data. Store in Latvia. Share with ad partners (e.g., Google, AD BOX), legal requests.
+email: 'yes'
+phone: optional
+personal: required
+price:
+- free
+note: 'NBOX is an email service from the Latvian company SIA "INBOKSS," offering a free version (Inbox Mail) with ads and a paid version (Inbox PREMIUM) with increased mailbox size and no ads. It supports basic features: sending/receiving emails, contact synchronization, and integration with other email services. It also includes file storage (Inbox Files). Suitable for everyday communication and data storage. Security & Anonymity: Utilizes SSL encryption for data transmission and two-factor authentication (2FA) for login, providing a basic level of security. However, it lacks end-to-end encryption, leaving email content vulnerable to interception or access by the service. Anonymity is low: personal data (name, surname, birth date, gender, IP, location, contacts) is collected and shared with ad partners (Google, AD BOX) for personalized ads and with authorities upon request. Data is stored in Latvia, subject to local laws and GDPR, but third-party access isn’t ruled out. Ideal for simple communication, temporary registrations, or storing non-sensitive data, especially in the free version. The paid PREMIUM version removes ads and adds features but doesn’t enhance privacy. Not recommended for confidential correspondence—it falls behind Proton Mail or Tutanota due to weak anonymity and lack of full content protection. Perfect for users needing basic email functionality with minimal costs.'
+links:
+  tos: https://help.inbox.eu/terms-of-service-inbox-eu
+  privacy: https://www.inbox.eu/en/email-privacy-features/
+social:
+- https://www.facebook.com/Inbox.eu
+- https://www.linkedin.com/company/inbox-eu
+security:
+  spf: ~all
+  dmarc: quarantine
+  mta_sts: testing
+  tls_rpt: 'yes'
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.inbox.eu:993', note: SSL/TLS}
+- {kind: POP3, host: 'mail.inbox.eu:995', note: SSL/TLS}
+- {kind: SMTP, host: 'mail.inbox.eu:587', note: STARTTLS}
+online_since: '2006-12-02'
+last_checked: '2026-10-30'

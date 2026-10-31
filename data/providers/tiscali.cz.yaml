@@ -1,0 +1,45 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 144
+domain: tiscali.cz
+status: auto
+flag: 🇨🇿
+a:
+- {host: '109.123.210.26', flag: 🇨🇿, country: Czechia, asn: AS15685, org: CASABLANCA INT a.s.}
+- {host: '77.78.119.119', flag: 🇨🇿, country: Czechia, asn: AS15685, org: CASABLANCA INT a.s.}
+mx:
+- {host: tax.virusfree.cz, flag: 🇨🇿, country: Czechia, asn: AS21430, org: WIA spol. s.r.o.}
+- {host: tbx.virusfree.cz, flag: 🇨🇿, country: Czechia, asn: AS21430, org: WIA spol. s.r.o.}
+- {host: tcx.spamfree.cz, flag: 🇱🇺, country: Luxembourg, asn: AS5577, org: root SA}
+- {host: tdx.spamfree.cz, flag: 🇱🇺, country: Luxembourg, asn: AS5577, org: root SA}
+created: '2000-06-23'
+expires: '2027-06-22'
+owner: 🇨🇿 TISCALI MEDIA, a.s.
+jurisdiction:
+- Czechia
+description: |-
+  Tiscali.cz - Zprávy, Finance, Sport, Magazín
+  Zpravodajství z domova a ze světa, počasí, sport a celebrity. Na Tiscali.cz najdete i finance, cestování a hry. Známý a používaný je i e-mail zdarma.
+privacy_summary: |-
+  Collect IP addresses, cookies, GDPR
+  https://reg.tiscali.cz/privacy-policy
+price:
+- free
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://reg.tiscali.cz/vop-policy
+  privacy: https://reg.tiscali.cz/privacy-policy
+social:
+- https://www.facebook.com/tiscali.cz
+- https://twitter.com/tiscali_cz
+security:
+  spf: missing
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'yes'
+servers:
+- {kind: POP3, host: 'pop3.mail.tiscali.cz:110', note: plain}
+- {kind: SMTP, host: 'smtp.mail.tiscali.cz:25', note: plain}
+online_since: '2001-05-19'
+last_checked: '2026-10-30'

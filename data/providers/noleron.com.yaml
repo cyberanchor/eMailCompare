@@ -1,0 +1,38 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 182
+domain: noleron.com
+status: auto
+flag: 🇺🇦
+a:
+- {host: '91.245.76.29', flag: 🇺🇦, country: Ukraine, asn: AS49824, org: PC "Astra-net"}
+mx:
+- {host: aspmx1.migadu.com, flag: 🇫🇷, country: France, asn: AS16276, org: OVH SAS}
+- {host: aspmx2.migadu.com, flag: 🇩🇪, country: Germany, asn: AS16276, org: OVH SAS}
+created: '2019-08-24'
+expires: '2027-08-24'
+jurisdiction:
+- Ukraine
+description: |-
+  noleron.com
+  Convenient online services available to everyone.
+tos_summary: |-
+  Illegal actions (spam, hacking), harassment, commercial use
+  https://noleron.com/rules/
+privacy_summary: |-
+  Data/logs kept 30 days, no tracking (claimed), no ads (claimed), no third-party sharing (claimed)
+  https://noleron.com/privacy/
+price:
+- donations
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Mail servers belong to Migadu. Webmail: https://mail.noleron.com/ (Roundcube). Mail DNS: SPF, DMARC p=quarantine. Site mentions: accepts cryptocurrency.'
+links:
+  tos: https://noleron.com/rules/
+  privacy: https://noleron.com/privacy/
+security:
+  spf: -all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2021-12-11'
+last_checked: '2026-10-30'

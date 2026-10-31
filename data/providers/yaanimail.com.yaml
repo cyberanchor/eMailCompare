@@ -1,0 +1,33 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 108
+domain: yaanimail.com
+status: auto
+flag: 🇹🇷
+a:
+- {host: '176.235.19.84', flag: 🇹🇷, country: Turkey, asn: AS34984, org: Superonline Iletisim Hizmetleri A.S.}
+mx:
+- {host: mx.yaanimail.com, flag: 🇹🇷, country: Turkey, asn: AS34984, org: Superonline Iletisim Hizmetleri A.S.}
+created: '2017-10-26'
+expires: '2029-10-26'
+owner: 🇹🇷 Turktell Bilişim Servisleri A.Ş.
+jurisdiction:
+- Turkey
+description: |-
+  Bireysel E-Posta Hizmeti | YaaniMail
+  YaaniMail ile güvenli, reklamsız ve yerli e-posta deneyimi yaşayın. Verileriniz Türkiye’de güvende, gizliliğiniz ön planda. Hemen ücretsiz kaydolun!
+privacy_summary: 'No mail-specific policy: the link opens Turkcell''s general information-security policy (Turkish).'
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://static.yaanimail.com/terms?lang=tr
+  privacy: https://www.turkcell.com.tr/tr/gizlilik-ve-guvenlik?page=bilgi-guvenligi
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.yaanimail.com:993', note: SSL/TLS}
+online_since: '2013-04-01'
+last_checked: '2026-10-30'

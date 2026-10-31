@@ -1,0 +1,34 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 113
+domain: webmail.schokokeks.org
+status: auto
+flag: 🇩🇪
+domains:
+- schokokeks.org
+a:
+- {host: '178.63.68.96', flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+mx:
+- {host: zucker.schokokeks.org, flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+created: '2004-06-04'
+expires: '2027-06-04'
+owner: 🇩🇪 schokokeks.org GbR
+alliance: 14
+jurisdiction:
+- Germany
+description: schokokeks.org E-Mail
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. MX taken from schokokeks.org.
+links:
+  tos: https://schokokeks.org/agb
+  privacy: https://schokokeks.org/datenschutz
+security:
+  spf: missing
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'zucker.schokokeks.org:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2013-06-30'
+last_checked: '2026-10-30'

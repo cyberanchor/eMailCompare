@@ -1,0 +1,27 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 133
+domain: netux.org
+status: auto
+flag: 🇨🇭
+a:
+- {host: '82.195.239.51', flag: 🇨🇭, country: Switzerland, asn: AS1836, org: green.ch AG}
+mx:
+- {host: vulcanus.eurisco.ch, flag: 🇨🇭, country: Switzerland, asn: AS1836, org: green.ch AG}
+created: '2009-03-01'
+expires: '2027-03-01'
+jurisdiction:
+- Switzerland
+description: index.html
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+security:
+  spf: missing
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.netux.org:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2009-06-05'
+last_checked: '2026-10-30'

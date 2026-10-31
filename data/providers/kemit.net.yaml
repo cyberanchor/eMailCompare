@@ -1,0 +1,36 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 127
+domain: kemit.net
+status: auto
+flag: 🇺🇸
+a:
+- {host: '192.145.239.30', flag: 🇺🇸, country: United States, asn: AS22611, org: 'InMotion Hosting, Inc.'}
+mx:
+- {host: mail.kemit.net, flag: 🇺🇸, country: United States, asn: AS22611, org: 'InMotion Hosting, Inc.'}
+created: '2005-11-07'
+expires: '2027-11-07'
+owner: 🇺🇸 ProSmart-it
+alliance: 5
+jurisdiction:
+- United States
+description: |-
+  Kemit Company
+  Kemit is a professional private enterprise company. We have been providing animal nutrition solution for more than a decade now; mainly poultry in addition to L
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+social:
+- https://www.facebook.com/KemitCompanyOfficialPage
+- https://www.youtube.com/channel/UCHJZMZ--1pDhbMx6m2wS3Dw
+security:
+  spf: ~all
+  dmarc: reject
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: POP3, host: 'mail.kemit.net:995', note: SSL/TLS}
+- {kind: SMTP, host: 'mail.kemit.net:465', note: SSL/TLS}
+- {kind: IMAP, host: 'mail.kemit.net:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2000-03-04'
+last_checked: '2026-10-30'

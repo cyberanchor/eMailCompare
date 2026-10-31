@@ -1,0 +1,35 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 150
+domain: xiala.net
+status: auto
+flag: 🇨🇭
+a:
+- {host: '82.197.186.253', flag: 🇨🇭, country: Switzerland, asn: AS13030, org: Init7 (Switzerland) Ltd.}
+mx:
+- {host: email.xiala.net, flag: 🇨🇭, country: Switzerland, asn: AS13030, org: Init7 (Switzerland) Ltd.}
+- {host: nixla.xiala.net, flag: 🇫🇮, country: Finland, asn: AS24940, org: Hetzner Online GmbH}
+created: '2004-09-20'
+expires: '2027-09-20'
+jurisdiction:
+- Switzerland
+description: |-
+  news/status — xiala.net
+  IG Xiala — digitale Freiräume seit 2003
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'yes'
+servers:
+- {kind: IMAP, host: 'email.xiala.net:993', note: SSL/TLS}
+- {kind: IMAP, host: 'email.xiala.net:143', note: STARTTLS}
+- {kind: POP3, host: 'email.xiala.net:995', note: SSL/TLS}
+- {kind: POP3, host: 'email.xiala.net:110', note: STARTTLS}
+- {kind: SMTP, host: 'email.xiala.net:465', note: SSL/TLS}
+- {kind: SMTP, host: 'email.xiala.net:587', note: STARTTLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2004-11-27'
+last_checked: '2026-10-30'

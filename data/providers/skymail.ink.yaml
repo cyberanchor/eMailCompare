@@ -1,0 +1,30 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 145
+domain: skymail.ink
+status: auto
+flag: 🇨🇳
+a:
+- {host: '172.67.69.226', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '104.26.8.44', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: route2.mx.cloudflare.net, flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: route3.mx.cloudflare.net, flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: route1.mx.cloudflare.net, flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+created: '2025-04-23'
+expires: '2027-04-23'
+alliance: 5
+jurisdiction:
+- Canada
+description: |-
+  Cloud Mail
+  Cloud Mail 是一个 Serverless 响应式邮箱服务，支持邮件发送，可部署到 Cloudflare 平台，降低服务器成本。Cloud Mail is a serverless responsive email service that supports email sending and can be deployed on Cloudflare to reduce server costs.
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+security:
+  spf: ~all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'yes'
+online_since: '2025-01-11'
+last_checked: '2026-10-30'

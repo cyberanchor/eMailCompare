@@ -1,0 +1,42 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 235
+domain: countermail.com
+status: pending
+flag: 🇸🇪
+a:
+- {host: '104.26.10.73', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '104.26.11.73', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: db1.countermail.com, flag: 🇸🇪, country: Sweden, asn: AS51701, org: Adminor Aktiebolag}
+created: '2008-05-11'
+expires: '2028-05-11'
+alliance: 14
+jurisdiction:
+- Sweden
+description: |-
+  CounterMail - protecting your privacy - encrypted pgp email webmail
+  The world's most secure web based email service
+tos_summary: |-
+  Illegal actions (spam, hacking), IP violation, commercial use
+  https://countermail.com/?p=terms
+privacy_summary: |-
+  No IP logging (claimed), encryption
+  https://countermail.com/?p=privacy
+price:
+- free
+note: 'Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Domain registration dates from 2008-05-11, but the Wayback Machine has captures since 2002-09-21: the domain was registered before, possibly by someone else. IMAP server imap.countermail.com:993 answers (Dovecot). Webmail: https://webmail.countermail.com/ (Roundcube). Mail DNS: SPF, DMARC p=quarantine, DANE, DNSSEC. Site mentions: invite-only, accepts cryptocurrency, PGP/E2E encryption.'
+links:
+  tos: https://countermail.com/?p=terms
+  privacy: https://countermail.com/?p=privacy
+security:
+  spf: ~all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'yes'
+servers:
+- {kind: IMAP, host: 'imap.countermail.com:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2002-09-21'
+last_checked: '2026-10-30'

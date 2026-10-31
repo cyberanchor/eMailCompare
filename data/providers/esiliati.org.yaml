@@ -1,0 +1,37 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 91
+domain: esiliati.org
+status: auto
+flag: 🇦🇹
+a:
+- {host: '91.244.70.128', flag: 🇦🇹, country: Austria, asn: AS215120, org: Evolus IT Solutions GmbH}
+- {host: '95.217.86.168', flag: 🇫🇮, country: Finland, asn: AS24940, org: Hetzner Online GmbH}
+mx:
+- {host: freon.esiliati.org, flag: 🇦🇹, country: Austria, asn: AS215120, org: Evolus IT Solutions GmbH}
+created: '2012-07-03'
+expires: '2027-07-03'
+jurisdiction:
+- Austria
+description: esiliati.org
+privacy_summary: |-
+  No IP logging (claimed), third parties, encryption
+  https://esiliati.org/segreti/
+price:
+- free
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  privacy: https://esiliati.org/segreti
+social:
+- xmpp:ciurma@esiliati.org
+- https://mastodon.bida.im/@esiliati
+security:
+  spf: redirect
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.esiliati.org:993', note: SSL/TLS}
+online_since: '2016-06-11'
+last_checked: '2026-10-30'

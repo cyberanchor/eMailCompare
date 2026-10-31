@@ -1,0 +1,49 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 8
+domain: skymail.de
+status: checked
+flag: 🇩🇪
+domains:
+- skymail.de
+- skymail.at
+- maills.de
+- maills.ch
+- maills.net
+- Hemail.de
+a:
+- {host: '144.76.234.83', flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+mx:
+- {host: mx1.skymail.de, flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+owner: 🇩🇪 Emailn.de — Freemail (Freemail.biz Media)
+alliance: 14
+jurisdiction:
+- Germany
+description: |-
+  Kostenlose E-Mail – Skymail.de
+  Kostenlose E-Mail Adresse von Skymail. Jetzt anonym ohne Klarnamen einrichten und sicher mailen.
+tos_summary: Illegal actions (spam, mass emails), violating German law, unauthorized account access by third parties
+privacy_summary: Collect IP, personal data (from registration/contact forms), usage data, cookies (with ads). Store in Germany. Share with ad partners (Refinery89), legal requests.
+email: 'yes'
+phone: optional
+personal: optional
+price:
+- Free
+- '8,00 EUR'
+- '15,90 EUR'
+- '28,90 EUR'
+note: 'skymail.de is a German email service by Emailn.de (Norbert Sehm), offering webmail with basic features. It includes a free ad-supported version and paid plans (ECO, ULTRA) without ads. Suitable for simple communication and basic tasks. Security & Anonymity: Uses SSL/TLS encryption for data transmission, but lacks end-to-end encryption, limiting content protection. Anonymity is low in the free version: IP addresses and personal data from registration are collected and shared with ad partners (Refinery89). Paid plans offer slightly more privacy by avoiding external cookies, but data is still stored in Germany and subject to legal disclosure. Good for casual personal use or temporary correspondence. The free version suits those unbothered by ads and minimal privacy; paid plans work for basic email without heavy tracking. Not for confidential purposes—falls short of Proton Mail or Swissmail in security.'
+links:
+  tos: https://skymail.de/AGB
+  privacy: https://skymail.de/Datenschutz
+  imprint: https://skymail.de/Impressum
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: testing
+  tls_rpt: 'yes'
+  dnssec: 'yes'
+  dane: 'yes'
+servers:
+- {kind: IMAP, host: 'imap.skymail.de:993', note: SSL/TLS}
+online_since: '2009-07-02'
+last_checked: '2026-10-30'

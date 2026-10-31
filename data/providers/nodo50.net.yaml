@@ -1,0 +1,42 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 134
+domain: nodo50.net
+status: auto
+flag: 🇪🇸
+a:
+- {host: '91.226.176.254', flag: 🇪🇸, country: Spain, asn: AS197772, org: 'NODO50, Altavoz por la libertad de expresion y comunicacion'}
+mx:
+- {host: revolware.nodo50.org, flag: 🇪🇸, country: Spain, asn: AS197772, org: 'NODO50, Altavoz por la libertad de expresion y comunicacion'}
+created: '2000-09-11'
+expires: '2027-09-11'
+owner: 🇪🇸 Nodo50 – Altavoz por la Libertad de Expresión y Comunicación
+alliance: 14
+jurisdiction:
+- Spain
+description: |-
+  Nodo50. Contrainformación en la Red
+  Nodo50 es un proveedor de servicios de Internet sin ánimo de lucro orientado a los movimientos sociales. Desde 1994, el proyecto ’Nodo50’ viene proporcionando formación, contenidos, y servicios comunicativos a cientos de grupos y organizaciones del (...)
+tos_summary: |-
+  Illegal actions (hacking), harassment, fraud
+  https://www.nodo50.org/ilegalizacion/
+price:
+- '32€/month'
+- '95€/year'
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption.'
+links:
+  tos: https://info.nodo50.org/Contra-la-ilegalizacion-de-las.html
+  imprint: https://info.nodo50.org/Aviso-Legal.html
+social:
+- https://www.twitter.com/nodo50
+security:
+  spf: -all
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.nodo50.net:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2000-12-06'
+last_checked: '2026-10-30'

@@ -1,0 +1,40 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 66
+domain: portugalmail.pt
+status: auto
+flag: 🇵🇹
+a:
+- {host: '213.205.79.54', flag: 🇵🇹, country: Portugal, asn: AS1897, org: 'NOS COMUNICACOES, S.A.'}
+mx:
+- {host: a.mx.portugalmail.pt, flag: 🇵🇹, country: Portugal, asn: AS2860, org: 'NOS COMUNICACOES, S.A.'}
+- {host: b.mx.portugalmail.pt, flag: 🇵🇹, country: Portugal, asn: AS2860, org: 'NOS COMUNICACOES, S.A.'}
+- {host: f.mx.portugalmail.pt, flag: 🇵🇹, country: Portugal, asn: AS2860, org: 'NOS COMUNICACOES, S.A.'}
+created: '1999-03-12'
+expires: '2039-07-05'
+owner: 🇵🇹 Portugalmail Comunicações S.A
+jurisdiction:
+- Portugal
+description: |-
+  Portugalmail
+  Email pessoal
+privacy_summary: |-
+  Collect IP addresses, cookies, no ads (claimed), share upon authorities' request, GDPR
+  https://portugalmail.pt/politica-de-privacidade/
+price:
+- free
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://web.archive.org/web/20251106213158/https://portugalmail.pt/condicoes-de-servico/
+  privacy: https://portugalmail.pt/politica-de-privacidade/
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.portugalmail.pt:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '1999-05-08'
+last_checked: '2026-10-30'

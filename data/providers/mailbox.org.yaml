@@ -1,0 +1,59 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 230
+domain: mailbox.org
+status: pending
+flag: 🇩🇪
+domains:
+- secure.mailbox.org
+a:
+- {host: '185.97.174.35', flag: 🇩🇪, country: Germany, asn: AS199118, org: Heinlein Support GmbH}
+mx:
+- {host: mx1.mailbox.org, flag: 🇩🇪, country: Germany, asn: AS199118, org: Heinlein Support GmbH}
+- {host: mx2.mailbox.org, flag: 🇩🇪, country: Germany, asn: AS199118, org: Heinlein Support GmbH}
+- {host: mx3.mailbox.org, flag: 🇩🇪, country: Germany, asn: AS199118, org: Heinlein Support GmbH}
+- {host: mx4.mailbox.org, flag: 🇩🇪, country: Germany, asn: AS199118, org: Heinlein Support GmbH}
+created: '1998-09-23'
+expires: '2027-09-22'
+owner: 🇩🇪 Heinlein Hosting GmbH
+alliance: 14
+jurisdiction:
+- Germany
+description: |-
+  mailbox Suite for individuals and businesses
+  Your digital workspace with email, cloud, office & meet. Secure & GDPR-compliant for businesses, public authorities and private individuals. ▶ Try us now!
+tos_summary: |-
+  Illegal actions (spam, hacking), IP violation
+  https://mailbox.org/en/t-cs-cancellation-policy/
+privacy_summary: |-
+  Advertising, no third-party sharing (claimed), share upon authorities' request, encryption
+  https://mailbox.org/en/private/
+price:
+- free
+- €250/month
+- €75/month
+- €25/month
+note: 'Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Mail servers belong to mailbox.org. IMAP server imap.mailbox.org:993 answers (Dovecot). Publishes mail client autoconfig. Mail DNS: SPF, DMARC p=reject, MTA-STS, DANE, DNSSEC. Site mentions: PGP/E2E encryption.'
+links:
+  tos: https://mailbox.org/de/agb/
+  privacy: https://mailbox.org/de/datenschutz/
+  imprint: https://mailbox.org/de/impressum/
+social:
+- https://www.linkedin.com/company/mailbox.org
+- https://bsky.app/profile/mailbox.org
+security:
+  spf: ~all
+  dmarc: reject
+  mta_sts: enforce
+  tls_rpt: 'yes'
+  dnssec: 'yes'
+  dane: 'yes'
+servers:
+- {kind: IMAP, host: 'imap.mailbox.org:993', note: SSL/TLS}
+- {kind: IMAP, host: 'imap.mailbox.org:143', note: STARTTLS}
+- {kind: POP3, host: 'pop3.mailbox.org:995', note: SSL/TLS}
+- {kind: POP3, host: 'pop3.mailbox.org:110', note: STARTTLS}
+- {kind: SMTP, host: 'smtp.mailbox.org:465', note: SSL/TLS}
+- {kind: SMTP, host: 'smtp.mailbox.org:587', note: STARTTLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2000-12-06'
+last_checked: '2026-10-30'

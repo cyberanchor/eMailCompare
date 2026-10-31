@@ -1,0 +1,29 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 224
+domain: paranoid.email
+status: pending
+dead: true
+flag: 🇦🇹
+a:
+- {host: '176.9.122.61', flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+mx:
+- {host: mx1.paranoid.email, flag: 🇦🇹, country: Austria, asn: AS57169, org: EDIS GmbH}
+- {host: mx2.paranoid.email, flag: 🇦🇹, country: Austria, asn: AS57169, org: EDIS GmbH}
+- {host: mx3.paranoid.email, flag: 🇦🇹, country: Austria, asn: AS57169, org: EDIS GmbH}
+- {host: mx4.paranoid.email, flag: 🇦🇹, country: Austria, asn: AS57169, org: EDIS GmbH}
+created: '2014-03-26'
+expires: '2027-03-26'
+jurisdiction:
+- Austria
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Struck out in README. Website shows: "PARANOID - Site Maintenance". Wayback Machine captures: 2017-07-16 to 2026-09-26. IMAP server imap.paranoid.email:993 answers. Mail DNS: SPF.'
+security:
+  spf: -all
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.paranoid.email:993', note: SSL/TLS}
+online_since: '2017-07-16'
+last_checked: '2026-10-30'

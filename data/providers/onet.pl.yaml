@@ -1,0 +1,56 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 15
+domain: onet.pl
+status: checked
+flag: 🇵🇱
+domains:
+- op.pl
+- onet.pl
+- poczta.onet.pl
+- vp.pl
+- onet.eu
+- autograf.pl
+- buziaczek.pl
+- spoko.pl
+- poczta.onet.pl
+- onet.com.pl
+- amorki.pl
+- Opoczta.pl
+a:
+- {host: '52.222.136.90', flag: 🇩🇪, country: Germany, asn: AS16509, org: 'Amazon.com, Inc.'}
+- {host: '52.222.136.50', flag: 🇩🇪, country: Germany, asn: AS16509, org: 'Amazon.com, Inc.'}
+mx:
+- {host: mx.poczta.onet.pl, flag: 🇵🇱, country: Poland, asn: AS12990, org: Ringier Axel Springer Polska Sp. z o.o.}
+created: '1996-06-22'
+expires: '2026-12-31'
+owner: 🇵🇱 Ringier Axel Springer Polska sp. z o.o.
+jurisdiction:
+- Poland
+description: |-
+  Onet – You are up to date
+  Onet: codzienne źródło informacji milionów Polaków - wiadomości z kraju i ze świata 24/7, pogoda, sport, biznes, moto, rozrywka. Bądź na bieżąco z Onet!
+tos_summary: Violating Polish/EU laws; posting radical, vulgar, offensive, pornographic, or drug/alcohol-promoting content; commercial activity; penetrating/testing security; unlawful content; altering/reproducing site materials without consent
+privacy_summary: Collect personal data (email, name, age, gender, city, birth date), activity data (visited pages, clicks, purchase history), device/browser info, location, cookies/cache, IDs. Stored in Poland/EEA, may transfer outside EEA (e.g., Google, Facebook) with safeguards. Shared with IT/marketing providers, authorities, Trusted Partners (e-commerce/advertisers) with consent.
+email: 'yes'
+phone: optional
+personal: 'yes'
+price:
+- free
+note: 'Onet is a Polish internet portal that includes an email service provided by Ringier Axel Springer Polska. Beyond email functionality, Onet offers access to news, social features, cloud storage, and personalized content. Based in Poland and regulated by EU laws, including GDPR, it provides a certain level of legal data protection for users.  Security & Anonymity: Onet does not position itself as an anonymous service. Using the email requires registration with personal details (e.g., email, name, age, gender, city), and it collects activity data (views, clicks, purchase history), device info, location, and cookies. Encryption is present (SSL/TLS is implied for web access), but end-to-end email encryption is absent, meaning message content is accessible to the provider. IP addresses and metadata are not hidden, and data may be shared with partners (e.g., Google, Facebook) for advertising with user consent. Privacy is limited: data is stored in Poland/EEA but may be transferred outside the EEA with safeguards (e.g., Standard Contractual Clauses). Users must secure their passwords, but the service doesn’t offer maximum anonymity, as it prioritizes personalization and marketing. The privacy policy was last updated on July 26, 2023.  Use Cases: Onet is suitable for everyday communication, news reading, and using additional features (forums, shopping) within a single platform, especially for Poland-based users or those comfortable in a Polish-language ecosystem. It’s a good choice for people who value content integration and interest-based ads over strict privacy. However, due to data collection and lack of anonymity, it’s not ideal for confidential correspondence, handling sensitive data, or anonymous use (unlike Proton Mail or Tutanota). It’s best for casual tasks with moderate security expectations.'
+links:
+  tos: https://polityka-prywatnosci.onet.pl/regulamin.html
+  privacy: https://polityka-prywatnosci.onet.pl/
+security:
+  spf: -all
+  dmarc: quarantine
+  mta_sts: testing
+  tls_rpt: 'yes'
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.poczta.onet.pl:993', note: SSL/TLS}
+- {kind: POP3, host: 'pop3.poczta.onet.pl:995', note: SSL/TLS}
+- {kind: SMTP, host: 'smtp.poczta.onet.pl:465', note: SSL/TLS}
+- {kind: SMTP, host: 'smtp.poczta.onet.pl:587', note: STARTTLS}
+online_since: '1997-02-20'
+last_checked: '2026-10-30'

@@ -1,0 +1,61 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 234
+domain: hushmail.com
+status: pending
+flag: 🇨🇦
+domains:
+- counselingmail.com
+- counselingsecure.com
+- hush.ai
+- hush.com
+- hushmail.me
+- mac.hush.com
+- therapyemail.com
+- therapysecure.com
+a:
+- {host: '199.60.103.85', flag: 🇺🇸, country: United States, asn: AS209242, org: 'Cloudflare London, LLC'}
+- {host: '199.60.103.185', flag: 🇺🇸, country: United States, asn: AS209242, org: 'Cloudflare London, LLC'}
+mx:
+- {host: plsmtp1.hushmail.com, flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: plsmtp2.hushmail.com, flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+created: '1998-06-14'
+expires: '2027-06-13'
+owner: 🇨🇦 Hush Communications Canada Inc.
+alliance: 5
+jurisdiction:
+- Canada
+description: |-
+  Hushmail: Encrypted Email and E-Signable Forms
+  Send secure emails and forms with Hushmail. Trusted by therapy and healthcare practitioners for handling sensitive information.
+tos_summary: |-
+  Page found, no key clauses detected
+  https://www.hushmail.com/terms
+privacy_summary: |-
+  Collect IP addresses, data/logs kept 18 mos., cookies, no ads (claimed), third parties, share upon authorities' request, encryption, does not sell data (claimed)
+  https://www.hushmail.com/privacy
+price:
+- free
+- $17.99/month
+- $14.99/month
+- $11.99/month
+note: 'Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. IMAP server hosted-imap.hushmail.com:993 answers. Publishes mail client autoconfig. Webmail: https://secure.hushmail.com/mail/. Mail DNS: SPF, DMARC p=quarantine. Site mentions: PGP/E2E encryption.'
+links:
+  tos: https://www.hushmail.com/terms
+  privacy: https://www.hushmail.com/privacy
+social:
+- https://www.facebook.com/Hushmail
+- https://www.instagram.com/hushmail
+- https://www.linkedin.com/company/hushmail
+security:
+  spf: -all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.hushmail.com:993', note: SSL/TLS}
+- {kind: POP3, host: 'pop.hushmail.com:995', note: SSL/TLS}
+- {kind: SMTP, host: 'smtp.hushmail.com:465', note: SSL/TLS}
+online_since: '1999-10-04'
+last_checked: '2026-10-30'

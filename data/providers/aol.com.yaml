@@ -1,0 +1,64 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 249
+domain: aol.com
+status: pending
+flag: 🇺🇸
+domains:
+- aim.com
+- aol.co.nz
+- aol.co.uk
+- aol.com.ar
+- aol.com.au
+- aol.com.br
+- aol.com.mx
+- aol.de
+- aol.es
+- aol.fr
+- aol.it
+- aol.se
+- compuserve.com
+- cs.com
+- netscape.com
+- netscape.net
+- wmconnect.com
+a:
+- {host: '54.85.212.202', flag: 🇺🇸, country: United States, asn: AS14618, org: 'Amazon.com, Inc.'}
+- {host: '18.235.50.124', flag: 🇺🇸, country: United States, asn: AS14618, org: 'Amazon.com, Inc.'}
+mx:
+- {host: mx-aol.mail.gm0.yahoodns.net, flag: 🇺🇸, country: United States, asn: AS26101, org: Yahoo Holdings Inc.}
+created: '1995-06-22'
+expires: '2027-11-23'
+owner: 🇺🇸 Yahoo Inc. (AOL)
+alliance: 5
+jurisdiction:
+- United States
+description: |-
+  News, Politics, Sports, Mail & Latest Headlines - AOL.com
+  Discover the latest breaking news in the U.S. and around the world — politics, weather, entertainment, lifestyle, finance, sports and much more.
+tos_summary: |-
+  Illegal actions (CSAM, spam, hacking), IP violation, harassment, fraud, commercial use
+  https://legal.aol.com/terms/index.html
+privacy_summary: |-
+  Collect IP addresses, cookies, analytics/tracking, advertising, third parties, share upon authorities' request, encryption, GDPR
+  https://legal.aol.com/privacy/index.html
+price:
+- free
+note: 'Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. IMAP server imap.aol.com:993 answers. Listed in Thunderbird''s ISPDB. Mail DNS: SPF, DMARC p=reject. Site mentions: accepts cryptocurrency.'
+links:
+  tos: https://legal.aol.com/terms/index.html
+  privacy: http://legal.aol.com/privacy/index.html?locale=en-US
+social:
+- https://instagram.com/aol
+security:
+  spf: redirect
+  dmarc: reject
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.aol.com:993', note: SSL/TLS}
+- {kind: POP3, host: 'pop.aol.com:995', note: SSL/TLS}
+- {kind: SMTP, host: 'smtp.aol.com:465', note: SSL/TLS}
+online_since: '1996-12-20'
+last_checked: '2026-10-30'

@@ -1,0 +1,44 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 245
+domain: gmail.com
+status: pending
+flag: 🇺🇸
+domains:
+- googlemail.com
+a:
+- {host: '142.250.154.18', flag: 🇺🇸, country: United States, asn: AS15169, org: Google LLC}
+- {host: '142.250.154.83', flag: 🇺🇸, country: United States, asn: AS15169, org: Google LLC}
+mx:
+- {host: gmail-smtp-in.l.google.com, flag: 🇺🇸, country: United States, asn: AS15169, org: Google LLC}
+- {host: alt1.gmail-smtp-in.l.google.com, flag: 🇺🇸, country: United States, asn: AS15169, org: Google LLC}
+- {host: alt2.gmail-smtp-in.l.google.com, flag: 🇺🇸, country: United States, asn: AS15169, org: Google LLC}
+- {host: alt3.gmail-smtp-in.l.google.com, flag: 🇺🇸, country: United States, asn: AS15169, org: Google LLC}
+created: '1995-08-13'
+expires: '2027-08-12'
+owner: 🇺🇸 Google LLC
+alliance: 5
+jurisdiction:
+- United States
+description: |-
+  Gmail
+  Gmail is email that’s intuitive, efficient, and useful. 15 GB of storage, less spam, and mobile access.
+tos_summary: |-
+  Illegal actions (CSAM, spam, hacking), IP violation, harassment, fraud, commercial use
+  https://policies.google.com/terms
+note: 'Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Website redirects to https://accounts.google.com/. Mail servers belong to Google Workspace. IMAP server imap.gmail.com:993 answers (Gmail). Listed in Thunderbird''s ISPDB. Mail DNS: SPF, DMARC p=none, MTA-STS.'
+links:
+  tos: https://accounts.google.com/TOS?loc=DE&hl=en-US
+  privacy: https://accounts.google.com/TOS?loc=DE&hl=en-US&privacy=true
+security:
+  spf: redirect
+  dmarc: none
+  mta_sts: enforce
+  tls_rpt: 'yes'
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.gmail.com:993', note: SSL/TLS}
+- {kind: POP3, host: 'pop.gmail.com:995', note: SSL/TLS}
+- {kind: SMTP, host: 'smtp.gmail.com:465', note: SSL/TLS}
+- {kind: IMAP software, host: Gmail}
+last_checked: '2026-10-30'

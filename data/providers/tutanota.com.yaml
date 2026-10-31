@@ -1,0 +1,51 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 3
+domain: tutanota.com
+status: checked
+flag: 🇩🇪
+domains:
+- tuta.com
+- Tutamail.com
+- Tuta.io
+- Tutanota.de
+- Keemail.me
+a:
+- {host: '185.205.69.12', flag: 🇩🇪, country: Germany, asn: AS210909, org: Tutao GmbH}
+mx:
+- {host: mail.tutanota.de, flag: 🇩🇪, country: Germany, asn: AS210909, org: Tutao GmbH}
+created: '2011-11-30'
+expires: '2026-11-30'
+owner: 🇩🇪 Tutao GmbH
+alliance: 14
+jurisdiction:
+- Germany
+description: |-
+  Join the Tuta community to spread privacy. | Tuta
+  Tuta will be the privacy-respecting alternative to Google with a calendar, notes, cloud storage - everything encrypted by default. Join us in bringing privacy to the world!
+tos_summary: Illegal actions (assumed from GDPR), multiple free accounts (>1 per person), business use on free plan, inactivity (>6 months)
+privacy_summary: Collect email address, payment data (bank, credit card, PayPal), anonymized IP, logs (7 days). Store encrypted data, delete after 30 days. Share payment data with providers (PayPal, Braintree), legal requests only.
+email: 'no'
+phone: 'no'
+personal: 'no'
+price:
+- Free
+- Revolutionary €3/month
+- Legend €8/month
+note: 'Tutanota is a secure email service with end-to-end encryption, developed by the German company Tutao GmbH, focused on privacy and security. It’s ideal for anonymous communication, storing contacts and calendars, and protecting data from surveillance. Key features: full data encryption (email, calendar, contacts), no tracking, minimal data collection, and servers in Germany under strict GDPR compliance. Tutanota offers top-tier privacy with end-to-end encryption, ensuring even developers can’t access your data. For anonymity, no phone or external email is required for signup, IP addresses aren’t logged by default, and email headers are stripped of metadata, making it great for concealing your identity.'
+links:
+  tos: https://tuta.com/terms
+  privacy: https://tuta.com/privacy-policy
+  imprint: https://tuta.com/imprint
+social:
+- https://www.reddit.com/r/tutanota
+- https://mastodon.social/@Tutanota
+- https://bsky.app/profile/tuta.com
+security:
+  spf: -all
+  dmarc: quarantine
+  mta_sts: enforce
+  tls_rpt: 'yes'
+  dnssec: 'yes'
+  dane: 'yes'
+online_since: '2012-02-11'
+last_checked: '2026-10-30'

@@ -1,0 +1,36 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 135
+domain: nolog.cz
+status: auto
+flag: 🇨🇿
+a:
+- {host: '37.205.8.210', flag: 🇨🇿, country: Czechia, asn: AS24971, org: MasterDC s.r.o.}
+mx:
+- {host: mail.nolog.cz, flag: 🇨🇿, country: Czechia, asn: AS43541, org: VSHosting s.r.o.}
+created: '2018-01-26'
+expires: '2027-01-25'
+owner: 🇨🇿 NoLog.cz collective
+jurisdiction:
+- Czechia
+description: |-
+  NoLog.cz
+  Snažíme se dělat internet svobodným, bezpečným a soukromým místem.
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption. Tor: 324fctgcjnb5yiwmxl3qf4k7iul2sgmzhj6eitwyl62iu5wztotmsnad.onion.'
+onion: http://324fctgcjnb5yiwmxl3qf4k7iul2sgmzhj6eitwyl62iu5wztotmsnad.onion/
+security:
+  spf: -all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'yes'
+servers:
+- {kind: IMAP, host: 'mail.nolog.cz:993', note: SSL/TLS}
+- {kind: IMAP, host: 'mail.nolog.cz:143', note: STARTTLS}
+- {kind: POP3, host: 'mail.nolog.cz:995', note: SSL/TLS}
+- {kind: POP3, host: 'mail.nolog.cz:110', note: STARTTLS}
+- {kind: SMTP, host: 'mail.nolog.cz:465', note: SSL/TLS}
+- {kind: SMTP, host: 'mail.nolog.cz:587', note: STARTTLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2019-11-12'
+last_checked: '2026-10-30'

@@ -1,52 +1,10 @@
 {{- /*
-  Every provider from emails.csv, with its status from the README tables and the cell colours of
-  tools/build_json.py. Call it with partialCached "emc/data.html" . "emc" — it returns a slice of maps.
-
-  Columns of emails.csv (by position, the header has line breaks in it):
-  0 flag · 1 Domain · 2 2nd domain · 3 A Record · 4 MX Record · 5 created · 6 expires · 7 owner
-  8 Intelligence Alliance · 9 Jurisdiction · 10 Site description · 11 ToS · 12 Privacy policy
-  13 Email verification · 14 Phone · 15 Price · 16 Personal info · 17 Note
-  From column 18 on, columns are found by their header name:
-  ToS link · Privacy policy link · Source code · Social links · Onion address · Imprint link ·
-  Mail security · Mail servers · Online since · Last checked
+  Every provider from data/providers/<domain>.yaml (hugo.Data.providers), sorted by "order", with the cell
+  colours of the table. Call it with partialCached "emc/data.html" . "emc" — it returns a slice of maps.
+  Fields of the files: data/README.md; emc/records.html reads and checks them.
 */ -}}
-{{- $out := slice -}}
-{{- $csv := resources.Get "emc/emails.csv" -}}
-{{- $readme := resources.Get "emc/README.md" -}}
-{{- if not (and $csv $readme) -}}
-  {{- errorf "emc/data: emails.csv or README.md is not mounted into assets/emc/" -}}
-{{- end -}}
+{{- $recs := partialCached "emc/records.html" . "emc-records" -}}
 
-{{- /* Status from the README: the checked table (✅ by hand, 🤖 = collected automatically), the pending table,
-       strikethrough (U+0336 or ~~) = the service is gone. */ -}}
-{{- $status := dict -}}
-{{- $section := "" -}}
-{{- range split $readme.Content "\n" -}}
-  {{- /* headings "## Checked email services" / "## Pending email services", with or without an emoji */ -}}
-  {{- if and (hasPrefix . "## ") (strings.Contains . "Checked email services") -}}{{- $section = "checked" -}}
-  {{- else if and (hasPrefix . "## ") (strings.Contains . "Pending email services") -}}{{- $section = "pending" -}}
-  {{- else if or (hasPrefix . "<!--") (and (hasPrefix . "## ") (eq $section "pending")) -}}{{- $section = "" -}}
-  {{- end -}}
-  {{- $line := strings.TrimSpace . -}}
-  {{- if and $section (hasPrefix $line "|") -}}
-    {{- $cells := split (strings.Trim $line "|") "|" -}}
-    {{- if ge (len $cells) 3 -}}
-      {{- $mark := strings.TrimSpace (index $cells 0) -}}
-      {{- if in (slice "✅" "❌" "🤖") $mark -}}
-        {{- $raw := index $cells 1 -}}
-        {{- $dead := or (strings.Contains $raw "̶") (strings.Contains $raw "~~") -}}
-        {{- $domain := lower (strings.TrimSpace (replace (replace $raw "̶" "") "~~" "")) -}}
-        {{- $group := "pending" -}}
-        {{- if eq $section "checked" -}}{{- $group = cond (eq $mark "🤖") "auto" "checked" -}}{{- end -}}
-        {{- $status = merge $status (dict $domain (dict "group" $group "dead" $dead)) -}}
-      {{- end -}}
-    {{- end -}}
-  {{- end -}}
-{{- end -}}
-
-{{- $rows := $csv | transform.Unmarshal (dict "delimiter" ",") -}}
-{{- $col := dict -}}
-{{- range $i, $h := index $rows 0 -}}{{- $col = merge $col (dict (strings.TrimSpace $h) $i) -}}{{- end -}}
 {{- /* Mail security checks: value -> colour */ -}}
 {{- $secColors := dict
   "SPF" (dict "-all" "green" "~all" "yellow" "?all" "red" "+all" "red" "missing" "red")
@@ -56,35 +14,29 @@
   "DNSSEC" (dict "yes" "green")
   "DANE" (dict "yes" "green")
 -}}
-{{- range $i, $r := after 1 $rows -}}
-  {{- $cell := dict -}}
-  {{- range $name := slice "ToS link" "Privacy policy link" "Source code" "Social links" "Onion address" "Imprint link" "Mail security" "Mail servers" "Online since" "Last checked" -}}
-    {{- $v := "" -}}
-    {{- with index $col $name -}}{{- if gt (len $r) . -}}{{- $v = strings.TrimSpace (index $r .) -}}{{- end -}}{{- end -}}
-    {{- $cell = merge $cell (dict $name $v) -}}
-  {{- end -}}
-  {{- $domain := lower (strings.TrimSpace (index $r 1)) -}}
-  {{- $st := index $status $domain | default (dict "group" "pending" "dead" false) -}}
-  {{- $dead := $st.dead -}}
+{{- $secNames := slice (slice "spf" "SPF") (slice "dmarc" "DMARC") (slice "mta_sts" "MTA-STS") (slice "tls_rpt" "TLS-RPT") (slice "dnssec" "DNSSEC") (slice "dane" "DANE") -}}
+{{- $out := slice -}}
+{{- range $i, $r := $recs -}}
+  {{- $domain := lower $r.domain -}}
+  {{- $dead := $r.dead | default false -}}
 
-  {{- $created := strings.TrimSpace (index $r 5) -}}
+  {{- $created := $r.created | default "" -}}
   {{- $cCreated := "none" -}}
   {{- if findRE `^\d{4}` $created -}}
     {{- $year := int (substr $created 0 4) -}}
     {{- if le $year 2010 -}}{{- $cCreated = "green" -}}{{- else if ge $year 2021 -}}{{- $cCreated = "red" -}}{{- end -}}
   {{- end -}}
 
-  {{- $alliance := strings.TrimSpace (index $r 8) -}}
-  {{- $al := lower $alliance -}}
-  {{- $cAlliance := "none" -}}{{- $eyes := "" -}}
-  {{- if hasPrefix $al "five eyes" -}}{{- $cAlliance = "red" -}}{{- $eyes = "5" -}}
-  {{- else if hasPrefix $al "nine eyes" -}}{{- $cAlliance = "yellow" -}}{{- $eyes = "9" -}}
-  {{- else if hasPrefix $al "fourteen eyes" -}}{{- $cAlliance = "purple" -}}{{- $eyes = "14" -}}
+  {{- $eyes := "" -}}{{- $alliance := "" -}}{{- $cAlliance := "none" -}}
+  {{- with $r.alliance -}}
+    {{- $eyes = string . -}}
+    {{- $alliance = index (dict "5" "Five Eyes (👀 5)" "9" "Nine Eyes (👀 9)" "14" "Fourteen Eyes (👀 14)") $eyes -}}
+    {{- $cAlliance = index (dict "5" "red" "9" "yellow" "14" "purple") $eyes -}}
   {{- end -}}
 
-  {{- $email := strings.TrimSpace (index $r 13) -}}
-  {{- $phone := strings.TrimSpace (index $r 14) -}}
-  {{- $personal := strings.TrimSpace (index $r 16) -}}
+  {{- $email := $r.email | default "" -}}
+  {{- $phone := $r.phone | default "" -}}
+  {{- $personal := $r.personal | default "" -}}
   {{- $cEmail := index (dict "yes" "yellow" "no" "red") (lower $email) | default "none" -}}
   {{- $cPhone := index (dict "optional" "green" "no" "red" "yes" "yellow") (lower $phone) | default "none" -}}
   {{- $cPersonal := index (dict "yes" "red" "no" "green" "optional" "yellow") (lower $personal) | default "none" -}}
@@ -92,35 +44,27 @@
     {{- $cCreated = "grey" -}}{{- $cAlliance = "grey" -}}{{- $cEmail = "grey" -}}{{- $cPhone = "grey" -}}{{- $cPersonal = "grey" -}}
   {{- end -}}
 
-  {{- /* "ip | 🇨🇭 | Switzerland | AS62371 | Org" lines, one per record */ -}}
+  {{- /* A and MX records: {host, flag, country, asn, org} */ -}}
   {{- $records := dict -}}
-  {{- range $col := slice 3 4 -}}
+  {{- range $k := slice "a" "mx" -}}
     {{- $list := slice -}}
-    {{- range split (index $r $col) "\n" -}}
-      {{- $parts := split . "|" -}}
-      {{- if strings.TrimSpace . -}}
-        {{- $p := slice -}}
-        {{- range $parts -}}{{- $p = $p | append (strings.TrimSpace .) -}}{{- end -}}
-        {{- $org := "" -}}{{- if gt (len $p) 4 -}}{{- $org = delimit (after 4 $p) " | " -}}{{- end -}}
-        {{- $p = $p | append "" "" "" "" -}}
-        {{- $list = $list | append (dict "host" (index $p 0) "flag" (index $p 1) "country" (index $p 2) "asn" (index $p 3) "org" $org) -}}
-      {{- end -}}
+    {{- range index $r $k -}}
+      {{- $list = $list | append (dict "host" (.host | default "") "flag" (.flag | default "") "country" (.country | default "") "asn" (.asn | default "") "org" (.org | default "")) -}}
     {{- end -}}
-    {{- $records = merge $records (dict (cond (eq $col 3) "a" "mx") $list) -}}
+    {{- $records = merge $records (dict $k $list) -}}
   {{- end -}}
 
   {{- $seconds := slice -}}
-  {{- range split (index $r 2) "\n" -}}{{- with strings.TrimSpace . -}}{{- $seconds = $seconds | append . -}}{{- end -}}{{- end -}}
+  {{- range $r.domains -}}{{- $seconds = $seconds | append . -}}{{- end -}}
 
-  {{- $jurisdiction := strings.TrimSpace (index $r 9) -}}
   {{- $links := dict -}}
-  {{- range $name, $key := dict "ToS link" "tosUrl" "Privacy policy link" "privacyUrl" "Source code" "code" "Imprint link" "imprintUrl" -}}
-    {{- with index $cell $name -}}{{- if hasPrefix . "http" -}}{{- $links = merge $links (dict $key .) -}}{{- end -}}{{- end -}}
+  {{- range $name, $key := dict "tos" "tosUrl" "privacy" "privacyUrl" "code" "code" "imprint" "imprintUrl" -}}
+    {{- with index ($r.links | default dict) $name -}}{{- if hasPrefix . "http" -}}{{- $links = merge $links (dict $key .) -}}{{- end -}}{{- end -}}
   {{- end -}}
 
-  {{- /* Social accounts: one URL per line; the network is read from the address. */ -}}
+  {{- /* Social accounts: the network is read from the address. */ -}}
   {{- $social := slice -}}
-  {{- range split (index $cell "Social links") "\n" -}}
+  {{- range $r.social -}}
     {{- $u := strings.TrimSpace . -}}
     {{- if or (hasPrefix $u "http") (hasPrefix $u "xmpp:") -}}
       {{- $host := lower (replaceRE `^[a-z]+://(?:www\.)?([^/:]+).*$` "$1" $u) -}}
@@ -150,30 +94,26 @@
     {{- end -}}
   {{- end -}}
 
-  {{- /* "SPF: -all; DMARC: reject; …" */ -}}
+  {{- /* security: {spf: -all, dmarc: reject, …} in this order */ -}}
   {{- $security := slice -}}
-  {{- range split (index $cell "Mail security") ";" -}}
-    {{- $kv := split . ":" -}}
-    {{- if eq (len $kv) 2 -}}
-      {{- $k := strings.TrimSpace (index $kv 0) -}}{{- $v := strings.TrimSpace (index $kv 1) -}}
-      {{- $c := index (index $secColors $k | default dict) $v | default "none" -}}
-      {{- $security = $security | append (dict "k" $k "v" $v "c" $c) -}}
+  {{- $sec := $r.security | default dict -}}
+  {{- range $secNames -}}
+    {{- $name := index . 1 -}}
+    {{- with index $sec (index . 0) -}}
+      {{- $security = $security | append (dict "k" $name "v" . "c" (index (index $secColors $name | default dict) . | default "none")) -}}
     {{- end -}}
   {{- end -}}
 
-  {{- /* "IMAP | imap.example.org:993 | SSL" per line */ -}}
+  {{- /* servers: {kind: IMAP, host: imap.example.org:993, note: SSL} */ -}}
   {{- $servers := slice -}}
-  {{- range split (index $cell "Mail servers") "\n" -}}
-    {{- $parts := split . "|" -}}
-    {{- if ge (len $parts) 2 -}}
-      {{- $note := "" -}}{{- if gt (len $parts) 2 -}}{{- $note = strings.TrimSpace (index $parts 2) -}}{{- end -}}
-      {{- /* a localhost server means the provider's own bridge app (Proton Mail Bridge and the like) */ -}}
-      {{- if hasPrefix (strings.TrimSpace (index $parts 1)) "127.0.0.1" -}}{{- $note = printf "%s · through the provider's local bridge app" $note -}}{{- end -}}
-      {{- $servers = $servers | append (dict "kind" (strings.TrimSpace (index $parts 0)) "host" (strings.TrimSpace (index $parts 1)) "note" $note) -}}
-    {{- end -}}
+  {{- range $r.servers -}}
+    {{- $note := .note | default "" -}}
+    {{- /* a localhost server means the provider's own bridge app (Proton Mail Bridge and the like) */ -}}
+    {{- if hasPrefix .host "127.0.0.1" -}}{{- $note = printf "%s · through the provider's local bridge app" $note -}}{{- end -}}
+    {{- $servers = $servers | append (dict "kind" .kind "host" .host "note" $note) -}}
   {{- end -}}
 
-  {{- $onion := index $cell "Onion address" -}}
+  {{- $onion := $r.onion | default "" -}}
   {{- if not (findRE `^https?://[a-z2-7]{56}\.onion/?$` $onion) -}}{{- $onion = "" -}}{{- end -}}
 
   {{- /* Age of the domain in whole years */ -}}
@@ -186,23 +126,23 @@
       "n" (add $i 1)
       "domain" $domain
       "slug" (replace $domain "." "-")
-      "flag" (strings.TrimSpace (index $r 0))
+      "flag" ($r.flag | default "")
       "seconds" $seconds
       "a" $records.a
       "mx" $records.mx
       "created" $created "cCreated" $cCreated
-      "expires" (strings.TrimSpace (index $r 6))
-      "owner" (strings.TrimSpace (index $r 7))
+      "expires" ($r.expires | default "")
+      "owner" ($r.owner | default "")
       "alliance" $alliance "cAlliance" $cAlliance "eyes" $eyes
-      "jurisdiction" $jurisdiction
-      "desc" (strings.TrimSpace (index $r 10))
-      "tos" (strings.TrimSpace (index $r 11))
-      "privacy" (strings.TrimSpace (index $r 12))
+      "jurisdiction" (string (delimit ($r.jurisdiction | default slice) "\n"))
+      "desc" ($r.description | default "")
+      "tos" ($r.tos_summary | default "")
+      "privacy" ($r.privacy_summary | default "")
       "email" $email "cEmail" $cEmail
       "phone" $phone "cPhone" $cPhone
-      "price" (strings.TrimSpace (index $r 15))
+      "price" (string (delimit ($r.price | default slice) "; "))
       "personal" $personal "cPersonal" $cPersonal
-      "note" (strings.TrimSpace (index $r 17))
+      "note" ($r.note | default "")
       "tosUrl" ($links.tosUrl | default "")
       "privacyUrl" ($links.privacyUrl | default "")
       "code" ($links.code | default "")
@@ -211,12 +151,12 @@
       "onion" $onion
       "security" $security
       "servers" $servers
-      "since" (index $cell "Online since")
-      "checked" (index $cell "Last checked")
+      "since" ($r.online_since | default "")
+      "checked" ($r.last_checked | default "")
       "age" $age
-      "group" $st.group
+      "group" $r.status
       "dead" $dead
-      "state" (cond $dead "dead" $st.group)
+      "state" (cond $dead "dead" $r.status)
     ) -}}
 {{- end -}}
 {{- return $out -}}

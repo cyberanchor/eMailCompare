@@ -1,0 +1,38 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 64
+domain: encrypted.com
+status: auto
+flag: 🇺🇸
+a:
+- {host: '188.114.96.3', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '188.114.97.3', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: cpanel01.tulix.tv, flag: 🇺🇸, country: United States, asn: AS7219, org: 'Tulix Systems, Inc.'}
+created: '1995-06-07'
+expires: '2028-06-06'
+owner: 🇺🇸 Tulix Systems Inc
+alliance: 5
+jurisdiction:
+- United States
+description: |-
+  Encrypted — private video calls, chat & file sharing directly between browsers, no server
+  Encrypted.com is a free, serverless video-conferencing page: calls, chat, whiteboard and file sharing go directly between browsers over end-to-end encrypted WebRTC. No account, no app, no server sees your media. Works with zero third parties if you want.
+tos_summary: Browser-to-browser video calls, no accounts; access may be ended at any time; US law (State of Georgia, Fulton County courts)
+privacy_summary: 'Collect nothing: no accounts, analytics, cookies or server logs. Media, chat and files go directly between browsers; default STUN servers (Google, Cloudflare) and public WebTorrent trackers see your IP unless ''Zero third parties'' is on; other participants see your IP unless relay is forced.'
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: no personal data required, PGP/E2E encryption.'
+links:
+  tos: https://encrypted.com/
+  privacy: https://encrypted.com/
+  imprint: https://encrypted.com/
+security:
+  spf: missing
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'cpanel01.tulix.tv:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '1998-02-13'
+last_checked: '2026-10-30'

@@ -1,0 +1,48 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 104
+domain: paxmail.cc
+status: auto
+flag: 🇺🇸
+a:
+- {host: '216.24.57.16', flag: 🇺🇸, country: United States, asn: AS397273, org: Render}
+- {host: '216.24.57.18', flag: 🇺🇸, country: United States, asn: AS397273, org: Render}
+mx:
+- {host: mx1.paxmail.cc, flag: 🇺🇸, country: United States, asn: AS400759, org: American Cloud LLC}
+- {host: mx2.paxmail.cc, flag: 🇺🇸, country: United States, asn: AS400759, org: American Cloud LLC}
+- {host: mx3.paxmail.cc, flag: 🇺🇸, country: United States, asn: AS400759, org: American Cloud LLC}
+created: '2023-04-04'
+expires: '2027-04-04'
+owner: 🇺🇸 Studdock, LLC
+alliance: 5
+jurisdiction:
+- United States
+description: |-
+  Your inbox is nobody’s business | Paxmail
+  Private email for you and your household: no ads, no tracking, and nothing sold, to anyone, ever. One honest price, and real people who answer to you.
+tos_summary: |-
+  Illegal actions (spam, hacking), IP violation, harassment, fraud
+  https://paxmail.cc/terms
+privacy_summary: |-
+  Collect IP addresses, cookies, analytics/tracking, third parties, share upon authorities' request
+  https://paxmail.cc/privacy
+price:
+- free
+- $34/month
+- $12/month
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption.'
+links:
+  tos: https://paxmail.cc/terms
+  privacy: https://paxmail.cc/privacy
+security:
+  spf: -all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.paxmail.cc:993', note: SSL/TLS}
+- {kind: SMTP, host: 'mail.paxmail.cc:465', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2023-05-11'
+last_checked: '2026-10-30'

@@ -1,0 +1,49 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 169
+domain: neir.io
+status: auto
+flag: 🇸🇪
+a:
+- {host: '162.19.228.70', flag: 🇩🇪, country: Germany, asn: AS16276, org: OVH SAS}
+mx:
+- {host: mail.neirmail.com, flag: 🇩🇪, country: Germany, asn: AS16276, org: OVH SAS}
+created: '2026-07-23'
+expires: '2027-07-23'
+alliance: 14
+jurisdiction:
+- Sweden
+description: |-
+  Neir | Private email without tracking
+  Private email with encrypted mailboxes, no IP logging, Account Key sign-in, aliases, and a free plan. Use Neir on the web or over Tor.
+tos_summary: |-
+  Illegal actions (spam, hacking), fraud
+  https://neir.io/terms
+privacy_summary: |-
+  Collect IP addresses, analytics/tracking, no ads (claimed), no third-party sharing (claimed), share upon authorities' request, encryption
+  https://neir.io/privacy
+price:
+- free
+- $4.99/month
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: no phone number required, accepts cryptocurrency, PGP/E2E encryption. Tor: itlmjjwnpraaxvm5gkjeebwhjy5zycildwyg2u3lyrfigz5e6hntdqqd.onion.'
+links:
+  tos: https://neir.io/terms
+  privacy: https://neir.io/privacy
+social:
+- https://telegram.me/neir_io
+- https://x.com/neir_io
+onion: http://itlmjjwnpraaxvm5gkjeebwhjy5zycildwyg2u3lyrfigz5e6hntdqqd.onion/
+security:
+  spf: -all
+  dmarc: quarantine
+  mta_sts: broken
+  tls_rpt: 'yes'
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.neirmail.com:993', note: SSL/TLS}
+- {kind: POP3, host: 'mail.neirmail.com:995', note: SSL/TLS}
+- {kind: SMTP, host: 'mail.neirmail.com:465', note: SSL/TLS}
+- {kind: SMTP, host: 'mail.neirmail.com:587', note: STARTTLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2024-09-10'
+last_checked: '2026-10-30'

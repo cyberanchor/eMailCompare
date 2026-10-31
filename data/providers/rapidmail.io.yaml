@@ -1,0 +1,32 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 44
+domain: rapidmail.io
+status: auto
+flag: 🇺🇸
+a:
+- {host: '103.168.172.37', flag: 🇺🇸, country: United States, asn: AS151847, org: Fastmail Pty Ltd}
+- {host: '103.168.172.52', flag: 🇺🇸, country: United States, asn: AS151847, org: Fastmail Pty Ltd}
+mx:
+- {host: us1-smtp.messagingengine.com, flag: 🇺🇸, country: United States, asn: AS151847, org: Fastmail Pty Ltd}
+- {host: us2-smtp.messagingengine.com, flag: 🇺🇸, country: United States, asn: AS151847, org: Fastmail Pty Ltd}
+created: '2018-02-07'
+expires: '2027-02-07'
+alliance: 5
+jurisdiction:
+- United States
+description: RapidMail.io
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: invite-only.'
+security:
+  spf: ?all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.fastmail.com:993', note: SSL/TLS}
+- {kind: SMTP, host: 'smtp.fastmail.com:465', note: SSL/TLS}
+- {kind: POP3, host: 'pop.fastmail.com:995', note: SSL/TLS}
+- {kind: JMAP, host: 'api.fastmail.com:443'}
+online_since: '2021-12-22'
+last_checked: '2026-10-30'

@@ -1,0 +1,13 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 227
+domain: goymail.email
+status: pending
+created: '2026-04-27'
+expires: '2027-04-27'
+description: |-
+  GoyMail - Privacy-focused email
+  GoyMail is a privacy-focused email service with token login, Webmail, IMAP/SMTP access, no ads, and no KYC signup.
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. DNS lookup failed (SERVFAIL). Website text taken from the Wayback Machine copy of 2026-08-02 (https://web.archive.org/web/20260802083732/https://goymail.email/). Wayback Machine captures: 2026-05-29 to 2026-08-02. Last TLS certificate issued in 2026 (crt.sh).'
+onion: http://goymail7wl6g3prdcqc23ip7i4s43rjwdwwiq7mmaofzsmtuuvrszxad.onion/
+online_since: '2026-05-29'
+last_checked: '2026-10-30'

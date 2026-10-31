@@ -1,0 +1,43 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 46
+domain: transcom.net
+status: auto
+flag: 🇬🇧
+a:
+- {host: '194.26.222.166', flag: 🇬🇧, country: United Kingdom, asn: AS59895, org: Binary Racks Limited}
+mx:
+- {host: mx1.mxguard.uk, flag: 🇬🇧, country: United Kingdom, asn: AS59895, org: Binary Racks Limited}
+- {host: mx2.mxguard.uk, flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+created: '1997-08-24'
+expires: '2027-08-23'
+owner: 🇬🇧 Design Technology Limited
+alliance: 5
+jurisdiction:
+- United Kingdom
+description: |-
+  Transcom — UK hosting, email security, fraud protection, VoIP & domains
+  Transcom keeps British businesses online with domains, hosting, email, VPS and security on fast NVMe infrastructure, backed by 24/7 UK support since 1993.
+tos_summary: |-
+  Illegal actions (spam, hacking)
+  https://transcom.co.uk/page/terms
+privacy_summary: |-
+  Collect IP addresses, cookies, no ads (claimed), share upon authorities' request, encryption, GDPR, does not sell data (claimed)
+  https://transcom.co.uk/page/privacy
+price:
+- free
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://transcom.co.uk/page/terms
+  privacy: https://transcom.co.uk/page/privacy
+security:
+  spf: -all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.transcom.net:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2000-10-18'
+last_checked: '2026-10-30'

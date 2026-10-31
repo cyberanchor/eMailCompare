@@ -1,0 +1,40 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 140
+domain: systemausfall.org
+status: auto
+flag: 🇩🇪
+a:
+- {host: '51.75.71.249', flag: 🇩🇪, country: Germany, asn: AS16276, org: OVH SAS}
+mx:
+- {host: mx1.systemausfall.org, flag: 🇩🇪, country: Germany, asn: AS3320, org: Deutsche Telekom AG}
+- {host: mx2.systemausfall.org, flag: 🇩🇪, country: Germany, asn: AS16276, org: OVH SAS}
+created: '2003-08-12'
+expires: '2027-08-12'
+owner: 🇩🇪 Sense.Lab e.V
+alliance: 14
+jurisdiction:
+- Germany
+description: systemausfall.org - autonomes technikkollektiv | systemausfall.org
+privacy_summary: |-
+  No third-party sharing (claimed), share upon authorities' request, encryption, GDPR
+  https://hilfe.systemausfall.org/konto/datenschutz/
+price:
+- donations
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://hilfe.systemausfall.org/konto/nutzungsvereinbarungen/
+  privacy: https://hilfe.systemausfall.org/konto/datenschutz
+  imprint: https://systemausfall.org/impressum.html
+security:
+  spf: ~all
+  dmarc: none
+  mta_sts: enforce
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'yes'
+servers:
+- {kind: IMAP, host: 'mail.systemausfall.org:993', note: SSL/TLS}
+- {kind: POP3, host: 'mail.systemausfall.org:995', note: SSL/TLS}
+- {kind: SMTP, host: 'mail.systemausfall.org:465', note: SSL/TLS}
+online_since: '2004-12-07'
+last_checked: '2026-10-30'

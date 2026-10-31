@@ -1,0 +1,39 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 148
+domain: northmail.ca
+status: auto
+flag: 🇨🇦
+a:
+- {host: '141.193.23.66', flag: 🇨🇦, country: Canada, asn: AS20068, org: Hawk Host Inc.}
+mx:
+- {host: mail.northmail.ca, flag: 🇨🇦, country: Canada, asn: AS20068, org: Hawk Host Inc.}
+created: '2025-02-07'
+expires: '2035-02-07'
+owner: 🇨🇦 Simon Bissonnette
+alliance: 5
+jurisdiction:
+- Canada
+description: NorthMail.ca - Secure & Reliable Free Email
+tos_summary: |-
+  Illegal actions (spam, hacking), IP violation, harassment, fraud
+  https://northmail.ca/terms
+privacy_summary: |-
+  Collect IP addresses, cookies, advertising, no third-party sharing (claimed)
+  https://northmail.ca/privacy
+price:
+- free
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://northmail.ca/terms
+  privacy: https://northmail.ca/privacy
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.northmail.ca:993', note: SSL/TLS}
+online_since: '2016-06-19'
+last_checked: '2026-10-30'

@@ -1,0 +1,48 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 100
+domain: secria.me
+status: auto
+flag: 🇺🇸
+a:
+- {host: '75.2.60.5', flag: 🇺🇸, country: United States, asn: AS16509, org: 'Amazon.com, Inc.'}
+- {host: '99.83.231.61', flag: 🇺🇸, country: United States, asn: AS16509, org: 'Amazon.com, Inc.'}
+mx:
+- {host: mx1.secria.me, flag: 🇩🇪, country: Germany, asn: AS51167, org: Contabo GmbH}
+created: '2024-12-26'
+expires: '2026-12-26'
+owner: 🇺🇸 Secria, Inc.
+alliance: 5
+jurisdiction:
+- United States
+description: |-
+  Secria: the better, safer workspace for email and files
+  Secria is the better, safer workspace: private email you can start free, a VPN for any network, and Secria Workspace for teams, opening soon.
+tos_summary: |-
+  Illegal actions (CSAM, spam, hacking), IP violation, harassment, fraud, multiple accounts
+  https://secria.me/app-tos/
+privacy_summary: |-
+  Collect IP addresses, cookies, analytics/tracking, no ads (claimed), third parties, share upon authorities' request, encryption, no-logs claim, GDPR, does not sell data (claimed)
+  https://secria.me/privacy-policy/
+price:
+- free
+- $6.49/month
+- $99/year
+- $2.49/month
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://secria.me/app-tos/
+  privacy: https://secria.me/privacy-policy/
+social:
+- https://www.linkedin.com/company/secria
+- https://x.com/SecriaMe
+- https://www.reddit.com/r/Secria
+- https://www.instagram.com/secria.me
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: enforce
+  tls_rpt: 'yes'
+  dnssec: 'yes'
+  dane: 'no'
+online_since: '2024-12-26'
+last_checked: '2026-10-30'

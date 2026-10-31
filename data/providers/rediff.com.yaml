@@ -1,0 +1,41 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 76
+domain: rediff.com
+status: auto
+flag: 🇮🇳
+a:
+- {host: '2.23.7.16', flag: 🇩🇪, country: Germany, asn: AS20940, org: Akamai International B.V.}
+- {host: '2.23.7.49', flag: 🇩🇪, country: Germany, asn: AS20940, org: Akamai International B.V.}
+mx:
+- {host: mx.rediffmail.rediff.akadns.net, flag: 🇮🇳, country: India, asn: AS38224, org: 'Rediff.com India Limited,'}
+created: '1997-02-08'
+expires: '2034-02-09'
+owner: 🇮🇳 Rediff.com India Ltd.
+jurisdiction:
+- India
+description: |-
+  Rediff.com: News | Rediffmail | Stock Quotes | Rediff Gurus
+  ✔Read Latest India News ✔Get Realtime Stock Quotes ✔See Live Cricket Scores ✔Log in to Rediffmail ✔Expert advice on career, personal finance and relationships
+tos_summary: |-
+  Illegal actions (CSAM, hacking), IP violation, harassment, fraud, commercial use
+  https://www.rediff.com/terms.html
+privacy_summary: |-
+  Collect IP addresses, cookies, advertising, third parties, share upon authorities' request, encryption
+  https://www.rediff.com/w3c/policy.html
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://www.rediff.com/terms.html
+  privacy: https://www.rediff.com/w3c/policy.html
+social:
+- https://www.instagram.com/rediffnews
+- https://www.youtube.com/@RediffOriginals
+- https://www.linkedin.com/showcase/rediffmailforwork
+security:
+  spf: ~all
+  dmarc: reject
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '1998-06-10'
+last_checked: '2026-10-30'

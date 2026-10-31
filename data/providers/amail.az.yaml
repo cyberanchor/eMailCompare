@@ -1,0 +1,34 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 19
+domain: amail.az
+status: checked
+flag: 🇦🇿
+a:
+- {host: '62.212.239.199', flag: 🇦🇿, country: Azerbaijan, asn: AS29049, org: Delta Telecom Ltd}
+mx:
+- {host: amail.az, flag: 🇦🇿, country: Azerbaijan, asn: AS29049, org: Delta Telecom Ltd}
+- {host: mail.amail.az, flag: 🇦🇿, country: Azerbaijan, asn: AS29049, org: Delta Telecom Ltd}
+owner: 🇦🇿  Rashad Aliyev (YER Hosting)
+jurisdiction:
+- Azerbaijan
+description: Amail.az - Azərbaycan mail xidməti
+tos_summary: Republishing site materials elsewhere; selling, sublicensing, or commercially using materials; public display of materials; damaging the site or its users’ access; violating laws or harming entities; data mining/extraction; using for advertising/marketing
+privacy_summary: No specific data collection details provided in text; implied collection of user ID and password for account access. Storage and sharing not explicitly mentioned.
+email: 'no'
+phone: 'no'
+personal: 'yes'
+price:
+- free
+note: 'Amail is an Azerbaijani email service operating under the .az domain, offering more than just email functionality. It includes additional features such as weather updates and a cloud storage service (Drive) for uploading, storing, and managing files. Based in Azerbaijan, it positions itself as a local platform with a web interface. The team is actively working on expanding capabilities and enhancing existing features, inviting users to contribute to the project’s development.  Security & Anonymity: The provided text lacks details on security measures—no mention of SSL/TLS, end-to-end encryption, or two-factor authentication (2FA). Users are responsible for keeping their login and password confidential, suggesting minimal built-in protection from the service itself. Privacy is also unclear: there’s no information on data collection, storage, or sharing (e.g., IP addresses, email content), which could indicate either a basic approach or the existence of a separate, unprovided privacy policy. Registration requires an account, but specific required data (e.g., name, email) isn’t specified. The absence of references to sharing data with third parties (e.g., advertisers) might be a positive, but without encryption guarantees, anonymity and protection remain uncertain. The service operates under Azerbaijani law, which governs potential government requests.  Use Cases: Amail is suitable for basic communication, local use in Azerbaijan, or storing non-critical files in the cloud. It’s convenient for users who want extras like weather updates and Drive in one interface, particularly if they trust Azerbaijan’s jurisdiction. However, due to unclear security and privacy policies, it’s not recommended for confidential correspondence, anonymous use, or handling sensitive data (unlike Proton Mail or Tutanota). It’s best as a simple tool for everyday tasks with moderate protection expectations.'
+security:
+  spf: -all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.amail.az:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2009-04-21'
+last_checked: '2026-10-30'

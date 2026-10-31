@@ -1,0 +1,27 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 191
+domain: homemail.info
+status: pending
+flag: 🇸🇪
+a:
+- {host: '5.161.47.86', flag: 🇺🇸, country: United States, asn: AS213230, org: Hetzner Online GmbH}
+- {host: '76.223.91.20', flag: 🇺🇸, country: United States, asn: AS16509, org: 'Amazon.com, Inc.'}
+created: '2026-07-08'
+expires: '2027-07-08'
+alliance: 14
+jurisdiction:
+- Sweden
+description: |-
+  Homemail free, secure, and anonymous mail!
+  Free, anonymous, and secure email. In todays world, almost nothing is as critical as having an email address. Unfortunately, many
+  mail providers ask for a large amount of personal details. At Homemail, we do not! Enjoy free, anonymous, and secure mail storage now!
+tos_summary: |-
+  IP violation
+  https://web.archive.org/web/20250716184333/http://homemail.info/terms.html
+price:
+- free
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. No MX record: domain cannot receive mail. Domain is parked, for sale or not configured: "Get homemail.info — Afternic / GoDaddy | ED.com". Website redirects to https://expireddomains.com/. Domain registration dates from 2026-07-08, but the Wayback Machine has captures since 2013-07-15: the domain was registered before, possibly by someone else. Website text taken from the Wayback Machine copy of 2025-08-11 (https://web.archive.org/web/20250811200215/http://homemail.info/). Wayback Machine captures: 2013-07-15 to 2025-08-11. Site mentions: no phone number required, no personal data required.'
+links:
+  tos: https://web.archive.org/web/20241204080415/https://homemail.info/terms.html
+online_since: '2013-07-15'
+last_checked: '2026-10-30'

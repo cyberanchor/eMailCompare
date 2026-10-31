@@ -1,0 +1,39 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 166
+domain: lnemail.net
+status: auto
+flag: 🇳🇱
+a:
+- {host: '62.76.229.11', flag: 🇳🇱, country: Netherlands, asn: AS211673, org: Mynymbox Hosting LLC}
+mx:
+- {host: mail.lnemail.net, flag: 🇳🇱, country: Netherlands, asn: AS211673, org: Mynymbox Hosting LLC}
+created: '2025-05-04'
+expires: '2029-05-04'
+alliance: 9
+jurisdiction:
+- Netherlands
+description: |-
+  LNemail - Anonymous Email Accounts Powered by Bitcoin Lightning
+  Create anonymous email accounts instantly with Bitcoin Lightning Network. Pay 1000 sats for a 1-year account; your first email is free, then 100 sats per outgoing email. No signup, no personal data. Full REST API with Bearer token auth. Send and receive emails privately.
+tos_summary: |-
+  Illegal actions (spam, hacking), harassment
+  https://lnemail.net/tos
+price:
+- free
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: no personal data required, accepts cryptocurrency, PGP/E2E encryption.'
+links:
+  tos: https://lnemail.net/tos
+  code: https://github.com/lnemail/lnemail
+onion: http://lnemailv7hfb2txbk7qihz32p4j376wv7pn2xa3nmfwj6lrdhs5nf3ad.onion/
+security:
+  spf: -all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.lnemail.net:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2025-06-14'
+last_checked: '2026-10-30'

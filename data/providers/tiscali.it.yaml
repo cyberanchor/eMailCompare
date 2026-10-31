@@ -1,0 +1,52 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 75
+domain: tiscali.it
+status: auto
+flag: 🇮🇹
+a:
+- {host: '213.205.32.10', flag: 🇮🇹, country: Italy, asn: AS8612, org: Smeraldo S.p.A.}
+mx:
+- {host: etb-1.mail.tiscali.it, flag: 🇮🇹, country: Italy, asn: AS8612, org: Smeraldo S.p.A.}
+- {host: etb-2.mail.tiscali.it, flag: 🇮🇹, country: Italy, asn: AS8612, org: Smeraldo S.p.A.}
+- {host: etb-3.mail.tiscali.it, flag: 🇮🇹, country: Italy, asn: AS8612, org: Smeraldo S.p.A.}
+- {host: etb-4.mail.tiscali.it, flag: 🇮🇹, country: Italy, asn: AS8612, org: Smeraldo S.p.A.}
+created: '1999-12-29'
+expires: '2027-06-24'
+owner: 🇮🇹 Smeraldo S.p.A
+alliance: 14
+jurisdiction:
+- Italy
+description: |-
+  Tiscali - Fibra, telefono, mobile.
+  Offerte di connettività veloce Fibra, senza fili e Mobile.
+privacy_summary: |-
+  Advertising, third parties, GDPR
+  https://www.tiscali.it/privacy/informativa_policy_privacy.html
+price:
+- free
+- '19,90€/month'
+- '22,90€/month'
+- '4.99€/month'
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://casa.tiscali.it/doc/CGDC_webmail_premium/CGDC_WEBMAIL_PREMIUM.pdf
+  privacy: https://www.tiscali.it/privacy/informativa_policy_privacy.html
+  imprint: https://www.tiscali.it/
+social:
+- https://www.facebook.com/Tiscali
+- https://www.instagram.com/tiscali_official
+- https://www.tiktok.com/@tiscali
+security:
+  spf: -all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.tiscali.it:993', note: SSL/TLS}
+- {kind: POP3, host: 'pop.tiscali.it:995', note: SSL/TLS}
+- {kind: SMTP, host: 'smtp.tiscali.it:465', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '1998-12-02'
+last_checked: '2026-10-30'

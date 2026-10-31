@@ -1,0 +1,33 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 157
+domain: eumx.net
+status: auto
+flag: 🇭🇺
+a:
+- {host: '94.16.119.123', flag: 🇩🇪, country: Germany, asn: AS197540, org: netcup GmbH}
+mx:
+- {host: eumx.net, flag: 🇩🇪, country: Germany, asn: AS197540, org: netcup GmbH}
+- {host: bmx1.eumx.net, flag: 🇳🇱, country: Netherlands, asn: AS60781, org: LeaseWeb Netherlands B.V.}
+- {host: bmx2.eumx.net, flag: 🇳🇱, country: Netherlands, asn: AS60781, org: LeaseWeb Netherlands B.V.}
+created: '2004-12-09'
+expires: '2031-12-09'
+jurisdiction:
+- Hungary
+description: EuMX.net Email Hosting Services
+tos_summary: |-
+  Illegal actions (spam, hacking), IP violation, harassment, commercial use
+  https://ssl.eumx.net/tos.html
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption.'
+links:
+  tos: https://ssl.eumx.net/tos.html
+security:
+  spf: -all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.eumx.net:993', note: SSL/TLS}
+online_since: '2005-02-12'
+last_checked: '2026-10-30'

@@ -1,0 +1,30 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 54
+domain: aivmail.com
+status: auto
+flag: 🇨🇦
+a:
+- {host: '188.114.96.3', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '188.114.97.3', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: route3.mx.cloudflare.net, flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: route2.mx.cloudflare.net, flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: route1.mx.cloudflare.net, flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+created: '2019-06-25'
+expires: '2027-06-25'
+alliance: 5
+jurisdiction:
+- Canada
+description: |-
+  AivMail provides a private email service
+  AivMail believes that online privacy matters. Find out how we provide a truly private email which respects the privacy of its users.
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+security:
+  spf: ~all
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'yes'
+online_since: '2021-11-25'
+last_checked: '2026-10-30'

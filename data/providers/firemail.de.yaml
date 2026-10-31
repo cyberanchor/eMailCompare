@@ -1,0 +1,44 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 9
+domain: firemail.de
+status: checked
+flag: 🇩🇪
+domains:
+- firemail.de
+- firemail.at
+- firemail.eu
+a:
+- {host: '188.40.70.221', flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+mx:
+- {host: mx1.firemail.de, flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+owner: 🇩🇪 Emailn.de — Freemail (Freemail.biz Media)
+alliance: 14
+jurisdiction:
+- Germany
+description: |-
+  Firemail Freemail - Ihr kostenloser Freemail-Service
+  Kostenlose seriöse neue **Freemail-Adresse** und Freemail-Service von Firemail. Jetzt kostenlos neue anonyme Freemail-Adresse ohne Handynummer erstellen und sofort starten.
+tos_summary: Spam, phishing, viruses, mass emails, violating German law, ad blockers, inactive accounts (720 days)
+privacy_summary: Collect IP, personal data (alt. email), usage data, cookies (ads version). Store in Germany (Hetzner). Share with ad partners (Refinery89), authorities if required.
+email: 'yes'
+phone: optional
+personal: optional
+price:
+- Free
+- Base 6.00 EUR
+- Eco 12.00 EUR
+- Ultra 30.00 EUR
+note: 'Firemail.de is a German email service by Emailn.de (Norbert Sehm), offering webmail with a free ad-supported version and paid plans (ECO, ULTRA) without ads. It also supports POP3, IMAP, CalDAV, and CardDAV for backups. Suitable for basic correspondence and managing contacts/calendars. Security & Anonymity: Uses SSL/TLS for data transmission and offers two-factor authentication (2FA), but lacks end-to-end encryption, reducing content protection. Anonymity is minimal in the free version: IP, alternative email, usage data are collected and shared with ad partner Refinery89. Paid plans eliminate external cookies, but data is still stored in Germany and subject to legal disclosure. Good for simple personal use or temporary email. The free version suits those okay with ads and low privacy; paid plans work for basic tasks with slightly better protection. Not for confidential communication—lags behind Proton Mail or Tutanota in security and anonymity.'
+links:
+  tos: https://firemail.de/AGB
+  privacy: https://firemail.de/Datenschutz
+  imprint: https://firemail.de/Impressum
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: testing
+  tls_rpt: 'yes'
+  dnssec: 'yes'
+  dane: 'yes'
+online_since: '2000-02-29'
+last_checked: '2026-10-30'

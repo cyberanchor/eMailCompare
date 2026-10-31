@@ -1,0 +1,37 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 26
+domain: xmail.net
+status: checked
+flag: 🇧🇸
+a:
+- {host: '65.110.6.112', flag: 🇨🇦, country: Canada, asn: AS25668, org: Cipherkey Exchange Corp.}
+mx:
+- {host: smtp-in.xmail.net, flag: 🇨🇦, country: Canada, asn: AS25668, org: Cipherkey Exchange Corp.}
+created: '1998-09-11'
+expires: '2027-09-10'
+owner: 🇧🇸 Aaex Holdings Corp.
+jurisdiction:
+- Canada
+description: XMAIL.NET™ - Free Web Based Xmail
+tos_summary: No explicit prohibitions listed; implied restriction on abuse via inactivity deletion (unused accounts deleted after 1 year)
+privacy_summary: No personal data collected (no info required at signup); messages/web files stored with 1GB limit each. No sharing specified; legal disclosure unclear.
+email: 'no'
+phone: 'no'
+personal: optional
+price:
+- free
+note: 'XMail is a free web-based email service that has been operational since 1998, accessible via xmail.net. Incorporated in the British Virgin Islands with IT operations subcontracted in Vancouver, Canada, XMail provides users with a simple and minimalist communication tool through an Ajax-powered browser interface. The service also offers 1 GB of mailbox storage and 1 GB for personal web hosting, making it a versatile option for basic internet tasks.  Security & Anonymity: XMail stands out with its privacy policy: it collects no personal or demographic information during signup—users only need to choose a username and password. This ensures a high degree of anonymity, as no identity disclosure is required. The service is accessible via standard browsers, including Tor-compatible ones (e.g., Brave), adding optional anonymity when used through the Tor network. For secure communication, XMail supports S/MIME with personal certificates, enabling end-to-end encryption and digital signatures to verify sender authenticity. However, full data protection relies on utilizing these certificates, as server-side encryption isn’t specified. Inactive accounts are deleted after one year, preventing the accumulation of abandoned data. There’s no mention of data sharing with third parties, leaving legal obligations unclear (BVI jurisdiction).  Use Cases: XMail is suitable for users who value basic anonymity and straightforward privacy without complexity. It’s a good fit for:      Anonymous correspondence via the web interface or Tor (with S/MIME for encryption).     Storing small amounts of data (1 GB for email and web files).     Hosting simple static HTML web pages (no CGI/PHP support).     Individuals avoiding intrusive data collection by larger services. It’s not suited for complex tasks requiring server-side scripting or highly sensitive communication without self-applied encryption. XMail is ideal for those seeking a lightweight, free, and anonymous tool for messaging and basic online presence, especially when paired with Tor for added protection. It’s a solution for everyday needs with a focus on simplicity and independence.'
+security:
+  spf: ~all
+  dmarc: quarantine
+  mta_sts: enforce
+  tls_rpt: 'yes'
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.xmail.net:993', note: SSL/TLS}
+- {kind: SMTP, host: 'smtp.xmail.net:587', note: STARTTLS}
+- {kind: POP3, host: 'pop3.xmail.net:995', note: SSL/TLS}
+- {kind: IMAP software, host: Stalwart}
+online_since: '1999-01-25'
+last_checked: '2026-10-30'

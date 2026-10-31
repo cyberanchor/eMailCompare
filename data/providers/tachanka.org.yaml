@@ -1,0 +1,28 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 223
+domain: tachanka.org
+status: pending
+flag: 🇬🇧
+a:
+- {host: '108.58.6.98', flag: 🇺🇸, country: United States, asn: AS6128, org: Cablevision Systems Corp.}
+mx:
+- {host: elderberry.rat.burntout.org, flag: 🇬🇧, country: United Kingdom, asn: AS41354, org: ITS Technology Group Limited}
+created: '2005-12-21'
+expires: '2028-12-21'
+owner: 🇬🇧 Tachanka! collective
+alliance: 5
+jurisdiction:
+- United Kingdom
+description: Tachanka
+price:
+- donations
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Homepage does not mention e-mail. IMAP (port 993) does not answer on elderberry.rat.burntout.org, nor from 5 check-host.net locations. Mail DNS: SPF, DMARC p=none. Site mentions: accepts cryptocurrency, PGP/E2E encryption.'
+security:
+  spf: ~all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2007-12-17'
+last_checked: '2026-10-30'

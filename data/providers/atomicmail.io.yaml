@@ -1,0 +1,42 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 28
+domain: atomicmail.io
+status: checked
+flag: 🇪🇪
+a:
+- {host: '104.21.94.171', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: mail1.atomicmail.io, flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+created: '2023-12-30'
+expires: '2026-12-30'
+owner: 🇪🇪 AtomicMail Systems OÜ
+jurisdiction:
+- Estonia
+description: |-
+  Atomic Mail: Encrypted email provider
+  Secure and user-centric email hosting provider, dedicated to offering privacy-first email services. Create multiple aliases, end-to-end encryption, email password protection everything you need for safe communication.
+tos_summary: Breaking laws; violating rights; spam; stolen goods trade; threats; child pornography; fraud; excessive messaging; obscene usernames
+privacy_summary: Collect optional name (alias ok), email, password (hashed); IP/browser/OS for site visits (7-day logs). Stored encrypted (AES-256). No sharing unless Estonian court order.
+email: 'no'
+phone: 'no'
+personal: 'no'
+price:
+- free
+note: 'Atomic Mail is a free email service provided by AtomicMail Systems OÜ, registered in Estonia (Tallinn), designed to maximize privacy and user control over communications. Built with cutting-edge encryption technologies and a "zero-knowledge" approach, Atomic Mail positions itself as a secure alternative to traditional email services, drawing inspiration from blockchain ecosystem security standards.  Security & Anonymity: Atomic Mail offers a high level of anonymity and privacy. Registration doesn’t require a real name—users only need to select an email (e.g., user@atomicmail.io) and password, with the option to use a pseudonym. No personal data is collected, and passwords are hashed (SHA-256) and never stored in plaintext. Messages are encrypted client-side with AES-256 (for all users) and ECIES (between Atomic Mail users), ensuring end-to-end encryption—Atomic Mail itself cannot access email content. A BIP39 seed phrase, kept by the user, enables account recovery, eliminating reliance on the service. Website visitor IP addresses are logged for 7 days to combat spam, but emails display Atomic Mail’s server IP, not the user’s. Data isn’t shared with third parties except under valid Estonian court orders—requests from foreign authorities are ignored. Access via Tor is possible, enhancing anonymity. However, losing both the password and seed phrase makes recovery impossible, a deliberate security feature.  Use Cases: Atomic Mail is suited for users who prioritize strong privacy and data protection without compromise. It’s an excellent choice for:      Confidential correspondence with robust encryption (e.g., between Atomic Mail users via ECIES).     Sending secure emails to external recipients (password-protected via Decryption Service).     Individuals avoiding surveillance and valuing key control (thanks to the seed phrase).     Those seeking a free, ad-free service with minimal data collection. It’s not ideal for bulk messaging (due to spam restrictions) or users needing support without technical know-how (no recovery guarantees if data is lost). Atomic Mail is perfect for self-reliant users, such as journalists, activists, or tech-savvy individuals, who value anonymity and independence within Estonia’s strict jurisdiction.'
+links:
+  tos: https://atomicmail.io/terms-of-service
+  privacy: https://atomicmail.io/privacy-policy
+social:
+- https://x.com/atomic_mail
+- https://discord.gg/zy6tACJJPP
+- https://www.linkedin.com/company/atomicmail
+- https://www.reddit.com/r/AtomicMail
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2024-06-10'
+last_checked: '2026-10-30'

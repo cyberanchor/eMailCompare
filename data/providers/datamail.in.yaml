@@ -1,0 +1,43 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 16
+domain: datamail.in
+status: checked
+flag: 🇮🇳
+a:
+- {host: '202.157.83.72', flag: 🇮🇳, country: India, asn: AS17753, org: DATA INGENIOUS GLOBAL LIMITED}
+mx:
+- {host: tls.spamjadoo.com, flag: 🇮🇳, country: India, asn: AS17753, org: DATA INGENIOUS GLOBAL LIMITED | Data Infosys Ltd}
+- {host: aspmx.spamjadoo.com, flag: 🇮🇳, country: India, asn: AS17753, org: DATA INGENIOUS GLOBAL LIMITED | Data Infosys Ltd}
+- {host: Aspmx1.spamjadoo.com, flag: 🇮🇳, country: India, asn: AS17753, org: DATA INGENIOUS GLOBAL LIMITED | Data Infosys Ltd}
+created: '2016-08-29'
+expires: '2027-08-29'
+owner: 🇮🇳 Data xgen technologies Pvt Ltd.
+jurisdiction:
+- India
+description: |-
+  Free Business Email Address | Corporate Email Solution
+  Get a Free Business Email Address from Data Mail. Our Corporate Email Solution specially designed for your requirements to bring you an enterprise email system
+tos_summary: Illegal use of services; violating Terms of Service; unauthorized access/alteration of data; distributing harmful content (implied); void where prohibited
+privacy_summary: Collect personal info (name, email, phone, credit card, language, profile data, photo), device info (model, OS, identifiers, phone number), usage data (logs, search queries, telephony logs, IP, location, cookies, app numbers). Stored globally (servers in multiple countries). Shared with consent, domain admins, affiliates for processing, legal authorities, or non-identifiable data with partners (e.g., advertisers).
+email: 'yes'
+phone: optional
+personal: optional
+price:
+- free
+note: 'Datamail is an email service provided by the Indian company Data Xgen Technologies Pvt Ltd, launched as part of a digital initiative. It offers free email accounts with the @datamail.in domain, accessible via a web interface and mobile application. The service supports contact synchronization, basic communication features, and integration with advertising services. To register, you must install the official Datamail app on your phone (available for Android and iOS), tying the process to a mobile device. Security & Anonymity: Datamail employs SSL encryption to secure data transmission and provides two-factor authentication (2FA) to enhance login security. However, it lacks end-to-end encryption, meaning email content remains accessible to the company as data is stored unencrypted on servers. Anonymity is minimal: registration via the app requires personal details (name, email, phone number, sometimes credit card), alongside device information (model, OS, IP, identifiers) and usage data (logs, queries, contacts). This data may be shared with partners (e.g., advertisers) or authorities upon request, with servers located across multiple countries, reducing privacy control. The privacy policy (last updated December 22, 2016) emphasizes personalization over anonymity. Datamail is suitable for basic communication, sending emails, syncing contacts, or registering on websites where high privacy isn’t a priority. The mobile app makes it convenient for phone-based users, particularly in India, where it’s promoted as a local alternative. However, due to weak anonymity, lack of end-to-end encryption, and extensive data collection, it’s not recommended for confidential correspondence or scenarios requiring identity protection (unlike Proton Mail or Tutanota). It’s a general-purpose tool for everyday tasks with moderate security, aimed at mainstream users.'
+links:
+  tos: https://www.datamail.in/terms/
+  privacy: https://www.datamail.in/privacy/
+security:
+  spf: ~all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imaps.datamail.in:993', note: SSL/TLS}
+- {kind: SMTP, host: 'smtps.datamail.in:465', note: SSL/TLS}
+- {kind: POP3, host: 'mail.datamail.in:995', note: SSL/TLS}
+online_since: '2016-10-21'
+last_checked: '2026-10-30'

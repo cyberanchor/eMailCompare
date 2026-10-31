@@ -1,0 +1,28 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 97
+domain: darkn.space
+status: auto
+flag: 🇱🇹
+a:
+- {host: '89.40.13.217', flag: 🇱🇹, country: Lithuania, asn: AS212531, org: Interneto vizija}
+mx:
+- {host: mail.darkn.space, flag: 🇱🇹, country: Lithuania, asn: AS212531, org: Interneto vizija}
+created: '2015-12-31'
+expires: '2026-12-31'
+jurisdiction:
+- Lithuania
+description: |-
+  Darkn.Space
+  Darkn.Space Tech Collective
+price:
+- free
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: invite-only, accepts cryptocurrency.'
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2018-08-10'
+last_checked: '2026-10-30'

@@ -1,0 +1,35 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 114
+domain: ok.de
+status: auto
+flag: 🇩🇪
+a:
+- {host: '104.26.15.116', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '172.67.73.131', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: mx2-eu.spamexperts.com, flag: 🇩🇪, country: Germany, asn: AS16633, org: 'N-able Technologies, Inc.'}
+- {host: mx1-eu.spamexperts.com, flag: 🇩🇪, country: Germany, asn: AS16633, org: 'N-able Technologies, Inc.'}
+- {host: mx3-eu.spamexperts.com, flag: 🇳🇱, country: Netherlands, asn: AS174, org: 'Cogent Communications, LLC'}
+- {host: mx4-eu.spamexperts.com, flag: 🇩🇪, country: Germany, asn: AS16633, org: 'N-able Technologies, Inc.'}
+alliance: 14
+jurisdiction:
+- Germany
+description: OK.de
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://web.archive.org/web/20170805165830/https://www.ok.de/index.php?action=agb
+  privacy: https://web.archive.org/web/20210301172158/https://www.ok.de/company/en/privacy-policy-2/
+security:
+  spf: -all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.ok.de:993', note: SSL/TLS}
+- {kind: SMTP, host: 'smtp.ok.de:587', note: SSL/TLS}
+- {kind: SMTP, host: 'smtp.ok.de:587', note: STARTTLS}
+- {kind: POP3, host: 'pop.ok.de:995', note: SSL/TLS}
+online_since: '2009-10-28'
+last_checked: '2026-10-30'

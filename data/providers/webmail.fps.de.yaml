@@ -1,0 +1,31 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 80
+domain: webmail.fps.de
+status: auto
+flag: 🇩🇪
+domains:
+- fps.de
+a:
+- {host: '185.245.22.8', flag: 🇩🇪, country: Germany, asn: AS20686, org: Bisping & Bisping GmbH & Co KG}
+mx:
+- {host: viruswall.uplink.de, flag: 🇩🇪, country: Germany, asn: AS20686, org: Bisping & Bisping GmbH & Co KG}
+owner: 🇩🇪 FPS InformationsSysteme GmbH
+alliance: 14
+jurisdiction:
+- Germany
+description: 'FPS Webmail :: Willkommen bei FPS Webmail'
+privacy_summary: |-
+  Collect IP addresses, cookies, analytics/tracking, third parties, encryption, GDPR
+  http://www.fps.de/index.php?id=64
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. MX taken from fps.de.
+links:
+  privacy: http://www.fps.de/index.php?id=64
+security:
+  spf: missing
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2011-03-04'
+last_checked: '2026-10-30'

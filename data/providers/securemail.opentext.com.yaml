@@ -1,0 +1,26 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 193
+domain: securemail.opentext.com
+status: pending
+flag: 🇨🇦
+a:
+- {host: '137.236.131.49', flag: 🇺🇸, country: United States, asn: AS31917, org: Open Text Corporation}
+mx:
+- {host: mxa-00102601.gslb.pphosted.com, flag: 🇺🇸, country: United States, asn: AS26211, org: 'Proofpoint, Inc.'}
+- {host: mxb-00102601.gslb.pphosted.com, flag: 🇺🇸, country: United States, asn: AS26211, org: 'Proofpoint, Inc.'}
+created: '1994-10-26'
+expires: '2027-10-25'
+owner: 🇨🇦 Open Text Corporation
+alliance: 5
+jurisdiction:
+- Canada
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. MX taken from opentext.com. Website unreachable (ConnectionResetError: [Errno 104] Connection reset by peer). Also unreachable from 5 check-host.net locations (Switzerland, Spain, France, India, Turkey). Website text taken from the Wayback Machine copy of 2024-05-22 (https://web.archive.org/web/20240522051826/https://securemail.opentext.com/). Wayback Machine captures: 2023-04-06 to 2024-05-22. Mail servers belong to Proofpoint. Mail DNS: no SPF, DMARC, MTA-STS, DANE or DNSSEC.'
+security:
+  spf: missing
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2023-04-06'
+last_checked: '2026-10-30'

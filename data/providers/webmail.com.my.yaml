@@ -1,0 +1,27 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 195
+domain: webmail.com.my
+status: pending
+flag: 🇲🇾
+a:
+- {host: '104.37.184.189', flag: 🇺🇸, country: United States, asn: AS26666, org: 'Interserver, Inc'}
+mx:
+- {host: webmail.com.my, flag: 🇺🇸, country: United States, asn: AS26666, org: 'Interserver, Inc'}
+created: '2016-01-06'
+expires: '2027-01-06'
+owner: 🇲🇾 ebusiness PLT
+jurisdiction:
+- Malaysia
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website shows: "This domain webmail.com.my is under development. Come back soon! 2020 © eBusiness PLT (LLP". Website TLS certificate not trusted (certificate has expired). Domain registration dates from 2016-01-06, but the Wayback Machine has captures since 2003-04-02: the domain was registered before, possibly by someone else. Wayback Machine captures: 2003-04-02 to 2026-01-20. IMAP server mail.webmail.com.my:993 answers (Dovecot), certificate not trusted: self-signed certificate. Mail DNS: SPF.'
+security:
+  spf: ~all
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.webmail.com.my:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2003-04-02'
+last_checked: '2026-10-30'

@@ -1,0 +1,28 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 126
+domain: indivia.net
+status: auto
+flag: 🇨🇭
+a:
+- {host: '178.209.50.230', flag: 🇨🇭, country: Switzerland, asn: AS29691, org: Nine Internet Solutions AG}
+mx:
+- {host: mail.indivia.ortiche.net, flag: 🇨🇭, country: Switzerland, asn: AS29691, org: Nine Internet Solutions AG}
+- {host: mail.azoto.ortiche.net, flag: 🇷🇴, country: Romania, asn: AS39622, org: ZERGRUSH SRL}
+created: '2003-12-11'
+expires: '2026-12-11'
+jurisdiction:
+- 🇨🇭 Switzerland
+- 🇷🇴 Romania
+description: Indivia.net
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption.'
+security:
+  spf: ~all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.indivia.net:993', note: SSL/TLS}
+online_since: '2001-02-01'
+last_checked: '2026-10-30'

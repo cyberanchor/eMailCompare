@@ -1,0 +1,34 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 206
+domain: boum.org
+status: pending
+flag: 🇨🇭
+a:
+- {host: '204.13.164.192', flag: 🇺🇸, country: United States, asn: AS16652, org: Riseup Networks}
+mx:
+- {host: mx1.investici.org, flag: 🇨🇭, country: Switzerland, asn: AS210861, org: Open Networks Association}
+- {host: mx2.investici.org, flag: 🇸🇪, country: Sweden, asn: AS39287, org: Materialism s.r.l.}
+- {host: mx3.investici.org, flag: 🇳🇱, country: Netherlands, asn: AS51088, org: A2B IP B.V.}
+created: '2004-01-07'
+expires: '2028-01-07'
+alliance: 9
+jurisdiction:
+- 🇨🇭 Switzerland
+- 🇸🇪 Sweden
+- 🇳🇱 Netherlands
+description: |-
+  boum.org
+  marche pas ? état de la machine donner des sous Demander une boîte mail Pour une boîte @boum.org Pour une boîte qui n'est pas @boum.org Demander une boîte mail Une nouvelle boîte mail ? Pour l’instant, ce n’est pas possible.
+tos_summary: |-
+  Illegal actions (spam)
+  https://web.archive.org/web/20210623134755/https://boum.org/mail/
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website unreachable (OSError: [Errno 113] No route to host). Also unreachable from 5 check-host.net locations (Spain, Netherlands, Portugal, Turkey, USA). Domain registration dates from 2004-01-07, but the Wayback Machine has captures since 2001-02-17: the domain was registered before, possibly by someone else. Website text taken from the Wayback Machine copy of 2021-07-07 (https://web.archive.org/web/20210707203324/https://boum.org/). Wayback Machine captures: 2001-02-17 to 2021-07-07. IMAP (port 993) does not answer on imap.boum.org, mail.boum.org, mx1.investici.org, nor from 5 check-host.net locations. Mail DNS: SPF.'
+security:
+  spf: ~all
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2001-02-17'
+last_checked: '2026-10-30'

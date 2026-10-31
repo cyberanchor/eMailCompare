@@ -1,0 +1,38 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 101
+domain: dmail.earth
+status: auto
+flag: 🇺🇸
+a:
+- {host: '188.114.96.3', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '188.114.97.3', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: mail.dmail.earth, flag: 🇫🇷, country: France, asn: AS51167, org: Contabo GmbH}
+created: '2024-04-10'
+expires: '2028-04-10'
+owner: 🇺🇸 NCOG Limited
+alliance: 5
+jurisdiction:
+- United States
+description: |-
+  DMail - Secure mail for everyone.
+  DMail - The future of secure communication. Protect your privacy with our state-of-the-art encryption technology. Safe, reliable, and easy-to-use email for everyone.
+tos_summary: |-
+  Illegal actions (hacking), IP violation, commercial use
+  https://dmail.ncog.earth/terms-conditions.html
+privacy_summary: |-
+  Collect IP addresses, cookies, analytics/tracking, third parties, share upon authorities' request, may sell data
+  https://dmail.ncog.earth/privacy-policy.html
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption.'
+links:
+  tos: https://dmail.ncog.earth/terms-conditions.html
+  privacy: https://dmail.ncog.earth/privacy-policy.html
+security:
+  spf: -all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2024-05-25'
+last_checked: '2026-10-30'

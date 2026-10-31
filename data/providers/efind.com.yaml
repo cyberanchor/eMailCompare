@@ -1,0 +1,39 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 45
+domain: efind.com
+status: auto
+flag: 🇺🇸
+a:
+- {host: '204.94.93.157', flag: 🇺🇸, country: United States, asn: AS19893, org: 'NTT Global Data Centers Americas, INC.'}
+mx:
+- {host: mail.efind.com, flag: 🇺🇸, country: United States, asn: AS19893, org: 'NTT Global Data Centers Americas, INC.'}
+created: '1997-06-24'
+expires: '2029-06-23'
+alliance: 5
+jurisdiction:
+- United States
+description: |-
+  eFind
+  eFind provides fast, accurate and reliable search results for webpages, images and videos.
+tos_summary: |-
+  Illegal actions (spam, hacking), IP violation
+  https://ads.efind.com/terms
+privacy_summary: |-
+  Collect IP addresses, cookies, advertising, third parties, share upon authorities' request, encryption, GDPR
+  https://ads.efind.com/privacy
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://ads.efind.com/terms
+  privacy: https://ads.efind.com/privacy
+security:
+  spf: -all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.efind.com:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '1999-11-27'
+last_checked: '2026-10-30'

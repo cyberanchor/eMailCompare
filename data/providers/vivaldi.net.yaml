@@ -1,0 +1,60 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 240
+domain: vivaldi.net
+status: pending
+flag: 🇳🇴
+a:
+- {host: '104.20.31.204', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '172.66.173.74', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: mxi-1.vivaldi.net, flag: 🇮🇸, country: Iceland, asn: AS51896, org: Hringdu ehf}
+- {host: mxi-2.vivaldi.net, flag: 🇮🇸, country: Iceland, asn: AS51896, org: Hringdu ehf}
+created: '2002-04-08'
+expires: '2031-04-08'
+owner: 🇳🇴 Vivaldi Technologies AS
+alliance: 9
+jurisdiction:
+- Norway
+description: |-
+  Vivaldi community | Tech forum and blogging platform.
+  Tech forum and blogging platform.
+tos_summary: |-
+  Illegal actions (CSAM, spam, hacking), IP violation, harassment, fraud, multiple accounts
+  https://vivaldi.com/privacy/community-terms-of-use/
+privacy_summary: |-
+  Page found, no key clauses detected
+  https://vivaldi.com/privacy/code-of-conduct/
+price:
+- free
+note: 'Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Domain registration dates from 2002-04-08, but the Wayback Machine has captures since 2000-03-03: the domain was registered before, possibly by someone else. IMAP server imap.vivaldi.net:993 answers (Dovecot). Publishes mail client autoconfig. Webmail: https://login.vivaldi.net/. Mail DNS: SPF, DMARC p=reject, MTA-STS, DANE, DNSSEC.'
+links:
+  tos: https://vivaldi.com/privacy/community-terms-of-use/
+  privacy: https://vivaldi.com/privacy/code-of-conduct
+social:
+- https://linkedin.com/company/vivaldi-technologies
+- https://t.me/vivaldibrowser
+- https://x.com/vivaldibrowser
+- https://www.facebook.com/vivaldi.browser
+- https://www.instagram.com/vivaldibrowser
+- https://www.threads.net/@vivaldibrowser
+- https://bsky.app/profile/vivaldi.com
+- https://www.tiktok.com/@vivaldibrowser
+- https://www.reddit.com/r/vivaldibrowser
+- https://mastodon.online/@vivaldibrowser
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: enforce
+  tls_rpt: 'yes'
+  dnssec: 'yes'
+  dane: 'yes'
+servers:
+- {kind: IMAP, host: 'imap.vivaldi.net:993', note: SSL/TLS}
+- {kind: IMAP, host: 'imap.vivaldi.net:143', note: STARTTLS}
+- {kind: POP3, host: 'pop3.vivaldi.net:995', note: SSL/TLS}
+- {kind: POP3, host: 'pop3.vivaldi.net:110', note: STARTTLS}
+- {kind: SMTP, host: 'smtp.vivaldi.net:465', note: SSL/TLS}
+- {kind: SMTP, host: 'smtp.vivaldi.net:587', note: STARTTLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2000-03-03'
+last_checked: '2026-10-30'

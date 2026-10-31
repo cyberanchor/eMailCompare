@@ -1,0 +1,33 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 39
+domain: vaelmail.com
+status: checked
+flag: 🇸🇪
+domains:
+- vael.email
+- vael.pw
+a:
+- {host: '217.60.78.29', flag: 🇸🇪, country: Sweden, asn: AS198189, org: Throttle Limited}
+mx:
+- {host: mail.vael.email, flag: 🇸🇪, country: Sweden, asn: AS198189, org: Throttle Limited}
+created: '2026-09-30'
+expires: '2027-09-30'
+owner: Vael Technologies
+alliance: 14
+jurisdiction:
+- Sweden
+description: 'VaelMail: Privacy-first webmail with 16-digit account keys. No phone verification, no KYC, no tracking. Persistent aliases and native Tor/I2P support.'
+tos_summary: https://vaelmail.com/terms
+privacy_summary: https://vaelmail.com/privacy
+email: 'no'
+phone: 'no'
+personal: 'no'
+price:
+- Free (50 MB receive-only) / 5 EUR/mo (1 GB send/receive)
+note: 'Native Monero (XMR) and Bitcoin payments. Scriptless No-JS mirror at nojs.vaelmail.com. Tor v3 onion service: 5gxnpixptykyv5fchr2qidjbrazjewswx77ddrqowpcmwmmgll57daid.onion.'
+links:
+  tos: https://vaelmail.com/terms
+  privacy: https://vaelmail.com/privacy
+onion: http://5gxnpixptykyv5fchr2qidjbrazjewswx77ddrqowpcmwmmgll57daid.onion/
+online_since: '2026-09-30'
+last_checked: '2026-10-30'

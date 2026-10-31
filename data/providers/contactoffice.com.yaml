@@ -1,0 +1,38 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 33
+domain: contactoffice.com
+status: checked
+flag: 🇧🇪
+a:
+- {host: '212.3.242.83', flag: 🇧🇪, country: Belgium, asn: AS3356, org: 'Level 3 Parent, LLC'}
+mx:
+- {host: smtp1.contactoffice.com, flag: 🇧🇪, country: Belgium, asn: AS3356, org: 'Level 3 Parent, LLC'}
+- {host: Smtp2.contactoffice.com, flag: 🇧🇪, country: Belgium, asn: AS3356, org: 'Level 3 Parent, LLC'}
+created: '1999-09-28'
+expires: '2035-09-28'
+owner: 🇧🇪  ContactOffice Group SA
+alliance: 14
+jurisdiction:
+- Belgium
+description: |-
+  Secure collaboration ContactOffice
+  Mailfence white label email for business. Custom brand the Mailfence secure and private email with your own logo and domain name. Powered by ContactOffice.
+tos_summary: Illegal use; pornographic/harmful content; harassment; spam; impersonation; IP infringement; service resale; data mining
+privacy_summary: Collect registration data (user-provided); ID/password; content (user-managed). Stored on servers. Share only for legal compliance.
+email: 'yes'
+phone: 'no'
+personal: 'yes'
+price:
+- free
+note: 'ContactOffice is a web-based service provided by ContactOffice Group SA (Brussels, Belgium), offering a suite of tools for management, communication, and collaboration, including email, calendars, address books, and document storage. Accessible through registration on the website, ContactOffice targets users seeking organized online solutions with a certain level of privacy determined by their subscription plan.  Security & Anonymity: ContactOffice provides a basic level of privacy but does not position itself as a fully anonymous service. Registration requires truthful information (e.g., name and email), which is stored in the company’s database for service management and potential promotional campaigns (opt-out available). Users receive a unique ID and choose a password, but maintaining their confidentiality is the user’s responsibility. Email content and data are stored on ContactOffice servers with capacity limits based on the chosen plan, though no encryption is mentioned in the policy, suggesting a lack of default end-to-end protection. Personal data isn’t shared with third parties except under lawful Belgian authority requests, with user notification provided when legally permitted. Privacy isn’t guaranteed due to the nature of the Internet, and for enhanced anonymity, using a VPN or Tor is recommended, especially since registration ties the account to an email address. Accounts may be terminated for inactivity or rule violations, resulting in data loss.  Use Cases: ContactOffice is suitable for users needing a versatile tool for communication and organization with basic privacy, but without strict anonymity requirements. It’s a good fit for:      Personal or group correspondence and task management in small teams (with group creation features).     Storing and transferring documents within specified volume limits.     Those who value convenient access to email and calendars via a single interface without complex setups. It’s not ideal for highly sensitive correspondence (due to unclear encryption) or complete anonymity (registration requires identification). ContactOffice is optimal for everyday use by individuals, freelancers, or small groups who appreciate convenience and basic data protection within Belgium’s jurisdiction, particularly if security is supplemented on the user’s end.'
+links:
+  tos: https://contactoffice.com/virtual-office/en/agreement.jsp
+security:
+  spf: -all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2000-05-11'
+last_checked: '2026-10-30'

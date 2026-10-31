@@ -1,0 +1,28 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 119
+domain: aktivix.org
+status: auto
+flag: 🇬🇧
+a:
+- {host: '209.51.180.245', flag: 🇺🇸, country: United States, asn: AS6939, org: Hurricane Electric LLC}
+mx:
+- {host: newyear.aktivix.org, flag: 🇺🇸, country: United States, asn: AS6939, org: Hurricane Electric LLC}
+created: '2004-06-19'
+expires: '2028-06-19'
+alliance: 5
+jurisdiction:
+- United Kingdom
+description: Welcome to Aktivix Home
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+security:
+  spf: ~all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'newyear.aktivix.org:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2004-08-06'
+last_checked: '2026-10-30'

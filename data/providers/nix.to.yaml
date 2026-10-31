@@ -1,0 +1,42 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 162
+domain: nix.to
+status: auto
+flag: 🇳🇱
+domains:
+- afk.to
+- ano.to
+- anobox.me
+- go6.to
+- p4.to
+a:
+- {host: '104.21.67.228', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '172.67.182.120', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: mail.nix.to, flag: 🇳🇱, country: Netherlands, asn: AS43641, org: SOLLUTIUM EU Sp z.o.o.}
+created: '2023-12-16'
+expires: '2027-01-05'
+alliance: 9
+jurisdiction:
+- Netherlands
+description: nix.to freemail
+tos_summary: |-
+  Illegal actions (spam)
+  https://nix.to/index.php?action=tos
+price:
+- free
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://nix.to/index.php?action=tos
+security:
+  spf: missing
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.nix.to:993', note: SSL/TLS}
+- {kind: SMTP, host: 'mail.nix.to:587', note: STARTTLS}
+online_since: '2022-03-09'
+last_checked: '2026-10-30'

@@ -1,0 +1,48 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 177
+domain: nubo.coop
+status: auto
+flag: 🇧🇪
+a:
+- {host: '79.99.203.51', flag: 🇧🇪, country: Belgium, asn: AS44312, org: Moving Art Studio ASBL}
+mx:
+- {host: mail.nubo.coop, flag: 🇧🇪, country: Belgium, asn: AS44312, org: Moving Art Studio ASBL}
+created: '2017-06-21'
+expires: '2027-06-21'
+owner: 🇧🇪 Nubo
+alliance: 14
+jurisdiction:
+- Belgium
+description: |-
+  Nubo
+  une coopérative pour mail et cloud, éthique et local, ensemble
+tos_summary: |-
+  Page found, no key clauses detected
+  https://nubo.coop/fr/page/legal_notice/
+privacy_summary: |-
+  Collect IP addresses, data/logs kept 15 days, cookies, analytics/tracking, third parties, share upon authorities' request, encryption, GDPR
+  https://nubo.coop/fr/page/privacy_policy/
+price:
+- free
+- '2,5€/month'
+- '2,50€/month'
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. IMAP server mail.nubo.coop:993 answers (Dovecot). Publishes mail client autoconfig. Mail DNS: SPF, DMARC p=quarantine.'
+links:
+  tos: https://web.archive.org/web/20240624103505/https://nubo.coop/en/faq/08_terms/
+  privacy: https://web.archive.org/web/20240624093227/https://nubo.coop/en/page/privacy_policy/
+security:
+  spf: ?all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.nubo.coop:993', note: SSL/TLS}
+- {kind: IMAP, host: 'mail.nubo.coop:143', note: STARTTLS}
+- {kind: POP3, host: 'mail.nubo.coop:995', note: SSL/TLS}
+- {kind: SMTP, host: 'mail.nubo.coop:465', note: SSL/TLS}
+- {kind: SMTP, host: 'mail.nubo.coop:587', note: STARTTLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2018-08-08'
+last_checked: '2026-10-30'

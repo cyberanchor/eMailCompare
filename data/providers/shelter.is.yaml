@@ -1,0 +1,29 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 216
+domain: shelter.is
+status: pending
+flag: 🇮🇸
+a:
+- {host: '198.167.222.111', flag: 🇸🇪, country: Sweden, asn: AS39287, org: Materialism s.r.l.}
+mx:
+- {host: mail.shelter.is, flag: 🇸🇪, country: Sweden, asn: AS39287, org: Materialism s.r.l.}
+created: '2013-09-11'
+owner: 🇮🇸 FlokiNET ehf
+jurisdiction:
+- Iceland
+description: |-
+  Shelter
+  Autonomous tech collective that provides secure and privacy friendly infrastructure that are run with solidarity in mind rather than motivated by profit
+price:
+- donations
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Homepage does not mention e-mail. IMAP (port 993) does not answer on mail.shelter.is, nor from 5 check-host.net locations. Mail DNS: no SPF, DMARC, MTA-STS, DANE or DNSSEC. Site mentions: accepts cryptocurrency.'
+social:
+- https://twitter.com/shelteris
+security:
+  spf: missing
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+last_checked: '2026-10-30'

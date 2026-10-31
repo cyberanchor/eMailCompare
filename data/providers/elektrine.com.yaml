@@ -1,0 +1,46 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 173
+domain: elektrine.com
+status: auto
+flag: 🇺🇸
+a:
+- {host: '95.173.206.45', flag: 🇺🇸, country: United States, asn: AS60068, org: Datacamp Limited}
+mx:
+- {host: mail.elektrine.com, flag: 🇺🇸, country: United States, asn: AS60068, org: Datacamp Limited}
+created: '2018-11-17'
+expires: '2027-11-17'
+alliance: 5
+jurisdiction:
+- United States
+description: |-
+  Elektrine: private email, VPN, chat, and encrypted files
+  Email, VPN, chat, DNS, and encrypted notes, passwords, and files. No phone number, no connection logs on disk, and client-side encryption we can't read.
+tos_summary: |-
+  Illegal actions (spam, hacking), harassment
+  https://elektrine.com/terms
+privacy_summary: |-
+  No IP logging (claimed), cookies, no tracking (claimed), no third-party sharing (claimed), share upon authorities' request, encryption, no-logs claim, does not sell data (claimed)
+  https://elektrine.com/privacy
+price:
+- 'free (Alpha: 1 GB, 3 aliases)'
+- Omega $6/month or $58/year (100 GB, unlimited aliases), paid in Monero
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: no phone number required, accepts cryptocurrency, PGP/E2E encryption. Tor: elekhj7afj4qnrr4yd3bkzslsyo5jgfxw3orgjkhlcxifueodybyiiad.onion.'
+links:
+  tos: https://elektrine.com/legal
+  privacy: https://elektrine.com/privacy
+  imprint: https://elektrine.com/legal
+social:
+- xmpp:sigkill@conference.elektrine.com
+onion: http://elekhj7afj4qnrr4yd3bkzslsyo5jgfxw3orgjkhlcxifueodybyiiad.onion/
+security:
+  spf: ~all
+  dmarc: quarantine
+  mta_sts: enforce
+  tls_rpt: 'yes'
+  dnssec: 'yes'
+  dane: 'yes'
+servers:
+- {kind: IMAP, host: 'mail.elektrine.com:993', note: SSL/TLS}
+- {kind: SMTP, host: 'mail.elektrine.com:465', note: SSL/TLS}
+online_since: '2025-07-11'
+last_checked: '2026-10-30'

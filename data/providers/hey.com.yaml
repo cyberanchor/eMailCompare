@@ -1,0 +1,42 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 103
+domain: hey.com
+status: auto
+flag: 🇺🇸
+a:
+- {host: '104.18.6.14', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '104.18.7.14', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: home-mx.app.hey.com, flag: 🇺🇸, country: United States, asn: AS25657, org: 'Basecamp, LLC'}
+created: '1995-09-28'
+expires: '2027-09-27'
+owner: 🇺🇸 37signals LLC
+alliance: 5
+jurisdiction:
+- United States
+description: |-
+  HEY — A delightfully fresh take on email + calendar, from 37signals
+  Gmail, Outlook, and Apple got complacent and took their eye off the ball. Then along came HEY.
+tos_summary: |-
+  Illegal actions (hacking), IP violation, harassment, commercial use
+  https://37signals.com/policies/terms
+privacy_summary: |-
+  Collect IP addresses, cookies, analytics/tracking, advertising, third parties, share upon authorities' request, encryption, GDPR, does not sell data (claimed)
+  https://37signals.com/policies/privacy
+price:
+- $99/year
+- $2/month
+- $10/month
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://37signals.com/policies/
+  privacy: https://37signals.com/policies/privacy
+security:
+  spf: ~all
+  dmarc: quarantine
+  mta_sts: enforce
+  tls_rpt: 'yes'
+  dnssec: 'no'
+  dane: 'no'
+online_since: '1996-12-20'
+last_checked: '2026-10-30'

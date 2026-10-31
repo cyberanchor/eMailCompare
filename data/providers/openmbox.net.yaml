@@ -1,0 +1,26 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 225
+domain: openmbox.net
+status: pending
+dead: true
+flag: 🇺🇸
+a:
+- {host: '104.21.73.246', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '172.67.151.94', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: mail.postno.de, flag: 🇺🇸, country: United States, asn: AS36352, org: HostPapa}
+created: '2022-10-20'
+expires: '2028-10-20'
+alliance: 5
+jurisdiction:
+- United States
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Struck out in README. Website shows: "OpenMbox.net - Status Update". Wayback Machine captures: 2022-10-25 to 2026-06-11. IMAP (port 993) does not answer on mail.postno.de, nor from 5 check-host.net locations. Mail DNS: SPF, DNSSEC. Website status page: "Regrettably, this privacy-focused email service was shut down earlier this year."'
+security:
+  spf: ~all
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'no'
+online_since: '2022-10-25'
+last_checked: '2026-10-30'

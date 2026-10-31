@@ -1,0 +1,60 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 116
+domain: fuck.it
+status: auto
+flag: 🇺🇸
+a:
+- {host: '104.21.91.238', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '172.67.181.236', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: mx001.paradisecircus.xion.oxcs.net, flag: 🇫🇷, country: France, asn: AS16276, org: OVH SAS}
+- {host: mx002.paradisecircus.xion.oxcs.net, flag: 🇫🇷, country: France, asn: AS16276, org: OVH SAS}
+- {host: mx003.paradisecircus.xion.oxcs.net, flag: 🇬🇧, country: United Kingdom, asn: AS16276, org: OVH SAS}
+- {host: mx004.paradisecircus.xion.oxcs.net, flag: 🇬🇧, country: United Kingdom, asn: AS16276, org: OVH SAS}
+created: '2006-06-01'
+expires: '2027-01-29'
+owner: 🇺🇸 Paradise Circus Inc.
+alliance: 5
+jurisdiction:
+- United States
+description: |-
+  [@fuck.it] - Email with Attitude. Pure. Secure. Exclusive.
+  [@fuck.it] is the email service that never tracks or sells your data. Every mail’s a statement. Pure. Secure. Exclusive.
+tos_summary: |-
+  Illegal actions (spam, hacking), IP violation, harassment, fraud
+  https://fuck.it/acceptable-use-policy
+privacy_summary: |-
+  Collect IP addresses, cookies, share upon authorities' request, encryption, GDPR, does not sell data (claimed)
+  https://fuck.it/privacy-policy
+price:
+- free
+- USD5.90/month
+- USD4.72/month
+- USD11.90/month
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: invite-only, PGP/E2E encryption.'
+links:
+  tos: https://fuck.it/terms-of-service
+  privacy: https://fuck.it/privacy-policy
+  imprint: https://fuck.it/imprint
+social:
+- https://www.instagram.com/fuck.it.ofc
+- https://www.facebook.com/fck.it.ofc
+- https://x.com/fuckitofc
+- https://bsky.app/profile/fuck.it
+- https://www.linkedin.com/company/fuck.it
+- https://www.tiktok.com/@fuck.it.ofc
+- https://www.threads.net/@fuck.it.ofc
+- https://mastodon.social/@fuckitofc
+security:
+  spf: ~all
+  dmarc: reject
+  mta_sts: testing
+  tls_rpt: 'yes'
+  dnssec: 'yes'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.fuck.it:993', note: SSL/TLS}
+- {kind: POP3, host: 'pop.fuck.it:995', note: SSL/TLS}
+- {kind: SMTP, host: 'smtp.fuck.it:587', note: STARTTLS}
+online_since: '1999-05-08'
+last_checked: '2026-10-30'

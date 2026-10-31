@@ -1,0 +1,42 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 89
+domain: confidesk.com
+status: auto
+flag: 🇬🇧
+a:
+- {host: '217.150.243.48', flag: 🇨🇭, country: Switzerland, asn: AS29691, org: Nine Internet Solutions AG}
+mx:
+- {host: mail.confidesk.com, flag: 🇨🇭, country: Switzerland, asn: AS29691, org: Nine Internet Solutions AG}
+created: '2011-09-12'
+expires: '2027-09-12'
+owner: 🇬🇧 Confidesk Limited
+alliance: 5
+jurisdiction:
+- United Kingdom
+description: |-
+  Confidesk: private email and storage that stays yours
+  Email, files, notes, chat and a password vault in one account. Locked on your device before it reaches us, so nobody reads it: not us, not an advertiser, not an AI.
+tos_summary: |-
+  Illegal actions (spam), harassment, fraud
+  https://confidesk.com/terms-of-service/
+privacy_summary: |-
+  Data/logs kept 7 days, cookies, advertising, no third-party sharing (claimed), encryption, GDPR, does not sell data (claimed)
+  https://confidesk.com/privacy-policy/
+price:
+- free
+- $2.99/month
+- $4.99/month
+- $3.99/month
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption.'
+links:
+  tos: https://confidesk.com/terms-of-service/
+  privacy: https://confidesk.com/privacy-policy/
+security:
+  spf: -all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2012-01-27'
+last_checked: '2026-10-30'

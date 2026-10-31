@@ -1,0 +1,41 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 77
+domain: danwin1210.de
+status: auto
+flag: 🇩🇪
+a:
+- {host: '116.202.17.147', flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+mx:
+- {host: danwin1210.de, flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+owner: 🇩🇪 Individual operator
+alliance: 14
+jurisdiction:
+- Germany
+description: Daniel Winzen – Web- und Server-Experte
+privacy_summary: |-
+  Collect IP addresses, cookies, third parties, GDPR
+  https://danwin.dev/datenschutzerklaerung/
+price:
+- free
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://mail.danwin1210.de/terms.php
+  privacy: https://danwin.dev/datenschutzerklaerung/
+  code: https://github.com/DanWin
+  imprint: https://danwin.dev/impressum/
+security:
+  spf: -all
+  dmarc: quarantine
+  mta_sts: enforce
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'danwin1210.de:993', note: SSL/TLS}
+- {kind: IMAP, host: 'danwin1210.de:143', note: STARTTLS}
+- {kind: POP3, host: 'danwin1210.de:995', note: SSL/TLS}
+- {kind: POP3, host: 'danwin1210.de:110', note: STARTTLS}
+- {kind: SMTP, host: 'danwin1210.de:465', note: SSL/TLS}
+- {kind: SMTP, host: 'danwin1210.de:587', note: STARTTLS}
+online_since: '2021-12-05'
+last_checked: '2026-10-30'

@@ -1,0 +1,31 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 136
+domain: no-log.org
+status: auto
+flag: 🇫🇷
+a:
+- {host: '80.67.172.22', flag: 🇫🇷, country: France, asn: AS20766, org: Association Gitoyen}
+mx:
+- {host: mail.no-log.org, flag: 🇫🇷, country: France, asn: AS20766, org: Association Gitoyen}
+created: '2002-02-05'
+expires: '2027-02-05'
+owner: 🇫🇷 Association Globenet
+alliance: 9
+jurisdiction:
+- France
+description: No-Log
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://www.globenet.org/Contrat-No-log-les-conditions.html
+security:
+  spf: ~all
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.no-log.org:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2002-05-26'
+last_checked: '2026-10-30'

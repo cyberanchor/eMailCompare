@@ -1,0 +1,38 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 139
+domain: so36.net
+status: auto
+flag: 🇩🇪
+a:
+- {host: '192.68.11.74', flag: 🇩🇪, country: Germany, asn: AS204911, org: Digitale Partizipation e.V.}
+mx:
+- {host: rage.so36.net, flag: 🇩🇪, country: Germany, asn: AS204911, org: Digitale Partizipation e.V.}
+created: '2000-05-17'
+expires: '2027-05-17'
+owner: 🇩🇪 36.NET e.V
+alliance: 14
+jurisdiction:
+- Germany
+description: |-
+  Startpage
+  so36.net sind ein paar Nerds aus Kreuzberg*, die Spaß daran haben und es wichtig finden, ehrenamtlich selbstverwaltete Infrastruktur für das Internet zu bauen und zu betreiben.
+price:
+- donations
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption.'
+social:
+- https://systemli.social/@so36net
+security:
+  spf: ~all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'yes'
+servers:
+- {kind: POP3, host: 'pop.so36.net:995', note: SSL/TLS}
+- {kind: IMAP, host: 'imap.so36.net:993', note: SSL/TLS}
+- {kind: SMTP, host: 'smtp.so36.net:465', note: SSL/TLS}
+- {kind: SMTP, host: 'smtp.so36.net:587', note: STARTTLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2001-02-24'
+last_checked: '2026-10-30'

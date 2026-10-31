@@ -1,0 +1,46 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 22
+domain: ledgermail.io
+status: checked
+flag: 🇦🇪
+a:
+- {host: '188.114.96.3', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '188.114.97.3', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: mx.zoho.com, flag: 🇺🇸, country: United States, asn: AS2639, org: ZOHO | NTT America}
+- {host: mx2.zoho.com, flag: 🇺🇸, country: United States, asn: AS2639, org: ZOHO | NTT America}
+- {host: Mx3.zoho.com, flag: 🇺🇸, country: United States, asn: AS2639, org: ZOHO | NTT America}
+created: '2018-09-27'
+expires: '2027-09-27'
+owner: 🇦🇪 LedgerFi IT Solutions
+jurisdiction:
+- United Arab Emirates
+description: |-
+  LedgerMail - Web3 Email
+  LedgerMail - World's first Decentralized Email Solution on a mission of protecting Digital Rights of email users in a Decentralized way! Highest level of Email Security, Privacy, Encryption and Prevention from email attacks with 4th generation Blockchain.
+tos_summary: Commercial exploitation of site (sell, rent, host); modifying/reverse engineering site; building competitive sites; accessing if under 18; violating laws; infringing IP rights
+privacy_summary: Collect registration data (name, company, address, email), usage/log data (IP, browser, ISP, timestamps), optional profile picture. Stored encrypted during transit/storage. Shared only as legally required or for service provision (no third-party sharing otherwise).
+email: 'no'
+phone: 'no'
+personal: 'no'
+price:
+- free
+note: 'LedgerMail is a decentralized email service provided by LedgerFi IT Solutions Pvt. Ltd., built on Web3 principles and accessible via ledgermail.io. Positioned as a secure alternative to traditional email platforms, LedgerMail integrates blockchain technologies to enhance data privacy and user control. It combines standard email functionality with Web3 features, such as cryptographic methods for securing correspondence, targeting users seeking modern communication solutions.  Security & Anonymity: LedgerMail prioritizes privacy by encrypting data during transit and storage using industry-standard protocols (e.g., TLS for transit, though specifics aren’t detailed). All data, including email content, is stored encrypted with strict access controls in place. However, anonymity is limited: registration requires providing a name, email address, physical address, and optionally a company name, making it less anonymous than platforms like Proton Mail or Mailchain. IP addresses and usage data (browser type, ISP, timestamps) are collected for analytics and service improvement but not tied to personal identification. Data isn’t shared with third parties except as legally required (UAE jurisdiction, compliant with CCPA and GDPR). Account deactivation triggers data deletion, emphasizing user control, but the lack of end-to-end encryption reduces privacy for message content.  Use Cases: LedgerMail is suitable for Web3 users looking to integrate email with decentralized technologies while maintaining a baseline level of security. It’s a good fit for:      Business communication with data encryption (e.g., for small companies or freelancers).     Personalized correspondence with optional profile picture customization.     Transitioning from traditional email to Web3-oriented solutions. However, due to mandatory registration data and lack of full anonymity, it’s not ideal for highly confidential correspondence or anonymous use. It serves as an intermediate option for those valuing above-average security without needing maximum privacy, tailored for blockchain ecosystem enthusiasts. It’s optimal for everyday tasks with moderate confidentiality requirements.'
+links:
+  tos: https://ledgermail.io/public/terms-of-use.html
+  privacy: https://ledgermail.io/public/privacy-policy.html
+social:
+- https://www.facebook.com/ledgermail.io
+- https://www.youtube.com/channel/UCU4YmhP_A2V76rnafyGKZqA
+- https://www.instagram.com/ledgermail_official
+- https://www.linkedin.com/company/ledgermail
+- https://twitter.com/LedgerMail
+security:
+  spf: ~all
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2019-10-23'
+last_checked: '2026-10-30'

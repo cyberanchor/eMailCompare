@@ -1,0 +1,37 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 60
+domain: mrmail.com
+status: auto
+flag: 🇨🇭
+a:
+- {host: '94.237.89.190', flag: 🇩🇪, country: Germany, asn: AS202053, org: UpCloud Ltd}
+mx:
+- {host: mx3.mrmail.com, flag: 🇨🇭, country: Switzerland, asn: AS212865, org: netconnect AG}
+- {host: mx5.mrmail.com, flag: 🇨🇭, country: Switzerland, asn: AS212865, org: netconnect AG}
+- {host: mx4.mrmail.com, flag: 🇳🇱, country: Netherlands, asn: AS63949, org: Akamai Connected Cloud}
+created: '1995-11-08'
+expires: '2027-11-07'
+owner: 🇨🇭 LDKS AG
+jurisdiction:
+- Switzerland
+description: Zimbra Hosting & Migration – MrMail
+tos_summary: 'No public terms: services and conditions are set in each offer or contract with LDKS AG (Baar, Switzerland)'
+privacy_summary: |-
+  Cookies, no tracking (claimed)
+  https://mrmail.com/de/privacy/
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://mrmail.com/de/legal/
+  privacy: https://mrmail.com/de/privacy/
+  imprint: https://mrmail.com/de/legal/
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.mrmail.com:993', note: SSL/TLS}
+online_since: '1996-12-31'
+last_checked: '2026-10-30'

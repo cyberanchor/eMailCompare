@@ -1,0 +1,28 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 49
+domain: fortressinbox.com
+status: auto
+flag: 🇺🇸
+a:
+- {host: '92.113.23.240', flag: 🇩🇪, country: Germany, asn: AS47583, org: Hostinger International Limited}
+- {host: '92.113.16.64', flag: 🇩🇪, country: Germany, asn: AS47583, org: Hostinger International Limited}
+mx:
+- {host: fortressinbox-com.mail.protection.outlook.com, flag: 🇺🇸, country: United States, asn: AS8075, org: Microsoft Corporation}
+created: '2024-09-19'
+expires: '2028-09-19'
+alliance: 5
+jurisdiction:
+- United States
+description: |-
+  Fortress Inbox: Secure, Private Email Service by Invitation | Fortress Inbox
+  Fortress Inbox offers a private, invitation-only email service prioritizing security and privacy. With end-to-end encryption and no tracking, your communications remain confidential. Join our exclusive community dedicated to safeguarding your data and ensuring reliable service performance.
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption.'
+security:
+  spf: -all
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2024-09-19'
+last_checked: '2026-10-30'

@@ -1,0 +1,54 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 231
+domain: runbox.com
+status: pending
+flag: 🇳🇴
+domains:
+- runbox.no
+a:
+- {host: '185.226.149.25', flag: 🇳🇴, country: Norway, asn: AS50304, org: Blix Solutions AS}
+mx:
+- {host: mx.runbox.com, flag: 🇳🇴, country: Norway, asn: AS50304, org: Blix Solutions AS}
+created: '1999-08-10'
+expires: '2027-08-10'
+owner: 🇳🇴 Runbox Solutions AS
+alliance: 9
+jurisdiction:
+- Norway
+description: |-
+  Sustainable, Private & Secure Email | Runbox
+  Runbox offers private, secure email hosted in Norway and powered by 100% renewable energy — carbon-negative, ad-free, and protected by strict Norwegian privacy law and GDPR.
+tos_summary: |-
+  Illegal actions (spam, hacking), IP violation, harassment, fraud
+  https://runbox.com/about/terms-service/
+privacy_summary: |-
+  Collect IP addresses, data/logs kept 60 mos., cookies, no tracking (claimed), advertising, third parties, share upon authorities' request, encryption, no-logs claim, GDPR
+  https://runbox.com/about/privacy-policy/
+price:
+- free
+- €2.36/month
+- €28.32/year
+- €3.33/month
+note: 'Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Mail servers belong to Runbox. IMAP server mail.runbox.com:993 answers. Publishes mail client autoconfig. Mail DNS: SPF, DMARC p=quarantine, MTA-STS, DANE, DNSSEC. Site mentions: accepts cryptocurrency, PGP/E2E encryption.'
+links:
+  tos: https://runbox.com/about/terms-service/
+  privacy: https://runbox.com/about/privacy-policy/
+  code: https://github.com/runbox/runbox7
+social:
+- https://bsky.app/profile/runbox.bsky.social
+- https://www.reddit.com/r/RunboxNews
+- https://mastodon.social/@runbox
+- https://no.linkedin.com/company/runbox-com
+security:
+  spf: -all
+  dmarc: quarantine
+  mta_sts: testing
+  tls_rpt: 'yes'
+  dnssec: 'yes'
+  dane: 'yes'
+servers:
+- {kind: IMAP, host: 'mail.runbox.com:993', note: SSL/TLS}
+- {kind: POP3, host: 'mail.runbox.com:995', note: SSL/TLS}
+- {kind: SMTP, host: 'mail.runbox.com:465', note: SSL/TLS}
+online_since: '2000-03-04'
+last_checked: '2026-10-30'

@@ -1,0 +1,49 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 107
+domain: memail.com
+status: auto
+flag: 🇩🇪
+a:
+- {host: '20.113.53.251', flag: 🇩🇪, country: Germany, asn: AS8075, org: Microsoft Corporation}
+mx:
+- {host: mx01.memail.com, flag: 🇫🇮, country: Finland, asn: AS24940, org: Hetzner Online GmbH}
+- {host: mx02.memail.com, flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+created: '1995-12-24'
+expires: '2026-12-23'
+owner: 🇩🇪 MeMail AG
+alliance: 14
+jurisdiction:
+- Germany
+description: |-
+  MeMail | Personal and Professional Email Address Accounts with Personality — MeMail.com
+  MeMail | All the features and management tools you need for the best email experience: Ad-Free and Secure, Premium Email Addresses, Scalable Storage, Webmail, Certified Data Protection. Visit MeMail.com
+tos_summary: |-
+  Illegal actions (spam, hacking), IP violation, harassment, fraud, commercial use
+  Delete inactive accounts (3 mos.)
+  https://www.memail.com/terms-conditions
+privacy_summary: |-
+  Collect IP addresses, cookies, analytics/tracking, advertising, third parties, share upon authorities' request, GDPR
+  https://www.memail.com/privacy
+price:
+- free
+- $1.18/month
+- $2.96/month
+- $0.58/month
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://www.memail.com/terms-conditions
+  privacy: https://www.memail.com/privacy
+social:
+- https://twitter.com/memail
+security:
+  spf: ~all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.memail.com:993', note: SSL/TLS}
+- {kind: IMAP software, host: Microsoft Exchange}
+online_since: '1996-12-19'
+last_checked: '2026-10-30'

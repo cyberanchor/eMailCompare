@@ -1,0 +1,38 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 38
+domain: dmz.rs
+status: checked
+flag: 🇷🇸
+a:
+- {host: '109.72.55.214', flag: 🇷🇸, country: Serbia, asn: AS8400, org: TELEKOM SRBIJA a.d.}
+- {host: '79.101.170.188', flag: 🇷🇸, country: Serbia, asn: AS8400, org: TELEKOM SRBIJA a.d.}
+mx:
+- {host: kralizec.dmz.rs, flag: 🇷🇸, country: Serbia, asn: AS8400, org: TELEKOM SRBIJA a.d.}
+- {host: splint.rs, flag: 🇷🇸, country: Serbia, asn: AS31042, org: Yettel d.o.o.}
+created: '2022-06-05'
+expires: '2027-06-05'
+owner: 🇷🇸 Decentrala (hackerspace collective)
+jurisdiction:
+- Serbia
+description: Home Decentrala
+privacy_summary: 'No privacy policy: the linked page is a Decentrala wiki essay on why decentralisation and privacy matter.'
+email: 'no'
+phone: 'no'
+personal: 'no'
+price:
+- free
+links:
+  privacy: https://wiki.dmz.rs/en/zastojedecentralizacijabitna
+onion: http://64l3awuotocv6ynibul6malho6wdorggjrz6fiyuselniifhdv2kv6qd.onion/
+security:
+  spf: -all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'kralizec.dmz.rs:993', note: SSL/TLS}
+- {kind: SMTP, host: 'kralizec.dmz.rs:587', note: STARTTLS}
+online_since: '2016-01-11'
+last_checked: '2026-10-30'

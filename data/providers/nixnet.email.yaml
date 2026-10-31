@@ -1,0 +1,38 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 163
+domain: nixnet.email
+status: auto
+flag: 🇺🇸
+a:
+- {host: '135.181.177.46', flag: 🇫🇮, country: Finland, asn: AS24940, org: Hetzner Online GmbH}
+mx:
+- {host: mx.nixnet.email, flag: 🇺🇸, country: United States, asn: AS213230, org: Hetzner Online GmbH}
+created: '2019-10-06'
+expires: '2027-10-06'
+owner: 🇺🇸 Individual operator
+alliance: 5
+jurisdiction:
+- United States
+description: Home - NixNet Mail
+privacy_summary: |-
+  Encryption
+  https://nixnet.email/docs/privacy-and-opsec/
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption.'
+links:
+  privacy: https://nixnet.email/docs/privacy-and-opsec/
+onion: http://nnmailfoenzxbyhpr4xyftowinjdney3pl4ih2zcret6ufpaf4pxctyd.onion/
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: enforce
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.nixnet.email:993', note: SSL/TLS}
+- {kind: IMAP, host: 'imap.nixnet.email:143', note: STARTTLS}
+- {kind: SMTP, host: 'smtp.nixnet.email:587', note: STARTTLS}
+- {kind: POP3, host: 'imap.nixnet.email:995', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2020-02-18'
+last_checked: '2026-10-30'

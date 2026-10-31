@@ -1,0 +1,15 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 207
+domain: ecn.org
+status: pending
+flag: 🇮🇹
+created: '1996-08-16'
+expires: '2030-08-15'
+owner: 🇮🇹 Isole nella Rete (ECN)
+alliance: 14
+jurisdiction:
+- Italy
+description: inventati.org
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. No MX record: domain cannot receive mail. Website unreachable (gaierror: [Errno -2] Name or service not known). Website text taken from the Wayback Machine copy of 2026-09-16 (https://web.archive.org/web/20260916144812/https://ecn.org/). Wayback Machine captures: 1997-01-05 to 2026-09-16.'
+online_since: '1997-01-05'
+last_checked: '2026-10-30'

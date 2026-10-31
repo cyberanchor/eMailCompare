@@ -1,0 +1,42 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 88
+domain: murena.io
+status: auto
+flag: 🇫🇷
+a:
+- {host: '95.217.240.171', flag: 🇫🇮, country: Finland, asn: AS24940, org: Hetzner Online GmbH}
+- {host: '65.109.243.106', flag: 🇫🇮, country: Finland, asn: AS24940, org: Hetzner Online GmbH}
+mx:
+- {host: mail.ecloud.global, flag: 🇫🇮, country: Finland, asn: AS24940, org: Hetzner Online GmbH}
+created: '2019-10-25'
+expires: '2028-10-25'
+owner: 🇫🇷 ECORP SAS
+alliance: 9
+jurisdiction:
+- France
+description: Sign in to murena
+tos_summary: |-
+  Illegal actions (hacking), IP violation, harassment
+  https://murena.io/en/termsandconditions
+privacy_summary: |-
+  Collect IP addresses, cookies, third parties, encryption, GDPR
+  https://murena.com/privacy-policy/
+price:
+- free
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://murena.io/en/termsandconditions
+  privacy: https://murena.com/en/privacy-policy/
+security:
+  spf: ~all
+  dmarc: reject
+  mta_sts: testing
+  tls_rpt: 'yes'
+  dnssec: 'yes'
+  dane: 'yes'
+servers:
+- {kind: IMAP, host: 'mail.ecloud.global:993', note: SSL/TLS}
+- {kind: SMTP, host: 'mail.ecloud.global:587', note: STARTTLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2022-05-07'
+last_checked: '2026-10-30'

@@ -1,0 +1,42 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 31
+domain: codamail.com
+status: checked
+flag: 🇺🇸
+a:
+- {host: '173.166.91.11', flag: 🇺🇸, country: United States, asn: AS7922, org: 'Comcast Cable Communications, LLC'}
+mx:
+- {host: mail.pnsh.com, flag: 🇺🇸, country: United States, asn: AS7922, org: 'Comcast Cable Communications, LLC'}
+created: '2009-03-19'
+expires: '2027-03-19'
+owner: 🇺🇸 Packetderm LLC
+alliance: 5
+jurisdiction:
+- United States
+description: |-
+  CodaMail - A unique private e-mail service
+  Take control of your email privacy with CodaMail's zero-access encryption. Protect your messages with end-to-end encryption, anonymous email aliases, and advanced privacy features.
+tos_summary: Spamming; phishing; malware; threats; harassment; unauthorized access; fraud; excessive resource use
+privacy_summary: Collect username, payment IDs, subscription details, dates, email content (encrypted), PGP keys (optional). 5-day logs. Share only if legally required.
+email: 'yes'
+phone: 'no'
+personal: optional
+price:
+- free
+note: 'CodaMail is an email service provided by Packetderm, LLC (USA, Massachusetts), also known through Cotse.Net, with a strong focus on safeguarding user privacy. Accessible via https://codamail.com, CodaMail combines minimal data collection with robust encryption, offering a secure communication solution centered on privacy and user control.  Security & Anonymity: CodaMail ensures a high level of privacy through strict principles: it collects only the bare minimum of data (account name, subscription details, creation/expiration dates), and email content is individually encrypted at rest using elliptic-curve AES-GCM-256. It supports zero-access automatic PGP encryption and end-to-end encryption via PGP, making message content inaccessible even to the service operators. Server logs are retained for just 5 days for technical operations and abuse prevention, and no IP addresses are stored for VPN/proxy services, though Intrusion Detection may capture IPs during anomalies. Registration requires only a username and password (hashed with SHA512/yescrypt), with 2FA (TOTP) available for added security. However, CodaMail isn’t fully anonymous—payments (via First Data/PayPal or cash) and U.S. jurisdiction may link a payer’s identity. Data isn’t sold or shared with third parties, except under valid U.S. legal requests (reviewed and challenged if overly broad, with user notification when allowed). For complete anonymity, using Tor and avoiding payment ties to real identity are recommended.  Use Cases: CodaMail is suitable for users who prioritize private correspondence with strong encryption and minimal data collection. It’s an excellent choice for:      Confidential communication using PGP (e.g., between tech-savvy users).     Individuals avoiding tracking by advertisers or analytics (no logs or tracking).     Those wanting control over access and encryption (e.g., via IMAP/POP3 settings and PGP keys). It’s not ideal for total anonymity (due to payments and U.S. jurisdiction) or bulk messaging (strict anti-spam measures). CodaMail is perfect for those who value security and are willing to manage their own keys and backups (no automatic backups to protect privacy), including professionals, privacy-conscious users, or small businesses needing secure email within the U.S. legal framework.'
+links:
+  tos: https://codamail.com/terms.html
+  privacy: https://codamail.com/privacypolicy.html
+security:
+  spf: ~all
+  dmarc: reject
+  mta_sts: missing
+  tls_rpt: 'yes'
+  dnssec: 'yes'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.pnsh.com:993', note: SSL/TLS}
+- {kind: SMTP, host: 'smtp.pnsh.com:587', note: STARTTLS}
+- {kind: POP3, host: 'mail.pnsh.com:995', note: SSL/TLS}
+online_since: '2002-01-22'
+last_checked: '2026-10-30'

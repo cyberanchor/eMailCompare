@@ -1,0 +1,52 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 237
+domain: fastmail.com
+status: pending
+flag: 🇦🇺
+a:
+- {host: '103.168.172.65', flag: 🇺🇸, country: United States, asn: AS151847, org: Fastmail Pty Ltd}
+mx:
+- {host: in1-smtp.messagingengine.com, flag: 🇺🇸, country: United States, asn: AS151847, org: Fastmail Pty Ltd}
+- {host: in2-smtp.messagingengine.com, flag: 🇺🇸, country: United States, asn: AS151847, org: Fastmail Pty Ltd}
+created: '1994-12-09'
+expires: '2034-12-08'
+owner: 🇦🇺 Fastmail Pty Ltd
+alliance: 5
+jurisdiction:
+- Australia
+description: |-
+  Email and calendar made better | Fastmail
+  Fast, private email hosting for you or your business. More productive, lightning fast, simple and built to save you time.
+tos_summary: |-
+  Illegal actions (spam, hacking), IP violation, harassment, commercial use
+  https://www.fastmail.com/policies/terms-of-service/
+privacy_summary: |-
+  Share upon authorities' request
+  https://www.fastmail.com/features/privacy/
+price:
+- free
+- €6/month
+- €5/month
+- €4.75/month
+note: 'Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Mail servers belong to Fastmail. IMAP server imap.fastmail.com:993 answers. Publishes mail client autoconfig. Mail DNS: SPF, DMARC p=none, MTA-STS.'
+links:
+  tos: https://www.fastmail.com/policies/terms-of-service/
+  privacy: https://www.fastmail.com/features/privacy/
+social:
+- https://mastodon.social/@fastmail
+- https://twitter.com/Fastmail
+- https://www.linkedin.com/company/fastmail
+- https://www.facebook.com/Fastmail
+security:
+  spf: ~all
+  dmarc: none
+  mta_sts: testing
+  tls_rpt: 'yes'
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.fastmail.com:993', note: SSL/TLS}
+- {kind: POP3, host: 'pop.fastmail.com:995', note: SSL/TLS}
+- {kind: SMTP, host: 'smtp.fastmail.com:465', note: SSL/TLS}
+online_since: '1998-12-12'
+last_checked: '2026-10-30'

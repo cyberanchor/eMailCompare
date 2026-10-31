@@ -1,0 +1,39 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 156
+domain: overmail.de
+status: auto
+flag: 🇩🇪
+domains:
+- overmail.ch
+- overmail.com
+- overmail.eu
+a:
+- {host: '185.7.196.88', flag: 🇩🇪, country: Germany, asn: AS60294, org: Deutsche Glasfaser Wholesale GmbH}
+mx:
+- {host: mail.overmail.de, flag: 🇩🇪, country: Germany, asn: AS60294, org: Deutsche Glasfaser Wholesale GmbH}
+- {host: mx1.aikq.de, flag: 🇩🇪, country: Germany, asn: AS60294, org: Deutsche Glasfaser Wholesale GmbH}
+- {host: mail.aikq.de, flag: 🇩🇪, country: Germany, asn: AS60294, org: Deutsche Glasfaser Wholesale GmbH}
+owner: 🇩🇪 License Distribution GmbH
+alliance: 14
+jurisdiction:
+- Germany
+description: overmail.de
+tos_summary: |-
+  Illegal actions (spam)
+  https://overmail.de/index.php?action=tos
+price:
+- free
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://overmail.de/index.php?action=tos
+security:
+  spf: -all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.overmail.de:993', note: SSL/TLS}
+online_since: '2007-08-30'
+last_checked: '2026-10-30'

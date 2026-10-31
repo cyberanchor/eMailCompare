@@ -1,0 +1,41 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 111
+domain: anpa.de
+status: auto
+flag: 🇩🇪
+a:
+- {host: '193.242.210.125', flag: 🇳🇱, country: Netherlands, asn: AS58329, org: servinga GmbH}
+mx:
+- {host: mx3.anpa-networks.de, flag: 🇩🇪, country: Germany, asn: AS42730, org: EVANZO e-commerce GmbH}
+- {host: mx4.anpa-networks.de, flag: 🇩🇪, country: Germany, asn: AS42730, org: EVANZO e-commerce GmbH}
+owner: 🇩🇪 RA Trading & Events UG (haftungsbeschränkt)
+alliance: 14
+jurisdiction:
+- Germany
+description: |-
+  AnPa.de Mail – E-Mail-Postfach kostenlos oder Premium
+  Kostenloses E-Mail-Postfach bei AnPa.de Mail: Spamschutz, Webdisk, POP3/IMAP und Premium-Pakete – Hosting in der EU. Jetzt einloggen oder registrieren.
+tos_summary: |-
+  Illegal actions (spam)
+  https://www.anpa.de/index.php?action=tos
+privacy_summary: |-
+  Collect IP addresses, data/logs kept 120 mos., cookies, advertising, share upon authorities' request, encryption, GDPR
+  https://www.anpa.de/index.php?action=Datenschutz
+price:
+- free
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://www.anpa.de/index.php?action=tos
+  privacy: https://www.anpa.de/datenschutz.html
+  imprint: https://www.anpa.de/impressum
+security:
+  spf: -all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.anpa.de:993', note: SSL/TLS}
+online_since: '2001-05-16'
+last_checked: '2026-10-30'

@@ -1,0 +1,37 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 79
+domain: indamail.hu
+status: auto
+flag: 🇳🇴
+a:
+- {host: '68.183.243.94', flag: 🇩🇪, country: Germany, asn: AS14061, org: 'DigitalOcean, LLC'}
+mx:
+- {host: mx.dka.mailcore.net, flag: 🇩🇰, country: Denmark, asn: AS3308, org: TELIANET DENMARK}
+created: '2022-10-11'
+owner: 🇳🇴 Inbox.com AS
+alliance: 9
+jurisdiction:
+- Norway
+description: Indamail
+tos_summary: |-
+  Illegal actions (spam), IP violation
+  https://www.indamail.hu/terms-of-service
+privacy_summary: |-
+  Collect IP addresses, GDPR
+  https://www.indamail.hu/privacy-policy
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://www.indamail.hu/terms-of-service
+  privacy: https://www.indamail.hu/privacy-policy
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: testing
+  tls_rpt: 'yes'
+  dnssec: 'no'
+  dane: 'yes'
+servers:
+- {kind: IMAP, host: 'imap.indamail.hu:993', note: SSL/TLS}
+- {kind: SMTP, host: 'smtp.indamail.hu:465', note: SSL/TLS}
+online_since: '2008-03-23'
+last_checked: '2026-10-30'

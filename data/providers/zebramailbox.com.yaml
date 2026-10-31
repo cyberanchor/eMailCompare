@@ -1,0 +1,32 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 192
+domain: zebramailbox.com
+status: pending
+flag: 🇺🇸
+a:
+- {host: '173.236.247.43', flag: 🇺🇸, country: United States, asn: AS26347, org: 'New Dream Network, LLC'}
+mx:
+- {host: mx1.mailchannels.net, flag: 🇺🇸, country: United States, asn: AS16509, org: 'Amazon.com, Inc.'}
+- {host: mx2.mailchannels.net, flag: 🇺🇸, country: United States, asn: AS16509, org: 'Amazon.com, Inc.'}
+created: '2020-12-23'
+expires: '2026-12-23'
+owner: 🇺🇸 Paul Couture
+alliance: 5
+jurisdiction:
+- United States
+description: |-
+  Submitted Artwork .:. No Agenda Art Generator
+  Explore the artwork submitted at the No Agenda Art Generator.
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website redirects to https://noagendaartgenerator.com/artworks. IMAP server mail.zebramailbox.com:993 answers (Dovecot), certificate not trusted: Hostname mismatch, certificate is not valid for ''mail.zebramailbox.com''. Webmail: https://webmail.zebramailbox.com/ (Roundcube). Mail DNS: SPF.'
+security:
+  spf: -all
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.zebramailbox.com:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2023-04-04'
+last_checked: '2026-10-30'

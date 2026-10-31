@@ -1,0 +1,47 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 95
+domain: libero.it
+status: auto
+flag: 🇮🇹
+a:
+- {host: '213.209.17.209', flag: 🇮🇹, country: Italy, asn: AS8660, org: Italiaonline S.p.A.}
+mx:
+- {host: smtp-in.libero.it, flag: 🇮🇹, country: Italy, asn: AS8660, org: Italiaonline S.p.A.}
+created: '1999-06-03'
+expires: '2027-06-03'
+owner: 🇮🇹 Italiaonline S.p.A
+alliance: 14
+jurisdiction:
+- Italy
+description: |-
+  Libero: Mail, Ricerca e News con aggiornamento quotidiano
+  Entra su Libero.it: Mail e Email PEC, Login, le Ultime Notizie con aggiornamento quotidiano, Video, Motore di Ricerca e tanto altro
+tos_summary: |-
+  IP violation
+  https://info.libero.it/note-legali/
+privacy_summary: |-
+  Collect IP addresses, cookies, analytics/tracking, advertising, third parties, GDPR
+  https://privacy.italiaonline.it/common/cookie/privacy_detail.php
+price:
+- free
+- '20€/month'
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://info.libero.it/note-legali/
+  imprint: https://info.libero.it/note-legali/
+social:
+- https://www.facebook.com/libero.it
+- https://x.com/libero_it
+security:
+  spf: -all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imapmail.libero.it:993', note: SSL/TLS}
+- {kind: SMTP, host: 'smtp.libero.it:465', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '1999-10-06'
+last_checked: '2026-10-30'

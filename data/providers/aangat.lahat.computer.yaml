@@ -1,0 +1,31 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 93
+domain: aangat.lahat.computer
+status: auto
+flag: 🇺🇸
+a:
+- {host: '71.19.146.170', flag: 🇺🇸, country: United States, asn: AS47066, org: 'Tornado VPS, Inc.'}
+mx:
+- {host: aangat.lahat.computer, flag: 🇺🇸, country: United States, asn: AS47066, org: 'Tornado VPS, Inc.'}
+created: '2023-12-14'
+expires: '2027-12-14'
+alliance: 5
+jurisdiction:
+- United States
+description: |-
+  Aangat Lahat / Aangat Lahat
+  Aangat Lahat in Tagalog can mean different things depending \non the context. It can mean we'll lift each other up as in mutual aid, \nor it can mean to ...
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: accepts cryptocurrency. Tor: lahatlu3bsgliqumyspuhdxd333e755ntghnzfqxbnz46s422s7tdfyd.onion.'
+security:
+  spf: -all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'aangat.lahat.computer:993', note: SSL/TLS}
+- {kind: SMTP, host: 'aangat.lahat.computer:587', note: STARTTLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2023-12-14'
+last_checked: '2026-10-30'

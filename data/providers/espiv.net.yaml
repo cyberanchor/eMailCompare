@@ -1,0 +1,35 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 73
+domain: espiv.net
+status: auto
+flag: 🇬🇷
+a:
+- {host: '194.177.218.66', flag: 🇬🇷, country: Greece, asn: AS5408, org: National Infrastructures for Research and Technology S.A.}
+mx:
+- {host: mail.espiv.net, flag: 🇫🇷, country: France, asn: AS29075, org: IELO Main Network}
+created: '2008-10-17'
+expires: '2030-10-17'
+owner: 🇬🇷 Cybrigade collective
+jurisdiction:
+- Greece
+description: espiv.net – κινηματικές υποδομές
+tos_summary: |-
+  Page found, no key clauses detected
+  https://espiv.net/terms_of_service/
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://espiv.net/terms_of_service/
+  privacy: https://espiv.net/en/yphresies/politiki-diatirisis-dedomenwn-kai-logariasmwn-mail/
+onion: http://srbvwe22f6cx4otcskfuzduo2is2xuqmcjfcgbza6yvs4ic2dzbabkqd.onion/
+security:
+  spf: -all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.espiv.net:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2008-11-09'
+last_checked: '2026-10-30'

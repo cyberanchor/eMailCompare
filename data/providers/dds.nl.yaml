@@ -1,0 +1,44 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 65
+domain: dds.nl
+status: auto
+flag: 🇳🇱
+a:
+- {host: '81.21.136.122', flag: 🇳🇱, country: Netherlands, asn: AS31586, org: Signet B.V.}
+mx:
+- {host: mx.dds.nl, flag: 🇳🇱, country: Netherlands, asn: AS31586, org: Signet B.V.}
+created: '1994-09-28'
+owner: 🇳🇱 DDS City B.V
+alliance: 9
+jurisdiction:
+- Netherlands
+description: |-
+  DDS Home
+  Internet, vast bellen en webhosting. DDS heeft het voordeligste aanbod voor thuis en zakelijk
+tos_summary: |-
+  Page found, no key clauses detected
+  https://dds.nl/dds/voorwaarden.php
+privacy_summary: |-
+  Collect IP addresses, cookies, third parties
+  https://dds.nl/dds/privacy.php
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://dds.nl/dds/voorwaarden.php
+  privacy: https://dds.nl/dds/privacy.php
+security:
+  spf: -all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.dds.nl:993', note: SSL/TLS}
+- {kind: IMAP, host: 'imap.dds.nl:143', note: STARTTLS}
+- {kind: POP3, host: 'pop.dds.nl:995', note: SSL/TLS}
+- {kind: POP3, host: 'pop.dds.nl:110', note: STARTTLS}
+- {kind: SMTP, host: 'smtp.dds.nl:465', note: SSL/TLS}
+- {kind: SMTP, host: 'smtp.dds.nl:587', note: STARTTLS}
+- {kind: SMTP, host: 'smtp.dds.nl:26', note: STARTTLS}
+online_since: '1996-11-02'
+last_checked: '2026-10-30'

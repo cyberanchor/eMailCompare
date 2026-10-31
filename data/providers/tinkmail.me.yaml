@@ -1,0 +1,46 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 186
+domain: tinkmail.me
+status: auto
+flag: 🇨🇳
+a:
+- {host: '104.21.39.105', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '172.67.144.121', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: mx1.tinkmail.me, flag: 🇺🇸, country: United States, asn: AS40021, org: Contabo Inc.}
+- {host: mx2.tinkmail.me, flag: 🇺🇸, country: United States, asn: AS40021, org: Contabo Inc.}
+created: '2023-05-07'
+expires: '2027-05-07'
+owner: 🇨🇳 Tinkink
+alliance: 5
+jurisdiction:
+- United States
+description: |-
+  TinkMail - Your Secure & Free Email Service
+  TinkMail offers a secure, user-friendly email experience with 10GB free storage, powerful spam protection, and instant access across all devices.
+tos_summary: |-
+  Illegal actions (spam), IP violation
+  https://web.archive.org/web/20260916031322/https://tinkmail.me/docs/service-terms
+privacy_summary: |-
+  Collect IP addresses, cookies, analytics/tracking, no third-party sharing (claimed)
+  https://web.archive.org/web/20260916031322/https://tinkmail.me/docs/privacy-policy
+price:
+- free
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website blocks automated access (bot check). Website text taken from the Wayback Machine copy of 2026-09-16 (https://web.archive.org/web/20260916031310/https://tinkmail.me/). Wayback Machine captures: 2023-10-01 to 2026-09-16. IMAP server imap.tinkmail.me:993 answers. Mail DNS: SPF, DMARC p=quarantine, DNSSEC. Developer: Tinkink (https://github.com/tinkink-net).'
+links:
+  tos: https://tinkmail.me/docs/service-terms
+  privacy: https://tinkmail.me/docs/privacy-policy
+  code: https://github.com/tinkink-net
+social:
+- https://x.com/tinkink_net
+security:
+  spf: ~all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.tinkmail.me:993', note: SSL/TLS}
+online_since: '2023-10-01'
+last_checked: '2026-10-30'

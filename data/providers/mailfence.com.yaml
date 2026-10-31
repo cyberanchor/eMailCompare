@@ -1,0 +1,41 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 2
+domain: mailfence.com
+status: checked
+flag: 🇧🇪
+a:
+- {host: '217.182.28.160', flag: 🇧🇪, country: Belgium, asn: AS3356, org: 'Level 3 Communications, Inc.'}
+mx:
+- {host: smtp1.mailfence.com, flag: 🇧🇪, country: Belgium, asn: AS3356, org: 'Level 3 Parent, LLC'}
+- {host: smtp2.mailfence.com, flag: 🇧🇪, country: Belgium, asn: AS3356, org: 'Level 3 Parent, LLC'}
+created: '2012-12-01'
+expires: '2034-12-01'
+owner: 🇧🇪 ContactOffice Group
+alliance: 14
+jurisdiction:
+- Belgium
+description: |-
+  Secure and private email | Mailfence encrypted email service
+  Mailfence is the only secure and private email service that gives you control. A free, interoperable encrypted email service protected by Belgian privacy law.
+tos_summary: Illegal actions (hacking, spam, phishing, porn, threats), IP violation, multiple accounts (>2), harassment, reselling without consent
+privacy_summary: Collect IP, email metadata (sender, recipient, subject, timestamps), external email, payment info. Store encrypted data, backups (45 days). Share only with Belgian authorities if legally required.
+email: 'yes'
+phone: 'no'
+personal: 'yes'
+price:
+- free
+- Base $2.75/month
+- Entry $3.85/month
+note: Mailfence is a secure email service with end-to-end encryption, developed by the Belgian company ContactOffice Group SA. It is suitable for confidential correspondence, handling sensitive data, and protection against mass surveillance. Features include email encryption, no ads or tracking, and strict privacy under Belgian law. It collects a significant amount of user information; registration requires an existing, verified email address and the use of clean proxies. Hosted in Belgium. Suitable for registering on various services, but note that all subjects and emails are monitored.
+links:
+  tos: https://mailfence.com/en/terms.jsp
+  privacy: https://mailfence.com/en/privacy.jsp
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: broken
+  tls_rpt: 'yes'
+  dnssec: 'yes'
+  dane: 'yes'
+online_since: '2010-05-15'
+last_checked: '2026-10-30'

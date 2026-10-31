@@ -1,0 +1,11 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 205
+domain: artikel-140.nl
+status: pending
+flag: 🇳🇱
+created: '2026-05-26'
+expires: '2026-12-06'
+description: artikel-140.nl
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Domain does not resolve (NXDOMAIN). Domain registration dates from 2026-05-26, but the Wayback Machine has captures since 2012-02-03: the domain was registered before, possibly by someone else. Website text taken from the Wayback Machine copy of 2023-06-07 (https://web.archive.org/web/20230607115326/http://artikel-140.nl/). Wayback Machine captures: 2012-02-03 to 2025-05-02. Last TLS certificate issued in 2026 (crt.sh).'
+online_since: '2012-02-03'
+last_checked: '2026-10-30'

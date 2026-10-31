@@ -1,0 +1,28 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 219
+domain: systerserver.net
+status: pending
+flag: 🇳🇱
+a:
+- {host: '89.106.208.54', flag: 🇦🇹, country: Austria, asn: AS39837, org: mur.at - Verein zur Foerderung von Netzwerkkunst}
+mx:
+- {host: mx.tuxic.nl, flag: 🇳🇱, country: Netherlands, asn: AS60131, org: High5! B.V.}
+created: '2005-03-07'
+expires: '2027-03-07'
+alliance: 9
+jurisdiction:
+- Netherlands
+description: We are involved in SERVPUB, an experimental platform for research and practice on experimental and computational publishing.
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. IMAP server mx.tuxic.nl:993 answers (Dovecot). Mail DNS: SPF, DMARC p=none, DANE, DNSSEC.'
+security:
+  spf: ~all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'yes'
+servers:
+- {kind: IMAP, host: 'mx.tuxic.nl:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2005-03-10'
+last_checked: '2026-10-30'

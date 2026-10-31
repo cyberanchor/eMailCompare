@@ -1,0 +1,41 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 67
+domain: mail.sapo.pt
+status: auto
+flag: 🇵🇹
+domains:
+- sapo.pt
+a:
+- {host: '212.55.154.48', flag: 🇵🇹, country: Portugal, asn: AS3243, org: MEO - SERVICOS DE COMUNICACOES E MULTIMEDIA S.A.}
+mx:
+- {host: mx.mail.sl.pt, flag: 🇵🇹, country: Portugal, asn: AS3243, org: MEO - SERVICOS DE COMUNICACOES E MULTIMEDIA S.A.}
+created: '2002-10-30'
+expires: '2027-11-02'
+owner: 🇵🇹 MEO – Serviços de Comunicações e Multimédia, S.A.
+jurisdiction:
+- Portugal
+description: |-
+  SAPO Mail
+  O SAPO Mail é simples, rápido e Seguro. Adira ao maior serviço de mail português e descomplique. Crie uma conta de email grátis no SAPO Mail.
+privacy_summary: Controller MEO (Altice Portugal), age 13+. Collect account and contact data, cookies and trackers (some send data to the US), AI features use your data. Store in EEA servers for as long as needed. Share within the MEO group, with processors and on court order or authorities' request.
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  privacy: https://ajuda.sapo.pt/pt-pt/security/politica-de-privacidade?utm_source=bsu&utm_medium=web&utm_campaign=bsu_footer&utm_content=mail.sapo.pt
+social:
+- https://www.facebook.com/sapo
+- https://www.instagram.com/sapo
+- https://pt.linkedin.com/company/sapo
+- https://www.tiktok.com/@sapotiktok
+- https://twitter.com/sapo
+security:
+  spf: ~all
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mx.mail.sl.pt:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '1999-11-27'
+last_checked: '2026-10-30'

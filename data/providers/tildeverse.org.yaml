@@ -1,0 +1,30 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 98
+domain: tildeverse.org
+status: auto
+flag: 🇩🇪
+a:
+- {host: '157.90.196.50', flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+mx:
+- {host: tilde.team, flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+created: '2018-06-24'
+expires: '2029-06-24'
+alliance: 14
+jurisdiction:
+- Germany
+description: tildeverse
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+social:
+- https://tilde.zone/@tildeverse
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'tilde.team:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2018-08-30'
+last_checked: '2026-10-30'

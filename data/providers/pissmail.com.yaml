@@ -1,0 +1,45 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 196
+domain: pissmail.com
+status: pending
+dead: true
+flag: 🇫🇷
+domains:
+- child.pizza
+- dmc.chat
+- genocide.fun
+- hatesje.ws
+- incel.email
+- shitposting.expert
+a:
+- {host: '161.97.173.73', flag: 🇫🇷, country: France, asn: AS51167, org: Contabo GmbH}
+mx:
+- {host: mail.pissmail.com, flag: 🇫🇷, country: France, asn: AS51167, org: Contabo GmbH}
+created: '2021-02-03'
+expires: '2027-02-03'
+alliance: 9
+jurisdiction:
+- France
+description: |-
+  PissMail!!
+  Handing out free email addresses on edgy/based/cringe domain names since 2021.
+tos_summary: |-
+  Illegal actions (spam)
+  https://web.archive.org/web/20260411041401/https://pissmail.com/tos.html
+privacy_summary: |-
+  Collect IP addresses, cookies, share upon authorities' request, encryption, does not sell data (claimed)
+  https://web.archive.org/web/20260411041401/https://pissmail.com/privacy.html
+price:
+- free
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Struck out in README. Website unreachable (timeout: timed out). Also unreachable from 5 check-host.net locations (Austria, Switzerland, Germany, Spain, Sweden). Domain registration dates from 2021-02-03, but the Wayback Machine has captures since 2004-03-25: the domain was registered before, possibly by someone else. Website text taken from the Wayback Machine copy of 2026-04-11 (https://web.archive.org/web/20260411041408/https://pissmail.com/). Wayback Machine captures: 2004-03-25 to 2026-04-11. IMAP (port 993) does not answer on mail.pissmail.com, but the port is open from 1 of 5 check-host.net locations. Mail DNS: SPF, DMARC p=reject, DNSSEC. Site mentions: accepts cryptocurrency. Tor: pissmaiamldg5ciulncthgzudvh5d55dismyqf6qdkx372n2b5osefid.onion.'
+links:
+  tos: https://web.archive.org/web/20241218004724/https://pissmail.com/tos.html
+security:
+  spf: ~all
+  dmarc: reject
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'no'
+online_since: '2004-03-25'
+last_checked: '2026-10-30'

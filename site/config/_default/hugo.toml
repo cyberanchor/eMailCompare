@@ -13,11 +13,10 @@ publishDir = "public"
 [markup.goldmark.renderer]
   unsafe = false
 
-# Data files from the repository root: the providers and the status marks of the README tables.
 [[module.mounts]]
   source = "assets"
   target = "assets"
+# Provider records from the repository root: ../data/providers/<domain>.yaml -> hugo.Data.providers
 [[module.mounts]]
-  source = ".."
-  target = "assets/emc"
-  files = ["emails.csv", "README.md"]
+  source = "../data/providers"
+  target = "data/providers"

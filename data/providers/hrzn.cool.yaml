@@ -1,0 +1,38 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 109
+domain: hrzn.cool
+status: auto
+flag: 🇩🇪
+a:
+- {host: '188.114.96.3', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '188.114.97.3', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: mail.hrzn.email, flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+created: '2021-08-08'
+expires: '2027-08-08'
+alliance: 14
+jurisdiction:
+- Germany
+description: |-
+  Horizon - Privacy, streamlined.
+  At Horizon, we believe in privacy without compromising functionality. Our mission is to empower individuals with powerful tools that seamlessly integrate privacy.
+privacy_summary: |-
+  Collect IP addresses, encryption
+  https://send.hrzn.cool
+price:
+- $5/month
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption.'
+links:
+  privacy: https://send.hrzn.cool/
+security:
+  spf: -all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.hrzn.email:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2021-12-07'
+last_checked: '2026-10-30'

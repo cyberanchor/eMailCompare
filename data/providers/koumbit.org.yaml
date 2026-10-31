@@ -1,0 +1,41 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 128
+domain: koumbit.org
+status: auto
+flag: 🇨🇦
+a:
+- {host: '199.58.80.40', flag: 🇨🇦, country: Canada, asn: AS7765, org: Koumbit}
+mx:
+- {host: mail.koumbit.net, flag: 🇨🇦, country: Canada, asn: AS7765, org: Koumbit}
+created: '2004-02-06'
+expires: '2027-02-06'
+owner: 🇨🇦 Réseau Koumbit
+alliance: 5
+jurisdiction:
+- Canada
+description: |-
+  Koumbit.org | Pour un internet libre et solidaire
+  Fournisseur de service de développement, infrastructure et hébergement web en utilisant les logiciel libres à Montréal, Québec depuis 2004.
+privacy_summary: |-
+  Collect IP addresses, cookies, analytics/tracking, third parties, encryption
+  https://www.koumbit.org/en/content/privacy-policy
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption.'
+links:
+  tos: https://www.koumbit.org/fr/content/termes-et-conditions-dutilisation
+  privacy: https://www.koumbit.org/fr/content/politique-de-confidentialite
+social:
+- https://jasette.facil.services/@koumbit
+security:
+  spf: ~all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.koumbit.net:993', note: SSL/TLS}
+- {kind: SMTP, host: 'smtp.koumbit.net:587', note: STARTTLS}
+- {kind: POP3, host: 'pop.koumbit.net:995', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2004-08-25'
+last_checked: '2026-10-30'

@@ -1,0 +1,43 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 40
+domain: enbox.me
+status: auto
+flag: 🇵🇱
+a:
+- {host: '94.130.234.220', flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+mx:
+- {host: smtp.de01.enbox.net, flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+created: '2022-03-04'
+expires: '2027-03-04'
+owner: 🇵🇱 Enbox sp. z o. o.
+jurisdiction:
+- Poland
+description: |-
+  Enbox — Private by default
+  A private, end-to-end encrypted suite of 10 apps — email, photos, files, passwords, VPN and more. One private home for your whole family.
+tos_summary: |-
+  Illegal actions (spam, hacking)
+  https://enbox.me/legal/terms/
+privacy_summary: |-
+  Collect IP addresses, data/logs kept 3 mos., advertising, third parties, encryption, does not sell data (claimed)
+  https://enbox.me/legal/privacy/
+price:
+- free
+- $9.99/month
+- $29.99/month
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption.'
+links:
+  tos: https://enbox.me/legal/terms/
+  privacy: https://enbox.me/legal/privacy/
+security:
+  spf: ~all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'smtp.de01.enbox.net:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2022-05-06'
+last_checked: '2026-10-30'

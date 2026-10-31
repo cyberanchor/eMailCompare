@@ -1,0 +1,11 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 202
+domain: uq.ci
+status: pending
+dead: true
+created: '2024-03-30'
+expires: '2026-03-30'
+description: tsutaja's lil mail server
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Struck out in README. Domain does not resolve (NXDOMAIN). Domain registration dates from 2024-03-30, but the Wayback Machine has captures since 2021-12-19: the domain was registered before, possibly by someone else. Website text taken from the Wayback Machine copy of 2025-03-07 (https://web.archive.org/web/20250307024925/https://uq.ci/). Wayback Machine captures: 2021-12-19 to 2025-08-07. Last TLS certificate issued in 2025 (crt.sh). Tor: rdubjoiswr7e7vui24nzfyt6qlpt2gkrvdror677oyi4bjntttohqmyd.onion.'
+online_since: '2021-12-19'
+last_checked: '2026-10-30'

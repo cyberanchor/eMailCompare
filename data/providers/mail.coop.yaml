@@ -1,0 +1,57 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 130
+domain: mail.coop
+status: auto
+flag: 🇬🇧
+domains:
+- '3-c.coop'
+- cooptel.net
+- good.co.uk
+- myphone.coop
+- phonecoop.coop
+- pop3.poptel.org.uk
+- poptel.org
+- poptel.org.uk
+a:
+- {host: '149.255.57.71', flag: 🇬🇧, country: United Kingdom, asn: AS34931, org: Awareness Software Limited}
+mx:
+- {host: mail.mail.coop, flag: 🇬🇧, country: United Kingdom, asn: AS41354, org: ITS Technology Group Limited}
+created: '2007-07-10'
+expires: '2027-07-10'
+owner: 🇬🇧 Innovation Cooperative
+alliance: 5
+jurisdiction:
+- United Kingdom
+description: |-
+  Email service from a cooperative | mail.coop
+  mail.coop provides a reliable email service from a cooperative provider, for individuals and organisations who value privacy and ethical practice
+tos_summary: |-
+  Illegal actions (spam, hacking), IP violation, harassment, fraud
+  https://mail.coop/legal/terms-of-service/
+privacy_summary: |-
+  Cookies, analytics/tracking, third parties, share upon authorities' request
+  https://mail.coop/legal/privacy-policy/
+price:
+- free
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://mail.coop/legal/terms-of-service/
+  privacy: https://mail.coop/legal/privacy-policy/
+  imprint: https://mail.coop/legal
+security:
+  spf: ~all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.mail.coop:993', note: SSL/TLS}
+- {kind: IMAP, host: 'mail.mail.coop:143', note: STARTTLS}
+- {kind: POP3, host: 'mail.mail.coop:995', note: SSL/TLS}
+- {kind: POP3, host: 'mail.mail.coop:110', note: STARTTLS}
+- {kind: SMTP, host: 'mail.mail.coop:465', note: SSL/TLS}
+- {kind: SMTP, host: 'mail.mail.coop:587', note: STARTTLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2004-12-15'
+last_checked: '2026-10-30'

@@ -1,0 +1,37 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 27
+domain: monocles.de
+status: checked
+flag: 🇩🇪
+a:
+- {host: '37.120.160.239', flag: 🇩🇪, country: Germany, asn: AS197540, org: netcup GmbH}
+mx:
+- {host: mail.monocles.de, flag: 🇩🇪, country: Germany, asn: AS197540, org: netcup GmbH}
+owner: 🇩🇪 Arne-Brün Vogelsang
+alliance: 14
+jurisdiction:
+- Germany
+description: monocles search, powered by searx
+tos_summary: Illegal purposes; disrupting server ops (e.g., high traffic, excessive connections); under 18 use; brand/inappropriate names
+privacy_summary: Collect optional personal data (e.g., name, address, email) voluntarily; no IP/logs for search/translator. Stored locally if settings changed. No sharing without consent.
+email: 'yes'
+phone: 'no'
+personal: 'no'
+price:
+- free
+note: 'Monocles Mail is an email service, presumably part of the Monocles ecosystem (based on the provided data), designed for minimalist and confidential communication. Operating under German legislation (§ 7-10 TMG), the service offers basic functionality for users who want to avoid intrusive data collection, emphasizing voluntary information disclosure and protection against unsolicited advertising.  Security & Anonymity: Monocles Mail ensures a high level of anonymity through its minimal data collection policy: the service can be used without providing personal information, and any data (e.g., name, address, email) is requested only on a voluntary basis. For related features (Monocles search and translator), no IP addresses or user actions are logged, with settings stored locally on the user’s device, preventing tracking by the service. However, the text doesn’t mention encryption for messages or servers, raising questions about content protection. Data isn’t shared with third parties without explicit consent, though legal disclosure is possible after notification of a violation (German jurisdiction). Full anonymity can be achieved using Tor or a VPN, though this isn’t explicitly stated. The service warns that internet data transmission has inherent vulnerabilities.  Use Cases: Monocles Mail is suitable for users who prioritize basic privacy and the absence of aggressive data collection. It’s a good fit for:      Simple correspondence without needing to reveal identity.     Individuals avoiding spam and unwanted advertising (the service prohibits using contact data for such purposes).     Those enhancing anonymity with additional tools (e.g., Tor, VPN). It’s not ideal for highly sensitive tasks (e.g., journalism or activism) due to the lack of guarantees for end-to-end encryption or interception protection. It’s best for everyday communication with minimal risks, especially if users take their own security measures (e.g., PGP encryption). Monocles Mail is a solution for those who value voluntariness and simplicity over maximum protection.'
+links:
+  imprint: https://monocles.de/impressum/
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: enforce
+  tls_rpt: 'yes'
+  dnssec: 'yes'
+  dane: 'yes'
+servers:
+- {kind: IMAP, host: 'imap.monocles.de:993', note: SSL/TLS}
+- {kind: SMTP, host: 'smtp.monocles.de:465', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2020-05-16'
+last_checked: '2026-10-30'

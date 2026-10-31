@@ -1,0 +1,28 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 194
+domain: netaddress.com
+status: pending
+flag: 🇺🇸
+a:
+- {host: '165.212.8.50', flag: 🇺🇸, country: United States, asn: AS14454, org: 'SilverSky, Inc.'}
+mx:
+- {host: mxpool01.netaddress.usa.net, flag: 🇺🇸, country: United States, asn: AS14454, org: 'SilverSky, Inc.'}
+created: '1998-05-06'
+expires: '2027-05-05'
+owner: 🇺🇸 USA.NET, Inc.
+alliance: 5
+jurisdiction:
+- United States
+description: |-
+  Net@ddress Mail/tpl/Door /Login
+  Net@ddress Messaging Center, hosted by USA.NET, offers individuals a personal email account with business-class messaging features at a low cost.
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website unreachable (timeout: timed out). Reachable from 4 of 5 check-host.net locations (Bulgaria, Switzerland, Germany, UK): the site blocks some networks. Domain registration dates from 1998-05-06, but the Wayback Machine has captures since 1996-12-25: the domain was registered before, possibly by someone else. Website text taken from the Wayback Machine copy of 2026-09-17 (https://web.archive.org/web/20260917041001/https://www.netaddress.com/). Wayback Machine captures: 1996-12-25 to 2026-09-17. Mail servers belong to USA.net. Mail DNS: no SPF, DMARC, MTA-STS, DANE or DNSSEC.'
+security:
+  spf: missing
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '1996-12-25'
+last_checked: '2026-10-30'

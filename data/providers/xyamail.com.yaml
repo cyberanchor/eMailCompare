@@ -1,0 +1,31 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 147
+domain: xyamail.com
+status: auto
+flag: 🇺🇸
+a:
+- {host: '104.21.5.166', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '172.67.133.163', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: mx.199903.xyz, flag: 🇺🇸, country: United States, asn: AS3842, org: 'InMotion Hosting, Inc.'}
+created: '2022-10-15'
+expires: '2027-10-15'
+alliance: 5
+jurisdiction:
+- United States
+description: |-
+  XYA Mail | One mailbox for all your domains
+  Web site created using create-react-app
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+security:
+  spf: ?all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.xyamail.com:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2022-10-31'
+last_checked: '2026-10-30'

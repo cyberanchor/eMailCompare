@@ -1,0 +1,35 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 12
+domain: woelklimail.com
+status: checked
+flag: 🇨🇭
+domains:
+- wail.ch
+a:
+- {host: '185.15.230.229', flag: 🇨🇭, country: Switzerland, asn: AS206484, org: oriented.net GmbH}
+mx:
+- {host: wail-mxa1.srv.bsa.oriented.ch, flag: 🇨🇭, country: Switzerland, asn: AS206484, org: oriented.net GmbH}
+created: '2019-03-08'
+expires: '2027-03-08'
+owner: 🇨🇭 oriented.net LLC
+jurisdiction:
+- Switzerland
+description: |-
+  wölkli Mail - Secure and Encrypted Mail in Switzerland
+  wölkli Mail is a Swiss service that provides secure and encrytped mail accounts hosted in Switzerland in its own ISO 27001 certified data centre.
+tos_summary: Reselling services; illegal content (violence, pornography, racism, incitement to crime, extremist content, illegal gambling, copyright violations); unauthorized access or misuse (viruses, hacking); failure to secure access credentials or report issues
+privacy_summary: Collect personal data (name, address, login credentials), technical data (server info, logs, customer-uploaded content). Stored in Switzerland. Shared only for legal/regulatory purposes or to protect oriented.net’s rights/property.
+email: 'no'
+phone: 'no'
+personal: optional
+price:
+- Free
+- M1 60 CHF/year
+- M3 200 CHF/year
+- M4 300 CHF/year
+note: 'Wölkli Mail is a Swiss email service offering free and paid encrypted email accounts under the @wail.ch domain. Hosting is provided in its own ISO 27001-certified data center in Switzerland. The service focuses on security and privacy, with a basic free tier (200 MB, no IMAP/SMTP) and paid plans with enhanced features. Security & Anonymity: Wölkli Mail employs 256-bit SSL encryption for data transmission and AES-256 server-side encryption for stored emails. It supports OpenPGP for message encryption and decryption, along with two-factor authentication (2FA). Emails are encrypted with user-specific cryptographic keys before reaching the inbox, preventing even the service provider from accessing their contents. Data is stored in Switzerland, benefiting from strict privacy laws (DSG). However, full anonymity isn’t guaranteed: registration requires a name, surname, and a strong password (min. 12 characters), and IP addresses may be logged. The privacy policy lacks detailed disclosure about data collection, leaving some uncertainty regarding anonymity. The free version (200 MB, 20 MB attachment limit, ad-free) is suitable for basic correspondence, temporary registrations, or non-sensitive data via the web interface (based on RainLoop, with Russian language support). Paid tiers, offering more storage and IMAP/SMTP access, are ideal for personal or professional use requiring encryption and reliability. Thanks to Swiss jurisdiction and cryptographic features, it’s a good fit for users prioritizing above-average privacy, though for maximum anonymity (e.g., no personal data required), alternatives like Proton Mail or Tutanota might be preferable.'
+links:
+  tos: https://oriented.net/company/terms-of-service
+  privacy: https://oriented.net/company/privacy-policy
+online_since: '2020-05-13'
+last_checked: '2026-10-30'

@@ -1,0 +1,35 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 250
+domain: yandex.ru
+status: pending
+flag: 🇷🇺
+domains:
+- narod.ru
+- ya.ru
+- yandex.com
+- yandex.com.tr
+a:
+- {host: '77.88.55.88', flag: 🇷🇺, country: Russia, asn: AS13238, org: YANDEX LLC}
+- {host: '5.255.255.77', flag: 🇷🇺, country: Russia, asn: AS13238, org: YANDEX LLC}
+mx:
+- {host: mx.yandex.ru, flag: 🇷🇺, country: Russia, asn: AS13238, org: YANDEX LLC}
+created: '1997-09-23'
+expires: '2027-09-30'
+owner: 🇷🇺 YANDEX LLC
+jurisdiction:
+- Russia
+description: Дзен объединяет всё самое важное. Национальная, региональная и городская повестка, актуальные новости ведущих СМИ и нишевых авторов — всё собрано в единой ленте.
+note: 'Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Mail servers belong to Yandex. IMAP server imap.yandex.ru:993 answers (Yandex). Publishes mail client autoconfig. Mail DNS: SPF, DMARC p=none, DANE.'
+security:
+  spf: redirect
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'yes'
+servers:
+- {kind: IMAP, host: 'imap.yandex.com:993', note: SSL/TLS}
+- {kind: SMTP, host: 'smtp.yandex.com:465', note: SSL/TLS}
+- {kind: IMAP software, host: Yandex}
+online_since: '1998-12-06'
+last_checked: '2026-10-30'

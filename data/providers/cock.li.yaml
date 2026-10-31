@@ -1,0 +1,59 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 61
+domain: cock.li
+status: auto
+flag: 🇷🇸
+domains:
+- '420blaze.it'
+- aaathats3as.com
+- airmail.cc
+- cocaine.ninja
+- cock.email
+- cock.lu
+- cumallover.me
+- firemail.cc
+- horsefucker.org
+- memeware.net
+- national.shitposting.agency
+- nigge.rs
+- waifu.club
+a:
+- {host: '193.239.85.202', flag: 🇷🇴, country: Romania, asn: AS9009, org: M247 Europe SRL}
+mx:
+- {host: mx1.cock.li, flag: 🇷🇸, country: Serbia, asn: AS9009, org: M247 Europe SRL}
+- {host: mx2.cock.li, flag: 🇷🇸, country: Serbia, asn: AS9009, org: M247 Europe SRL}
+created: '2003-12-26'
+owner: 🇺🇸 Individual operator
+jurisdiction:
+- Serbia
+description: Home — Cock.li E-mail Hosting
+tos_summary: |-
+  Illegal actions (spam)
+  https://cock.li/terms.php
+privacy_summary: |-
+  Collect IP addresses, data/logs kept 30 days, cookies, no third-party sharing (claimed), share upon authorities' request, encryption
+  https://cock.li/privacy.php
+price:
+- free
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: accepts cryptocurrency, PGP/E2E encryption. Tor: rurcblzhmdk22kttfkel2zduhyu3r6to7knyc7wiorzrx5gw4c3lftad.onion.'
+links:
+  tos: https://cock.li/terms.php
+  privacy: https://cock.li/privacy.php
+onion: http://rurcblzhmdk22kttfkel2zduhyu3r6to7knyc7wiorzrx5gw4c3lftad.onion/
+security:
+  spf: -all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.cock.li:993', note: SSL/TLS}
+- {kind: IMAP, host: 'mail.cock.li:143', note: STARTTLS}
+- {kind: POP3, host: 'mail.cock.li:995', note: SSL/TLS}
+- {kind: POP3, host: 'mail.cock.li:110', note: STARTTLS}
+- {kind: SMTP, host: 'mail.cock.li:465', note: SSL/TLS}
+- {kind: SMTP, host: 'mail.cock.li:587', note: STARTTLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2013-11-24'
+last_checked: '2026-10-30'

@@ -1,0 +1,26 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 51
+domain: purelyemail.com
+status: auto
+flag: 🇩🇪
+a:
+- {host: '217.160.0.206', flag: 🇩🇪, country: Germany, asn: AS8560, org: IONOS SE}
+mx:
+- {host: mx00.ionos.co.uk, flag: 🇩🇪, country: Germany, asn: AS8560, org: IONOS SE}
+- {host: mx01.ionos.co.uk, flag: 🇩🇪, country: Germany, asn: AS8560, org: IONOS SE}
+created: '2006-01-25'
+expires: '2027-01-25'
+alliance: 14
+jurisdiction:
+- Germany
+description: Purely Email
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+security:
+  spf: ~all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2011-02-01'
+last_checked: '2026-10-30'

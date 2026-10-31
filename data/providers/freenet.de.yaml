@@ -1,0 +1,47 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 74
+domain: freenet.de
+status: auto
+flag: 🇩🇪
+a:
+- {host: '194.97.208.11', flag: 🇩🇪, country: Germany, asn: AS8648, org: dogado GmbH}
+- {host: '194.97.208.12', flag: 🇩🇪, country: Germany, asn: AS8648, org: dogado GmbH}
+mx:
+- {host: mx.freenet.de, flag: 🇩🇪, country: Germany, asn: AS8648, org: dogado GmbH}
+owner: 🇩🇪 DLS GmbH
+alliance: 14
+jurisdiction:
+- Germany
+description: |-
+  freenet Mobilfunk – Handytarife in allen Netzen
+  Mobilfunk in allen Netzen: Allnet Flat und Unlimited im Telekom-, Vodafone- oder o2-Netz. Jedes Netz mit eigenem Sortiment, eigener Geschwindigkeit – in wenigen Minuten online abschließen.
+tos_summary: |-
+  Page found, no key clauses detected
+  https://www.freenet.de/legal/barrierefreiheit/
+privacy_summary: |-
+  Collect IP addresses, cookies, analytics/tracking, advertising, third parties, share upon authorities' request, encryption, GDPR
+  https://www.freenet.de/legal/datenschutz/
+price:
+- free
+- '14,99€/month'
+- '9,99€/month'
+- '7,99€/month'
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://www.freenet.de/ui/out/legal-barrierefreiheit?at=footer
+  privacy: https://www.freenet.de/ui/out/legal-datenschutz?at=footer
+  imprint: https://www.freenet.de/ui/out/legal-impressum?at=footer
+security:
+  spf: redirect
+  dmarc: quarantine
+  mta_sts: testing
+  tls_rpt: 'yes'
+  dnssec: 'yes'
+  dane: 'yes'
+servers:
+- {kind: IMAP, host: 'mx.freenet.de:993', note: SSL/TLS}
+- {kind: POP3, host: 'mx.freenet.de:995', note: SSL/TLS}
+- {kind: SMTP, host: 'mx.freenet.de:587', note: STARTTLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '1996-12-22'
+last_checked: '2026-10-30'

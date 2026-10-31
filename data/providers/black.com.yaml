@@ -1,0 +1,35 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 63
+domain: black.com
+status: auto
+flag: 🇦🇹
+a:
+- {host: '104.26.12.167', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '104.26.13.167', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: mail.black.com, flag: 🇨🇭, country: Switzerland, asn: AS61098, org: Akenes SA}
+created: '1994-09-25'
+expires: '2030-09-24'
+owner: 🇦🇹 black.com GmbH
+jurisdiction:
+- Austria
+description: |-
+  black.com - Encrypted Email
+  Encrypted email on Swiss infrastructure. Get your own @black.com email address now!
+tos_summary: Real person only, 14+, name and card/bank details at sign-up, no bot-made accounts; illegal content, spam, defamation, malware banned; content removed without notice; violations end the account with no refund; a closed address is given to new customers; terms change by silence after 6 weeks
+privacy_summary: Collect name, email, password hash, profile picture, payment data, IP and access times (traffic data), server logs (30 days). Store on own servers in Switzerland, trash purged after 30 days, accounting data 7 years. No tracking or ad cookies; marketing emails unless unsubscribed; Austrian GDPR controller black.com GmbH.
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://black.com/terms-of-service
+  privacy: https://black.com/privacy
+social:
+- https://x.com/blackcom
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'no'
+online_since: '1997-04-16'
+last_checked: '2026-10-30'

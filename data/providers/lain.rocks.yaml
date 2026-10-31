@@ -1,0 +1,35 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 252
+domain: lain.rocks
+status: pending
+flag: 🇫🇷
+a:
+- {host: '144.91.78.106', flag: 🇫🇷, country: France, asn: AS51167, org: Contabo GmbH}
+mx:
+- {host: mail.lain.rocks, flag: 🇫🇷, country: France, asn: AS51167, org: Contabo GmbH}
+created: '2025-06-02'
+expires: '2027-06-02'
+alliance: 9
+jurisdiction:
+- France
+description: |-
+  lain.rocks | Home
+  lain.rocks, the c00l place on the internet
+tos_summary: |-
+  Illegal actions (spam), harassment
+  https://lain.rocks/sites/tos.html
+note: 'Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Domain registration dates from 2025-06-02, but the Wayback Machine has captures since 2021-12-12: the domain was registered before, possibly by someone else. IMAP server mail.lain.rocks:993 answers (Dovecot). Webmail: https://webmail.lain.rocks/. Mail DNS: SPF, DMARC p=none. Site mentions: accepts cryptocurrency, PGP/E2E encryption.'
+links:
+  tos: https://lain.rocks/sites/tos.html
+security:
+  spf: ~all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.lain.rocks:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2021-12-12'
+last_checked: '2026-10-30'

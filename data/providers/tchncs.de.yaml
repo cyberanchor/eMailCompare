@@ -1,0 +1,43 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 181
+domain: tchncs.de
+status: auto
+flag: 🇩🇪
+a:
+- {host: '89.58.62.32', flag: 🇩🇪, country: Germany, asn: AS197540, org: netcup GmbH}
+mx:
+- {host: h1.tchncs.de, flag: 🇩🇪, country: Germany, asn: AS197540, org: netcup GmbH}
+owner: 🇩🇪 Individual operator
+alliance: 14
+jurisdiction:
+- Germany
+description: |-
+  Hallöchen! : tchncs
+  Hier wird eine Sammlung ganz wunderbarer OpenSource-Software für dich bereitgestellt.
+tos_summary: |-
+  Illegal actions (spam)
+  https://tchncs.de/tos
+privacy_summary: |-
+  Collect IP addresses, cookies, analytics/tracking, GDPR
+  https://tchncs.de/privacy
+price:
+- donations
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. IMAP server imap.tchncs.de:993 answers (Dovecot). Webmail: https://mail.tchncs.de/ (Roundcube). Mail DNS: SPF, DMARC p=reject, DNSSEC.'
+links:
+  tos: https://tchncs.de/en/tos
+  privacy: https://tchncs.de/en/privacy
+  imprint: https://tchncs.de/en/impressum
+social:
+- https://matrix.to/#/#tchncs:tchncs.de
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.tchncs.de:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2015-11-01'
+last_checked: '2026-10-30'

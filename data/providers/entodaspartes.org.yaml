@@ -1,0 +1,27 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 208
+domain: entodaspartes.org
+status: pending
+flag: 🇫🇷
+a:
+- {host: '188.114.97.3', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '188.114.96.3', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: spool.mail.gandi.net, flag: 🇫🇷, country: France, asn: AS29169, org: GANDI SAS}
+- {host: fb.mail.gandi.net, flag: 🇫🇷, country: France, asn: AS29169, org: GANDI SAS}
+created: '2004-02-09'
+expires: '2029-02-09'
+alliance: 9
+jurisdiction:
+- France
+description: entodaspartes.org
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website unreachable (HTTP 403: "DNS points to prohibited IP | entodaspartes.org | Cloudflare"). Also unreachable from 5 check-host.net locations (Switzerland, Indonesia, Netherlands, Turkey, USA). Website text taken from the Wayback Machine copy of 2026-06-06 (https://web.archive.org/web/20260606104542/https://entodaspartes.org/). Wayback Machine captures: 2004-08-25 to 2026-06-06. Mail servers belong to Gandi. Mail DNS: SPF.'
+security:
+  spf: -all
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2004-08-25'
+last_checked: '2026-10-30'

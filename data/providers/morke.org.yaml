@@ -1,0 +1,25 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 160
+domain: morke.org
+status: auto
+flag: 🇨🇿
+a:
+- {host: '188.127.247.117', flag: 🇨🇿, country: Czechia, asn: AS62212, org: SmartApe OU}
+mx:
+- {host: mx.morke.org, flag: 🇨🇿, country: Czechia, asn: AS62212, org: SmartApe OU}
+created: '2019-08-12'
+expires: '2028-08-12'
+jurisdiction:
+- Czechia
+description: Anonymous Email
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Tor: 6n5nbusxgyw46juqo3nt5v4zuivdbc7mzm74wlhg7arggetaui4yp4id.onion.'
+onion: http://6n5nbusxgyw46juqo3nt5v4zuivdbc7mzm74wlhg7arggetaui4yp4id.onion/
+security:
+  spf: -all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2013-02-14'
+last_checked: '2026-10-30'

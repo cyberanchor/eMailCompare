@@ -1,0 +1,55 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 4
+domain: mailo.com
+status: checked
+flag: 🇫🇷
+domains:
+- netcourrier.com
+- netc.fr
+- francemel.fr
+- emailasso.net
+- lavache.com
+- Monemail.com
+a:
+- {host: '213.182.55.221', flag: 🇫🇷, country: France, asn: AS8304, org: Ecritel SASU}
+mx:
+- {host: mx.mailo.com, flag: 🇫🇷, country: France, asn: AS8304, org: Ecritel SASU | Mailobject}
+created: '2001-03-05'
+expires: '2027-03-05'
+owner: 🇫🇷  Mail Object
+alliance: 9
+jurisdiction:
+- France
+description: Mailo
+tos_summary: Illegal actions (spam, hacking, harassment, IP theft), multiple free accounts for 3rd-party registration, automation, business use on free plan
+privacy_summary: Collect email, personal info (name, DOB, optional), IP logs (1 month), payment data, content (encrypted). Store in France, delete after 1 month post-account closure. Share with payment providers (Verifone/Paybox, Mobiyo), Gandi (domains), legal requests only.
+email: 'yes'
+phone: 'Yes'
+personal: 'yes'
+price:
+- Free
+- Premium €1/month
+note: 'Mailo is a European email service by French company Mail Object, offering email, calendar, storage, and chat. It suits personal use, families (with Mailo Junior for kids), and professionals on paid plans. Security & Anonymity: Features SSL encryption and antispam, but lacks end-to-end encryption, limiting security. Anonymity is weak: requires personal data (DOB), logs IPs (1 month), and blocks third-party validation emails on free accounts. Usage: Sign up on mailo.com with name, DOB, and password; access via web, apps, or IMAP/SMTP. Multi-accounts need paid plans and proxies due to automation bans. Decent for basic communication and family features, but lags in anonymity and security compared to Proton Mail or Tutanota.'
+links:
+  tos: https://www.mailo.com/mailo/en/terms-of-use.php
+  privacy: https://www.mailo.com/mailo/en/privacy-rules.php
+social:
+- https://www.facebook.com/hellomailo
+- https://mastodon.social/@hellomailo
+- https://bsky.app/profile/hellomailo.bsky.social
+- https://www.linkedin.com/company/mailofr
+- https://www.instagram.com/hellomailo
+- https://www.threads.net/@hellomailo
+security:
+  spf: ~all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.mailo.com:993', note: SSL/TLS}
+- {kind: POP3, host: 'mail.mailo.com:995', note: SSL/TLS}
+- {kind: SMTP, host: 'mail.mailo.com:465', note: SSL/TLS}
+online_since: '1996-11-10'
+last_checked: '2026-10-30'

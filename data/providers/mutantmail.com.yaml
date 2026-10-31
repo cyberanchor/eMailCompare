@@ -1,0 +1,49 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 85
+domain: mutantmail.com
+status: auto
+flag: 🇺🇸
+a:
+- {host: '188.114.97.3', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '188.114.96.3', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: gateway.cliffmail.com, flag: 🇩🇪, country: Germany, asn: AS197540, org: netcup GmbH}
+- {host: mutant.cliffmail.com, flag: 🇳🇱, country: Netherlands, asn: AS60404, org: Liteserver}
+- {host: portal.cliffmail.com, flag: 🇬🇧, country: United Kingdom, asn: AS42831, org: UK Dedicated Servers Limited}
+created: '2021-09-15'
+expires: '2027-09-15'
+owner: 🇺🇸 Fresent LLC
+alliance: 5
+jurisdiction:
+- United States
+description: |-
+  Manage Multiple Email Addresses Like a Pro - Mutant Mail
+  Unlock the full potential of your email with Mutant Mail. Manage multiple email addresses, protect your privacy, never miss important email. Advanced features like two-way email routing, signature embedding, DMARC report, & more. Get more done in less time with Mutant Mail
+tos_summary: |-
+  Illegal actions (spam, hacking), IP violation, harassment, fraud, commercial use
+  https://mutantmail.com/terms-and-condition/
+privacy_summary: |-
+  Collect IP addresses, cookies, analytics/tracking, advertising, third parties, GDPR
+  https://mutantmail.com/privacy-policy/
+price:
+- free
+- $35.99/year
+- $3.99/month
+- $71.99/year
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption.'
+links:
+  tos: https://mutantmail.com/terms-and-condition
+  privacy: https://mutantmail.com/privacy-policy
+  imprint: https://mutantmail.com/imprint
+security:
+  spf: ~all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'gateway.cliffmail.com:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2001-02-02'
+last_checked: '2026-10-30'

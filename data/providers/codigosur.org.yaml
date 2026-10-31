@@ -1,0 +1,31 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 121
+domain: codigosur.org
+status: auto
+flag: 🇫🇮
+a:
+- {host: '65.21.183.95', flag: 🇫🇮, country: Finland, asn: AS24940, org: Hetzner Online GmbH}
+mx:
+- {host: correo.codigosur.org, flag: 🇫🇮, country: Finland, asn: AS24940, org: Hetzner Online GmbH}
+created: '2005-08-03'
+expires: '2027-08-03'
+jurisdiction:
+- Finland
+description: |-
+  CódigoSur
+  Somos una colectiva de personas con el propósito de colaborar con el desarrollo y la socialización de la comunicación, la cultura y las tecnologías libres en América Latina.
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+security:
+  spf: -all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'correo.codigosur.org:993', note: SSL/TLS}
+- {kind: POP3, host: 'correo.codigosur.org:995', note: SSL/TLS}
+- {kind: SMTP, host: 'correo.codigosur.org:465', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2007-06-19'
+last_checked: '2026-10-30'

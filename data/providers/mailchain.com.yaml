@@ -1,0 +1,39 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 21
+domain: mailchain.com
+status: checked
+flag: 🇬🇧
+a:
+- {host: '188.114.97.3', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '188.114.96.3', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: in1-smtp.messagingengine.com, flag: 🇺🇸, country: United States, asn: AS151847, org: Fastmail Pty Ltd}
+- {host: in2-smtp.messagingengine.com, flag: 🇺🇸, country: United States, asn: AS151847, org: Fastmail Pty Ltd}
+created: '2014-12-25'
+expires: '2032-12-25'
+owner: 🇬🇧 Mailchain Limited
+alliance: 5
+jurisdiction:
+- United Kingdom
+description: |-
+  Mailchain | Add web3 email to your project
+  Get your own web3 email inbox connected to your wallet. Also with our SDK, developers can easily add web3 email to their own projects and applications, allowing them to engage with their users in a truly web3 way.
+tos_summary: Misusing platform (e.g., viruses, hacking, phishing); disrupting servers; unauthorized access/data extraction; bulk messaging; violating laws; using if under 13 or on sanctions lists; distributing unlawful/harmful content; reverse engineering
+privacy_summary: 'Collect minimal data: encrypted user content (messages, aliases, labels), technical data (IP briefly via Fathom Analytics, public keys, auth tokens, push tokens). Stored encrypted in user’s mailbox; no access to message content. Shared with third parties (e.g., captcha/helpdesk providers) only for operations, or legally mandated (UK law).'
+email: 'no'
+phone: 'no'
+personal: 'no'
+price:
+- free
+note: 'Mailchain is a decentralized email service designed for Web3, enabling users to send and receive encrypted messages between blockchain addresses (e.g., Ethereum, Polygon, etc.). Built on decentralization principles, Mailchain integrates with Web3 wallets, leverages cryptographic keys for identification and encryption, and gives users control over their data. It’s more than just email—it’s a communication platform for the Web3 ecosystem, supporting messaging via blockchain addresses and user-friendly names (e.g., username@mailchain.com).  Security & Anonymity: Mailchain offers a high level of privacy through end-to-end encryption, ensuring that message content is accessible only to the sender and recipient—Mailchain itself cannot decrypt it. Messages are stored encrypted in the user’s mailbox, with keys (identity key, messaging key) managed by the user via a secret recovery phrase. For anonymity, data collection is minimal: IP addresses are briefly processed via Fathom Analytics without identifying individuals, and personal details (e.g., name or email) aren’t required for registration—just a Web3 address. However, full anonymity isn’t guaranteed: technical data (authentication tokens, public keys) is collected for functionality, and information may be disclosed under legal mandates (England and Wales jurisdiction). The lack of centralized control enhances security, but users must safeguard their keys—losing them means losing access without recovery options from Mailchain.  Use Cases: Mailchain is ideal for Web3 users, such as crypto wallet owners, decentralized app (dApp) developers, DAO participants, and crypto enthusiasts. It’s a great fit for:      Secure correspondence between blockchain addresses with encryption.     Communication within decentralized communities without intermediaries.     Integration with Web3 identities and names (e.g., ENS).     Confidential messaging within the crypto ecosystem. It’s less suited for traditional communication (e.g., with Gmail) as it targets the Web3 audience and doesn’t provide absolute anonymity due to potential legal data disclosure. It’s a tool for those who value decentralization, data control, and security in the context of blockchain technologies.'
+links:
+  privacy: https://web.archive.org/web/20220706065614/https://mailchain.com/privacy
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2001-04-04'
+last_checked: '2026-10-30'

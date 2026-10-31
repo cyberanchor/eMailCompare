@@ -1,0 +1,41 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 185
+domain: slashmail.org
+status: auto
+flag: 🇺🇸
+a:
+- {host: '205.159.194.250', flag: 🇺🇸, country: United States, asn: AS6428, org: CDM}
+mx:
+- {host: mailcall.slashmail.org, flag: 🇺🇸, country: United States, asn: AS6428, org: CDM}
+created: '2004-01-07'
+expires: '2029-01-07'
+owner: 🇺🇸 UCE Bee, LLC
+alliance: 5
+jurisdiction:
+- United States
+description: |-
+  slashmail :: Welcome to slashmail
+  Slashmail is a cost effective, secure and functional webmail solution for people that want more than just a free email service where their data is harvested and used by third party services.
+tos_summary: |-
+  Illegal actions (spam, hacking), IP violation
+  Delete inactive accounts (3 mos.)
+  https://web.archive.org/web/20250216155616/https://slashmail.org/policy/
+privacy_summary: |-
+  Collect IP addresses, cookies, no third-party sharing (claimed), share upon authorities' request, encryption
+  https://web.archive.org/web/20230525132612/https://slashmail.org/privacy/
+price:
+- $24.95/year (30-day trial, no credit card required)
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website unreachable (timeout: timed out). Reachable from 4 of 5 check-host.net locations (Japan, Moldova, Poland, Singapore): the site blocks some networks. Website text taken from the Wayback Machine copy of 2026-08-04 (https://web.archive.org/web/20260804200435/https://slashmail.org/). Wayback Machine captures: 2004-08-11 to 2026-08-04. IMAP (port 993) does not answer on mailcall.slashmail.org, nor from 4 check-host.net locations. Mail DNS: SPF. FAQ (https://slashmail.org/faq/): no ads, POP/IMAP access, own domains on request, two-factor authentication with Google Authenticator; trial accounts can send to one recipient at a time and get a footer.'
+links:
+  tos: https://web.archive.org/web/20230525130544/https://slashmail.org/legal
+security:
+  spf: -all
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: SMTP, host: 'slashmail.org:465', note: SSL/TLS}
+online_since: '2004-08-11'
+last_checked: '2026-10-30'

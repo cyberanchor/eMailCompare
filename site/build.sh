@@ -3,10 +3,11 @@
 #
 # Sources: config/ (settings), content/ (home text; one page per row of ../emails.csv), layouts/ (templates),
 # assets/ (emc.css, emc.js, favicons/<slug>.png, screenshots/<slug>.webp), static/ (site icon).
-# Data: ../emails.csv and the status marks of the ../README.md tables. Rebuild after editing them and commit public/.
+# Data: ../data/providers/<domain>.yaml, one file per provider. Rebuild after editing them and commit public/
+# and ../web/data.json (the old table in web/ reads it; the build writes it).
 #
 # The theme and Hugo's caches stay outside the repository: PaperMod is fetched at the pinned commit below into
-# $EMC_CACHE (default ~/.cache/emailcompare-site). Only Hugo extended (0.146 or newer) and git are needed; no Node.js.
+# $EMC_CACHE (default ~/.cache/emailcompare-site). Only Hugo extended (0.156 or newer) and git are needed; no Node.js.
 #
 #   ./build.sh            fetch the theme and build the site into public/
 #   ./build.sh --serve    live preview at http://localhost:1313/
@@ -36,5 +37,14 @@ if [ "${1:-}" = "--serve" ]; then
 fi
 
 "$HUGO" version
-"$HUGO" --themesDir "$CACHE/themes" --noBuildLock --minify --gc --cleanDestinationDir --logLevel warn --quiet
-echo "built: public/ ($(find public -name '*.html' | wc -l) pages)"
+# Build into a fresh folder and replace public/ (and web/data.json) only when Hugo succeeded: a broken data file
+# stops the build with its message and leaves the last good site in place.
+mkdir -p "$CACHE"
+tmp=$(mktemp -d "$CACHE/public.XXXXXX")
+trap 'rm -rf "$tmp"' EXIT
+"$HUGO" --themesDir "$CACHE/themes" --noBuildLock --minify --gc --logLevel warn --destination "$tmp"
+chmod 755 "$tmp"
+rm -rf public
+mv "$tmp" public
+cp public/data.json ../web/data.json
+echo "built: public/ ($(find public -name '*.html' | wc -l) pages), ../web/data.json"

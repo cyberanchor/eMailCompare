@@ -1,0 +1,23 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 198
+domain: iobox.com
+status: pending
+flag: 🇫🇮
+a:
+- {host: '138.199.238.165', flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+mx:
+- {host: mx01.iobox.com, flag: 🇫🇮, country: Finland, asn: AS24940, org: Hetzner Online GmbH}
+created: '1998-12-01'
+expires: '2028-11-30'
+jurisdiction:
+- Finland
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website shows: "iobox Email Services | Coming Q4 2026". Wayback Machine captures: 1999-11-27 to 2026-07-14. IMAP (port 993) does not answer on mail.iobox.com, mx01.iobox.com, but the port is open from 1 of 5 check-host.net locations. Mail DNS: SPF, DNSSEC.'
+security:
+  spf: -all
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'no'
+online_since: '1999-11-27'
+last_checked: '2026-10-30'

@@ -1,0 +1,29 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 176
+domain: undernet.uy
+status: auto
+flag: 🇺🇾
+a:
+- {host: '200.40.115.74', flag: 🇺🇾, country: Uruguay, asn: AS6057, org: Administracion Nacional de Telecomunicaciones}
+mx:
+- {host: mail.undernet.uy, flag: 🇺🇾, country: Uruguay, asn: AS6057, org: Administracion Nacional de Telecomunicaciones}
+jurisdiction:
+- Uruguay
+description: 'Undernet Uruguay: Servidor Comunitario Autogestionado'
+tos_summary: |-
+  Illegal actions (CSAM), harassment
+  https://undernet.uy/terms.html
+price:
+- donations
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Homepage does not mention e-mail. IMAP (port 993) does not answer on mail.undernet.uy, but the port is open from 4 of 5 check-host.net locations. Mail DNS: SPF, DMARC p=reject. Site mentions: PGP/E2E encryption.'
+links:
+  tos: https://undernet.uy/terms.html
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2016-06-11'
+last_checked: '2026-10-30'

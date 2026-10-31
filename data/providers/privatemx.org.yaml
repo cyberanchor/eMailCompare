@@ -1,0 +1,32 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 24
+domain: privatemx.org
+status: checked
+a:
+- {host: '103.28.91.121', flag: 🇲🇾, country: Malaysia, asn: AS132372, org: GB Network Solutions Sdn. Bhd.}
+mx:
+- {host: mail.privatemx.org, flag: 🇲🇾, country: Malaysia, asn: AS132372, org: GB Network Solutions Sdn. Bhd.}
+created: '2024-05-03'
+expires: '2027-05-03'
+jurisdiction:
+- Malaysia
+description: |-
+  Private & Anonymous Email Service | PrivateMX
+  Anonymous and Secure Email Service for Tor users. Enjoy confidential communication with advanced encryption, ensuring anonymity and protecting your emails from unauthorized access and surveillance.
+tos_summary: Extremely illegal activity on the platform
+privacy_summary: Collect data for account creation and support (unspecified types). Stored with reasonable security measures. No sharing unless required by law.
+email: 'no'
+phone: 'no'
+personal: 'no'
+price:
+- free
+note: 'PrivateMX is an anonymous email service operating through the Tor network and accessible at privatemx.org. Designed with a focus on privacy, PrivateMX allows users to send and receive messages in a secure darknet environment. This service targets individuals seeking a straightforward and safe communication method, avoiding mass surveillance and preserving privacy amidst digital threats.  Security & Anonymity: PrivateMX offers a high level of privacy by leveraging the Tor network, which conceals users’ IP addresses by routing traffic through multiple nodes to ensure anonymity. While specific encryption methods (e.g., end-to-end encryption) aren’t detailed in the provided policy, the service claims to implement “reasonable security measures” to protect data from loss, misuse, or alteration. Data is collected for account creation and support (likely minimal, such as a username or email), though exact types aren’t specified. Anonymity is partial: registration may require basic information, and full protection depends on proper Tor usage and user caution. Data isn’t shared with third parties except as required by law (Mexican jurisdiction), introducing some legal vulnerability. Users have rights to access, rectify, or delete their data, enhancing control over their information.  Use Cases: PrivateMX is suitable for users who value basic anonymity and communication protection within the darknet. It’s a good fit for:      Anonymous messaging via the Tor network, such as with other darknet users.     Individuals avoiding surveillance from corporations or government entities.     Simple correspondence tasks requiring moderate privacy without complex setup. However, due to limited details on encryption and potential data collection for registration, it’s less ideal for highly sensitive communication (e.g., for journalists or activists) compared to services like Onion Mail with explicit PGP encryption. PrivateMX is a practical option for those seeking baseline anonymity in Tor without needing maximum security or advanced features. It’s optimal for everyday use in scenarios where privacy matters but isn’t critical.'
+security:
+  spf: -all
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2024-05-16'
+last_checked: '2026-10-30'

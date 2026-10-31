@@ -1,0 +1,33 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 71
+domain: vip.gr
+status: auto
+flag: 🇬🇷
+a:
+- {host: '209.42.31.99', flag: 🇩🇪, country: Germany, asn: AS209341, org: WHG Hosting Services Ltd}
+mx:
+- {host: mail.vip.gr, flag: 🇩🇪, country: Germany, asn: AS209341, org: WHG Hosting Services Ltd}
+- {host: mx.spamexperts.com, flag: 🇳🇱, country: Netherlands, asn: AS174, org: 'Cogent Communications, LLC'}
+- {host: fallbackmx.spamexperts.eu, flag: 🇳🇱, country: Netherlands, asn: AS174, org: 'Cogent Communications, LLC'}
+- {host: lastmx.spamexperts.net, flag: 🇩🇪, country: Germany, asn: AS16633, org: 'N-able Technologies, Inc.'}
+alliance: 9
+jurisdiction:
+- 🇩🇪 Germany
+- 🇳🇱 Netherlands
+description: Greek Personality Email Account – Email με προσωπικότητα
+price:
+- free
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+security:
+  spf: ~all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.vip.gr:993', note: SSL/TLS}
+- {kind: SMTP, host: 'mail.vip.gr:465', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '1999-01-25'
+last_checked: '2026-10-30'

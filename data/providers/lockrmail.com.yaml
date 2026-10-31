@@ -1,0 +1,42 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 90
+domain: lockrmail.com
+status: auto
+flag: 🇺🇸
+a:
+- {host: '104.199.122.78', flag: 🇺🇸, country: United States, asn: AS396982, org: Google LLC}
+mx:
+- {host: inbound-smtp.us-east-2.amazonaws.com, flag: 🇺🇸, country: United States, asn: AS16509, org: 'Amazon.com, Inc.'}
+created: '2020-06-05'
+expires: '2027-06-05'
+owner: 🇺🇸 Lockr Corp.
+alliance: 5
+jurisdiction:
+- United States
+description: |-
+  Protect Your Inbox And Optimize Your Browsing With LockrMail
+  The lockrMail Chrome extension integrates the utility of email into your browsing experience.
+tos_summary: |-
+  Illegal actions (spam, hacking), IP violation
+  https://lockrmail.com/terms-of-service/
+privacy_summary: |-
+  Collect IP addresses, data/logs kept 3 mos., cookies, analytics/tracking, advertising, third parties, share upon authorities' request, GDPR
+  https://lockrmail.com/privacy-policy/
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://lockrmail.com/terms-of-service/
+  privacy: https://lockrmail.com/privacy-policy/
+social:
+- https://twitter.com/lockr_digital
+- https://www.linkedin.com/company/digital-lockr
+- https://www.youtube.com/@lockrmail1181
+- https://www.instagram.com/lockr_digital
+security:
+  spf: ~all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2020-11-01'
+last_checked: '2026-10-30'

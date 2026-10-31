@@ -1,0 +1,38 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 233
+domain: kolabnow.com
+status: pending
+flag: 🇨🇭
+a:
+- {host: '185.254.79.30', flag: 🇨🇭, country: Switzerland, asn: AS15576, org: NTS workspace AG}
+- {host: '185.254.79.31', flag: 🇨🇭, country: Switzerland, asn: AS15576, org: NTS workspace AG}
+mx:
+- {host: mx01.kolabnow.com, flag: 🇨🇭, country: Switzerland, asn: AS15576, org: NTS workspace AG}
+- {host: mx02.kolabnow.com, flag: 🇨🇭, country: Switzerland, asn: AS15576, org: NTS workspace AG}
+- {host: mx03.kolabnow.com, flag: 🇨🇭, country: Switzerland, asn: AS15576, org: NTS workspace AG}
+created: '2014-11-24'
+expires: '2027-11-24'
+owner: 🇨🇭 Apheleia IT AG
+jurisdiction:
+- Switzerland
+description: |-
+  Secure and private email, calendars and more | Kolab Now
+  Secure and private email accounts with groupware productivity features including calendars, addressbooks, video conferencing, file storage and more. Operated in Switzerland since 2013
+note: 'Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. IMAP server imap.kolabnow.com:993 answers (Cyrus). Mail DNS: SPF, DMARC p=quarantine, MTA-STS, DANE, DNSSEC.'
+links:
+  tos: https://kolabnow.com/tos
+security:
+  spf: -all
+  dmarc: quarantine
+  mta_sts: enforce
+  tls_rpt: 'yes'
+  dnssec: 'yes'
+  dane: 'yes'
+servers:
+- {kind: IMAP, host: 'imap.kolabnow.com:993', note: SSL/TLS}
+- {kind: IMAP, host: 'imap.kolabnow.com:143', note: STARTTLS}
+- {kind: SMTP, host: 'smtp.kolabnow.com:587', note: STARTTLS}
+- {kind: POP3, host: 'imap.kolabnow.com:995', note: SSL/TLS}
+- {kind: IMAP software, host: Cyrus}
+online_since: '2015-02-10'
+last_checked: '2026-10-30'

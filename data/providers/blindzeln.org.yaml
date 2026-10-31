@@ -1,0 +1,33 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 175
+domain: blindzeln.org
+status: auto
+flag: 🇩🇪
+a:
+- {host: '176.96.138.64', flag: 🇩🇪, country: Germany, asn: AS58212, org: dataforest GmbH}
+mx:
+- {host: mx03.secure-mailgate.com, flag: 🇩🇪, country: Germany, asn: AS8648, org: dogado GmbH}
+- {host: mx04.secure-mailgate.com, flag: 🇩🇪, country: Germany, asn: AS8648, org: dogado GmbH}
+- {host: webbox222.server-home.org, flag: 🇩🇪, country: Germany, asn: AS45012, org: dogado GmbH}
+created: '2003-10-17'
+expires: '2027-10-17'
+owner: 🇩🇪 BLINDzeln community project
+alliance: 14
+jurisdiction:
+- Germany
+description: |-
+  BLINDzeln -> Startseite
+  BLINDzeln - Die Welt mit anderen Augen sehen, eine Community, welche Barrieren überwindet, abbaut und gemeinsam mehr erreichen will. Neben Foren und verschiedenen Chat-Systemen, bietet BLINDzeln einen Shop, mehrere Podcast-Produktionen, ein eigenes Radio-Magazin und vieles mehr. Und das Alles kostenlos und für jeden, nicht nur für Sehbehinderte und Blinde.
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. IMAP server imap.blindzeln.org:993 answers (Dovecot), certificate not trusted: Hostname mismatch, certificate is not valid for ''imap.blindzeln.org''. Webmail: https://webmail.blindzeln.org/. Mail DNS: SPF, DMARC p=quarantine.'
+security:
+  spf: -all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.blindzeln.org:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2011-06-21'
+last_checked: '2026-10-30'

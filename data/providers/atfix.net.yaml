@@ -1,0 +1,49 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 110
+domain: atfix.net
+status: auto
+flag: 🇦🇹
+domains:
+- atfix.at
+- atfix.ch
+- atfix.de
+- atfix.eu
+- atfix.org
+a:
+- {host: '151.252.59.113', flag: 🇩🇪, country: Germany, asn: AS25504, org: Vautron Rechenzentrum AG}
+mx:
+- {host: mail.atfix.net, flag: 🇩🇪, country: Germany, asn: AS25504, org: Vautron Rechenzentrum AG}
+created: '2018-11-17'
+expires: '2026-11-17'
+owner: 🇦🇹 Webrex OG
+jurisdiction:
+- Austria
+description: |-
+  atfix
+  atfix ist Ihr exklusiver E-Mail-Anbieter für den deutschsprachigen Raum. Gönnen Sie sich einen kostenlosen und sicheren E-Mail-Account.
+tos_summary: |-
+  Illegal actions (spam), IP violation, harassment
+  Delete inactive accounts (6 mos.)
+  https://www.atfix.net/tos
+privacy_summary: |-
+  Collect IP addresses, cookies, analytics/tracking, advertising, third parties, share upon authorities' request, encryption, GDPR
+  https://www.atfix.net/Datenschutz
+price:
+- free
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://www.atfix.net/tos
+  privacy: https://www.atfix.net/Datenschutz
+  imprint: https://www.atfix.net/imprint
+social:
+- https://twitter.com/atfix_freemail
+- https://www.facebook.com/FreeMail-atfix-1263458240495411
+security:
+  spf: -all
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2007-02-24'
+last_checked: '2026-10-30'

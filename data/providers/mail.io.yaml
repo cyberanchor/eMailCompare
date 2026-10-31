@@ -1,0 +1,39 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 29
+domain: mail.io
+status: checked
+flag: 🇭🇷
+a:
+- {host: '161.35.247.142', flag: 🇳🇱, country: Netherlands, asn: AS14061, org: 'DigitalOcean, LLC'}
+mx:
+- {host: inbound-smtp.us-west-2.amazonaws.com, flag: 🇺🇸, country: United States, asn: AS16509, org: 'Amazon.com, Inc.'}
+created: '2004-02-26'
+expires: '2027-02-26'
+owner: 🇭🇷 Amplio d.o.o.
+alliance: 5
+jurisdiction:
+- United States
+description: Mailio
+tos_summary: Illegal use; spam; junk mail; bulk emails; trading accounts; multiple free accounts; unlawful content
+privacy_summary: Collect email (optional), hashed verification data (IP/email/phone), metadata, account activity. Encrypted content. Share only if legally required.
+email: 'no'
+phone: 'no'
+personal: 'no'
+price:
+- free
+note: 'Mailio is an email service offered by Amplio d.o.o., based in Slovenia, accessible via the mail.io website and mobile apps. It positions itself as a privacy-focused solution, providing end-to-end encryption for correspondence within the mail.io domain and minimal user data collection.  Security & Anonymity: Mailio ensures a high level of privacy with end-to-end encryption for messages within its domain and a "zero-knowledge" architecture—meaning the company cannot access encrypted email content. No personal data is required for registration, though an optional email can be provided for verification or recovery. IP addresses, emails, or phone numbers used for verification (e.g., via reCaptcha, SMS) are stored temporarily and hashed if retained long-term, making identification difficult. Permanent IP logs aren’t kept unless abuse (spam, attacks) occurs, where data may be stored to protect the service. Metadata (sender, recipient, subject, timestamps) is accessible due to SMTP limitations, but encrypted message content isn’t. Unencrypted incoming emails are scanned for spam and viruses, justified by user protection needs. Data isn’t shared with third parties except under binding Slovenian legal requests (with user notification if permitted). Payments via Stripe or anonymously (Bitcoin/cash) offer flexibility, though card linkage may reduce anonymity. For full anonymity, using Tor/VPN is recommended, as traffic passes through third-party networks.  Use Cases: Mailio is suitable for users seeking a private email service with strong data protection and minimal tracking. It’s a good fit for:      Confidential correspondence within the mail.io domain (fully encryption-protected).     Those aiming to minimize data collection and avoid ads (no analytics or third-party tracking).     Everyday communication with moderate anonymity needs (external emails aren’t encrypted by default). It’s not ideal for complete anonymity (due to potential metadata and payments) or bulk messaging (strict anti-spam measures). Mailio is optimal for individuals, freelancers, or small teams valuing simplicity, security, and inbox control within the European jurisdiction (GDPR).'
+links:
+  tos: https://mail.io/tos
+  privacy: https://mail.io/privacy
+social:
+- https://t.me/mailioio
+- https://www.linkedin.com/company/mailio
+security:
+  spf: ~all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2015-09-28'
+last_checked: '2026-10-30'

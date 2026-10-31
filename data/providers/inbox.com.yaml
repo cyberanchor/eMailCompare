@@ -1,0 +1,43 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 82
+domain: inbox.com
+status: auto
+flag: 🇳🇴
+a:
+- {host: '68.183.243.94', flag: 🇩🇪, country: Germany, asn: AS14061, org: 'DigitalOcean, LLC'}
+mx:
+- {host: mx.dka.mailcore.net, flag: 🇩🇰, country: Denmark, asn: AS3308, org: TELIANET DENMARK}
+created: '1995-04-16'
+expires: '2028-04-17'
+owner: 🇳🇴 Inbox.com AS
+alliance: 9
+jurisdiction:
+- Norway
+description: |-
+  Inbox.com - Premium email
+  Step into the world of secure, ad-free communication with our premium email service. Recognized as an industry leader, we put your privacy above all else.
+tos_summary: |-
+  Illegal actions (spam, hacking), IP violation, harassment
+  https://www.inbox.com/terms-of-service
+privacy_summary: |-
+  Collect IP addresses, cookies, third parties, share upon authorities' request, GDPR, does not sell data (claimed)
+  https://www.inbox.com/privacy-policy
+price:
+- free
+- $69/year
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://www.inbox.com/terms-of-service
+  privacy: https://www.inbox.com/privacy-policy
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: testing
+  tls_rpt: 'yes'
+  dnssec: 'yes'
+  dane: 'yes'
+servers:
+- {kind: IMAP, host: 'mail.inbox.com:993', note: SSL/TLS}
+- {kind: SMTP, host: 'smtp.inbox.com:465', note: SSL/TLS}
+online_since: '1998-12-03'
+last_checked: '2026-10-30'

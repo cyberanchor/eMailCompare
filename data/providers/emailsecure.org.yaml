@@ -1,0 +1,29 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 47
+domain: emailsecure.org
+status: auto
+flag: 🇺🇸
+a:
+- {host: '76.223.105.230', flag: 🇺🇸, country: United States, asn: AS16509, org: 'Amazon.com, Inc.'}
+- {host: '13.248.243.5', flag: 🇨🇦, country: Canada, asn: AS16509, org: 'Amazon.com, Inc.'}
+mx:
+- {host: mxa.mailgun.org, flag: 🇺🇸, country: United States, asn: AS396982, org: Google LLC}
+- {host: mxb.mailgun.org, flag: 🇺🇸, country: United States, asn: AS396982, org: Google LLC}
+created: '2024-12-15'
+expires: '2026-12-15'
+alliance: 5
+jurisdiction:
+- United States
+description: |-
+  emailsecure.org
+  Launching Soon
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+security:
+  spf: ~all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2004-06-09'
+last_checked: '2026-10-30'

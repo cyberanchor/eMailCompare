@@ -1,0 +1,44 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 23
+domain: onionmail.org
+status: checked
+flag: 🇺🇸
+domains:
+- onionmail.org
+- onionmail.com
+- '2mail.co'
+- mail2tor.co
+- Gtfcy37qyzor7kb6blz2buwuu5u7qjkycasjdf3yaslibkbyhsxub4yd.onion
+a:
+- {host: '104.26.10.72', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '104.26.11.72', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: mxmail.onionmail.org, flag: 🇸🇬, country: Singapore, asn: AS141995, org: Contabo Asia Private Limited}
+created: '2020-08-03'
+expires: '2027-08-03'
+owner: 🇺🇸 Onion Search Engine LLC
+alliance: 5
+jurisdiction:
+- United States
+description: |-
+  Onion Mail - Encrypted & Anonymous email
+  Onion Mail is free encrypted & anonymous email service, manage emails in the normal network and in the onion network. Encrypt email with your PGP public key.
+tos_summary: Unlawful use; soliciting illegal acts; violating laws/regulations; infringing IP rights; harassment/discrimination; false info; viruses/malware; spam/phishing; obscene content; bypassing security; under 18 use
+privacy_summary: 'Collect minimal data: optional account info (name, email if provided), auto-collected (IP, browser type/version, OS, access times). Stored encrypted with PGP (content inaccessible to provider). No sharing except legal mandates (NY, US law).'
+email: 'no'
+phone: 'no'
+personal: 'yes'
+price:
+- free
+note: 'Onion Mail is an anonymous and secure email service operating on the Tor network and utilizing PGP (Pretty Good Privacy) encryption. Accessible via a .onion address, as well as standard domains onionmail.org and onionmail.com, this service is designed to provide maximum confidentiality and data protection in the digital age. Onion Mail targets users who prioritize anonymity and safeguarding against surveillance, offering a decentralized messaging platform within the darknet and beyond.  Security & Anonymity: Onion Mail stands out for its exceptional privacy and anonymity features. Messages are encrypted with PGP, ensuring end-to-end encryption—content is accessible only to the sender and recipient, with the service itself unable to view the text. Operating through the Tor network hides users’ IP addresses by routing traffic through multiple nodes, making it nearly impossible to trace the sender or receiver. Registration doesn’t require personal data (name or email can be omitted), and encryption keys are generated and stored by the user, enhancing security control. However, minimal data (IP, browser type, access times) is automatically collected for statistics and abuse prevention, though it doesn’t identify individuals. Data isn’t shared with third parties except under legal mandates (New York, USA jurisdiction). Full anonymity relies on proper Tor usage and key management by the user.  Use Cases: Onion Mail is ideal for those seeking maximum confidentiality and anonymity in communication, especially under censorship or surveillance conditions. It’s a perfect fit for:      Anonymous messaging via the darknet (e.g., with other .onion users).     Protecting correspondence for activists, journalists, or whistleblowers where secrecy is critical.     Sending emails to standard addresses while preserving sender anonymity.     Individuals avoiding mass surveillance and valuing independence from big corporations. The service is user-friendly but requires the Tor Browser, making it less convenient for everyday tasks compared to traditional email providers. It’s not suited for commercial purposes or bulk messaging, but rather for those willing to trade convenience for security and anonymity in specific scenarios, such as darknet activities or protection from repression. Onion Mail is a niche tool for users who prioritize privacy above all else.'
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.onionmail.org:993', note: SSL/TLS}
+online_since: '2020-09-24'
+last_checked: '2026-10-30'

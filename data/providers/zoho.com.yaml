@@ -1,0 +1,54 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 241
+domain: zoho.com
+status: pending
+flag: 🇮🇳
+domains:
+- zohomail.com
+a:
+- {host: '136.143.190.155', flag: 🇺🇸, country: United States, asn: AS2639, org: ZOHO}
+mx:
+- {host: smtpin.zoho.com, flag: 🇺🇸, country: United States, asn: AS2639, org: ZOHO}
+- {host: smtpin2.zoho.com, flag: 🇺🇸, country: United States, asn: AS2639, org: ZOHO}
+- {host: smtpin3.zoho.com, flag: 🇺🇸, country: United States, asn: AS2639, org: ZOHO}
+created: '2004-01-16'
+expires: '2031-01-16'
+owner: 🇮🇳 Zoho Corporation Pvt. Ltd.
+jurisdiction:
+- India
+description: |-
+  Zoho | Cloud-Software-Suite für Unternehmen
+  Eine einzigartige und leistungsstarke Software-Suite, die Ihre Arbeitsweise verändert. Entwickelt für Unternehmen jeder Größe; von einem Unternehmen gebaut, das Ihre Privatsphäre schätzt.
+tos_summary: |-
+  Page found, no key clauses detected
+  https://www.zoho.com/ae/books/kb/templates/terms-and-conditions-on-invoice.html
+privacy_summary: |-
+  Analytics/tracking, advertising, third parties, encryption, does not sell data (claimed)
+  https://www.zoho.com/privacy-commitment.html?ireft=nhome&src=home
+price:
+- free
+note: 'Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Domain registration dates from 2004-01-16, but the Wayback Machine has captures since 2000-04-07: the domain was registered before, possibly by someone else. Mail servers belong to Zoho Mail. IMAP server imap.zoho.com:993 answers (Zoho). Listed in Thunderbird''s ISPDB. Mail DNS: SPF, DMARC p=reject. Site mentions: PGP/E2E encryption.'
+links:
+  tos: https://www.zoho.com/de/terms.html
+  privacy: https://www.zoho.com/gdpr.html
+  imprint: https://www.zoho.com/de/impressum.html
+social:
+- https://twitter.com/zoho
+- https://www.facebook.com/zoho
+- https://www.linkedin.com/company/zohocorp
+- https://www.instagram.com/zoho
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: missing
+  tls_rpt: 'yes'
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.zoho.com:993', note: SSL/TLS}
+- {kind: POP3, host: 'pop.zoho.com:995', note: SSL/TLS}
+- {kind: SMTP, host: 'smtp.zoho.com:465', note: SSL/TLS}
+- {kind: SMTP, host: 'smtp.zoho.com:587', note: STARTTLS}
+- {kind: IMAP software, host: Zoho}
+online_since: '2000-04-07'
+last_checked: '2026-10-30'

@@ -1,0 +1,36 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 152
+domain: gresille.org
+status: auto
+flag: 🇫🇷
+a:
+- {host: '91.216.110.69', flag: 🇫🇷, country: France, asn: AS51083, org: Association Grenode}
+mx:
+- {host: mx.gresille.org, flag: 🇫🇷, country: France, asn: AS51083, org: Association Grenode}
+- {host: mx1.grenode.net, flag: 🇫🇷, country: France, asn: AS15401, org: Orange Business Services SA}
+created: '2008-07-04'
+expires: '2027-07-04'
+owner: 🇫🇷 Association Gresille
+alliance: 9
+jurisdiction:
+- France
+description: Grésille
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://www.gresille.org/services/conditions/
+social:
+- https://piaille.fr/@gresille
+security:
+  spf: ?all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.gresille.org:143', note: STARTTLS}
+- {kind: POP3, host: 'pop.gresille.org:110', note: STARTTLS}
+- {kind: SMTP, host: 'mail.gresille.org:587', note: STARTTLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2009-09-12'
+last_checked: '2026-10-30'

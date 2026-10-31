@@ -1,0 +1,33 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 99
+domain: tilde.team
+status: auto
+flag: 🇩🇪
+a:
+- {host: '162.55.142.192', flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+mx:
+- {host: tilde.team, flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+created: '2017-05-30'
+expires: '2027-05-30'
+alliance: 14
+jurisdiction:
+- Germany
+description: |-
+  tilde.team
+  tilde.team unix group
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  privacy: https://tilde.team/wiki/?page=privacy-policy
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.tilde.team:143', note: STARTTLS}
+- {kind: SMTP, host: 'smtp.tilde.team:587', note: STARTTLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2018-05-09'
+last_checked: '2026-10-30'

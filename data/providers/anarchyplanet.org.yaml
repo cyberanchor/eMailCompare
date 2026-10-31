@@ -1,0 +1,32 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 120
+domain: anarchyplanet.org
+status: auto
+flag: 🇺🇸
+a:
+- {host: '216.252.162.161', flag: 🇺🇸, country: United States, asn: AS6939, org: Hurricane Electric LLC}
+mx:
+- {host: mail.anarchyplanet.org, flag: 🇺🇸, country: United States, asn: AS6939, org: Hurricane Electric LLC}
+- {host: mx2.anarchyplanet.org, flag: 🇳🇱, country: Netherlands, asn: AS60131, org: High5! B.V.}
+created: '2009-04-04'
+expires: '2027-04-04'
+alliance: 5
+jurisdiction:
+- 🇺🇸 United States
+- 🇳🇱 Netherlands
+description: Welcome — Anarchy Planet
+price:
+- donations
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+security:
+  spf: ~all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.anarchyplanet.org:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2011-01-15'
+last_checked: '2026-10-30'

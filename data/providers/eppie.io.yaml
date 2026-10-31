@@ -1,0 +1,37 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 57
+domain: eppie.io
+status: auto
+flag: 🇪🇪
+a:
+- {host: '185.215.4.68', flag: 🇷🇺, country: Russia, asn: AS57724, org: DDOS-GUARD LTD}
+mx:
+- {host: eppie-io.mail.protection.outlook.com, flag: 🇪🇸, country: Spain, asn: AS8075, org: Microsoft Corporation}
+created: '2022-01-27'
+expires: '2027-01-27'
+owner: 🇪🇪 Tuvisoft OÜ
+jurisdiction:
+- Estonia
+description: |-
+  Eppie
+  Encrypted peer-to-peer instant email
+privacy_summary: |-
+  Third parties, encryption
+  https://eppie.io/privacy-policy
+price:
+- free
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  privacy: https://eppie.io/privacy-policy
+  code: https://github.com/Eppie-io
+social:
+- https://twitter.com/EppieApp
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'no'
+online_since: '2022-01-28'
+last_checked: '2026-10-30'

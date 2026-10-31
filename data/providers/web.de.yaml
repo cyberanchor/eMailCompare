@@ -1,0 +1,48 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 239
+domain: web.de
+status: pending
+flag: 🇩🇪
+a:
+- {host: '217.72.199.108', flag: 🇩🇪, country: Germany, asn: AS8560, org: IONOS SE}
+- {host: '217.72.199.107', flag: 🇩🇪, country: Germany, asn: AS8560, org: IONOS SE}
+mx:
+- {host: mx-ha02.web.de, flag: 🇩🇪, country: Germany, asn: AS8560, org: IONOS SE}
+- {host: mx-ha03.web.de, flag: 🇩🇪, country: Germany, asn: AS8560, org: IONOS SE}
+owner: 🇩🇪 1&1 Mail & Media GmbH
+alliance: 14
+jurisdiction:
+- Germany
+description: |-
+  WEB.DE - kostenlose E-Mail-Adresse, FreeMail & Nachrichten
+  Sichere Kommunikation, aktuelle Nachrichten und nützliche Online-Services - alles an einem Ort. Einfach, kostenlos und zuverlässig.
+tos_summary: |-
+  Illegal actions (spam, hacking), IP violation, commercial use
+  https://agb-server.web.de/webdeagb
+privacy_summary: |-
+  Collect IP addresses, data/logs kept 21 days, cookies, advertising, third parties, share upon authorities' request, encryption, GDPR
+  https://agb-server.web.de/datenschutz
+price:
+- free
+- '47€/month'
+- '99€/month'
+note: 'Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Homepage contains unrelated spam (casino): the site may be hacked or abandoned. IMAP server imap.web.de:993 answers. Listed in Thunderbird''s ISPDB. Mail DNS: SPF, DMARC p=quarantine, MTA-STS, DANE, DNSSEC.'
+links:
+  privacy: https://agb-server.web.de/datenschutz
+  imprint: https://web.de/impressum/
+security:
+  spf: redirect
+  dmarc: quarantine
+  mta_sts: testing
+  tls_rpt: 'yes'
+  dnssec: 'yes'
+  dane: 'yes'
+servers:
+- {kind: IMAP, host: 'imap.web.de:993', note: SSL/TLS}
+- {kind: IMAP, host: 'imap.web.de:143', note: STARTTLS}
+- {kind: POP3, host: 'pop3.web.de:995', note: SSL/TLS}
+- {kind: POP3, host: 'pop3.web.de:110', note: STARTTLS}
+- {kind: SMTP, host: 'smtp.web.de:465', note: SSL/TLS}
+- {kind: SMTP, host: 'smtp.web.de:587', note: STARTTLS}
+online_since: '1998-12-02'
+last_checked: '2026-10-30'

@@ -1,0 +1,28 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 218
+domain: squat.net
+status: pending
+flag: 🇳🇱
+a:
+- {host: '185.52.224.2', flag: 🇳🇱, country: Netherlands, asn: AS8283, org: Netwerkvereniging Coloclue}
+mx:
+- {host: post.squat.net, flag: 🇳🇱, country: Netherlands, asn: AS60781, org: LeaseWeb Netherlands B.V.}
+created: '1997-09-15'
+expires: '2027-09-14'
+owner: 🇳🇱 Squat!net collective
+alliance: 9
+jurisdiction:
+- Netherlands
+description: '[Squat!net]'
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Homepage does not mention e-mail. IMAP server imap.squat.net:993 answers. Mail DNS: SPF, DMARC p=none.'
+security:
+  spf: ~all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.squat.net:993', note: SSL/TLS}
+online_since: '1998-12-05'
+last_checked: '2026-10-30'

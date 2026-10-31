@@ -1,0 +1,28 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 55
+domain: privi.email
+status: auto
+flag: 🇩🇪
+a:
+- {host: '172.66.0.70', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: mail.protonmail.ch, flag: 🇩🇪, country: Germany, asn: AS62371, org: Proton AG}
+- {host: mailsec.protonmail.ch, flag: 🇩🇪, country: Germany, asn: AS62371, org: Proton AG}
+created: '2021-04-15'
+expires: '2027-04-15'
+alliance: 14
+jurisdiction:
+- Germany
+description: |-
+  Privi.Email Custom Private Email for Entrepreneurs & AI Applications
+  Privi.Email Custom Private Email for Entrepreneurs, Families, Professionals & AI Applications
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+security:
+  spf: ~all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'yes'
+online_since: '2021-12-20'
+last_checked: '2026-10-30'

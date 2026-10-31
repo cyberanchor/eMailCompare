@@ -1,0 +1,34 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 243
+domain: laposte.net
+status: pending
+flag: 🇫🇷
+a:
+- {host: '35.190.49.14', flag: 🇺🇸, country: United States, asn: AS396982, org: Google LLC}
+mx:
+- {host: smtpz4.laposte.net, flag: 🇫🇷, country: France, asn: AS8677, org: Worldline SA}
+created: '1996-06-04'
+expires: '2027-06-03'
+owner: 🇫🇷 La Poste SA
+alliance: 9
+jurisdiction:
+- France
+description: Laposte.net
+note: 'Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. IMAP server imap.laposte.net:993 answers. Listed in Thunderbird''s ISPDB. Mail DNS: SPF, DMARC p=reject.'
+links:
+  tos: https://laposte.net/cgu
+  privacy: https://laposte.net/cookies
+  imprint: https://laposte.net/mentions-legales
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.laposte.net:993', note: SSL/TLS}
+- {kind: POP3, host: 'pop.laposte.net:995', note: SSL/TLS}
+- {kind: SMTP, host: 'smtp.laposte.net:465', note: SSL/TLS}
+online_since: '2000-06-21'
+last_checked: '2026-10-30'

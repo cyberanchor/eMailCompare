@@ -1,0 +1,55 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 6
+domain: swissmail.org
+status: checked
+flag: 🇨🇭
+domains:
+- swissmail.org
+- email.org
+- email.ch
+- email.li
+- generalmail.com
+- generalmail.net
+- generalmail.ch
+- generalmail.de
+- Generalmail.at
+a:
+- {host: '212.25.18.225', flag: 🇨🇭, country: Switzerland, asn: AS8758, org: Iway AG}
+mx:
+- {host: elba.iway.ch, flag: 🇨🇭, country: Switzerland, asn: AS8758, org: iway MailInfrastructure | Iway AG}
+- {host: Malta.iway.ch, flag: 🇨🇭, country: Switzerland, asn: AS8758, org: iway MailInfrastructure | Iway AG}
+created: '2000-04-13'
+expires: '2027-04-13'
+owner: 🇨🇭 Interway Network Systems AG (iWay AG)
+jurisdiction:
+- Switzerland
+description: Swissmail / swissmail.org - secure swiss e-mail service
+tos_summary: Illegal actions (spam, bulk mail), misuse of service, exceeding security limits without permission, IP infringement
+privacy_summary: Collect email content (encrypted), account access data (password-protected). Store in Switzerland, no personal analysis. No third-party sharing, only legal requests.
+email: 'yes'
+phone: 'no'
+personal: 'no'
+price:
+- Trial (8 day)
+- Basic $2.20/month
+- Standard $4.40/month
+- Professional $6.10/month
+note: 'Swissmail Box is a Swiss email service by Interway Network Systems AG, offering secure communication with features like aliases, mailing lists, and SMS reminders. It’s ideal for personal and business correspondence with a focus on privacy. Security & Anonymity: Employs end-to-end encryption, two-factor authentication, antivirus, and antispam. Data is stored solely in Switzerland under strict local privacy laws. Anonymity is strong: minimal personal data required, no content analysis, and no third-party sharing except for legal mandates. A great choice for those prioritizing security and privacy, perfect for confidential communication, business, or long-term use with its lifelong address guarantee.'
+links:
+  tos: https://www.swissmail.org/en/about-us/terms-and-conditions/
+  privacy: https://www.swissmail.org/en/about-us/privacy-policy/
+  imprint: https://www.swissmail.org/en/about-us/imprint/
+security:
+  spf: -all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'secure.swissmail.org:143', note: STARTTLS}
+- {kind: POP3, host: 'secure.swissmail.org:110', note: STARTTLS}
+- {kind: SMTP, host: 'secure.swissmail.org:587', note: STARTTLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2000-09-16'
+last_checked: '2026-10-30'

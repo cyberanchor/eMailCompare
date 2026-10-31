@@ -1,0 +1,23 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 217
+domain: snopyta.org
+status: pending
+flag: 🇫🇮
+mx:
+- {host: mxext1.mailbox.org, flag: 🇩🇪, country: Germany, asn: AS199118, org: Heinlein Support GmbH}
+- {host: mxext2.mailbox.org, flag: 🇩🇪, country: Germany, asn: AS199118, org: Heinlein Support GmbH}
+- {host: mxext3.mailbox.org, flag: 🇩🇪, country: Germany, asn: AS199118, org: Heinlein Support GmbH}
+created: '2018-07-25'
+expires: '2027-07-25'
+owner: 🇫🇮 Snopyta collective
+jurisdiction:
+- Finland
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website unreachable (gaierror: [Errno -2] Name or service not known). Mail servers belong to mailbox.org. Mail DNS: SPF, DMARC p=quarantine, DANE, DNSSEC.'
+security:
+  spf: ~all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'yes'
+last_checked: '2026-10-30'

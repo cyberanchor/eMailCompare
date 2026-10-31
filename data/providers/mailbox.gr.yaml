@@ -1,0 +1,38 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 174
+domain: mailbox.gr
+status: auto
+flag: 🇬🇷
+a:
+- {host: '178.33.249.125', flag: 🇫🇷, country: France, asn: AS16276, org: OVH SAS}
+mx:
+- {host: mx.spamexperts.com, flag: 🇳🇱, country: Netherlands, asn: AS174, org: 'Cogent Communications, LLC'}
+- {host: fallbackmx.spamexperts.eu, flag: 🇺🇸, country: United States, asn: AS16633, org: 'N-able Technologies, Inc.'}
+- {host: lastmx.spamexperts.net, flag: 🇺🇸, country: United States, asn: AS16633, org: 'N-able Technologies, Inc.'}
+owner: 🇬🇷 Europlanet
+jurisdiction:
+- Greece
+tos_summary: |-
+  IP violation
+  https://mailbox.gr/terms-and-conditions.html
+privacy_summary: |-
+  Cookies
+  https://mailbox.gr/personal-information.html
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. IMAP server mail.mailbox.gr:993 answers (Courier). Webmail: https://webmail.mailbox.gr/ (Roundcube). Mail DNS: SPF, DMARC p=reject. Operated by Europlanet, a Greek domain and hosting company (https://europlanet.gr/). The signup form (https://mailbox.gr/signup.html) asks for first and last name, gender, date of birth and country, and offers paid mailbox sizes.'
+links:
+  tos: https://mailbox.gr/terms-and-conditions.html
+  privacy: https://mailbox.gr/personal-information.html
+social:
+- https://twitter.com/mailboxgr
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.mailbox.gr:993', note: SSL/TLS}
+- {kind: IMAP software, host: Courier}
+online_since: '1998-12-12'
+last_checked: '2026-10-30'

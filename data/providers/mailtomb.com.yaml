@@ -1,0 +1,29 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 48
+domain: mailtomb.com
+status: auto
+flag: 🇺🇸
+a:
+- {host: '99.83.231.61', flag: 🇺🇸, country: United States, asn: AS16509, org: 'Amazon.com, Inc.'}
+- {host: '75.2.60.5', flag: 🇺🇸, country: United States, asn: AS16509, org: 'Amazon.com, Inc.'}
+mx:
+- {host: in1-smtp.messagingengine.com, flag: 🇺🇸, country: United States, asn: AS151847, org: Fastmail Pty Ltd}
+- {host: in2-smtp.messagingengine.com, flag: 🇺🇸, country: United States, asn: AS151847, org: Fastmail Pty Ltd}
+created: '2022-08-21'
+expires: '2027-08-21'
+alliance: 5
+jurisdiction:
+- United States
+description: |-
+  Mail Tomb | Secure Email
+  Private secure email. Now in beta access.
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+security:
+  spf: ?all
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2010-05-15'
+last_checked: '2026-10-30'

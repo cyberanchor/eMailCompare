@@ -1,0 +1,31 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 151
+domain: potager.org
+status: auto
+flag: 🇫🇷
+a:
+- {host: '91.194.60.100', flag: 🇫🇷, country: France, asn: AS28855, org: Octopuce s.a.r.l.}
+mx:
+- {host: mail.potager.org, flag: 🇫🇷, country: France, asn: AS28855, org: Octopuce s.a.r.l.}
+created: '2006-11-06'
+expires: '2035-11-06'
+owner: 🇫🇷 Association POTAGER.ORG
+alliance: 9
+jurisdiction:
+- France
+description: potager.org
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+security:
+  spf: -all
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.potager.org:993', note: SSL/TLS}
+- {kind: POP3, host: 'mail.potager.org:995', note: SSL/TLS}
+- {kind: SMTP, host: 'mail.potager.org:465', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2003-09-01'
+last_checked: '2026-10-30'

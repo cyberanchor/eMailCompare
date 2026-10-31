@@ -1,0 +1,24 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 197
+domain: plummail.co
+status: pending
+flag: 🇨🇦
+a:
+- {host: '172.67.190.221', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '104.21.92.89', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+created: '2020-08-07'
+expires: '2027-08-07'
+alliance: 5
+jurisdiction:
+- Canada
+description: |-
+  Plum Mail Home
+  Better conversations with just an email address
+price:
+- $39/month
+- $350/year
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. No MX record: domain cannot receive mail. Homepage contains unrelated spam (casino, casinos, gamstop): the site may be hacked or abandoned. Site mentions: accepts cryptocurrency.'
+social:
+- https://twitter.com/plummail
+online_since: '2020-08-08'
+last_checked: '2026-10-30'

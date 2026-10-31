@@ -1,0 +1,41 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 83
+domain: mail.world
+status: auto
+flag: 🇩🇰
+a:
+- {host: '185.21.41.11', flag: 🇩🇰, country: Denmark, asn: AS48854, org: team.blue Denmark A/S}
+mx:
+- {host: mail.mail.world, flag: 🇩🇰, country: Denmark, asn: AS48854, org: team.blue Denmark A/S}
+created: '2015-01-13'
+expires: '2027-01-13'
+owner: 🇩🇰 International Online Services ApS
+alliance: 9
+jurisdiction:
+- Denmark
+description: |-
+  Mail.World - secure email for everyone everywhere
+  Use your webmail wherever you are. Mail.World is email at its best. Mail, webmail, online calendar, task management, up to 100 GB of space and much more.
+tos_summary: |-
+  Illegal actions (spam, hacking), fraud
+  https://mail.world/terms-of-use
+privacy_summary: |-
+  Encryption, GDPR
+  https://mail.world/gdpr
+price:
+- free
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://mail.world/terms-of-use
+  privacy: https://mail.world/gdpr
+security:
+  spf: -all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.mail.world:993', note: SSL/TLS}
+online_since: '2015-07-31'
+last_checked: '2026-10-30'

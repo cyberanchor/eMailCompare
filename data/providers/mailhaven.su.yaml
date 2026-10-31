@@ -1,0 +1,26 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 221
+domain: mailhaven.su
+status: pending
+dead: true
+flag: 🇨🇦
+mx:
+- {host: route2.mx.cloudflare.net, flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: route3.mx.cloudflare.net, flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: route1.mx.cloudflare.net, flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+created: '2026-03-16'
+expires: '2027-03-16'
+alliance: 5
+jurisdiction:
+- Canada
+description: MailHaven → veil.la
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Struck out in README. Website unreachable (gaierror: [Errno -2] Name or service not known). Website text taken from the Wayback Machine copy of 2026-02-06 (https://web.archive.org/web/20260206010910/https://mailhaven.su/). Wayback Machine captures: 2025-04-03 to 2026-02-06. Mail servers belong to Cloudflare Email Routing. Mail DNS: SPF, DANE.'
+security:
+  spf: ~all
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'yes'
+online_since: '2025-04-03'
+last_checked: '2026-10-30'

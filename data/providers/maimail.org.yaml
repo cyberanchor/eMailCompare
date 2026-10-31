@@ -1,0 +1,29 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 59
+domain: maimail.org
+status: auto
+flag: 🇰🇿
+a:
+- {host: '5.35.80.29', flag: 🇰🇿, country: Kazakhstan, asn: AS205516, org: NLS ASTANA LLP}
+mx:
+- {host: mail.maimail.org, flag: 🇰🇿, country: Kazakhstan, asn: AS205516, org: NLS ASTANA LLP}
+created: '2024-07-03'
+expires: '2027-07-03'
+jurisdiction:
+- Kazakhstan
+description: |-
+  Maimail - convenient and reliable Mail for You
+  Description site
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+security:
+  spf: ~all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.maimail.org:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2024-11-28'
+last_checked: '2026-10-30'

@@ -1,0 +1,48 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 242
+domain: seznam.cz
+status: pending
+flag: 🇨🇿
+domains:
+- email.cz
+- post.cz
+- spoluzaci.cz
+- stream.cz
+a:
+- {host: '77.75.77.222', flag: 🇨🇿, country: Czechia, asn: AS43037, org: 'Seznam.cz, a.s.'}
+- {host: '77.75.79.222', flag: 🇨🇿, country: Czechia, asn: AS43037, org: 'Seznam.cz, a.s.'}
+mx:
+- {host: mx1.seznam.cz, flag: 🇨🇿, country: Czechia, asn: AS43037, org: 'Seznam.cz, a.s.'}
+- {host: mx2.seznam.cz, flag: 🇨🇿, country: Czechia, asn: AS43037, org: 'Seznam.cz, a.s.'}
+created: '1996-10-07'
+expires: '2027-10-28'
+owner: 🇨🇿 Seznam.cz, a.s.
+jurisdiction:
+- Czechia
+description: |-
+  Seznam – najdu tam, co neznám
+  Nejnavštěvovanější český internetový portál nabízející vyhledávač, e-mail, aktuální zprávy, předpověď počasí a odkazy, které se mohou hodit.
+tos_summary: |-
+  IP violation
+  https://o-seznam.cz/napoveda/?s=smluvn%C3%AD+podm%C3%ADnky
+privacy_summary: |-
+  Collect IP addresses, cookies, advertising, GDPR
+  https://o-seznam.cz/pravni-informace/ochrana-udaju/
+price:
+- free
+note: 'Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. IMAP server imap.seznam.cz:993 answers. Publishes mail client autoconfig. Webmail: https://login.seznam.cz/. Mail DNS: SPF, DMARC p=none, DNSSEC.'
+links:
+  tos: https://o.seznam.cz/smluvni-podminky/
+  privacy: https://o.seznam.cz/ochrana-udaju/
+security:
+  spf: ?all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.seznam.cz:993', note: SSL/TLS}
+- {kind: SMTP, host: 'smtp.seznam.cz:465', note: SSL/TLS}
+online_since: '1996-11-14'
+last_checked: '2026-10-30'

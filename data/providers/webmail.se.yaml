@@ -1,0 +1,29 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 78
+domain: webmail.se
+status: auto
+flag: 🇸🇪
+a:
+- {host: '193.151.93.2', flag: 🇸🇪, country: Sweden, asn: AS43853, org: AxByte Internet Services AB}
+mx:
+- {host: www.maxnet.se, flag: 🇸🇪, country: Sweden, asn: AS43853, org: AxByte Internet Services AB}
+created: '2003-04-27'
+expires: '2027-04-27'
+alliance: 14
+jurisdiction:
+- Sweden
+description: webmail.se
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+security:
+  spf: -all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'www.maxnet.se:993', note: SSL/TLS}
+- {kind: SMTP, host: 'www.maxnet.se:587', note: STARTTLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2004-05-18'
+last_checked: '2026-10-30'

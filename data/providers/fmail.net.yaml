@@ -1,0 +1,26 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 189
+domain: fmail.net
+status: pending
+flag: 🇺🇦
+a:
+- {host: '194.106.216.131', flag: 🇺🇦, country: Ukraine, asn: '', org: X.UA}
+mx:
+- {host: smtp.fmail.net, flag: 🇺🇦, country: Ukraine, asn: '', org: X.UA}
+created: '2016-10-25'
+expires: '2027-10-25'
+jurisdiction:
+- Ukraine
+description: |-
+  MAIL.EX.UA - бесплатная электронная почта
+  Персональный и профессиональный email ➤ 100% бесплатно ➤ spam фильтр ➤ Удобная сортировка писем ➤ Мобильное приложение ➤ Регистрируйся на EX MAIL сегодня
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website unreachable (timeout: timed out). Also unreachable from 5 check-host.net locations (Indonesia, Japan, Sweden, UK, Vietnam). Domain registration dates from 2016-10-25, but the Wayback Machine has captures since 2007-11-22: the domain was registered before, possibly by someone else. Website text taken from the Wayback Machine copy of 2025-10-13 (https://web.archive.org/web/20251013124048/https://fmail.net/). Wayback Machine captures: 2007-11-22 to 2025-10-13. IMAP (port 993) does not answer on smtp.fmail.net, nor from 5 check-host.net locations. Mail DNS: SPF.'
+security:
+  spf: -all
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2007-11-22'
+last_checked: '2026-10-30'

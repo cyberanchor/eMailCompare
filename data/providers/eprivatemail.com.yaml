@@ -1,0 +1,28 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 190
+domain: eprivatemail.com
+status: pending
+flag: 🇺🇸
+a:
+- {host: '35.71.142.77', flag: 🇨🇦, country: Canada, asn: AS16509, org: 'Amazon.com, Inc.'}
+- {host: '52.223.52.2', flag: 🇨🇦, country: Canada, asn: AS16509, org: 'Amazon.com, Inc.'}
+mx:
+- {host: inbound-smtp.us-east-1.amazonaws.com, flag: 🇺🇸, country: United States, asn: AS14618, org: 'Amazon.com, Inc.'}
+created: '2024-09-17'
+expires: '2027-09-17'
+alliance: 5
+jurisdiction:
+- United States
+description: |-
+  One Click Apply
+  One. Click. Apply. Apply to Any Job, Anywhere, With Just One Click.
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website unreachable (HTTP 404: "Site Not Found | Framer"). Also unreachable from 5 check-host.net locations (Austria, Iran, Netherlands, Portugal, Ukraine). Domain registration dates from 2024-09-17, but the Wayback Machine has captures since 2003-08-31: the domain was registered before, possibly by someone else. Website text taken from the Wayback Machine copy of 2025-02-23 (https://web.archive.org/web/20250223174430/https://eprivatemail.com/). Wayback Machine captures: 2003-08-31 to 2025-02-23. IMAP (port 993) does not answer on imap.eprivatemail.com, mail.eprivatemail.com, inbound-smtp.us-east-1.amazonaws.com, nor from 5 check-host.net locations. Mail DNS: SPF, DMARC p=none.'
+security:
+  spf: ~all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2003-08-31'
+last_checked: '2026-10-30'

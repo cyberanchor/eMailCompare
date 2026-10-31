@@ -1,0 +1,42 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 141
+domain: systemli.org
+status: auto
+flag: 🇩🇪
+a:
+- {host: '198.167.223.218', flag: 🇸🇪, country: Sweden, asn: AS39287, org: Materialism s.r.l.}
+mx:
+- {host: mail.systemli.org, flag: 🇨🇭, country: Switzerland, asn: AS210861, org: Open Networks Association}
+created: '2003-11-17'
+expires: '2032-11-17'
+owner: 🇩🇪 Systemli collective
+alliance: 14
+jurisdiction:
+- Germany
+description: |-
+  systemli.org - your friendly tech collective
+  Unkommerzieller Anbieter für datenschutzfreundliche Kommunikation. Ganz ohne Überwachung.
+tos_summary: |-
+  Illegal actions (spam), IP violation
+  https://www.systemli.org/tos/
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption.'
+links:
+  tos: https://www.systemli.org/tos/
+  code: https://github.com/systemli
+social:
+- https://systemli.social/@systemli
+- https://bsky.app/profile/systemli.bsky.social
+onion: http://7sk2kov2xwx6cbc32phynrifegg6pklmzs7luwcggtzrnlsolxxuyfyd.onion/
+security:
+  spf: ~all
+  dmarc: reject
+  mta_sts: enforce
+  tls_rpt: 'yes'
+  dnssec: 'yes'
+  dane: 'yes'
+servers:
+- {kind: IMAP, host: 'mail.systemli.org:993', note: SSL/TLS}
+- {kind: SMTP, host: 'mail.systemli.org:465', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2004-02-12'
+last_checked: '2026-10-30'

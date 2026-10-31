@@ -1,0 +1,31 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 154
+domain: '1net.gr'
+status: auto
+flag: 🇬🇷
+a:
+- {host: '213.136.64.29', flag: 🇫🇷, country: France, asn: AS51167, org: Contabo GmbH}
+mx:
+- {host: mail.1net.gr, flag: 🇫🇷, country: France, asn: AS51167, org: Contabo GmbH}
+owner: 🇬🇷 Mykonos Computers
+jurisdiction:
+- Greece
+description: Email @1NET.gr πλήρως απαλλαγμένο από SPAM & VIRUS, Αγοράστε το ΤΩΡΑ!
+tos_summary: |-
+  Illegal actions (spam, hacking), IP violation, harassment, fraud
+  https://www.1net.gr/terms
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://www.1net.gr/terms
+security:
+  spf: -all
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.1net.gr:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2001-03-01'
+last_checked: '2026-10-30'

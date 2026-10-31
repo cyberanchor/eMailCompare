@@ -1,0 +1,65 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 7
+domain: eclipso.eu
+status: checked
+flag: 🇩🇪
+domains:
+- eclipso.eu
+- eclipso.de
+- eclipso.at
+- eclipso.be
+- eclipso.ch
+- eclipso.dk
+- eclipso.es
+- eclipso.it
+- eclipso.me
+- eclipso.nl
+- eclipso.uk
+- eclipso.email
+- eclipsomail.com
+- eclipsomail.de
+- Teamvielfalt.eu
+a:
+- {host: '217.69.254.102', flag: 🇩🇪, country: Germany, asn: AS16097, org: HL komm Telekommunikations GmbH | HL Speedloc}
+mx:
+- {host: mail.eclipso.de, flag: 🇩🇪, country: Germany, asn: AS16097, org: HL komm Telekommunikations GmbH | HL Speedloc}
+created: '2008-03-25'
+owner: 🇩🇪 eclipso Mail Europe
+alliance: 14
+jurisdiction:
+- Germany
+description: |-
+  eclipso Mail Europe. Privacy focused. Email & Cloud Provider.
+  Get your reliable and secure & european email address ✉ cloud storage ☁ and many other useful features. Register now.
+tos_summary: Illegal actions (spam, porn, violence, discrimination), fake data, third-party service abuse, commercial use without permission
+privacy_summary: Collect email content (unencrypted), personal data (name, address, phone, DOB, IP, etc.), logs, cookies. Store in Germany. Share with ad partners, legal requests.
+email: 'yes'
+phone: 'no'
+personal: 'yes'
+price:
+- Free
+- Connect €0.99/month
+- Premium €1.99/month
+- Business €4.99/month
+note: 'eclipso Mail Europe is a German email service operated by Claus-Peter Beringer, offering email, cloud storage (eclipso Drive), SMS, and additional features like fax sending. It’s suitable for everyday communication, data storage, and basic tasks. Security & Anonymity: Uses basic transmission encryption (SSL) but lacks end-to-end encryption, compromising email content security. Anonymity is weak: requires personal data at signup (name, address, phone), collects IPs, and shares data with ad partners (Google, Amazon). Logs and cookies are tracked, making it vulnerable to analysis. Fine for casual personal use or temporary needs, but not for confidential communication or privacy-focused users—lagging behind services like Proton Mail or Swissmail Box. Ads and poor data protection limit its appeal.'
+links:
+  tos: https://www.eclipso.eu/tos/
+  privacy: https://www.eclipso.eu/privacy/
+  imprint: https://www.eclipso.eu/imprint/
+social:
+- https://mastodon.social/@eclipso
+- https://www.twitter.com/maileurope
+- https://www.linkedin.com/company/eclipso-mail-cloud
+- https://www.instagram.com/eclipso_mail_europe
+- https://www.facebook.com/eclipso.mail.europe
+security:
+  spf: -all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.eclipso.de:993', note: SSL/TLS}
+online_since: '2009-02-15'
+last_checked: '2026-10-30'

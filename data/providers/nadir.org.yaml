@@ -1,0 +1,34 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 132
+domain: nadir.org
+status: auto
+flag: 🇩🇪
+a:
+- {host: '45.66.33.220', flag: 🇳🇱, country: Netherlands, asn: AS47482, org: Spectre Operations B.V.}
+mx:
+- {host: mx2.nadir.org, flag: 🇺🇸, country: United States, asn: AS16652, org: Riseup Networks}
+- {host: smtpin.nadir.org, flag: 🇩🇪, country: Germany, asn: AS20694, org: NMMN GmbH}
+created: '1995-01-14'
+expires: '2027-01-13'
+owner: 🇩🇪 nadir.org e.V.
+alliance: 14
+jurisdiction:
+- Germany
+description: nadir.org - nadir.org
+price:
+- donations
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption.'
+links:
+  imprint: https://nadir.org/selbst/impressum.html
+security:
+  spf: -all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.nadir.org:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '1996-11-11'
+last_checked: '2026-10-30'

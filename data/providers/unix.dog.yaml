@@ -1,0 +1,41 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 168
+domain: unix.dog
+status: auto
+flag: 🇺🇸
+a:
+- {host: '134.195.91.109', flag: 🇺🇸, country: United States, asn: AS63473, org: 'HostHatch, LLC'}
+mx:
+- {host: smtp.unix.dog, flag: 🇺🇸, country: United States, asn: AS63473, org: 'HostHatch, LLC'}
+created: '2022-05-09'
+expires: '2027-05-09'
+alliance: 5
+jurisdiction:
+- United States
+description: |-
+  UNIX.dog
+  UNIX for barkers :3
+tos_summary: |-
+  Illegal actions, harassment
+  https://www.unix.dog/rules
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: accepts cryptocurrency. Tor: unixdoggmgze3fd5hzkqz43izjgxyupjnqsptke53qrcbhl624d7xcyd.onion.'
+links:
+  tos: https://unix.dog/rules
+social:
+- xmpp:discuss@muc.unix.dog
+onion: http://unixdoggmgze3fd5hzkqz43izjgxyupjnqsptke53qrcbhl624d7xcyd.onion/
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: enforce
+  tls_rpt: 'yes'
+  dnssec: 'yes'
+  dane: 'yes'
+servers:
+- {kind: IMAP, host: 'imap.unix.dog:993', note: SSL/TLS}
+- {kind: IMAP, host: 'imap.unix.dog:143', note: STARTTLS}
+- {kind: SMTP, host: 'smtp.unix.dog:587', note: STARTTLS}
+- {kind: POP3, host: 'imap.unix.dog:995', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2022-10-14'
+last_checked: '2026-10-30'

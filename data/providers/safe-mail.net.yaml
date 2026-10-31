@@ -1,0 +1,43 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 179
+domain: safe-mail.net
+status: auto
+flag: 🇮🇱
+a:
+- {host: '212.143.36.220', flag: 🇮🇱, country: Israel, asn: AS1680, org: Cellcom Fixed Line Communication L.P}
+created: '1998-10-10'
+expires: '2027-10-09'
+owner: 🇮🇱 Safe-mail Ltd.
+jurisdiction:
+- Israel
+description: |-
+  Safe-mail.net
+  Safe-mail is a FREE high security
+  web-based e-mail system which extends considerably the communication
+  system to much more than currently exists.
+  Safe-mail uses an SSL secure site to ensure total security
+  for all e-mail communications including file attachments, file storage
+  and real time chat facility.
+  Safe-mail is FREE to individuals and there is no SPAM.
+  There is no installation process and no software to download
+  or configure on your computer.
+  No cookies are sent down the line to pollute your machine.
+  Use any computer equipped with a web browser
+  to register and then access your Safe-mail facility anywhere
+  in the world where you can gain access to a web browser.
+  Safe-mail is much more than a secure e-mail system, offering
+  start your own Message Board, an individual authentication
+  facility and live chat in real time.
+price:
+- free
+- $25/year
+- $35/year
+- $60/year
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. No MX record: domain cannot receive mail. IMAP server imap.safe-mail.net:993 answers. Webmail: https://orange.safe-mail.net/.'
+links:
+  tos: http://www.safe-mail.net/agreement.html
+  privacy: http://www.safe-mail.net/docs/InternetPrivacy.html
+servers:
+- {kind: IMAP, host: 'imap.safe-mail.net:993', note: SSL/TLS}
+online_since: '1999-10-12'
+last_checked: '2026-10-30'

@@ -1,0 +1,27 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 200
+domain: ctrl-c.club
+status: pending
+flag: 🇺🇸
+a:
+- {host: '165.227.127.54', flag: 🇺🇸, country: United States, asn: AS14061, org: 'DigitalOcean, LLC'}
+mx:
+- {host: ctrl-c.club, flag: 🇺🇸, country: United States, asn: AS14061, org: 'DigitalOcean, LLC'}
+- {host: mail.ctrl-c.club, flag: 🇺🇸, country: United States, asn: AS14061, org: 'DigitalOcean, LLC'}
+created: '2014-12-06'
+expires: '2026-12-05'
+owner: 🇺🇸 Mount Olive Software, LLC
+alliance: 5
+jurisdiction:
+- United States
+description: Ctrl-C.club!
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Homepage does not mention e-mail. IMAP (port 993) does not answer on mail.ctrl-c.club, ctrl-c.club, nor from 5 check-host.net locations. Mail DNS: no SPF, DMARC, MTA-STS, DANE or DNSSEC.'
+security:
+  spf: missing
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2015-02-16'
+last_checked: '2026-10-30'

@@ -1,0 +1,41 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 81
+domain: webmail.com.pt
+status: auto
+flag: 🇵🇹
+a:
+- {host: '185.12.116.81', flag: 🇵🇹, country: Portugal, asn: AS33876, org: 'DMNS - DOMINIOS, S.A.'}
+mx:
+- {host: aspmx.l.google.com, flag: 🇺🇸, country: United States, asn: AS15169, org: Google LLC}
+created: '2020-04-05'
+expires: '2027-04-05'
+alliance: 5
+jurisdiction:
+- United States
+description: |-
+  WebMail.com.pt
+  Serviço Gratuito de WebMail
+tos_summary: |-
+  IP violation
+  http://www.webmail.com.pt/site/termos.html
+price:
+- free
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: http://www.webmail.com.pt/site/termos.html
+social:
+- https://www.facebook.com/webmailpt
+- https://www.instagram.com/webmailpt
+- https://www.twitter.com/webmailpt
+security:
+  spf: ~all
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.webmail.com.pt:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2005-11-25'
+last_checked: '2026-10-30'

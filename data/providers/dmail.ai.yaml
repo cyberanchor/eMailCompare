@@ -1,0 +1,40 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 20
+domain: dmail.ai
+status: checked
+flag: 🇸🇬
+a:
+- {host: '104.26.5.123', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '104.26.4.123', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: smtp.dmail.ai, flag: 🇸🇬, country: Singapore, asn: AS63949, org: Akamai Connected Cloud}
+created: '2021-08-07'
+expires: '2029-08-07'
+owner: 🇸🇬 DMAIL NETWORK FOUNDATION LTD.
+jurisdiction:
+- Singapore
+description: Dmail
+tos_summary: Misusing services; engaging in fraudulent activities; violating laws; providing inaccurate registration info
+privacy_summary: Collect profile/contact data (email, phone, social login), device/IP data (IP, device ID, OS, browser), social network data (email, IP, device ID), geolocation (IP-based). Stored with robust security measures (unspecified). Shared with third parties for operations, insights, or legal mandates.
+email: 'no'
+phone: 'no'
+personal: 'no'
+price:
+- free
+note: 'Dmail Network is a next-generation decentralized email service built on blockchain technology for the Web3 era. It integrates with various blockchains (Ethereum, BNB Chain, Polygon, Dfinity, etc.) and offers not only email functionality but also features like NFT domain management, token interactions, and cross-chain communication. Dmail positions itself as a secure and versatile platform for communication in the decentralized internet, blending traditional email capabilities with Web3 innovations.  Security & Anonymity: Dmail Network prioritizes privacy and security. The service employs decentralized data storage, splitting email headers and bodies: headers are recorded on the blockchain, while bodies are encrypted with a token and distributed across the network, eliminating centralized vulnerabilities. It uses end-to-end encryption, ensuring only the sender and recipient can decrypt messages. For enhanced anonymity, Zero-Knowledge Proofs (ZKP) are implemented, allowing identity verification without revealing personal data. Registration requires creating a Web3 address but not necessarily providing personal details, boosting anonymity. However, full anonymity isn’t guaranteed, as activity data and IP addresses may be collected for analytics and service improvement, and could be shared with third parties under legal mandates (per Singapore law).  Use Cases: Dmail is ideal for users within the Web3 ecosystem, including crypto enthusiasts, dApp developers, marketers, and influencers who value secure communication and blockchain integration. Its compatibility with Web2 emails (ability to send to regular addresses) makes it a convenient bridge from traditional to decentralized services. It’s suitable for:      Confidential correspondence with encryption.     Managing NFT domains and tokens directly within the email platform.     Cross-chain notifications and communication between blockchains.     Web3 marketing campaigns (MailtoEarn allows earning points). However, due to its Web3 focus and some data collection (IP, device info), it’s less suited for absolute anonymity compared to services like Proton Mail. It’s a tool for those seeking to combine security, innovation, and functionality in the decentralized world.'
+links:
+  tos: https://dmailnetwork.gitbook.io/dmail-network/resources/terms-of-service
+  privacy: https://dmailnetwork.gitbook.io/dmail-network/resources/privacy-policy
+social:
+- https://t.me/dmailofficial
+- https://twitter.com/dmailofficial
+- https://discord.gg/QbvaeqwMFg
+security:
+  spf: -all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2021-10-14'
+last_checked: '2026-10-30'

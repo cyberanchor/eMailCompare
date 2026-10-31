@@ -1,0 +1,48 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 94
+domain: net.hr
+status: auto
+flag: 🇭🇷
+a:
+- {host: '104.26.4.216', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '104.26.5.216', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: net-hr-10mx1.eco-mx.cz, flag: 🇨🇿, country: Czechia, asn: AS43614, org: Economia a.s.}
+- {host: net-hr-10mx2.eco-mx.cz, flag: 🇨🇿, country: Czechia, asn: AS43614, org: Economia a.s.}
+- {host: net-hr-20mx1.eco-mx.cz, flag: 🇨🇿, country: Czechia, asn: AS43614, org: Economia a.s.}
+- {host: net-hr-20mx2.eco-mx.cz, flag: 🇨🇿, country: Czechia, asn: AS43614, org: Economia a.s.}
+created: '2011-08-28'
+expires: '2027-08-28'
+owner: 🇭🇷 RTL Hrvatska d.o.o
+jurisdiction:
+- Croatia
+description: |-
+  Najnovije vijesti iz Hrvatske i svijeta - Net.hr
+  Pratite najnovije vijesti iz Hrvatske i svijeta. Donosimo teme iz politike, sporta, showa, lifestylea i biznisa na prvom hrvatskom news portalu.
+tos_summary: |-
+  Illegal actions (spam, hacking), IP violation
+  http://net.hr/info/uvjeti-koristenja-59c29fd7-535f-11f0-be08-9600040c8f8e
+privacy_summary: |-
+  Collect IP addresses, GDPR
+  http://net.hr/info/pravila-privatnosti-f1703b3d-5365-11f0-be08-9600040c8f8e
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://net.hr/info/uvjeti-koristenja
+  privacy: https://net.hr/info/pravila-privatnosti
+  imprint: https://net.hr/info/impressum-825e3490-ef9f-11f0-9a51-9600040c8f8e
+social:
+- https://www.tiktok.com/@net.hr_
+- https://www.facebook.com/net.hr
+- https://www.instagram.com/net.hr_
+- https://x.com/nethr
+security:
+  spf: redirect
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.net.hr:993', note: SSL/TLS}
+online_since: '1996-12-21'
+last_checked: '2026-10-30'

@@ -1,0 +1,23 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 215
+domain: sarava.org
+status: pending
+flag: 🇧🇷
+a:
+- {host: '37.218.240.81', flag: 🇳🇱, country: Netherlands, asn: AS47172, org: Greenhost BV}
+mx:
+- {host: estamira.sarava.org, flag: 🇧🇷, country: Brazil, asn: AS26615, org: TIM S/A}
+created: '2004-08-18'
+expires: '2028-08-18'
+jurisdiction:
+- Brazil
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website shows: "Under maintenance.". Wayback Machine captures: 2005-10-18 to 2026-10-01. IMAP (port 993) does not answer on imap.sarava.org, mail.sarava.org, estamira.sarava.org, nor from 5 check-host.net locations. Mail DNS: SPF, DMARC p=none, DANE.'
+security:
+  spf: ?all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'yes'
+online_since: '2005-10-18'
+last_checked: '2026-10-30'

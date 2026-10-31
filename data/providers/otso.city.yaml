@@ -1,0 +1,36 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 41
+domain: otso.city
+status: auto
+flag: 🇷🇺
+a:
+- {host: '45.89.60.199', flag: 🇦🇱, country: Albania, asn: AS215540, org: GLOBAL CONNECTIVITY SOLUTIONS LLP}
+mx:
+- {host: mx1.timeweb.ru, flag: 🇷🇺, country: Russia, asn: AS9123, org: JSC TIMEWEB}
+- {host: mx2.timeweb.ru, flag: 🇷🇺, country: Russia, asn: AS9123, org: JSC TIMEWEB}
+created: '2016-02-11'
+expires: '2027-02-11'
+jurisdiction:
+- Russia
+description: |-
+  OtsoCity
+  OtsoCity - полноценный и традиционный сервис электронной почты с красивым доменом.
+tos_summary: Spam and abuse banned (abuse reports handled), 127 sent mails a day, 700 MB, account deleted after 2 years without activity, mailbox opened only on authorities' request
+privacy_summary: 'No policy text: the FAQ only says nobody is interested in your data. One-off payment (crypto accepted), no ads; mail hosted at Timeweb.'
+price:
+- donations
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: accepts cryptocurrency.'
+links:
+  privacy: https://otso.city/
+social:
+- https://t.me/otsocitynow
+- https://t.me/otsosoftware
+security:
+  spf: ~all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2016-02-15'
+last_checked: '2026-10-30'

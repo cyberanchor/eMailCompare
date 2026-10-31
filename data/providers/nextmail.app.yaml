@@ -1,0 +1,26 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 42
+domain: nextmail.app
+status: auto
+flag: 🇩🇪
+a:
+- {host: '188.114.97.3', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '188.114.96.3', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: mail.nextmail.app, flag: 🇩🇪, country: Germany, asn: AS16509, org: 'Amazon.com, Inc.'}
+created: '2023-05-02'
+expires: '2027-05-02'
+alliance: 14
+jurisdiction:
+- Germany
+description: 'NextMail Webmail :: Welcome to NextMail Webmail'
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+security:
+  spf: -all
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2024-01-18'
+last_checked: '2026-10-30'

@@ -1,0 +1,29 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 164
+domain: underworld.dog
+status: auto
+flag: 🇳🇱
+a:
+- {host: '45.140.213.4', flag: 🇳🇱, country: Netherlands, asn: AS212477, org: RoyaleHosting BV}
+mx:
+- {host: mail.underworld.dog, flag: 🇳🇱, country: Netherlands, asn: AS212477, org: RoyaleHosting BV}
+created: '2023-07-06'
+expires: '2027-07-06'
+alliance: 9
+jurisdiction:
+- Netherlands
+description: Underworld.dog
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Tor: fozdean5ayswi6jtseg2fgyysqt3dskoosmoc6gnqia4dxwxiuvg3oad.onion.'
+onion: http://fozdean5ayswi6jtseg2fgyysqt3dskoosmoc6gnqia4dxwxiuvg3oad.onion/
+security:
+  spf: ~all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.underworld.dog:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2024-02-04'
+last_checked: '2026-10-30'

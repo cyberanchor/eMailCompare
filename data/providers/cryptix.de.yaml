@@ -1,0 +1,33 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 123
+domain: cryptix.de
+status: auto
+flag: 🇨🇭
+a:
+- {host: '83.137.101.105', flag: 🇩🇪, country: Germany, asn: AS43503, org: synaforce GmbH}
+mx:
+- {host: mail.cryptix.net, flag: 🇩🇪, country: Germany, asn: AS43503, org: synaforce GmbH}
+owner: 🇨🇭 Individual operator
+jurisdiction:
+- Switzerland
+description: <rypti><
+privacy_summary: |-
+  Collect IP addresses, cookies, analytics/tracking, third parties, share upon authorities' request, GDPR
+  https://cryptix.net/datenschutzerklaerung/
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  privacy: https://cryptix.net/datenschutzerklaerung/
+  imprint: https://cryptix.net/impressum/
+security:
+  spf: -all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.cryptix.de:993', note: SSL/TLS}
+- {kind: SMTP, host: 'smtp.cryptix.de:587', note: STARTTLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2001-02-23'
+last_checked: '2026-10-30'

@@ -1,0 +1,65 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 247
+domain: yahoo.com
+status: pending
+flag: 🇺🇸
+domains:
+- cox.net
+- rocketmail.com
+- yahoo.ca
+- yahoo.co.in
+- yahoo.co.nz
+- yahoo.co.uk
+- yahoo.com.ar
+- yahoo.com.au
+- yahoo.com.br
+- yahoo.com.mx
+- yahoo.de
+- yahoo.es
+- yahoo.fr
+- yahoo.it
+- yahoo.se
+- ymail.com
+a:
+- {host: '74.6.231.20', flag: 🇺🇸, country: United States, asn: AS36646, org: Yahoo Holdings Inc.}
+- {host: '74.6.143.25', flag: 🇺🇸, country: United States, asn: AS26101, org: Yahoo Holdings Inc.}
+mx:
+- {host: mta5.am0.yahoodns.net, flag: 🇺🇸, country: United States, asn: AS36646, org: Yahoo Holdings Inc.}
+- {host: mta6.am0.yahoodns.net, flag: 🇺🇸, country: United States, asn: AS36646, org: Yahoo Holdings Inc.}
+- {host: mta7.am0.yahoodns.net, flag: 🇺🇸, country: United States, asn: AS36647, org: Yahoo Holdings Inc.}
+created: '1995-01-18'
+expires: '2027-01-19'
+owner: 🇺🇸 Yahoo Inc.
+alliance: 5
+jurisdiction:
+- United States
+description: |-
+  Yahoo | Mail, Weather, Search, Politics, News, Finance, Sports & Videos
+  Latest news coverage, email, free stock quotes, live scores and video are just the beginning. Discover more every day at Yahoo!
+privacy_summary: |-
+  Cookies, advertising, no third-party sharing (claimed)
+  https://legal.yahoo.com/us/en/yahoo/privacy/adinfo/index.html
+note: 'Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. IMAP server imap.mail.yahoo.com:993 answers. Listed in Thunderbird''s ISPDB. Mail DNS: SPF, DMARC p=reject, MTA-STS.'
+links:
+  tos: https://health.yahoo.com/conditions/
+  privacy: https://legal.yahoo.com/us/en/yahoo/privacy/adinfo/index.html
+social:
+- https://x.com/yahoonews
+- https://facebook.com/YahooNews
+- https://instagram.com/yahoonews
+- https://www.youtube.com/c/yahoonews
+- https://www.tiktok.com/@yahoonews
+security:
+  spf: redirect
+  dmarc: reject
+  mta_sts: testing
+  tls_rpt: 'yes'
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.mail.yahoo.com:993', note: SSL/TLS}
+- {kind: IMAP, host: 'export.imap.mail.yahoo.com:993', note: SSL/TLS}
+- {kind: POP3, host: 'pop.mail.yahoo.com:995', note: SSL/TLS}
+- {kind: SMTP, host: 'smtp.mail.yahoo.com:465', note: SSL/TLS}
+online_since: '1996-10-17'
+last_checked: '2026-10-30'

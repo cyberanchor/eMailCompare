@@ -1,0 +1,34 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 84
+domain: inleed.xyz
+status: auto
+flag: 🇸🇪
+a:
+- {host: '188.66.63.2', flag: 🇸🇪, country: Sweden, asn: AS206170, org: Yelles AB}
+mx:
+- {host: mail.inleed.xyz, flag: 🇸🇪, country: Sweden, asn: AS206170, org: Yelles AB}
+created: '2020-08-26'
+expires: '2027-08-26'
+owner: 🇸🇪 Yelles AB (Inleed)
+alliance: 14
+jurisdiction:
+- Sweden
+description: Inleed Mail
+price:
+- free
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://web.archive.org/web/20241222124331/https://inleed.se/avtal
+  privacy: https://web.archive.org/web/20251215183251/https://inleed.se/integrity-framework
+security:
+  spf: -all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.inleed.xyz:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2021-07-19'
+last_checked: '2026-10-30'

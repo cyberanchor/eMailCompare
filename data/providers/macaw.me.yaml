@@ -1,0 +1,33 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 178
+domain: macaw.me
+status: auto
+flag: 🇨🇾
+a:
+- {host: '151.80.18.179', flag: 🇫🇷, country: France, asn: AS16276, org: OVH SAS}
+mx:
+- {host: mail.macaw.me, flag: 🇫🇷, country: France, asn: AS16276, org: OVH SAS}
+created: '2018-05-28'
+expires: '2027-05-28'
+alliance: 9
+jurisdiction:
+- France
+description: Macaw.me
+tos_summary: |-
+  Illegal actions (CSAM, spam, hacking), IP violation, harassment
+  https://macaw.me/tos/
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. IMAP server mail.macaw.me:993 answers (Dovecot). Webmail: https://mail.macaw.me/ (Roundcube). Mail DNS: SPF, DMARC p=quarantine, DNSSEC.'
+links:
+  tos: https://macaw.me/tos/
+security:
+  spf: -all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.macaw.me:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2021-05-07'
+last_checked: '2026-10-30'

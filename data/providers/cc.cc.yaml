@@ -1,0 +1,40 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 149
+domain: cc.cc
+status: auto
+flag: 🇰🇷
+a:
+- {host: '13.226.244.40', flag: 🇩🇪, country: Germany, asn: AS16509, org: 'Amazon.com, Inc.'}
+- {host: '13.226.244.4', flag: 🇩🇪, country: Germany, asn: AS16509, org: 'Amazon.com, Inc.'}
+mx:
+- {host: m.cc.cc, flag: 🇺🇸, country: United States, asn: AS16509, org: 'Amazon.com, Inc.'}
+created: '1997-10-13'
+expires: '2034-03-26'
+owner: 🇰🇷 COBRA Inc.
+jurisdiction:
+- South Korea
+description: |-
+  CC.CC — One name for your link and email.
+  Claim your link and email with just one name.
+tos_summary: |-
+  Illegal actions (spam, hacking), IP violation, harassment, commercial use
+  https://cc.cc/terms/terms.php
+privacy_summary: |-
+  Collect IP addresses, cookies
+  https://cc.cc/privacy_policy/privacy_policy.php
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://cc.cc/terms/terms.php
+  privacy: https://cc.cc/privacy_policy/privacy_policy.php
+security:
+  spf: ~all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'm.cc.cc:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2001-12-13'
+last_checked: '2026-10-30'

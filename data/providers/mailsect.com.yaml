@@ -1,0 +1,33 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 43
+domain: mailsect.com
+status: auto
+flag: 🇨🇦
+a:
+- {host: '188.114.96.3', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '188.114.97.3', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: route1.mx.cloudflare.net, flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: route3.mx.cloudflare.net, flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: route2.mx.cloudflare.net, flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+created: '2024-03-20'
+expires: '2027-03-20'
+alliance: 5
+jurisdiction:
+- Canada
+description: MailSect - Privacy Oriented Email Service
+privacy_summary: |-
+  No tracking (claimed), encryption
+  https://mailsect.com/privacy
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption.'
+links:
+  privacy: https://mailsect.com/privacy
+security:
+  spf: ~all
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'yes'
+online_since: '2011-02-07'
+last_checked: '2026-10-30'

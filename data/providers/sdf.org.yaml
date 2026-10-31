@@ -1,0 +1,32 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 153
+domain: sdf.org
+status: auto
+flag: 🇺🇸
+a:
+- {host: '205.166.94.16', flag: 🇺🇸, country: United States, asn: AS14361, org: HopOne Internet Corporation}
+mx:
+- {host: mx.sdf.org, flag: 🇺🇸, country: United States, asn: AS14361, org: HopOne Internet Corporation}
+created: '1996-10-12'
+expires: '2027-10-11'
+owner: 🇺🇸 SDF Public Access UNIX System
+alliance: 5
+jurisdiction:
+- United States
+description: SDF Public Access UNIX System - Free Shell Account and Shell Access
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://sdf.org/?abuse/aup
+  privacy: https://sdf.org/?tutorials/privacy_policy
+security:
+  spf: -all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.sdf.org:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '1998-01-10'
+last_checked: '2026-10-30'

@@ -1,0 +1,47 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 251
+domain: riseup.net
+status: pending
+flag: 🇺🇸
+a:
+- {host: '198.252.153.67', flag: 🇺🇸, country: United States, asn: AS16652, org: Riseup Networks}
+- {host: '198.252.153.106', flag: 🇺🇸, country: United States, asn: AS16652, org: Riseup Networks}
+mx:
+- {host: mx1.riseup.net, flag: 🇺🇸, country: United States, asn: AS16652, org: Riseup Networks}
+created: '2000-03-26'
+expires: '2030-03-26'
+owner: 🇺🇸 Riseup Networks
+alliance: 5
+jurisdiction:
+- United States
+description: |-
+  Home - riseup.net
+  Riseup provides online communication tools for people and groups working on liberatory social change. We are a project to create democratic alternatives and practice self-determination by controlling our own secure means of communications.
+tos_summary: |-
+  Illegal actions (spam, hacking), IP violation, harassment, fraud
+  https://riseup.net/en/about-us/policy/tos
+privacy_summary: |-
+  No IP logging (claimed), no third-party sharing (claimed), encryption
+  https://riseup.net/en/privacy-policy
+price:
+- $15/month
+- $100/year
+note: 'Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. IMAP server mail.riseup.net:993 answers. Publishes mail client autoconfig. Webmail: https://mail.riseup.net/ (Roundcube). Mail DNS: SPF, DMARC p=none, MTA-STS, DANE, DNSSEC. Site mentions: invite-only, accepts cryptocurrency.'
+links:
+  tos: https://riseup.net/en/about-us/policy/tos
+  privacy: https://riseup.net/en/privacy-policy
+  code: https://github.com/riseupnet/riseup_help
+onion: http://vww6ybal4bd7szmgncyruucpgfkqahzddi37ktceo3ah7ngmcopnpyyd.onion/
+security:
+  spf: redirect
+  dmarc: none
+  mta_sts: enforce
+  tls_rpt: 'yes'
+  dnssec: 'yes'
+  dane: 'yes'
+servers:
+- {kind: IMAP, host: 'mail.riseup.net:993', note: SSL/TLS}
+- {kind: POP3, host: 'mail.riseup.net:995', note: SSL/TLS}
+- {kind: SMTP, host: 'mail.riseup.net:465', note: SSL/TLS}
+online_since: '2000-12-06'
+last_checked: '2026-10-30'

@@ -1,0 +1,42 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 129
+domain: lautre.net
+status: auto
+flag: 🇫🇷
+a:
+- {host: '80.67.160.70', flag: 🇫🇷, country: France, asn: AS20766, org: Association Gitoyen}
+mx:
+- {host: mx.lautre.net, flag: 🇫🇷, country: France, asn: AS20766, org: Association Gitoyen}
+- {host: mx3.lautre.net, flag: 🇫🇷, country: France, asn: AS28855, org: Octopuce s.a.r.l.}
+created: '2000-07-09'
+expires: '2027-07-09'
+owner: 🇫🇷 Association Lautre Net
+alliance: 9
+jurisdiction:
+- France
+description: l’Autre Net, hébergeur associatif autogéré
+privacy_summary: |-
+  Share upon authorities' request
+  https://www.lautre.net/Mobilisation-contre-le-retention
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://www.lautre.net/IMG/pdf/CharteHebergement.pdf
+  privacy: https://www.lautre.net/spip.php?article30
+  imprint: https://www.lautre.net/Contacts-Mentions-legales
+social:
+- https://mamot.fr/@LautreNet
+security:
+  spf: -all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imaps.lautre.net:993', note: SSL/TLS}
+- {kind: POP3, host: 'pops.lautre.net:995', note: SSL/TLS}
+- {kind: SMTP, host: 'smtp.lautre.net:587', note: STARTTLS}
+- {kind: SMTP, host: 'smtps.lautre.net:465', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2000-08-15'
+last_checked: '2026-10-30'

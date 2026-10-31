@@ -1,0 +1,34 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 50
+domain: mailsea.top
+status: auto
+flag: 🇺🇸
+a:
+- {host: '92.113.23.164', flag: 🇩🇪, country: Germany, asn: AS47583, org: Hostinger International Limited}
+- {host: '92.113.16.13', flag: 🇩🇪, country: Germany, asn: AS47583, org: Hostinger International Limited}
+mx:
+- {host: mx1.hostinger.com, flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: mx2.hostinger.com, flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+created: '2024-11-30'
+expires: '2026-11-30'
+alliance: 5
+jurisdiction:
+- Canada
+description: |-
+  MailSea – Secure Email for Smooth Communication
+  MailSea is a fast, secure, and privacy-focused email provider designed for professionals and everyday use.
+price:
+- free
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://mailsea.top/
+  privacy: https://mailsea.top/
+security:
+  spf: ~all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2018-08-11'
+last_checked: '2026-10-30'

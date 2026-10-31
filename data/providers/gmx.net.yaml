@@ -1,0 +1,53 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 238
+domain: gmx.net
+status: pending
+flag: 🇩🇪
+domains:
+- gmx.de
+a:
+- {host: '217.72.199.107', flag: 🇩🇪, country: Germany, asn: AS8560, org: IONOS SE}
+- {host: '217.72.199.108', flag: 🇩🇪, country: Germany, asn: AS8560, org: IONOS SE}
+mx:
+- {host: mx00.emig.gmx.net, flag: 🇩🇪, country: Germany, asn: AS8560, org: IONOS SE}
+- {host: mx01.emig.gmx.net, flag: 🇩🇪, country: Germany, asn: AS8560, org: IONOS SE}
+created: '1998-12-09'
+expires: '2026-12-08'
+owner: 🇩🇪 1&1 Mail & Media GmbH
+alliance: 14
+jurisdiction:
+- Germany
+description: |-
+  GMX - kostenlose E-Mail, Cloud, Nachrichten & Freemail
+  Kostenlose E-Mail-Adresse erstellen, Nachrichten lesen und Fotos & Dateien in der GMX Cloud sicher speichern. Jetzt registrieren!
+tos_summary: |-
+  Illegal actions (spam, hacking), IP violation, commercial use
+  https://agb-server.gmx.net/gmxagb-de
+privacy_summary: |-
+  Collect IP addresses, data/logs kept 21 days, cookies, advertising, third parties, share upon authorities' request, encryption, GDPR
+  https://agb-server.gmx.net/datenschutz
+price:
+- free
+- '99€/month'
+- '49€/month'
+- '48€/month'
+note: 'Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. IMAP server imap.gmx.net:993 answers. Listed in Thunderbird''s ISPDB. Mail DNS: SPF, DMARC p=quarantine, MTA-STS, DANE, DNSSEC.'
+links:
+  privacy: https://agb-server.gmx.net/datenschutz
+  imprint: https://www.gmx.net/impressum/
+security:
+  spf: redirect
+  dmarc: quarantine
+  mta_sts: testing
+  tls_rpt: 'yes'
+  dnssec: 'yes'
+  dane: 'yes'
+servers:
+- {kind: IMAP, host: 'imap.gmx.net:993', note: SSL/TLS}
+- {kind: IMAP, host: 'imap.gmx.net:143', note: STARTTLS}
+- {kind: POP3, host: 'pop.gmx.net:995', note: SSL/TLS}
+- {kind: POP3, host: 'pop.gmx.net:110', note: STARTTLS}
+- {kind: SMTP, host: 'mail.gmx.net:465', note: SSL/TLS}
+- {kind: SMTP, host: 'mail.gmx.net:587', note: STARTTLS}
+online_since: '1998-01-26'
+last_checked: '2026-10-30'

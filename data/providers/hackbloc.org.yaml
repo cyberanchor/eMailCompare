@@ -1,0 +1,25 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 213
+domain: hackbloc.org
+status: pending
+flag: 🇮🇸
+a:
+- {host: '188.114.97.3', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '188.114.96.3', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: mx1.1984.is, flag: 🇮🇸, country: Iceland, asn: AS44925, org: '1984 ehf'}
+- {host: mx2.1984.is, flag: 🇮🇸, country: Iceland, asn: AS44925, org: '1984 ehf'}
+created: '2003-10-23'
+expires: '2027-10-23'
+jurisdiction:
+- Iceland
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Domain is parked, for sale or not configured: "this domain is not configured on this server". Wayback Machine captures: 2003-12-02 to 2026-09-07. IMAP (port 993) does not answer on imap.hackbloc.org, mail.hackbloc.org, mx1.1984.is, nor from 4 check-host.net locations. Mail DNS: no SPF, DMARC, MTA-STS, DANE or DNSSEC.'
+security:
+  spf: missing
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2003-12-02'
+last_checked: '2026-10-30'

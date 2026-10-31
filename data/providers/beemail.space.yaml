@@ -1,0 +1,30 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 62
+domain: beemail.space
+status: auto
+flag: 🇷🇺
+a:
+- {host: '37.140.192.230', flag: 🇷🇺, country: Russia, asn: AS197695, org: 'Domain names registrar REG.RU, Ltd'}
+mx:
+- {host: mx1.hosting.reg.ru, flag: 🇷🇺, country: Russia, asn: AS197695, org: 'Domain names registrar REG.RU, Ltd'}
+- {host: mx2.hosting.reg.ru, flag: 🇷🇺, country: Russia, asn: AS197695, org: 'Domain names registrar REG.RU, Ltd'}
+created: '2024-09-04'
+expires: '2027-09-04'
+jurisdiction:
+- Russia
+description: Beemail
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  privacy: https://beemail.space/privacy-policy/
+security:
+  spf: ~all
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.beemail.space:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2024-09-20'
+last_checked: '2026-10-30'

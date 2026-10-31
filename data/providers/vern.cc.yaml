@@ -1,0 +1,38 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 199
+domain: vern.cc
+status: pending
+flag: 🇺🇸
+a:
+- {host: '5.161.108.85', flag: 🇺🇸, country: United States, asn: AS213230, org: Hetzner Online GmbH}
+mx:
+- {host: mail.vern.cc, flag: 🇺🇸, country: United States, asn: AS213230, org: Hetzner Online GmbH}
+created: '2021-10-05'
+expires: '2027-10-05'
+alliance: 5
+jurisdiction:
+- United States
+description: |-
+  ~vern
+  A non-commercial tilde focused on free-software and services
+tos_summary: |-
+  Illegal actions (spam, hacking), IP violation, harassment, fraud
+  https://web.archive.org/web/20240812145008/https://vern.cc/rules
+privacy_summary: |-
+  Collect IP addresses, cookies, third parties, encryption, GDPR
+  https://web.archive.org/web/20240227170716/https://vern.cc/privpol
+price:
+- donations
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website shows: "~vern Outage". Domain registration dates from 2021-10-05, but the Wayback Machine has captures since 2016-06-23: the domain was registered before, possibly by someone else. Website text taken from the Wayback Machine copy of 2024-05-29 (https://web.archive.org/web/20240529165732/https://vern.cc/). Wayback Machine captures: 2016-06-23 to 2026-10-17. IMAP server imap.vern.cc:993 answers (Dovecot), certificate not trusted: Hostname mismatch, certificate is not valid for ''imap.vern.cc''. Mail DNS: SPF, DMARC p=quarantine, MTA-STS, DANE, DNSSEC. Site mentions: accepts cryptocurrency, PGP/E2E encryption.'
+security:
+  spf: ~all
+  dmarc: quarantine
+  mta_sts: enforce
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'yes'
+servers:
+- {kind: IMAP, host: 'imap.vern.cc:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2016-06-23'
+last_checked: '2026-10-30'

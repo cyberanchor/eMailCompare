@@ -1,0 +1,58 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 232
+domain: startmail.com
+status: pending
+flag: 🇳🇱
+domains:
+- use.startmail.com
+a:
+- {host: '145.131.90.136', flag: 🇳🇱, country: Netherlands, asn: AS28685, org: Routit BV}
+- {host: '145.131.90.152', flag: 🇳🇱, country: Netherlands, asn: AS28685, org: Routit BV}
+mx:
+- {host: mx1.startmail.com, flag: 🇳🇱, country: Netherlands, asn: AS28685, org: Routit BV}
+- {host: mx2.startmail.com, flag: 🇳🇱, country: Netherlands, asn: AS28685, org: Routit BV}
+- {host: mx3.startmail.com, flag: 🇳🇱, country: Netherlands, asn: AS28685, org: Routit BV}
+- {host: mx4.startmail.com, flag: 🇳🇱, country: Netherlands, asn: AS28685, org: Routit BV}
+created: '2000-03-15'
+expires: '2029-03-15'
+owner: 🇳🇱 StartMail B.V.
+alliance: 9
+jurisdiction:
+- Netherlands
+description: |-
+  Private, Secure and Encrypted Email You Can Trust | StartMail
+  Secure your emails with StartMail's encryption and customizable aliases, ensuring ultimate privacy and protection for your data.
+tos_summary: |-
+  Illegal actions (CSAM, spam), IP violation, harassment, fraud
+  https://www.startmail.com/terms-of-service
+privacy_summary: |-
+  Collect IP addresses, cookies, analytics/tracking, advertising, third parties, share upon authorities' request, encryption, GDPR
+  https://www.startmail.com/privacy
+price:
+- free
+- $4.99/month
+- $6.99/month
+note: 'Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Domain registration dates from 2000-03-15, but the Wayback Machine has captures since 1998-12-03: the domain was registered before, possibly by someone else. IMAP server imap.startmail.com:993 answers (Dovecot). Publishes mail client autoconfig. Mail DNS: SPF, DMARC p=quarantine, MTA-STS, DANE, DNSSEC. Site mentions: accepts cryptocurrency, PGP/E2E encryption.'
+links:
+  tos: https://www.startmail.com/terms-of-service
+  privacy: https://www.startmail.com/privacy
+  imprint: https://www.startmail.com/de/impressum
+social:
+- https://www.facebook.com/MyStartMail
+- https://www.instagram.com/mystartmail
+- https://www.linkedin.com/company/startmail-bv
+- https://mastodon.social/@startmail
+- https://twitter.com/mystartmail
+security:
+  spf: ~all
+  dmarc: quarantine
+  mta_sts: enforce
+  tls_rpt: 'yes'
+  dnssec: 'yes'
+  dane: 'yes'
+servers:
+- {kind: IMAP, host: 'imap.startmail.com:993', note: SSL/TLS}
+- {kind: SMTP, host: 'smtp.startmail.com:465', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '1998-12-03'
+last_checked: '2026-10-30'

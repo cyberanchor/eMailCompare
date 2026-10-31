@@ -1,0 +1,29 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 203
+domain: xmr.email
+status: pending
+flag: 🇬🇧
+a:
+- {host: '185.247.226.165', flag: 🇮🇸, country: Iceland, asn: AS200651, org: FlokiNET ehf}
+mx:
+- {host: mx1.xmr.email, flag: 🇬🇧, country: United Kingdom, asn: AS200651, org: FlokiNET ehf}
+- {host: xmr.email, flag: 🇮🇸, country: Iceland, asn: AS200651, org: FlokiNET ehf}
+created: '2024-04-26'
+expires: '2027-04-26'
+alliance: 5
+jurisdiction:
+- 🇬🇧 United Kingdom
+- 🇮🇸 Iceland
+description: |-
+  Secure and Anonymous Onion Email Service | XMR EMAIL
+  Protect your privacy with our anonymous Tor & onion email service. Get a secure and private anonymous email account—no KYC, tracking, or logs.
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website unreachable (timeout: timed out). Also unreachable from 5 check-host.net locations (Bulgaria, Iran, Netherlands, UK). Domain registration dates from 2024-04-26, but the Wayback Machine has captures since 2018-08-09: the domain was registered before, possibly by someone else. Website text taken from the Wayback Machine copy of 2025-07-26 (https://web.archive.org/web/20250726205129/https://xmr.email/). Wayback Machine captures: 2018-08-09 to 2025-07-26. IMAP (port 993) does not answer on mx1.xmr.email, xmr.email, nor from 5 check-host.net locations. Mail DNS: SPF, DMARC p=reject, DNSSEC. Site mentions: accepts cryptocurrency, PGP/E2E encryption. Tor: 23ejoyssdmhcnvtmso4u6bem57bjwlrwq2sui6clianr42fvl6vhvdid.onion.'
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'no'
+online_since: '2018-08-09'
+last_checked: '2026-10-30'

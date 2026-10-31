@@ -1,0 +1,41 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 102
+domain: '0.email'
+status: auto
+flag: 🇺🇸
+a:
+- {host: '104.18.22.4', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '104.18.23.4', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: aspmx.l.google.com, flag: 🇺🇸, country: United States, asn: AS15169, org: Google LLC}
+- {host: alt1.aspmx.l.google.com, flag: 🇺🇸, country: United States, asn: AS15169, org: Google LLC}
+- {host: alt2.aspmx.l.google.com, flag: 🇺🇸, country: United States, asn: AS15169, org: Google LLC}
+- {host: alt3.aspmx.l.google.com, flag: 🇺🇸, country: United States, asn: AS15169, org: Google LLC}
+created: '2025-02-18'
+expires: '2027-02-18'
+alliance: 5
+jurisdiction:
+- United States
+description: |-
+  Zero
+  Experience email the way you want with 0 - the first open source email app that puts your privacy and safety first.
+tos_summary: Open-source MIT client; self-hosters run and secure their own instance; no spam or malicious use; third-party mail providers' terms apply; software without warranty
+privacy_summary: 'Client only: mail stays in Gmail, read through Google OAuth. Collect anonymised usage analytics, error logs (30 days), encrypted caches (24 h). Servers in the US; account deletion purges caches in 24 h, backups in 7 days. Google data not used for ads; paid plans non-refundable after the 7-day trial.'
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://0.email/terms
+  privacy: https://0.email/privacy
+  code: https://github.com/Mail-0/Zero
+social:
+- https://x.com/mail0dotcom
+- https://www.linkedin.com/company/mail0
+- https://discord.gg/mail0
+security:
+  spf: ~all
+  dmarc: reject
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2021-11-22'
+last_checked: '2026-10-30'

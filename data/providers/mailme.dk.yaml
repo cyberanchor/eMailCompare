@@ -1,0 +1,42 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 69
+domain: mailme.dk
+status: auto
+flag: 🇩🇰
+a:
+- {host: '157.250.160.88', flag: 🇩🇰, country: Denmark, asn: AS3342, org: Cibicom A/S}
+mx:
+- {host: mx1.mailme.dk, flag: 🇩🇰, country: Denmark, asn: AS3342, org: Cibicom A/S}
+- {host: mx2.mailme.dk, flag: 🇩🇰, country: Denmark, asn: AS3342, org: Cibicom A/S}
+- {host: mx3.mailme.dk, flag: 🇩🇰, country: Denmark, asn: AS3342, org: Cibicom A/S}
+created: '1999-03-11'
+expires: '2032-03-31'
+owner: 🇩🇰 WebHosting A/S
+alliance: 9
+jurisdiction:
+- Denmark
+description: |-
+  MailMe.dk – gratis dansk e-mail siden 1999
+  Gratis dansk e-mail siden 1999. Webmail, IMAP og SMTP på danske servere med spam- og virusfilter. Opgrader til Superkonto med 10 GB plads.
+tos_summary: |-
+  Illegal actions (spam, hacking)
+  https://mailme.dk/betingelser.php
+price:
+- free
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://mailme.dk/betingelser.php
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'yes'
+servers:
+- {kind: IMAP, host: 'mailme.dk:993', note: SSL/TLS}
+- {kind: IMAP, host: 'mailme.dk:143', note: STARTTLS}
+- {kind: SMTP, host: 'smtp.mailme.dk:587', note: STARTTLS}
+- {kind: POP3, host: 'mailme.dk:995', note: SSL/TLS}
+online_since: '1999-05-08'
+last_checked: '2026-10-30'

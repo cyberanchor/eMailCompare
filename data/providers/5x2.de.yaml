@@ -1,0 +1,43 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 112
+domain: '5x2.de'
+status: auto
+flag: 🇩🇪
+a:
+- {host: '104.26.6.119', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '104.26.7.119', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: mx-srv03.5x2.de, flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+- {host: mx-srv01.5x2.de, flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+- {host: mx-srv02.5x2.de, flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+owner: 🇩🇪 ViWa Invest GmbH
+alliance: 14
+jurisdiction:
+- Germany
+description: |-
+  Home
+  5x2.de bietet kostenlose und sichere E-Mail.
+tos_summary: |-
+  Illegal actions (spam)
+  https://5x2.de/agb
+privacy_summary: |-
+  Collect IP addresses, cookies, advertising, third parties, share upon authorities' request, encryption, GDPR
+  https://5x2.de/agb
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://5x2.de/agb
+  privacy: https://5x2.de/agb
+  imprint: https://5x2.de/impressum
+security:
+  spf: -all
+  dmarc: quarantine
+  mta_sts: enforce
+  tls_rpt: 'yes'
+  dnssec: 'yes'
+  dane: 'yes'
+servers:
+- {kind: IMAP, host: 'mail.5x2.de:993', note: SSL/TLS}
+- {kind: POP3, host: 'mail.5x2.de:995', note: SSL/TLS}
+- {kind: SMTP, host: 'mail.5x2.de:465', note: SSL/TLS}
+online_since: '2009-08-13'
+last_checked: '2026-10-30'

@@ -1,0 +1,38 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 35
+domain: isellemails.com
+status: checked
+dead: true
+flag: 🇺🇸
+a:
+- {host: '162.0.215.191', flag: 🇺🇸, country: United States, asn: AS22612, org: 'Namecheap, Inc.'}
+mx:
+- {host: mx1-hosting.jellyfish.systems, flag: 🇺🇸, country: United States, asn: AS22612, org: 'Namecheap, Inc.'}
+- {host: mx2-hosting.jellyfish.systems, flag: 🇺🇸, country: United States, asn: AS22612, org: 'Namecheap, Inc.'}
+- {host: mx3-hosting.jellyfish.systems, flag: 🇺🇸, country: United States, asn: AS22612, org: 'Namecheap, Inc.'}
+created: '2020-12-16'
+expires: '2026-12-16'
+owner: 🇺🇸
+alliance: 5
+jurisdiction:
+- United States
+description: |-
+  isellemails - Secure Hosting, Email, and File Storage Solutions
+  isellemails provides reliable hosting, secure email services, and scalable file storage solutions. Empower your business with high-performance infrastructure.
+email: 'no'
+phone: 'no'
+personal: optional
+price:
+- free
+security:
+  spf: ~all
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.isellemails.com:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2020-12-23'
+last_checked: '2026-10-30'

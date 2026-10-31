@@ -1,0 +1,32 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 138
+domain: sindominio.net
+status: auto
+flag: 🇪🇸
+a:
+- {host: '94.130.32.254', flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+mx:
+- {host: mail.sindominio.net, flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+created: '1999-06-17'
+expires: '2027-06-17'
+owner: 🇪🇸 SinDominio collective
+alliance: 14
+jurisdiction:
+- Spain
+description: sindominio.net
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+onion: http://vroy4zhheumrt73echal4tujpdfnh3nf76wsnke42tdnewgpuev3dfqd.onion/
+security:
+  spf: -all
+  dmarc: none
+  mta_sts: enforce
+  tls_rpt: 'yes'
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.sindominio.net:993', note: SSL/TLS}
+- {kind: POP3, host: 'mail.sindominio.net:995', note: SSL/TLS}
+- {kind: SMTP, host: 'mail.sindominio.net:587', note: STARTTLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '1999-10-13'
+last_checked: '2026-10-30'

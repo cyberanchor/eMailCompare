@@ -1,0 +1,48 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 143
+domain: envs.net
+status: auto
+flag: 🇩🇪
+a:
+- {host: '77.42.48.118', flag: 🇫🇮, country: Finland, asn: AS24940, org: Hetzner Online GmbH}
+mx:
+- {host: mail.envs.net, flag: 🇫🇮, country: Finland, asn: AS24940, org: Hetzner Online GmbH}
+- {host: ext.envs.net, flag: 🇩🇪, country: Germany, asn: AS197540, org: netcup GmbH}
+created: '2018-08-11'
+expires: '2027-08-11'
+owner: 🇩🇪 Individual operator
+alliance: 14
+jurisdiction:
+- Germany
+description: |-
+  envs.net | environments
+  envs.net | environments for linux lovers - since 9/2019
+tos_summary: |-
+  Illegal actions (CSAM, spam, hacking)
+  Delete inactive accounts (10 days)
+  https://envs.net/terms-of-service
+privacy_summary: |-
+  Collect IP addresses, data/logs kept 3 mos., advertising, third parties, share upon authorities' request, GDPR
+  https://envs.net/privacy-policy/
+price:
+- donations
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: accepts cryptocurrency.'
+links:
+  tos: https://envs.net/tos/
+  privacy: https://envs.net/privacy-policy/
+  imprint: https://envs.net/impressum/
+security:
+  spf: -all
+  dmarc: quarantine
+  mta_sts: enforce
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.envs.net:993', note: SSL/TLS}
+- {kind: IMAP, host: 'mail.envs.net:143', note: STARTTLS}
+- {kind: SMTP, host: 'mail.envs.net:587', note: STARTTLS}
+- {kind: POP3, host: 'mail.envs.net:995', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2002-11-23'
+last_checked: '2026-10-30'

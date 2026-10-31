@@ -1,0 +1,33 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 137
+domain: resist.ca
+status: auto
+flag: 🇨🇦
+a:
+- {host: '199.58.80.138', flag: 🇨🇦, country: Canada, asn: AS7765, org: Koumbit}
+mx:
+- {host: mail.resist.ca, flag: 🇨🇦, country: Canada, asn: AS7765, org: Koumbit}
+created: '2001-02-22'
+expires: '2027-02-22'
+owner: 🇨🇦 TAO Communications Vancouver
+alliance: 5
+jurisdiction:
+- Canada
+description: |-
+  Home | resist!ca
+  The Resist! Collective is a group of Canadian-based activists working to provide communications and technical services, information and education to the greater activist community.
+price:
+- donations
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption.'
+security:
+  spf: ?all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.resist.ca:993', note: SSL/TLS}
+- {kind: IMAP software, host: Courier}
+online_since: '2001-08-02'
+last_checked: '2026-10-30'

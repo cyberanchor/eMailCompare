@@ -1,0 +1,31 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 118
+domain: actiu.info
+status: auto
+flag: 🇪🇸
+a:
+- {host: '51.38.109.8', flag: 🇩🇪, country: Germany, asn: AS16276, org: OVH SAS}
+mx:
+- {host: mtdad.srv.actiu.info, flag: 🇩🇪, country: Germany, asn: AS16276, org: OVH SAS}
+created: '2004-12-13'
+expires: '2027-12-13'
+alliance: 14
+jurisdiction:
+- Spain
+description: |-
+  infrastructure in freedom and action - Actiu.Info
+  internet resources collective
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+security:
+  spf: -all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.actiu.info:993', note: SSL/TLS}
+- {kind: POP3, host: 'pop3.actiu.info:995', note: SSL/TLS}
+- {kind: SMTP, host: 'smtp.actiu.info:465', note: SSL/TLS}
+online_since: '2006-06-26'
+last_checked: '2026-10-30'

@@ -1,0 +1,26 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 146
+domain: simplemail.co.in
+status: auto
+flag: 🇮🇳
+a:
+- {host: '104.21.87.136', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '172.67.143.129', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: fwd.xyamail.com, flag: 🇺🇸, country: United States, asn: AS36352, org: HostPapa}
+created: '2022-10-01'
+expires: '2032-10-01'
+alliance: 5
+jurisdiction:
+- United States
+description: Sign in · Simplemail Alias Manager
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+security:
+  spf: ~all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2022-11-11'
+last_checked: '2026-10-30'

@@ -1,0 +1,26 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 52
+domain: r7mail.com
+status: auto
+flag: 🇺🇸
+a:
+- {host: '172.245.56.71', flag: 🇺🇸, country: United States, asn: AS36352, org: HostPapa}
+mx:
+- {host: in1-smtp.messagingengine.com, flag: 🇺🇸, country: United States, asn: AS151847, org: Fastmail Pty Ltd}
+- {host: in2-smtp.messagingengine.com, flag: 🇺🇸, country: United States, asn: AS151847, org: Fastmail Pty Ltd}
+created: '2024-04-05'
+expires: '2029-04-05'
+alliance: 5
+jurisdiction:
+- United States
+description: DR7 Mail
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+security:
+  spf: ?all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2011-02-02'
+last_checked: '2026-10-30'

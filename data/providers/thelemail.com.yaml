@@ -1,0 +1,47 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 171
+domain: thelemail.com
+status: auto
+flag: 🇵🇹
+domains:
+- temail.org
+a:
+- {host: '188.114.96.3', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '188.114.97.3', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: mail.thelemail.com, flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+created: '2026-05-31'
+expires: '2027-05-31'
+jurisdiction:
+- Portugal
+description: |-
+  Ende-zu-Ende-verschlüsselte E-Mails | Thelemail
+  Ende-zu-Ende-verschlüsselte E-Mails zwischen Thelemail-Konten, Absenderprüfung und Tracking-Schutz. Starten Sie kostenlos mit einem @temail.org-Postfach.
+tos_summary: |-
+  Illegal actions (spam, hacking), harassment, fraud
+  https://thelemail.com/de/terms
+privacy_summary: |-
+  No IP logging (claimed), data/logs kept 30 days, no tracking (claimed), advertising, no third-party sharing (claimed), share upon authorities' request, encryption, GDPR
+  https://thelemail.com/de/privacy
+price:
+- free
+- '2€/month'
+- '12€/year'
+- '3€/month'
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption.'
+links:
+  tos: https://thelemail.com/de/terms
+  privacy: https://thelemail.com/de/privacy
+  code: https://github.com/thelemail
+social:
+- https://www.linkedin.com/company/thelemail
+- https://x.com/thelemail
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: testing
+  tls_rpt: 'yes'
+  dnssec: 'yes'
+  dane: 'yes'
+online_since: '2026-09-02'
+last_checked: '2026-10-30'

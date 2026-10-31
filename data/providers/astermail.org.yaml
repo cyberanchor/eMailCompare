@@ -1,0 +1,56 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 165
+domain: astermail.org
+status: auto
+flag: 🇺🇸
+a:
+- {host: '104.26.0.171', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '104.26.1.171', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: mx.astermail.org, flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+created: '2026-01-15'
+expires: '2027-01-15'
+owner: 🇺🇸 Aster Communications Inc.
+alliance: 5
+jurisdiction:
+- United States
+description: |-
+  Aster Mail - Private, Encrypted Email - 10 GB Free
+  Aster Mail: free, end-to-end encrypted email, with post-quantum protection between Aster accounts. Mail you write is encrypted on your device, and we never hold your keys.
+tos_summary: |-
+  Illegal actions (CSAM, spam, hacking), IP violation, harassment, fraud
+  https://astermail.org/terms/
+privacy_summary: |-
+  Collect IP addresses, cookies, analytics/tracking, advertising, third parties, share upon authorities' request, encryption, GDPR, does not sell data (claimed)
+  https://astermail.org/privacy/
+price:
+- free
+- $2.42/month
+- $28.99/year
+- $7.25/month
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: no phone number required, no personal data required, accepts cryptocurrency, PGP/E2E encryption.'
+links:
+  tos: https://astermail.org/terms
+  code: https://github.com/Aster-Privacy
+social:
+- https://x.com/AsterPrivacy
+- https://www.instagram.com/AsterPrivacy
+- https://www.tiktok.com/@aster.privacy
+- https://youtube.com/@AsterPrivacy
+- https://discord.gg/EvZGep3Uqh
+- https://www.reddit.com/r/AsterPrivacy
+- https://linkedin.com/company/aster-privacy
+onion: http://asterlq6kalut366uozjjm7kgle5lrr4q72noqncnrhyupatl4dc5jyd.onion/
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: enforce
+  tls_rpt: 'yes'
+  dnssec: 'yes'
+  dane: 'yes'
+servers:
+- {kind: IMAP, host: '127.0.0.1:1143', note: STARTTLS}
+- {kind: SMTP, host: '127.0.0.1:1025', note: STARTTLS}
+- {kind: IMAP software, host: Stalwart}
+online_since: '2026-02-03'
+last_checked: '2026-10-30'

@@ -1,0 +1,55 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 159
+domain: whor.email
+status: auto
+flag: 🇬🇧
+domains:
+- '0jew.com'
+- bombhoax.com
+- cia.contact
+- cianigger.com
+- ddosed.org
+- ethot.org
+- ewho.re
+- fbi.systems
+- fraud.cash
+- fukt.cc
+- mad.yt
+- noje.ws
+- obsessedwith.me
+- racist.life
+- swatgod.com
+- swatnet.org
+- tortur.es
+a:
+- {host: '149.102.150.44', flag: 🇬🇧, country: United Kingdom, asn: AS51167, org: Contabo GmbH}
+mx:
+- {host: box.fukt.cc, flag: 🇬🇧, country: United Kingdom, asn: AS51167, org: Contabo GmbH}
+created: '2019-11-26'
+expires: '2026-11-26'
+alliance: 5
+jurisdiction:
+- United Kingdom
+description: |-
+  WHOREMAIL
+  FEMALES AND EMAILS <3
+tos_summary: |-
+  Illegal actions (spam, hacking)
+  https://whor.email/tos/
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://whor.email/tos
+security:
+  spf: missing
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'yes'
+servers:
+- {kind: IMAP, host: 'box.fukt.cc:993', note: SSL/TLS}
+- {kind: POP3, host: 'box.fukt.cc:995', note: SSL/TLS}
+- {kind: SMTP, host: 'box.fukt.cc:465', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2020-03-09'
+last_checked: '2026-10-30'

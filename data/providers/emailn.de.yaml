@@ -1,0 +1,44 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 10
+domain: emailn.de
+status: checked
+flag: 🇩🇪
+domains:
+- emailn.de
+- emailn.eu
+- emailn.at
+- Emailn.ch
+a:
+- {host: '46.182.20.122', flag: 🇩🇪, country: Germany, asn: AS43847, org: Nbiserv Server Old | Martin Prager trading as "NbIServ"}
+mx:
+- {host: mx1.emailn.de, flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+owner: 🇩🇪 Emailn.de — Freemail (Freemail.biz Media)
+alliance: 14
+jurisdiction:
+- Germany
+description: |-
+  Freemail emailn.de: Kostenlose E-Mail Adresse
+  Freemail und Kostenlose E-Mail Adresse für jeden. Unbegrenzt Speicherplatz und top Funktionen. Jetzt gratis E-Mail Konto einrichten und sofort starten
+tos_summary: Not explicitly detailed in provided privacy policy; typically governed by German law and site terms
+privacy_summary: Collect IP, personal data (from registration/contact forms), usage data, cookies (with ads). Store in Germany (NBIServ). Share with ad partners (Google AdSense, Pixfuture, Refinery89), legal requests, USA-based tools.
+email: 'yes'
+phone: optional
+personal: optional
+price:
+- free
+note: 'Emailn.de is a German email service by Norbert Sehm, offering webmail with a free ad-supported version and likely paid options (though not specified in the provided data). It focuses on standard communication features, integrated with analytics and ad services. Suitable for basic correspondence and everyday tasks. Security & Anonymity: Employs SSL/TLS encryption for data transmission, providing basic connection security, but lacks end-to-end encryption, leaving content vulnerable. Anonymity is low: IP addresses, form data, and cookies are collected for ads (Google AdSense, Pixfuture, Refinery89) and shared with U.S.-based tools (WordPress Stats, Google), where data protection is weaker under EU standards. Data is stored in Germany (NBIServ) but can be disclosed to authorities upon request. Suitable for casual personal use, such as temporary correspondence or site registrations where privacy isn’t critical. Not for confidential purposes—falls short of Proton Mail or Tutanota due to poor anonymity and lack of full content protection. Ads and data sharing limit its appeal for security-conscious users.'
+links:
+  tos: https://www.emailn.de/e-mail/agb
+  privacy: https://www.emailn.de/e-mail/email-datenschutz
+  imprint: https://www.emailn.de/e-mail/email-impressum
+security:
+  spf: -all
+  dmarc: quarantine
+  mta_sts: testing
+  tls_rpt: 'yes'
+  dnssec: 'yes'
+  dane: 'yes'
+servers:
+- {kind: IMAP, host: 'imap.emailn.de:993', note: SSL/TLS}
+online_since: '2008-09-30'
+last_checked: '2026-10-30'

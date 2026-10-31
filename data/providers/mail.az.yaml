@@ -1,0 +1,31 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 18
+domain: mail.az
+status: checked
+flag: 🇦🇿
+domains:
+- chat.az
+- from.az
+- Baku.az
+a:
+- {host: '217.14.97.37', flag: 🇦🇿, country: Azerbaijan, asn: AS15815, org: INTRA Network Systems Ltd}
+mx:
+- {host: mx.mail.az, flag: 🇦🇿, country: Azerbaijan, asn: AS15815, org: INTRA Network Systems Ltd}
+owner: 🇦🇿 Network Thechnologies
+jurisdiction:
+- Azerbaijan
+description: Azerbaijan Mail Services
+email: 'no'
+phone: 'no'
+personal: 'yes'
+price:
+- free
+security:
+  spf: ?all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2000-08-17'
+last_checked: '2026-10-30'

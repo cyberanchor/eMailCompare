@@ -1,0 +1,41 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 184
+domain: pangea.org
+status: auto
+flag: 🇪🇸
+a:
+- {host: '45.150.186.207', flag: 🇪🇸, country: Spain, asn: AS208253, org: Associacio Expansio de la Xarxa Oberta}
+mx:
+- {host: mail.pangea.org, flag: 🇪🇸, country: Spain, asn: AS208253, org: Associacio Expansio de la Xarxa Oberta}
+- {host: mail2.pangea.org, flag: 🇪🇸, country: Spain, asn: AS208253, org: Associacio Expansio de la Xarxa Oberta}
+- {host: mail3.pangea.org, flag: 🇪🇸, country: Spain, asn: AS208253, org: Associacio Expansio de la Xarxa Oberta}
+created: '1995-07-24'
+expires: '2027-07-23'
+owner: 🇪🇸 Associació Pangea
+alliance: 14
+jurisdiction:
+- Spain
+description: |-
+  Pangea, Internet ètic i solidari -
+  Pangea Webmail
+tos_summary: |-
+  Illegal actions (spam, hacking), IP violation, fraud
+  https://laweb.pangea.org/avis-legal/
+privacy_summary: |-
+  Cookies, third parties, GDPR
+  https://laweb.pangea.org/politica-de-privacitat/
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. IMAP server imap.pangea.org:993 answers (Dovecot). Webmail: https://webmail.pangea.org/ (Roundcube). Mail DNS: SPF, DMARC p=none.'
+links:
+  privacy: https://web.archive.org/web/20241208001327/https://laweb.pangea.org/politica-de-privacitat/
+security:
+  spf: -all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.pangea.org:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '1997-12-11'
+last_checked: '2026-10-30'

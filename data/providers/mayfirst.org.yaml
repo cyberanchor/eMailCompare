@@ -1,0 +1,43 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 131
+domain: mayfirst.org
+status: auto
+flag: 🇺🇸
+a:
+- {host: '204.19.241.67', flag: 🇺🇸, country: United States, asn: AS6939, org: Hurricane Electric LLC}
+mx:
+- {host: a.mx.mayfirst.org, flag: 🇺🇸, country: United States, asn: AS6939, org: Hurricane Electric LLC}
+- {host: b.mx.mayfirst.org, flag: 🇺🇸, country: United States, asn: AS6939, org: Hurricane Electric LLC}
+- {host: c.mx.mayfirst.org, flag: 🇺🇸, country: United States, asn: AS6939, org: Hurricane Electric LLC}
+created: '2003-09-25'
+expires: '2029-09-25'
+owner: 🇺🇸 May First Movement Technology
+alliance: 5
+jurisdiction:
+- United States
+description: May First Movement Technology
+tos_summary: |-
+  Illegal actions (hacking), IP violation, harassment
+  https://mayfirst.org/about/legal/
+privacy_summary: |-
+  Encryption, does not sell data (claimed)
+  https://mayfirst.org/membership-options/privacy-policy/
+price:
+- free
+- $50/year
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://mayfirst.org/about/legal/
+  privacy: https://mayfirst.org/membership-options/privacy-policy/
+security:
+  spf: ~all
+  dmarc: reject
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.mayfirst.org:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2004-03-18'
+last_checked: '2026-10-30'

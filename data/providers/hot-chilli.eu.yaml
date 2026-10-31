@@ -1,0 +1,43 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 96
+domain: hot-chilli.eu
+status: auto
+flag: 🇩🇪
+a:
+- {host: '116.202.55.117', flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+mx:
+- {host: mail.hot-chilli.net, flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+- {host: mail2.hot-chilli.net, flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+- {host: mail3.hot-chilli.net, flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+owner: 🇩🇪 Hot-Chilli – Timo Kirst & Martin Sebald GbR
+alliance: 14
+jurisdiction:
+- Germany
+description: |-
+  Hot-Chilli - Hosting and more - made in Germany
+  Wir sind ein IT-Unternehmen im Stuttgarter Raum mit mehr als 15 Jahren Erfahrung und bieten Ihnen individuelles Webhosting, Programmierung und Webdesign aus einer Hand. Wir übernehmen für Sie die Planung, Konzeption und Entwicklung kleinerer und größerer Web-Projekte und Firmenauftritte sowie das kostengünstige und zuverlässige Hosting Ihrer Inhalte auf modernen und bestens administrierten Servern. Wenn Sie…
+tos_summary: |-
+  Illegal actions, IP violation
+  https://www.hot-chilli.eu/legal/
+privacy_summary: |-
+  Collect IP addresses, cookies, analytics/tracking, advertising, third parties, share upon authorities' request
+  https://www.hot-chilli.eu/privacy-policy/
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://www.hot-chilli.eu/legal/
+  privacy: https://www.hot-chilli.eu/privacy-policy/
+  imprint: https://www.hot-chilli.eu/legal/
+security:
+  spf: -all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'yes'
+servers:
+- {kind: IMAP, host: 'mail.hot-chilli.net:993', note: SSL/TLS}
+- {kind: IMAP, host: 'mail.hot-chilli.net:143', note: STARTTLS}
+- {kind: SMTP, host: 'mail.hot-chilli.net:587', note: STARTTLS}
+- {kind: POP3, host: 'mail.hot-chilli.net:995', note: SSL/TLS}
+online_since: '2014-05-17'
+last_checked: '2026-10-30'

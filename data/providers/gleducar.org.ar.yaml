@@ -1,0 +1,12 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 211
+domain: gleducar.org.ar
+status: pending
+dead: true
+flag: 🇦🇷
+owner: 🇦🇷 Asociación Civil Gleducar
+jurisdiction:
+- Argentina
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Struck out in README. Domain does not resolve (NXDOMAIN). Wayback Machine captures: 2003-02-07 to 2014-07-09.'
+online_since: '2003-02-07'
+last_checked: '2026-10-30'

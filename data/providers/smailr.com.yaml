@@ -1,0 +1,35 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 170
+domain: smailr.com
+status: auto
+flag: 🇬🇧
+a:
+- {host: '104.21.21.32', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '172.67.196.87', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: mail.nodeloc.com, flag: 🇬🇧, country: United Kingdom, asn: AS199741, org: TransitX BYOIP}
+created: '2026-08-04'
+expires: '2027-08-04'
+alliance: 5
+jurisdiction:
+- United Kingdom
+description: |-
+  Smailr
+  Smailr — enterprise and personal mailboxes with standard IMAP/POP3/SMTP access, custom domains and strong anti-abuse protection.
+tos_summary: 'Placeholder only: the terms are not drafted yet (2026)'
+privacy_summary: 'Placeholder only: the policy is not drafted yet (2026)'
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://smailr.com/legal/terms
+  privacy: https://smailr.com/legal/privacy
+security:
+  spf: no all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.nodeloc.com:993', note: SSL/TLS}
+online_since: '2013-04-06'
+last_checked: '2026-10-30'

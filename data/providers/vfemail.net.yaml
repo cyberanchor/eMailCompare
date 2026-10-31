@@ -1,0 +1,37 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 106
+domain: vfemail.net
+status: auto
+flag: 🇺🇸
+a:
+- {host: '172.67.72.124', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '104.26.4.29', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: mx1.vfemail.net, flag: 🇳🇱, country: Netherlands, asn: AS202448, org: MVPS LTD}
+- {host: mx2.vfemail.net, flag: 🇳🇱, country: Netherlands, asn: AS202448, org: MVPS LTD}
+- {host: mx3.vfemail.net, flag: 🇳🇱, country: Netherlands, asn: AS202448, org: MVPS LTD}
+created: '2001-08-15'
+expires: '2033-08-15'
+alliance: 5
+jurisdiction:
+- United States
+description: |-
+  VFEmail ™ - Quality Email Hosting (IMAP, Webmail, POP, SMTP) For Everyone
+  Providing Quality Email Hosting to both Businesses and End Users since 2001.
+price:
+- free
+- $15.00/year
+- $30.00/year
+- $50.00/year
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption.'
+security:
+  spf: -all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.vfemail.net:993', note: SSL/TLS}
+online_since: '2001-10-28'
+last_checked: '2026-10-30'

@@ -1,0 +1,28 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 56
+domain: anonmails.de
+status: auto
+flag: 🇩🇪
+a:
+- {host: '212.132.69.194', flag: 🇩🇪, country: Germany, asn: AS8560, org: IONOS SE}
+mx:
+- {host: mail.anonmails.de, flag: 🇩🇪, country: Germany, asn: AS8560, org: IONOS SE}
+owner: 🇩🇪 Individual operator
+alliance: 14
+jurisdiction:
+- Germany
+description: |-
+  anonmails.de
+  Temporäre E-Mail-Adressen für 1 bis 50 Tage - Temporary email addresses for 1 to 50 days
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  imprint: https://anonmails.de/en/imprint
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2009-12-18'
+last_checked: '2026-10-30'

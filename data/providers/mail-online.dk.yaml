@@ -1,0 +1,41 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 68
+domain: mail-online.dk
+status: auto
+flag: 🇩🇰
+a:
+- {host: '185.21.41.11', flag: 🇩🇰, country: Denmark, asn: AS48854, org: team.blue Denmark A/S}
+mx:
+- {host: mail.mail-online.dk, flag: 🇩🇰, country: Denmark, asn: AS48854, org: team.blue Denmark A/S}
+created: '1999-06-22'
+expires: '2028-06-30'
+owner: 🇩🇰 International Online Services ApS
+alliance: 9
+jurisdiction:
+- Denmark
+description: |-
+  Mail-Online.dk - dansk og reklamefri email for alle overalt
+  Mail-Online har gennem mere end 20 år fungeret som foretrukken mailtjeneste for en lang række danskere.
+tos_summary: |-
+  Illegal actions (spam, hacking)
+  https://mail-online.dk/brugerbetingelser
+privacy_summary: |-
+  Cookies, advertising, GDPR
+  https://mail-online.dk/persondatapolitik
+price:
+- free
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://mail-online.dk/brugerbetingelser
+  privacy: https://mail-online.dk/persondatapolitik
+security:
+  spf: -all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.mail-online.dk:993', note: SSL/TLS}
+online_since: '1999-11-28'
+last_checked: '2026-10-30'

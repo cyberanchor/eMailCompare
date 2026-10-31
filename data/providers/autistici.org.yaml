@@ -1,0 +1,59 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 37
+domain: autistici.org
+status: checked
+dead: true
+flag: 🇮🇹
+domains:
+- anche.no
+- autistiche.org
+- autistici.org
+- autoproduzioni.net
+- bastardi.net
+- bruttocarattere.org
+- canaglie.net
+- canaglie.org
+- cryptolab.net
+- distruzione.org
+- grrlz.net
+- hacari.com
+- hacari.net
+- hacari.org
+- insiberia.net
+- insicuri.net
+- inventati.org
+- krutt.org
+- logorroici.org
+- mortemale.org
+- onenetbeyond.org
+- paranoici.org
+- privacyrequired.com
+- stronzi.org
+- subvertising.org
+a:
+- {host: '93.190.126.19', flag: 🇨🇭, country: Switzerland, asn: AS210861, org: Open Networks Association}
+- {host: '198.167.222.108', flag: 🇸🇪, country: Sweden, asn: AS39287, org: ab stract ltd | 1337 Services LLC}
+- {host: '82.94.249.234', flag: 🇳🇱, country: Netherlands, asn: AS3265, org: KPN B.V. | Associazione Investici}
+mx:
+- {host: mx1.investici.org, flag: 🇨🇭, country: Switzerland, asn: AS210861, org: Open Networks Association}
+- {host: mx2.investici.org, flag: 🇸🇪, country: Sweden, asn: AS39287, org: ab stract ltd | 1337 Services LLC}
+- {host: Mx3.investici.org, flag: 🇳🇱, country: Netherlands, asn: AS3265, org: KPN B.V. | Associazione Investici}
+created: '2000-08-10'
+expires: '2029-08-10'
+owner: Associazione AI ODV
+alliance: 14
+jurisdiction:
+- Italy
+description: |-
+  autistici.org - Welcome to Autistici/Inventati
+  Autistici/Inventati provides internet support to activists and collectives coming from the world of grassroot and social movements
+tos_summary: Spam; discrimination; commercial use; militarism; political parties; copyright violation; misuse (DDoS, scraping)
+privacy_summary: Collect username/password, metadata (15 days), user content (encrypted where possible). No personal data. Share only for federation/legal orders.
+email: 'yes'
+phone: 'no'
+personal: 'no'
+price:
+- free
+note: 'A/I is an email service provided by the non-profit association A/I-ODV from Pisa, Italy, as part of a platform designed to support activism and social movements. It combines communication tools (email, chats, blogs) with principles of anti-fascism, anti-racism, and anti-authoritarianism, steering clear of commercialization.  Security & Anonymity: A/I prioritizes maximum privacy by collecting minimal data: only a username (email) and password, with no additional personal details (phone, address). The statement of intent required during registration is deleted after approval, and activity logs (IP, metadata) are kept for up to 15 days and anonymized. Servers employ disk encryption and SSL/TLS for data transmission, but there’s no built-in end-to-end encryption for emails—users can apply PGP themselves. A/I cannot access encrypted content and doesn’t sell data. Federated protocols (e.g., email) necessitate sharing the recipient’s address with other providers, reducing anonymity when communicating off-platform. Full anonymity isn’t guaranteed due to no backups and Internet vulnerabilities—using VPN/Tor and avoiding links to real identity is recommended for protection. Data is stored in the EU, with disclosure possible only under an Italian court order, accompanied by user notification if legally permitted.  Use Cases: A/I is suitable for those who share values of self-organization and resistance, avoiding commercial and authoritarian structures. It’s a good fit for:      Activists and social movements needing private correspondence (especially with PGP).     Individuals aiming to minimize their digital footprint without commercial ties.     Non-commercial projects, blogs, or mailing lists aligned with DIY and solidarity. It’s not suited for business purposes (prohibited), highly sensitive data without encryption, or users unprepared for technical self-reliance (no password recovery without a security question). A/I is ideal for radical communities valuing freedom and privacy within Italian jurisdiction and GDPR compliance.'
+online_since: '2001-05-07'
+last_checked: '2026-10-30'

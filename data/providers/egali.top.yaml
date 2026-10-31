@@ -1,0 +1,35 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 172
+domain: egali.top
+status: auto
+flag: 🇫🇮
+a:
+- {host: '43.240.149.96', flag: 🇩🇪, country: Germany, asn: AS214279, org: DASABO OU}
+mx:
+- {host: mail.egali.top, flag: 🇩🇪, country: Germany, asn: AS214279, org: DASABO OU}
+created: '2025-01-07'
+expires: '2028-01-07'
+alliance: 14
+jurisdiction:
+- Germany
+description: |-
+  egali.top anarchist mailbox
+  Email, like the old internet intended: hosted from a small physical server in the operator's bedroom. No ads, no analytics, no big-tech hosting stack, Cloudflare/AWS free, Tor-friendly, independent / non-profit. 100 MB per mailbox.
+tos_summary: |-
+  Illegal actions (spam, hacking), harassment, fraud
+  https://egali.top/email
+price:
+- '0.005 XMR'
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: accepts cryptocurrency, PGP/E2E encryption. Operator''s own warning: no SLA, occasional downtime, prefer not to use as a primary mailbox. Mailboxes are sold for Monero via Session (@egalitop) or shop.egali.top. Abuse contact: abuse@egali.top.'
+security:
+  spf: -all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.egali.top:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2025-07-12'
+last_checked: '2026-10-30'

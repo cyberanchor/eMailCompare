@@ -1,0 +1,34 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 92
+domain: riotcat.org
+status: auto
+flag: 🇩🇪
+a:
+- {host: '49.13.66.108', flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+mx:
+- {host: riotcat.org, flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+created: '2016-02-01'
+expires: '2027-02-01'
+alliance: 14
+jurisdiction:
+- Germany
+description: Riotcat.org - Home
+privacy_summary: |-
+  Collect IP addresses, encryption, GDPR
+  https://riotcat.org/privacy.html
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  privacy: https://riotcat.org/privacy.html
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: enforce
+  tls_rpt: 'yes'
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.riotcat.org:993', note: SSL/TLS}
+- {kind: SMTP, host: 'mail.riotcat.org:465', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2017-05-27'
+last_checked: '2026-10-30'

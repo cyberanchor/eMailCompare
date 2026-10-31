@@ -1,0 +1,27 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 167
+domain: ghostbox.cc
+status: auto
+flag: 🇨🇭
+a:
+- {host: '104.244.77.59', flag: 🇱🇺, country: Luxembourg, asn: AS53667, org: FranTech Solutions}
+mx:
+- {host: mail.ghostbox.cc, flag: 🇱🇺, country: Luxembourg, asn: AS53667, org: FranTech Solutions}
+created: '2023-11-19'
+expires: '2027-11-19'
+jurisdiction:
+- Switzerland
+description: ghostBox — Privacy first email
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: accepts cryptocurrency, PGP/E2E encryption. Tor: ghost7whczovqqnabnvzbx24hqnfseyzzdqtzcpkyvbgfmwfgwii6pyd.onion.'
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.ghostbox.cc:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2024-02-26'
+last_checked: '2026-10-30'

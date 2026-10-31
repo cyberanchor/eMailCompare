@@ -1,0 +1,26 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 209
+domain: espora.org
+status: pending
+flag: 🇲🇽
+a:
+- {host: '204.13.164.61', flag: 🇺🇸, country: United States, asn: AS16652, org: Riseup Networks}
+mx:
+- {host: mail.espora.org, flag: 🇨🇦, country: Canada, asn: AS16276, org: OVH SAS}
+created: '2003-04-14'
+expires: '2027-04-14'
+jurisdiction:
+- Mexico
+description: |-
+  Espora.org
+  Espora Base Autonóma Socio Educativa
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Homepage does not mention e-mail. IMAP (port 993) does not answer on imap.espora.org, mail.espora.org, but the port is open from 5 of 5 check-host.net locations. Mail DNS: SPF, DMARC p=reject.'
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2003-05-29'
+last_checked: '2026-10-30'

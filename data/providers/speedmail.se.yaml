@@ -1,0 +1,28 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 158
+domain: speedmail.se
+status: auto
+flag: 🇸🇪
+a:
+- {host: '185.189.84.20', flag: 🇸🇪, country: Sweden, asn: AS206279, org: Jan Studzinski trading as Biruang IT KB}
+mx:
+- {host: snares.wpsyd.com, flag: 🇸🇪, country: Sweden, asn: AS206279, org: Jan Studzinski trading as Biruang IT KB}
+created: '2006-05-29'
+expires: '2027-05-29'
+alliance: 14
+jurisdiction:
+- Sweden
+description: Speedmail
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.speedmail.se:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2007-01-06'
+last_checked: '2026-10-30'

@@ -1,0 +1,77 @@
+{{- /* The provider files data/providers/<domain>.yaml (hugo.Data.providers) as a list sorted by "order".
+       Every file is checked against the fields of data/README.md; a broken file stops the build with a message
+       (build.sh then keeps the last good site). */ -}}
+{{- $text := slice "domain" "status" "flag" "created" "expires" "owner" "description" "tos_summary" "privacy_summary"
+  "email" "phone" "personal" "note" "onion" "online_since" "last_checked" -}}
+{{- $lists := slice "domains" "jurisdiction" "price" "social" -}}
+{{- $tables := dict "a" (slice "host" "flag" "country" "asn" "org") "mx" (slice "host" "flag" "country" "asn" "org") "servers" (slice "kind" "host" "note") -}}
+{{- $maps := dict "links" (slice "tos" "privacy" "code" "imprint") "security" (slice "spf" "dmarc" "mta_sts" "tls_rpt" "dnssec" "dane") -}}
+{{- $ints := slice "int" "int64" "uint64" -}}
+{{- $all := hugo.Data.providers -}}
+{{- if not $all -}}{{- errorf "emc/records: no provider records were loaded (a YAML error above, or ../data/providers is not mounted as data/providers in hugo.toml)" -}}{{- end -}}
+{{- $recs := slice -}}
+{{- $orders := dict -}}
+{{- $slugs := dict -}}
+{{- range $file, $r := $all -}}
+  {{- $f := printf "data/providers/%s.yaml" $file -}}
+  {{- $bad := "" -}}
+  {{- if not (reflect.IsMap $r) -}}
+    {{- $bad = "the file is not a list of fields" -}}
+  {{- else -}}
+    {{- range $k, $v := $r -}}
+      {{- if $bad -}}{{- continue -}}{{- end -}}
+      {{- if in $text $k -}}
+        {{- if ne (printf "%T" $v) "string" -}}{{- $bad = printf "%s must be text; put it in quotes" $k -}}{{- end -}}
+      {{- else if in $lists $k -}}
+        {{- if not (reflect.IsSlice $v) -}}{{- $bad = printf "%s must be a list (lines starting with \"- \")" $k -}}
+        {{- else -}}{{- range $v -}}{{- if ne (printf "%T" .) "string" -}}{{- $bad = printf "every item of %s must be text" $k -}}{{- end -}}{{- end -}}
+        {{- end -}}
+      {{- else if isset $tables $k -}}
+        {{- if not (reflect.IsSlice $v) -}}{{- $bad = printf "%s must be a list" $k -}}
+        {{- else -}}
+          {{- range $v -}}
+            {{- if not (reflect.IsMap .) -}}{{- $bad = printf "every item of %s must be {%s}" $k (delimit (index $tables $k) ", ") -}}
+            {{- else -}}
+              {{- range $kk, $vv := . -}}
+                {{- if not (in (index $tables $k) $kk) -}}{{- $bad = printf "%s: unknown field %q" $k $kk -}}
+                {{- else if ne (printf "%T" $vv) "string" -}}{{- $bad = printf "%s.%s must be text; put it in quotes" $k $kk -}}{{- end -}}
+              {{- end -}}
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}
+      {{- else if isset $maps $k -}}
+        {{- if not (reflect.IsMap $v) -}}{{- $bad = printf "%s must be a map {%s}" $k (delimit (index $maps $k) ", ") -}}
+        {{- else -}}
+          {{- range $kk, $vv := $v -}}
+            {{- if not (in (index $maps $k) $kk) -}}{{- $bad = printf "%s: unknown field %q" $k $kk -}}
+            {{- else if ne (printf "%T" $vv) "string" -}}{{- $bad = printf "%s.%s must be text; put it in quotes" $k $kk -}}{{- end -}}
+          {{- end -}}
+        {{- end -}}
+      {{- else if eq $k "order" -}}
+        {{- if not (and (in $ints (printf "%T" $v)) (gt $v 0)) -}}{{- $bad = "order must be a positive whole number" -}}{{- end -}}
+      {{- else if eq $k "alliance" -}}
+        {{- if not (and (in $ints (printf "%T" $v)) (in (slice "5" "9" "14") (string $v))) -}}{{- $bad = "alliance must be 5, 9 or 14" -}}{{- end -}}
+      {{- else if eq $k "dead" -}}
+        {{- if ne (printf "%T" $v) "bool" -}}{{- $bad = "dead must be true" -}}{{- end -}}
+      {{- else -}}
+        {{- $bad = printf "unknown field %q (fields: data/README.md)" $k -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if not $bad -}}
+      {{- if not (and $r.domain $r.order $r.status) -}}{{- $bad = "domain, order and status are required"
+      -}}{{- else if ne (lower $r.domain) $file -}}{{- $bad = printf "the file holds %q; name it after the domain" $r.domain
+      -}}{{- else if not (in (slice "checked" "auto" "pending") $r.status) -}}{{- $bad = printf "status %q is not checked, auto or pending" $r.status
+      -}}{{- else if index $orders (string $r.order) -}}{{- $bad = printf "order %v is also used by %s" $r.order (index $orders (string $r.order))
+      -}}{{- else if index $slugs (replace (lower $r.domain) "." "-") -}}{{- $bad = printf "its page address is also used by %s" (index $slugs (replace (lower $r.domain) "." "-"))
+      -}}{{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if $bad -}}
+    {{- errorf "emc/records: %s: %s" $f $bad -}}
+  {{- else -}}
+    {{- $orders = merge $orders (dict (string $r.order) $f) -}}
+    {{- $slugs = merge $slugs (dict (replace (lower $r.domain) "." "-") $f) -}}
+    {{- $recs = $recs | append $r -}}
+  {{- end -}}
+{{- end -}}
+{{- return sort $recs "order" -}}

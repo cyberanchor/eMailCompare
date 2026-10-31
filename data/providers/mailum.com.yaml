@@ -1,0 +1,41 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 30
+domain: mailum.com
+status: checked
+domains:
+- cyberfear.com
+a:
+- {host: '54.37.129.184', flag: 🇵🇱, country: Poland, asn: AS16276, org: OVH SAS}
+mx:
+- {host: custom.cyberfear.com, flag: 🇵🇱, country: Poland, asn: AS16276, org: OVH SAS}
+created: '2012-10-22'
+expires: '2027-10-22'
+owner: "CyberFear\n\nSergei Krutov (vSaKv) ex developer SCRYPTmail \n(htps://www.linkedin.com/in/sergei-krutov)"
+jurisdiction:
+- Poland
+description: |-
+  Mailum - Secure Encrypted Email Service | Private & Anonymous Email
+  Enjoy private, anonymous email with end-to-end encryption from Mailum, your trusted encrypted email provider. Sign up for free and protect your communication today.
+tos_summary: Selling/sublicensing content; damaging site; impacting access; illegal use; data mining/harvesting; under 18 use
+privacy_summary: Collect username, password (hashed), last login date; IP for 5 mins at registration (anti-flood). No logs otherwise. No sharing specified.
+email: 'no'
+phone: 'no'
+personal: 'no'
+price:
+- free
+note: 'Mailum is a web-based email service accessible at https://mailum.com, prioritizing user privacy. It offers a minimalist solution for email communication, avoiding excessive data collection and providing a basic level of anonymity and protection.  Security & Anonymity: Mailum ensures a high degree of anonymity through its minimal data collection policy. Registration requires only a username and password (hashed), with no need to provide personal details like a real name or email. IP addresses aren’t logged for website visitors, except for a 5-minute retention during registration to prevent account flooding (this data isn’t linked to users and is deleted afterward). The date of the last login is stored for managing inactive accounts, but no other activity traces are kept. The absence of logs and external trackers (e.g., for advertising) enhances privacy. Cookies are used solely for session identification, without additional tracking. However, there’s no mention of message or server encryption, suggesting a lack of default end-to-end encryption. Data isn’t shared with third parties, and GDPR/CCPA rights ensure user control over information. For full anonymity, using Tor or a VPN is recommended.  Use Cases: Mailum is suitable for those seeking a simple, anonymous communication method without heavy oversight. It’s a good fit for:      Basic correspondence with minimal identity disclosure.     Users avoiding tracking and ads (the service is entirely free of external scripts).     Those wanting a quick email setup without sharing personal data. It’s not ideal for highly sensitive tasks (e.g., protection from authorities or sending confidential data), as there’s no mention of encryption or advanced security measures. Mailum is optimal for low-risk everyday use where simplicity and lack of surveillance matter, especially when paired with additional anonymization tools. It’s a solution for minimalists who value basic privacy without complex configurations.'
+links:
+  tos: https://mailum.com/terms
+  privacy: https://mailum.com/privacy
+  code: https://github.com/cyberfear-com
+social:
+- https://x.com/MailumCom
+security:
+  spf: ~all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'no'
+online_since: '2004-04-11'
+last_checked: '2026-10-30'

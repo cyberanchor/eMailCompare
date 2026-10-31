@@ -1,0 +1,35 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 58
+domain: fabmail.org
+status: auto
+flag: 🇩🇪
+a:
+- {host: '185.26.156.245', flag: 🇩🇪, country: Germany, asn: AS58010, org: uvensys GmbH}
+mx:
+- {host: aspmx.l.google.com, flag: 🇺🇸, country: United States, asn: AS15169, org: Google LLC}
+- {host: alt1.aspmx.l.google.com, flag: 🇺🇸, country: United States, asn: AS15169, org: Google LLC}
+- {host: alt2.aspmx.l.google.com, flag: 🇺🇸, country: United States, asn: AS15169, org: Google LLC}
+- {host: aspmx2.googlemail.com, flag: 🇺🇸, country: United States, asn: AS15169, org: Google LLC}
+created: '2016-05-06'
+expires: '2027-05-06'
+owner: 🇩🇪 Fab Lab Region Nürnberg e.V
+alliance: 14
+jurisdiction:
+- Germany
+description: |-
+  Fabmail - Your personal FabLab email address
+  A mail service for FabLab users
+price:
+- free
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  imprint: https://fabmail.org/
+security:
+  spf: -all
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2008-09-05'
+last_checked: '2026-10-30'

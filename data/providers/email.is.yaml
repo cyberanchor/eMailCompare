@@ -1,0 +1,26 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 70
+domain: email.is
+status: auto
+flag: 🇮🇸
+a:
+- {host: '185.112.145.194', flag: 🇮🇸, country: Iceland, asn: AS44925, org: '1984 ehf'}
+mx:
+- {host: mx1.1984.is, flag: 🇮🇸, country: Iceland, asn: AS44925, org: '1984 ehf'}
+- {host: mx2.1984.is, flag: 🇮🇸, country: Iceland, asn: AS44925, org: '1984 ehf'}
+created: '2000-03-16'
+jurisdiction:
+- Iceland
+description: email.is | Just another WordPress site
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+security:
+  spf: -all
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.email.is:993', note: SSL/TLS}
+online_since: '2000-08-24'
+last_checked: '2026-10-30'

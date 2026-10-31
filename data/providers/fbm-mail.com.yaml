@@ -1,0 +1,30 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 34
+domain: fbm-mail.com
+status: checked
+flag: 🇷🇺
+a:
+- {host: '188.114.97.3', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '188.114.96.3', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: mail.fbm-mail.com, flag: 🇷🇺, country: Russia, asn: AS9123, org: TimeWeb Ltd.}
+created: '2024-04-20'
+expires: '2027-04-20'
+owner: 🇷🇺 FBM Agency
+jurisdiction:
+- Russia
+description: '[FBM] Mail — Почта для арбитража :: Добро пожаловать в [FBM] Mail — Почта для арбитража!'
+email: 'no'
+phone: 'no'
+personal: 'no'
+price:
+- free
+security:
+  spf: no all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2024-06-22'
+last_checked: '2026-10-30'

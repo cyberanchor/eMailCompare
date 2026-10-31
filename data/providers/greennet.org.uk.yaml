@@ -1,0 +1,48 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 124
+domain: greennet.org.uk
+status: auto
+flag: 🇬🇧
+a:
+- {host: '193.37.35.248', flag: 🇬🇧, country: United Kingdom, asn: AS47264, org: Iomart Managed Services Limited}
+mx:
+- {host: smtp-gate.greennet.org.uk, flag: 🇬🇧, country: United Kingdom, asn: AS47264, org: Iomart Managed Services Limited}
+- {host: mail2.greennet.org.uk, flag: 🇬🇧, country: United Kingdom, asn: AS47264, org: Iomart Managed Services Limited}
+created: '1994-11-30'
+expires: '2027-11-30'
+owner: 🇬🇧 GreenNet Ltd
+alliance: 5
+jurisdiction:
+- United Kingdom
+description: |-
+  GreenNet | Internet services, web design and hosting for activists
+  Internet services, web design and hosting for activists
+tos_summary: |-
+  Illegal actions (hacking), IP violation, harassment, commercial use
+  https://www.greennet.org.uk/about/terms-and-conditions
+price:
+- free
+- £7.20/month
+- £46/month
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://www.greennet.org.uk/about/terms-and-conditions
+  imprint: https://www.greennet.org.uk/page/legal-information
+social:
+- https://twitter.com/GreenNetISP
+- https://greennet.social/@greennet
+- https://bsky.app/profile/greennet.social
+security:
+  spf: ?all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.gn.apc.org:993', note: SSL/TLS}
+- {kind: IMAP, host: 'imap.gn.apc.org:143', note: STARTTLS}
+- {kind: SMTP, host: 'smtp.gn.apc.org:587', note: STARTTLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '1999-10-06'
+last_checked: '2026-10-30'

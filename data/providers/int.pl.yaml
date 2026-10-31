@@ -1,0 +1,39 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 14
+domain: int.pl
+status: checked
+flag: 🇵🇱
+a:
+- {host: '217.74.65.119', flag: 🇵🇱, country: Poland, asn: AS16138, org: Interia.pl Sp z.o.o. | Interia.pl S.A.}
+mx:
+- {host: mx.interia.pl, flag: 🇵🇱, country: Poland, asn: AS16138, org: Interia.pl Sp z.o.o. | Interia.pl S.A.}
+created: '1998-03-23'
+expires: '2027-03-22'
+owner: 🇵🇱 Interia.pl Sp z.o.o.
+jurisdiction:
+- Poland
+description: |-
+  Darmowy email INT.PL - szybka rejestracja i logowanie do poczty bez reklam
+  Załóż darmowe konto email na INT.PL i ciesz się szybką rejestracją, bez reklam. Odkryj bezpieczną i wygodną pocztę, która spełni wszystkie Twoje potrzeby.
+privacy_summary: Controller Interia.pl sp. z o.o. (Kraków). Collect account data, browsing statistics, cookies (Google Analytics, Gemius), web push. Store for the account lifetime, then for legal claims. Share with service, customer-care and marketing providers, authorities by law; transfers to the US under the Data Privacy Framework.
+email: 'no'
+phone: 'no'
+personal: 'no'
+price:
+- free
+links:
+  tos: https://help.int.pl/zasady-i-warunki-korzystania-z-poczty/news-regulamin-int-pl,nId,2264785
+  privacy: https://help.int.pl/news-polityka-prywatnosci-uzytkownikow-poczty-int-pl,nId,2587025
+security:
+  spf: -all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'poczta.int.pl:993', note: SSL/TLS}
+- {kind: POP3, host: 'poczta.int.pl:995', note: SSL/TLS}
+- {kind: SMTP, host: 'poczta.int.pl:465', note: SSL/TLS}
+online_since: '2002-09-27'
+last_checked: '2026-10-30'

@@ -1,0 +1,27 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 201
+domain: tildamail.com
+status: pending
+flag: 🇨🇦
+mx:
+- {host: route1.mx.cloudflare.net, flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: route2.mx.cloudflare.net, flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: route3.mx.cloudflare.net, flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+created: '2019-08-22'
+expires: '2027-08-22'
+alliance: 5
+jurisdiction:
+- Canada
+description: |-
+  Tildamail
+  Share your messages and files in an end-to-end encrypted fashion. So you own your data, control who can access it, and protect your privacy.
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website unreachable (gaierror: [Errno -2] Name or service not known). Domain registration dates from 2019-08-22, but the Wayback Machine has captures since 2011-02-11: the domain was registered before, possibly by someone else. Website text taken from the Wayback Machine copy of 2025-10-24 (https://web.archive.org/web/20251024125512/https://www.tildamail.com/). Wayback Machine captures: 2011-02-11 to 2025-10-24. Mail servers belong to Cloudflare Email Routing. Mail DNS: SPF, DMARC p=quarantine, DANE.'
+security:
+  spf: ~all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'yes'
+online_since: '2011-02-11'
+last_checked: '2026-10-30'

@@ -1,0 +1,50 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 236
+domain: internxt.com
+status: pending
+flag: 🇪🇸
+a:
+- {host: '172.66.174.172', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '104.20.43.180', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: mx1.hostinger.com, flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: mx2.hostinger.com, flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+created: '2017-08-06'
+expires: '2034-08-06'
+owner: 🇪🇸 Internxt Universal Technologies, S.L.
+alliance: 14
+jurisdiction:
+- Spain
+description: |-
+  Internxt — Best Encrypted cloud storage & more
+  Experience the next-gen best encrypted cloud storage for ultimate protection. Secure your files with Internxt’s zero-knowledge technology. Get started for free!
+tos_summary: |-
+  Illegal actions (spam, hacking), IP violation, harassment, fraud
+  Delete inactive accounts (7 days)
+  https://internxt.com/legal
+privacy_summary: |-
+  Collect IP addresses, data/logs kept 12 mos., cookies, analytics/tracking, advertising, third parties, share upon authorities' request, encryption, no-logs claim, GDPR, delete inactive accounts (7 days)
+  https://internxt.com/legal
+price:
+- free
+- €9.99/month
+note: 'Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Domain registration dates from 2017-08-06, but the Wayback Machine has captures since 1999-10-11: the domain was registered before, possibly by someone else. Mail servers belong to Hostinger. Mail DNS: SPF, DMARC p=reject. Site mentions: PGP/E2E encryption.'
+links:
+  tos: https://internxt.com/legal
+  privacy: https://internxt.com/privacy
+  code: https://github.com/internxt
+  imprint: https://internxt.com/legal
+social:
+- https://twitter.com/Internxt
+- https://www.reddit.com/r/internxt
+- https://linkedin.com/company/internxt
+- https://instagram.com/internxt
+security:
+  spf: ~all
+  dmarc: reject
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '1999-10-11'
+last_checked: '2026-10-30'

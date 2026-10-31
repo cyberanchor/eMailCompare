@@ -1,0 +1,28 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 53
+domain: emailkite.com
+status: auto
+flag: 🇺🇸
+a:
+- {host: '72.52.144.164', flag: 🇺🇸, country: United States, asn: AS32244, org: 'Liquid Web, L.L.C'}
+mx:
+- {host: emailkite.com, flag: 🇺🇸, country: United States, asn: AS32244, org: 'Liquid Web, L.L.C'}
+created: '2007-07-09'
+expires: '2028-07-09'
+alliance: 5
+jurisdiction:
+- United States
+description: Email Kite
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+security:
+  spf: ~all
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.emailkite.com:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2011-01-28'
+last_checked: '2026-10-30'

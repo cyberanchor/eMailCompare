@@ -1,0 +1,38 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 187
+domain: donarev419.com
+status: auto
+flag: 🇩🇪
+domains:
+- easymails.cc
+a:
+- {host: '2.56.244.97', flag: 🇩🇪, country: Germany, asn: AS216063, org: '24fire GmbH'}
+mx:
+- {host: mail.donarev419.com, flag: 🇩🇪, country: Germany, asn: AS44486, org: synlinq.de}
+created: '2023-04-11'
+expires: '2027-04-11'
+alliance: 14
+jurisdiction:
+- Germany
+description: |-
+  donarev419.com
+  Create email addresses, upload files and shorten links easily.
+tos_summary: |-
+  Illegal actions (spam, hacking)
+  https://web.archive.org/web/20260711135155/https://donarev419.com/terms-of-service
+privacy_summary: |-
+  Collect IP addresses, third parties, GDPR
+  https://web.archive.org/web/20260711135155/https://donarev419.com/privacy-policy
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website unreachable (timeout: timed out). Reachable from 5 of 5 check-host.net locations (Bulgaria, Spain, Iran, Kazakhstan, Turkey): the site blocks some networks. Website text taken from the Wayback Machine copy of 2026-09-14 (https://web.archive.org/web/20260914185331/https://donarev419.com/). Wayback Machine captures: 2023-07-08 to 2026-09-14. IMAP (port 993) does not answer on imap.donarev419.com, mail.donarev419.com, nor from 5 check-host.net locations. Mail DNS: SPF, DMARC p=reject, DNSSEC. Per its ToS (https://donarev419.com/terms-of-service), e-mail hosting runs as the standalone service easymails.cc with its own terms (https://easymails.cc/terms-of-service); file hosting is easyfiles.cc. All three domains share the web server 2.56.244.97 and the mail server 212.87.214.42. ToS: German law and courts; contact support@donarev419.com or Discord. Privacy policy: registration records (username, e-mail, hashed password, IP, timestamps), session records (IP, timestamps until the session closes); no selling of data; may share with service providers, on legal requests and in a business transfer.'
+links:
+  tos: https://donarev419.com/terms
+  privacy: https://donarev419.com/privacy-policy
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'no'
+online_since: '2023-07-08'
+last_checked: '2026-10-30'

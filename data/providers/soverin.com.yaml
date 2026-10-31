@@ -1,0 +1,49 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 105
+domain: soverin.com
+status: auto
+flag: 🇳🇱
+domains:
+- sinenomine.email
+a:
+- {host: '185.233.34.14', flag: 🇳🇱, country: Netherlands, asn: AS211993, org: Soverin B.V.}
+mx:
+- {host: mx.soverin.net, flag: 🇳🇱, country: Netherlands, asn: AS211993, org: Soverin B.V.}
+created: '2004-08-20'
+expires: '2027-08-20'
+owner: 🇳🇱 Soverin B.V
+alliance: 9
+jurisdiction:
+- Netherlands
+description: 'Soverin: Home'
+tos_summary: |-
+  Illegal actions (spam, hacking), IP violation, harassment
+  https://soverin.com/about/general-terms-and-conditions
+privacy_summary: |-
+  Cookies, no tracking (claimed), third parties, share upon authorities' request, encryption
+  https://soverin.com/about/privacy
+price:
+- free
+- €3,25/month
+- €13/year
+- €18/year
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: no personal data required.'
+links:
+  tos: https://soverin.com/about/general-terms-and-conditions
+  privacy: https://soverin.com/about/privacy
+social:
+- https://linkedin.com/company/soverin
+- https://bsky.app/profile/teamsoverin.bsky.social
+- https://mstdn.social/@soverin
+security:
+  spf: ~all
+  dmarc: reject
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'yes'
+servers:
+- {kind: IMAP, host: 'imap.soverin.com:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2001-09-05'
+last_checked: '2026-10-30'

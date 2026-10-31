@@ -1,0 +1,18 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 214
+domain: noblogs.org
+status: pending
+flag: 🇮🇹
+created: '2005-11-19'
+expires: '2030-11-19'
+owner: 🇮🇹 Autistici/Inventati collective
+alliance: 14
+jurisdiction:
+- Italy
+tos_summary: |-
+  Illegal actions (spam), IP violation, harassment
+  Delete inactive accounts (4 mos.)
+  https://web.archive.org/web/20260827145800/https://www.autistici.org/who/policy
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. No MX record: domain cannot receive mail. Website unreachable (gaierror: [Errno -2] Name or service not known). Website text taken from the Wayback Machine copy of 2026-09-17 (https://web.archive.org/web/20260917212210/https://noblogs.org/). Wayback Machine captures: 2006-11-09 to 2026-09-17.'
+online_since: '2006-11-09'
+last_checked: '2026-10-30'

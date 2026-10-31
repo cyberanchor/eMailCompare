@@ -1,0 +1,46 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 115
+domain: directbox.com
+status: auto
+flag: 🇩🇪
+a:
+- {host: '185.158.133.1', flag: 🇵🇱, country: Poland, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: amx2.xworks.net, flag: 🇩🇪, country: Germany, asn: AS205542, org: Datahaus GmbH}
+created: '1998-09-02'
+expires: '2027-09-01'
+owner: 🇩🇪 BEAM GmbH
+alliance: 14
+jurisdiction:
+- Germany
+description: |-
+  directBOX: E-Mail, Cloud-Speicher & Kalender aus Deutschland
+  Dein digitaler Kommunikations-Hub: kostenloses E-Mail-Postfach, Cloud-Speicher, Kalender und Adressbuch – werbefrei, sicher und aus Deutschland. Seit 1999.
+tos_summary: |-
+  Illegal actions (spam, hacking), IP violation, commercial use
+  https://directbox.com/agb
+privacy_summary: |-
+  Collect IP addresses, cookies, no tracking (claimed), third parties, share upon authorities' request, GDPR
+  https://directbox.com/datenschutz
+price:
+- free
+- '1,00€/month'
+- '3,00€/month'
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://directbox.com/agb
+  privacy: https://directbox.com/datenschutz
+  imprint: https://directbox.com/impressum
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: missing
+  tls_rpt: 'yes'
+  dnssec: 'yes'
+  dane: 'yes'
+servers:
+- {kind: IMAP, host: 'imap.xworks.net:993', note: SSL/TLS}
+- {kind: POP3, host: 'pop3.xworks.net:995', note: SSL/TLS}
+- {kind: SMTP, host: 'smtp.xworks.net:465', note: SSL/TLS}
+online_since: '1999-11-27'
+last_checked: '2026-10-30'

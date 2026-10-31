@@ -1,0 +1,32 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 25
+domain: dnmx.su
+status: checked
+domains:
+- dnmxjaitaiafwmss2lx7tbs5bv66l7vjdmb5mtb3yqpxqhk3it5zivad.onion
+a:
+- {host: '162.4.84.239', flag: 🇺🇸, country: United States, asn: AS154653, org: ParkLogic Pty Ltd}
+mx:
+- {host: mx156.hostedmxserver.com, flag: 🇳🇱, country: Netherlands, asn: AS14061, org: 'DigitalOcean, LLC'}
+created: '2024-08-03'
+expires: '2027-09-05'
+jurisdiction:
+- Panama
+description: The Anonymous Email Service For The Dark Net — DNMX
+tos_summary: Terrorism, blackmail, or other crimes on the platform
+privacy_summary: No personal data collected (identity not requested); server data encrypted with full disk encryption. No sharing; legal disclosure not specified.
+email: 'no'
+phone: 'no'
+personal: 'no'
+price:
+- free
+note: 'DNMX (Dark Net Mail Exchange) is a free anonymous email service operating exclusively through the Tor network, accessible only via a .onion address. Designed to ensure freedom of communication in the darknet, DNMX functions like Gmail or Yahoo Mail but prioritizes anonymity and data protection. It’s a service for those who want to communicate without censorship or surveillance, maintaining privacy in the digital realm.  Security & Anonymity: DNMX offers a high degree of anonymity by neither requesting nor storing users’ personal information—your identity isn’t required to use the service. Access is restricted to the Tor network, concealing IP addresses and locations by routing traffic through multiple nodes. Servers are secured with full disk encryption, rendering data inaccessible even if physically seized. However, the service doesn’t guarantee built-in end-to-end encryption for messages and strongly recommends using PGP for sensitive correspondence, cautioning that even they shouldn’t be fully trusted. A minimal data collection policy suggests no identifying information is retained, and there’s no mention of sharing with third parties (likely minimal due to its darknet context). Privacy hinges on user actions, including PGP use and Tor compliance.  Use Cases: DNMX is ideal for darknet users who value free speech and basic anonymity without complex setups. It’s well-suited for:      Anonymous communication within the Tor network, such as with other darknet users.     Individuals evading censorship from authorities or corporations.     Simple correspondence in scenarios requiring minimal identification. The service prohibits terrorism, blackmail, or other crimes, making it unsuitable for illegal activities. Due to the lack of built-in message encryption, it’s less ideal for highly sensitive data (e.g., for journalists or activists) unless PGP is applied. DNMX is a practical tool for those who prioritize anonymity and communication freedom in the darknet, willing to bolster security themselves if needed. It’s best for basic tasks with a focus on privacy within the Tor ecosystem.'
+security:
+  spf: -all
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2024-08-10'
+last_checked: '2026-10-30'

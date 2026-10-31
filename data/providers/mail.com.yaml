@@ -1,0 +1,44 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 5
+domain: mail.com
+status: checked
+flag: 🇺🇸
+a:
+- {host: '217.72.199.107', flag: 🇩🇪, country: Germany, asn: AS8560, org: IONOS SE}
+- {host: '217.72.199.108', flag: 🇩🇪, country: Germany, asn: AS8560, org: IONOS SE}
+mx:
+- {host: mx00.mail.com, flag: 🇺🇸, country: United States, asn: AS8560, org: IONOS SE}
+- {host: Mx01.mail.com, flag: 🇺🇸, country: United States, asn: AS8560, org: IONOS SE}
+created: '1997-03-24'
+expires: '2027-03-25'
+owner: 🇺🇸 1&1 Mail & Media Inc.
+alliance: 5
+jurisdiction:
+- United States
+description: |-
+  Free email accounts with mail.com | Log in here or register today
+  The right email address for you ✔ Secure ✔ 100+ domain names ✔ Up to 10 mail addresses ✔ Sync across devices ✔ 65GB email storage ✔ Sign up today!
+tos_summary: Illegal actions (spam, phishing, IP theft), reselling services, excessive usage, under 16 without consent, inactivity (>6 months, free accounts)
+privacy_summary: Collect name, gender, DOB, address, email, phone, payment info, IP logs, usage data, cookies. Store in US indefinitely. Share with affiliates, 3rd parties (ads, analytics), legal requests.
+email: 'Yes'
+phone: 'Yes'
+personal: 'Yes'
+price:
+- Free
+note: 'Mail.com is an American email service by 1&1 Mail & Media Inc., offering unique email addresses, cloud storage, and basic organizer features. It’s suitable for everyday communication, file storage, and casual use. Security & Anonymity: It uses SSL encryption for data transmission but lacks end-to-end encryption, reducing content privacy. Anonymity is limited: requires personal data (name, DOB) at signup, logs IPs, and shares info with third parties for ads, making it unsuitable for privacy-focused users. Mail.com works well for simple personal or temporary needs but falls short in security and anonymity compared to services like Proton Mail or Tutanota.'
+security:
+  spf: redirect
+  dmarc: quarantine
+  mta_sts: testing
+  tls_rpt: 'yes'
+  dnssec: 'yes'
+  dane: 'yes'
+servers:
+- {kind: IMAP, host: 'imap.mail.com:993', note: SSL/TLS}
+- {kind: IMAP, host: 'imap.mail.com:143', note: STARTTLS}
+- {kind: POP3, host: 'pop.mail.com:995', note: SSL/TLS}
+- {kind: POP3, host: 'pop.mail.com:110', note: STARTTLS}
+- {kind: SMTP, host: 'smtp.mail.com:465', note: SSL/TLS}
+- {kind: SMTP, host: 'smtp.mail.com:587', note: STARTTLS}
+online_since: '1996-12-28'
+last_checked: '2026-10-30'

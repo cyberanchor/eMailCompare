@@ -1,0 +1,58 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 1
+domain: protonmail.ch
+status: checked
+flag: 🇨🇭
+domains:
+- proton.me
+- protonmail.com
+a:
+- {host: '185.70.42.21', flag: 🇨🇭, country: Switzerland, asn: AS62371, org: Proton AG}
+mx:
+- {host: mail.protonmail.ch, flag: 🇨🇭, country: Switzerland, asn: AS62371, org: Proton Technologies AG}
+- {host: mailsec.protonmail.ch, flag: 🇨🇭, country: Switzerland, asn: AS62371, org: Proton Technologies AG}
+created: '2013-08-29'
+expires: '2026-08-21'
+owner: 🇨🇭 Proton AG
+jurisdiction:
+- Switzerland
+description: "Proton Mail: Get a private, secure, and encrypted email account\nProton Mail is the world’s largest secure email service with, \nOver 100 million users.\nAvailable on Web, iOS, Android, and desktop.\nProtected by Swiss privacy law."
+tos_summary: |-
+  Illegal actions (CSAM, spam, hacking), IP violation, insults, self-referrals, fraud
+  Collect per Privacy Policy, store without guarantees, delete inactive accounts (12 mos.), share upon authorities' request
+privacy_summary: Collect per Privacy Policy, store without guarantees, delete inactive accounts (12 mos.), share upon authorities' request
+email: 'yes'
+phone: optional
+personal: 'yes'
+price:
+- free
+- Unlimited $9.99/month
+note: Proton Mail is a secure email service with end-to-end encryption, created by the Swiss company Proton AG. It is suitable for registering on various services, collects user information, and shares data with authorities. For registration, it is recommended to use anti-detect browsers and clean mobile proxies.
+links:
+  tos: https://proton.me/legal/terms
+  privacy: https://proton.me/legal/privacy
+social:
+- https://www.reddit.com/r/ProtonMail
+- https://www.instagram.com/protonprivacy
+- https://www.facebook.com/Proton
+- https://www.linkedin.com/company/protonprivacy
+- https://www.threads.net/@protonprivacy
+- https://t.me/proton_privacy
+- https://www.youtube.com/@ProtonAG
+- https://www.youtube.com/@ProtonPrivacy
+- https://www.tiktok.com/@privacytok
+- https://bsky.app/profile/proton.me
+- https://discord.gg/proton
+onion: http://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion/
+security:
+  spf: ~all
+  dmarc: quarantine
+  mta_sts: enforce
+  tls_rpt: 'yes'
+  dnssec: 'yes'
+  dane: 'yes'
+servers:
+- {kind: IMAP, host: '127.0.0.1:1143', note: STARTTLS}
+- {kind: SMTP, host: '127.0.0.1:1025', note: STARTTLS}
+online_since: '2014-04-22'
+last_checked: '2026-10-30'

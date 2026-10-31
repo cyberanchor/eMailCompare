@@ -1,0 +1,85 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 86
+domain: aikq.de
+status: auto
+flag: 🇩🇪
+domains:
+- aikq.ae
+- aikq.asia
+- aikq.at
+- aikq.be
+- aikq.biz
+- aikq.ch
+- aikq.chat
+- aikq.cloud
+- aikq.co
+- aikq.co.uk
+- aikq.com
+- aikq.cz
+- aikq.email
+- aikq.eu
+- aikq.fr
+- aikq.in
+- aikq.info
+- aikq.li
+- aikq.me
+- aikq.name
+- aikq.net
+- aikq.nl
+- aikq.org
+- aikq.tv
+- aikq.tw
+- aikq.uk
+- aikq.us
+- aikq.ws
+- emails.biz
+- inbox.de
+- inbox.in
+- inbox.net
+- inbox.org
+- inbox.uk
+- inbox.wiki
+- mail-s.biz
+- mailbox.info
+- mails.biz
+- mails.cz
+- mails.eu
+- mails.info
+- ned.link
+- newsletter.biz
+- qrcode.info
+- qrcode.org
+- x4.net
+a:
+- {host: '185.7.196.68', flag: 🇩🇪, country: Germany, asn: AS60294, org: Deutsche Glasfaser Wholesale GmbH}
+mx:
+- {host: mx1.aikq.de, flag: 🇩🇪, country: Germany, asn: AS60294, org: Deutsche Glasfaser Wholesale GmbH}
+- {host: mail.aikq.de, flag: 🇩🇪, country: Germany, asn: AS60294, org: Deutsche Glasfaser Wholesale GmbH}
+owner: 🇩🇪 Individual operator
+alliance: 14
+jurisdiction:
+- Germany
+description: aikQ Mail
+tos_summary: |-
+  Illegal actions (spam)
+  https://www.aikq.de/index.php?action=tos
+privacy_summary: |-
+  Collect IP addresses, cookies, analytics/tracking, advertising, third parties, encryption, GDPR
+  https://www.aikq.de/index.php?action=Datenschutz
+price:
+- free
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: no personal data required.'
+links:
+  tos: https://www.aikq.de/index.php?action=tos
+  privacy: https://www.aikq.de/index.php?action=Datenschutz
+security:
+  spf: ~all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'yes'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.aikq.de:993', note: SSL/TLS}
+online_since: '2010-05-31'
+last_checked: '2026-10-30'

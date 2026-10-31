@@ -1,0 +1,35 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 117
+domain: erine.email
+status: auto
+flag: 🇫🇷
+a:
+- {host: '104.21.80.136', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '172.67.183.127', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: smtp-in.erine.email, flag: 🇫🇷, country: France, asn: AS16276, org: OVH SAS}
+created: '2016-10-19'
+expires: '2027-10-19'
+owner: 🇫🇷 Mikaël Davranche
+alliance: 9
+jurisdiction:
+- France
+description: |-
+  erine.email — anti-spam for your existing email address
+  erine.email — a free, open-source anti-spam for the inbox you already have.
+price:
+- free
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  tos: https://gitlab.com/mdavranche/erine.email/-/wikis/Restrictions/Fair-use
+  privacy: https://gitlab.com/mdavranche/erine.email/-/wikis/SaaS/Privacy-policy
+  code: https://gitlab.com/mdavranche/erine.email
+security:
+  spf: -all
+  dmarc: none
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2018-08-08'
+last_checked: '2026-10-30'

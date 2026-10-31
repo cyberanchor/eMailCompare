@@ -1,0 +1,42 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 87
+domain: beeble.com
+status: auto
+flag: 🇱🇻
+a:
+- {host: '168.119.227.40', flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+mx:
+- {host: m1c2.beeble.com, flag: 🇫🇮, country: Finland, asn: AS24940, org: Hetzner Online GmbH}
+created: '2001-05-17'
+expires: '2028-05-17'
+owner: 🇱🇻 SIA Sikneco Technologies
+jurisdiction:
+- Latvia
+description: |-
+  Beeble - Encrypted email and Secure cloud storage solution
+  The Beeble Project is email and online cloud storage platform with unprecedented security and privacy without third party access.
+tos_summary: |-
+  Illegal actions (CSAM, spam, hacking), IP violation, harassment, fraud, commercial use, multiple accounts
+  https://beeble.com/en/terms-of-use
+privacy_summary: |-
+  Third parties, share upon authorities' request, encryption, GDPR
+  https://beeble.com/en/gdpr
+price:
+- free
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: PGP/E2E encryption.'
+links:
+  tos: https://beeble.com/en/terms-of-use
+  privacy: https://beeble.com/en/privacy-policy
+social:
+- https://discord.gg/4qxgENrfgs
+- https://www.reddit.com/r/BeeblePlatform
+- https://www.linkedin.com/company/beeble-platorm
+security:
+  spf: -all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '1999-11-28'
+last_checked: '2026-10-30'

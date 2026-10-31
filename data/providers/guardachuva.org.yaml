@@ -1,0 +1,27 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 212
+domain: guardachuva.org
+status: pending
+flag: 🇸🇬
+a:
+- {host: '188.114.97.3', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '188.114.96.3', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+mx:
+- {host: _dc-mx.95cc050cb0f4.guardachuva.org, flag: 🇸🇬, country: Singapore, asn: AS47583, org: Hostinger International Limited}
+created: '2022-06-17'
+expires: '2027-06-17'
+jurisdiction:
+- Singapore
+description: |-
+  โยคะบําบัด Restorative Yoga ฟื้นฟูร่างกายหลังเหนื่อยล้า
+  เหนื่อยล้าสะสม นอนเท่าไหร่ก็ไม่หาย? ลองโยคะบําบัด Restorative Yoga ที่ฟื้นฟูร่างกายและจิตใจในระดับลึก พร้อม 4 ท่าฝึกง่าย ๆ ทำเองที่บ้านได้
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Homepage does not mention e-mail. Domain registration dates from 2022-06-17, but the Wayback Machine has captures since 2006-04-13: the domain was registered before, possibly by someone else. IMAP (port 993) does not answer on mail.guardachuva.org, _dc-mx.95cc050cb0f4.guardachuva.org, nor from 5 check-host.net locations. Mail DNS: no SPF, DMARC, MTA-STS, DANE or DNSSEC.'
+security:
+  spf: missing
+  dmarc: missing
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+online_since: '2006-04-13'
+last_checked: '2026-10-30'

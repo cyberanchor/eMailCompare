@@ -1,0 +1,115 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 229
+domain: posteo.de
+status: pending
+flag: 🇩🇪
+domains:
+- biomail.at
+- biomail.de
+- biomail.me
+- bytepost.net
+- echtzeitmail.de
+- internetpost.net
+- posteo.ae
+- posteo.af
+- posteo.at
+- posteo.au
+- posteo.be
+- posteo.bg
+- posteo.biz
+- posteo.ca
+- posteo.ch
+- posteo.cl
+- posteo.co
+- posteo.co.uk
+- posteo.com
+- posteo.com.br
+- posteo.cr
+- posteo.cz
+- posteo.dk
+- posteo.ec
+- posteo.ee
+- posteo.es
+- posteo.eu
+- posteo.fi
+- posteo.gl
+- posteo.gr
+- posteo.hn
+- posteo.hr
+- posteo.hu
+- posteo.ie
+- posteo.in
+- posteo.is
+- posteo.it
+- posteo.jp
+- posteo.kr
+- posteo.la
+- posteo.li
+- posteo.lt
+- posteo.lu
+- posteo.lv
+- posteo.me
+- posteo.mk
+- posteo.mx
+- posteo.my
+- posteo.net
+- posteo.nl
+- posteo.no
+- posteo.nz
+- posteo.org
+- posteo.pe
+- posteo.pl
+- posteo.pm
+- posteo.pt
+- posteo.ro
+- posteo.ru
+- posteo.se
+- posteo.sg
+- posteo.si
+- posteo.sk
+- posteo.tn
+- posteo.ug
+- posteo.uk
+- posteo.us
+- postspeicher.de
+- schoenemail.de
+- sloob.de
+a:
+- {host: '185.67.36.168', flag: 🇩🇪, country: Germany, asn: AS8495, org: INTERNET AG Global Network}
+- {host: '185.67.36.169', flag: 🇩🇪, country: Germany, asn: AS8495, org: INTERNET AG Global Network}
+mx:
+- {host: mx01.posteo.de, flag: 🇩🇪, country: Germany, asn: AS8495, org: INTERNET AG Global Network}
+- {host: mx02.posteo.de, flag: 🇩🇪, country: Germany, asn: AS8495, org: INTERNET AG Global Network}
+- {host: mx03.posteo.de, flag: 🇩🇪, country: Germany, asn: AS8495, org: INTERNET AG Global Network}
+- {host: mx04.posteo.de, flag: 🇩🇪, country: Germany, asn: AS8495, org: INTERNET AG Global Network}
+owner: 🇩🇪 Posteo e.K.
+alliance: 14
+jurisdiction:
+- Germany
+description: |-
+  Email green, secure, simple and ad-free - posteo.de -
+  Posteo is an innovative email provider that is concerned with sustainability and privacy and is completely ad-free. Our email accounts, calendars and address books can be synchronised - we use comprehensive encryption.
+tos_summary: |-
+  Illegal actions (spam, hacking), commercial use
+  https://posteo.de/en/site/terms
+privacy_summary: |-
+  Advertising, no third-party sharing (claimed), share upon authorities' request, encryption, GDPR
+  https://posteo.de/en/site/faq
+price:
+- free
+- '1EUR/month'
+note: 'Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Mail servers belong to Posteo. IMAP server posteo.de:993 answers (Dovecot). Publishes mail client autoconfig. Webmail: https://posteo.de/. Mail DNS: SPF, DMARC p=none, MTA-STS, DANE, DNSSEC. Site mentions: no personal data required, PGP/E2E encryption.'
+security:
+  spf: ~all
+  dmarc: none
+  mta_sts: enforce
+  tls_rpt: 'yes'
+  dnssec: 'yes'
+  dane: 'yes'
+servers:
+- {kind: IMAP, host: 'posteo.de:993', note: SSL/TLS}
+- {kind: POP3, host: 'posteo.de:995', note: SSL/TLS}
+- {kind: SMTP, host: 'posteo.de:465', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2010-11-12'
+last_checked: '2026-10-30'

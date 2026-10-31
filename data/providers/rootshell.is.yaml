@@ -1,0 +1,30 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 228
+domain: rootshell.is
+status: pending
+flag: 🇺🇸
+a:
+- {host: '89.127.233.140', flag: 🇮🇸, country: Iceland, asn: AS44925, org: '1984 ehf'}
+mx:
+- {host: mail.rootshell.is, flag: 🇮🇸, country: Iceland, asn: AS44925, org: '1984 ehf'}
+created: '2026-03-13'
+jurisdiction:
+- Iceland
+description: rootshell
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. IMAP server mail.rootshell.is:993 answers (Dovecot). Mail DNS: SPF, DMARC p=reject, MTA-STS, DANE, DNSSEC.'
+links:
+  code: https://codeberg.org/haptagod/rootshell-mail
+social:
+- https://x.com/rootshell0
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: enforce
+  tls_rpt: 'yes'
+  dnssec: 'yes'
+  dane: 'yes'
+servers:
+- {kind: IMAP, host: 'mail.rootshell.is:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2026-03-27'
+last_checked: '2026-10-30'

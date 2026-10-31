@@ -1,0 +1,18 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 220
+domain: z.org
+status: pending
+dead: true
+flag: 🇺🇸
+created: '1993-12-01'
+expires: '2027-12-08'
+owner: 🇺🇸 Elektrine, LLC
+alliance: 5
+jurisdiction:
+- United States
+description: |-
+  Home · Elektrine
+  Elektrine is an integrated platform for email, Arblarg, social, Nerve, VPN, and DNS.
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Struck out in README. DNS lookup failed (SERVFAIL). Website text taken from the Wayback Machine copy of 2026-05-26 (https://web.archive.org/web/20260526164156/https://z.org/). Wayback Machine captures: 2012-10-12 to 2026-05-26. Tor: khav7sdajxu6om3arvglevskg2vwuy7luyjcwfwg6xnkd7qtskr2vhad.onion.'
+online_since: '2012-10-12'
+last_checked: '2026-10-30'

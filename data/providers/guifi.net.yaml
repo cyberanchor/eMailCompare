@@ -1,0 +1,41 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 183
+domain: guifi.net
+status: auto
+flag: 🇪🇸
+a:
+- {host: '185.32.16.59', flag: 🇪🇸, country: Spain, asn: AS49835, org: Fundacio guifi.net}
+mx:
+- {host: smtp1.guifi.net, flag: 🇪🇸, country: Spain, asn: AS49835, org: Fundacio guifi.net}
+- {host: smtp2.guifi.net, flag: 🇪🇸, country: Spain, asn: AS49835, org: Fundacio guifi.net}
+- {host: smtp3.guifi.net, flag: 🇪🇸, country: Spain, asn: AS49835, org: Fundacio guifi.net}
+created: '2004-02-28'
+expires: '2027-02-28'
+owner: 🇪🇸 Fundació guifi.net
+alliance: 14
+jurisdiction:
+- Spain
+description: Una xarxa on connectar-s’hi i contractar serveis ajuda a la millora de les telecomunicacions a la teva zona.
+privacy_summary: |-
+  Cookies, GDPR
+  https://landing.guifi.net/politica-de-privadesa-i-avis-legal/
+price:
+- donations
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Homepage does not mention e-mail. IMAP server mail.guifi.net:993 answers (Dovecot). Mail DNS: SPF, DMARC p=reject.'
+links:
+  privacy: https://landing.guifi.net/politica-de-privadesa-i-avis-legal/
+social:
+- https://www.instagram.com/guifinet
+- https://twitter.com/guifinet
+security:
+  spf: ~all
+  dmarc: reject
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.guifi.net:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2004-03-24'
+last_checked: '2026-10-30'

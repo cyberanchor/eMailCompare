@@ -1,0 +1,36 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 244
+domain: orange.fr
+status: pending
+flag: 🇫🇷
+domains:
+- wanadoo.fr
+a:
+- {host: '193.252.117.135', flag: 🇫🇷, country: France, asn: AS24600, org: Orange S.A.}
+- {host: '81.52.142.219', flag: 🇫🇷, country: France, asn: AS8891, org: Orange S.A.}
+mx:
+- {host: smtp-in.orange.fr, flag: 🇫🇷, country: France, asn: AS3215, org: Orange S.A.}
+- {host: smtp-in2.orange.fr, flag: 🇫🇷, country: France, asn: AS3215, org: Orange S.A.}
+created: '2001-02-01'
+expires: '2027-10-14'
+owner: 🇫🇷 Orange S.A.
+alliance: 9
+jurisdiction:
+- France
+note: 'Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. IMAP server imap.orange.fr:993 answers (Dovecot). Listed in Thunderbird''s ISPDB. Mail DNS: SPF, DMARC p=quarantine.'
+links:
+  privacy: https://tech.orange.fr/securite/mes-donnees/pour-contrer-les-cyberattaques-ce-procede-veut-vider-les-serveurs-de-nos-donnees-CNT000002tqUD4.html
+security:
+  spf: ~all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'imap.orange.fr:993', note: SSL/TLS}
+- {kind: POP3, host: 'pop.orange.fr:995', note: SSL/TLS}
+- {kind: SMTP, host: 'smtp.orange.fr:465', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '2001-06-27'
+last_checked: '2026-10-30'

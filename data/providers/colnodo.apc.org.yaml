@@ -1,0 +1,41 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 122
+domain: colnodo.apc.org
+status: auto
+flag: 🇨🇴
+a:
+- {host: '45.171.118.54', flag: 🇨🇴, country: Colombia, asn: AS262191, org: LIBERTY NETWORKS DE COLOMBIA S.A.S}
+mx:
+- {host: mail.colnodo.co, flag: 🇨🇴, country: Colombia, asn: AS262191, org: LIBERTY NETWORKS DE COLOMBIA S.A.S}
+created: '1991-04-18'
+expires: '2027-04-19'
+owner: 🇨🇴 Asociación Colnodo
+jurisdiction:
+- Colombia
+description: |-
+  Inicio - Colnodo
+  Creamos vínculos responsables entre las comunidades y las TIC, desarrollando sistemas accesibles, diseñando procesos de empoderamiento y formación; y generando conocimiento alrededor de uso y ecosistema de las tecnologías en Colombia
+privacy_summary: |-
+  No third-party sharing (claimed), share upon authorities' request
+  https://colnodo.apc.org/es/aviso-privacidad
+note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+links:
+  privacy: https://colnodo.apc.org/es/aviso-privacidad
+social:
+- https://www.facebook.com/Colnodo
+- https://x.com/Colnodo
+- https://www.linkedin.com/company/colnodo
+- https://www.instagram.com/colnodo
+- https://www.youtube.com/user/Colnodo
+security:
+  spf: ~all
+  dmarc: quarantine
+  mta_sts: missing
+  tls_rpt: missing
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.colnodo.apc.org:993', note: SSL/TLS}
+- {kind: IMAP software, host: Dovecot}
+online_since: '1996-12-22'
+last_checked: '2026-10-30'
