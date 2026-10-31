@@ -1,9 +1,0 @@
-# GitHub Pages builds this repository with Jekyll. site/ holds Hugo sources whose templates and shortcodes
-# Jekyll's Liquid would try to render; only the built pages (site/public/, site/index.html) are served.
-exclude:
-  - site/content
-  - site/layouts
-  - site/assets
-  - site/config
-  - site/static
-  - site/build.sh
