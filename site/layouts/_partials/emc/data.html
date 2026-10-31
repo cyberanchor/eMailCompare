@@ -116,11 +116,12 @@
   {{- $onion := $r.onion | default "" -}}
   {{- if not (findRE `^https?://[a-z2-7]{56}\.onion/?$` $onion) -}}{{- $onion = "" -}}{{- end -}}
 
-  {{- /* Age of the domain in whole years */ -}}
+  {{- /* Age of the domain in whole years: one less until this year's anniversary */ -}}
   {{- $age := "" -}}
   {{- if findRE `^\d{4}-\d{2}-\d{2}$` $created -}}
-    {{- $days := div (sub now.Unix (time $created).Unix) 86400 -}}
-    {{- $age = div $days 365 -}}
+    {{- $c := time $created -}}
+    {{- $age = sub now.Year $c.Year -}}
+    {{- if lt (now.Format "01-02") ($c.Format "01-02") -}}{{- $age = sub $age 1 -}}{{- end -}}
   {{- end -}}
   {{- $out = $out | append (dict
       "n" (add $i 1)
