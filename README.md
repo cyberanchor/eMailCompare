@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/logo.png" width="200"></img>
+<img src="./assets/logo.webp" width="200"></img>
 <h1> Yet Another Email Service Comparison </h1>
 
 <sub>Comparison of email providers, from privacy-focused services to general-purpose platforms. Built with Hugo and the PaperMod theme.</sub>
