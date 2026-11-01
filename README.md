@@ -37,12 +37,12 @@
 ## Screenshots
 
 <div style="text-align: center;">
-  <img src="./assets/scr1.png" width="800" height="402" style="display: block; margin-left: auto; margin-right: auto;">
+  <img src="./assets/scr1.webp" width="800" height="500" style="display: block; margin-left: auto; margin-right: auto;">
 </div>
 
 
 <div style="text-align: center;">
-  <img src="./assets/scr2.png" width="800" height="402" style="display: block; margin-left: auto; margin-right: auto;">
+  <img src="./assets/scr2.webp" width="800" height="500" style="display: block; margin-left: auto; margin-right: auto;">
 </div>
 
 
