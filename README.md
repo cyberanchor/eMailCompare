@@ -319,8 +319,8 @@ Email services awaiting manual account registration and subsequent testing.
 <a href="https://github.com/cyberanchor/eMailCompare/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=cyberanchor/eMailCompare" />
 </a>
-<a href="https://github.com/vaelmail" title="vaelmail">
-  <img src="https://github.com/vaelmail.png?size=64" width="64" height="64" alt="vaelmail" />
+<a href="https://github.com/titanism" title="titanism">
+  <img src="https://github.com/titanism.png?size=64" width="64" height="64" alt="titanism" />
 </a>
 
 <!--
