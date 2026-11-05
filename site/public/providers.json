@@ -16619,5 +16619,83 @@
     ],
     "status": "pending",
     "tos_summary": "Illegal actions (spam), harassment\nhttps://lain.rocks/sites/tos.html"
+  },
+  {
+    "a": [
+      {
+        "asn": "AS14618",
+        "country": "United States",
+        "flag": "🇺🇸",
+        "host": "18.204.123.63",
+        "org": "Amazon.com, Inc."
+      }
+    ],
+    "alliance": 5,
+    "created": "2018-09-11",
+    "description": "Cheap email for everyone | Purelymail\nEmail, pure and simple. Bring your domain and users; we'll handle the rest. Route incoming mail anywhere and send outgoing messages with confidence, minus the technical bloat.",
+    "domain": "purelymail.com",
+    "domains": [
+      "cheapermail.com",
+      "placeq.com",
+      "rethinkmail.com",
+      "worldofmail.com"
+    ],
+    "expires": "2027-09-11",
+    "flag": "🇺🇸",
+    "jurisdiction": [
+      "United States"
+    ],
+    "last_checked": "2026-11-05",
+    "links": {
+      "imprint": "https://purelymail.com/about",
+      "privacy": "https://purelymail.com/privacy",
+      "tos": "https://purelymail.com/termsofservice"
+    },
+    "mx": [
+      {
+        "asn": "AS14618",
+        "country": "United States",
+        "flag": "🇺🇸",
+        "host": "mailserver.purelymail.com",
+        "org": "Amazon.com, Inc."
+      }
+    ],
+    "note": "Auto-collected 2026-11-05 (DNS, RDAP/whois, website); registration not tested. Mainly hosting for your own domains (unlimited domains and users); the account address is on purelymail.com, cheapermail.com, placeq.com, rethinkmail.com or worldofmail.com, chosen at signup. Created by an individual developer and sold to Add Rabbit LLC (Pennsylvania entity 7240402, Erie, PA) in March 2025; terms under US federal and Delaware law. Signup: the $10 plan is paid through Stripe or PayPal, recovery email and phone are optional; the free trial needs an SMS-capable phone (kept until activation). Refunds within 30 days, minus $3. Mail stored encrypted with a key derived from the password when password reset is turned off; no end-to-end encryption (S/MIME in the client suggested), closed source, no audit, transparency report or user-notice policy published, no third-party trackers on the site. Domain registration dates from 2018-09-11, but the Wayback Machine has captures since 2013-04-16: the domain was registered before, possibly by someone else. Web and mail servers on Amazon AWS. IMAP server mailserver.purelymail.com:993 answers. Publishes mail client autoconfig. Mail DNS: SPF, DMARC p=reject, MTA-STS, TLS-RPT. Also from privacyratings.com (CC BY-SA 4.0): https://privacyratings.com/email-providers/purelymail/",
+    "online_since": "2013-04-16",
+    "order": 253,
+    "owner": "🇺🇸 Add Rabbit LLC",
+    "price": [
+      "trial",
+      "$10/year",
+      "Advanced: pay per use"
+    ],
+    "privacy_summary": "IP addresses (abuse prevention), diagnostic logs kept 30 days, trial phone number deleted after activation, billing via Stripe or PayPal, does not sell data (claimed), account data deleted on closure (backups up to 30 days), mail encrypted with a password-derived key when password reset is off\nhttps://purelymail.com/privacy",
+    "security": {
+      "dane": "no",
+      "dmarc": "reject",
+      "dnssec": "no",
+      "mta_sts": "enforce",
+      "spf": "~all",
+      "tls_rpt": "yes"
+    },
+    "servers": [
+      {
+        "host": "imap.purelymail.com:993",
+        "kind": "IMAP",
+        "note": "SSL/TLS"
+      },
+      {
+        "host": "pop3.purelymail.com:995",
+        "kind": "POP3",
+        "note": "SSL/TLS"
+      },
+      {
+        "host": "smtp.purelymail.com:465",
+        "kind": "SMTP",
+        "note": "SSL/TLS"
+      }
+    ],
+    "status": "auto",
+    "tos_summary": "Illegal actions (spam, mailing lists, advertising, domain reputation warming), 18+ or parental consent, may terminate without cause, discloses data on legal or government request, US federal and Delaware law\nhttps://purelymail.com/termsofservice"
   }
 ]
