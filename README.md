@@ -240,6 +240,7 @@ Accounts were manually registered on each email service, followed by controlled 
 | 🤖      | tinkmail.me            | 🇨🇳   |
 | 🤖      | donarev419.com         | 🇩🇪   |
 | 🤖      | purelymail.com         | 🇺🇸   |
+| 🤖      | kagimail.com           | 🇺🇸   |
 
 
 ## Pending email services

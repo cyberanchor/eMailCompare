@@ -1,0 +1,51 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 254
+domain: kagimail.com
+status: auto
+flag: 🇺🇸
+a:
+- {host: '136.110.160.252', flag: 🇺🇸, country: United States, asn: AS396982, org: Google LLC}
+mx:
+- {host: mail.kagimail.com, flag: 🇺🇸, country: United States, asn: AS396982, org: Google LLC}
+created: '2022-02-16'
+expires: '2028-02-16'
+owner: 🇺🇸 Kagi Inc.
+alliance: 5
+jurisdiction:
+- United States
+description: |-
+  Kagi Mail — An inbox that works for you
+  No ads, no tracking, ever. Just fast, private email that surfaces what matters — and stays out of your way the rest of the time.
+tos_summary: |-
+  Common terms of all Kagi services: frontend products for non-commercial use only, may suspend or terminate an account at any time for any reason (violation, legal risk, no longer commercially viable), services as is, liability capped at $500, Delaware law
+  https://kagi.com/privacy#Terms-of-use
+privacy_summary: |-
+  No analytics or telemetry on the site, only login and CSRF cookies, request logs not linked to an account (load balancer and VM logs 7 days, sampled server errors in Sentry 90 days), payments via Stripe, Reach, PayPal or OpenNode (crypto), warrant canary (0 national security letters, gag orders, warrants), GDPR / CCPA rights addendum; no section specific to Kagi Mail yet
+  https://kagi.com/privacy
+price:
+- free during beta
+- paid plans planned (price not set)
+note: 'Auto-collected 2026-11-09 (DNS, RDAP/whois, website, Kagi Mail FAQ at help.kagi.com/kagi/mail/); registration not tested. Email service of Kagi Inc. (Kagi search, Orion browser), a Delaware public benefit corporation with a mailing address in San Francisco; terms under Delaware law. kagimail.com redirects to the Kagi account login (account.kagi.com): signup creates a @kagimail.com address or uses an existing email; login also with Apple, Google, Microsoft or GitHub. The signup page says free during beta, no payment information required; the Kagi Mail FAQ still describes an alpha for Distinguished Members of the Kagi community with beta access sent in waves, and kagi.com lists Kagi Mail as coming soon. Pricing not final (premium, not ad-supported). Mail server Stalwart (open source); the webmail is Kagi''s own, built on JMAP, closed source. IMAP, SMTP, JMAP and Sieve; no mobile app yet. No end-to-end encryption (the FAQ suggests a client such as Thunderbird); remote images are proxied and most tracking pixels stripped. Random aliases on @kagimail.com, custom domains with their own aliases, MBOX and IMAP import (IMAP import stores the other account''s password encrypted). Opt-in LLM-based mail rules and assistant@kagimail.com (Kagi Assistant by email). The privacy policy covers all Kagi services and has a warrant canary. Web and mail servers on Google Cloud (AS396982), DNS on Cloudflare. IMAP server mail.kagimail.com:993 answers (Stalwart). Publishes mail client autoconfig and SRV records (IMAP, submission, JMAP). Mail DNS: SPF -all, DMARC p=reject, MTA-STS (testing mode), TLS-RPT, DNSSEC.'
+links:
+  tos: https://kagi.com/privacy#Terms-of-use
+  privacy: https://kagi.com/privacy
+  imprint: https://help.kagi.com/kagi/company/
+social:
+- https://mastodon.social/@KagiHQ
+- https://twitter.com/KagiHQ
+- https://www.linkedin.com/company/kagi-inc/
+- https://www.youtube.com/@KagiInc
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: testing
+  tls_rpt: 'yes'
+  dnssec: 'yes'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.kagimail.com:993', note: SSL/TLS}
+- {kind: POP3, host: 'mail.kagimail.com:995', note: SSL/TLS}
+- {kind: SMTP, host: 'mail.kagimail.com:465', note: SSL/TLS}
+- {kind: IMAP software, host: Stalwart}
+online_since: '2024-09-12'
+last_checked: '2026-11-09'
