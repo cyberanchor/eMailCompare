@@ -241,6 +241,7 @@ Accounts were manually registered on each email service, followed by controlled 
 | 🤖      | donarev419.com         | 🇩🇪   |
 | 🤖      | purelymail.com         | 🇺🇸   |
 | 🤖      | kagimail.com           | 🇺🇸   |
+| 🤖      | mailotte.com           | 🇬🇧   |
 
 
 ## Pending email services

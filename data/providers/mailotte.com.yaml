@@ -1,0 +1,47 @@
+# eMailCompare provider record; fields are described in data/README.md
+order: 255
+domain: mailotte.com
+status: auto
+flag: 🇬🇧
+a:
+- {host: '178.104.94.213', flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+mx:
+- {host: mail.mailotte.com, flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+- {host: mail-2.mailotte.com, flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+created: '2026-03-01'
+expires: '2027-03-01'
+owner: 🇬🇧 MAILOTTE LTD
+alliance: 5
+jurisdiction:
+- United Kingdom
+description: |-
+  Mailotte — The private AI inbox
+  Break up with Google and Microsoft — keep the smart inbox. Mailotte sorts your mail, blocks trackers, and never trains AI on it. EU-hosted, GDPR-native.
+tos_summary: |-
+  Illegal actions (spam, phishing, malware, harassment, impersonation, unauthorised access, automated signups), 16+, may suspend on suspected abuse pending verification (appeal by email), liability capped at 12 months of fees, pro-rata refund for yearly plans cancelled within 30 days, law of England and Wales
+  https://mailotte.com/terms-of-service.html
+privacy_summary: |-
+  Username, name, password; IP address, browser and access times kept 90 days, mail delivery events 30 days; marketing UTM tags stored with the account; product analytics opt-in (hashed in the browser); no ad scanning, no data sale, no AI training on mail; message bodies not encrypted at rest (attachments AES-256 with a key held by Mailotte); subprocessors Hetzner (DE), Clever Cloud (FR), Paddle (UK/US payments), Cloudflare Turnstile at signup (US), Mistral AI as AI fallback (FR); UK and EU GDPR, lead authority UK ICO
+  https://mailotte.com/privacy-policy.html
+price:
+- free
+- Zen €4.99/month (€3.99/month yearly)
+- Haven €9.99/month (€7.99/month yearly)
+note: 'Auto-collected 2026-11-11 (DNS, RDAP/whois, website, Companies House); registration not tested. AI-assisted mailbox (sorting, search over meaning, receipts and travel views) on @mailotte.com. Operated by MAILOTTE LTD, England and Wales company 17119010, incorporated 2026-03-26 (Companies House: active; SIC 62012, 62090); registered office 71-75 Shelton Street, London, a shared registered-office address. Very young service: domain registered 2026-03-01, certificates since 2026. Terms under the law of England and Wales. Data stored in the EU (Hetzner in Germany, Clever Cloud database in France); AI runs on a local model in Germany with Mistral AI (Paris) as fallback, not trained on mail. Signup at inbox.mailotte.com/register with a username and name, Cloudflare Turnstile captcha, no card; 14-day trial of all features, then the Free plan (5 GB, 3 aliases); Zen 25 GB, 10 aliases; Haven 100 GB, unlimited aliases, custom domains. Paid plans sold through Paddle (merchant of record). Not end-to-end encrypted (stated on the site); message bodies are stored unencrypted, attachments encrypted at rest with Mailotte''s key; PGP in beta with server-generated keys. 2FA, passkeys, app passwords. Tracking pixels blocked. Self-hosted Umami analytics on the website. Closed source, no audit yet. Web and mail servers at Hetzner (AS24940), DNS at Hetzner. IMAP server mail.mailotte.com:993 answers (Stalwart). Publishes mail client autoconfig and SRV records. Mail DNS: SPF -all, DMARC p=reject, MTA-STS enforce, TLS-RPT; no DNSSEC.'
+links:
+  tos: https://mailotte.com/terms-of-service.html
+  privacy: https://mailotte.com/privacy-policy.html
+  imprint: https://mailotte.com/about.html
+security:
+  spf: -all
+  dmarc: reject
+  mta_sts: enforce
+  tls_rpt: 'yes'
+  dnssec: 'no'
+  dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.mailotte.com:993', note: SSL/TLS}
+- {kind: POP3, host: 'mail.mailotte.com:995', note: SSL/TLS}
+- {kind: SMTP, host: 'mail.mailotte.com:465', note: SSL/TLS}
+- {kind: IMAP software, host: Stalwart}
+last_checked: '2026-11-11'
