@@ -20,6 +20,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat-square)
 [![YAML](https://img.shields.io/badge/data-YAML-CB171E?logo=yaml&logoColor=white&style=flat-square)](./data/providers/)
 ![JSON](https://img.shields.io/badge/JSON-000000?logo=json&logoColor=white&style=flat-square)
+[![Donate: XMR](https://img.shields.io/badge/donate-XMR-FF6600?logo=monero&logoColor=white&style=flat-square)](#donate)
 
 ![demo](./assets/demo.gif)
 
@@ -314,6 +315,15 @@ Email services awaiting manual account registration and subsequent testing.
 | ❌      | yandex.ru               | 🇷🇺   |
 | ❌      | riseup.net              | 🇺🇸   |
 | ❌      | lain.rocks              | 🇫🇷   |
+
+
+## Donate
+
+If eMailCompare is useful to you, you can support it with Monero (XMR):
+
+```
+4BEb8AUfSwQbGaHSVnBn2sMkFsYvrA6Eq4UyEf3JtcEZJd9eSm96YiZZwMWunKq6fUZSuAomwY4P835ybppBxi3NRY2ncMY
+```
 
 
 ## Contributors
