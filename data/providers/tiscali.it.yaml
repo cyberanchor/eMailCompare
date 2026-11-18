@@ -49,4 +49,4 @@ servers:
 - {kind: SMTP, host: 'smtp.tiscali.it:465', note: SSL/TLS}
 - {kind: IMAP software, host: Dovecot}
 online_since: '1998-12-02'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

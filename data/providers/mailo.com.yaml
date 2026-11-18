@@ -52,4 +52,4 @@ servers:
 - {kind: POP3, host: 'mail.mailo.com:995', note: SSL/TLS}
 - {kind: SMTP, host: 'mail.mailo.com:465', note: SSL/TLS}
 online_since: '1996-11-10'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

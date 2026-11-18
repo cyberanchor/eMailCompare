@@ -24,4 +24,4 @@ servers:
 - {kind: IMAP, host: 'mail.webmail.com.my:993', note: SSL/TLS}
 - {kind: IMAP software, host: Dovecot}
 online_since: '2003-04-02'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

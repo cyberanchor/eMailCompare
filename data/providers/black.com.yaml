@@ -16,12 +16,16 @@ jurisdiction:
 description: |-
   black.com - Encrypted Email
   Encrypted email on Swiss infrastructure. Get your own @black.com email address now!
-tos_summary: Real person only, 14+, name and card/bank details at sign-up, no bot-made accounts; illegal content, spam, defamation, malware banned; content removed without notice; violations end the account with no refund; a closed address is given to new customers; terms change by silence after 6 weeks
-privacy_summary: Collect name, email, password hash, profile picture, payment data, IP and access times (traffic data), server logs (30 days). Store on own servers in Switzerland, trash purged after 30 days, accounting data 7 years. No tracking or ad cookies; marketing emails unless unsubscribed; Austrian GDPR controller black.com GmbH.
+tos_summary: |-
+  Natural person or entity, 14+ (under 18 with parental consent); name, address, passkey and mobile number at registration, free accounts re-verify the phone yearly (6-month grace period before deletion); automated accounts deleted; unlawful use, defamation, harassment, fraud, phishing, malware and spam banned; account can be closed for good cause at once without notice; address may go to another customer immediately after deletion; lost passkey and recovery method means lost mail; terms change on acceptance or six weeks after notice
+  https://black.com/terms-of-service
+privacy_summary: |-
+  Name, address, passkey, mobile number, payment records, routing data, sign-in records; messages encrypted at rest with a key derived from the passkey, not readable by the provider (claimed); web server logs with IP deleted within 30 days; no tracking or advertising cookies; mail servers run by Exoscale (Akenes SA) in Zurich; complies with lawful requests; GDPR
+  https://black.com/privacy-policy
 note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
 links:
   tos: https://black.com/terms-of-service
-  privacy: https://black.com/privacy
+  privacy: https://black.com/privacy-policy
 social:
 - https://x.com/blackcom
 security:
@@ -32,4 +36,4 @@ security:
   dnssec: 'yes'
   dane: 'no'
 online_since: '1997-04-16'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

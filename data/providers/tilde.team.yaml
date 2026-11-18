@@ -15,6 +15,9 @@ jurisdiction:
 description: |-
   tilde.team
   tilde.team unix group
+privacy_summary: |-
+  Email address kept for account recovery, sign-in IP addresses kept up to 30 days; mail and files stored in the home directory, files visible to other users by default; copy of data within 14 days on request; GDPR
+  https://tilde.team/wiki/?page=privacy-policy
 note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
 links:
   privacy: https://tilde.team/wiki/?page=privacy-policy
@@ -30,4 +33,4 @@ servers:
 - {kind: SMTP, host: 'smtp.tilde.team:587', note: STARTTLS}
 - {kind: IMAP software, host: Dovecot}
 online_since: '2018-05-09'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

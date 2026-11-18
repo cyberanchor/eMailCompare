@@ -48,4 +48,4 @@ servers:
 - {kind: SMTP, host: 'mail.kagimail.com:465', note: SSL/TLS}
 - {kind: IMAP software, host: Stalwart}
 online_since: '2024-09-12'
-last_checked: '2026-11-09'
+last_checked: '2026-11-18'

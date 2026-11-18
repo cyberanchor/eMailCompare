@@ -57,4 +57,4 @@ servers:
 - {kind: POP3, host: 'pop.fuck.it:995', note: SSL/TLS}
 - {kind: SMTP, host: 'smtp.fuck.it:587', note: STARTTLS}
 online_since: '1999-05-08'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

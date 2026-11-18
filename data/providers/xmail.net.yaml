@@ -34,4 +34,4 @@ servers:
 - {kind: POP3, host: 'pop3.xmail.net:995', note: SSL/TLS}
 - {kind: IMAP software, host: Stalwart}
 online_since: '1999-01-25'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

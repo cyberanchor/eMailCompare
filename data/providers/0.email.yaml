@@ -4,8 +4,8 @@ domain: '0.email'
 status: auto
 flag: 🇺🇸
 a:
-- {host: '104.18.22.4', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
-- {host: '104.18.23.4', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '104.21.50.210', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '172.67.167.113', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
 mx:
 - {host: aspmx.l.google.com, flag: 🇺🇸, country: United States, asn: AS15169, org: Google LLC}
 - {host: alt1.aspmx.l.google.com, flag: 🇺🇸, country: United States, asn: AS15169, org: Google LLC}
@@ -38,4 +38,4 @@ security:
   dnssec: 'no'
   dane: 'no'
 online_since: '2021-11-22'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

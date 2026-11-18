@@ -48,4 +48,4 @@ servers:
 - {kind: POP3, host: 'pop3.purelymail.com:995', note: SSL/TLS}
 - {kind: SMTP, host: 'smtp.purelymail.com:465', note: SSL/TLS}
 online_since: '2013-04-16'
-last_checked: '2026-11-05'
+last_checked: '2026-11-18'

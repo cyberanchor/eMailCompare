@@ -58,4 +58,4 @@ servers:
 - {kind: POP3, host: 'pop.hushmail.com:995', note: SSL/TLS}
 - {kind: SMTP, host: 'smtp.hushmail.com:465', note: SSL/TLS}
 online_since: '1999-10-04'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

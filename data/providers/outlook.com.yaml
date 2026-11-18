@@ -15,9 +15,16 @@ alliance: 5
 jurisdiction:
 - United States
 description: Outlook
+tos_summary: |-
+  Microsoft Services Agreement: no spam, phishing or malware; Outlook.com inbox closed if not signed in to at least once a year; account can be suspended if fraud by a third party is suspected; binding arbitration and class action waiver for US residents
+  https://www.microsoft.com/en-us/servicesagreement
+privacy_summary: |-
+  IP address, device data and location; scanning such as hash matching against abuse and child exploitation, reports to NCMEC and law enforcement possible; content of emails, chats and files not used to target ads; data kept as long as needed for services and legal or business purposes
+  https://www.microsoft.com/en-us/privacy/privacystatement
 note: 'Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Website redirects to https://outlook.live.com/mail/. Mail servers belong to Microsoft 365. IMAP server outlook.office365.com:993 answers (Microsoft Exchange). Listed in Thunderbird''s ISPDB. Mail DNS: SPF, DMARC p=none, MTA-STS, DNSSEC.'
 links:
-  privacy: https://www.microsoft.com/de-de/privacy
+  tos: https://www.microsoft.com/en-us/servicesagreement
+  privacy: https://www.microsoft.com/en-us/privacy/privacystatement
 security:
   spf: -all
   dmarc: none
@@ -31,4 +38,4 @@ servers:
 - {kind: SMTP, host: 'smtp-mail.outlook.com:587', note: STARTTLS}
 - {kind: IMAP software, host: Microsoft Exchange}
 online_since: '1996-12-24'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

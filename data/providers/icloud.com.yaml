@@ -31,4 +31,4 @@ security:
 servers:
 - {kind: IMAP, host: 'imap.mail.me.com:993', note: SSL/TLS}
 - {kind: SMTP, host: 'smtp.mail.me.com:587', note: STARTTLS}
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

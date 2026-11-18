@@ -32,4 +32,4 @@ security:
 servers:
 - {kind: IMAP, host: 'mail.nodeloc.com:993', note: SSL/TLS}
 online_since: '2013-04-06'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

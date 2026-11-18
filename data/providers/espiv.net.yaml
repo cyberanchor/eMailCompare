@@ -16,6 +16,9 @@ description: espiv.net – κινηματικές υποδομές
 tos_summary: |-
   Page found, no key clauses detected
   https://espiv.net/terms_of_service/
+privacy_summary: |-
+  Spam and Trash deleted after 21 days; account disabled after 6 months without login, stored mail deleted after 12 months without login or reactivation request; no data identifying users kept and visitor IPs not recorded on the server (claimed)
+  https://espiv.net/en/yphresies/politiki-diatirisis-dedomenwn-kai-logariasmwn-mail/
 note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
 links:
   tos: https://espiv.net/terms_of_service/
@@ -32,4 +35,4 @@ servers:
 - {kind: IMAP, host: 'imap.espiv.net:993', note: SSL/TLS}
 - {kind: IMAP software, host: Dovecot}
 online_since: '2008-11-09'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

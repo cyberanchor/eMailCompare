@@ -22,7 +22,7 @@
     "jurisdiction": [
       "Switzerland"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://proton.me/legal/privacy",
       "tos": "https://proton.me/legal/terms"
@@ -54,7 +54,7 @@
       "free",
       "Unlimited $9.99/month"
     ],
-    "privacy_summary": "Collect per Privacy Policy, store without guarantees, delete inactive accounts (12 mos.), share upon authorities' request",
+    "privacy_summary": "Collect per Privacy Policy, store without guarantees, delete inactive accounts (24 mos.), share upon authorities' request",
     "security": {
       "dane": "yes",
       "dmarc": "quarantine",
@@ -89,7 +89,7 @@
       "https://discord.gg/proton"
     ],
     "status": "checked",
-    "tos_summary": "Illegal actions (CSAM, spam, hacking), IP violation, insults, self-referrals, fraud\nCollect per Privacy Policy, store without guarantees, delete inactive accounts (12 mos.), share upon authorities' request"
+    "tos_summary": "Illegal actions (CSAM, spam, hacking), IP violation, insults, self-referrals, fraud\nCollect per Privacy Policy, store without guarantees, delete inactive accounts (24 mos.), share upon authorities' request"
   },
   {
     "a": [
@@ -111,7 +111,7 @@
     "jurisdiction": [
       "Belgium"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://mailfence.com/en/privacy.jsp",
       "tos": "https://mailfence.com/en/terms.jsp"
@@ -182,7 +182,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://tuta.com/imprint",
       "privacy": "https://tuta.com/privacy-policy",
@@ -253,7 +253,7 @@
     "jurisdiction": [
       "France"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://www.mailo.com/mailo/en/privacy-rules.php",
       "tos": "https://www.mailo.com/mailo/en/terms-of-use.php"
@@ -341,7 +341,10 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
+    "links": {
+      "tos": "https://www.mail.com/company/terms/"
+    },
     "mx": [
       {
         "asn": "AS8560",
@@ -441,7 +444,7 @@
     "jurisdiction": [
       "Switzerland"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://www.swissmail.org/en/about-us/imprint/",
       "privacy": "https://www.swissmail.org/en/about-us/privacy-policy/",
@@ -544,7 +547,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://www.eclipso.eu/imprint/",
       "privacy": "https://www.eclipso.eu/privacy/",
@@ -623,7 +626,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://skymail.de/Impressum",
       "privacy": "https://skymail.de/Datenschutz",
@@ -650,7 +653,7 @@
       "15,90 EUR",
       "28,90 EUR"
     ],
-    "privacy_summary": "Collect IP, personal data (from registration/contact forms), usage data, cookies (with ads). Store in Germany. Share with ad partners (Refinery89), legal requests.",
+    "privacy_summary": "Registration data until the account is deleted, server logs up to 30 days, contact requests usually 7 days; hosted at Hetzner; Refinery89 ads in the signed-in webmail and Google AdSense on public pages, by consent; optional AI phishing check sends the message to SkyMail and Google Cloud (Vertex AI) after a click; GDPR\nhttps://skymail.de/Datenschutz",
     "security": {
       "dane": "yes",
       "dmarc": "reject",
@@ -692,7 +695,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://firemail.de/Impressum",
       "privacy": "https://firemail.de/Datenschutz",
@@ -755,7 +758,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://www.emailn.de/e-mail/email-impressum",
       "privacy": "https://www.emailn.de/e-mail/email-datenschutz",
@@ -823,7 +826,7 @@
     "jurisdiction": [
       "Latvia"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://www.inbox.eu/en/email-privacy-features/",
       "tos": "https://help.inbox.eu/terms-of-service-inbox-eu"
@@ -901,7 +904,7 @@
     "jurisdiction": [
       "Switzerland"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://oriented.net/company/privacy-policy",
       "tos": "https://oriented.net/company/terms-of-service"
@@ -970,7 +973,7 @@
     "jurisdiction": [
       "Poland"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://prywatnosc.interia.pl/",
       "tos": "https://prywatnosc.interia.pl/regulamin/"
@@ -1041,7 +1044,7 @@
     "jurisdiction": [
       "Poland"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://help.int.pl/news-polityka-prywatnosci-uzytkownikow-poczty-int-pl,nId,2587025",
       "tos": "https://help.int.pl/zasady-i-warunki-korzystania-z-poczty/news-regulamin-int-pl,nId,2264785"
@@ -1097,14 +1100,14 @@
         "asn": "AS16509",
         "country": "Germany",
         "flag": "🇩🇪",
-        "host": "52.222.136.90",
+        "host": "52.222.136.2",
         "org": "Amazon.com, Inc."
       },
       {
         "asn": "AS16509",
         "country": "Germany",
         "flag": "🇩🇪",
-        "host": "52.222.136.50",
+        "host": "52.222.136.107",
         "org": "Amazon.com, Inc."
       }
     ],
@@ -1131,7 +1134,7 @@
     "jurisdiction": [
       "Poland"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://polityka-prywatnosci.onet.pl/",
       "tos": "https://polityka-prywatnosci.onet.pl/regulamin.html"
@@ -1207,7 +1210,7 @@
     "jurisdiction": [
       "India"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://www.datamail.in/privacy/",
       "tos": "https://www.datamail.in/terms/"
@@ -1292,7 +1295,7 @@
     "jurisdiction": [
       "Kazakhstan"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://topmail.kz/privacy",
       "tos": "https://topmail.kz/user-agreement"
@@ -1324,6 +1327,13 @@
       "spf": "-all",
       "tls_rpt": "missing"
     },
+    "servers": [
+      {
+        "host": "mail.topmail.kz:993",
+        "kind": "IMAP",
+        "note": "SSL/TLS"
+      }
+    ],
     "status": "checked",
     "tos_summary": "Illegal actions (per Kazakh law or international norms); violating IP/author rights; spam; impersonation; sending viruses/malware; harmful, threatening, or discriminatory content; disrupting service"
   },
@@ -1349,7 +1359,7 @@
     "jurisdiction": [
       "Azerbaijan"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS15815",
@@ -1394,7 +1404,7 @@
     "jurisdiction": [
       "Azerbaijan"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS29049",
@@ -1469,7 +1479,7 @@
     "jurisdiction": [
       "Singapore"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://dmailnetwork.gitbook.io/dmail-network/resources/privacy-policy",
       "tos": "https://dmailnetwork.gitbook.io/dmail-network/resources/terms-of-service"
@@ -1536,7 +1546,7 @@
     "jurisdiction": [
       "United Kingdom"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://web.archive.org/web/20220706065614/https://mailchain.com/privacy"
     },
@@ -1603,7 +1613,7 @@
     "jurisdiction": [
       "United Arab Emirates"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://ledgermail.io/public/privacy-policy.html",
       "tos": "https://ledgermail.io/public/terms-of-use.html"
@@ -1693,7 +1703,11 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
+    "links": {
+      "privacy": "https://onionmail.org/privacy",
+      "tos": "https://onionmail.org/tos"
+    },
     "mx": [
       {
         "asn": "AS141995",
@@ -1749,7 +1763,7 @@
     "jurisdiction": [
       "Malaysia"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS132372",
@@ -1800,7 +1814,7 @@
     "jurisdiction": [
       "Panama"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS14061",
@@ -1849,7 +1863,7 @@
     "jurisdiction": [
       "Canada"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS25668",
@@ -1919,7 +1933,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://monocles.de/impressum/"
     },
@@ -1988,7 +2002,7 @@
     "jurisdiction": [
       "Estonia"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://atomicmail.io/privacy-policy",
       "tos": "https://atomicmail.io/terms-of-service"
@@ -2049,7 +2063,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://mail.io/privacy",
       "tos": "https://mail.io/tos"
@@ -2109,7 +2123,7 @@
     "jurisdiction": [
       "Poland"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "code": "https://github.com/cyberfear-com",
       "privacy": "https://mailum.com/privacy",
@@ -2168,7 +2182,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://codamail.com/privacypolicy.html",
       "tos": "https://codamail.com/terms.html"
@@ -2239,7 +2253,7 @@
     "jurisdiction": [
       "Estonia"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS24940",
@@ -2290,7 +2304,7 @@
     "jurisdiction": [
       "Belgium"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "tos": "https://contactoffice.com/virtual-office/en/agreement.jsp"
     },
@@ -2357,7 +2371,7 @@
     "jurisdiction": [
       "Russia"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS9123",
@@ -2406,7 +2420,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS22612",
@@ -2479,7 +2493,11 @@
     "jurisdiction": [
       "Netherlands"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
+    "links": {
+      "privacy": "https://disroot.org/privacy_policy",
+      "tos": "https://disroot.org/tos"
+    },
     "mx": [
       {
         "asn": "AS50673",
@@ -2589,7 +2607,7 @@
     "jurisdiction": [
       "Italy"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS210861",
@@ -2652,7 +2670,7 @@
     "jurisdiction": [
       "Serbia"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://wiki.dmz.rs/en/zastojedecentralizacijabitna"
     },
@@ -2728,7 +2746,7 @@
     "jurisdiction": [
       "Sweden"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://vaelmail.com/privacy",
       "tos": "https://vaelmail.com/terms"
@@ -2762,7 +2780,7 @@
         "asn": "AS24940",
         "country": "Germany",
         "flag": "🇩🇪",
-        "host": "94.130.234.220",
+        "host": "46.4.8.186",
         "org": "Hetzner Online GmbH"
       }
     ],
@@ -2774,7 +2792,7 @@
     "jurisdiction": [
       "Poland"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://enbox.me/legal/privacy/",
       "tos": "https://enbox.me/legal/terms/"
@@ -2838,7 +2856,7 @@
     "jurisdiction": [
       "Russia"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://otso.city/"
     },
@@ -2906,7 +2924,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS16509",
@@ -2955,7 +2973,7 @@
     "jurisdiction": [
       "Canada"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://mailsect.com/privacy"
     },
@@ -3022,7 +3040,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS151847",
@@ -3092,7 +3110,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://ads.efind.com/privacy",
       "tos": "https://ads.efind.com/terms"
@@ -3151,7 +3169,7 @@
     "jurisdiction": [
       "United Kingdom"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://transcom.co.uk/page/privacy",
       "tos": "https://transcom.co.uk/page/terms"
@@ -3228,7 +3246,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS396982",
@@ -3284,7 +3302,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS151847",
@@ -3320,14 +3338,14 @@
         "asn": "AS47583",
         "country": "Germany",
         "flag": "🇩🇪",
-        "host": "92.113.23.240",
+        "host": "92.113.16.110",
         "org": "Hostinger International Limited"
       },
       {
         "asn": "AS47583",
         "country": "Germany",
         "flag": "🇩🇪",
-        "host": "92.113.16.64",
+        "host": "92.113.23.54",
         "org": "Hostinger International Limited"
       }
     ],
@@ -3340,7 +3358,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS8075",
@@ -3367,16 +3385,16 @@
     "a": [
       {
         "asn": "AS47583",
-        "country": "Germany",
-        "flag": "🇩🇪",
-        "host": "92.113.23.164",
+        "country": "Lithuania",
+        "flag": "🇱🇹",
+        "host": "84.32.84.215",
         "org": "Hostinger International Limited"
       },
       {
         "asn": "AS47583",
-        "country": "Germany",
-        "flag": "🇩🇪",
-        "host": "92.113.16.13",
+        "country": "Lithuania",
+        "flag": "🇱🇹",
+        "host": "2.57.91.54",
         "org": "Hostinger International Limited"
       }
     ],
@@ -3389,11 +3407,7 @@
     "jurisdiction": [
       "Canada"
     ],
-    "last_checked": "2026-10-30",
-    "links": {
-      "privacy": "https://mailsea.top/",
-      "tos": "https://mailsea.top/"
-    },
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS13335",
@@ -3445,7 +3459,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS8560",
@@ -3494,7 +3508,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS151847",
@@ -3543,7 +3557,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS32244",
@@ -3603,7 +3617,7 @@
     "jurisdiction": [
       "Canada"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS13335",
@@ -3659,7 +3673,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS62371",
@@ -3706,7 +3720,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://anonmails.de/en/imprint"
     },
@@ -3751,7 +3765,7 @@
     "jurisdiction": [
       "Estonia"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "code": "https://github.com/Eppie-io",
       "privacy": "https://eppie.io/privacy-policy"
@@ -3805,7 +3819,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://fabmail.org/"
     },
@@ -3859,11 +3873,11 @@
   {
     "a": [
       {
-        "asn": "AS205516",
-        "country": "Kazakhstan",
-        "flag": "🇰🇿",
-        "host": "5.35.80.29",
-        "org": "NLS ASTANA LLP"
+        "asn": "AS197695",
+        "country": "Russia",
+        "flag": "🇷🇺",
+        "host": "89.108.70.43",
+        "org": "\"Domain names registrar REG.RU\", Ltd"
       }
     ],
     "created": "2024-07-03",
@@ -3874,7 +3888,7 @@
     "jurisdiction": [
       "Kazakhstan"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS205516",
@@ -3904,6 +3918,16 @@
       {
         "host": "Dovecot",
         "kind": "IMAP software"
+      },
+      {
+        "host": "mail.maimail.org:465",
+        "kind": "SMTP",
+        "note": "SSL/TLS"
+      },
+      {
+        "host": "mail.maimail.org:587",
+        "kind": "SMTP",
+        "note": "STARTTLS"
       }
     ],
     "status": "auto"
@@ -3926,7 +3950,7 @@
     "jurisdiction": [
       "Switzerland"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://mrmail.com/de/legal/",
       "privacy": "https://mrmail.com/de/privacy/",
@@ -4010,7 +4034,7 @@
     "jurisdiction": [
       "Serbia"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://cock.li/privacy.php",
       "tos": "https://cock.li/terms.php"
@@ -4105,7 +4129,7 @@
     "jurisdiction": [
       "Russia"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://beemail.space/privacy-policy/"
     },
@@ -4128,6 +4152,7 @@
     "note": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.",
     "online_since": "2024-09-20",
     "order": 62,
+    "privacy_summary": "Consent page worded for a shop (Buyer and Seller): full name, birth date, phone, email and postal address, also used for marketing; passed to Russian state authorities on legal grounds and to 'strategic partners'; Federal Law 152-FZ\nhttps://beemail.space/privacy-policy/",
     "security": {
       "dane": "no",
       "dmarc": "missing",
@@ -4174,9 +4199,9 @@
     "jurisdiction": [
       "Austria"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
-      "privacy": "https://black.com/privacy",
+      "privacy": "https://black.com/privacy-policy",
       "tos": "https://black.com/terms-of-service"
     },
     "mx": [
@@ -4192,7 +4217,7 @@
     "online_since": "1997-04-16",
     "order": 63,
     "owner": "🇦🇹 black.com GmbH",
-    "privacy_summary": "Collect name, email, password hash, profile picture, payment data, IP and access times (traffic data), server logs (30 days). Store on own servers in Switzerland, trash purged after 30 days, accounting data 7 years. No tracking or ad cookies; marketing emails unless unsubscribed; Austrian GDPR controller black.com GmbH.",
+    "privacy_summary": "Name, address, passkey, mobile number, payment records, routing data, sign-in records; messages encrypted at rest with a key derived from the passkey, not readable by the provider (claimed); web server logs with IP deleted within 30 days; no tracking or advertising cookies; mail servers run by Exoscale (Akenes SA) in Zurich; complies with lawful requests; GDPR\nhttps://black.com/privacy-policy",
     "security": {
       "dane": "no",
       "dmarc": "reject",
@@ -4205,7 +4230,7 @@
       "https://x.com/blackcom"
     ],
     "status": "auto",
-    "tos_summary": "Real person only, 14+, name and card/bank details at sign-up, no bot-made accounts; illegal content, spam, defamation, malware banned; content removed without notice; violations end the account with no refund; a closed address is given to new customers; terms change by silence after 6 weeks"
+    "tos_summary": "Natural person or entity, 14+ (under 18 with parental consent); name, address, passkey and mobile number at registration, free accounts re-verify the phone yearly (6-month grace period before deletion); automated accounts deleted; unlawful use, defamation, harassment, fraud, phishing, malware and spam banned; account can be closed for good cause at once without notice; address may go to another customer immediately after deletion; lost passkey and recovery method means lost mail; terms change on acceptance or six weeks after notice\nhttps://black.com/terms-of-service"
   },
   {
     "a": [
@@ -4233,7 +4258,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://encrypted.com/",
       "privacy": "https://encrypted.com/",
@@ -4293,7 +4318,7 @@
     "jurisdiction": [
       "Netherlands"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://dds.nl/dds/privacy.php",
       "tos": "https://dds.nl/dds/voorwaarden.php"
@@ -4378,7 +4403,7 @@
     "jurisdiction": [
       "Portugal"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://portugalmail.pt/politica-de-privacidade/",
       "tos": "https://web.archive.org/web/20251106213158/https://portugalmail.pt/condicoes-de-servico/"
@@ -4433,7 +4458,8 @@
         "kind": "IMAP software"
       }
     ],
-    "status": "auto"
+    "status": "auto",
+    "tos_summary": "Archived copy (2025): for legal entities able to sign commercial contracts; no unsolicited mail; resource limits may cause delivery failures; customer responsible for credentials and all activity under them; service can be limited or suspended if credentials leak, and refused to repeat violators\nhttps://web.archive.org/web/20251106213158/https://portugalmail.pt/condicoes-de-servico/"
   },
   {
     "a": [
@@ -4456,7 +4482,7 @@
     "jurisdiction": [
       "Portugal"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://ajuda.sapo.pt/pt-pt/security/politica-de-privacidade?utm_source=bsu&utm_medium=web&utm_campaign=bsu_footer&utm_content=mail.sapo.pt"
     },
@@ -4521,7 +4547,7 @@
     "jurisdiction": [
       "Denmark"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://mail-online.dk/persondatapolitik",
       "tos": "https://mail-online.dk/brugerbetingelser"
@@ -4580,7 +4606,7 @@
     "jurisdiction": [
       "Denmark"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "tos": "https://mailme.dk/betingelser.php"
     },
@@ -4664,7 +4690,7 @@
     "jurisdiction": [
       "Iceland"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS44925",
@@ -4719,7 +4745,7 @@
       "🇩🇪 Germany",
       "🇳🇱 Netherlands"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS209341",
@@ -4799,7 +4825,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://dismail.de/impressum.html",
       "privacy": "https://dismail.de/datenschutz.html",
@@ -4883,7 +4909,7 @@
     "jurisdiction": [
       "Greece"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://espiv.net/en/yphresies/politiki-diatirisis-dedomenwn-kai-logariasmwn-mail/",
       "tos": "https://espiv.net/terms_of_service/"
@@ -4902,6 +4928,7 @@
     "online_since": "2008-11-09",
     "order": 73,
     "owner": "🇬🇷 Cybrigade collective",
+    "privacy_summary": "Spam and Trash deleted after 21 days; account disabled after 6 months without login, stored mail deleted after 12 months without login or reactivation request; no data identifying users kept and visitor IPs not recorded on the server (claimed)\nhttps://espiv.net/en/yphresies/politiki-diatirisis-dedomenwn-kai-logariasmwn-mail/",
     "security": {
       "dane": "no",
       "dmarc": "quarantine",
@@ -4948,7 +4975,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://www.freenet.de/ui/out/legal-impressum?at=footer",
       "privacy": "https://www.freenet.de/ui/out/legal-datenschutz?at=footer",
@@ -5025,7 +5052,7 @@
     "jurisdiction": [
       "Italy"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://www.tiscali.it/",
       "privacy": "https://www.tiscali.it/privacy/informativa_policy_privacy.html",
@@ -5114,14 +5141,14 @@
         "asn": "AS20940",
         "country": "Germany",
         "flag": "🇩🇪",
-        "host": "2.23.7.16",
+        "host": "2.20.143.115",
         "org": "Akamai International B.V."
       },
       {
         "asn": "AS20940",
         "country": "Germany",
         "flag": "🇩🇪",
-        "host": "2.23.7.49",
+        "host": "2.20.180.151",
         "org": "Akamai International B.V."
       }
     ],
@@ -5133,7 +5160,7 @@
     "jurisdiction": [
       "India"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://www.rediff.com/w3c/policy.html",
       "tos": "https://www.rediff.com/terms.html"
@@ -5185,7 +5212,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "code": "https://github.com/DanWin",
       "imprint": "https://danwin.dev/impressum/",
@@ -5249,7 +5276,8 @@
         "note": "STARTTLS"
       }
     ],
-    "status": "auto"
+    "status": "auto",
+    "tos_summary": "No spam, mass mailing or illegal use, no threats of violence; provided as is, no uptime guarantee; inactive accounts deleted after the period set in the account; password reset only with proof of ownership (PGP signature); account can be blocked or deleted and terms changed without notice\nhttps://mail.danwin1210.de/terms.php"
   },
   {
     "a": [
@@ -5270,7 +5298,7 @@
     "jurisdiction": [
       "Sweden"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS43853",
@@ -5327,7 +5355,7 @@
     "jurisdiction": [
       "Norway"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://www.indamail.hu/privacy-policy",
       "tos": "https://www.indamail.hu/terms-of-service"
@@ -5389,7 +5417,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "http://www.fps.de/index.php?id=64"
     },
@@ -5436,7 +5464,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "tos": "http://www.webmail.com.pt/site/termos.html"
     },
@@ -5501,7 +5529,7 @@
     "jurisdiction": [
       "Norway"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://www.inbox.com/privacy-policy",
       "tos": "https://www.inbox.com/terms-of-service"
@@ -5566,7 +5594,7 @@
     "jurisdiction": [
       "Denmark"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://mail.world/gdpr",
       "tos": "https://mail.world/terms-of-use"
@@ -5625,7 +5653,7 @@
     "jurisdiction": [
       "Sweden"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://web.archive.org/web/20251215183251/https://inleed.se/integrity-framework",
       "tos": "https://web.archive.org/web/20241222124331/https://inleed.se/avtal"
@@ -5665,7 +5693,8 @@
         "kind": "IMAP software"
       }
     ],
-    "status": "auto"
+    "status": "auto",
+    "tos_summary": "Archived copy of the Inleed hosting contract (2024): access can be closed if the invoice is unpaid; cancellation by email from the account owner's address, confirmed by reply; daily backups for web hosting without liability if they fail; no liability for direct or indirect damage\nhttps://web.archive.org/web/20241222124331/https://inleed.se/avtal"
   },
   {
     "a": [
@@ -5693,7 +5722,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://mutantmail.com/imprint",
       "privacy": "https://mutantmail.com/privacy-policy",
@@ -5820,7 +5849,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://www.aikq.de/index.php?action=Datenschutz",
       "tos": "https://www.aikq.de/index.php?action=tos"
@@ -5885,7 +5914,7 @@
     "jurisdiction": [
       "Latvia"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://beeble.com/en/privacy-policy",
       "tos": "https://beeble.com/en/terms-of-use"
@@ -5949,7 +5978,7 @@
     "jurisdiction": [
       "France"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://murena.com/en/privacy-policy/",
       "tos": "https://murena.io/en/termsandconditions"
@@ -6017,7 +6046,7 @@
     "jurisdiction": [
       "United Kingdom"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://confidesk.com/privacy-policy/",
       "tos": "https://confidesk.com/terms-of-service/"
@@ -6041,17 +6070,17 @@
       "$4.99/month",
       "$3.99/month"
     ],
-    "privacy_summary": "Data/logs kept 7 days, cookies, advertising, no third-party sharing (claimed), encryption, GDPR, does not sell data (claimed)\nhttps://confidesk.com/privacy-policy/",
+    "privacy_summary": "Servers in Switzerland, operator registered in England and Wales; stored content encrypted; external mail accounts in the desktop app stay in an encrypted local database and are not used for advertising or AI training; no sale of personal data; free accounts removed after 30 days without sign-in plus 30-day grace; deletion within about 14 days, backups kept 7 days, billing records as required; not for under 18; UK/EU GDPR\nhttps://confidesk.com/privacy-policy/",
     "security": {
       "dane": "no",
-      "dmarc": "none",
+      "dmarc": "quarantine",
       "dnssec": "no",
       "mta_sts": "missing",
       "spf": "-all",
       "tls_rpt": "missing"
     },
     "status": "auto",
-    "tos_summary": "Illegal actions (spam), harassment, fraud\nhttps://confidesk.com/terms-of-service/"
+    "tos_summary": "18+; no illegal use, fraud, harassment, unlawful content or rights infringement; free accounts may have external mail limited until verified; free account must sign in every 30 days, then a 30-day grace period; never-used accounts removed after about 7 days; 90 days to resolve excess storage after a paid plan ends; immediate termination without refund for illegal use; law and courts of England and Wales\nhttps://confidesk.com/terms-of-service/"
   },
   {
     "a": [
@@ -6072,7 +6101,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://lockrmail.com/privacy-policy/",
       "tos": "https://lockrmail.com/terms-of-service/"
@@ -6133,7 +6162,7 @@
     "jurisdiction": [
       "Austria"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://esiliati.org/segreti"
     },
@@ -6193,7 +6222,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://riotcat.org/privacy.html"
     },
@@ -6255,7 +6284,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS47066",
@@ -6319,7 +6348,7 @@
     "jurisdiction": [
       "Croatia"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://net.hr/info/impressum-825e3490-ef9f-11f0-9a51-9600040c8f8e",
       "privacy": "https://net.hr/info/pravila-privatnosti",
@@ -6403,7 +6432,7 @@
     "jurisdiction": [
       "Italy"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://info.libero.it/note-legali/",
       "tos": "https://info.libero.it/note-legali/"
@@ -6474,7 +6503,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://www.hot-chilli.eu/legal/",
       "privacy": "https://www.hot-chilli.eu/privacy-policy/",
@@ -6559,7 +6588,7 @@
     "jurisdiction": [
       "Lithuania"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS212531",
@@ -6604,7 +6633,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS24940",
@@ -6660,7 +6689,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://tilde.team/wiki/?page=privacy-policy"
     },
@@ -6676,6 +6705,7 @@
     "note": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.",
     "online_since": "2018-05-09",
     "order": 99,
+    "privacy_summary": "Email address kept for account recovery, sign-in IP addresses kept up to 30 days; mail and files stored in the home directory, files visible to other users by default; copy of data within 14 days on request; GDPR\nhttps://tilde.team/wiki/?page=privacy-policy",
     "security": {
       "dane": "no",
       "dmarc": "reject",
@@ -6728,7 +6758,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://secria.me/privacy-policy/",
       "tos": "https://secria.me/app-tos/"
@@ -6752,7 +6782,7 @@
       "$99/year",
       "$2.49/month"
     ],
-    "privacy_summary": "Collect IP addresses, cookies, analytics/tracking, no ads (claimed), third parties, share upon authorities' request, encryption, no-logs claim, GDPR, does not sell data (claimed)\nhttps://secria.me/privacy-policy/",
+    "privacy_summary": "Login data only; IP processed transiently in hashed form for rate limiting and abuse; no analytics or advertising cookies, referral code in local storage up to 90 days; stored messages encrypted to the user's keys; vendors such as payment and hosting; disclosure under law or court order; no sale; inactive accounts (2+ years) may be deleted; not for under 16; GDPR, CCPA\nhttps://secria.me/privacy-policy/",
     "security": {
       "dane": "no",
       "dmarc": "reject",
@@ -6796,7 +6826,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://dmail.ncog.earth/privacy-policy.html",
       "tos": "https://dmail.ncog.earth/terms-conditions.html"
@@ -6832,14 +6862,14 @@
         "asn": "AS13335",
         "country": "Canada",
         "flag": "🇨🇦",
-        "host": "104.18.22.4",
+        "host": "104.21.50.210",
         "org": "Cloudflare, Inc."
       },
       {
         "asn": "AS13335",
         "country": "Canada",
         "flag": "🇨🇦",
-        "host": "104.18.23.4",
+        "host": "172.67.167.113",
         "org": "Cloudflare, Inc."
       }
     ],
@@ -6852,7 +6882,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "code": "https://github.com/Mail-0/Zero",
       "privacy": "https://0.email/privacy",
@@ -6934,7 +6964,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://37signals.com/policies/privacy",
       "tos": "https://37signals.com/policies/"
@@ -6957,7 +6987,7 @@
       "$2/month",
       "$10/month"
     ],
-    "privacy_summary": "Collect IP addresses, cookies, analytics/tracking, advertising, third parties, share upon authorities' request, encryption, GDPR, does not sell data (claimed)\nhttps://37signals.com/policies/privacy",
+    "privacy_summary": "Full IP logged at signup and for all account access while the account is active; web analytics tied to signed-in users, CAPTCHA, ad-network cookie on marketing visits where lawful; no sale of personal data; content deleted within 60 days of account deletion; US company and infrastructure, data disclosed under warrant, subpoena or court order, foreign requests only through US treaty procedures\nhttps://37signals.com/policies/privacy",
     "security": {
       "dane": "no",
       "dmarc": "quarantine",
@@ -6995,7 +7025,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://paxmail.cc/privacy",
       "tos": "https://paxmail.cc/terms"
@@ -7082,7 +7112,7 @@
     "jurisdiction": [
       "Netherlands"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://soverin.com/about/privacy",
       "tos": "https://soverin.com/about/general-terms-and-conditions"
@@ -7160,7 +7190,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS202448",
@@ -7229,7 +7259,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://www.memail.com/privacy",
       "tos": "https://www.memail.com/terms-conditions"
@@ -7304,7 +7334,7 @@
     "jurisdiction": [
       "Turkey"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://www.turkcell.com.tr/tr/gizlilik-ve-guvenlik?page=bilgi-guvenligi",
       "tos": "https://static.yaanimail.com/terms?lang=tr"
@@ -7338,7 +7368,8 @@
         "note": "SSL/TLS"
       }
     ],
-    "status": "auto"
+    "status": "auto",
+    "tos_summary": "Turkish terms: truthful account data, no sharing of accounts or access to other users' accounts; user solely responsible for malware received and for what is posted through the service; deleted mail removed from Trash after 30 days; Turkish law, courts of Istanbul Anadolu\nhttps://static.yaanimail.com/terms?lang=tr"
   },
   {
     "a": [
@@ -7366,7 +7397,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://send.hrzn.cool/"
     },
@@ -7427,12 +7458,12 @@
       "atfix.eu",
       "atfix.org"
     ],
-    "expires": "2026-11-17",
+    "expires": "2027-11-17",
     "flag": "🇦🇹",
     "jurisdiction": [
       "Austria"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://www.atfix.net/imprint",
       "privacy": "https://www.atfix.net/Datenschutz",
@@ -7487,7 +7518,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://www.anpa.de/impressum",
       "privacy": "https://www.anpa.de/datenschutz.html",
@@ -7541,14 +7572,14 @@
         "asn": "AS13335",
         "country": "Canada",
         "flag": "🇨🇦",
-        "host": "104.26.6.119",
+        "host": "104.21.53.182",
         "org": "Cloudflare, Inc."
       },
       {
         "asn": "AS13335",
         "country": "Canada",
         "flag": "🇨🇦",
-        "host": "104.26.7.119",
+        "host": "172.67.216.28",
         "org": "Cloudflare, Inc."
       }
     ],
@@ -7559,7 +7590,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://5x2.de/impressum",
       "privacy": "https://5x2.de/agb",
@@ -7643,7 +7674,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://schokokeks.org/datenschutz",
       "tos": "https://schokokeks.org/agb"
@@ -7661,6 +7692,7 @@
     "online_since": "2013-06-30",
     "order": 113,
     "owner": "🇩🇪 schokokeks.org GbR",
+    "privacy_summary": "Data passed to third parties only to carry out orders, not to credit agencies; access logged only exceptionally for troubleshooting, briefly and without IP addresses; GDPR rights\nhttps://schokokeks.org/datenschutz",
     "security": {
       "dane": "no",
       "dmarc": "missing",
@@ -7680,7 +7712,8 @@
         "kind": "IMAP software"
       }
     ],
-    "status": "auto"
+    "status": "auto",
+    "tos_summary": "German law, for business users the court of Backnang; liability for outages limited to fees paid; applications with an unfixed critical security problem can be blocked; hosting can be cancelled with 2 weeks' notice to the end of the month, domains 6 weeks before the billing period ends\nhttps://schokokeks.org/agb"
   },
   {
     "a": [
@@ -7706,7 +7739,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://web.archive.org/web/20210301172158/https://www.ok.de/company/en/privacy-policy-2/",
       "tos": "https://web.archive.org/web/20170805165830/https://www.ok.de/index.php?action=agb"
@@ -7716,7 +7749,21 @@
         "asn": "AS16633",
         "country": "Germany",
         "flag": "🇩🇪",
-        "host": "mx2-eu.spamexperts.com",
+        "host": "mx.spamexperts.com",
+        "org": "N-able Technologies, Inc."
+      },
+      {
+        "asn": "AS16633",
+        "country": "Germany",
+        "flag": "🇩🇪",
+        "host": "fallbackmx.spamexperts.eu",
+        "org": "N-able Technologies, Inc."
+      },
+      {
+        "asn": "AS16633",
+        "country": "United States",
+        "flag": "🇺🇸",
+        "host": "lastmx.spamexperts.net",
         "org": "N-able Technologies, Inc."
       },
       {
@@ -7725,25 +7772,12 @@
         "flag": "🇩🇪",
         "host": "mx1-eu.spamexperts.com",
         "org": "N-able Technologies, Inc."
-      },
-      {
-        "asn": "AS174",
-        "country": "Netherlands",
-        "flag": "🇳🇱",
-        "host": "mx3-eu.spamexperts.com",
-        "org": "Cogent Communications, LLC"
-      },
-      {
-        "asn": "AS16633",
-        "country": "Germany",
-        "flag": "🇩🇪",
-        "host": "mx4-eu.spamexperts.com",
-        "org": "N-able Technologies, Inc."
       }
     ],
     "note": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.",
     "online_since": "2009-10-28",
     "order": 114,
+    "privacy_summary": "Archived copy (2021): IP address, device identifiers and access data in log files until automatic deletion; data shared only with consent, for contracts, legal duty or legal claims; newsletter by consent; GDPR\nhttps://web.archive.org/web/20210301172158/https://www.ok.de/company/en/privacy-policy-2/",
     "security": {
       "dane": "no",
       "dmarc": "quarantine",
@@ -7772,9 +7806,15 @@
         "host": "pop.ok.de:995",
         "kind": "POP3",
         "note": "SSL/TLS"
+      },
+      {
+        "host": "smtp.ok.de:465",
+        "kind": "SMTP",
+        "note": "STARTTLS"
       }
     ],
-    "status": "auto"
+    "status": "auto",
+    "tos_summary": "Archived copy (2017): free accounts carry advertising from partners in mail; after 6 months of inactivity stored mail may be deleted without asking and the account restricted, further measures after 1 year; storage above 3 GB only after an abuse check; German law, court of Castrop-Rauxel for merchants\nhttps://web.archive.org/web/20170805165830/https://www.ok.de/index.php?action=agb"
   },
   {
     "a": [
@@ -7795,7 +7835,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://directbox.com/impressum",
       "privacy": "https://directbox.com/datenschutz",
@@ -7874,7 +7914,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://fuck.it/imprint",
       "privacy": "https://fuck.it/privacy-policy",
@@ -7985,7 +8025,7 @@
     "jurisdiction": [
       "France"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "code": "https://gitlab.com/mdavranche/erine.email",
       "privacy": "https://gitlab.com/mdavranche/erine.email/-/wikis/SaaS/Privacy-policy",
@@ -8036,7 +8076,7 @@
     "jurisdiction": [
       "Spain"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS16276",
@@ -8095,7 +8135,7 @@
     "jurisdiction": [
       "United Kingdom"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS6939",
@@ -8149,7 +8189,7 @@
       "🇺🇸 United States",
       "🇳🇱 Netherlands"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS6939",
@@ -8211,7 +8251,7 @@
     "jurisdiction": [
       "Finland"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS24940",
@@ -8273,7 +8313,7 @@
     "jurisdiction": [
       "Colombia"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://colnodo.apc.org/es/aviso-privacidad"
     },
@@ -8335,7 +8375,7 @@
     "jurisdiction": [
       "Switzerland"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://cryptix.net/impressum/",
       "privacy": "https://cryptix.net/datenschutzerklaerung/"
@@ -8399,7 +8439,7 @@
     "jurisdiction": [
       "United Kingdom"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://www.greennet.org.uk/page/legal-information",
       "tos": "https://www.greennet.org.uk/about/terms-and-conditions"
@@ -8490,7 +8530,7 @@
     "jurisdiction": [
       "Switzerland"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS210861",
@@ -8589,13 +8629,13 @@
     "created": "2003-12-11",
     "description": "Indivia.net",
     "domain": "indivia.net",
-    "expires": "2026-12-11",
+    "expires": "2027-12-11",
     "flag": "🇨🇭",
     "jurisdiction": [
       "🇨🇭 Switzerland",
       "🇷🇴 Romania"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS29691",
@@ -8651,7 +8691,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS22611",
@@ -8719,7 +8759,7 @@
     "jurisdiction": [
       "Canada"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://www.koumbit.org/fr/content/politique-de-confidentialite",
       "tos": "https://www.koumbit.org/fr/content/termes-et-conditions-dutilisation"
@@ -8770,7 +8810,8 @@
     "social": [
       "https://jasette.facil.services/@koumbit"
     ],
-    "status": "auto"
+    "status": "auto",
+    "tos_summary": "No use breaking federal, provincial or other laws, no copyright or trademark infringement, hateful or defamatory content, no spam; Koumbit may stop activity that violates the policy or harms its reputation; cancel at least 30 days before the next billing cycle; hosted data destroyed within 30 days of cancellation; backups kept at least 7 days\nhttps://www.koumbit.org/fr/content/termes-et-conditions-dutilisation"
   },
   {
     "a": [
@@ -8791,7 +8832,7 @@
     "jurisdiction": [
       "France"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://www.lautre.net/Contacts-Mentions-legales",
       "privacy": "https://www.lautre.net/spip.php?article30",
@@ -8886,7 +8927,7 @@
     "jurisdiction": [
       "United Kingdom"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://mail.coop/legal",
       "privacy": "https://mail.coop/legal/privacy-policy/",
@@ -8975,7 +9016,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://mayfirst.org/membership-options/privacy-policy/",
       "tos": "https://mayfirst.org/about/legal/"
@@ -9053,7 +9094,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://nadir.org/selbst/impressum.html"
     },
@@ -9119,7 +9160,7 @@
     "jurisdiction": [
       "Switzerland"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS1836",
@@ -9172,7 +9213,7 @@
     "jurisdiction": [
       "Spain"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://info.nodo50.org/Aviso-Legal.html",
       "tos": "https://info.nodo50.org/Contra-la-ilegalizacion-de-las.html"
@@ -9237,7 +9278,7 @@
     "jurisdiction": [
       "Czechia"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS43541",
@@ -9317,7 +9358,7 @@
     "jurisdiction": [
       "France"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "tos": "https://www.globenet.org/Contrat-No-log-les-conditions.html"
     },
@@ -9374,7 +9415,7 @@
     "jurisdiction": [
       "Canada"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS7765",
@@ -9431,7 +9472,7 @@
     "jurisdiction": [
       "Spain"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS24940",
@@ -9496,7 +9537,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS204911",
@@ -9571,7 +9612,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://systemausfall.org/impressum.html",
       "privacy": "https://hilfe.systemausfall.org/konto/datenschutz",
@@ -9626,7 +9667,8 @@
         "note": "SSL/TLS"
       }
     ],
-    "status": "auto"
+    "status": "auto",
+    "tos_summary": "Data belongs to the user, who must keep own backups; data avoidance, unavoidable logs deleted automatically soon after; disclosures to authorities reported in a transparency report; service can be limited on abuse, sending disabled for mass spam; accounts unused for 18 months may be deleted; no liability\nhttps://hilfe.systemausfall.org/konto/nutzungsvereinbarungen/"
   },
   {
     "a": [
@@ -9647,7 +9689,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "code": "https://github.com/systemli",
       "tos": "https://www.systemli.org/tos/"
@@ -9714,7 +9756,7 @@
     "jurisdiction": [
       "Israel"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://www.walla.co.il/privacy-policy"
     },
@@ -9773,7 +9815,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://envs.net/impressum/",
       "privacy": "https://envs.net/privacy-policy/",
@@ -9865,7 +9907,7 @@
     "jurisdiction": [
       "Czechia"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://reg.tiscali.cz/privacy-policy",
       "tos": "https://reg.tiscali.cz/vop-policy"
@@ -9910,10 +9952,10 @@
     "privacy_summary": "Collect IP addresses, cookies, GDPR\nhttps://reg.tiscali.cz/privacy-policy",
     "security": {
       "dane": "yes",
-      "dmarc": "missing",
+      "dmarc": "none",
       "dnssec": "no",
       "mta_sts": "missing",
-      "spf": "missing",
+      "spf": "~all",
       "tls_rpt": "missing"
     },
     "servers": [
@@ -9932,7 +9974,8 @@
       "https://www.facebook.com/tiscali.cz",
       "https://twitter.com/tiscali_cz"
     ],
-    "status": "auto"
+    "status": "auto",
+    "tos_summary": "Free service; correct personal data required (gender and date of birth mandatory); no bulk unsolicited mail, illegal or unethical use, account resale or access to other users' accounts; sanctions can apply to such accounts and to accounts not signed in to for over 3 months or unused 14 days after creation\nhttps://reg.tiscali.cz/vop-policy"
   },
   {
     "a": [
@@ -9960,7 +10003,7 @@
     "jurisdiction": [
       "Canada"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS13335",
@@ -10023,7 +10066,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS36352",
@@ -10072,7 +10115,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS3842",
@@ -10125,7 +10168,7 @@
     "jurisdiction": [
       "Canada"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://northmail.ca/privacy",
       "tos": "https://northmail.ca/terms"
@@ -10142,11 +10185,11 @@
     "note": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.",
     "online_since": "2016-06-19",
     "order": 148,
-    "owner": "🇨🇦 Simon Bissonnette",
+    "owner": "🇨🇦 NorthMail Services Inc.",
     "price": [
       "free"
     ],
-    "privacy_summary": "Collect IP addresses, cookies, advertising, no third-party sharing (claimed)\nhttps://northmail.ca/privacy",
+    "privacy_summary": "Security logs with IP address; session cookies only; mail content not shared with advertisers or third parties; phone number passed to Twilio for the validation code; with Castor opt-in, relevant mail content goes to the AI provider Cohere\nhttps://northmail.ca/privacy",
     "security": {
       "dane": "no",
       "dmarc": "reject",
@@ -10190,7 +10233,7 @@
     "jurisdiction": [
       "South Korea"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://cc.cc/privacy_policy/privacy_policy.php",
       "tos": "https://cc.cc/terms/terms.php"
@@ -10249,7 +10292,7 @@
     "jurisdiction": [
       "Switzerland"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS13030",
@@ -10334,7 +10377,7 @@
     "jurisdiction": [
       "France"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS28855",
@@ -10398,7 +10441,7 @@
     "jurisdiction": [
       "France"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "tos": "https://www.gresille.org/services/conditions/"
     },
@@ -10454,7 +10497,8 @@
     "social": [
       "https://piaille.fr/@gresille"
     ],
-    "status": "auto"
+    "status": "auto",
+    "tos_summary": "Access after meeting the association in person; no backups of user data, users keep their own; under French law (CPCE art. L34-1) data identifying users and the dates, senders and recipients of each message are kept for one year\nhttps://www.gresille.org/services/conditions/"
   },
   {
     "a": [
@@ -10475,7 +10519,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://sdf.org/?tutorials/privacy_policy",
       "tos": "https://sdf.org/?abuse/aup"
@@ -10493,6 +10537,7 @@
     "online_since": "1998-01-10",
     "order": 153,
     "owner": "🇺🇸 SDF Public Access UNIX System",
+    "privacy_summary": "Connection times for http, pop3, ssh and ftp logged through syslog, session content not logged or monitored; no content analysis, metrics or demographics collected, shared or sold; other users can see some activity on the multi-user system; works with law enforcement when justification is presented\nhttps://sdf.org/?tutorials/privacy_policy",
     "security": {
       "dane": "no",
       "dmarc": "quarantine",
@@ -10512,7 +10557,8 @@
         "kind": "IMAP software"
       }
     ],
-    "status": "auto"
+    "status": "auto",
+    "tos_summary": "No spam, port flooding, unauthorised scanning, encryption cracking, distribution of copyrighted data or unauthorised connections to remote hosts; no guarantee that accounts, mail or files are preserved, regular backups attempted\nhttps://sdf.org/?abuse/aup"
   },
   {
     "a": [
@@ -10530,7 +10576,7 @@
     "jurisdiction": [
       "Greece"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "tos": "https://www.1net.gr/terms"
     },
@@ -10588,7 +10634,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS24940",
@@ -10648,7 +10694,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "tos": "https://overmail.de/index.php?action=tos"
     },
@@ -10718,7 +10764,7 @@
     "jurisdiction": [
       "Hungary"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "tos": "https://ssl.eumx.net/tos.html"
     },
@@ -10785,7 +10831,7 @@
     "jurisdiction": [
       "Sweden"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS206279",
@@ -10852,12 +10898,12 @@
       "swatnet.org",
       "tortur.es"
     ],
-    "expires": "2026-11-26",
+    "expires": "2027-11-26",
     "flag": "🇬🇧",
     "jurisdiction": [
       "United Kingdom"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "tos": "https://whor.email/tos"
     },
@@ -10923,7 +10969,7 @@
     "jurisdiction": [
       "Czechia"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS62212",
@@ -10975,7 +11021,7 @@
       "🇷🇴 Romania",
       "🇳🇱 Netherlands"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://navi.land/privacy.php",
       "tos": "https://navi.land/terms.php"
@@ -11010,7 +11056,7 @@
     "price": [
       "free"
     ],
-    "privacy_summary": "No IP logging (claimed), cookies, analytics/tracking, no ads (claimed), no third-party sharing (claimed), no-logs claim, does not sell data (claimed)\nhttps://navi.land/privacy.php",
+    "privacy_summary": "Stores username, password hash and creation date only, no IP or user agent at signup; web access log disabled; Postfix and Dovecot logs kept for delivery and abuse, rotated; self-hosted GoatCounter statistics; session cookie only; mail stored in Maildir format, no ad scanning, no sale; account can be deleted by the user\nhttps://navi.land/privacy.php",
     "security": {
       "dane": "no",
       "dmarc": "none",
@@ -11067,7 +11113,7 @@
     "jurisdiction": [
       "Netherlands"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "tos": "https://nix.to/index.php?action=tos"
     },
@@ -11128,7 +11174,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://nixnet.email/docs/privacy-and-opsec/"
     },
@@ -11202,7 +11248,7 @@
     "jurisdiction": [
       "Netherlands"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS212477",
@@ -11263,9 +11309,10 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "code": "https://github.com/Aster-Privacy",
+      "privacy": "https://astermail.org/privacy/",
       "tos": "https://astermail.org/terms"
     },
     "mx": [
@@ -11344,7 +11391,7 @@
     "jurisdiction": [
       "Netherlands"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "code": "https://github.com/lnemail/lnemail",
       "tos": "https://lnemail.net/tos"
@@ -11405,7 +11452,7 @@
     "jurisdiction": [
       "Switzerland"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS53667",
@@ -11458,7 +11505,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "tos": "https://unix.dog/rules"
     },
@@ -11534,7 +11581,7 @@
     "jurisdiction": [
       "Sweden"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://neir.io/privacy",
       "tos": "https://neir.io/terms"
@@ -11624,7 +11671,7 @@
     "jurisdiction": [
       "United Kingdom"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://smailr.com/legal/privacy",
       "tos": "https://smailr.com/legal/terms"
@@ -11688,7 +11735,7 @@
     "jurisdiction": [
       "Portugal"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "code": "https://github.com/thelemail",
       "privacy": "https://thelemail.com/de/privacy",
@@ -11747,7 +11794,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS214279",
@@ -11804,13 +11851,20 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://elektrine.com/legal",
       "privacy": "https://elektrine.com/privacy",
       "tos": "https://elektrine.com/legal"
     },
     "mx": [
+      {
+        "asn": "AS200019",
+        "country": "Moldova",
+        "flag": "🇲🇩",
+        "host": "mx.elektrine.com",
+        "org": "ALEXHOST S.R.L."
+      },
       {
         "asn": "AS60068",
         "country": "United States",
@@ -11869,7 +11923,7 @@
     "jurisdiction": [
       "Greece"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://mailbox.gr/personal-information.html",
       "tos": "https://mailbox.gr/terms-and-conditions.html"
@@ -11946,7 +12000,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS8648",
@@ -12011,7 +12065,7 @@
     "jurisdiction": [
       "Uruguay"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "tos": "https://undernet.uy/terms.html"
     },
@@ -12060,7 +12114,7 @@
     "jurisdiction": [
       "Belgium"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://web.archive.org/web/20240624093227/https://nubo.coop/en/page/privacy_policy/",
       "tos": "https://web.archive.org/web/20240624103505/https://nubo.coop/en/faq/08_terms/"
@@ -12145,7 +12199,7 @@
     "jurisdiction": [
       "France"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "tos": "https://macaw.me/tos/"
     },
@@ -12201,7 +12255,7 @@
     "jurisdiction": [
       "Israel"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "http://www.safe-mail.net/docs/InternetPrivacy.html",
       "tos": "http://www.safe-mail.net/agreement.html"
@@ -12216,6 +12270,7 @@
       "$35/year",
       "$60/year"
     ],
+    "privacy_summary": "No cookies, no data collected about users, nothing sold or exchanged with other companies (claimed; page dated 2008)\nhttp://www.safe-mail.net/docs/InternetPrivacy.html",
     "servers": [
       {
         "host": "imap.safe-mail.net:993",
@@ -12223,7 +12278,8 @@
         "note": "SSL/TLS"
       }
     ],
-    "status": "auto"
+    "status": "auto",
+    "tos_summary": "Any legal use; no threats, spam, chain letters, pyramid schemes, bulk mail or disguised origin; Safe-mail may access an account and its contents for legal, enforcement, service or technical reasons; sender IP address is transmitted with each message; as is, no liability; access can end at any time without notice; law and courts of Israel\nhttp://www.safe-mail.net/agreement.html"
   },
   {
     "a": [
@@ -12231,7 +12287,7 @@
         "asn": "AS3320",
         "country": "Germany",
         "flag": "🇩🇪",
-        "host": "87.154.4.174",
+        "host": "79.218.149.241",
         "org": "Deutsche Telekom AG"
       }
     ],
@@ -12244,7 +12300,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS24961",
@@ -12252,6 +12308,13 @@
         "flag": "🇩🇪",
         "host": "pmg.home-hosting.de",
         "org": "WIIT AG"
+      },
+      {
+        "asn": "AS213251",
+        "country": "Germany",
+        "flag": "🇩🇪",
+        "host": "mx.quick-space.de",
+        "org": "Metaliance Datacenter GRA"
       }
     ],
     "note": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website unreachable (timeout: timed out). Reachable from 2 of 5 check-host.net locations (Kazakhstan, Poland): the site blocks some networks. Domain registration dates from 2022-01-25, but the Wayback Machine has captures since 2011-01-06: the domain was registered before, possibly by someone else. Website text taken from the Wayback Machine copy of 2026-07-17 (https://web.archive.org/web/20260717063221/https://mailjunky.net/). Wayback Machine captures: 2011-01-06 to 2026-07-17. IMAP (port 993) does not answer on imap.mailjunky.net, mail.mailjunky.net, pmg.home-hosting.de, nor from 5 check-host.net locations. Mail DNS: SPF, DMARC p=reject, MTA-STS.",
@@ -12266,9 +12329,16 @@
       "dmarc": "reject",
       "dnssec": "no",
       "mta_sts": "broken",
-      "spf": "no all",
+      "spf": "-all",
       "tls_rpt": "yes"
     },
+    "servers": [
+      {
+        "host": "mx.quick-space.de:993",
+        "kind": "IMAP",
+        "note": "SSL/TLS"
+      }
+    ],
     "status": "auto",
     "tos_summary": "Illegal actions (spam), fraud\nhttps://web.archive.org/web/20250810135245/https://mailjunky.net/index.php?action=tos"
   },
@@ -12289,7 +12359,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://tchncs.de/en/impressum",
       "privacy": "https://tchncs.de/en/privacy",
@@ -12355,7 +12425,7 @@
     "jurisdiction": [
       "Ukraine"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://noleron.com/privacy/",
       "tos": "https://noleron.com/rules/"
@@ -12413,7 +12483,7 @@
     "jurisdiction": [
       "Spain"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://landing.guifi.net/politica-de-privadesa-i-avis-legal/"
     },
@@ -12492,9 +12562,10 @@
     "jurisdiction": [
       "Spain"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
-      "privacy": "https://web.archive.org/web/20241208001327/https://laweb.pangea.org/politica-de-privacitat/"
+      "privacy": "https://web.archive.org/web/20241208001327/https://laweb.pangea.org/politica-de-privacitat/",
+      "tos": "https://laweb.pangea.org/avis-legal/"
     },
     "mx": [
       {
@@ -12565,8 +12636,9 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
+      "privacy": "https://slashmail.org/privacy/",
       "tos": "https://web.archive.org/web/20230525130544/https://slashmail.org/legal"
     },
     "mx": [
@@ -12599,6 +12671,16 @@
         "host": "slashmail.org:465",
         "kind": "SMTP",
         "note": "SSL/TLS"
+      },
+      {
+        "host": "slashmail.org:993",
+        "kind": "IMAP",
+        "note": "SSL/TLS"
+      },
+      {
+        "host": "slashmail.org:587",
+        "kind": "SMTP",
+        "note": "STARTTLS"
       }
     ],
     "status": "auto",
@@ -12630,7 +12712,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "code": "https://github.com/tinkink-net",
       "privacy": "https://tinkmail.me/docs/privacy-policy",
@@ -12703,7 +12785,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://donarev419.com/privacy-policy",
       "tos": "https://donarev419.com/terms"
@@ -12758,7 +12840,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS18450",
@@ -12791,11 +12873,11 @@
   {
     "a": [
       {
-        "asn": "",
+        "asn": "AS21257",
         "country": "Ukraine",
         "flag": "🇺🇦",
-        "host": "194.106.216.131",
-        "org": "X.UA"
+        "host": "194.106.216.46",
+        "org": "TOV IT-Park"
       }
     ],
     "created": "2016-10-25",
@@ -12806,14 +12888,14 @@
     "jurisdiction": [
       "Ukraine"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
-        "asn": "",
+        "asn": "AS21257",
         "country": "Ukraine",
         "flag": "🇺🇦",
-        "host": "smtp.fmail.net",
-        "org": "X.UA"
+        "host": "mx.fmail.net",
+        "org": "TOV IT-Park"
       }
     ],
     "note": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website unreachable (timeout: timed out). Also unreachable from 5 check-host.net locations (Indonesia, Japan, Sweden, UK, Vietnam). Domain registration dates from 2016-10-25, but the Wayback Machine has captures since 2007-11-22: the domain was registered before, possibly by someone else. Website text taken from the Wayback Machine copy of 2025-10-13 (https://web.archive.org/web/20251013124048/https://fmail.net/). Wayback Machine captures: 2007-11-22 to 2025-10-13. IMAP (port 993) does not answer on smtp.fmail.net, nor from 5 check-host.net locations. Mail DNS: SPF.",
@@ -12821,7 +12903,7 @@
     "order": 189,
     "security": {
       "dane": "no",
-      "dmarc": "missing",
+      "dmarc": "reject",
       "dnssec": "no",
       "mta_sts": "missing",
       "spf": "-all",
@@ -12855,7 +12937,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS14618",
@@ -12881,18 +12963,18 @@
   {
     "a": [
       {
-        "asn": "AS213230",
-        "country": "United States",
-        "flag": "🇺🇸",
-        "host": "5.161.47.86",
+        "asn": "AS24940",
+        "country": "Germany",
+        "flag": "🇩🇪",
+        "host": "195.201.128.179",
         "org": "Hetzner Online GmbH"
       },
       {
-        "asn": "AS16509",
+        "asn": "AS212317",
         "country": "United States",
         "flag": "🇺🇸",
-        "host": "76.223.91.20",
-        "org": "Amazon.com, Inc."
+        "host": "5.78.156.59",
+        "org": "Hetzner Online GmbH"
       }
     ],
     "alliance": 14,
@@ -12904,7 +12986,7 @@
     "jurisdiction": [
       "Sweden"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "tos": "https://web.archive.org/web/20241204080415/https://homemail.info/terms.html"
     },
@@ -12936,7 +13018,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS16509",
@@ -12996,7 +13078,7 @@
     "jurisdiction": [
       "Canada"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS26211",
@@ -13046,7 +13128,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS14454",
@@ -13087,7 +13169,7 @@
     "jurisdiction": [
       "Malaysia"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS26666",
@@ -13150,7 +13232,7 @@
     "jurisdiction": [
       "France"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "tos": "https://web.archive.org/web/20241218004724/https://pissmail.com/tos.html"
     },
@@ -13207,7 +13289,7 @@
     "jurisdiction": [
       "Canada"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "note": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. No MX record: domain cannot receive mail. Homepage contains unrelated spam (casino, casinos, gamstop): the site may be hacked or abandoned. Site mentions: accepts cryptocurrency.",
     "online_since": "2020-08-08",
     "order": 197,
@@ -13237,7 +13319,7 @@
     "jurisdiction": [
       "Finland"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS24940",
@@ -13279,7 +13361,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS213230",
@@ -13332,12 +13414,12 @@
     "created": "2014-12-06",
     "description": "Ctrl-C.club!",
     "domain": "ctrl-c.club",
-    "expires": "2026-12-05",
+    "expires": "2027-12-05",
     "flag": "🇺🇸",
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS14061",
@@ -13378,7 +13460,7 @@
     "jurisdiction": [
       "Canada"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS13335",
@@ -13421,7 +13503,7 @@
     "description": "tsutaja's lil mail server",
     "domain": "uq.ci",
     "expires": "2026-03-30",
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "note": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Struck out in README. Domain does not resolve (NXDOMAIN). Domain registration dates from 2024-03-30, but the Wayback Machine has captures since 2021-12-19: the domain was registered before, possibly by someone else. Website text taken from the Wayback Machine copy of 2025-03-07 (https://web.archive.org/web/20250307024925/https://uq.ci/). Wayback Machine captures: 2021-12-19 to 2025-08-07. Last TLS certificate issued in 2025 (crt.sh). Tor: rdubjoiswr7e7vui24nzfyt6qlpt2gkrvdror677oyi4bjntttohqmyd.onion.",
     "online_since": "2021-12-19",
     "order": 202,
@@ -13447,7 +13529,7 @@
       "🇬🇧 United Kingdom",
       "🇮🇸 Iceland"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS200651",
@@ -13480,7 +13562,7 @@
   {
     "description": "Inboxia - Receive-Only Email",
     "domain": "inboxia.org",
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "note": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Domain does not resolve (NXDOMAIN). Domain is not registered. Website text taken from the Wayback Machine copy of 2026-06-06 (https://web.archive.org/web/20260606171234/https://inboxia.org/). Wayback Machine captures: 2025-08-04 to 2026-06-06. Last TLS certificate issued in 2026 (crt.sh).",
     "online_since": "2025-08-04",
     "order": 204,
@@ -13492,7 +13574,7 @@
     "domain": "artikel-140.nl",
     "expires": "2026-12-06",
     "flag": "🇳🇱",
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "note": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Domain does not resolve (NXDOMAIN). Domain registration dates from 2026-05-26, but the Wayback Machine has captures since 2012-02-03: the domain was registered before, possibly by someone else. Website text taken from the Wayback Machine copy of 2023-06-07 (https://web.archive.org/web/20230607115326/http://artikel-140.nl/). Wayback Machine captures: 2012-02-03 to 2025-05-02. Last TLS certificate issued in 2026 (crt.sh).",
     "online_since": "2012-02-03",
     "order": 205,
@@ -13519,7 +13601,7 @@
       "🇸🇪 Sweden",
       "🇳🇱 Netherlands"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS210861",
@@ -13567,7 +13649,7 @@
     "jurisdiction": [
       "Italy"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "note": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. No MX record: domain cannot receive mail. Website unreachable (gaierror: [Errno -2] Name or service not known). Website text taken from the Wayback Machine copy of 2026-09-16 (https://web.archive.org/web/20260916144812/https://ecn.org/). Wayback Machine captures: 1997-01-05 to 2026-09-16.",
     "online_since": "1997-01-05",
     "order": 207,
@@ -13600,7 +13682,7 @@
     "jurisdiction": [
       "France"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS29169",
@@ -13648,7 +13730,7 @@
     "jurisdiction": [
       "Mexico"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS16276",
@@ -13681,7 +13763,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "note": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Domain does not resolve (NXDOMAIN). Website text taken from the Wayback Machine copy of 2017-05-05 (https://web.archive.org/web/20170505073608/http://flag.blackened.net:80/). Wayback Machine captures: 1998-01-09 to 2022-06-23. Last TLS certificate issued in 2026 (crt.sh).",
     "online_since": "1998-01-09",
     "order": 210,
@@ -13695,7 +13777,7 @@
     "jurisdiction": [
       "Argentina"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "note": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Struck out in README. Domain does not resolve (NXDOMAIN). Wayback Machine captures: 2003-02-07 to 2014-07-09.",
     "online_since": "2003-02-07",
     "order": 211,
@@ -13727,7 +13809,7 @@
     "jurisdiction": [
       "Singapore"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS47583",
@@ -13774,7 +13856,7 @@
     "jurisdiction": [
       "Iceland"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS44925",
@@ -13813,7 +13895,7 @@
     "jurisdiction": [
       "Italy"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "note": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. No MX record: domain cannot receive mail. Website unreachable (gaierror: [Errno -2] Name or service not known). Website text taken from the Wayback Machine copy of 2026-09-17 (https://web.archive.org/web/20260917212210/https://noblogs.org/). Wayback Machine captures: 2006-11-09 to 2026-09-17.",
     "online_since": "2006-11-09",
     "order": 214,
@@ -13838,7 +13920,7 @@
     "jurisdiction": [
       "Brazil"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS26615",
@@ -13878,7 +13960,7 @@
     "jurisdiction": [
       "Iceland"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS39287",
@@ -13915,7 +13997,7 @@
     "jurisdiction": [
       "Finland"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS199118",
@@ -13971,7 +14053,7 @@
     "jurisdiction": [
       "Netherlands"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS60781",
@@ -14021,7 +14103,7 @@
     "jurisdiction": [
       "Netherlands"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS60131",
@@ -14066,7 +14148,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "note": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Struck out in README. DNS lookup failed (SERVFAIL). Website text taken from the Wayback Machine copy of 2026-05-26 (https://web.archive.org/web/20260526164156/https://z.org/). Wayback Machine captures: 2012-10-12 to 2026-05-26. Tor: khav7sdajxu6om3arvglevskg2vwuy7luyjcwfwg6xnkd7qtskr2vhad.onion.",
     "online_since": "2012-10-12",
     "order": 220,
@@ -14084,7 +14166,7 @@
     "jurisdiction": [
       "Canada"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS13335",
@@ -14126,7 +14208,7 @@
     "description": "Exulan Email Service\nLink to my email service and other projects I've been doing.",
     "domain": "exulan.com.au",
     "flag": "🇦🇺",
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "note": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Struck out in README. Domain does not resolve (NXDOMAIN). Domain is not registered. Website text taken from the Wayback Machine copy of 2025-04-09 (https://web.archive.org/web/20250409072618/https://www.exulan.com.au/). Wayback Machine captures: 2024-05-16 to 2025-04-09. Last TLS certificate issued in 2026 (crt.sh). Site mentions: invite-only.",
     "online_since": "2024-05-16",
     "order": 222,
@@ -14151,7 +14233,7 @@
     "jurisdiction": [
       "United Kingdom"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS41354",
@@ -14196,7 +14278,7 @@
     "jurisdiction": [
       "Austria"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS57169",
@@ -14273,7 +14355,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS36352",
@@ -14316,7 +14398,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://elyria.cc/privacy",
       "tos": "https://elyria.cc/terms"
@@ -14344,15 +14426,52 @@
     "status": "pending"
   },
   {
+    "a": [
+      {
+        "asn": "AS16276",
+        "country": "France",
+        "flag": "🇫🇷",
+        "host": "141.94.247.248",
+        "org": "OVH SAS"
+      }
+    ],
     "created": "2026-04-27",
     "description": "GoyMail - Privacy-focused email\nGoyMail is a privacy-focused email service with token login, Webmail, IMAP/SMTP access, no ads, and no KYC signup.",
     "domain": "goymail.email",
     "expires": "2027-04-27",
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
+    "mx": [
+      {
+        "asn": "AS215659",
+        "country": "Romania",
+        "flag": "🇷🇴",
+        "host": "mail.shabbos.to",
+        "org": "Aokigahara SRL"
+      }
+    ],
     "note": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. DNS lookup failed (SERVFAIL). Website text taken from the Wayback Machine copy of 2026-08-02 (https://web.archive.org/web/20260802083732/https://goymail.email/). Wayback Machine captures: 2026-05-29 to 2026-08-02. Last TLS certificate issued in 2026 (crt.sh).",
     "onion": "http://goymail7wl6g3prdcqc23ip7i4s43rjwdwwiq7mmaofzsmtuuvrszxad.onion/",
     "online_since": "2026-05-29",
     "order": 227,
+    "security": {
+      "dane": "no",
+      "dmarc": "none",
+      "dnssec": "no",
+      "mta_sts": "missing",
+      "spf": "~all",
+      "tls_rpt": "missing"
+    },
+    "servers": [
+      {
+        "host": "mail.shabbos.to:993",
+        "kind": "IMAP",
+        "note": "SSL/TLS"
+      },
+      {
+        "host": "Dovecot",
+        "kind": "IMAP software"
+      }
+    ],
     "status": "pending"
   },
   {
@@ -14372,7 +14491,7 @@
     "jurisdiction": [
       "Iceland"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "code": "https://codeberg.org/haptagod/rootshell-mail"
     },
@@ -14508,7 +14627,10 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
+    "links": {
+      "tos": "https://posteo.de/en/site/terms"
+    },
     "mx": [
       {
         "asn": "AS8495",
@@ -14602,7 +14724,7 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://mailbox.org/de/impressum/",
       "privacy": "https://mailbox.org/de/datenschutz/",
@@ -14722,7 +14844,7 @@
     "jurisdiction": [
       "Norway"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "code": "https://github.com/runbox/runbox7",
       "privacy": "https://runbox.com/about/privacy-policy/",
@@ -14811,7 +14933,7 @@
     "jurisdiction": [
       "Netherlands"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://www.startmail.com/de/impressum",
       "privacy": "https://www.startmail.com/privacy",
@@ -14916,7 +15038,7 @@
     "jurisdiction": [
       "Switzerland"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "tos": "https://kolabnow.com/tos"
     },
@@ -15019,7 +15141,7 @@
     "jurisdiction": [
       "Canada"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://www.hushmail.com/privacy",
       "tos": "https://www.hushmail.com/terms"
@@ -15110,7 +15232,7 @@
     "jurisdiction": [
       "Sweden"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://countermail.com/?p=privacy",
       "tos": "https://countermail.com/?p=terms"
@@ -15124,13 +15246,14 @@
         "org": "Adminor Aktiebolag"
       }
     ],
-    "note": "Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Domain registration dates from 2008-05-11, but the Wayback Machine has captures since 2002-09-21: the domain was registered before, possibly by someone else. IMAP server imap.countermail.com:993 answers (Dovecot). Webmail: https://webmail.countermail.com/ (Roundcube). Mail DNS: SPF, DMARC p=quarantine, DANE, DNSSEC. Site mentions: invite-only, accepts cryptocurrency, PGP/E2E encryption.",
+    "note": "Auto-collected 2026-11-18 (DNS, RDAP/whois, website, support knowledge base); registration not tested, because it is closed. The site and the registration page say the service is closed for new registrations; signup asks for a 32-character invitation code from an existing premium member (required since 2020-11-01), then a 10-day trial. Swedish service: the site says the company is based in Sweden and follows Swedish law, but publishes no company name or registration number, and none was found, so the owner is left empty. Domain registration dates from 2008-05-11, but the Wayback Machine has captures since 2002-09-21: the domain was registered before, possibly by someone else. OpenPGP with 4096-bit keys, encrypted in the browser; mail body and attachments are stored encrypted, headers (From, To, Subject, Date) and folder names are not. Private keys are stored encrypted on the server, not linked to the account according to the site; a lost password cannot be recovered. Webmail built on Roundcube and OpenPGP.js. Also IMAP, own domains ($15 once), aliases, USB key option, secure forms, XMPP chat, extra storage from $19 for 250 MB. Court orders (support FAQ): only from Swedish police with a prosecutor's decision, reviewed by the company's lawyer, metadata at most, and the account may be closed; spam, phishing and ransomware accounts are closed without such a decision. Website behind Cloudflare; webmail, support, IMAP and MX are all on one address, 5.226.34.35 (Adminor, Sweden). Inconsistencies on the site: the services page lists prices, while the changelog of 2025-11-06 says the service has been '100% free for over 1.5 years'; the home page offers a one-week free trial and signup, while registration is closed and the trial is 10 days by invitation; the terms and services page still list Bitcoin, while the changelog says Bitcoin was disabled for new accounts on 2024-06-19 and all crypto payments would end that year; the privacy policy says no cookies, while the webmail sets a session cookie (roundcube_sessid); the site calls the web servers diskless and separate from the mail servers, which cannot be confirmed from outside, since both answer on the same address. The webmail server reports Apache 2.4.6, PHP 5.4.16 and OpenSSL 1.0.2k, CentOS 7 era versions (backported fixes cannot be seen from outside). IMAP server imap.countermail.com:993 answers (Dovecot); SMTP ports 465 and 587 were not reachable from the test network. Mail DNS: SPF ~all, DMARC p=quarantine, DNSSEC and DANE; no MTA-STS or TLS-RPT.",
     "online_since": "2002-09-21",
     "order": 235,
     "price": [
-      "free"
+      "closed to new users (invitation code only, 10-day trial)",
+      "listed: $29/6 months, $49/12 months, $79/24 months (4 GB)"
     ],
-    "privacy_summary": "No IP logging (claimed), encryption\nhttps://countermail.com/?p=privacy",
+    "privacy_summary": "No IP logging, no web server disks and no cookies (claimed); mail body and attachments stored encrypted, but From, To, Subject, Date and folder names are not; private PGP keys stored encrypted and not linked to the account (claimed); full payment details kept 14 days, then only product, amount, method, date and country; data not shared or sold; only Swedish court orders accepted, metadata at most\nhttps://countermail.com/?p=privacy",
     "security": {
       "dane": "yes",
       "dmarc": "quarantine",
@@ -15150,8 +15273,8 @@
         "kind": "IMAP software"
       }
     ],
-    "status": "pending",
-    "tos_summary": "Illegal actions (spam, hacking), IP violation, commercial use\nhttps://countermail.com/?p=terms"
+    "status": "auto",
+    "tos_summary": "18+, no illegal use under Swedish law, no spam, phishing, mass or marketing mail, no SEO use, no forged senders; own domains must be yours and not usable for phishing; account can be cancelled at any time without notice on violation; lost password or username means the mail is lost; 14-day refund until the first mail is sent\nhttps://countermail.com/?p=terms"
   },
   {
     "a": [
@@ -15179,7 +15302,7 @@
     "jurisdiction": [
       "Spain"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "code": "https://github.com/internxt",
       "imprint": "https://internxt.com/legal",
@@ -15247,7 +15370,7 @@
     "jurisdiction": [
       "Australia"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://www.fastmail.com/features/privacy/",
       "tos": "https://www.fastmail.com/policies/terms-of-service/"
@@ -15342,10 +15465,11 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://www.gmx.net/impressum/",
-      "privacy": "https://agb-server.gmx.net/datenschutz"
+      "privacy": "https://agb-server.gmx.net/datenschutz",
+      "tos": "https://agb-server.gmx.net/gmxagb-de"
     },
     "mx": [
       {
@@ -15441,10 +15565,11 @@
     "jurisdiction": [
       "Germany"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://web.de/impressum/",
-      "privacy": "https://agb-server.web.de/datenschutz"
+      "privacy": "https://agb-server.web.de/datenschutz",
+      "tos": "https://agb-server.web.de/webdeagb"
     },
     "mx": [
       {
@@ -15541,7 +15666,7 @@
     "jurisdiction": [
       "Norway"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://vivaldi.com/privacy/code-of-conduct",
       "tos": "https://vivaldi.com/privacy/community-terms-of-use/"
@@ -15650,7 +15775,7 @@
     "jurisdiction": [
       "India"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://www.zoho.com/de/impressum.html",
       "privacy": "https://www.zoho.com/gdpr.html",
@@ -15761,7 +15886,7 @@
     "jurisdiction": [
       "Czechia"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://o.seznam.cz/ochrana-udaju/",
       "tos": "https://o.seznam.cz/smluvni-podminky/"
@@ -15832,7 +15957,7 @@
     "jurisdiction": [
       "France"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://laposte.net/mentions-legales",
       "privacy": "https://laposte.net/cookies",
@@ -15906,7 +16031,7 @@
     "jurisdiction": [
       "France"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "https://tech.orange.fr/securite/mes-donnees/pour-contrer-les-cyberattaques-ce-procede-veut-vider-les-serveurs-de-nos-donnees-CNT000002tqUD4.html"
     },
@@ -15935,7 +16060,7 @@
       "dmarc": "quarantine",
       "dnssec": "no",
       "mta_sts": "missing",
-      "spf": "~all",
+      "spf": "-all",
       "tls_rpt": "missing"
     },
     "servers": [
@@ -15967,14 +16092,14 @@
         "asn": "AS15169",
         "country": "United States",
         "flag": "🇺🇸",
-        "host": "142.250.154.18",
+        "host": "142.251.13.18",
         "org": "Google LLC"
       },
       {
         "asn": "AS15169",
         "country": "United States",
         "flag": "🇺🇸",
-        "host": "142.250.154.83",
+        "host": "142.251.13.83",
         "org": "Google LLC"
       }
     ],
@@ -15990,9 +16115,9 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
-      "privacy": "https://accounts.google.com/TOS?loc=DE&hl=en-US&privacy=true",
+      "privacy": "https://policies.google.com/privacy",
       "tos": "https://accounts.google.com/TOS?loc=DE&hl=en-US"
     },
     "mx": [
@@ -16028,6 +16153,7 @@
     "note": "Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Website redirects to https://accounts.google.com/. Mail servers belong to Google Workspace. IMAP server imap.gmail.com:993 answers (Gmail). Listed in Thunderbird's ISPDB. Mail DNS: SPF, DMARC p=none, MTA-STS.",
     "order": 245,
     "owner": "🇺🇸 Google LLC",
+    "privacy_summary": "IP address, device, activity and location data, cookies, pixel tags and server logs; ad and analytics services can link activity across sites and apps; identifying data not shared with advertisers unless requested\nhttps://policies.google.com/privacy",
     "security": {
       "dane": "no",
       "dmarc": "none",
@@ -16086,9 +16212,10 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
-      "privacy": "https://www.microsoft.com/de-de/privacy"
+      "privacy": "https://www.microsoft.com/en-us/privacy/privacystatement",
+      "tos": "https://www.microsoft.com/en-us/servicesagreement"
     },
     "mx": [
       {
@@ -16103,6 +16230,7 @@
     "online_since": "1996-12-24",
     "order": 246,
     "owner": "🇺🇸 Microsoft Corporation",
+    "privacy_summary": "IP address, device data and location; scanning such as hash matching against abuse and child exploitation, reports to NCMEC and law enforcement possible; content of emails, chats and files not used to target ads; data kept as long as needed for services and legal or business purposes\nhttps://www.microsoft.com/en-us/privacy/privacystatement",
     "security": {
       "dane": "no",
       "dmarc": "none",
@@ -16132,22 +16260,23 @@
         "kind": "IMAP software"
       }
     ],
-    "status": "pending"
+    "status": "pending",
+    "tos_summary": "Microsoft Services Agreement: no spam, phishing or malware; Outlook.com inbox closed if not signed in to at least once a year; account can be suspended if fraud by a third party is suspected; binding arbitration and class action waiver for US residents\nhttps://www.microsoft.com/en-us/servicesagreement"
   },
   {
     "a": [
       {
-        "asn": "AS36646",
-        "country": "United States",
-        "flag": "🇺🇸",
-        "host": "74.6.231.20",
-        "org": "Yahoo Holdings Inc."
-      },
-      {
         "asn": "AS26101",
         "country": "United States",
         "flag": "🇺🇸",
-        "host": "74.6.143.25",
+        "host": "74.6.143.26",
+        "org": "Yahoo Holdings Inc."
+      },
+      {
+        "asn": "AS36647",
+        "country": "United States",
+        "flag": "🇺🇸",
+        "host": "98.137.11.164",
         "org": "Yahoo Holdings Inc."
       }
     ],
@@ -16178,10 +16307,10 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
-      "privacy": "https://legal.yahoo.com/us/en/yahoo/privacy/adinfo/index.html",
-      "tos": "https://health.yahoo.com/conditions/"
+      "privacy": "https://legal.yahoo.com/us/en/yahoo/privacy/index.html",
+      "tos": "https://legal.yahoo.com/us/en/yahoo/terms/otos/index.html"
     },
     "mx": [
       {
@@ -16210,7 +16339,7 @@
     "online_since": "1996-10-17",
     "order": 247,
     "owner": "🇺🇸 Yahoo Inc.",
-    "privacy_summary": "Cookies, advertising, no third-party sharing (claimed)\nhttps://legal.yahoo.com/us/en/yahoo/privacy/adinfo/index.html",
+    "privacy_summary": "Collects account data, content of communications including emails and attachments, IP address, cookies, device and advertising identifiers; activity on and off Yahoo services used for personalised advertising across devices\nhttps://legal.yahoo.com/us/en/yahoo/privacy/index.html",
     "security": {
       "dane": "no",
       "dmarc": "reject",
@@ -16248,7 +16377,8 @@
       "https://www.youtube.com/c/yahoonews",
       "https://www.tiktok.com/@yahoonews"
     ],
-    "status": "pending"
+    "status": "pending",
+    "tos_summary": "Minimum age set per country; features and services can change or stop without notice; account can be suspended or terminated at any time, without notice and for any reason (unless local terms differ); binding arbitration and class action waiver for US users\nhttps://legal.yahoo.com/us/en/yahoo/terms/otos/index.html"
   },
   {
     "a": [
@@ -16273,7 +16403,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS714",
@@ -16321,14 +16451,14 @@
         "asn": "AS14618",
         "country": "United States",
         "flag": "🇺🇸",
-        "host": "54.85.212.202",
+        "host": "34.233.215.56",
         "org": "Amazon.com, Inc."
       },
       {
         "asn": "AS14618",
         "country": "United States",
         "flag": "🇺🇸",
-        "host": "18.235.50.124",
+        "host": "100.48.185.29",
         "org": "Amazon.com, Inc."
       }
     ],
@@ -16360,7 +16490,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "privacy": "http://legal.aol.com/privacy/index.html?locale=en-US",
       "tos": "https://legal.aol.com/terms/index.html"
@@ -16444,7 +16574,7 @@
     "jurisdiction": [
       "Russia"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "mx": [
       {
         "asn": "AS13238",
@@ -16510,7 +16640,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "code": "https://github.com/riseupnet/riseup_help",
       "privacy": "https://riseup.net/en/privacy-policy",
@@ -16582,7 +16712,7 @@
     "jurisdiction": [
       "France"
     ],
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-18",
     "links": {
       "tos": "https://lain.rocks/sites/tos.html"
     },
@@ -16645,7 +16775,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-11-05",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://purelymail.com/about",
       "privacy": "https://purelymail.com/privacy",
@@ -16717,7 +16847,7 @@
     "jurisdiction": [
       "United States"
     ],
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://help.kagi.com/kagi/company/",
       "privacy": "https://kagi.com/privacy",
@@ -16798,7 +16928,7 @@
     "jurisdiction": [
       "United Kingdom"
     ],
-    "last_checked": "2026-11-11",
+    "last_checked": "2026-11-18",
     "links": {
       "imprint": "https://mailotte.com/about.html",
       "privacy": "https://mailotte.com/privacy-policy.html",

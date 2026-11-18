@@ -4,8 +4,8 @@ domain: mailsea.top
 status: auto
 flag: 🇺🇸
 a:
-- {host: '92.113.23.164', flag: 🇩🇪, country: Germany, asn: AS47583, org: Hostinger International Limited}
-- {host: '92.113.16.13', flag: 🇩🇪, country: Germany, asn: AS47583, org: Hostinger International Limited}
+- {host: '84.32.84.215', flag: 🇱🇹, country: Lithuania, asn: AS47583, org: Hostinger International Limited}
+- {host: '2.57.91.54', flag: 🇱🇹, country: Lithuania, asn: AS47583, org: Hostinger International Limited}
 mx:
 - {host: mx1.hostinger.com, flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
 - {host: mx2.hostinger.com, flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
@@ -20,9 +20,6 @@ description: |-
 price:
 - free
 note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
-links:
-  tos: https://mailsea.top/
-  privacy: https://mailsea.top/
 security:
   spf: ~all
   dmarc: none
@@ -31,4 +28,4 @@ security:
   dnssec: 'no'
   dane: 'no'
 online_since: '2018-08-11'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

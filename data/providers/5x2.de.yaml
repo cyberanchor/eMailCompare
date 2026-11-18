@@ -4,8 +4,8 @@ domain: '5x2.de'
 status: auto
 flag: 🇩🇪
 a:
-- {host: '104.26.6.119', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
-- {host: '104.26.7.119', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '104.21.53.182', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
+- {host: '172.67.216.28', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
 mx:
 - {host: mx-srv03.5x2.de, flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
 - {host: mx-srv01.5x2.de, flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
@@ -40,4 +40,4 @@ servers:
 - {kind: POP3, host: 'mail.5x2.de:995', note: SSL/TLS}
 - {kind: SMTP, host: 'mail.5x2.de:465', note: SSL/TLS}
 online_since: '2009-08-13'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

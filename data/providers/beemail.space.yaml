@@ -13,6 +13,9 @@ expires: '2027-09-04'
 jurisdiction:
 - Russia
 description: Beemail
+privacy_summary: |-
+  Consent page worded for a shop (Buyer and Seller): full name, birth date, phone, email and postal address, also used for marketing; passed to Russian state authorities on legal grounds and to 'strategic partners'; Federal Law 152-FZ
+  https://beemail.space/privacy-policy/
 note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
 links:
   privacy: https://beemail.space/privacy-policy/
@@ -27,4 +30,4 @@ servers:
 - {kind: IMAP, host: 'mail.beemail.space:993', note: SSL/TLS}
 - {kind: IMAP software, host: Dovecot}
 online_since: '2024-09-20'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

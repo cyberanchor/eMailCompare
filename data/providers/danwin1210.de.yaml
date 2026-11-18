@@ -12,6 +12,9 @@ alliance: 14
 jurisdiction:
 - Germany
 description: Daniel Winzen – Web- und Server-Experte
+tos_summary: |-
+  No spam, mass mailing or illegal use, no threats of violence; provided as is, no uptime guarantee; inactive accounts deleted after the period set in the account; password reset only with proof of ownership (PGP signature); account can be blocked or deleted and terms changed without notice
+  https://mail.danwin1210.de/terms.php
 privacy_summary: |-
   Collect IP addresses, cookies, third parties, GDPR
   https://danwin.dev/datenschutzerklaerung/
@@ -38,4 +41,4 @@ servers:
 - {kind: SMTP, host: 'danwin1210.de:465', note: SSL/TLS}
 - {kind: SMTP, host: 'danwin1210.de:587', note: STARTTLS}
 online_since: '2021-12-05'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

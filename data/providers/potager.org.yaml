@@ -28,4 +28,4 @@ servers:
 - {kind: SMTP, host: 'mail.potager.org:465', note: SSL/TLS}
 - {kind: IMAP software, host: Dovecot}
 online_since: '2003-09-01'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

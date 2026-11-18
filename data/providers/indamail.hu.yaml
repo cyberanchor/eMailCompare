@@ -34,4 +34,4 @@ servers:
 - {kind: IMAP, host: 'imap.indamail.hu:993', note: SSL/TLS}
 - {kind: SMTP, host: 'smtp.indamail.hu:465', note: SSL/TLS}
 online_since: '2008-03-23'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

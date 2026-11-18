@@ -33,4 +33,4 @@ servers:
 - {kind: SMTP, host: 'mail.nolog.cz:587', note: STARTTLS}
 - {kind: IMAP software, host: Dovecot}
 online_since: '2019-11-12'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

@@ -30,4 +30,4 @@ servers:
 - {kind: SMTP, host: 'mail.vip.gr:465', note: SSL/TLS}
 - {kind: IMAP software, host: Dovecot}
 online_since: '1999-01-25'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

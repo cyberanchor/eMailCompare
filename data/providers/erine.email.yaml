@@ -32,4 +32,4 @@ security:
   dnssec: 'no'
   dane: 'no'
 online_since: '2018-08-08'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

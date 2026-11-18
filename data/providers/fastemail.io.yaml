@@ -27,4 +27,4 @@ security:
 servers:
 - {kind: IMAP, host: 'mx2.secureforwards.net:993', note: SSL/TLS}
 online_since: '2024-03-25'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

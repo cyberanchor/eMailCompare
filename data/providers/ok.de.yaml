@@ -7,14 +7,20 @@ a:
 - {host: '104.26.15.116', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
 - {host: '172.67.73.131', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
 mx:
-- {host: mx2-eu.spamexperts.com, flag: 🇩🇪, country: Germany, asn: AS16633, org: 'N-able Technologies, Inc.'}
+- {host: mx.spamexperts.com, flag: 🇩🇪, country: Germany, asn: AS16633, org: 'N-able Technologies, Inc.'}
+- {host: fallbackmx.spamexperts.eu, flag: 🇩🇪, country: Germany, asn: AS16633, org: 'N-able Technologies, Inc.'}
+- {host: lastmx.spamexperts.net, flag: 🇺🇸, country: United States, asn: AS16633, org: 'N-able Technologies, Inc.'}
 - {host: mx1-eu.spamexperts.com, flag: 🇩🇪, country: Germany, asn: AS16633, org: 'N-able Technologies, Inc.'}
-- {host: mx3-eu.spamexperts.com, flag: 🇳🇱, country: Netherlands, asn: AS174, org: 'Cogent Communications, LLC'}
-- {host: mx4-eu.spamexperts.com, flag: 🇩🇪, country: Germany, asn: AS16633, org: 'N-able Technologies, Inc.'}
 alliance: 14
 jurisdiction:
 - Germany
 description: OK.de
+tos_summary: |-
+  Archived copy (2017): free accounts carry advertising from partners in mail; after 6 months of inactivity stored mail may be deleted without asking and the account restricted, further measures after 1 year; storage above 3 GB only after an abuse check; German law, court of Castrop-Rauxel for merchants
+  https://web.archive.org/web/20170805165830/https://www.ok.de/index.php?action=agb
+privacy_summary: |-
+  Archived copy (2021): IP address, device identifiers and access data in log files until automatic deletion; data shared only with consent, for contracts, legal duty or legal claims; newsletter by consent; GDPR
+  https://web.archive.org/web/20210301172158/https://www.ok.de/company/en/privacy-policy-2/
 note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
 links:
   tos: https://web.archive.org/web/20170805165830/https://www.ok.de/index.php?action=agb
@@ -31,5 +37,6 @@ servers:
 - {kind: SMTP, host: 'smtp.ok.de:587', note: SSL/TLS}
 - {kind: SMTP, host: 'smtp.ok.de:587', note: STARTTLS}
 - {kind: POP3, host: 'pop.ok.de:995', note: SSL/TLS}
+- {kind: SMTP, host: 'smtp.ok.de:465', note: STARTTLS}
 online_since: '2009-10-28'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

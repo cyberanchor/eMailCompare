@@ -35,4 +35,4 @@ servers:
 - {kind: IMAP, host: 'cpanel01.tulix.tv:993', note: SSL/TLS}
 - {kind: IMAP software, host: Dovecot}
 online_since: '1998-02-13'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

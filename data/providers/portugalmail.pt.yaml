@@ -17,6 +17,9 @@ jurisdiction:
 description: |-
   Portugalmail
   Email pessoal
+tos_summary: |-
+  Archived copy (2025): for legal entities able to sign commercial contracts; no unsolicited mail; resource limits may cause delivery failures; customer responsible for credentials and all activity under them; service can be limited or suspended if credentials leak, and refused to repeat violators
+  https://web.archive.org/web/20251106213158/https://portugalmail.pt/condicoes-de-servico/
 privacy_summary: |-
   Collect IP addresses, cookies, no ads (claimed), share upon authorities' request, GDPR
   https://portugalmail.pt/politica-de-privacidade/
@@ -37,4 +40,4 @@ servers:
 - {kind: IMAP, host: 'imap.portugalmail.pt:993', note: SSL/TLS}
 - {kind: IMAP software, host: Dovecot}
 online_since: '1999-05-08'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

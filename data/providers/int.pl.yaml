@@ -36,4 +36,4 @@ servers:
 - {kind: POP3, host: 'poczta.int.pl:995', note: SSL/TLS}
 - {kind: SMTP, host: 'poczta.int.pl:465', note: SSL/TLS}
 online_since: '2002-09-27'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

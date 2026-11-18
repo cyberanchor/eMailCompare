@@ -27,7 +27,7 @@ tos_summary: |-
   Illegal actions (spam)
   https://navi.land/terms.php
 privacy_summary: |-
-  No IP logging (claimed), cookies, analytics/tracking, no ads (claimed), no third-party sharing (claimed), no-logs claim, does not sell data (claimed)
+  Stores username, password hash and creation date only, no IP or user agent at signup; web access log disabled; Postfix and Dovecot logs kept for delivery and abuse, rotated; self-hosted GoatCounter statistics; session cookie only; mail stored in Maildir format, no ad scanning, no sale; account can be deleted by the user
   https://navi.land/privacy.php
 price:
 - free
@@ -47,4 +47,4 @@ servers:
 - {kind: IMAP, host: 'mail.navi.land:993', note: SSL/TLS}
 - {kind: SMTP, host: 'mail.navi.land:587', note: STARTTLS}
 online_since: '2018-08-09'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

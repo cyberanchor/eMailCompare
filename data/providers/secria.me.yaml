@@ -21,7 +21,7 @@ tos_summary: |-
   Illegal actions (CSAM, spam, hacking), IP violation, harassment, fraud, multiple accounts
   https://secria.me/app-tos/
 privacy_summary: |-
-  Collect IP addresses, cookies, analytics/tracking, no ads (claimed), third parties, share upon authorities' request, encryption, no-logs claim, GDPR, does not sell data (claimed)
+  Login data only; IP processed transiently in hashed form for rate limiting and abuse; no analytics or advertising cookies, referral code in local storage up to 90 days; stored messages encrypted to the user's keys; vendors such as payment and hosting; disclosure under law or court order; no sale; inactive accounts (2+ years) may be deleted; not for under 16; GDPR, CCPA
   https://secria.me/privacy-policy/
 price:
 - free
@@ -45,4 +45,4 @@ security:
   dnssec: 'yes'
   dane: 'no'
 online_since: '2024-12-26'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

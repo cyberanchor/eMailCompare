@@ -14,7 +14,7 @@ a:
 mx:
 - {host: mail.atfix.net, flag: 🇩🇪, country: Germany, asn: AS25504, org: Vautron Rechenzentrum AG}
 created: '2018-11-17'
-expires: '2026-11-17'
+expires: '2027-11-17'
 owner: 🇦🇹 Webrex OG
 jurisdiction:
 - Austria
@@ -46,4 +46,4 @@ security:
   dnssec: 'no'
   dane: 'no'
 online_since: '2007-02-24'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

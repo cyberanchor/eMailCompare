@@ -32,4 +32,4 @@ servers:
 - {kind: SMTP, host: 'smtp.yandex.com:465', note: SSL/TLS}
 - {kind: IMAP software, host: Yandex}
 online_since: '1998-12-06'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

@@ -39,4 +39,4 @@ servers:
 - {kind: SMTP, host: 'mail.systemli.org:465', note: SSL/TLS}
 - {kind: IMAP software, host: Dovecot}
 online_since: '2004-02-12'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

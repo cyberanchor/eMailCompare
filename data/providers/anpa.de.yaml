@@ -38,4 +38,4 @@ security:
 servers:
 - {kind: IMAP, host: 'imap.anpa.de:993', note: SSL/TLS}
 online_since: '2001-05-16'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

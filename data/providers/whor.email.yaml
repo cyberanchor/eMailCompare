@@ -26,7 +26,7 @@ a:
 mx:
 - {host: box.fukt.cc, flag: 🇬🇧, country: United Kingdom, asn: AS51167, org: Contabo GmbH}
 created: '2019-11-26'
-expires: '2026-11-26'
+expires: '2027-11-26'
 alliance: 5
 jurisdiction:
 - United Kingdom
@@ -52,4 +52,4 @@ servers:
 - {kind: SMTP, host: 'box.fukt.cc:465', note: SSL/TLS}
 - {kind: IMAP software, host: Dovecot}
 online_since: '2020-03-09'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

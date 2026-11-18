@@ -38,4 +38,4 @@ servers:
 - {kind: IMAP, host: 'mail.webmail.com.pt:993', note: SSL/TLS}
 - {kind: IMAP software, host: Dovecot}
 online_since: '2005-11-25'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

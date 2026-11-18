@@ -39,4 +39,4 @@ servers:
 - {kind: SMTP, host: 'mail.ecloud.global:587', note: STARTTLS}
 - {kind: IMAP software, host: Dovecot}
 online_since: '2022-05-07'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

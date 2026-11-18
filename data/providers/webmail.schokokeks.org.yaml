@@ -16,6 +16,12 @@ alliance: 14
 jurisdiction:
 - Germany
 description: schokokeks.org E-Mail
+tos_summary: |-
+  German law, for business users the court of Backnang; liability for outages limited to fees paid; applications with an unfixed critical security problem can be blocked; hosting can be cancelled with 2 weeks' notice to the end of the month, domains 6 weeks before the billing period ends
+  https://schokokeks.org/agb
+privacy_summary: |-
+  Data passed to third parties only to carry out orders, not to credit agencies; access logged only exceptionally for troubleshooting, briefly and without IP addresses; GDPR rights
+  https://schokokeks.org/datenschutz
 note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. MX taken from schokokeks.org.
 links:
   tos: https://schokokeks.org/agb
@@ -31,4 +37,4 @@ servers:
 - {kind: IMAP, host: 'zucker.schokokeks.org:993', note: SSL/TLS}
 - {kind: IMAP software, host: Dovecot}
 online_since: '2013-06-30'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

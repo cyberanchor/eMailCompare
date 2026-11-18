@@ -21,7 +21,7 @@ note: 'Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not te
 links:
   privacy: https://tech.orange.fr/securite/mes-donnees/pour-contrer-les-cyberattaques-ce-procede-veut-vider-les-serveurs-de-nos-donnees-CNT000002tqUD4.html
 security:
-  spf: ~all
+  spf: -all
   dmarc: quarantine
   mta_sts: missing
   tls_rpt: missing
@@ -33,4 +33,4 @@ servers:
 - {kind: SMTP, host: 'smtp.orange.fr:465', note: SSL/TLS}
 - {kind: IMAP software, host: Dovecot}
 online_since: '2001-06-27'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

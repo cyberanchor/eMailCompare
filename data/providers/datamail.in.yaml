@@ -40,4 +40,4 @@ servers:
 - {kind: SMTP, host: 'smtps.datamail.in:465', note: SSL/TLS}
 - {kind: POP3, host: 'mail.datamail.in:995', note: SSL/TLS}
 online_since: '2016-10-21'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

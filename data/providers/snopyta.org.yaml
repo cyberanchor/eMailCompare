@@ -20,4 +20,4 @@ security:
   tls_rpt: missing
   dnssec: 'yes'
   dane: 'yes'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

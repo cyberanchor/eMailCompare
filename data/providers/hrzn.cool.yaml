@@ -35,4 +35,4 @@ servers:
 - {kind: IMAP, host: 'mail.hrzn.email:993', note: SSL/TLS}
 - {kind: IMAP software, host: Dovecot}
 online_since: '2021-12-07'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

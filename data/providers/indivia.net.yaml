@@ -9,7 +9,7 @@ mx:
 - {host: mail.indivia.ortiche.net, flag: 🇨🇭, country: Switzerland, asn: AS29691, org: Nine Internet Solutions AG}
 - {host: mail.azoto.ortiche.net, flag: 🇷🇴, country: Romania, asn: AS39622, org: ZERGRUSH SRL}
 created: '2003-12-11'
-expires: '2026-12-11'
+expires: '2027-12-11'
 jurisdiction:
 - 🇨🇭 Switzerland
 - 🇷🇴 Romania
@@ -25,4 +25,4 @@ security:
 servers:
 - {kind: IMAP, host: 'imap.indivia.net:993', note: SSL/TLS}
 online_since: '2001-02-01'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

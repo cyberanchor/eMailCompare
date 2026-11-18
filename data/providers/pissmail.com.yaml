@@ -42,4 +42,4 @@ security:
   dnssec: 'yes'
   dane: 'no'
 online_since: '2004-03-25'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

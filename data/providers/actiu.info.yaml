@@ -28,4 +28,4 @@ servers:
 - {kind: POP3, host: 'pop3.actiu.info:995', note: SSL/TLS}
 - {kind: SMTP, host: 'smtp.actiu.info:465', note: SSL/TLS}
 online_since: '2006-06-26'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

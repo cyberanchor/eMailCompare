@@ -35,4 +35,4 @@ servers:
 - {kind: POP3, host: 'imap.nixnet.email:995', note: SSL/TLS}
 - {kind: IMAP software, host: Dovecot}
 online_since: '2020-02-18'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

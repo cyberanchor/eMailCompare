@@ -51,4 +51,4 @@ servers:
 - {kind: POP3, host: 'mail.runbox.com:995', note: SSL/TLS}
 - {kind: SMTP, host: 'mail.runbox.com:465', note: SSL/TLS}
 online_since: '2000-03-04'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

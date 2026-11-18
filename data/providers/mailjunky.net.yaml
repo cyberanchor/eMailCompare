@@ -4,9 +4,10 @@ domain: mailjunky.net
 status: auto
 flag: 🇩🇪
 a:
-- {host: '87.154.4.174', flag: 🇩🇪, country: Germany, asn: AS3320, org: Deutsche Telekom AG}
+- {host: '79.218.149.241', flag: 🇩🇪, country: Germany, asn: AS3320, org: Deutsche Telekom AG}
 mx:
 - {host: pmg.home-hosting.de, flag: 🇩🇪, country: Germany, asn: AS24961, org: WIIT AG}
+- {host: mx.quick-space.de, flag: 🇩🇪, country: Germany, asn: AS213251, org: Metaliance Datacenter GRA}
 created: '2022-01-25'
 expires: '2027-01-25'
 owner: 🇩🇪 Individual operator
@@ -23,11 +24,13 @@ price:
 - free
 note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Website unreachable (timeout: timed out). Reachable from 2 of 5 check-host.net locations (Kazakhstan, Poland): the site blocks some networks. Domain registration dates from 2022-01-25, but the Wayback Machine has captures since 2011-01-06: the domain was registered before, possibly by someone else. Website text taken from the Wayback Machine copy of 2026-07-17 (https://web.archive.org/web/20260717063221/https://mailjunky.net/). Wayback Machine captures: 2011-01-06 to 2026-07-17. IMAP (port 993) does not answer on imap.mailjunky.net, mail.mailjunky.net, pmg.home-hosting.de, nor from 5 check-host.net locations. Mail DNS: SPF, DMARC p=reject, MTA-STS.'
 security:
-  spf: no all
+  spf: -all
   dmarc: reject
   mta_sts: broken
   tls_rpt: 'yes'
   dnssec: 'no'
   dane: 'no'
+servers:
+- {kind: IMAP, host: 'mx.quick-space.de:993', note: SSL/TLS}
 online_since: '2011-01-06'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

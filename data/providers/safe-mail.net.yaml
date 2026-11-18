@@ -28,6 +28,12 @@ description: |-
   Safe-mail is much more than a secure e-mail system, offering
   start your own Message Board, an individual authentication
   facility and live chat in real time.
+tos_summary: |-
+  Any legal use; no threats, spam, chain letters, pyramid schemes, bulk mail or disguised origin; Safe-mail may access an account and its contents for legal, enforcement, service or technical reasons; sender IP address is transmitted with each message; as is, no liability; access can end at any time without notice; law and courts of Israel
+  http://www.safe-mail.net/agreement.html
+privacy_summary: |-
+  No cookies, no data collected about users, nothing sold or exchanged with other companies (claimed; page dated 2008)
+  http://www.safe-mail.net/docs/InternetPrivacy.html
 price:
 - free
 - $25/year
@@ -40,4 +46,4 @@ links:
 servers:
 - {kind: IMAP, host: 'imap.safe-mail.net:993', note: SSL/TLS}
 online_since: '1999-10-12'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

@@ -14,6 +14,9 @@ alliance: 14
 jurisdiction:
 - Sweden
 description: Inleed Mail
+tos_summary: |-
+  Archived copy of the Inleed hosting contract (2024): access can be closed if the invoice is unpaid; cancellation by email from the account owner's address, confirmed by reply; daily backups for web hosting without liability if they fail; no liability for direct or indirect damage
+  https://web.archive.org/web/20241222124331/https://inleed.se/avtal
 price:
 - free
 note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
@@ -31,4 +34,4 @@ servers:
 - {kind: IMAP, host: 'mail.inleed.xyz:993', note: SSL/TLS}
 - {kind: IMAP software, host: Dovecot}
 online_since: '2021-07-19'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

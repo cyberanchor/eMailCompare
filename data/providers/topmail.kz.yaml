@@ -33,5 +33,7 @@ security:
   tls_rpt: missing
   dnssec: 'no'
   dane: 'no'
+servers:
+- {kind: IMAP, host: 'mail.topmail.kz:993', note: SSL/TLS}
 online_since: '2005-03-26'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

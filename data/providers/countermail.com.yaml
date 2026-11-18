@@ -1,7 +1,7 @@
 # eMailCompare provider record; fields are described in data/README.md
 order: 235
 domain: countermail.com
-status: pending
+status: auto
 flag: 🇸🇪
 a:
 - {host: '104.26.10.73', flag: 🇨🇦, country: Canada, asn: AS13335, org: 'Cloudflare, Inc.'}
@@ -17,14 +17,15 @@ description: |-
   CounterMail - protecting your privacy - encrypted pgp email webmail
   The world's most secure web based email service
 tos_summary: |-
-  Illegal actions (spam, hacking), IP violation, commercial use
+  18+, no illegal use under Swedish law, no spam, phishing, mass or marketing mail, no SEO use, no forged senders; own domains must be yours and not usable for phishing; account can be cancelled at any time without notice on violation; lost password or username means the mail is lost; 14-day refund until the first mail is sent
   https://countermail.com/?p=terms
 privacy_summary: |-
-  No IP logging (claimed), encryption
+  No IP logging, no web server disks and no cookies (claimed); mail body and attachments stored encrypted, but From, To, Subject, Date and folder names are not; private PGP keys stored encrypted and not linked to the account (claimed); full payment details kept 14 days, then only product, amount, method, date and country; data not shared or sold; only Swedish court orders accepted, metadata at most
   https://countermail.com/?p=privacy
 price:
-- free
-note: 'Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Domain registration dates from 2008-05-11, but the Wayback Machine has captures since 2002-09-21: the domain was registered before, possibly by someone else. IMAP server imap.countermail.com:993 answers (Dovecot). Webmail: https://webmail.countermail.com/ (Roundcube). Mail DNS: SPF, DMARC p=quarantine, DANE, DNSSEC. Site mentions: invite-only, accepts cryptocurrency, PGP/E2E encryption.'
+- closed to new users (invitation code only, 10-day trial)
+- 'listed: $29/6 months, $49/12 months, $79/24 months (4 GB)'
+note: 'Auto-collected 2026-11-18 (DNS, RDAP/whois, website, support knowledge base); registration not tested, because it is closed. The site and the registration page say the service is closed for new registrations; signup asks for a 32-character invitation code from an existing premium member (required since 2020-11-01), then a 10-day trial. Swedish service: the site says the company is based in Sweden and follows Swedish law, but publishes no company name or registration number, and none was found, so the owner is left empty. Domain registration dates from 2008-05-11, but the Wayback Machine has captures since 2002-09-21: the domain was registered before, possibly by someone else. OpenPGP with 4096-bit keys, encrypted in the browser; mail body and attachments are stored encrypted, headers (From, To, Subject, Date) and folder names are not. Private keys are stored encrypted on the server, not linked to the account according to the site; a lost password cannot be recovered. Webmail built on Roundcube and OpenPGP.js. Also IMAP, own domains ($15 once), aliases, USB key option, secure forms, XMPP chat, extra storage from $19 for 250 MB. Court orders (support FAQ): only from Swedish police with a prosecutor''s decision, reviewed by the company''s lawyer, metadata at most, and the account may be closed; spam, phishing and ransomware accounts are closed without such a decision. Website behind Cloudflare; webmail, support, IMAP and MX are all on one address, 5.226.34.35 (Adminor, Sweden). Inconsistencies on the site: the services page lists prices, while the changelog of 2025-11-06 says the service has been ''100% free for over 1.5 years''; the home page offers a one-week free trial and signup, while registration is closed and the trial is 10 days by invitation; the terms and services page still list Bitcoin, while the changelog says Bitcoin was disabled for new accounts on 2024-06-19 and all crypto payments would end that year; the privacy policy says no cookies, while the webmail sets a session cookie (roundcube_sessid); the site calls the web servers diskless and separate from the mail servers, which cannot be confirmed from outside, since both answer on the same address. The webmail server reports Apache 2.4.6, PHP 5.4.16 and OpenSSL 1.0.2k, CentOS 7 era versions (backported fixes cannot be seen from outside). IMAP server imap.countermail.com:993 answers (Dovecot); SMTP ports 465 and 587 were not reachable from the test network. Mail DNS: SPF ~all, DMARC p=quarantine, DNSSEC and DANE; no MTA-STS or TLS-RPT.'
 links:
   tos: https://countermail.com/?p=terms
   privacy: https://countermail.com/?p=privacy
@@ -39,4 +40,4 @@ servers:
 - {kind: IMAP, host: 'imap.countermail.com:993', note: SSL/TLS}
 - {kind: IMAP software, host: Dovecot}
 online_since: '2002-09-21'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

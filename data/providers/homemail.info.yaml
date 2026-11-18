@@ -4,8 +4,8 @@ domain: homemail.info
 status: pending
 flag: 🇸🇪
 a:
-- {host: '5.161.47.86', flag: 🇺🇸, country: United States, asn: AS213230, org: Hetzner Online GmbH}
-- {host: '76.223.91.20', flag: 🇺🇸, country: United States, asn: AS16509, org: 'Amazon.com, Inc.'}
+- {host: '195.201.128.179', flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+- {host: '5.78.156.59', flag: 🇺🇸, country: United States, asn: AS212317, org: Hetzner Online GmbH}
 created: '2026-07-08'
 expires: '2027-07-08'
 alliance: 14
@@ -24,4 +24,4 @@ note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not te
 links:
   tos: https://web.archive.org/web/20241204080415/https://homemail.info/terms.html
 online_since: '2013-07-15'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

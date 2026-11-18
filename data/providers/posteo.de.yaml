@@ -99,6 +99,8 @@ price:
 - free
 - '1EUR/month'
 note: 'Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Mail servers belong to Posteo. IMAP server posteo.de:993 answers (Dovecot). Publishes mail client autoconfig. Webmail: https://posteo.de/. Mail DNS: SPF, DMARC p=none, MTA-STS, DANE, DNSSEC. Site mentions: no personal data required, PGP/E2E encryption.'
+links:
+  tos: https://posteo.de/en/site/terms
 security:
   spf: ~all
   dmarc: none
@@ -112,4 +114,4 @@ servers:
 - {kind: SMTP, host: 'posteo.de:465', note: SSL/TLS}
 - {kind: IMAP software, host: Dovecot}
 online_since: '2010-11-12'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

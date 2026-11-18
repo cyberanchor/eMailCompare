@@ -41,4 +41,4 @@ servers:
 - {kind: SMTP, host: 'smtp.dds.nl:587', note: STARTTLS}
 - {kind: SMTP, host: 'smtp.dds.nl:26', note: STARTTLS}
 online_since: '1996-11-02'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

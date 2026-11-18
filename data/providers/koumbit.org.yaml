@@ -16,6 +16,9 @@ jurisdiction:
 description: |-
   Koumbit.org | Pour un internet libre et solidaire
   Fournisseur de service de développement, infrastructure et hébergement web en utilisant les logiciel libres à Montréal, Québec depuis 2004.
+tos_summary: |-
+  No use breaking federal, provincial or other laws, no copyright or trademark infringement, hateful or defamatory content, no spam; Koumbit may stop activity that violates the policy or harms its reputation; cancel at least 30 days before the next billing cycle; hosted data destroyed within 30 days of cancellation; backups kept at least 7 days
+  https://www.koumbit.org/fr/content/termes-et-conditions-dutilisation
 privacy_summary: |-
   Collect IP addresses, cookies, analytics/tracking, third parties, encryption
   https://www.koumbit.org/en/content/privacy-policy
@@ -38,4 +41,4 @@ servers:
 - {kind: POP3, host: 'pop.koumbit.net:995', note: SSL/TLS}
 - {kind: IMAP software, host: Dovecot}
 online_since: '2004-08-25'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

@@ -9,7 +9,7 @@ mx:
 - {host: mail.northmail.ca, flag: 🇨🇦, country: Canada, asn: AS20068, org: Hawk Host Inc.}
 created: '2025-02-07'
 expires: '2035-02-07'
-owner: 🇨🇦 Simon Bissonnette
+owner: 🇨🇦 NorthMail Services Inc.
 alliance: 5
 jurisdiction:
 - Canada
@@ -18,7 +18,7 @@ tos_summary: |-
   Illegal actions (spam, hacking), IP violation, harassment, fraud
   https://northmail.ca/terms
 privacy_summary: |-
-  Collect IP addresses, cookies, advertising, no third-party sharing (claimed)
+  Security logs with IP address; session cookies only; mail content not shared with advertisers or third parties; phone number passed to Twilio for the validation code; with Castor opt-in, relevant mail content goes to the AI provider Cohere
   https://northmail.ca/privacy
 price:
 - free
@@ -36,4 +36,4 @@ security:
 servers:
 - {kind: IMAP, host: 'mail.northmail.ca:993', note: SSL/TLS}
 online_since: '2016-06-19'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

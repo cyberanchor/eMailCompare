@@ -35,4 +35,4 @@ servers:
 - {kind: IMAP, host: 'kralizec.dmz.rs:993', note: SSL/TLS}
 - {kind: SMTP, host: 'kralizec.dmz.rs:587', note: STARTTLS}
 online_since: '2016-01-11'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

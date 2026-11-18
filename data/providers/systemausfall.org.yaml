@@ -15,6 +15,9 @@ alliance: 14
 jurisdiction:
 - Germany
 description: systemausfall.org - autonomes technikkollektiv | systemausfall.org
+tos_summary: |-
+  Data belongs to the user, who must keep own backups; data avoidance, unavoidable logs deleted automatically soon after; disclosures to authorities reported in a transparency report; service can be limited on abuse, sending disabled for mass spam; accounts unused for 18 months may be deleted; no liability
+  https://hilfe.systemausfall.org/konto/nutzungsvereinbarungen/
 privacy_summary: |-
   No third-party sharing (claimed), share upon authorities' request, encryption, GDPR
   https://hilfe.systemausfall.org/konto/datenschutz/
@@ -37,4 +40,4 @@ servers:
 - {kind: POP3, host: 'mail.systemausfall.org:995', note: SSL/TLS}
 - {kind: SMTP, host: 'mail.systemausfall.org:465', note: SSL/TLS}
 online_since: '2004-12-07'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

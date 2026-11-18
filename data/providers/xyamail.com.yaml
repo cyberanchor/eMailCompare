@@ -28,4 +28,4 @@ servers:
 - {kind: IMAP, host: 'mail.xyamail.com:993', note: SSL/TLS}
 - {kind: IMAP software, host: Dovecot}
 online_since: '2022-10-31'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

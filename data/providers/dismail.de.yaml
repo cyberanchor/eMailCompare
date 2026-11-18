@@ -44,4 +44,4 @@ servers:
 - {kind: SMTP, host: 'smtp.dismail.de:465', note: SSL/TLS}
 - {kind: SMTP, host: 'smtp.dismail.de:587', note: STARTTLS}
 online_since: '2017-06-11'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

@@ -39,4 +39,4 @@ servers:
 - {kind: SMTP, host: 'smtp.mailme.dk:587', note: STARTTLS}
 - {kind: POP3, host: 'mailme.dk:995', note: SSL/TLS}
 online_since: '1999-05-08'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

@@ -17,10 +17,10 @@ description: |-
   Confidesk: private email and storage that stays yours
   Email, files, notes, chat and a password vault in one account. Locked on your device before it reaches us, so nobody reads it: not us, not an advertiser, not an AI.
 tos_summary: |-
-  Illegal actions (spam), harassment, fraud
+  18+; no illegal use, fraud, harassment, unlawful content or rights infringement; free accounts may have external mail limited until verified; free account must sign in every 30 days, then a 30-day grace period; never-used accounts removed after about 7 days; 90 days to resolve excess storage after a paid plan ends; immediate termination without refund for illegal use; law and courts of England and Wales
   https://confidesk.com/terms-of-service/
 privacy_summary: |-
-  Data/logs kept 7 days, cookies, advertising, no third-party sharing (claimed), encryption, GDPR, does not sell data (claimed)
+  Servers in Switzerland, operator registered in England and Wales; stored content encrypted; external mail accounts in the desktop app stay in an encrypted local database and are not used for advertising or AI training; no sale of personal data; free accounts removed after 30 days without sign-in plus 30-day grace; deletion within about 14 days, backups kept 7 days, billing records as required; not for under 18; UK/EU GDPR
   https://confidesk.com/privacy-policy/
 price:
 - free
@@ -33,10 +33,10 @@ links:
   privacy: https://confidesk.com/privacy-policy/
 security:
   spf: -all
-  dmarc: none
+  dmarc: quarantine
   mta_sts: missing
   tls_rpt: missing
   dnssec: 'no'
   dane: 'no'
 online_since: '2012-01-27'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

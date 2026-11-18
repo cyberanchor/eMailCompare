@@ -33,6 +33,7 @@ price:
 - '48€/month'
 note: 'Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. IMAP server imap.gmx.net:993 answers. Listed in Thunderbird''s ISPDB. Mail DNS: SPF, DMARC p=quarantine, MTA-STS, DANE, DNSSEC.'
 links:
+  tos: https://agb-server.gmx.net/gmxagb-de
   privacy: https://agb-server.gmx.net/datenschutz
   imprint: https://www.gmx.net/impressum/
 security:
@@ -50,4 +51,4 @@ servers:
 - {kind: SMTP, host: 'mail.gmx.net:465', note: SSL/TLS}
 - {kind: SMTP, host: 'mail.gmx.net:587', note: STARTTLS}
 online_since: '1998-01-26'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

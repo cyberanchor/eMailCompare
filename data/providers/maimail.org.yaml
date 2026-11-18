@@ -4,7 +4,7 @@ domain: maimail.org
 status: auto
 flag: 🇰🇿
 a:
-- {host: '5.35.80.29', flag: 🇰🇿, country: Kazakhstan, asn: AS205516, org: NLS ASTANA LLP}
+- {host: '89.108.70.43', flag: 🇷🇺, country: Russia, asn: AS197695, org: '"Domain names registrar REG.RU", Ltd'}
 mx:
 - {host: mail.maimail.org, flag: 🇰🇿, country: Kazakhstan, asn: AS205516, org: NLS ASTANA LLP}
 created: '2024-07-03'
@@ -25,5 +25,7 @@ security:
 servers:
 - {kind: IMAP, host: 'mail.maimail.org:993', note: SSL/TLS}
 - {kind: IMAP software, host: Dovecot}
+- {kind: SMTP, host: 'mail.maimail.org:465', note: SSL/TLS}
+- {kind: SMTP, host: 'mail.maimail.org:587', note: STARTTLS}
 online_since: '2024-11-28'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

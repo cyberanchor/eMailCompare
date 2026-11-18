@@ -37,4 +37,4 @@ servers:
 - {kind: SMTP, host: 'smtp.immerda.ch:587', note: STARTTLS}
 - {kind: IMAP software, host: Dovecot}
 online_since: '2002-12-15'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

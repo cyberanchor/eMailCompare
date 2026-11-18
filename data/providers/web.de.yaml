@@ -28,6 +28,7 @@ price:
 - '99€/month'
 note: 'Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Homepage contains unrelated spam (casino): the site may be hacked or abandoned. IMAP server imap.web.de:993 answers. Listed in Thunderbird''s ISPDB. Mail DNS: SPF, DMARC p=quarantine, MTA-STS, DANE, DNSSEC.'
 links:
+  tos: https://agb-server.web.de/webdeagb
   privacy: https://agb-server.web.de/datenschutz
   imprint: https://web.de/impressum/
 security:
@@ -45,4 +46,4 @@ servers:
 - {kind: SMTP, host: 'smtp.web.de:465', note: SSL/TLS}
 - {kind: SMTP, host: 'smtp.web.de:587', note: STARTTLS}
 online_since: '1998-12-02'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

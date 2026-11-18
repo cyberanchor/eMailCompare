@@ -25,4 +25,4 @@ security:
 servers:
 - {kind: IMAP, host: 'imap.squat.net:993', note: SSL/TLS}
 online_since: '1998-12-05'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

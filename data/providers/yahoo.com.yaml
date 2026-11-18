@@ -21,8 +21,8 @@ domains:
 - yahoo.se
 - ymail.com
 a:
-- {host: '74.6.231.20', flag: 🇺🇸, country: United States, asn: AS36646, org: Yahoo Holdings Inc.}
-- {host: '74.6.143.25', flag: 🇺🇸, country: United States, asn: AS26101, org: Yahoo Holdings Inc.}
+- {host: '74.6.143.26', flag: 🇺🇸, country: United States, asn: AS26101, org: Yahoo Holdings Inc.}
+- {host: '98.137.11.164', flag: 🇺🇸, country: United States, asn: AS36647, org: Yahoo Holdings Inc.}
 mx:
 - {host: mta5.am0.yahoodns.net, flag: 🇺🇸, country: United States, asn: AS36646, org: Yahoo Holdings Inc.}
 - {host: mta6.am0.yahoodns.net, flag: 🇺🇸, country: United States, asn: AS36646, org: Yahoo Holdings Inc.}
@@ -36,13 +36,16 @@ jurisdiction:
 description: |-
   Yahoo | Mail, Weather, Search, Politics, News, Finance, Sports & Videos
   Latest news coverage, email, free stock quotes, live scores and video are just the beginning. Discover more every day at Yahoo!
+tos_summary: |-
+  Minimum age set per country; features and services can change or stop without notice; account can be suspended or terminated at any time, without notice and for any reason (unless local terms differ); binding arbitration and class action waiver for US users
+  https://legal.yahoo.com/us/en/yahoo/terms/otos/index.html
 privacy_summary: |-
-  Cookies, advertising, no third-party sharing (claimed)
-  https://legal.yahoo.com/us/en/yahoo/privacy/adinfo/index.html
+  Collects account data, content of communications including emails and attachments, IP address, cookies, device and advertising identifiers; activity on and off Yahoo services used for personalised advertising across devices
+  https://legal.yahoo.com/us/en/yahoo/privacy/index.html
 note: 'Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. IMAP server imap.mail.yahoo.com:993 answers. Listed in Thunderbird''s ISPDB. Mail DNS: SPF, DMARC p=reject, MTA-STS.'
 links:
-  tos: https://health.yahoo.com/conditions/
-  privacy: https://legal.yahoo.com/us/en/yahoo/privacy/adinfo/index.html
+  tos: https://legal.yahoo.com/us/en/yahoo/terms/otos/index.html
+  privacy: https://legal.yahoo.com/us/en/yahoo/privacy/index.html
 social:
 - https://x.com/yahoonews
 - https://facebook.com/YahooNews
@@ -62,4 +65,4 @@ servers:
 - {kind: POP3, host: 'pop.mail.yahoo.com:995', note: SSL/TLS}
 - {kind: SMTP, host: 'smtp.mail.yahoo.com:465', note: SSL/TLS}
 online_since: '1996-10-17'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

@@ -40,4 +40,4 @@ servers:
 - {kind: IMAP, host: 'mail.inbox.com:993', note: SSL/TLS}
 - {kind: SMTP, host: 'smtp.inbox.com:465', note: SSL/TLS}
 online_since: '1998-12-03'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

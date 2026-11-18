@@ -21,7 +21,7 @@ tos_summary: |-
   Illegal actions (hacking), IP violation, harassment, commercial use
   https://37signals.com/policies/terms
 privacy_summary: |-
-  Collect IP addresses, cookies, analytics/tracking, advertising, third parties, share upon authorities' request, encryption, GDPR, does not sell data (claimed)
+  Full IP logged at signup and for all account access while the account is active; web analytics tied to signed-in users, CAPTCHA, ad-network cookie on marketing visits where lawful; no sale of personal data; content deleted within 60 days of account deletion; US company and infrastructure, data disclosed under warrant, subpoena or court order, foreign requests only through US treaty procedures
   https://37signals.com/policies/privacy
 price:
 - $99/year
@@ -39,4 +39,4 @@ security:
   dnssec: 'no'
   dane: 'no'
 online_since: '1996-12-20'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

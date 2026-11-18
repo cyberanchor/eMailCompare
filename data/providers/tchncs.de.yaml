@@ -40,4 +40,4 @@ servers:
 - {kind: IMAP, host: 'imap.tchncs.de:993', note: SSL/TLS}
 - {kind: IMAP software, host: Dovecot}
 online_since: '2015-11-01'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

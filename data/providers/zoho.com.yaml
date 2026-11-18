@@ -51,4 +51,4 @@ servers:
 - {kind: SMTP, host: 'smtp.zoho.com:587', note: STARTTLS}
 - {kind: IMAP software, host: Zoho}
 online_since: '2000-04-07'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

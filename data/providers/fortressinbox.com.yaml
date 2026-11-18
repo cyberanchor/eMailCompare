@@ -4,8 +4,8 @@ domain: fortressinbox.com
 status: auto
 flag: 🇺🇸
 a:
-- {host: '92.113.23.240', flag: 🇩🇪, country: Germany, asn: AS47583, org: Hostinger International Limited}
-- {host: '92.113.16.64', flag: 🇩🇪, country: Germany, asn: AS47583, org: Hostinger International Limited}
+- {host: '92.113.16.110', flag: 🇩🇪, country: Germany, asn: AS47583, org: Hostinger International Limited}
+- {host: '92.113.23.54', flag: 🇩🇪, country: Germany, asn: AS47583, org: Hostinger International Limited}
 mx:
 - {host: fortressinbox-com.mail.protection.outlook.com, flag: 🇺🇸, country: United States, asn: AS8075, org: Microsoft Corporation}
 created: '2024-09-19'
@@ -25,4 +25,4 @@ security:
   dnssec: 'no'
   dane: 'no'
 online_since: '2024-09-19'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

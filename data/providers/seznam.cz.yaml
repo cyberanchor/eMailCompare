@@ -45,4 +45,4 @@ servers:
 - {kind: IMAP, host: 'imap.seznam.cz:993', note: SSL/TLS}
 - {kind: SMTP, host: 'smtp.seznam.cz:465', note: SSL/TLS}
 online_since: '1996-11-14'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

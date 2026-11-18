@@ -30,4 +30,4 @@ servers:
 - {kind: IMAP, host: 'imap.coletivos.org:993', note: SSL/TLS}
 - {kind: IMAP software, host: Dovecot}
 online_since: '2018-02-03'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

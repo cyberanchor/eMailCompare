@@ -56,4 +56,4 @@ servers:
 - {kind: SMTP, host: 'mail.cock.li:587', note: STARTTLS}
 - {kind: IMAP software, host: Dovecot}
 online_since: '2013-11-24'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

@@ -39,4 +39,4 @@ servers:
 - {kind: IMAP, host: 'mail.nix.to:993', note: SSL/TLS}
 - {kind: SMTP, host: 'mail.nix.to:587', note: STARTTLS}
 online_since: '2022-03-09'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

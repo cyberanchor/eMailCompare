@@ -46,4 +46,4 @@ servers:
 - {kind: POP3, host: 'mail.inbox.eu:995', note: SSL/TLS}
 - {kind: SMTP, host: 'mail.inbox.eu:587', note: STARTTLS}
 online_since: '2006-12-02'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

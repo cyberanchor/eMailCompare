@@ -19,8 +19,8 @@ jurisdiction:
 description: "Proton Mail: Get a private, secure, and encrypted email account\nProton Mail is the world’s largest secure email service with, \nOver 100 million users.\nAvailable on Web, iOS, Android, and desktop.\nProtected by Swiss privacy law."
 tos_summary: |-
   Illegal actions (CSAM, spam, hacking), IP violation, insults, self-referrals, fraud
-  Collect per Privacy Policy, store without guarantees, delete inactive accounts (12 mos.), share upon authorities' request
-privacy_summary: Collect per Privacy Policy, store without guarantees, delete inactive accounts (12 mos.), share upon authorities' request
+  Collect per Privacy Policy, store without guarantees, delete inactive accounts (24 mos.), share upon authorities' request
+privacy_summary: Collect per Privacy Policy, store without guarantees, delete inactive accounts (24 mos.), share upon authorities' request
 email: 'yes'
 phone: optional
 personal: 'yes'
@@ -55,4 +55,4 @@ servers:
 - {kind: IMAP, host: '127.0.0.1:1143', note: STARTTLS}
 - {kind: SMTP, host: '127.0.0.1:1025', note: STARTTLS}
 online_since: '2014-04-22'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

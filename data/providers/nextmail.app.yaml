@@ -23,4 +23,4 @@ security:
   dnssec: 'no'
   dane: 'no'
 online_since: '2024-01-18'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

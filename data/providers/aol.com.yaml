@@ -22,8 +22,8 @@ domains:
 - netscape.net
 - wmconnect.com
 a:
-- {host: '54.85.212.202', flag: 🇺🇸, country: United States, asn: AS14618, org: 'Amazon.com, Inc.'}
-- {host: '18.235.50.124', flag: 🇺🇸, country: United States, asn: AS14618, org: 'Amazon.com, Inc.'}
+- {host: '34.233.215.56', flag: 🇺🇸, country: United States, asn: AS14618, org: 'Amazon.com, Inc.'}
+- {host: '100.48.185.29', flag: 🇺🇸, country: United States, asn: AS14618, org: 'Amazon.com, Inc.'}
 mx:
 - {host: mx-aol.mail.gm0.yahoodns.net, flag: 🇺🇸, country: United States, asn: AS26101, org: Yahoo Holdings Inc.}
 created: '1995-06-22'
@@ -61,4 +61,4 @@ servers:
 - {kind: POP3, host: 'pop.aol.com:995', note: SSL/TLS}
 - {kind: SMTP, host: 'smtp.aol.com:465', note: SSL/TLS}
 online_since: '1996-12-20'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

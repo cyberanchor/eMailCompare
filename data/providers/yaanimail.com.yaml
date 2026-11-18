@@ -15,6 +15,9 @@ jurisdiction:
 description: |-
   Bireysel E-Posta Hizmeti | YaaniMail
   YaaniMail ile güvenli, reklamsız ve yerli e-posta deneyimi yaşayın. Verileriniz Türkiye’de güvende, gizliliğiniz ön planda. Hemen ücretsiz kaydolun!
+tos_summary: |-
+  Turkish terms: truthful account data, no sharing of accounts or access to other users' accounts; user solely responsible for malware received and for what is posted through the service; deleted mail removed from Trash after 30 days; Turkish law, courts of Istanbul Anadolu
+  https://static.yaanimail.com/terms?lang=tr
 privacy_summary: 'No mail-specific policy: the link opens Turkcell''s general information-security policy (Turkish).'
 note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
 links:
@@ -30,4 +33,4 @@ security:
 servers:
 - {kind: IMAP, host: 'imap.yaanimail.com:993', note: SSL/TLS}
 online_since: '2013-04-01'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

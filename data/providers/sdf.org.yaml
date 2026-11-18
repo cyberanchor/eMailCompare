@@ -14,6 +14,12 @@ alliance: 5
 jurisdiction:
 - United States
 description: SDF Public Access UNIX System - Free Shell Account and Shell Access
+tos_summary: |-
+  No spam, port flooding, unauthorised scanning, encryption cracking, distribution of copyrighted data or unauthorised connections to remote hosts; no guarantee that accounts, mail or files are preserved, regular backups attempted
+  https://sdf.org/?abuse/aup
+privacy_summary: |-
+  Connection times for http, pop3, ssh and ftp logged through syslog, session content not logged or monitored; no content analysis, metrics or demographics collected, shared or sold; other users can see some activity on the multi-user system; works with law enforcement when justification is presented
+  https://sdf.org/?tutorials/privacy_policy
 note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
 links:
   tos: https://sdf.org/?abuse/aup
@@ -29,4 +35,4 @@ servers:
 - {kind: IMAP, host: 'imap.sdf.org:993', note: SSL/TLS}
 - {kind: IMAP software, host: Dovecot}
 online_since: '1998-01-10'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

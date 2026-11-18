@@ -35,4 +35,4 @@ servers:
 - {kind: IMAP, host: 'mail.mailbox.gr:993', note: SSL/TLS}
 - {kind: IMAP software, host: Courier}
 online_since: '1998-12-12'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

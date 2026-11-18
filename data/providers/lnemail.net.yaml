@@ -36,4 +36,4 @@ servers:
 - {kind: IMAP, host: 'imap.lnemail.net:993', note: SSL/TLS}
 - {kind: IMAP software, host: Dovecot}
 online_since: '2025-06-14'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

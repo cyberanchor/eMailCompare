@@ -6,6 +6,7 @@ flag: 🇺🇸
 a:
 - {host: '95.173.206.45', flag: 🇺🇸, country: United States, asn: AS60068, org: Datacamp Limited}
 mx:
+- {host: mx.elektrine.com, flag: 🇲🇩, country: Moldova, asn: AS200019, org: ALEXHOST S.R.L.}
 - {host: mail.elektrine.com, flag: 🇺🇸, country: United States, asn: AS60068, org: Datacamp Limited}
 created: '2018-11-17'
 expires: '2027-11-17'
@@ -43,4 +44,4 @@ servers:
 - {kind: IMAP, host: 'mail.elektrine.com:993', note: SSL/TLS}
 - {kind: SMTP, host: 'mail.elektrine.com:465', note: SSL/TLS}
 online_since: '2025-07-11'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

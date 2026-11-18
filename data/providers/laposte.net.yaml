@@ -31,4 +31,4 @@ servers:
 - {kind: POP3, host: 'pop.laposte.net:995', note: SSL/TLS}
 - {kind: SMTP, host: 'smtp.laposte.net:465', note: SSL/TLS}
 online_since: '2000-06-21'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

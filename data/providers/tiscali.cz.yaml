@@ -19,6 +19,9 @@ jurisdiction:
 description: |-
   Tiscali.cz - Zprávy, Finance, Sport, Magazín
   Zpravodajství z domova a ze světa, počasí, sport a celebrity. Na Tiscali.cz najdete i finance, cestování a hry. Známý a používaný je i e-mail zdarma.
+tos_summary: |-
+  Free service; correct personal data required (gender and date of birth mandatory); no bulk unsolicited mail, illegal or unethical use, account resale or access to other users' accounts; sanctions can apply to such accounts and to accounts not signed in to for over 3 months or unused 14 days after creation
+  https://reg.tiscali.cz/vop-policy
 privacy_summary: |-
   Collect IP addresses, cookies, GDPR
   https://reg.tiscali.cz/privacy-policy
@@ -32,8 +35,8 @@ social:
 - https://www.facebook.com/tiscali.cz
 - https://twitter.com/tiscali_cz
 security:
-  spf: missing
-  dmarc: missing
+  spf: ~all
+  dmarc: none
   mta_sts: missing
   tls_rpt: missing
   dnssec: 'no'
@@ -42,4 +45,4 @@ servers:
 - {kind: POP3, host: 'pop3.mail.tiscali.cz:110', note: plain}
 - {kind: SMTP, host: 'smtp.mail.tiscali.cz:25', note: plain}
 online_since: '2001-05-19'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

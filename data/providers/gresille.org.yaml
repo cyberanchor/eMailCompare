@@ -15,6 +15,9 @@ alliance: 9
 jurisdiction:
 - France
 description: Grésille
+tos_summary: |-
+  Access after meeting the association in person; no backups of user data, users keep their own; under French law (CPCE art. L34-1) data identifying users and the dates, senders and recipients of each message are kept for one year
+  https://www.gresille.org/services/conditions/
 note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
 links:
   tos: https://www.gresille.org/services/conditions/
@@ -33,4 +36,4 @@ servers:
 - {kind: SMTP, host: 'mail.gresille.org:587', note: STARTTLS}
 - {kind: IMAP software, host: Dovecot}
 online_since: '2009-09-12'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

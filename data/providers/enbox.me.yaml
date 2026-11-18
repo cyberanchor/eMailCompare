@@ -4,7 +4,7 @@ domain: enbox.me
 status: auto
 flag: 🇵🇱
 a:
-- {host: '94.130.234.220', flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
+- {host: '46.4.8.186', flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
 mx:
 - {host: smtp.de01.enbox.net, flag: 🇩🇪, country: Germany, asn: AS24940, org: Hetzner Online GmbH}
 created: '2022-03-04'
@@ -40,4 +40,4 @@ servers:
 - {kind: IMAP, host: 'smtp.de01.enbox.net:993', note: SSL/TLS}
 - {kind: IMAP software, host: Dovecot}
 online_since: '2022-05-06'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

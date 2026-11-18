@@ -17,8 +17,8 @@ domains:
 - amorki.pl
 - Opoczta.pl
 a:
-- {host: '52.222.136.90', flag: 🇩🇪, country: Germany, asn: AS16509, org: 'Amazon.com, Inc.'}
-- {host: '52.222.136.50', flag: 🇩🇪, country: Germany, asn: AS16509, org: 'Amazon.com, Inc.'}
+- {host: '52.222.136.2', flag: 🇩🇪, country: Germany, asn: AS16509, org: 'Amazon.com, Inc.'}
+- {host: '52.222.136.107', flag: 🇩🇪, country: Germany, asn: AS16509, org: 'Amazon.com, Inc.'}
 mx:
 - {host: mx.poczta.onet.pl, flag: 🇵🇱, country: Poland, asn: AS12990, org: Ringier Axel Springer Polska Sp. z o.o.}
 created: '1996-06-22'
@@ -53,4 +53,4 @@ servers:
 - {kind: SMTP, host: 'smtp.poczta.onet.pl:465', note: SSL/TLS}
 - {kind: SMTP, host: 'smtp.poczta.onet.pl:587', note: STARTTLS}
 online_since: '1997-02-20'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

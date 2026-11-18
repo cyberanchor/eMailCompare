@@ -44,4 +44,4 @@ servers:
 - {kind: POP3, host: 'mail.riseup.net:995', note: SSL/TLS}
 - {kind: SMTP, host: 'mail.riseup.net:465', note: SSL/TLS}
 online_since: '2000-12-06'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'

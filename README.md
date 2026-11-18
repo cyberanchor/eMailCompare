@@ -240,6 +240,7 @@ Accounts were manually registered on each email service, followed by controlled 
 | 🤖      | slashmail.org          | 🇺🇸   |
 | 🤖      | tinkmail.me            | 🇨🇳   |
 | 🤖      | donarev419.com         | 🇩🇪   |
+| 🤖      | countermail.com        | 🇸🇪   |
 | 🤖      | purelymail.com         | 🇺🇸   |
 | 🤖      | kagimail.com           | 🇺🇸   |
 | 🤖      | mailotte.com           | 🇬🇧   |
@@ -298,7 +299,6 @@ Email services awaiting manual account registration and subsequent testing.
 | ❌      | startmail.com           | 🇳🇱   |
 | ❌      | kolabnow.com            | 🇨🇭   |
 | ❌      | hushmail.com            | 🇨🇦   |
-| ❌      | countermail.com         | 🇸🇪   |
 | ❌      | internxt.com            | 🇪🇸   |
 | ❌      | fastmail.com            | 🇦🇺   |
 | ❌      | gmx.net                 | 🇩🇪   |

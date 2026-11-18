@@ -32,4 +32,4 @@ servers:
 - {kind: IMAP, host: 'mail.egali.top:993', note: SSL/TLS}
 - {kind: IMAP software, host: Dovecot}
 online_since: '2025-07-12'
-last_checked: '2026-10-30'
+last_checked: '2026-11-18'
