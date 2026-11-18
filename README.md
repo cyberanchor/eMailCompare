@@ -243,6 +243,7 @@ Accounts were manually registered on each email service, followed by controlled 
 | 🤖      | purelymail.com         | 🇺🇸   |
 | 🤖      | kagimail.com           | 🇺🇸   |
 | 🤖      | mailotte.com           | 🇬🇧   |
+| 🤖      | viremail.com           | 🇬🇧   |
 
 
 ## Pending email services

@@ -16860,5 +16860,82 @@
     ],
     "status": "auto",
     "tos_summary": "Illegal actions (spam, phishing, malware, harassment, impersonation, unauthorised access, automated signups), 16+, may suspend on suspected abuse pending verification (appeal by email), liability capped at 12 months of fees, pro-rata refund for yearly plans cancelled within 30 days, law of England and Wales\nhttps://mailotte.com/terms-of-service.html"
+  },
+  {
+    "a": [
+      {
+        "asn": "AS13335",
+        "country": "Canada",
+        "flag": "🇨🇦",
+        "host": "104.21.65.154",
+        "org": "Cloudflare, Inc."
+      },
+      {
+        "asn": "AS13335",
+        "country": "Canada",
+        "flag": "🇨🇦",
+        "host": "172.67.146.176",
+        "org": "Cloudflare, Inc."
+      }
+    ],
+    "alliance": 5,
+    "created": "2021-11-01",
+    "description": "Viremail | Private email, chat and calls\nPrivate email, Pinglar chat, video calls, Calendar, team Tasks and Drive with Write, Grid, Deck and Forms in one account. Passkeys and no ads.",
+    "domain": "viremail.com",
+    "expires": "2027-11-01",
+    "flag": "🇬🇧",
+    "jurisdiction": [
+      "United Kingdom"
+    ],
+    "last_checked": "2026-11-18",
+    "links": {
+      "imprint": "https://viremail.com/legal",
+      "privacy": "https://viremail.com/legal/privacy",
+      "tos": "https://viremail.com/legal/terms"
+    },
+    "mx": [
+      {
+        "asn": "AS51167",
+        "country": "United Kingdom",
+        "flag": "🇬🇧",
+        "host": "mail.viremail.com",
+        "org": "Contabo GmbH"
+      }
+    ],
+    "note": "Auto-collected 2026-11-18 (DNS, RDAP/whois, website, Companies House); registration not tested. Mail, Pinglar chat, calls, calendar, tasks, notes, password Vault, Drive and office apps in one account, on @viremail.com. Operated by Svayam Incarnation Limited, England and Wales company 15228262, incorporated 2023-10-23 (Companies House: active; SIC 47910, 62012), registered office 124 City Road, London. The site says Viremail launched in 2026; the domain dates from 2021-11-01 and the Wayback Machine has captures since 2021-12-29. Terms under the law of England and Wales; disclosure needs valid UK legal process, including the Investigatory Powers Act 2016. Signup page asks for a first name, optional last name and then further steps not tested; bot protection at signup; recovery email optional and the only self-service password reset. Personal accounts are free, with no storage figure published; Business (own domain, 30 GB mail per seat) is $12 per person per month or $120 per year, in early access, first mailbox free for 30 days, paid through Stripe. Disposable addresses (up to 25 active), passkeys, 2FA, app passwords for IMAP, SMTP, CalDAV and CardDAV, remote images blocked by default. Optional OpenPGP in the browser, private key encrypted with the password and stored on the server; subject and metadata are not covered, and a password reset loses access to old encrypted mail. Other mail is stored readable by the service; Drive files are encrypted at rest. Vault is end-to-end encrypted. Closed source (own code on open-source libraries), no independent security certification, no paid bug bounty, no transparency report yet. App and database in France, mail in the United Kingdom, on Contabo servers; website behind Cloudflare. Inconsistencies on the site: the privacy policy says no third-party analytics, but pages served to browsers load the Cloudflare Web Analytics beacon; the security page calls chats (once enabled) and calls end-to-end encrypted, while the E2EE policy says chats are not unless stated and describes calls as encrypted in transit; the policies say no separate backups, while the terms and the account deletion text mention backups; business sections are marked as drafts for legal review; security.txt still contains a placeholder comment. IMAP mail.viremail.com:993 and POP3 :995 answer (Dovecot); SMTP ports 465 and 587 were not reachable from the test network. The mail server certificate also covers svayam.in, krodium.com and bigglink.com. Mail DNS: SPF -all, DMARC p=quarantine; no MTA-STS, TLS-RPT, DNSSEC or DANE.",
+    "online_since": "2021-12-29",
+    "order": 256,
+    "owner": "🇬🇧 Svayam Incarnation Limited",
+    "price": [
+      "free",
+      "Business $12/month per user ($10/month yearly, early access)"
+    ],
+    "privacy_summary": "Name, address, password hash, optional recovery email; sign-in logs (time, IP, device) 90 days; mailbox password kept encrypted in the server session while signed in; no ads, no data sale, no third-party analytics (claimed); mail readable by the service unless OpenPGP is used; shares data with Cloudflare, Have I Been Pwned (hash prefix), KLIPY, Anthropic or OpenAI when AI features are used; discloses on valid UK legal process, notifies users unless prohibited; deleted on account closure; UK GDPR, ICO\nhttps://viremail.com/legal/privacy",
+    "security": {
+      "dane": "no",
+      "dmarc": "quarantine",
+      "dnssec": "no",
+      "mta_sts": "missing",
+      "spf": "-all",
+      "tls_rpt": "missing"
+    },
+    "servers": [
+      {
+        "host": "mail.viremail.com:993",
+        "kind": "IMAP",
+        "note": "SSL/TLS"
+      },
+      {
+        "host": "mail.viremail.com:995",
+        "kind": "POP3",
+        "note": "SSL/TLS"
+      },
+      {
+        "host": "Dovecot",
+        "kind": "IMAP software"
+      }
+    ],
+    "status": "auto",
+    "tos_summary": "13+ (under 18 with a parent or guardian), accurate signup data, one person per personal account, no spam, phishing, malware, illegal content (CSAM reported to authorities), harassment, impersonation or bulk signups; may limit sending, suspend or close accounts, with notice where safe and lawful; automated scanning for spam and malware; personal accounts free; law of England and Wales\nhttps://viremail.com/legal/terms"
   }
 ]
