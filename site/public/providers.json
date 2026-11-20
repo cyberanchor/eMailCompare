@@ -17067,5 +17067,93 @@
     ],
     "status": "auto",
     "tos_summary": "13+ (under 18 with a parent or guardian), accurate signup data, one person per personal account, no spam, phishing, malware, illegal content (CSAM reported to authorities), harassment, impersonation or bulk signups; may limit sending, suspend or close accounts, with notice where safe and lawful; automated scanning for spam and malware; personal accounts free; law of England and Wales\nhttps://viremail.com/legal/terms"
+  },
+  {
+    "a": [
+      {
+        "asn": "AS13335",
+        "country": "Canada",
+        "flag": "🇨🇦",
+        "host": "172.67.203.170",
+        "org": "Cloudflare, Inc."
+      },
+      {
+        "asn": "AS13335",
+        "country": "Canada",
+        "flag": "🇨🇦",
+        "host": "104.21.44.201",
+        "org": "Cloudflare, Inc."
+      }
+    ],
+    "alliance": 9,
+    "created": "2026-08-10",
+    "description": "foldoy | Encrypted email. Write freely.\nEncrypted email, subject lines included. Your mail is encrypted with your key, works in Thunderbird, and is free to start.",
+    "domain": "foldoy.com",
+    "domains": [
+      "evil.vg",
+      "veil.no"
+    ],
+    "expires": "2027-08-10",
+    "flag": "🇳🇴",
+    "jurisdiction": [
+      "Norway"
+    ],
+    "last_checked": "2026-11-20",
+    "links": {
+      "code": "https://github.com/FoldoyMail/foldoy-mail",
+      "privacy": "https://foldoy.com/privacy/",
+      "tos": "https://foldoy.com/terms/"
+    },
+    "mx": [
+      {
+        "asn": "AS34989",
+        "country": "Norway",
+        "flag": "🇳🇴",
+        "host": "mx.foldoy.com",
+        "org": "ServeTheWorld AS"
+      }
+    ],
+    "note": "Auto-collected 2026-11-20 (DNS, RDAP/whois, website, GitHub); registration not tested. Listed on Monerica (admitted 2026-11-20: location Norway, founded 2026-08-10, payments direct to wallet). No company, person or address is named on the site, in the terms or in the privacy policy, and the terms name no governing law; Norway comes from the Monerica listing and the mail server in Oslo. Domain registered 2026-08-10; the Wayback Machine captures from 2004-03-25 to 2019-05-26 belong to an earlier site on the domain, and there are none from 2026, so online since is left empty. The site ran a crypto swap service before mail (stopped 2026-11-20); older accounts still log in with an email or a 16-digit account number. Addresses on @foldoy.com and @evil.vg (free) and @veil.no (paid). Sign-up asks only for an address and a password (12+ characters), recovery email optional, proof of work instead of a captcha; no phone number, name or ID. Accounts made over a VPN or Tor are locked until a $10 deposit or manual approval; at most 1 new account a day and 3 in 30 days per connection. Free: 1 GB, 1 receive-only alias, 5 emails a day (20 after 14 days), a one-time $5 sending unlock (50 a day); unused free accounts are deleted after 12 months. foldoy+ $4/month or $48/year: 15 GB, 50 aliases, 200 emails a day, 1 custom domain. Polar $7/month or $84/year: 50 GB, 500 aliases, 5 custom domains, 10 extra addresses. Founding-member prices are kept while the subscription stays active. Plans are paid from a US dollar balance topped up with Monero, Bitcoin or Litecoin ($10 to $2,000) into foldoy's own watch-only wallets; card payments through Link (Stripe) are announced but off. Encryption: OpenPGP.js keys made in the browser; the private key is encrypted with AES-256-GCM under an Argon2id value of the password that never reaches the server. Mail between foldoy users in the webmail and from PGP senders is end-to-end, subject included; other incoming mail arrives readable and is encrypted with the user's key before it is stored, subject included except in three cases listed on the site; mail to other providers leaves readable. From, to, time, size, delivery and spam headers, settings and filter rules stay readable to the server. Optional privacy+ key that foldoy cannot reset; a recovery code keeps old mail, a recovery-email reset makes a new key. IMAP and SMTP for Thunderbird and other apps on the free plan with app passwords (the key is added to the app by the user), Gmail import, an alias key per alias, remote images fetched through the server, an HTML-only mode without JavaScript. Only the webmail client is published (github.com/FoldoyMail/foldoy-mail, AGPL-3.0, repository created 2026-11-20, organisation 2026-11-18); the server code is not. Mail arrives through a server in Oslo (ServeTheWorld AS); the privacy policy says mailboxes are stored on its own server that is not in Norway yet, without naming the country. Website and webmail behind Cloudflare; system mail sent through Resend. IMAP mx.foldoy.com:993 answers (Stalwart); SMTP 465 and 587 are published in autoconfig but were not reachable from the test network. Mail DNS: SPF ~all, DMARC p=quarantine; no MTA-STS, TLS-RPT, DNSSEC or DANE.",
+    "order": 257,
+    "price": [
+      "free",
+      "foldoy+ $4/month or $48/year",
+      "Polar $7/month or $84/year"
+    ],
+    "privacy_summary": "No name, phone number or ID; password never sent (only a hash of a browser-derived value is stored); keys made in the browser; stores recovery email, the country Cloudflare reports at sign-up and per session, sessions without IP; IP kept only as keyed hashes in attempt counters (26 hours) and the sign-up counter (30 days), plus the VPN/Tor check result; mail logs (time, sender, recipient, size, delivering server) and mail-app IPs 7 days; hourly encrypted backups kept 30 days; from, to, time and size always readable; no analytics, ads or data sale (claimed); shares with Cloudflare, Resend (system mail) and block explorers; discloses when the law requires, encrypted mail stays encrypted; balance records kept after deletion\nhttps://foldoy.com/privacy/",
+    "security": {
+      "dane": "no",
+      "dmarc": "quarantine",
+      "dnssec": "no",
+      "mta_sts": "missing",
+      "spf": "~all",
+      "tls_rpt": "missing"
+    },
+    "servers": [
+      {
+        "host": "mx.foldoy.com:993",
+        "kind": "IMAP",
+        "note": "SSL/TLS"
+      },
+      {
+        "host": "mx.foldoy.com:465",
+        "kind": "SMTP",
+        "note": "SSL/TLS"
+      },
+      {
+        "host": "mx.foldoy.com:587",
+        "kind": "SMTP",
+        "note": "STARTTLS"
+      },
+      {
+        "host": "Stalwart",
+        "kind": "IMAP software"
+      }
+    ],
+    "social": [
+      "https://github.com/FoldoyMail"
+    ],
+    "status": "auto",
+    "tos_summary": "18+; no phone number, name or ID; one person per account; sign-ups, deposits and purchases refused from Cuba, Iran, North Korea, Syria and for sanctioned persons; accounts made over a VPN or Tor locked until a $10 deposit or manual approval; no spam, bulk accounts or aliases, phishing, malware, fraud, money laundering, CSAM, harassment or infringing content; free accounts unused for 12 months deleted with their mail; balance credit only spendable on foldoy, no withdrawals, no refund for ending early; may suspend before contacting you and lock accounts under review; no company or governing law named\nhttps://foldoy.com/terms/"
   }
 ]

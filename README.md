@@ -245,6 +245,7 @@ Accounts were manually registered on each email service, followed by controlled 
 | 🤖      | kagimail.com           | 🇺🇸   |
 | 🤖      | mailotte.com           | 🇬🇧   |
 | 🤖      | viremail.com           | 🇬🇧   |
+| 🤖      | foldoy.com             | 🇳🇴   |
 
 
 ## Pending email services
