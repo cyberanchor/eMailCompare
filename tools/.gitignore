@@ -1,0 +1,11 @@
+# Local data of the maintainer: hand decisions, hand-picked URLs, saved pages, old run outputs.
+# Only the tools are published; see README.md for the formats of these files.
+/collector/decisions/
+/collector/sources.json
+/collector/overrides.json
+/collector/manual/
+/collector/out-browser/
+/_archive/
+/favicons.json
+__pycache__/
+*.pyc
