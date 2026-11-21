@@ -1,0 +1,43 @@
+name: tools
+
+on:
+  push:
+    branches: [main]
+    paths: ["tools/**", "data/**", "site/public/**", "README.md", ".github/workflows/tools.yml"]
+  pull_request:
+    paths: ["tools/**", "data/**", "site/public/**", "README.md", ".github/workflows/tools.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  tests:
+    name: tests (Python ${{ matrix.python }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.9", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python -m pip install -r tools/requirements.txt
+      - name: compile
+        run: python -m compileall -q tools
+      - name: unit tests (offline)
+        run: python -W error::ResourceWarning -m unittest discover -s tools/tests -t tools/tests -v
+
+  data:
+    name: data and site checks
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -r tools/requirements.txt
+      - name: data/providers, site/public and README tables agree
+        run: python tools/test_data.py

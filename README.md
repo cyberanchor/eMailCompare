@@ -20,6 +20,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat-square)
 [![YAML](https://img.shields.io/badge/data-YAML-CB171E?logo=yaml&logoColor=white&style=flat-square)](./data/providers/)
 ![JSON](https://img.shields.io/badge/JSON-000000?logo=json&logoColor=white&style=flat-square)
+[![tools](https://img.shields.io/github/actions/workflow/status/cyberanchor/eMailCompare/tools.yml?branch=main&label=tools&logo=python&logoColor=white&style=flat-square)](./tools/)
 [![Donate: XMR](https://img.shields.io/badge/donate-XMR-FF6600?logo=monero&logoColor=white&style=flat-square)](#donate)
 
 ![demo](./assets/demo.gif)
@@ -31,6 +32,8 @@
 > **Based on:** [email-comparison](https://github.com/Lissy93/email-comparison) by [@Lissy93](https://github.com/Lissy93) | [httpsmail.com](https://www.httpsmail.com/mail/) by [@steley](https://github.com/steley) | [privacyratings.com](https://github.com/privacyratings/privacyratings.com) by [@titanism](https://github.com/titanism) | [Offshore-CAT](https://offshore.cat/?page=email) | [dismail.de](https://dismail.de/serverlist.html) | [link-base.ms](https://link-base.ms/useful) | [kycnot.me](https://kycnot.me/?categories=email&verification=verified&verification=approved&verification=community) | [monerica.com](https://monerica.com/businesses/email-providers-forwarders)
 
 > **Data:** every provider is stored in YAML: [`data/providers/`](./data/providers/) ([fields](./data/README.md)), [providers.csv](https://cyberanchor.github.io/eMailCompare/site/public/providers.csv), [providers.json](https://cyberanchor.github.io/eMailCompare/site/public/providers.json)
+
+> **Tools:** the collector that gathers the data (DNS, RDAP, website, mail server checks, screenshots) and the build checks are in [`tools/`](./tools/) ([how to use](./tools/README.md)), under the [MIT license](./tools/LICENSE)
 
 
 
