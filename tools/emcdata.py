@@ -12,6 +12,7 @@ Shared by the converter, the tests and the collector. The schema is described in
 import glob
 import os
 import re
+import tempfile
 
 import yaml
 
@@ -71,8 +72,21 @@ _Dumper.add_representer(_Flow, lambda d, m: d.represent_mapping("tag:yaml.org,20
 _Dumper.add_representer(dict, lambda d, m: d.represent_mapping("tag:yaml.org,2002:map", m.items()))
 
 
+_UMASK = os.umask(0o022)  # read once at import time, then put back
+os.umask(_UMASK)
+SAFE_NAME = re.compile(r"^[a-z0-9](?:[a-z0-9.-]{0,251}[a-z0-9])?$")
+
+
+def file_name(domain):
+    """<domain>.yaml; refuses names that could leave the data folder or are not plain domain names."""
+    d = (domain or "").lower()
+    if not SAFE_NAME.match(d) or ".." in d:
+        raise ValueError(f"not a usable domain name for a file: {domain!r}")
+    return d + ".yaml"
+
+
 def path(domain):
-    return os.path.join(DIR, domain.lower() + ".yaml")
+    return os.path.join(DIR, file_name(domain))
 
 
 def _known(rec, where, keys, allowed):
@@ -171,8 +185,23 @@ def save(rec, directory=None):
     if loads(text) != want:
         raise ValueError(f"{rec.get('domain')}: the YAML text would not read back to the same record")
     os.makedirs(directory, exist_ok=True)
-    with open(os.path.join(directory, rec["domain"].lower() + ".yaml"), "w", encoding="utf-8", newline="\n") as f:
-        f.write(text)
+    target = os.path.join(directory, file_name(rec["domain"]))
+    fd, tmp = tempfile.mkstemp(dir=directory, prefix=".tmp-", suffix=".yaml")  # atomic: never half a file
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8", newline="\n") as f:
+            f.write(text)
+        try:  # keep the old file's mode; a new file gets what open() would give (mkstemp alone: rw-------)
+            mode = os.stat(target).st_mode & 0o777
+        except OSError:
+            mode = 0o666 & ~_UMASK
+        os.chmod(tmp, mode)
+        os.replace(tmp, target)
+    except BaseException:
+        try:
+            os.unlink(tmp)
+        except OSError:
+            pass
+        raise
 
 
 # ----------------------------------------------------------------------------------------------- CSV row <-> record

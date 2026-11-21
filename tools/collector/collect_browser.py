@@ -1,27 +1,33 @@
 #!/usr/bin/env python3
 """Open every live provider's site in headless Chromium: screenshot, terms/privacy/source-code links, description.
 
-usage: collect_browser.py [OUT_DIR] [domain ...]
+usage: collect_browser.py [-h] [--chrome PATH] [--shots DIR] [--retake] [OUT_DIR] [DOMAIN ...]
 
   OUT_DIR defaults to tools/collector/out-browser. Per domain it writes OUT_DIR/<domain>.json; domains that
-  already have one are skipped (delete the file to redo it). The screenshot goes to
-  site/assets/screenshots/<domain-with-dashes>.webp (1280x800 viewport, WebP).
+  already have one are skipped (delete the file to redo it). Without DOMAIN every live provider in
+  data/providers/ is visited; a DOMAIN does not need to be in the data yet. The screenshot goes to
+  site/assets/screenshots/<domain-with-dashes>.webp (1280x800 viewport, WebP, browser cache off); existing
+  screenshots are kept unless --retake (or EMC_RETAKE=1).
 
-The browser is the distribution's headless Chromium (EPEL package chromium-headless, binary headless_shell,
-or $CHROMIUM). It is driven over the DevTools protocol through --remote-debugging-pipe (no network port),
-so nothing besides Python 3 is needed. The browser keeps its own User-Agent. A site that answers with a bot check is
-recorded as "blocked" and not retried; no screenshot is kept for it.
+The browser is found in this order: --chrome, $CHROMIUM, then chrome-headless-shell / headless_shell (EPEL
+chromium-headless), chromium, chromium-browser, google-chrome-stable, google-chrome on PATH or in the usual
+folders. A full browser is started with --headless=new. It is driven over the DevTools protocol through
+--remote-debugging-pipe (no network port), so nothing besides Python 3 is needed. The browser keeps its own
+User-Agent. A site that answers with a bot check is recorded as "blocked" and not retried; no screenshot is
+kept for it. Exit code 1 when a domain failed with an error.
 
 Terms and privacy links are picked from the rendered page's links with the scorer of collect_web.py; when
 the home page has none, a few common paths (/terms, /privacy, ...) are tried and kept only if the page
 reads like a policy. Source-code links (GitHub, GitLab, Codeberg, sourcehut) count only when the account
 name matches the provider's name; other ones are listed under "code_other" for review.
 """
+import argparse
 import base64
 import json
 import os
 import re
 import select
+import shutil
 import socket
 import subprocess
 import sys
@@ -34,21 +40,25 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(os.path.dirname(HERE))
 sys.path.insert(0, HERE)
 sys.path.insert(0, os.path.dirname(HERE))
-_argv, sys.argv = sys.argv, ["collect_web.py", "-", "-"]
-import collect_web as cw  # noqa: E402  (reads argv at import time)
-sys.argv = _argv
+import build_csv as bc  # noqa: E402
+import collect_web as cw  # noqa: E402
+import common  # noqa: E402
 import emcdata  # noqa: E402
-_argv, sys.argv = sys.argv, ["build_csv.py"] + ["-"] * 6
-import build_csv as bc  # noqa: E402  (reads argv at import time)
-sys.argv = _argv
 
-CHROMIUM = os.environ.get("CHROMIUM", "/usr/lib64/chromium-browser/headless_shell")
+CHROMIUM = ""  # set by main(): the browser binary
+HEADLESS_SHELL = False  # True for chrome-headless-shell / headless_shell, which need no --headless flag
+BROWSER_NAMES = ("chrome-headless-shell", "headless_shell", "chromium", "chromium-browser", "google-chrome-stable",
+                 "google-chrome")
+BROWSER_PATHS = ("/usr/lib64/chromium-browser/headless_shell", "/usr/lib/chromium/headless_shell",
+                 "/usr/lib/chromium-browser/headless_shell", "/opt/google/chrome/chrome",
+                 "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+                 "/Applications/Chromium.app/Contents/MacOS/Chromium")
 SHOTS = os.path.join(ROOT, "site", "assets", "screenshots")
 W, H = 1280, 800
 LOAD_TIMEOUT = 30
 SETTLE = 3.0
 RESTART_EVERY = 25
-RETAKE = os.environ.get("EMC_RETAKE") == "1"  # 1 = replace existing screenshots too
+RETAKE = os.environ.get("EMC_RETAKE") == "1"  # 1 = replace existing screenshots too (also --retake)
 CODE_HOSTS = ("github.com", "gitlab.com", "codeberg.org", "git.sr.ht", "sr.ht", "framagit.org", "0xacab.org")
 CODE_SKIP_OWNERS = {"login", "join", "about", "features", "pricing", "sponsors", "orgs", "topics", "explore",
                     "marketplace", "settings", "site", "contact", "security", "enterprise", "users", "search",
@@ -79,6 +89,24 @@ PAGE_JS = r"""(() => {
 })()"""
 
 
+def find_browser(explicit=""):
+    """(path, is_headless_shell) of the first browser found, or (None, False)."""
+    for cand in (explicit, os.environ.get("CHROMIUM", "")):
+        if cand:
+            path = shutil.which(cand) or (cand if os.access(cand, os.X_OK) else None)
+            if not path:
+                raise SystemExit(f"collect_browser.py: browser not found or not executable: {cand}")
+            return path, "headless" in os.path.basename(path)
+    for name in BROWSER_NAMES:
+        path = shutil.which(name)
+        if path:
+            return path, "headless" in name
+    for path in BROWSER_PATHS:
+        if os.access(path, os.X_OK):
+            return path, "headless" in os.path.basename(path)
+    return None, False
+
+
 class Browser:
     """Headless Chromium driven over --remote-debugging-pipe (fd 3 in, fd 4 out, NUL-separated JSON)."""
 
@@ -93,7 +121,8 @@ class Browser:
             os.dup2(b, 4)
 
         self.proc = subprocess.Popen(
-            [CHROMIUM, "--remote-debugging-pipe", f"--user-data-dir={self.profile}", "--no-sandbox",
+            [CHROMIUM] + ([] if HEADLESS_SHELL else ["--headless=new"]) +
+            ["--remote-debugging-pipe", f"--user-data-dir={self.profile}", "--no-sandbox",
              "--disable-gpu", "--disable-dev-shm-usage", "--hide-scrollbars", "--mute-audio", "--no-first-run",
              "--disable-extensions", "--disable-background-networking", "--renderer-process-limit=1",
              "--disk-cache-size=1", f"--window-size={W},{H}", "about:blank"],
@@ -192,7 +221,7 @@ class Browser:
             self.proc.wait(10)
         except subprocess.TimeoutExpired:
             self.proc.kill()
-        subprocess.run(["rm", "-rf", self.profile])
+        shutil.rmtree(self.profile, ignore_errors=True)
 
 
 def label(domain):
@@ -222,6 +251,8 @@ def code_links(links, domain):
 
 
 def get_text(url):
+    if not cw.ROBOTS.allowed(url):
+        return None, None
     req = urllib.request.Request(url, headers={"User-Agent": PLAIN_UA, "Accept": "text/html,*/*"})
     try:
         with urllib.request.urlopen(req, timeout=20, context=cw.CTX_NOVERIFY) as r:
@@ -338,6 +369,8 @@ def page_text(br, url):
     final, text = get_text(url)
     if text and len(text) > 600 and not cw.CHALLENGE.search(text[:500]):
         return final, text
+    if not cw.ROBOTS.allowed(url):
+        return final, text or ""
     try:
         info = br.open(url)
     except Exception:  # noqa: BLE001
@@ -357,6 +390,10 @@ def operator(home_text, texts):
 def process(br, domain, out_dir):
     rec = {"domain": domain, "when": time.strftime("%Y-%m-%d")}
     info = None
+    if not cw.ROBOTS.allowed(f"https://{domain}/"):
+        rec["state"] = "disallowed"
+        rec["error"] = "disallowed by robots.txt"
+        return rec
     for url in (f"https://{domain}/", f"http://{domain}/"):
         info = br.open(url)
         if "error" not in info:
@@ -386,9 +423,7 @@ def process(br, domain, out_dir):
     shot_path = os.path.join(SHOTS, domain.replace(".", "-") + ".webp")
     if rec["state"] == "ok" and (RETAKE or not os.path.exists(shot_path)):
         img = br.shot()
-        os.makedirs(SHOTS, exist_ok=True)
-        with open(shot_path, "wb") as f:
-            f.write(img)
+        common.write_bytes(shot_path, img)
         rec["screenshot"] = len(img)
     elif os.path.exists(shot_path):
         rec["screenshot"] = "kept"
@@ -457,41 +492,61 @@ def process(br, domain, out_dir):
     return rec
 
 
-def main():
-    out_dir = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "out-browser")
-    only = [d.lower() for d in sys.argv[2:]]
+def main(argv=None):
+    global CHROMIUM, HEADLESS_SHELL, SHOTS, RETAKE
+    ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0],
+                                 formatter_class=argparse.RawDescriptionHelpFormatter, epilog=__doc__)
+    ap.add_argument("out_dir", nargs="?", default=os.path.join(HERE, "out-browser"))
+    ap.add_argument("domains", nargs="*", metavar="DOMAIN")
+    ap.add_argument("--chrome", default="", metavar="PATH", help="browser binary")
+    ap.add_argument("--shots", default=SHOTS, metavar="DIR", help="screenshot folder (default: %(default)s)")
+    ap.add_argument("--retake", action="store_true", help="replace existing screenshots")
+    args = ap.parse_args(argv)
+    try:
+        only = [common.normalize_domain(d) for d in args.domains]
+    except ValueError as e:
+        ap.error(str(e))
+    CHROMIUM, HEADLESS_SHELL = find_browser(args.chrome)
+    if not CHROMIUM:
+        raise SystemExit("collect_browser.py: no Chromium or Chrome found; install one or pass --chrome PATH")
+    SHOTS, RETAKE = args.shots, RETAKE or args.retake
+    out_dir = args.out_dir
     os.makedirs(out_dir, exist_ok=True)
     recs = emcdata.load_all()  # EMC_DATA_DIR picks another folder of records
     dead = {r["domain"].lower() for r in recs if r.get("dead")}
-    domains = [r["domain"].lower() for r in recs]
-    todo = [d for d in domains if d not in dead and (d in only if only else True)
+    domains = only or [r["domain"].lower() for r in recs]
+    todo = [d for d in dict.fromkeys(domains) if d not in dead
             and not os.path.exists(os.path.join(out_dir, d + ".json"))]
-    print(f"{len(todo)} to visit ({len(dead)} struck out skipped)", flush=True)
-    br, done = None, 0
+    print(f"{len(todo)} to visit ({len(dead & set(domains))} struck out skipped); browser {CHROMIUM}", flush=True)
+    br, done, failed = None, 0, 0
     for d in todo:
         if br is None or done % RESTART_EVERY == 0:
             if br:
                 br.close()
-            br = Browser()
+            try:
+                br = Browser()
+            except (OSError, ConnectionError, RuntimeError, socket.timeout) as e:
+                raise SystemExit(f"collect_browser.py: {CHROMIUM} did not start: {type(e).__name__}: {e}")
         t0 = time.time()
         try:
             rec = process(br, d, out_dir)
         except Exception as e:  # noqa: BLE001  restart the browser and move on
             rec = {"domain": d, "state": "error", "error": f"{type(e).__name__}: {e}"}
+            failed += 1
             try:
                 br.close()
             except Exception:  # noqa: BLE001
                 pass
             br = None
         done += 1
-        with open(os.path.join(out_dir, d + ".json"), "w", encoding="utf-8") as f:
-            json.dump(rec, f, ensure_ascii=False, indent=1)
+        common.write_json(os.path.join(out_dir, d + ".json"), rec)
         print(f"[{done}/{len(todo)}] {d}: {rec.get('state')} {time.time() - t0:.0f}s "
               f"tos={'y' if rec.get('tos') else '-'} priv={'y' if rec.get('privacy') else '-'} "
               f"code={rec.get('code', '-')}", flush=True)
     if br:
         br.close()
+    return 1 if failed else 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

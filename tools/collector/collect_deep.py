@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Deeper checks of a provider's mail infrastructure, beyond the A/MX records and the website.
 
-usage: collect_deep.py DOMAINS_TSV DNS_DIR WEB_DIR OUT_DIR
+usage: collect_deep.py [-h] [--no-crtsh] [--no-checkhost] DOMAINS_TSV DNS_DIR WEB_DIR OUT_DIR
 
 Per domain it writes OUT_DIR/<domain>.json (existing files are skipped) with:
   - mail DNS: SRV records (RFC 6186/8314), SPF, DMARC, MTA-STS, TLS-RPT, DANE (TLSA on the MX), DNSSEC (DS), NS
@@ -12,8 +12,10 @@ Per domain it writes OUT_DIR/<domain>.json (existing files are skipped) with:
   - certificate transparency (crt.sh): hostnames ever issued a certificate under the domain
   - Wayback Machine: first and last archived capture of the homepage
   - check-host.net: when the site is unreachable from here, whether it is reachable from other countries
-Ports 25/465 are not probed: many networks block them outbound.
+Ports 25/465 are not probed: many networks block them outbound. WEB_DIR may be a folder that does not exist
+(then the check-host.net website test is skipped). Exit code 1 when a domain failed.
 """
+import argparse
 import concurrent.futures as cf
 import json
 import os
@@ -29,8 +31,12 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-DOMAINS_TSV, DNS_DIR, WEB_DIR, OUT = sys.argv[1:5]
-UA = "eMailCompare-research/1.0 (+https://github.com/cyberanchor/eMailCompare)"
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import common  # noqa: E402
+
+DNS_DIR = WEB_DIR = OUT = ""  # set by main()
+USE_CRTSH = USE_CHECKHOST = True
+UA = common.USER_AGENT
 SUBDOMAINS = ("www", "mail", "webmail", "email", "imap", "smtp", "pop", "mx", "mx1", "autoconfig", "autodiscover",
               "mta-sts", "register", "signup", "account", "accounts", "my", "admin", "status")
 SRV = ("_imaps._tcp", "_imap._tcp", "_submissions._tcp", "_submission._tcp", "_pop3s._tcp", "_jmap._tcp",
@@ -252,9 +258,11 @@ def collect(domain):
     path = os.path.join(OUT, domain + ".json")
     if os.path.exists(path):
         return domain, "cached"
-    dns = json.load(open(os.path.join(DNS_DIR, domain + ".json"), encoding="utf-8"))
-    meta_path = os.path.join(WEB_DIR, domain, "meta.json")
-    web = json.load(open(meta_path, encoding="utf-8")) if os.path.exists(meta_path) else {}
+    dns_path = os.path.join(DNS_DIR, domain + ".json")
+    if not os.path.exists(dns_path):
+        raise FileNotFoundError(f"{dns_path} missing: run collect_dns.py first")
+    dns = common.read_json(dns_path)
+    web = common.read_json(os.path.join(WEB_DIR, domain, "meta.json"))
     base = dns["base"]
     alive = dns.get("status") == "NOERROR"
     rec = {"domain": domain}
@@ -298,38 +306,50 @@ def collect(domain):
                 break
         if dns.get("a"):
             rec["web_tls"] = tls_probe(domain, 443)
-    rec["crtsh"] = crtsh(base)
+    rec["crtsh"] = crtsh(base) if USE_CRTSH else None
     rec["wayback"] = wayback_range(domain)
     live_state = web.get("live_state")
-    if alive and dns.get("a") and live_state in ("unreachable", "http-error", "blocked"):
-        rec["checkhost_http"] = checkhost("http", f"https://{domain}/")
     imap_ok = any(p.get("banner", "").startswith("* OK") for p in rec.get("imap", []))
-    if alive and dns.get("mx") and not imap_ok:
-        target = next((p["host"] for p in rec.get("imap", []) if p.get("host")), dns["mx"][0][1])
-        rec["checkhost_imap"] = checkhost("tcp", f"{target}:993")
-    tmp = path + ".tmp"
-    with open(tmp, "w", encoding="utf-8") as f:
-        json.dump(rec, f, ensure_ascii=False, indent=1)
-    os.replace(tmp, path)
+    if USE_CHECKHOST:
+        if alive and dns.get("a") and live_state in ("unreachable", "http-error", "blocked"):
+            rec["checkhost_http"] = checkhost("http", f"https://{domain}/")
+        if alive and dns.get("mx") and not imap_ok:
+            target = next((p["host"] for p in rec.get("imap", []) if p.get("host")), dns["mx"][0][1])
+            rec["checkhost_imap"] = checkhost("tcp", f"{target}:993")
+    common.write_json(path, rec)
     return domain, "ok" + (" imap" if imap_ok else "") + (" autoconfig" if rec.get("autoconfig") else "")
 
 
-def main():
-    domains = [l.split("\t")[0] for l in open(DOMAINS_TSV, encoding="utf-8") if l.strip()]
+def main(argv=None):
+    global DNS_DIR, WEB_DIR, OUT, USE_CRTSH, USE_CHECKHOST
+    ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0],
+                                 formatter_class=argparse.RawDescriptionHelpFormatter, epilog=__doc__)
+    ap.add_argument("domains_tsv", help='file of "domain<TAB>0|1" lines')
+    ap.add_argument("dns_dir", help="results of collect_dns.py")
+    ap.add_argument("web_dir", help="results of collect_web.py (may be missing)")
+    ap.add_argument("out_dir", help="folder for the results (cache)")
+    ap.add_argument("--no-crtsh", action="store_true", help="skip certificate transparency (crt.sh is slow)")
+    ap.add_argument("--no-checkhost", action="store_true", help="skip the check-host.net tests from abroad")
+    args = ap.parse_args(argv)
+    DNS_DIR, WEB_DIR, OUT = args.dns_dir, args.web_dir, args.out_dir
+    USE_CRTSH, USE_CHECKHOST = not args.no_crtsh, not args.no_checkhost
+    domains = [d for d, _ in common.read_domains_tsv(args.domains_tsv)]
     os.makedirs(OUT, exist_ok=True)
-    done = 0
+    done, failed = 0, 0
     with cf.ThreadPoolExecutor(max_workers=8) as pool:
         futs = {pool.submit(collect, d): d for d in domains}
         for fut in cf.as_completed(futs):
             done += 1
             try:
                 d, st = fut.result()
-            except Exception as e:
+            except Exception as e:  # noqa: BLE001  report and go on with the other domains
                 d, st = futs[fut], f"FAILED {type(e).__name__}: {e}"
+                failed += 1
             if st != "cached":
                 print(f"[{done}/{len(domains)}] {d}: {st}", flush=True)
-    print("done", flush=True)
+    print(f"done ({failed} failed)" if failed else "done", flush=True)
+    return 1 if failed else 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

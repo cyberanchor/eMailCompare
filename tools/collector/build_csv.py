@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
-"""Turn the collected DNS/RDAP/web data into a CSV in the same format as emails.csv.
+"""Turn the collected DNS/RDAP/web data into draft records, a CSV in the old emails.csv layout and a review.
 
-usage: build_csv.py DOMAINS_TSV DNS_DIR WEB_DIR EMAILS_CSV OUT_CSV REVIEW_MD [DEEP_DIR]
+usage: build_csv.py [-h] [--deep DEEP_DIR] [--overrides FILE] DOMAINS_TSV DNS_DIR WEB_DIR OUT_CSV REVIEW_MD
 
-EMAILS_CSV is only read for its header row. DEEP_DIR holds collect_deep.py results (optional).
-Downloaded page text is treated as data only.
+Writes OUT_CSV (rows in the old 28-column layout), REVIEW_MD (every value plus the redirect chains and deep
+checks) and draft records in records/ next to OUT_CSV, for `merge.py add`. DEEP_DIR holds collect_deep.py
+results. Downloaded page text is treated as data only: it is matched with regular expressions, never run.
 """
+import argparse
 import concurrent.futures as cf
 import csv
 import datetime
@@ -17,10 +19,11 @@ import sys
 from collections import OrderedDict
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import common  # noqa: E402
 import emcdata  # noqa: E402
 
-DOMAINS_TSV, DNS_DIR, WEB_DIR, EMAILS_CSV, OUT_CSV, REVIEW_MD = sys.argv[1:7]
-DEEP_DIR = sys.argv[7] if len(sys.argv) > 7 else ""
+DOMAINS_TSV = DNS_DIR = WEB_DIR = OUT_CSV = REVIEW_MD = DEEP_DIR = ""  # set by main()
 # hand-checked corrections, keyed by domain and column ("Note" is appended, other columns are replaced)
 OVERRIDES_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "overrides.json")
 TODAY = datetime.date.today().isoformat()
@@ -528,20 +531,19 @@ def review_details(w, x):
 
 
 # --------------------------------------------------------------------------- main
-def main():
-    domains = []
-    for line in open(DOMAINS_TSV, encoding="utf-8"):
-        d, _, s = line.rstrip("\n").partition("\t")
-        if d:
-            domains.append((d, s == "1"))
-    info = json.load(open(os.path.join(DNS_DIR, "ipinfo.json"), encoding="utf-8"))
-    dns = {d: json.load(open(os.path.join(DNS_DIR, d + ".json"), encoding="utf-8")) for d, _ in domains}
+def build():
+    domains = common.read_domains_tsv(DOMAINS_TSV)
+    info = common.read_json(os.path.join(DNS_DIR, "ipinfo.json"))
+    dns = {}
+    for d, _ in domains:
+        p = os.path.join(DNS_DIR, d + ".json")
+        if not os.path.exists(p):
+            raise SystemExit(f"build_csv.py: {p} missing: run collect_dns.py first")
+        dns[d] = common.read_json(p)
     web, deep = {}, {}
     for d, _ in domains:
-        p = os.path.join(WEB_DIR, d, "meta.json")
-        web[d] = json.load(open(p, encoding="utf-8")) if os.path.exists(p) else {}
-        p = os.path.join(DEEP_DIR, d + ".json") if DEEP_DIR else ""
-        deep[d] = json.load(open(p, encoding="utf-8")) if p and os.path.exists(p) else {}
+        web[d] = common.read_json(os.path.join(WEB_DIR, d, "meta.json"))
+        deep[d] = common.read_json(os.path.join(DEEP_DIR, d + ".json")) if DEEP_DIR else {}
 
     # 2nd-domain candidates: keep only those whose MX points at the same mail infrastructure
     # sources: <option> lists and @domain mentions on the site, the domains in the mail client autoconfig,
@@ -560,19 +562,19 @@ def main():
         cert_cand[d] = [n for n in cert_cand[d] if n not in {registrable_of(h) for _, h in r.get("mx", [])}]
     lookups = sorted({n for v in cand.values() for n in v})
     cache_path = os.path.join(DNS_DIR, "candidate_mx.json")
-    mx_cache = json.load(open(cache_path, encoding="utf-8")) if os.path.exists(cache_path) else {}
+    mx_cache = common.read_json(cache_path)
     todo = [n for n in lookups if n not in mx_cache]
     with cf.ThreadPoolExecutor(max_workers=12) as pool:
         for n, hosts in zip(todo, pool.map(dig_mx, todo)):
             mx_cache[n] = hosts
-    json.dump(mx_cache, open(cache_path, "w", encoding="utf-8"), indent=1)
+    common.write_json(cache_path, mx_cache)
     ip_path = os.path.join(DNS_DIR, "candidate_mx_ips.json")
-    ip_cache = json.load(open(ip_path, encoding="utf-8")) if os.path.exists(ip_path) else {}
+    ip_cache = common.read_json(ip_path)
     todo = sorted({h for hosts in mx_cache.values() for h in hosts[:2]} - set(ip_cache))
     with cf.ThreadPoolExecutor(max_workers=12) as pool:
         for h, ips in zip(todo, pool.map(dig_a, todo)):
             ip_cache[h] = ips
-    json.dump(ip_cache, open(ip_path, "w", encoding="utf-8"), indent=1)
+    common.write_json(ip_path, ip_cache)
 
     def cname(i):
         return "Netherlands" if i.get("country") == "The Netherlands" else i.get("country")
@@ -585,7 +587,7 @@ def main():
         return f"{label} | {flag(i.get('countryCode'))} | {cname(i)} | {asn} | {org or i.get('org') or ''}".rstrip()
 
     header = emcdata.HEADER
-    overrides = json.load(open(OVERRIDES_PATH, encoding="utf-8")) if os.path.exists(OVERRIDES_PATH) else {}
+    overrides = common.read_json(OVERRIDES_PATH)
     rows, review = [], []
     for d, struck in domains:
         r, w = dns[d], web[d]
@@ -694,6 +696,8 @@ def main():
         if r["status"] == "NOERROR":
             if state == "blocked":
                 note.append("Website blocks automated access (bot check).")
+            elif state == "disallowed":
+                note.append("Website disallows crawlers in robots.txt.")
             elif state in ("unreachable", "http-error"):
                 err = next((t.get("error") or f"HTTP {t.get('status')}" for t in w.get("tried", [])
                             if t.get("error") or t.get("status")), "")
@@ -814,7 +818,9 @@ def main():
         row[header[16]] = ""
         row[header[17]] = " ".join(note)
         for col, value in overrides.get(d, {}).items():
-            key = next(h for h in header if h.splitlines()[0].strip() == col)
+            key = next((h for h in header if h.splitlines()[0].strip() == col), None)
+            if key is None:
+                raise SystemExit(f"{OVERRIDES_PATH}: {d}: unknown column {col!r}")
             row[key] = f"{row[key]} {value}".strip() if col == "Note" else value
         rows.append(row)
         review.append((d, row, cand[d]))
@@ -828,25 +834,28 @@ def main():
             return v
         return '"' + v.replace('"', '""') + '"'
 
-    with open(OUT_CSV, "w", encoding="utf-8", newline="") as f:
-        f.write(",".join(q(h) for h in header) + "\n")
-        for row in rows:
-            f.write(",".join(q(v) for v in row.values()) + "\n")
-
-    with open(REVIEW_MD, "w", encoding="utf-8") as f:
-        for d, row, cands in review:
-            f.write(f"## {d}\n")
-            for k, v in row.items():
-                if v:
-                    f.write(f"- **{k.splitlines()[0]}**: {v.replace(chr(10), ' ⏎ ')}\n")
-            if cands:
-                f.write(f"- _2nd-domain candidates_: {', '.join(cands[:30])}\n")
-            for line in review_details(web[d], deep[d]):
-                f.write(f"- _{line[0]}_: {line[1]}\n")
-            f.write("\n")
+    common.write_text(OUT_CSV, "".join(",".join(q(v) for v in line) + "\n"
+                                       for line in [header] + [list(row.values()) for row in rows]))
+    md = []
+    for d, row, cands in review:
+        md.append(f"## {d}\n")
+        for k, v in row.items():
+            if v:
+                md.append(f"- **{k.splitlines()[0]}**: {v.replace(chr(10), ' ⏎ ')}\n")
+        if cands:
+            md.append(f"- _2nd-domain candidates_: {', '.join(cands[:30])}\n")
+        for line in review_details(web[d], deep[d]):
+            md.append(f"- _{line[0]}_: {line[1]}\n")
+        md.append("\n")
+    common.write_text(REVIEW_MD, "".join(md))
     filled = {h.splitlines()[0]: sum(1 for row in rows if row.get(h)) for h in header}
     drafts = os.path.join(os.path.dirname(OUT_CSV), "records")
     os.makedirs(drafts, exist_ok=True)
+    # rows.csv and review.md describe this run only; so do the drafts (merge.py add takes every file there)
+    this_run = {d + ".yaml" for d, _ in domains}
+    for name in os.listdir(drafts):
+        if name.endswith(".yaml") and name not in this_run:
+            os.remove(os.path.join(drafts, name))
     zero_width = "\u200b\u200c\u200d\u2060\ufeff"
     for row in rows:
         cells = [(row.get(h) or "").strip(zero_width + " \n\t") for h in header]
@@ -856,5 +865,24 @@ def main():
     print("filled:", json.dumps(filled, ensure_ascii=False))
 
 
+def main(argv=None):
+    global DOMAINS_TSV, DNS_DIR, WEB_DIR, OUT_CSV, REVIEW_MD, DEEP_DIR, OVERRIDES_PATH
+    ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0],
+                                 formatter_class=argparse.RawDescriptionHelpFormatter, epilog=__doc__)
+    ap.add_argument("domains_tsv")
+    ap.add_argument("dns_dir")
+    ap.add_argument("web_dir")
+    ap.add_argument("out_csv")
+    ap.add_argument("review_md")
+    ap.add_argument("--deep", default="", metavar="DEEP_DIR", help="results of collect_deep.py")
+    ap.add_argument("--overrides", default=OVERRIDES_PATH, metavar="FILE",
+                    help="hand-checked corrections (default: %(default)s)")
+    args = ap.parse_args(argv)
+    DOMAINS_TSV, DNS_DIR, WEB_DIR = args.domains_tsv, args.dns_dir, args.web_dir
+    OUT_CSV, REVIEW_MD, DEEP_DIR, OVERRIDES_PATH = args.out_csv, args.review_md, args.deep, args.overrides
+    build()
+    return 0
+
+
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

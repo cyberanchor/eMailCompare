@@ -1,12 +1,17 @@
 #!/usr/bin/env python3
 """Collect A/MX records, registration dates/registrant info and IP geo/ASN for each domain.
 
-usage: collect_dns.py DOMAINS_TSV PSL_FILE OUT_DIR
+usage: collect_dns.py [-h] DOMAINS_TSV PSL_FILE OUT_DIR
 
 DOMAINS_TSV lines are "domain<TAB>struck". One JSON file per domain is written to OUT_DIR
 (existing files are skipped, so the script can be re-run), then OUT_DIR/ipinfo.json with
 ip-api.com data for every IP seen.
+
+Sources: dig (system resolver), the IANA RDAP bootstrap and the registries' RDAP servers, port-43 whois for
+TLDs without RDAP, ip-api.com (free tier: plain HTTP, 15 batch requests a minute; the script follows its
+rate-limit headers). Exit code 1 when a domain failed or the IP lookup could not finish.
 """
+import argparse
 import concurrent.futures as cf
 import json
 import os
@@ -21,28 +26,38 @@ import urllib.request
 from collections import defaultdict
 from urllib.parse import urlparse
 
-DOMAINS_TSV, PSL_FILE, OUT = sys.argv[1:4]
-os.makedirs(OUT, exist_ok=True)
-UA = "Mozilla/5.0 (compatible; eMailCompare-research/1.0)"
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import common  # noqa: E402
+
+OUT = ""  # set by main()
+UA = common.USER_AGENT
 
 # ---------------------------------------------------------------- public suffix list (ICANN part)
 RULES, EXC, WILD = set(), set(), set()
-in_icann = False
-for line in open(PSL_FILE, encoding="utf-8"):
-    line = line.strip()
-    if "===BEGIN ICANN DOMAINS===" in line:
-        in_icann = True
-    elif "===END ICANN DOMAINS===" in line:
-        break
-    if not in_icann or not line or line.startswith("//"):
-        continue
-    rule = line.split()[0].lower()
-    if rule.startswith("!"):
-        EXC.add(rule[1:])
-    elif rule.startswith("*."):
-        WILD.add(rule[2:])
-    else:
-        RULES.add(rule)
+
+
+def load_psl(path):
+    """Read the ICANN part of the public suffix list into RULES / EXC / WILD."""
+    RULES.clear(), EXC.clear(), WILD.clear()
+    in_icann = False
+    with open(path, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if "===BEGIN ICANN DOMAINS===" in line:
+                in_icann = True
+            elif "===END ICANN DOMAINS===" in line:
+                break
+            if not in_icann or not line or line.startswith("//"):
+                continue
+            rule = line.split()[0].lower()
+            if rule.startswith("!"):
+                EXC.add(rule[1:])
+            elif rule.startswith("*."):
+                WILD.add(rule[2:])
+            else:
+                RULES.add(rule)
+    if not RULES:
+        raise ValueError(f"{path}: no ICANN rules found (not a public suffix list?)")
 
 
 def registrable(name):
@@ -309,52 +324,75 @@ def collect(domain, struck):
     rec["mx"] = [[p, h] for p, h in mx if h not in ("", ".")][:6]
     rec["mx_ips"] = {h: a_records(h)[:2] for _, h in rec["mx"][:4]}
     rec["reg"] = registration(base)
-    tmp = path + ".tmp"
-    with open(tmp, "w", encoding="utf-8") as f:
-        json.dump(rec, f, ensure_ascii=False, indent=1)
-    os.replace(tmp, path)
+    common.write_json(path, rec)
     return domain, "ok"
 
 
+IP_API = "http://ip-api.com/batch?fields=status,message,query,country,countryCode,isp,org,as"
+
+
 def ip_info():
-    """ip-api.com batch lookup for every IP seen; cached in ipinfo.json."""
+    """ip-api.com batch lookup for every IP seen; cached in ipinfo.json. Returns (IPs seen, looked up, failed).
+    A failing batch is retried; what was looked up so far is kept even when the service stays unreachable."""
     path = os.path.join(OUT, "ipinfo.json")
-    cache = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else {}
+    cache = common.read_json(path)
     ips = set()
     for fn in os.listdir(OUT):
-        if fn.endswith(".json") and fn != "ipinfo.json":
-            rec = json.load(open(os.path.join(OUT, fn), encoding="utf-8"))
+        if fn.endswith(".json") and fn not in ("ipinfo.json", "candidate_mx.json", "candidate_mx_ips.json"):
+            rec = common.read_json(os.path.join(OUT, fn))
             ips.update(rec.get("a", []))
             for v in rec.get("mx_ips", {}).values():
                 ips.update(v)
     todo = sorted(ip for ip in ips if ip not in cache or cache[ip].get("status") != "success")
+    failed = 0
     for i in range(0, len(todo), 100):
         chunk = todo[i:i + 100]
-        req = urllib.request.Request(
-            "http://ip-api.com/batch?fields=status,message,query,country,countryCode,isp,org,as",
-            data=json.dumps(chunk).encode(), headers={"User-Agent": UA, "Content-Type": "application/json"})
-        with urllib.request.urlopen(req, timeout=60) as r:
-            for row in json.loads(r.read().decode()):
+        for attempt in range(3):
+            req = urllib.request.Request(IP_API, data=json.dumps(chunk).encode(),
+                                         headers={"User-Agent": UA, "Content-Type": "application/json"})
+            try:
+                with urllib.request.urlopen(req, timeout=60) as r:
+                    rows = json.loads(r.read().decode())
+                    remaining, ttl = r.headers.get("X-Rl"), r.headers.get("X-Ttl")
+            except Exception as e:  # noqa: BLE001  network error, HTTP 429, bad JSON
+                print(f"ip-api.com: {type(e).__name__}: {e} (attempt {attempt + 1}/3)", file=sys.stderr, flush=True)
+                time.sleep(30 * (attempt + 1))
+                continue
+            for row in rows:
                 cache[row["query"]] = row
-            remaining, ttl = r.headers.get("X-Rl"), r.headers.get("X-Ttl")
-        if remaining is not None and int(remaining) < 2:
-            time.sleep(int(ttl or 60) + 1)
+            break
+        else:
+            failed += len(chunk)
+            continue
+        if remaining is not None and remaining.isdigit() and int(remaining) < 2:
+            time.sleep(int(ttl) + 1 if (ttl or "").isdigit() else 61)
         else:
             time.sleep(4.5)
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(cache, f, ensure_ascii=False, indent=1)
-    return len(ips), len(todo)
+    common.write_json(path, cache)
+    return len(ips), len(todo), failed
 
 
-def main():
-    domains = []
-    for line in open(DOMAINS_TSV, encoding="utf-8"):
-        d, _, s = line.rstrip("\n").partition("\t")
-        if d:
-            domains.append((d, s == "1"))
+def http_json_or_exit(url):
+    code, data, err = http_json(url)
+    if data is None:
+        raise SystemExit(f"collect_dns.py: cannot read {url}: {err or f'HTTP {code}'}")
+    return data
+
+
+def main(argv=None):
+    global OUT
+    ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0],
+                                 formatter_class=argparse.RawDescriptionHelpFormatter, epilog=__doc__)
+    ap.add_argument("domains_tsv", help='file of "domain<TAB>0|1" lines (1 = struck out)')
+    ap.add_argument("psl_file", help="public_suffix_list.dat")
+    ap.add_argument("out_dir", help="folder for the results (cache)")
+    args = ap.parse_args(argv)
+    OUT = args.out_dir
+    os.makedirs(OUT, exist_ok=True)
+    load_psl(args.psl_file)
+    domains = common.read_domains_tsv(args.domains_tsv)
     # RDAP bootstrap + whois servers for TLDs without RDAP
-    boot = json.load(urllib.request.urlopen(
-        urllib.request.Request("https://data.iana.org/rdap/dns.json", headers={"User-Agent": UA}), timeout=60))
+    boot = http_json_or_exit("https://data.iana.org/rdap/dns.json")
     for tlds, urls in boot["services"]:
         url = next((u for u in urls if u.startswith("https://")), urls[0])
         for t in tlds:
@@ -369,20 +407,23 @@ def main():
         except Exception:
             WHOIS[t] = None
     print("TLDs without RDAP:", sorted(t for t in WHOIS if t not in RDAP), flush=True)
-    done = 0
+    done, failed = 0, 0
     with cf.ThreadPoolExecutor(max_workers=10) as pool:
-        futs = [pool.submit(collect, d, s) for d, s in domains]
+        futs = {pool.submit(collect, d, s): d for d, s in domains}
         for fut in cf.as_completed(futs):
             try:
                 d, st = fut.result()
-            except Exception as e:
-                d, st = "?", f"FAILED {type(e).__name__}: {e}"
+            except Exception as e:  # noqa: BLE001  report and go on with the other domains
+                d, st = futs[fut], f"FAILED {type(e).__name__}: {e}"
+                failed += 1
             done += 1
             if st != "cached":
                 print(f"[{done}/{len(domains)}] {d}: {st}", flush=True)
-    n_ips, n_new = ip_info()
-    print(f"done: {len(domains)} domains, {n_ips} IPs ({n_new} looked up)", flush=True)
+    n_ips, n_new, n_failed = ip_info()
+    print(f"done: {len(domains)} domains ({failed} failed), {n_ips} IPs ({n_new} looked up, {n_failed} failed)",
+          flush=True)
+    return 1 if failed or n_failed else 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

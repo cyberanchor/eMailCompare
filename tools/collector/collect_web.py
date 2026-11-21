@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Fetch each service's homepage plus its terms / privacy / imprint / pricing / signup / domains pages.
 
-usage: collect_web.py DOMAINS_TSV OUT_DIR
+usage: collect_web.py [-h] [--sources FILE] DOMAINS_TSV OUT_DIR
 
 Per domain it writes OUT_DIR/<domain>/meta.json, <page>.txt (visible text) and <page>.html (raw,
 capped). Domains that already have meta.json are skipped. Downloaded content is only parsed as text.
@@ -15,7 +15,16 @@ How hard it tries:
     category are joined into one text
   - when the site is unreachable, blocked, parked or under maintenance, the newest usable Wayback
     Machine copy is used instead (marked in meta.json as "archive")
+
+How polite it is:
+  - every request sends the User-Agent of common.py (EMC_USER_AGENT overrides it), which names the project
+  - robots.txt of the provider's site is obeyed for every page (RFC 9309 reading); a homepage that robots.txt
+    disallows is not fetched and the Wayback Machine copy is used instead
+  - a site that answers with a bot check is recorded as "blocked" and not retried in any other way
+  - archive.org requests are spaced out and retried slowly
+Exit code 1 when a domain failed.
 """
+import argparse
 import concurrent.futures as cf
 import gzip
 import json
@@ -32,14 +41,15 @@ import urllib.request
 import zlib
 from html.parser import HTMLParser
 
-DOMAINS_TSV, OUT = sys.argv[1:3]
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import common  # noqa: E402
+
+OUT = ""  # set by main()
 # hand-picked page URLs per domain and category (a string or a list), used before anything found automatically
 SOURCES_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sources.json")
-SOURCES = {k: v for k, v in json.load(open(SOURCES_PATH, encoding="utf-8")).items() if not k.startswith("_")} \
-    if os.path.exists(SOURCES_PATH) else {}
-UA = "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
-# archive.org is asked with an honest, self-describing User-Agent
-PLAIN_UA = "eMailCompare-research/1.0 (+https://github.com/cyberanchor/eMailCompare)"
+SOURCES = {}
+UA = PLAIN_UA = common.USER_AGENT
+ROBOTS = common.Robots()
 MAX_BYTES = 2_000_000
 TIMEOUT = 25
 MAX_HOPS = 10
@@ -488,11 +498,24 @@ def chain_summary(r):
             for h in r.get("chain", [])]
 
 
+def polite_fetch(url, ua=UA, timeout=TIMEOUT):
+    """fetch() for the provider's live site: URLs that robots.txt disallows are not requested."""
+    if not ROBOTS.allowed(url):
+        return {"url": url, "final_url": url, "chain": [{"url": url, "error": "disallowed by robots.txt"}],
+                "error": "disallowed by robots.txt"}
+    return fetch(url, ua=ua, timeout=timeout)
+
+
 def find_home(domain, meta):
     """Try the usual homepage URLs. Returns (response, ua, state)."""
-    best = None
+    best, disallowed = None, False
     for url in (f"https://{domain}/", f"https://www.{domain}/", f"http://{domain}/", f"http://www.{domain}/"):
         if url.startswith(("https://www.", "http://www.")) and not resolves("www." + domain):
+            continue
+        if resolves(urllib.parse.urlparse(url).hostname) and not ROBOTS.allowed(url):
+            meta["tried"].append({"url": url, "state": "disallowed", "error": "disallowed by robots.txt",
+                                  "ua": "plain", "chain": []})
+            disallowed = True
             continue
         r, ua = fetch(url), UA
         state = page_state(r)
@@ -509,7 +532,7 @@ def find_home(domain, meta):
             break  # https and http both time out: the host is down or drops us, more variants won't help
     if best:
         return best[0], best[1], best[2]
-    return None, UA, "unreachable"
+    return None, UA, "disallowed" if disallowed else "unreachable"
 
 
 def sitemap_links(root, get):
@@ -753,31 +776,48 @@ def process(domain):
             arch_ts = meta["archive"]["timestamp"]
             crawl(domain, d_out, meta, home, lambda u: wayback_fetch(arch_ts, u), live=False)
         else:
-            crawl(domain, d_out, meta, home, lambda u: fetch(u, ua=ua), live=True)
-    tmp = meta_path + ".tmp"
-    with open(tmp, "w", encoding="utf-8") as f:
-        json.dump(meta, f, ensure_ascii=False, indent=1)
-    os.replace(tmp, meta_path)
+            crawl(domain, d_out, meta, home, lambda u: polite_fetch(u, ua=ua), live=True)
+    common.write_json(meta_path, meta)
     src = f"archive {meta['archive']['timestamp'][:8]}" if meta.get("archive") else state
     return domain, f"{src} ({len([p for p in meta['pages'].values() if p and p.get('chars')])} pages)"
 
 
-def main():
-    domains = [l.split("\t")[0] for l in open(DOMAINS_TSV, encoding="utf-8") if l.strip()]
+def load_sources(path):
+    """Hand-picked page URLs: {"domain": {"tos": url, "privacy": [url, ...], ...}}; keys starting with _ are
+    comments. A missing file means none."""
+    data = common.read_json(path)
+    if not isinstance(data, dict):
+        raise SystemExit(f"{path}: expected a JSON object")
+    return {k.lower(): v for k, v in data.items() if not k.startswith("_")}
+
+
+def main(argv=None):
+    global OUT, SOURCES
+    ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0],
+                                 formatter_class=argparse.RawDescriptionHelpFormatter, epilog=__doc__)
+    ap.add_argument("domains_tsv", help='file of "domain<TAB>0|1" lines')
+    ap.add_argument("out_dir", help="folder for the results (cache)")
+    ap.add_argument("--sources", default=SOURCES_PATH, help="hand-picked page URLs (default: %(default)s)")
+    args = ap.parse_args(argv)
+    OUT = args.out_dir
+    SOURCES = load_sources(args.sources)
+    domains = [d for d, _ in common.read_domains_tsv(args.domains_tsv)]
     os.makedirs(OUT, exist_ok=True)
-    done = 0
+    done, failed = 0, 0
     with cf.ThreadPoolExecutor(max_workers=16) as pool:
         futs = {pool.submit(process, d): d for d in domains}
         for fut in cf.as_completed(futs):
             done += 1
             try:
                 d, st = fut.result()
-            except Exception as e:
+            except Exception as e:  # noqa: BLE001  report and go on with the other domains
                 d, st = futs[fut], f"FAILED {type(e).__name__}: {e}"
+                failed += 1
             if st != "cached":
                 print(f"[{done}/{len(domains)}] {d}: {st}", flush=True)
-    print("done", flush=True)
+    print(f"done ({failed} failed)" if failed else "done", flush=True)
+    return 1 if failed else 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

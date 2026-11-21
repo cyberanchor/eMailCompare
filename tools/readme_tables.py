@@ -10,8 +10,9 @@ then align the | of every Markdown table in the file.
 Widths are measured as a monospace editor shows them: emoji and wide characters take two columns, combining
 marks and variation selectors none.
 
-usage: python3 tools/readme_tables.py [README]
+usage: python3 tools/readme_tables.py [-h] [README]
 """
+import argparse
 import os
 import re
 import sys
@@ -57,10 +58,14 @@ def rows_for(recs, section):
     return out
 
 
-def main():
-    path = sys.argv[1] if len(sys.argv) > 1 else os.path.join(emcdata.ROOT, "README.md")
+def main(argv=None):
+    ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0],
+                                 formatter_class=argparse.RawDescriptionHelpFormatter, epilog=__doc__)
+    ap.add_argument("readme", nargs="?", default=os.path.join(emcdata.ROOT, "README.md"))
+    path = ap.parse_args(argv).readme
     recs = emcdata.load_all()
-    lines = open(path, encoding="utf-8").read().split("\n")
+    with open(path, encoding="utf-8") as f:
+        lines = f.read().split("\n")
     out, i, done = [], 0, set()
     while i < len(lines):
         line = lines[i]

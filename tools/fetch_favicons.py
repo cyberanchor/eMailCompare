@@ -11,11 +11,13 @@ asks a third party for an icon at view time. Bot checks are respected: a blocked
 
 Stdlib only, plus rsvg-convert for SVG icons when it is installed.
 
-usage: python3 tools/fetch_favicons.py [--force] [DOMAIN...]
+usage: python3 tools/fetch_favicons.py [-h] [--force] [--all] [DOMAIN ...]
+
+Without DOMAIN it does nothing unless --all is given: then every provider without a favicon is fetched.
 """
+import argparse
 import concurrent.futures as cf
 import html.parser
-import json
 import os
 import re
 import shutil
@@ -26,11 +28,15 @@ import tempfile
 import threading
 import time
 
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import emcdata  # noqa: E402
+import urllib.error
 import urllib.parse
 import urllib.request
 import zlib
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "collector"))
+import common  # noqa: E402
+import emcdata  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "site", "assets", "favicons")
@@ -226,7 +232,8 @@ def fetch(domain):
         # Last resort for sites that are gone: the newest archived /favicon.ico (raw bytes via id_).
         with WAYBACK:
             time.sleep(2)
-            s, final, _, data = get(f"https://web.archive.org/web/2026id_/https://{domain}/favicon.ico", timeout=30)
+            s, final, _, data = get(f"https://web.archive.org/web/{time.strftime('%Y')}id_/https://{domain}/favicon.ico",
+                                  timeout=30)
         if s == 200 and data:
             got = usable(data, tmp)
             if got:
@@ -234,17 +241,25 @@ def fetch(domain):
         return domain, None, "; ".join(tried) or f"homepage {status}"
 
 
-def main():
-    args = sys.argv[1:]
-    force = "--force" in args
-    only = {a.lower() for a in args if not a.startswith("--")}
-    domains = [r["domain"].lower() for r in emcdata.load_all()]
-    if only:
-        domains = [d for d in domains if d in only]
+def main(argv=None):
+    ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0],
+                                 formatter_class=argparse.RawDescriptionHelpFormatter, epilog=__doc__)
+    ap.add_argument("domains", nargs="*", metavar="DOMAIN", help="providers to fetch (need not be in the data)")
+    ap.add_argument("--all", action="store_true", help="every provider in data/providers/")
+    ap.add_argument("--force", action="store_true", help="fetch again even when a favicon exists")
+    args = ap.parse_args(argv)
+    if not args.domains and not args.all:
+        ap.error("name the DOMAINs to fetch, or pass --all")
+    try:
+        only = [common.normalize_domain(d) for d in args.domains]
+    except ValueError as e:
+        ap.error(str(e))
+    force = args.force
+    domains = list(dict.fromkeys(only)) or [r["domain"].lower() for r in emcdata.load_all()]
     os.makedirs(OUT, exist_ok=True)
     have = {f.rsplit(".", 1)[0] for f in os.listdir(OUT)}
     todo = [d for d in domains if force or d.replace(".", "-") not in have]
-    report = json.load(open(REPORT)) if os.path.exists(REPORT) else {}
+    report = common.read_json(REPORT)
     with cf.ThreadPoolExecutor(max_workers=16) as ex:
         for i, (domain, got, source) in enumerate(ex.map(fetch, todo), 1):
             slug = domain.replace(".", "-")
@@ -252,14 +267,14 @@ def main():
                 if os.path.exists(os.path.join(OUT, slug + ext)):
                     os.remove(os.path.join(OUT, slug + ext))
             if got:
-                with open(os.path.join(OUT, slug + got[0]), "wb") as f:
-                    f.write(got[1])
+                common.write_bytes(os.path.join(OUT, slug + got[0]), got[1])
             report[domain] = {"source": source, "file": slug + got[0] if got else None}
             print(f"[{i}/{len(todo)}] {domain}: {source if got else 'none'}", flush=True)
-    json.dump(report, open(REPORT, "w"), indent=1, sort_keys=True)
+    common.write_json(REPORT, report, sort_keys=True)
     found = sum(1 for d in domains if report.get(d, {}).get("file"))
     print(f"{found}/{len(domains)} providers have a favicon; report in {REPORT}")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

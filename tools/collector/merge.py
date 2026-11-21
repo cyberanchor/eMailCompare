@@ -14,10 +14,12 @@ usage:
 
 Only providers that have collected data are touched. Every run writes a report next to the input
 (review-<command>.md). Records are written with emcdata.save, so the files keep one format.
+--dry-run writes the report but no record. The hand decisions folder is collector/decisions/ unless
+EMC_DECISIONS_DIR names another one; its files are optional.
 """
+import argparse
 import datetime
 import glob
-import json
 import os
 import re
 import ssl
@@ -26,20 +28,32 @@ import urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(HERE))
+sys.path.insert(0, HERE)
+import common  # noqa: E402
 import emcdata  # noqa: E402
 
 TODAY = datetime.date.today().isoformat()
-UA = "eMailCompare-research/1.0 (+https://github.com/cyberanchor/eMailCompare)"
+UA = common.USER_AGENT
 SOCKET = {"SSL": "SSL/TLS", "STARTTLS": "STARTTLS", "plain": "plain"}
 SRV_KIND = {"_imaps._tcp": ("IMAP", "SSL/TLS"), "_imap._tcp": ("IMAP", "STARTTLS"),
             "_submissions._tcp": ("SMTP", "SSL/TLS"), "_submission._tcp": ("SMTP", "STARTTLS"),
             "_pop3s._tcp": ("POP3", "SSL/TLS"), "_jmap._tcp": ("JMAP", "")}
 LINK_KEYS = ("tos", "privacy", "code")
-DECISIONS = os.path.join(HERE, "decisions")  # hand decisions kept between runs
+DECISIONS = os.environ.get("EMC_DECISIONS_DIR") or os.path.join(HERE, "decisions")  # hand decisions kept between runs
+DRY_RUN = False
 
 
 def load(path):
-    return json.load(open(path, encoding="utf-8")) if os.path.exists(path) else {}
+    return common.read_json(path)
+
+
+def read_words(name):
+    """Whitespace-separated entries of a decisions text file; an empty set when the file is missing."""
+    path = os.path.join(DECISIONS, name)
+    if not os.path.exists(path):
+        return set()
+    with open(path, encoding="utf-8") as f:
+        return set(f.read().split())
 
 
 def clean(t, limit=420):
@@ -141,12 +155,16 @@ class Store:
             r = self.recs[d]
             if not r.get("links"):
                 r.pop("links", None)
-            emcdata.save(r)
-        lines = [f"# {title}", "", f"Run: {TODAY}", f"Files changed: {len(self.changed)}", ""]
+            emcdata.dumps({k: v for k, v in r.items() if not k.startswith("_")})  # unknown fields fail here
+        if not DRY_RUN:
+            for d in sorted(self.changed):
+                emcdata.save(self.recs[d])
+        lines = [f"# {title}", "", f"Run: {TODAY}" + (" (dry run, nothing written)" if DRY_RUN else ""),
+                 f"Files changed: {len(self.changed)}", ""]
         for section, items in self.report.items():
             lines += [f"## {section} ({len(items)})", ""] + [f"- {x}" for x in items] + [""]
-        open(report_path, "w", encoding="utf-8").write("\n".join(lines) + "\n")
-        print(f"{len(self.changed)} files changed; report: {report_path}")
+        common.write_text(report_path, "\n".join(lines) + "\n")
+        print(f"{len(self.changed)} files {'would change' if DRY_RUN else 'changed'}; report: {report_path}")
 
     def selected(self, only):
         return [d for d in self.recs if not only or d in only]
@@ -155,8 +173,12 @@ class Store:
 def cmd_add(work):
     st = Store()
     order = max((r["order"] for r in st.recs.values()), default=0)
-    for path in sorted(glob.glob(os.path.join(work, "records", "*.yaml"))):
-        rec = emcdata.loads(open(path, encoding="utf-8").read())
+    paths = sorted(glob.glob(os.path.join(work, "records", "*.yaml")))
+    if not paths:
+        raise SystemExit(f"merge.py: no draft records in {os.path.join(work, 'records')}; run collect.py first")
+    for path in paths:
+        with open(path, encoding="utf-8") as f:
+            rec = emcdata.loads(f.read())
         d = rec["domain"].lower()
         if d in st.recs:
             st.note("Skipped (already in the data)", d)
@@ -198,8 +220,7 @@ def cmd_refresh(base, only):
     that the collectors keep finding)."""
     st = Store()
     info = load(os.path.join(base, "dns", "ipinfo.json"))
-    read = lambda name: set(open(os.path.join(DECISIONS, name)).read().split()) if os.path.exists(os.path.join(DECISIONS, name)) else set()  # noqa: E731
-    accept, reject = read("social_accept.txt"), read("social_reject.txt")
+    accept, reject = read_words("social_accept.txt"), read_words("social_reject.txt")
     skip = load(os.path.join(DECISIONS, "skip.json"))           # {"domain": ["links.privacy", "description"]}
     owners = load(os.path.join(DECISIONS, "owner_accept.json"))  # {domain: "🇩🇪 Example GmbH"}
     names = {flag(v.get("countryCode")): ("Netherlands" if v.get("country") == "The Netherlands" else v.get("country"))
@@ -289,8 +310,10 @@ def cmd_refresh(base, only):
 
 def cmd_set(path):
     st = Store()
-    dec = json.load(open(path, encoding="utf-8"))
-    for domain, fields in dec.get("set", {}).items():
+    dec = load(path)
+    if not isinstance(dec, dict) or not isinstance(dec.get("set"), dict):
+        raise SystemExit(f'{path}: expected {{"set": {{"<domain>": {{"<field>": value}}}}}}')
+    for domain, fields in dec["set"].items():
         d = domain.lower()
         if d not in st.recs:
             st.note("Unknown domains (skipped)", d)
@@ -306,14 +329,35 @@ def cmd_set(path):
     st.save(os.path.splitext(path)[0] + "-review.md", f"{os.path.basename(path)} → data/providers")
 
 
-def main():
-    args = sys.argv[1:]
-    if not args or args[0] not in ("add", "browser", "refresh", "set") or len(args) < 2:
-        raise SystemExit(__doc__)
-    cmd, target, only = args[0], args[1], {d.lower() for d in args[2:]}
-    {"add": lambda: cmd_add(target), "browser": lambda: cmd_browser(target, only),
-     "refresh": lambda: cmd_refresh(target, only), "set": lambda: cmd_set(target)}[cmd]()
+def main(argv=None):
+    global DRY_RUN
+    ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0],
+                                 formatter_class=argparse.RawDescriptionHelpFormatter, epilog=__doc__)
+    ap.add_argument("--dry-run", action="store_true", help="write the report only, change no record")
+    sub = ap.add_subparsers(dest="cmd", metavar="COMMAND", required=True)
+    sub.add_parser("add", help="add collect.py drafts as pending providers").add_argument("work_dir")
+    for name, what in (("browser", "collect_browser.py results"), ("refresh", "a re-check folder (dns/deep/browser)")):
+        p = sub.add_parser(name, help=f"merge {what}")
+        p.add_argument("dir")
+        p.add_argument("domains", nargs="*", metavar="DOMAIN", help="only these providers")
+    sub.add_parser("set", help="apply hand-checked changes from a JSON file").add_argument("decisions_json")
+    args = ap.parse_args(argv)
+    DRY_RUN = args.dry_run
+    only = set()
+    try:
+        only = {common.normalize_domain(d) for d in getattr(args, "domains", [])}
+    except ValueError as e:
+        ap.error(str(e))
+    if args.cmd == "add":
+        cmd_add(args.work_dir)
+    elif args.cmd == "browser":
+        cmd_browser(args.dir, only)
+    elif args.cmd == "refresh":
+        cmd_refresh(args.dir, only)
+    else:
+        cmd_set(args.decisions_json)
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
