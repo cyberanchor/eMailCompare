@@ -15,16 +15,16 @@ jobs:
   tests:
     name: tests (Python ${{ matrix.python }})
     runs-on: ubuntu-latest
+    # Official Python images instead of actions/setup-python: they keep versions that are past their end of life
+    # (3.9 is what RHEL 9 ships) after the runner's tool cache has dropped them.
+    container: python:${{ matrix.python }}-slim
     strategy:
       fail-fast: false
       matrix:
         python: ["3.9", "3.12", "3.13"]
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: ${{ matrix.python }}
-      - run: python -m pip install -r tools/requirements.txt
+      - uses: actions/checkout@v5
+      - run: python -m pip install --root-user-action=ignore -r tools/requirements.txt
       - name: compile
         run: python -m compileall -q tools
       - name: unit tests (offline)
@@ -33,11 +33,9 @@ jobs:
   data:
     name: data and site checks
     runs-on: ubuntu-latest
+    container: python:3.12-slim
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-      - run: python -m pip install -r tools/requirements.txt
+      - uses: actions/checkout@v5
+      - run: python -m pip install --root-user-action=ignore -r tools/requirements.txt
       - name: data/providers, site/public and README tables agree
         run: python tools/test_data.py
