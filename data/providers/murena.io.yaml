@@ -27,6 +27,7 @@ note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tes
 links:
   tos: https://murena.io/en/termsandconditions
   privacy: https://murena.com/en/privacy-policy/
+  code: https://gitlab.e.foundation/e
 security:
   spf: ~all
   dmarc: reject

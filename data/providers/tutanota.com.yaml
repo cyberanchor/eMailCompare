@@ -35,6 +35,7 @@ note: 'Tutanota is a secure email service with end-to-end encryption, developed 
 links:
   tos: https://tuta.com/terms
   privacy: https://tuta.com/privacy-policy
+  code: https://github.com/tutao/tutanota
   imprint: https://tuta.com/imprint
 social:
 - https://www.reddit.com/r/tutanota

@@ -21,8 +21,10 @@ phone: 'no'
 personal: 'no'
 price:
 - free
+note: 'Source code: the LDAP user management app (luser) and the website are published at gitea.dmz.rs.'
 links:
   privacy: https://wiki.dmz.rs/en/zastojedecentralizacijabitna
+  code: https://gitea.dmz.rs/Decentrala
 onion: http://64l3awuotocv6ynibul6malho6wdorggjrz6fiyuselniifhdv2kv6qd.onion/
 security:
   spf: -all

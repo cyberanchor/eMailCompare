@@ -24,6 +24,7 @@
     ],
     "last_checked": "2026-11-18",
     "links": {
+      "code": "https://github.com/ProtonMail",
       "privacy": "https://proton.me/legal/privacy",
       "tos": "https://proton.me/legal/terms"
     },
@@ -113,6 +114,7 @@
     ],
     "last_checked": "2026-11-18",
     "links": {
+      "code": "https://github.com/Mailfence/mailfence-android",
       "privacy": "https://mailfence.com/en/privacy.jsp",
       "tos": "https://mailfence.com/en/terms.jsp"
     },
@@ -132,7 +134,7 @@
         "org": "Level 3 Parent, LLC"
       }
     ],
-    "note": "Mailfence is a secure email service with end-to-end encryption, developed by the Belgian company ContactOffice Group SA. It is suitable for confidential correspondence, handling sensitive data, and protection against mass surveillance. Features include email encryption, no ads or tracking, and strict privacy under Belgian law. It collects a significant amount of user information; registration requires an existing, verified email address and the use of clean proxies. Hosted in Belgium. Suitable for registering on various services, but note that all subjects and emails are monitored.",
+    "note": "Mailfence is a secure email service with end-to-end encryption, developed by the Belgian company ContactOffice Group SA. It is suitable for confidential correspondence, handling sensitive data, and protection against mass surveillance. Features include email encryption, no ads or tracking, and strict privacy under Belgian law. It collects a significant amount of user information; registration requires an existing, verified email address and the use of clean proxies. Hosted in Belgium. Suitable for registering on various services, but note that all subjects and emails are monitored. Source code: only the Android app is published; the server and the webmail are not open source (Mailfence knowledge base).",
     "online_since": "2010-05-15",
     "order": 2,
     "owner": "🇧🇪 ContactOffice Group",
@@ -184,6 +186,7 @@
     ],
     "last_checked": "2026-11-18",
     "links": {
+      "code": "https://github.com/tutao/tutanota",
       "imprint": "https://tuta.com/imprint",
       "privacy": "https://tuta.com/privacy-policy",
       "tos": "https://tuta.com/terms"
@@ -1935,6 +1938,7 @@
     ],
     "last_checked": "2026-11-18",
     "links": {
+      "code": "https://codeberg.org/monocles/monocles_mail",
       "imprint": "https://monocles.de/impressum/"
     },
     "mx": [
@@ -2125,7 +2129,7 @@
     ],
     "last_checked": "2026-11-18",
     "links": {
-      "code": "https://github.com/cyberfear-com",
+      "code": "https://github.com/Mailum",
       "privacy": "https://mailum.com/privacy",
       "tos": "https://mailum.com/terms"
     },
@@ -2672,6 +2676,7 @@
     ],
     "last_checked": "2026-11-18",
     "links": {
+      "code": "https://gitea.dmz.rs/Decentrala",
       "privacy": "https://wiki.dmz.rs/en/zastojedecentralizacijabitna"
     },
     "mx": [
@@ -2690,6 +2695,7 @@
         "org": "Yettel d.o.o."
       }
     ],
+    "note": "Source code: the LDAP user management app (luser) and the website are published at gitea.dmz.rs.",
     "onion": "http://64l3awuotocv6ynibul6malho6wdorggjrz6fiyuselniifhdv2kv6qd.onion/",
     "online_since": "2016-01-11",
     "order": 38,
@@ -2748,6 +2754,7 @@
     ],
     "last_checked": "2026-11-18",
     "links": {
+      "code": "https://github.com/vaelmail",
       "privacy": "https://vaelmail.com/privacy",
       "tos": "https://vaelmail.com/terms"
     },
@@ -5980,6 +5987,7 @@
     ],
     "last_checked": "2026-11-18",
     "links": {
+      "code": "https://gitlab.e.foundation/e",
       "privacy": "https://murena.com/en/privacy-policy/",
       "tos": "https://murena.io/en/termsandconditions"
     },
@@ -6285,6 +6293,9 @@
       "United States"
     ],
     "last_checked": "2026-11-18",
+    "links": {
+      "code": "https://github.com/chatmail/server"
+    },
     "mx": [
       {
         "asn": "AS47066",
@@ -6294,7 +6305,7 @@
         "org": "Tornado VPS, Inc."
       }
     ],
-    "note": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: accepts cryptocurrency. Tor: lahatlu3bsgliqumyspuhdxd333e755ntghnzfqxbnz46s422s7tdfyd.onion.",
+    "note": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: accepts cryptocurrency. Tor: lahatlu3bsgliqumyspuhdxd333e755ntghnzfqxbnz46s422s7tdfyd.onion. Runs a chatmail relay (github.com/chatmail/server); the site links to its configuration files.",
     "online_since": "2023-12-14",
     "order": 93,
     "security": {
@@ -8531,6 +8542,9 @@
       "Switzerland"
     ],
     "last_checked": "2026-11-18",
+    "links": {
+      "code": "https://code.immerda.ch/immerda"
+    },
     "mx": [
       {
         "asn": "AS210861",
@@ -8561,7 +8575,7 @@
         "org": "Open Networks Association"
       }
     ],
-    "note": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.",
+    "note": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Source code: server configuration (Puppet modules) and the user portal are published at code.immerda.ch.",
     "online_since": "2002-12-15",
     "order": 125,
     "owner": "🇨🇭 Verein Immerda",
@@ -9473,6 +9487,9 @@
       "Spain"
     ],
     "last_checked": "2026-11-18",
+    "links": {
+      "code": "https://git.sindominio.net/estibadores"
+    },
     "mx": [
       {
         "asn": "AS24940",
@@ -9482,7 +9499,7 @@
         "org": "Hetzner Online GmbH"
       }
     ],
-    "note": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.",
+    "note": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Source code: Postfix, Dovecot and WKD setups are published at git.sindominio.net.",
     "onion": "http://vroy4zhheumrt73echal4tujpdfnh3nf76wsnke42tdnewgpuev3dfqd.onion/",
     "online_since": "1999-10-13",
     "order": 138,
@@ -9614,6 +9631,7 @@
     ],
     "last_checked": "2026-11-18",
     "links": {
+      "code": "https://git.systemausfall.org/senselab",
       "imprint": "https://systemausfall.org/impressum.html",
       "privacy": "https://hilfe.systemausfall.org/konto/datenschutz",
       "tos": "https://hilfe.systemausfall.org/konto/nutzungsvereinbarungen/"
@@ -9634,7 +9652,7 @@
         "org": "OVH SAS"
       }
     ],
-    "note": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.",
+    "note": "Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Source code: server configuration (Ansible roles for Postfix, Dovecot and others) is published at git.systemausfall.org.",
     "online_since": "2004-12-07",
     "order": 140,
     "owner": "🇩🇪 Sense.Lab e.V",
@@ -12714,7 +12732,6 @@
     ],
     "last_checked": "2026-11-18",
     "links": {
-      "code": "https://github.com/tinkink-net",
       "privacy": "https://tinkmail.me/docs/privacy-policy",
       "tos": "https://tinkmail.me/docs/service-terms"
     },
@@ -15040,6 +15057,7 @@
     ],
     "last_checked": "2026-11-18",
     "links": {
+      "code": "https://git.kolab.org/",
       "tos": "https://kolabnow.com/tos"
     },
     "mx": [
@@ -15372,6 +15390,7 @@
     ],
     "last_checked": "2026-11-18",
     "links": {
+      "code": "https://github.com/fastmail",
       "privacy": "https://www.fastmail.com/features/privacy/",
       "tos": "https://www.fastmail.com/policies/terms-of-service/"
     },
@@ -15391,7 +15410,7 @@
         "org": "Fastmail Pty Ltd"
       }
     ],
-    "note": "Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Mail servers belong to Fastmail. IMAP server imap.fastmail.com:993 answers. Publishes mail client autoconfig. Mail DNS: SPF, DMARC p=none, MTA-STS.",
+    "note": "Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. Mail servers belong to Fastmail. IMAP server imap.fastmail.com:993 answers. Publishes mail client autoconfig. Mail DNS: SPF, DMARC p=none, MTA-STS. Source code: Fastmail publishes components (Squire editor, Overture, JMAP tools) and works on Cyrus IMAP (github.com/cyrusimap); the webmail itself is not open source.",
     "online_since": "1998-12-12",
     "order": 237,
     "owner": "🇦🇺 Fastmail Pty Ltd",
@@ -16642,7 +16661,7 @@
     ],
     "last_checked": "2026-11-18",
     "links": {
-      "code": "https://github.com/riseupnet/riseup_help",
+      "code": "https://github.com/riseupnet",
       "privacy": "https://riseup.net/en/privacy-policy",
       "tos": "https://riseup.net/en/about-us/policy/tos"
     },
@@ -16655,7 +16674,7 @@
         "org": "Riseup Networks"
       }
     ],
-    "note": "Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. IMAP server mail.riseup.net:993 answers. Publishes mail client autoconfig. Webmail: https://mail.riseup.net/ (Roundcube). Mail DNS: SPF, DMARC p=none, MTA-STS, DANE, DNSSEC. Site mentions: invite-only, accepts cryptocurrency.",
+    "note": "Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. IMAP server mail.riseup.net:993 answers. Publishes mail client autoconfig. Webmail: https://mail.riseup.net/ (Roundcube). Mail DNS: SPF, DMARC p=none, MTA-STS, DANE, DNSSEC. Site mentions: invite-only, accepts cryptocurrency. Source code: GitHub riseupnet holds the help site, a Mailvelope fork and list tools, not the mail server code.",
     "onion": "http://vww6ybal4bd7szmgncyruucpgfkqahzddi37ktceo3ah7ngmcopnpyyd.onion/",
     "online_since": "2000-12-06",
     "order": 251,

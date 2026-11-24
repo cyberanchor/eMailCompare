@@ -15,7 +15,9 @@ jurisdiction:
 description: |-
   Aangat Lahat / Aangat Lahat
   Aangat Lahat in Tagalog can mean different things depending \non the context. It can mean we'll lift each other up as in mutual aid, \nor it can mean to ...
-note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: accepts cryptocurrency. Tor: lahatlu3bsgliqumyspuhdxd333e755ntghnzfqxbnz46s422s7tdfyd.onion.'
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Site mentions: accepts cryptocurrency. Tor: lahatlu3bsgliqumyspuhdxd333e755ntghnzfqxbnz46s422s7tdfyd.onion. Runs a chatmail relay (github.com/chatmail/server); the site links to its configuration files.'
+links:
+  code: https://github.com/chatmail/server
 security:
   spf: -all
   dmarc: none

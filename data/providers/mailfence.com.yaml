@@ -26,10 +26,11 @@ price:
 - free
 - Base $2.75/month
 - Entry $3.85/month
-note: Mailfence is a secure email service with end-to-end encryption, developed by the Belgian company ContactOffice Group SA. It is suitable for confidential correspondence, handling sensitive data, and protection against mass surveillance. Features include email encryption, no ads or tracking, and strict privacy under Belgian law. It collects a significant amount of user information; registration requires an existing, verified email address and the use of clean proxies. Hosted in Belgium. Suitable for registering on various services, but note that all subjects and emails are monitored.
+note: 'Mailfence is a secure email service with end-to-end encryption, developed by the Belgian company ContactOffice Group SA. It is suitable for confidential correspondence, handling sensitive data, and protection against mass surveillance. Features include email encryption, no ads or tracking, and strict privacy under Belgian law. It collects a significant amount of user information; registration requires an existing, verified email address and the use of clean proxies. Hosted in Belgium. Suitable for registering on various services, but note that all subjects and emails are monitored. Source code: only the Android app is published; the server and the webmail are not open source (Mailfence knowledge base).'
 links:
   tos: https://mailfence.com/en/terms.jsp
   privacy: https://mailfence.com/en/privacy.jsp
+  code: https://github.com/Mailfence/mailfence-android
 security:
   spf: -all
   dmarc: reject

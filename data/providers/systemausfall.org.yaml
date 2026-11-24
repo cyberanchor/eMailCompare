@@ -23,10 +23,11 @@ privacy_summary: |-
   https://hilfe.systemausfall.org/konto/datenschutz/
 price:
 - donations
-note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Source code: server configuration (Ansible roles for Postfix, Dovecot and others) is published at git.systemausfall.org.'
 links:
   tos: https://hilfe.systemausfall.org/konto/nutzungsvereinbarungen/
   privacy: https://hilfe.systemausfall.org/konto/datenschutz
+  code: https://git.systemausfall.org/senselab
   imprint: https://systemausfall.org/impressum.html
 security:
   spf: ~all

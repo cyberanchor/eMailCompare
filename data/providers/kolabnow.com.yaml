@@ -21,6 +21,7 @@ description: |-
 note: 'Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. IMAP server imap.kolabnow.com:993 answers (Cyrus). Mail DNS: SPF, DMARC p=quarantine, MTA-STS, DANE, DNSSEC.'
 links:
   tos: https://kolabnow.com/tos
+  code: https://git.kolab.org/
 security:
   spf: -all
   dmarc: quarantine

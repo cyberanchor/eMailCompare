@@ -28,6 +28,7 @@ note: 'Native Monero (XMR) and Bitcoin payments. Scriptless No-JS mirror at nojs
 links:
   tos: https://vaelmail.com/terms
   privacy: https://vaelmail.com/privacy
+  code: https://github.com/vaelmail
 onion: http://5gxnpixptykyv5fchr2qidjbrazjewswx77ddrqowpcmwmmgll57daid.onion/
 online_since: '2026-09-30'
 last_checked: '2026-11-18'

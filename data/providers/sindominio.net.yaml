@@ -14,7 +14,9 @@ alliance: 14
 jurisdiction:
 - Spain
 description: sindominio.net
-note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Source code: Postfix, Dovecot and WKD setups are published at git.sindominio.net.'
+links:
+  code: https://git.sindominio.net/estibadores
 onion: http://vroy4zhheumrt73echal4tujpdfnh3nf76wsnke42tdnewgpuev3dfqd.onion/
 security:
   spf: -all

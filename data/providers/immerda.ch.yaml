@@ -20,7 +20,9 @@ price:
 - '40CHF/year'
 - '25CHF/year'
 - '60CHF/year'
-note: Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested.
+note: 'Auto-collected 2026-10-29 (DNS, RDAP/whois, website); registration not tested. Source code: server configuration (Puppet modules) and the user portal are published at code.immerda.ch.'
+links:
+  code: https://code.immerda.ch/immerda
 security:
   spf: ~all
   dmarc: quarantine

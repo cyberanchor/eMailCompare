@@ -26,11 +26,11 @@ privacy_summary: |-
 price:
 - $15/month
 - $100/year
-note: 'Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. IMAP server mail.riseup.net:993 answers. Publishes mail client autoconfig. Webmail: https://mail.riseup.net/ (Roundcube). Mail DNS: SPF, DMARC p=none, MTA-STS, DANE, DNSSEC. Site mentions: invite-only, accepts cryptocurrency.'
+note: 'Auto-collected 2026-10-30 (DNS, RDAP/whois, website); registration not tested. IMAP server mail.riseup.net:993 answers. Publishes mail client autoconfig. Webmail: https://mail.riseup.net/ (Roundcube). Mail DNS: SPF, DMARC p=none, MTA-STS, DANE, DNSSEC. Site mentions: invite-only, accepts cryptocurrency. Source code: GitHub riseupnet holds the help site, a Mailvelope fork and list tools, not the mail server code.'
 links:
   tos: https://riseup.net/en/about-us/policy/tos
   privacy: https://riseup.net/en/privacy-policy
-  code: https://github.com/riseupnet/riseup_help
+  code: https://github.com/riseupnet
 onion: http://vww6ybal4bd7szmgncyruucpgfkqahzddi37ktceo3ah7ngmcopnpyyd.onion/
 security:
   spf: redirect
