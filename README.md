@@ -339,6 +339,9 @@ Support this project with Monero (XMR):
 <a href="https://github.com/titanism" title="titanism">
   <img src="https://github.com/titanism.png?size=64" width="64" height="64" alt="titanism" />
 </a>
+<a href="https://github.com/deepseek-ai" title="DeepSeek (used in the data collector)">
+  <img src="https://github.com/deepseek-ai.png?size=64" width="64" height="64" alt="DeepSeek" />
+</a>
 
 <!--
 ## Star History
