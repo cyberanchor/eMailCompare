@@ -342,6 +342,9 @@ Support this project with Monero (XMR):
 <a href="https://github.com/deepseek-ai" title="DeepSeek (used in the data collector)">
   <img src="https://github.com/deepseek-ai.png?size=64" width="64" height="64" alt="DeepSeek" />
 </a>
+<a href="https://github.com/claude" title="Claude (Claude Code: data collection, tools, site)">
+  <img src="https://github.com/claude.png?size=64" width="64" height="64" alt="Claude" />
+</a>
 
 <!--
 ## Star History
