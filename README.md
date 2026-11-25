@@ -29,7 +29,7 @@
 
 </div>
 
-> **Based on:** [email-comparison](https://github.com/Lissy93/email-comparison) by [@Lissy93](https://github.com/Lissy93) | [httpsmail.com](https://www.httpsmail.com/mail/) by [@steley](https://github.com/steley) | [privacyratings.com](https://github.com/privacyratings/privacyratings.com) by [@titanism](https://github.com/titanism) | [Offshore-CAT](https://offshore.cat/?page=email) | [dismail.de](https://dismail.de/serverlist.html) | [link-base.ms](https://link-base.ms/useful) | [kycnot.me](https://kycnot.me/?categories=email&verification=verified&verification=approved&verification=community) | [monerica.com](https://monerica.com/businesses/email-providers-forwarders)
+> **Based on:** [email-comparison](https://github.com/Lissy93/email-comparison) by [@Lissy93](https://github.com/Lissy93) | [httpsmail.com](https://www.httpsmail.com/mail/) by [@steley](https://github.com/steley) | [privacyratings.com](https://github.com/privacyratings/privacyratings.com) by [@titanism](https://github.com/titanism) | [Offshore-CAT](https://offshore.cat/?page=email) | [dismail.de](https://dismail.de/serverlist.html) | [link-base.ms](https://link-base.ms/useful) | [kycnot.me](https://kycnot.me/?categories=email&verification=verified&verification=approved&verification=community) | [monerica.com](https://monerica.com/businesses/email-providers-forwarders) | [bitlist.co](https://bitlist.co/email)
 
 > **Data:** every provider is stored in YAML: [`data/providers/`](./data/providers/) ([fields](./data/README.md)), [providers.csv](https://cyberanchor.github.io/eMailCompare/site/public/providers.csv), [providers.json](https://cyberanchor.github.io/eMailCompare/site/public/providers.json)
 
