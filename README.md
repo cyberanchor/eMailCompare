@@ -249,6 +249,7 @@ Accounts were manually registered on each email service, followed by controlled 
 | 🤖      | mailotte.com           | 🇬🇧   |
 | 🤖      | viremail.com           | 🇬🇧   |
 | 🤖      | foldoy.com             | 🇳🇴   |
+| 🤖      | owlmail.cc             | 🇧🇿   |
 
 
 ## Pending email services

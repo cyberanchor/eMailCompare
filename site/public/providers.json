@@ -17174,5 +17174,77 @@
     ],
     "status": "auto",
     "tos_summary": "18+; no phone number, name or ID; one person per account; sign-ups, deposits and purchases refused from Cuba, Iran, North Korea, Syria and for sanctioned persons; accounts made over a VPN or Tor locked until a $10 deposit or manual approval; no spam, bulk accounts or aliases, phishing, malware, fraud, money laundering, CSAM, harassment or infringing content; free accounts unused for 12 months deleted with their mail; balance credit only spendable on foldoy, no withdrawals, no refund for ending early; may suspend before contacting you and lock accounts under review; no company or governing law named\nhttps://foldoy.com/terms/"
+  },
+  {
+    "a": [
+      {
+        "asn": "AS219200",
+        "country": "Belize",
+        "flag": "🇧🇿",
+        "host": "138.226.237.72",
+        "org": "Cryphora Limited"
+      }
+    ],
+    "created": "2026-05-07",
+    "description": "Home — owlmail\nAnonymous email. No JS. No logs.",
+    "domain": "owlmail.cc",
+    "expires": "2027-05-07",
+    "flag": "🇧🇿",
+    "jurisdiction": [
+      "Belize"
+    ],
+    "last_checked": "2026-11-25",
+    "links": {
+      "privacy": "https://owlmail.cc/privacy",
+      "tos": "https://owlmail.cc/terms"
+    },
+    "mx": [
+      {
+        "asn": "AS219200",
+        "country": "Belize",
+        "flag": "🇧🇿",
+        "host": "mail.owlmail.cc",
+        "org": "Cryphora Limited"
+      }
+    ],
+    "note": "Auto-collected 2026-11-25 (DNS, RDAP/whois, website, IMAP and mail DNS checks); registration not tested. Listed on BitList (listing approved 2026-06-16, launch year 2025, Tor yes, no fees) and announced on BitcoinTalk and AltcoinsTalks on 2026-06-16. No company, person, address or governing law is named on the site, in the terms or in the privacy policy; Belize is the country of the server network (Cryphora Limited, AS219200), the only location found. Domain registered 2026-05-07, name servers at Njalla; first Wayback capture 2026-07-12. Free; no paid plans or donations shown. Sign-up asks only for a username on @owlmail.cc (3-32 characters), a password (10+ characters) and a captcha; no phone number, second email or ID. New accounts cannot send over SMTP until a one-time proof-of-work challenge is solved on the unblock page (in the browser or offline with a shell script). Passwords are hashed with Argon2id and mail is stored encrypted at rest (claimed); the site says incoming mail arrives readable and recommends OpenPGP or S/MIME in your own mail client, there is no built-in end-to-end encryption. Public pages work without JavaScript. The warrant canary says it is updated monthly and PGP-signed, but showed no date and no signature on 2026-11-25. Webmail at https://owlmail.cc/webmail/; contact abuse@owlmail.cc and support@owlmail.cc. The site gives owlmail.cc as the host for IMAP 993, SMTP 587 (STARTTLS) and 465 (SSL/TLS) and POP3 995: IMAP answers (Dovecot, valid Let's Encrypt certificate for owlmail.cc and mail.owlmail.cc; imap.owlmail.cc does not match it), POP3 995 refuses connections, SMTP 465 and 587 were not reachable from the test network. Every subdomain resolves to the same server (wildcard DNS). Unknown pages such as /robots.txt answer with a Slim framework error page that shows the full stack trace. The site links the onion nbfbu2caz5hyaizo3utyofqehb4cyufq7vmslmdnwzghzxxh3d7rovyd.onion; BitList and the forum posts still link an older one (r7bugxdsaa6k76yvo4frkfiqwq3f73boft33g4agnxvaewtyck7ophid.onion). No favicon on the site. Mail DNS: SPF -all; no DMARC, MTA-STS, TLS-RPT, DNSSEC or DANE.",
+    "onion": "http://nbfbu2caz5hyaizo3utyofqehb4cyufq7vmslmdnwzghzxxh3d7rovyd.onion/",
+    "online_since": "2026-07-12",
+    "order": 258,
+    "price": [
+      "free"
+    ],
+    "privacy_summary": "Does not collect IP addresses, user agents, referrers or personal information (claimed); stores the address, an Argon2id password hash and messages encrypted at rest; no retention periods, third parties or disclosure rules stated\nhttps://owlmail.cc/privacy",
+    "security": {
+      "dane": "no",
+      "dmarc": "missing",
+      "dnssec": "no",
+      "mta_sts": "missing",
+      "spf": "-all",
+      "tls_rpt": "missing"
+    },
+    "servers": [
+      {
+        "host": "owlmail.cc:993",
+        "kind": "IMAP",
+        "note": "SSL/TLS"
+      },
+      {
+        "host": "owlmail.cc:465",
+        "kind": "SMTP",
+        "note": "SSL/TLS"
+      },
+      {
+        "host": "owlmail.cc:587",
+        "kind": "SMTP",
+        "note": "STARTTLS"
+      },
+      {
+        "host": "Dovecot",
+        "kind": "IMAP software"
+      }
+    ],
+    "status": "auto",
+    "tos_summary": "No spam, malicious content or illegal use; accounts may be suspended for abuse; service provided \"as is\" without warranty; no company, governing law, age limit or deletion rules named\nhttps://owlmail.cc/terms"
   }
 ]
